@@ -1,0 +1,93 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <!--TextBlock
+    Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18"
+    FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="{Binding MissionStartTime.Year}" />-<Run
+            Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
+            Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+    </TextBlock>
+    <!--TextBlock
+    Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)"
+    FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+            Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
+            Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
+            Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="海軍司令部" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="ナルヴィク任務部隊司令官" />
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="情報:" />
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="トロルフィヨルデン作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任務命令" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="#0-144.142.143" />
+
+
+    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform"
+    HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
+      <LineBreak />
+        我々は「トロルフィヨルデン作戦」を開始する準備が整いました。あなたの任務部隊は、トロムソに向かうソ連の上陸部隊を迎撃する絶好の位置にいます。 <LineBreak />
+      <LineBreak />
+        我々の部隊は敵が予想する位置より500マイル先に潜伏しています。これまでのところ策略は成功しており、今こそ本番です。 <LineBreak />
+      <LineBreak />
+        F304ナルヴィクが率いるナルヴィク任務部隊の主要部隊は、ノルウェーの険しい海岸線に隠れています。F304の前方には、快速攻撃艇の2つの打撃群と、過去3日間民間船を影にして発見を避けていた2隻のコッベン級潜水艦があります。
+        <LineBreak />
+      <LineBreak />
+        あなたの手持ちの戦力は技術的に敵より劣っていますので、知恵と地形への精通を活かして敵の上陸部隊に決定的な攻撃を仕掛けてください。 <LineBreak />
+      <LineBreak />
+      <LineBreak />
+        2. (S) 主要目標: <LineBreak />
+      <LineBreak />
+        あなたの位置を通過するソ連の上陸部隊を攻撃してください。地形に対するレーダーシステムの制限を利用して、快速攻撃艇の接近を隠し、コッベンの静粛性を活かして敵を打撃してください！ <LineBreak />
+      <LineBreak />
+      <LineBreak />
+        3. (S) 脅威報告: <LineBreak />
+      <LineBreak />
+        主要な上陸部隊は対潜戦（ASW）および対水上戦（ASuW）の軍艦によって護衛されている可能性が非常に高いと評価されています。自らの存在を明かすタイミングを計り、敵艦を確実に識別し、有利な状況でのみ発砲してください。
+        <LineBreak />
+      <LineBreak />
+        ソ連部隊には固定翼および回転翼の航空戦力から限定的な空中支援が利用可能であると評価されています。 <LineBreak />
+      <LineBreak />
+        天候条件により、敵のゼニス衛星偵察システムの情報は我々の位置および戦力構成について最新ではない可能性が非常に高いと評価されています。 <LineBreak />
+      <LineBreak />
+        現時点でソ連の潜水艦は脅威として予想されていません。 <LineBreak />
+      <LineBreak />
+        上陸部隊は小規模な補給グループに続行されている可能性が非常に高いと評価されています。これらは二次的な目標と見なされます。 <LineBreak />
+      <LineBreak />
+      <LineBreak />
+        4. (S) EMCON - あなたの裁量で、放射の使用を賢明に行ってください。 </TextBlock>
+
+</Grid>
