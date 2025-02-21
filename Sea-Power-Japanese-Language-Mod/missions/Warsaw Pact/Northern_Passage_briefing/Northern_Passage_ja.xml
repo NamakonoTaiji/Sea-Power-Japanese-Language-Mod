@@ -1,0 +1,115 @@
+<Grid
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+      <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+      </Grid.ColumnDefinitions>
+      <!--TextBlock
+      Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18"
+      FontSize="{StaticResource Font.Size.Header}"/-->
+      <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+            FontSize="{StaticResource Font.Size.Header}">
+            <Run Text="{Binding MissionStartTime.Year}" />-<Run
+                  Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
+                  Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+      </TextBlock>
+      <!--TextBlock
+      Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)"
+      FontSize="{StaticResource Font.Size.Header}"/-->
+      <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+            FontSize="{StaticResource Font.Size.Header}">
+            <Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+                  Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
+                  Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
+                  Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+      <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+            Text="差出人:" />
+      <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+            Text="北極海艦隊司令部" />
+      <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+            Text="宛先:" />
+      <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+            Text="K-503艦長" />
+      <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+            Text="情報:" />
+      <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+            Text="作戦『隠れた百合』" />
+      <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+            Text="件名:" />
+      <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+            Text="任務命令" />
+      <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+            Text="#0-144.142.143" />
+
+      <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform"
+      HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+      <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+            TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
+      <LineBreak />
+            <!--
+        最近のイランによるペルシャ湾の商船に対する攻撃を受け、海上貿易を保護するために護送船団を組織することが決定されました。
+      -->
+            以下はセヴェルニーフロートからの『隠れた百合』とコードネームされた命令です。 <LineBreak />
+            あなたの潜水艦K-503（オスカー1級SSGN）とK-244（ヴィクター3級SSN）は、「ヴォルホフ」潜水母艦およびその護衛艦と指定された地点で合流し、洋上補給を実施する予定です。
+            <LineBreak />
+      <LineBreak />
+            その後、指定区域に待機し、敵の護送船団の通過を待機します。我々は、その船団が対潜戦（ASW）保護に欠けており、いくつかの高価値目標（HVT）ユニットで構成されていると考えています。
+            <LineBreak />
+      <LineBreak />
+            およそ20分後にTu-95RTの飛行隊が作戦地域付近を通過し、さらなるデータを収集し、状況を明確にするのを助けます。その情報は可能な限り迅速に安全なリンクを通じて共有されます。 <LineBreak />
+      <LineBreak />
+            会合地点の南には「バロメトル」オケアン級情報収集艦が作戦行動中です。さらに疑念を招かないように、哨戒グループ「カーテン」はさらに東の位置に移動するよう召喚されました。必要であれば、これを有利に活用してください。
+            <LineBreak />
+      <LineBreak />
+            現時点で敵の潜水艦がスヴァールバルのこの側で活動していないことは確実です。 <LineBreak />
+      <LineBreak />
+      <LineBreak /> 2. (S)
+            主要目標: <LineBreak />
+      <LineBreak />
+            <!--
+
+      -->
+            スヴァールバルの北を通過する米海軍の護送船団を攻撃せよ。揚陸艦や艦隊補助艦のような高価値目標（HTV）に努力を集中せよ。 <LineBreak />
+      <LineBreak />
+      <LineBreak />
+            3. (S) 脅威報告: <LineBreak />
+      <LineBreak />
+            <!--
+        情報部は、現時点でイランによって小規模な哨戒艦隊が出動していると信じています。あなたの部隊は容易にこれらを排除できるはずです。
+      -->
+            目標の護送船団が対潜戦（ASW）軍艦によって護衛されている可能性は低いと評価されています。しかし、遭遇するすべての接触を確実に識別する必要があります。 <LineBreak />
+      <LineBreak />
+            敵のAWACSプラットフォームがあなたの位置の南で定期的な飛行を行う可能性が非常に高いと評価されています。我々はそのスケジュールを把握し、常に飛行を追跡しているので、心配する必要はありません。
+            <LineBreak />
+      <LineBreak />
+            NATOの潜水艦はスヴァールバルの北側では脅威とは見なされていません。あなたの作戦地域の南西に1、2隻の潜水艦がいるとの情報があります。 <LineBreak />
+            敵の護送船団が小規模なグループに追随されている可能性が非常に高いと評価されています。これらの艦艇は二次的な目標と見なされます。 <LineBreak />
+      <LineBreak />
+            <!--
+        4.  (S) 警告黄 - 攻撃を受けない限り発砲するな
+      -->
+            <!--
+        5.  (S) EMCON - 指示があるまで無線沈黙を維持せよ
+      -->
+            (S) EMCON - 指示があるまで無線沈黙を維持せよ。エリア内のAGIユニットは独自の裁量で作戦行動中。 <LineBreak />
+      <LineBreak />
+      </TextBlock>
+
+</Grid>

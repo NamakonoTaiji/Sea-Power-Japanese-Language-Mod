@@ -1,0 +1,80 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid.RowDefinitions>
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="10" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="10" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="10" />
+    <RowDefinition Height="Auto" />
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="Auto" />
+    <ColumnDefinition Width="10" />
+    <ColumnDefinition Width="*" />
+    <ColumnDefinition Width="Auto" />
+  </Grid.ColumnDefinitions>
+  <!--TextBlock
+  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18"
+  FontSize="{StaticResource Font.Size.Header}"/-->
+  <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+    FontSize="{StaticResource Font.Size.Header}">
+    <Run Text="{Binding MissionStartTime.Year}" />-<Run
+      Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
+      Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+  </TextBlock>
+  <!--TextBlock
+  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)"
+  FontSize="{StaticResource Font.Size.Header}"/-->
+  <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+    FontSize="{StaticResource Font.Size.Header}">
+    <Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+      Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
+      Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
+      Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+  <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+  <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+    Text="北方艦隊司令官" />
+  <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+  <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+    Text="攻撃部隊司令官" />
+  <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+  <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任務命令" />
+  <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+    Text="#0-144.142.143" />
+
+  <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform"
+  HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+  <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+    TextWrapping="Wrap">
+    <LineBreak />
+      <LineBreak /> 1. (S) 戦術状況: <LineBreak />
+      <LineBreak />
+    我々の地上部隊がナルヴィク港の奪取を試みている間、悪天候のため空軍が敵の補給線を妨害できず、海上封鎖が必要となります。<LineBreak />
+    あなたの海軍部隊は、防衛部隊を支援するために港に向かっている部隊と物資を載せた敵の護送船団を迎撃する必要があります。<LineBreak />
+      <LineBreak />
+      <LineBreak />
+    2. (S) 主要目標: <LineBreak />
+      <LineBreak />ヴェストフィヨルドに入り、護送船団を発見し、補給船が目的地に到達しないようにせよ。<LineBreak />
+    目標を確認し、中立船舶を沈めないよう注意せよ。<LineBreak />
+      <LineBreak />
+      <LineBreak /> 3. (S) 脅威報告: <LineBreak />
+      <LineBreak />
+    ヴェストフィヨルドで敵の水上哨戒が予想されます。<LineBreak />この地域に敵潜水艦が存在する可能性があります。<LineBreak />
+    悪天候のため、敵航空機の存在は極めて低いと考えられます。<LineBreak />
+      <LineBreak />
+      <LineBreak /> 4. (S) 警告 黄 -
+    すべての敵対目標への攻撃が許可されます。<LineBreak />
+      <LineBreak /> 5. (S) EMCON - 指示があるまで無線沈黙を維持せよ。<LineBreak />
+      <LineBreak />
+      <LineBreak />
+  </TextBlock>
+
+</Grid>
