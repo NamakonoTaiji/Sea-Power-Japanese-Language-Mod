@@ -1,0 +1,69 @@
+<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[GibStraitClose]}"/>
+        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[GibStraitFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="50" Height="25" Margin="75,0,0,25" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+        <Grid Canvas.Left="310" Canvas.Top="380" Width="150" Height="150" >
+            <Ellipse Opacity="0.25" Fill="Magenta"/>
+            <!-- Note that you can bind this text to the localisation: Text="{Binding Path=LanguageResourceHandler.LanguageDictionary[genericback], FallbackValue='Back'}" -->
+            <!-- Note that you can bind foreground to the resources file: Foreground="{StaticResource Brush.Window.BackgroundDark}" -->
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Rendezvous Area" Foreground="White"/>
+        </Grid>
+        <Ellipse Canvas.Left="490" Canvas.Top="320" Width="230" Height="230" Opacity="0.25" Fill="Red"/>
+        <TextBlock Canvas.Left="660" Canvas.Top="320" Text="Enemy Air and Surface Patrols" Foreground="White"/>
+        <Grid Canvas.Left="250" Canvas.Top="350">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="1" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+            <TextBlock Grid.Column="0" Foreground="Blue" TextAlignment="Right" Margin="0,0,5,0">
+                <Run Text="Alfa-class"/><LineBreak/><Run Text="submarine"/>
+            </TextBlock>
+        </Grid>
+        <Path Data="M 335 380 380 440" StrokeThickness="10" Stroke="{StaticResource NTDS.FriendColour}"/>
+        <Path Canvas.Left="381" Canvas.Top="440" Data="M 0 -10 12 10 -12 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="137"/>
+            </Path.RenderTransform>
+        </Path>
+        <Grid Canvas.Left="767" Canvas.Top="425">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="0" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+            <TextBlock Grid.Column="1" Foreground="Blue" TextAlignment="Left" Margin="5,0,0,0">
+                <Run Text="Taskforce"/><LineBreak/><Run Text="OREL"/>
+            </TextBlock>
+        </Grid>
+        <Path Data="M 762 438 575 438" StrokeThickness="10" Stroke="{StaticResource NTDS.FriendColour}"/>
+        <Path Canvas.Left="575" Canvas.Top="438" Data="M 0 -10 12 10 -12 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="-90"/>
+            </Path.RenderTransform>
+        </Path>
+        <Canvas Canvas.Left="545" Canvas.Top="432" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+            <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+            <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+        </Canvas>
+        <Canvas Canvas.Left="610" Canvas.Top="355" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+            <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Air}"/>
+            <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+        </Canvas>
+        <Canvas Canvas.Left="603" Canvas.Top="388" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+            <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Air}"/>
+            <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+        </Canvas>
+    </Canvas>
+</Viewbox>

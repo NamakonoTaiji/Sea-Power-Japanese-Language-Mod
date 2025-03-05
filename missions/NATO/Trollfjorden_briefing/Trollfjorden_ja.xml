@@ -1,0 +1,92 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid.RowDefinitions>
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="10" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="10" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="10" />
+    <RowDefinition Height="Auto" />
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="Auto" />
+    <ColumnDefinition Width="10" />
+    <ColumnDefinition Width="*" />
+    <ColumnDefinition Width="Auto" />
+  </Grid.ColumnDefinitions>
+  <!--TextBlock
+    Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18"
+    FontSize="{StaticResource Font.Size.Header}"/-->
+  <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+    FontSize="{StaticResource Font.Size.Header}">
+    <Run Text="{Binding MissionStartTime.Year}" />-<Run
+      Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
+      Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+  </TextBlock>
+  <!--TextBlock
+    Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)"
+    FontSize="{StaticResource Font.Size.Header}"/-->
+  <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+    FontSize="{StaticResource Font.Size.Header}">
+    <Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+      Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
+      Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
+      Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+  <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+  <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+    Text="海軍司令部" />
+  <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+  <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+    Text="ナルヴィク任務部隊司令官" />
+  <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="情報:" />
+  <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+    Text="トロルフィヨルデン作戦" />
+  <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+  <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任務命令" />
+  <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+    Text="#0-144.142.143" />
+
+
+  <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform"
+    HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+  <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+    TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
+<LineBreak />
+    「トロルフィヨルデン作戦」を開始する準備が整った。我が任務部隊は、トロムソへ向かうソ連上陸部隊を迎撃する絶好の位置に配置されている。 <LineBreak />
+  <LineBreak />
+    部隊は敵の予想位置より500海里先に潜伏しており、これまでのところ策略は成功している。いよいよ決戦の時だ。 <LineBreak />
+  <LineBreak />
+    ナルヴィク任務部隊の主力はF304ナルヴィク艦の指揮下、ノルウェーの険しい海岸線に隠れている。F304の前方には、高速攻撃艇2個戦隊と、過去3日間民間船の影に隠れて発見を回避していた2隻のコッベン級潜水艦が展開している。
+    <LineBreak />
+  <LineBreak />
+    我が戦力は技術的に敵より劣勢なため、地の利と戦術的知恵を活かして敵上陸部隊に決定的な打撃を与えよ。 <LineBreak />
+  <LineBreak />
+  <LineBreak /> 2. (S)
+    主要目標: <LineBreak />
+  <LineBreak />
+    配置地点を通過するソ連上陸部隊を攻撃せよ。地形によるレーダー探知の制限を利用し、高速攻撃艇の接近を隠れさせ、コッベン級潜水艦の静粛性を活かして敵に打撃を与えよ！ <LineBreak />
+  <LineBreak />
+  <LineBreak />
+    3. (S) 脅威評価: <LineBreak />
+  <LineBreak />
+    主要上陸部隊は対潜水艦（ASW）および対水上艦（ASuW）能力を持つ護衛艦で防護されている可能性が高いと分析されている。攻撃開始のタイミングを見極め、敵艦を確実に識別し、有利な状況でのみ攻撃を実施せよ。
+    <LineBreak />
+  <LineBreak />
+    ソ連部隊には固定翼および回転翼航空機による限定的な航空支援が見込まれる。 <LineBreak />
+  <LineBreak />
+    現在の気象条件により、敵のゼニス衛星偵察システムからは我が部隊の位置および構成についての最新情報が得られていない可能性が非常に高い。 <LineBreak />
+  <LineBreak />
+    現時点ではソ連潜水艦による脅威は想定されていない。 <LineBreak />
+  <LineBreak />
+    上陸部隊の後方には小規模な補給グループが続いている可能性が高いが、これらは二次目標と見なす。 <LineBreak />
+  <LineBreak />
+  <LineBreak /> 4. (S)
+    EMCON（電波発信制限） - 指揮官の裁量により、電波発信の管理を適切に行え。 </TextBlock>
+</Grid>

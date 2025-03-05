@@ -52,19 +52,18 @@
     HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}" />
   <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
     TextWrapping="Wrap"> 1. (S) 戦術状況:<LineBreak />
+  <LineBreak />
+    大西洋に進出するためには、ジブラルタル基地を通過しなければならない。敵の海軍および空軍からの激しい抵抗が予想される。いかなる代償を払っても、空母を無傷で保持せよ。目標を確認せよ：民間人の被害は受け入れられない。
     <LineBreak />
-    大西洋に進出するためには、ジブラルタル基地を通過しなければなりません。敵の海軍および空軍からの激しい抵抗が予想されます。いかなる代償を払っても、空母を無傷で保持しなければなりません。目標を確認してください：民間人の被害は受け入れられません。
-    <LineBreak />
-    <LineBreak />
+  <LineBreak />
     2. (S) 主要目標: <LineBreak />
-    <LineBreak /> 指定されたエリアで友好潜水艦と合流せよ <LineBreak /> - ヴィリニュスを生存させよ <LineBreak />
-    <LineBreak />
+  <LineBreak /> 指定されたエリアで友軍潜水艦と合流せよ <LineBreak /> - ヴィリニュスを生存させよ <LineBreak />
+  <LineBreak />
     3. (S) 第二目標: <LineBreak />
-    <LineBreak /> 可能であればジブラルタル基地を無力化せよ <LineBreak />
-    <LineBreak /> 4. (S)
+  <LineBreak /> 可能であればジブラルタル基地を無力化せよ <LineBreak />
+  <LineBreak /> 4. (S)
     敵の航空哨戒による探知をできるだけ長く回避せよ <LineBreak />
-    <LineBreak /> 5. (S) 兵器使用制限 <LineBreak />
-    <LineBreak /> 6.
+  <LineBreak /> 5. (S) 兵器使用制限 <LineBreak />
+  <LineBreak /> 6.
     (S) EMCON - 指示があるまで無線沈黙を維持せよ </TextBlock>
-
 </Grid>

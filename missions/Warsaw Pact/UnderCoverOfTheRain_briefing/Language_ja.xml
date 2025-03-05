@@ -55,26 +55,25 @@
   <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
     TextWrapping="Wrap">
     <LineBreak />
-      <LineBreak /> 1. (S) 戦術状況: <LineBreak />
-      <LineBreak />
-    我々の地上部隊がナルヴィク港の奪取を試みている間、悪天候のため空軍が敵の補給線を妨害できず、海上封鎖が必要となります。<LineBreak />
-    あなたの海軍部隊は、防衛部隊を支援するために港に向かっている部隊と物資を載せた敵の護送船団を迎撃する必要があります。<LineBreak />
-      <LineBreak />
-      <LineBreak />
-    2. (S) 主要目標: <LineBreak />
-      <LineBreak />ヴェストフィヨルドに入り、護送船団を発見し、補給船が目的地に到達しないようにせよ。<LineBreak />
+    <LineBreak /> 1. (S) 戦術状況: <LineBreak />
+    <LineBreak />
+    我々の地上部隊がナルヴィク港の奪取を試みている間、悪天候のため空軍が敵の補給線を妨害できず、海上封鎖が必要となった。<LineBreak />
+    あなたの海軍部隊は、防衛部隊を支援するために港に向かっている部隊と物資を載せた敵の護送船団を迎撃せよ。<LineBreak />
+    <LineBreak />
+    <LineBreak /> 2.
+    (S) 主要目標: <LineBreak />
+    <LineBreak />ヴェストフィヨルドに入り、護送船団を発見し、補給船が目的地に到達しないようにせよ。<LineBreak />
     目標を確認し、中立船舶を沈めないよう注意せよ。<LineBreak />
-      <LineBreak />
-      <LineBreak /> 3. (S) 脅威報告: <LineBreak />
-      <LineBreak />
-    ヴェストフィヨルドで敵の水上哨戒が予想されます。<LineBreak />この地域に敵潜水艦が存在する可能性があります。<LineBreak />
-    悪天候のため、敵航空機の存在は極めて低いと考えられます。<LineBreak />
-      <LineBreak />
-      <LineBreak /> 4. (S) 警告 黄 -
-    すべての敵対目標への攻撃が許可されます。<LineBreak />
-      <LineBreak /> 5. (S) EMCON - 指示があるまで無線沈黙を維持せよ。<LineBreak />
-      <LineBreak />
-      <LineBreak />
+    <LineBreak />
+    <LineBreak /> 3. (S) 脅威報告: <LineBreak />
+    <LineBreak />
+    ヴェストフィヨルドで敵の水上哨戒が予想される。<LineBreak />この地域に敵潜水艦が存在する可能性がある。<LineBreak />
+    悪天候のため、敵航空機の存在は極めて低いと考えられる。<LineBreak />
+    <LineBreak />
+    <LineBreak /> 4. (S) 警告 黄 -
+    すべての敵対目標への攻撃を許可する。<LineBreak />
+    <LineBreak /> 5. (S) EMCON - 指示があるまで無線沈黙を維持せよ。<LineBreak />
+    <LineBreak />
+    <LineBreak />
   </TextBlock>
-
 </Grid>
