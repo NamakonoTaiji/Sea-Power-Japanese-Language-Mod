@@ -1,0 +1,96 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Kommandant der 5. Flotte"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Kommandant der TF150"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Info:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Kommandant US Pazifikflotte"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Einsatzbefehle"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.  (S)    Aktuelle Lage:
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+	  Due to the recent attacks by Iran on merchant shipping passing in and out of the Persian Gulf, it has been decided to organize escorted convoys to protect maritime trade.
+	-->
+	
+	Die islamische Republik Iran hat angedroht, die Straße von Hormuz für den Seeverkehr, welcher in Verbindung mit den Vereinigten Staaten oder ihren Alliierten steht, zu schließen, um so globalen Einfluss zu erlangen.
+      <LineBreak/>
+      <LineBreak/>Die Vereinigten Staaten beabsichtigen, den Drohungen des Irans entgegenzutreten und ihre Fähigkeit zu demonstrieren, die Straße gemäß internationalem Recht zu durchqueren.
+      <LineBreak/>
+      <LineBreak/>COMMIDEASTFOR arrangiert den Geleitschutz von Tankern durch die Straße von Hormus zum und vom Golf von Aden. TF150 soll die erste Gruppe von Handelsschiffen in Richtung des Mīnā' al-Bakr-Ölterminals an der irakischen Küste eskortieren
+      <LineBreak/>
+	
+	  <LineBreak/>
+      <LineBreak/>
+      2.  (S) Primärziel:
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      You are to escort the three oil tankers past the Strait of Hormuz to the designated area.
+	-->
+      Passieren Sie die Straße von Hormus vom Golf von Aden in den Persischen Golf, während Sie die eskortierten Handelsschiffe vor Bedrohungen durch die Islamische Republik Iran schützen.
+      <LineBreak/>
+      <LineBreak/>
+      <LineBreak/>
+      3.  (S) Bedrohungsanalyse:
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      Intel believes only a small force of patrol craft have been sortied by Iran at this point. Your forces should be able to brush them aside with little effort.
+	-->
+	
+	Es wird als sehr wahrscheinlich eingeschätzt, dass Schiffe der IRIN (Islamic Republic of Iran Navy) und der IRGCN (Islamic Revolutionary Guard Corps Navy) aus Bandar Abbas in der Straße von Hormus eingesetzt werden. Die Einheiten dürften aus einer typischen Mischung aus IRIN- und IRGCN-Kräften bestehen. Erwarten Sie eine signifikant hohe Anzahl an Schnellbooten (FAC/FIAC) mit begrenzter Unterstützung durch größere Patrouillenboote.
+      <LineBreak/>
+      <LineBreak/>Es wird als wahrscheinlich eingeschätzt, dass der IRIN und der IRGCN nur in begrenztem Maße Luftunterstützung zur Verfügung stehen wird. Es wird weiterhin als wahrscheinlich eingeschätzt, dass ihnen auch nur wenige luftgestützte Seezielflugkörper (AShMs) zur Verfügung stehen werden.
+      <LineBreak/>
+      <LineBreak/>Es ist nicht zu erwarten, dass IRIN-U-Boote zum aktuellen Zeitpunkt eine Bedrohung darstellen. Es wird als sehr wahrscheinlich eingeschätzt, dass die IRIN versucht, Mini-U-Boote zu beschaffen, es ist jedoch äußerst unwahrscheinlich, dass diese zum jetzigen Zeitpunkt einsatzbereit sind.
+	
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      4.  (S) Warning Yellow - Do not fire unless fired upon
+	-->
+      <LineBreak/>
+      <LineBreak/>
+	  <!--
+      5.  (S) EMCON - Maintain radio silence until otherwise directed
+	  -->
+	  
+	  (S) EMCON - Aufgrund hoher Wahrscheinlichkeit von anwesenden AShMs: EMCON-Status ohne Beschränkung
+	  
+    </TextBlock>
+</Grid>

@@ -1,0 +1,4 @@
+# mp4を除外
+*.mp4
+# Pacific Strikeファイルを除外
+Pacific Strike

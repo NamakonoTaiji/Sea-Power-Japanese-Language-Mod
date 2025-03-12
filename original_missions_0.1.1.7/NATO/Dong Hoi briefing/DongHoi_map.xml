@@ -1,0 +1,58 @@
+<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[DongHoiClose]}"/>
+		<!-- Small Map -->
+        <Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[DongHoiFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="122,0,0,96" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+		<!-- Yankee Station Area -->
+        <Grid Canvas.Left="810" Canvas.Top="360" Width="120" Height="120" >
+            <Ellipse Opacity="0.15" Fill="Blue"/>
+            <!-- Note that you can bind this text to the localisation: Text="{Binding Path=LanguageResourceHandler.LanguageDictionary[genericback], FallbackValue='Back'}" -->
+            <!-- Note that you can bind foreground to the resources file: Foreground="{StaticResource Brush.Window.BackgroundDark}" -->
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Yankee Station" Foreground="White"/>
+        </Grid>
+		<!-- Mission Area Ellipse -->
+        <Ellipse Canvas.Left="295" Canvas.Top="280" Width="80" Height="80" Opacity="0.25" Fill="Red"/>
+		<!-- Mission Area Text -->
+        <TextBlock Canvas.Left="267" Canvas.Top="267" Text="Mission Area" Foreground="White"/>
+		<!-- Oklahoma group icon and text -->
+        <Grid Canvas.Left="380" Canvas.Top="345">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="0" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+            <TextBlock Grid.Column="1" Foreground="Blue" TextAlignment="Left" Margin="0,0,-5,0">
+                <Run Text="SAG Oklahoma City"/>
+            </TextBlock>
+        </Grid>
+		<!-- Hostile installations -->
+        <Grid Canvas.Left="245" Canvas.Top="302">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="1" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Installation}"/>
+            </Canvas>
+            <TextBlock Grid.Column="0" Foreground="Red" TextAlignment="Right" Margin="0,0,5,0">
+                <Run Text="Hostile"/><LineBreak/><Run Text="Installations"/>
+            </TextBlock>
+        </Grid>
+		<!-- Arrow -->
+		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+        <Path Canvas.Left="345" Canvas.Top="325" Data="M 0 -7 L 10 10 L 4 10 L 4 41 L -4 41 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="-55"/>
+            </Path.RenderTransform>
+        </Path>
+
+	</Canvas>
+</Viewbox>
