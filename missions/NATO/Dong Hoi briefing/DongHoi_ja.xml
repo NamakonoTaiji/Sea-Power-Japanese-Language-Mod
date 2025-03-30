@@ -51,17 +51,20 @@
   <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
     Text="#0-144.142.143" />
 
+  <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦指示" />
   <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
     TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
       <LineBreak />
-    情報部によれば、北ベトナム軍は大量の兵士と物資を沿岸高速道路を通じてクアンチ省前線に移動させている。<LineBreak />
-      <LineBreak /> 2. (S) 主要目標: <LineBreak />
+    情報によれば、北ベトナム軍（NVA）は、沿岸高速道路を経由してクアンチ省前線へ大量の兵員及び物資を移動中である。<LineBreak />
+      <LineBreak /> 2. (S)
+    主要任務目標: <LineBreak />
       <LineBreak />
-    沿岸を航行し、ドックや燃料貯蔵施設などの大規模施設を発見次第、これらを破壊せよ。誘導ミサイル巡洋艦「ステレット」が北東に展開中であり、航空支援を提供する。<LineBreak />
+    沿岸部を航行し、発見した港湾施設や燃料貯蔵施設等の主要施設を破壊せよ。誘導ミサイル巡洋艦「ステレット」が北東方面に展開しており、航空支援を提供する。<LineBreak />
       <LineBreak />
     3. (S) 脅威評価: <LineBreak />
-      <LineBreak /> 情報分析によれば、目標区域は複数の沿岸砲台により防御されていると推定される。<LineBreak />
+      <LineBreak /> 情報分析に基づき、目標区域は複数の沿岸砲台によって防護されていると推定される。<LineBreak />
       <LineBreak />
-    4. (S) 警告黄色 - 攻撃を受けるまで発砲するな <LineBreak />
-      <LineBreak /> 5. (S) EMCON（電波発信制限） - 指示があるまで無線沈黙を維持せよ </TextBlock>
+    4. (S) 交戦規定（ROE）: 警告黄色 - 敵からの攻撃を受けるまで発砲を禁ず。<LineBreak />
+      <LineBreak /> 5. (S) 電波発射管制（EMCON）:
+    指示あるまで無線封鎖を維持せよ。 </TextBlock>
 </Grid>

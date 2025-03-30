@@ -53,17 +53,17 @@
   <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
     TextWrapping="Wrap"> 1. (S) 戦術状況:<LineBreak />
   <LineBreak />
-    大西洋に進出するためには、ジブラルタル基地を通過しなければならない。敵の海軍および空軍からの激しい抵抗が予想される。いかなる代償を払っても、空母を無傷で保持せよ。目標を確認せよ：民間人の被害は受け入れられない。
+    大西洋への進出には、ジブラルタル要塞の突破が不可欠である。敵海空軍による激しい抵抗が予想される。いかなる犠牲を払っても、旗艦「ヴィリニュス」を防衛せよ。目標識別を確実に行うこと。民間船舶への被害は容認されない。
     <LineBreak />
   <LineBreak />
-    2. (S) 主要目標: <LineBreak />
-  <LineBreak /> 指定されたエリアで友軍潜水艦と合流せよ <LineBreak /> - ヴィリニュスを生存させよ <LineBreak />
+    2. (S) 主要任務: <LineBreak />
+  <LineBreak /> - 指定海域にて友軍潜水艦と合流せよ <LineBreak /> - 旗艦「ヴィリニュス」の生還 <LineBreak />
   <LineBreak />
-    3. (S) 第二目標: <LineBreak />
-  <LineBreak /> 可能であればジブラルタル基地を無力化せよ <LineBreak />
+    3. (S) 副次任務: <LineBreak />
+  <LineBreak /> - 可能であればジブラルタル基地を無力化せよ <LineBreak />
   <LineBreak /> 4. (S)
-    敵の航空哨戒による探知をできるだけ長く回避せよ <LineBreak />
-  <LineBreak /> 5. (S) 兵器使用制限 <LineBreak />
-  <LineBreak /> 6.
-    (S) EMCON - 指示があるまで無線沈黙を維持せよ </TextBlock>
+    行動指針: 敵航空哨戒による探知を可能な限り遅延させよ <LineBreak />
+  <LineBreak /> 5. (S) 交戦規定: (原文確認要) <LineBreak />
+  <LineBreak />
+    6. (S) 電波管制 (EMCON): 別命あるまで無線封鎖を維持せよ </TextBlock>
 </Grid>

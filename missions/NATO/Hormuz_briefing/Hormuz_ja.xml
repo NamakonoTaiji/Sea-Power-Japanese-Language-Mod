@@ -60,32 +60,33 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform"
       HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
+      <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+            Text="作戦指示" />
       <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
             TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
   <LineBreak />
-            イラン・イスラム共和国は、米国の利益や同盟国に関連する船舶のホルムズ海峡通過を阻止することで、世界的影響力の拡大を図っている。 <LineBreak />
+            イラン・イスラム共和国は、米国の国益及び同盟国に関連する船舶のホルムズ海峡通航を妨害することにより、国際的影響力の拡大を図っている。 <LineBreak />
   <LineBreak />
-            米国はイランの脅威に対抗し、国際法に基づく海峡通行権を実証する意向を示している。 <LineBreak />
+            米国は、国際法に基づく海峡通航権を実証し、イランの脅威に対抗する断固たる意志を有する。 <LineBreak />
   <LineBreak />
-            中東艦隊司令部（COMMIDEASTFOR）は、アデン湾からイラクのミナ・アルバクル石油ターミナルへ向かうタンカー護衛を手配した。第150任務部隊（TF150）は、この第一次商船団の護衛任務を担当する。
+            中東軍司令部（COMMIDEASTFOR）は、アデン湾からイラクのミナ・アル＝バクル石油ターミナルへ向かうタンカー船団の護衛を指示した。第150任務部隊（TF150）が、この最初の商船団に対する護衛任務を担当する。
             <LineBreak />
   <LineBreak />
   <LineBreak />
-            2. (S) 主要目標: <LineBreak />
+            2. (S) 主要任務目標: <LineBreak />
   <LineBreak />
-            アデン湾からペルシャ湾へのホルムズ海峡通過時、イラン・イスラム共和国からの脅威から護衛船団を防衛すること。 <LineBreak />
+            アデン湾からペルシャ湾へホルムズ海峡を通過する際、イラン・イスラム共和国からの脅威に対し、護衛対象船団を防護すること。 <LineBreak />
   <LineBreak />
   <LineBreak />
             3. (S) 脅威評価: <LineBreak />
   <LineBreak />
-            バンダルアッバースから、イラン海軍（IRIN）および革命防衛隊海軍（IRGCN）の水上部隊がホルムズ海峡に展開する可能性が非常に高いと分析されている。敵部隊はIRINおよびIRGCNの混成戦力で構成される可能性が高く、多数の高速攻撃艇（FAC/FIAC）が予想され、大型哨戒艇からの支援は限定的と見られる。
+            バンダル・アッバースを拠点とするイラン海軍（IRIN）及び革命防衛隊海軍（IRGCN）の水上部隊が、ホルムズ海峡に展開する可能性は極めて高いと評価される。敵部隊はIRINとIRGCNの混成戦力で構成される可能性が高く、多数の高速攻撃艇（FAC/FIAC）の存在が予想される一方、大型哨戒艦艇による支援は限定的と見られる。
             <LineBreak />
   <LineBreak />
-            敵部隊には、固定翼および回転翼機による限定的な航空支援が予想されている。航空機から発射される対艦ミサイル（AShM）が利用可能である可能性も分析されている。 <LineBreak />
+            敵部隊は、固定翼機及び回転翼機による限定的な航空支援を受けると予想される。空中発射型対艦ミサイル（AShM）の使用可能性も考慮すべきである。 <LineBreak />
   <LineBreak />
-            現時点ではイラン海軍の潜水艦は主要な脅威とは見なされていない。イラン海軍が小型潜水艦の調達を進めていると高い確度で分析されているが、現時点で展開可能な数は非常に限られていると考えられる。
-
+            現時点では、イラン海軍潜水艦は主要な脅威とは見なされない。イラン海軍が小型潜水艦の取得を進めているとの確度の高い情報があるものの、現在運用可能な隻数は極めて限定的であると考えられる。
             <LineBreak />
   <LineBreak />
-            (S) EMCON（電波発信制限） - 対艦ミサイルの脅威が予想されるため、電波発信の制限は行わない </TextBlock>
+            4. (S) 電波発射管制（EMCON） - 対艦ミサイルによる脅威が予想されるため、電波発射の制限は行わない。 </TextBlock>
 </Grid>
