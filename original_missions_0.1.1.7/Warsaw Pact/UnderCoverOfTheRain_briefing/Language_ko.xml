@@ -28,7 +28,7 @@
 		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
 	</TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Commander Northern Fleet"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="북방함대 사령관"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="타격부대의 사령관"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="정보:"/>
@@ -43,25 +43,25 @@
       1.  (기밀)    전술적 상황:
       <LineBreak/>
       <LineBreak/>
-       While our Ground Forces are trying to capture Narvik Port, a naval blockade will be needed due to bad weather preventing our Air Force from disrupting the enemies supply lines.
-      <LineBreak/>Your naval force will be needed to intercept a enemy naval convoy with troops and supplies that is heading into the port to assist their defending forces.
+       우리의 지상군이 나르비크 항구를 점령하느라 노력중인 한편 해상 봉쇄가 나쁜 날씨로 인하여 공군 출격이 금지된 이상 진행되어야 적군의 보급선을 교란할수 있을것.
+      <LineBreak/>자네의 해상군이 나르비크에 지원군과 보급품을 수송하는 적군의 호송대를 급습하는데 필요함.
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
 
       2.  (기밀) 중요 목표:
       <LineBreak/>
-      <LineBreak/>Enter Vestfjorden, find the convoy, and make sure the supply ships do not reach its destination.
-      <LineBreak/>Be sure to check your targets and not sink any neutral vessels.
+      <LineBreak/>베스트피요르덴에 진입하여 호송대를 찾고 보급선들이 목표 지점에 도달하지 못하도록 할것.
+      <LineBreak/>목표물 확인을 철저히 하여 민간인 함선 공격을 피할것.
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
 
       3.  (기밀) 위협 보고:
       <LineBreak/>
-      <LineBreak/>Expect enemy surface patrols in Vestfjorden.
-      <LineBreak/>There is a probablity of enemy submarines in the area.
-      <LineBreak/>Due to bad weather, presence of enemy aircraft is highly unlikely.
+      <LineBreak/>베스트피요르덴에 적군 수상함 초계가 예상됨.
+      <LineBreak/>지역에 적군 잠수함이 있을 가능성 농후함.
+      <LineBreak/>나쁜 기상 상태로 인해 적군의 항공기 출격은 없을것으로 추정됨.
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>

@@ -11,7 +11,7 @@
 		<!-- Mission Area Ellipse -->
         <Ellipse Canvas.Left="570" Canvas.Top="300" Width="80" Height="80" Opacity="0.25" Fill="Red"/>
 		<!-- Mission Area Text -->
-        <TextBlock Canvas.Left="520" Canvas.Top="287" Text="Possible Ambush Area" Foreground="White"/>
+        <TextBlock Canvas.Left="520" Canvas.Top="287" Text="예상되는 매복 지점" Foreground="White"/>
 		<!-- Oklahoma group icon and text -->
         <Grid Canvas.Left="640" Canvas.Top="390">
             <Grid.ColumnDefinitions>

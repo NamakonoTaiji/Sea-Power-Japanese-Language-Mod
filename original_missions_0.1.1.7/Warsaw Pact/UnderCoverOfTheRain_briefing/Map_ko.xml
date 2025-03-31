@@ -11,7 +11,7 @@
 		<!-- Mission Area Ellipse -->
         <Ellipse Canvas.Left="100" Canvas.Top="470" Width="80" Height="80" Opacity="0.25" Fill="Red"/>
 		<!-- Mission Area Text -->
-        <TextBlock Canvas.Left="75" Canvas.Top="550" Text="Possible Convoy Location" Foreground="White"/>
+        <TextBlock Canvas.Left="75" Canvas.Top="550" Text="예상되는 호송대 위치" Foreground="White"/>
 		<!-- Group 1 icon -->
         <Grid Canvas.Left="90" Canvas.Top="360">
             <Grid.ColumnDefinitions>

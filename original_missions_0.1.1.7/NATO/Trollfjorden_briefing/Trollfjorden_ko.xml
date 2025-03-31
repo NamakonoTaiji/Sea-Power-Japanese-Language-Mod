@@ -30,7 +30,7 @@
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="해군 사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="태스크포스 나르빅의 지휘관"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="태스크포스 나르비크의 지휘관"/>
     <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="정보:"/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="트롤피오르덴 작전"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
@@ -46,7 +46,7 @@
       <LineBreak/>
       <LineBreak/>우리의 유닛들은 적군이 예상한 위치 804.7km 앞보다 은폐해있으며 이로써 우리의 기만술이 먹혀들었다는것이 확인됨.
       <LineBreak/>
-      <LineBreak/>주력군은 태스크 포스 나르빅으로 F304 나르빅이 기함임. 노르웨이 해안가를 따라 은폐한 나르빅 앞으로는 2개의 고속정 편대와 2척의 코벤급 잠수함으로 코벤급들은 지난 3일간 추적을 피하기 위해 민간 함선들과 섞어 기동함.
+      <LineBreak/>주력군은 태스크 포스 나르비크로 F304 나르비크가 기함임. 노르웨이 해안가를 따라 은폐한 나르비크 앞으로는 2개의 고속정 편대와 2척의 코벤급 잠수함으로 코벤급들은 지난 3일간 추적을 피하기 위해 민간 함선들과 섞어 기동함.
       <LineBreak/>
       <LineBreak/>기술적으로는 적군에 비해 약할수 있어도 지형적 이점과 임기응번을 사용하여 적군 함대를 기습할 것.
       <LineBreak/>
@@ -62,7 +62,7 @@
       <LineBreak/>
       <LineBreak/>높은 확률로 소련군 상륙함대는 대잠전과 대수상전에 특화된 수상함들로 호위되고 있을 가능성이 있음. 공격 시간을 최적화 하고 적군이 확실시 될 경우에 한하여 우위를 점하고 있다고 판단될시 공격할것.
       <LineBreak/>
-      <LineBreak/>It is assessed as likely that limited airborne support will be available to Soviet units from both Fixed and Rotary Wing Assets.
+      <LineBreak/>소련군을 상대하기 위한 제한된 공중부대 지원이 가능할것으로 보임.
 	  <LineBreak/>
       <LineBreak/>높은 확률로 날씨의 영향으로 적군의 제니스 위성정찰 시스템이 우리의 정확한 위치와 규모를 판단하지 못했을거라 판단됨.
       <LineBreak/>
