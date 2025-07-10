@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		4 DECEMBER 1971
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FROM:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FLAG OFFICER C-IN-C, WESTERN NAVAL COMMAND"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CDR K/ P. GOPAL RAO, KARACHI STRIKE GROUP"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ORDERS - OPERATION TRIDENT"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. Naval Headquarters has ordered you to initiate Operation TRIDENT and attack the Pakistani forces at Karachi. Our objective is to destroy all Pakistani shipping encountered off Karachi and deny the port to enemy forces.
+		<LineBreak/>
+		<LineBreak/>
+		2. PETYA class corvettes in your force (KATCHALL and KILTAN) will operate as squadron commanders and use their superior radar to detect surface contacts. OSA class missile boats (VEER, NIPAT, NIRGHAT) will use Styx missiles to attack enemy forces detected by KATCHALL and KILTAN.
+		<LineBreak/>
+		<LineBreak/>
+		3. Radio intercepts indicate that Pakistani NHQ has ordered all neutral shipping to remain outside 75 nautical miles of Karachi port between sunset and dawn. All radar contacts within this boundary off Karachi at night time to be considered hostile and engaged befittingly by our forces.
+		<LineBreak/>
+		<LineBreak/>
+		4. Note: Pakistani forces at Karachi include ex-Royal Navy destroyers without anti-ship stand-off missiles. The cargo ship M/V VENUS CHALLENGER is expected in the area transporting ammunition to Pakistan from the Americans at Saigon. Pakistani airforce does not have night bombing capability and will not be a factor during night hours.
+		<LineBreak/>
+		<LineBreak/>
+		5. Proceed northwest at best speed, identify all hostile contacts, and destroy them. Good luck.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	  </TextBlock>
+</Grid>

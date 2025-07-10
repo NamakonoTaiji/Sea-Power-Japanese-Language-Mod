@@ -1,0 +1,66 @@
+<Viewbox Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+	<Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[Diu_Close]}"/>
+		<!-- Small Map -->
+        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[IndiaPakistanFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="210,0,0,110" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+		
+		<!-- Photo inset -->
+        <Border Canvas.Bottom="10" Canvas.Right="10" BorderThickness="5" BorderBrush="White">
+			<Border.Effect>
+				<DropShadowEffect Opacity="0.25"/>
+			</Border.Effect>
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="-5" CenterY="200"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[PNSHangor]}" Width="250"/>
+            </Grid>
+        </Border>
+
+		<!-- Map Labels -->
+		<TextBlock Foreground="SteelBlue" Text="Arabian Sea" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="150" Canvas.Top="400"/>
+		<TextBlock Foreground="Black" Text="India" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Canvas.Left="500" Canvas.Top="100"/>
+		<TextBlock Foreground="Black" Text="Diu" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="425" Canvas.Top="200"/>
+
+		<!-- PNS Hangor S131 -->
+		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="450">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="PNS Hangor S131"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- Indian Navy Patrols -->
+		<StackPanel Orientation="Vertical" Canvas.Left="800" Canvas.Top="400">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="Indian Navy Patrols"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+
+		<!-- Arrows -->
+		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+        <Path Canvas.Left="690" Canvas.Top="475" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="250"/>
+            </Path.RenderTransform>
+        </Path>
+
+	</Canvas>
+</Viewbox>

@@ -1,0 +1,65 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DESDE:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GLAVCOM VMF"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="PARA:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COM TF OREL"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="ASUNTO:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ORDENES DE MISION"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        1.  (S) SITUACIÓN TÁCTICA:<LineBreak/>
+      <LineBreak/>CON EL PROPÓSITO DE ABRIRTE PASO HACIA EL ATLÁNTICO, DEBERÁS ATRAVESAR POR DELANTE DE LA BASE DE GIBRALTAR. SE ESPERA UNA DURA RESISTENCIA POR PARTE DE FUERZAS HOSTILES TANTO NAVALES COMO TERRESTRES. EL PORTAAVIONES DEBE PERMANECER INTACTO SIN IMPORTAR EL COSTO. PRESTA ATENCIÓN: CUALQUIER BAJA CIVIL ES INACEPTABLE.
+      <LineBreak/>
+      <LineBreak/>
+      2.  (S) OBJETIVO PRIMARIO:
+      <LineBreak/>
+      <LineBreak/>
+      ESTABLECER CONTACTO CON EL SUBMARINO ALIADO EN EL ÁREA DESIGNADA
+      <LineBreak/>
+      - EL VILNUS DEBE SOBREVIVIR
+      <LineBreak/>
+      <LineBreak/>
+      3. (S) OBJETIVO SECUNDARIO:
+      <LineBreak/>
+      <LineBreak/>
+      SI ES POSIBLE, NEUTRALIZAR LA BASE DE GIBRALTAR
+      <LineBreak/>
+      <LineBreak/>
+      4.  (S) EVITAR LA DETECCIÓN POR PARTE DE LAS PATRULLAS AÉREAS ENEMIGAS TANTO TIEMPO COMO SEA POSIBLE
+      <LineBreak/>
+      <LineBreak/>
+      5.  (S) RESTRICCIÓN DE ARMAS
+      <LineBreak/>
+      <LineBreak/>
+      6.  (S) EMCON - MANTENER SILENCIO DE RADIO HASTA QUE SE INDIQUE LO CONTRARIO
+    </TextBlock>
+</Grid>
