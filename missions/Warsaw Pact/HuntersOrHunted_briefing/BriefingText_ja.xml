@@ -1,0 +1,68 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run
+            Text="{Binding MissionStartTime.Year}" />-<Run
+            Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
+            Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+    </TextBlock>
+    <TextBlock
+        Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run
+            Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+            Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
+            Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
+            Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="第7作戦戦隊司令官（北方艦隊）" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第2沿岸防衛師団司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="接触報告及び作戦指示" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="#0-144.142.143" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. 戦術状況:
+        アメリカの潜水艦は、バレンツ海の我が聖域への侵入を試み続けている。第2沿岸防衛師団は、我が領海内におけるアメリカ艦に対する対潜作戦任務を負う。今朝、我が軍の攻撃型潜水艦の一隻が、オストロヴノイの北方約150海里にて、アメリカのものと思われる音響シグネチャを報告した。
+        <LineBreak />    <LineBreak />
+        2. 主要任務目標: 第2沿岸防衛師団ANTON分遣隊は、最終接触地点へ移動し、当該アメリカ艦を撃沈せよ。 <LineBreak />    <LineBreak /> 3. 友軍支援:
+        第145独立対潜航空連隊（PLAP）のIl-38が航空支援として利用可能である。 <LineBreak />    <LineBreak /> 4. 敵戦闘序列:
+        K-481は、米国のスタージョン級攻撃型潜水艦に相関するシグネチャを報告している。 <LineBreak />    <LineBreak /> 5. 兵器使用許可:
+        全ての潜水艦との接触に対し許可される。 <LineBreak />    <LineBreak /> 6. 電波発射管制（EMCON）: 制限なし。 <LineBreak />    <LineBreak />
+        6. 備考: アメリカの攻撃型潜水艦は危険な敵であり、決して過小評価してはならない。健闘を祈る、同志諸君。 </TextBlock>
+</Grid>

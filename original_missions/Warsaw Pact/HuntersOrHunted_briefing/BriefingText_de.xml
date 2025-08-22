@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COM 7TH OPERATIONAL SQUADRON (SF)"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COM 2ND COASTAL DEFENSE DIVISION"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KONTAKTMELDUNG - EINSATZBEFEHL"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. AKTUELLE LAGE: Amerikanische U-Boote versuchen weiterhin, in unsere Gebiete in der Barentssee einzudringen. Die 2. Küstenverteidigungsdivision ist mit der U-Jagd in unseren Hoheitsgewässern beauftragt. Heute Morgen meldete eines unserer Jagd-U-Boote eine amerikanische Signatur ca. 150 Seemeilen nördlich von Ostrovnoy.
+      <LineBreak/>
+      <LineBreak/>
+      2. PRIMÄRZIEL: Abteilung ANTON der 2. Küstenschutzdivision wird zur zuletzt gemeldeten Position verlegen und die Amerikaner vernichten.
+      <LineBreak/>
+      <LineBreak/>
+	  3. UNTERSTÜTZUNG: Eine Il-38 des 145th PLAP steht als Luftunterstützung zur Verfügung.
+	  <LineBreak/>
+      <LineBreak/>
+	  4. FEINDLAGE: K-481 meldet eine Signatur, die mit einem US-amerikanischen Jagd-U-Boot der STURGEON-Klasse übereinstimmt.
+      <LineBreak/>
+      <LineBreak/>
+      5. WAFFENFREIGABE: Authorized on all submarine contacts.
+      <LineBreak/>
+      <LineBreak/>
+      6. EMCON: Keine Einschränkungen.
+	  <LineBreak/>
+      <LineBreak/>
+      6. BEMERKUNGEN: Das amerikanische Jagd-U-Boot ist ein gefährlicher Gegner und darf keinesfalls unterschätzt werden. Viel Glück, Genossen.
+    </TextBlock>
+</Grid>

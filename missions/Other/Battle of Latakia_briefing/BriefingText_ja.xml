@@ -1,0 +1,48 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        1973年10月7日
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="イスラエル海軍司令官" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="ミハエル・バルカイ中佐、INS ミズナーク" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="新任務 - ラタキア襲撃" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />
+        <LineBreak /> 1.
+        イスラエルは全戦線で攻撃を受けている。これより戦争状態に突入、遭遇した敵艦は全て撃沈を許可する。 <LineBreak />
+        <LineBreak /> 2.
+        ハイファにて第3ミサイル艇戦隊から北部機動部隊を編成、その後、最高速度でラタキアへ北上せよ。 <LineBreak />
+        <LineBreak /> 3.
+        情報部によると、最大でコマール級ミサイル艇4隻、およびスティックスミサイルを搭載したオーサ級ミサイル艇1隻が当該海域に展開している模様。 <LineBreak />
+        <LineBreak />
+        4. 注記: 電子偵察により、付近にソ連のスパイ・トロール船の存在を確認。いかなる状況においても、このユニットへの攻撃を固く禁ずる。 <LineBreak />
+        <LineBreak />
+        5. ラタキア港からシリアの軍艦を全て誘き出し、撃沈せよ。健闘を祈る。 <LineBreak />
+        <LineBreak /> 極秘 </TextBlock>
+</Grid>

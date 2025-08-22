@@ -1,0 +1,83 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run
+            Text="{Binding MissionStartTime.Year}" />-<Run
+            Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
+            Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+    </TextBlock>
+    <TextBlock
+        Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run
+            Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+            Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
+            Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
+            Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+    <TextBlock
+        Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+    <TextBlock
+        Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="米第5艦隊司令官" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第150任務部隊司令官" />
+    <TextBlock
+        Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="情報:" />
+    <TextBlock
+        Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="米太平洋艦隊司令官" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦指示" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="#0-144.142.143" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
+       <LineBreak />
+        イラン・イスラム共和国は、世界規模での影響力を行使するため、米国の権益および同盟国に関連する船舶に対し、ホルムズ海峡を閉鎖すると威嚇。 <LineBreak />    <LineBreak />
+        米国はイランの脅威に抵抗し、国際法に基づき海峡を航行する能力を示す所存。
+       <LineBreak />    <LineBreak />
+        中東軍（COMMIDEASTFOR）は、アデン湾とホルムズ海峡間のタンカー護送船団を編成中。第150任務部隊（TF150）は、イラク沿岸のミーナー・アル・バクル石油ターミナルに向かう最初の商船団を護衛する。
+       <LineBreak />      <LineBreak />    <LineBreak />
+        2. (S) 主要任務目標: <LineBreak />
+       <LineBreak />
+        アデン湾からホルムズ海峡を通過しペルシャ湾へ進入、その際、護衛対象の商船をイラン・イスラム共和国がもたらす脅威から防衛すること。 <LineBreak />    <LineBreak />    <LineBreak />
+        3. (S) 脅威報告: <LineBreak />
+       <LineBreak />
+        バンダル・アッバースから出撃したイラン・イスラム共和国海軍（IRIN）及びイスラム革命防衛隊海軍（IRGCN）の水上部隊が、ホルムズ海峡に展開している可能性が極めて高いと評価される。部隊はIRIN及びIRGCNの混成部隊であると見られる。大型哨戒艇からの限定的な支援を受けた、多数のミサイル艇（FAC/FIAC）の襲来を想定せよ。
+        <LineBreak />    <LineBreak />
+        IRIN及びIRGCNの部隊は、固定翼機及び回転翼機の双方から、限定的な航空支援を受ける可能性がある。航空部隊は、限定数の空中発射型対艦ミサイル（AShM）を装備している可能性があると評価される。
+       <LineBreak />    <LineBreak />
+        現時点において、IRINの潜水艦が脅威となる可能性は低い。IRINは小型潜水艇の調達を試みている可能性が極めて高いと評価されるが、現時点で配備可能な艦艇が存在する可能性は極めて低い。
+         <LineBreak />    <LineBreak />      <LineBreak />    <LineBreak />
+        (S) 電波発射管制（EMCON） - 対艦ミサイル（AShM）による脅威の可能性が高いため、EMCON状態は無制限とする。 </TextBlock>
+</Grid>

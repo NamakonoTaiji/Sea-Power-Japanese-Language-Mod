@@ -1,0 +1,46 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        1973年10月8日
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="イスラエル海軍司令官" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="第3艦隊司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="新命令 - シナイ作戦" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 機密 <LineBreak />
+        <LineBreak /> 1.
+        イスラエル国防軍（IDF）地上部隊によるシナイへの反攻作戦開始に伴い、司令部は第3艦隊にその攻撃を支援するよう要請する。 <LineBreak />
+        <LineBreak /> 2.
+        全速力で西へ向かい、ポートサイド沖でINSミズナーク及びバルカイ司令と合流せよ。 <LineBreak />
+        <LineBreak /> 3.
+        情報によれば、スティックスミサイルを搭載したオーサ級ミサイル艇が最大4隻、当該海域に展開していると見られる。 <LineBreak />
+        <LineBreak /> 4.
+        地上攻撃による圧力がエジプト海軍部隊を港から出撃させた後、これを捕捉し撃滅せよ。健闘を祈る。 <LineBreak />
+        <LineBreak /> 機密 </TextBlock>
+</Grid>

@@ -1,0 +1,67 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="HQ ROTBANNER-NORDFLOTTE"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, KIROV STRIKE GROUP"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="MILITÄRISCHE SPEZIALOPERATION IM EUROPÄISCHEN NORDMEER"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="4 JULY 1988"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. LAGE:
+      <LineBreak/>Die Einnahme der Insel Attu im Pazifik hat unsere bisherigen Erfolge gegen die NATO und die Amerikaner untermauert. Nun müssen wir einen letzten Schlag führen, um unseren unbeirrbaren Willen zu demonstrieren. Das Oberkommando hat befohlen, die amerikanischen Kräfte bei der GIUK-Lücke beiseitezuschieben und in den Atlantik vorzustoßen. Der Aufklärung zufolge befindet sich eine amerikanische Trägerkampfgruppe im Einsatzgebiet. Ihre Vernichtung – oder zumindest ihre Vertreibung – wird die NATO zwingen, an den Verhandlungstisch zurückzukehren.
+      <LineBreak/><LineBreak/>
+      2. AUFTRAG:
+		<LineBreak/>2.1 Lokalisieren und vernichten Sie den amerikanischen Flugzeugträger.
+		<LineBreak/><LineBreak/>
+      3. DURCHFÜHRUNG:
+		<LineBreak/>3.1 EMCON (Emission Control) liegt im eigenen Ermessen.
+		<LineBreak/>3.2 Sobald der feindliche Träger geortet ist, ist er mit allen verfügbaren Mitteln zu vernichten.
+      <LineBreak/><LineBreak/>
+      4. FEINDLAGE (OOB):
+		<LineBreak/>4.1 EISENHOWER Trägerkampfgruppe
+		<LineBreak/>4.1.1 1 x Nimitz
+		<LineBreak/>4.1.2 1 x Iowa
+		<LineBreak/>4.1.3 1 x Ticonderoga 
+		<LineBreak/>4.1.4 Mehrere weitere Begleitschiffe
+      <LineBreak/><LineBreak/>
+      5. (S) EIGENE KRÄFTE (OOB):
+		<LineBreak/>5.1 Kirov-Kampfgruppe
+		<LineBreak/>5.1.1 Kirov RKR-181
+		<LineBreak/>5.1.2 Kronshtadt BPK-662
+		<LineBreak/>5.1.3 Bezuprechnyy EM-820
+		<LineBreak/>5.1.4 Vice-Admiral Kulakov BPK-401
+		<LineBreak/>5.1.5 TAVKR Kiev
+		<LineBreak/>5.2 Marinefliegerkräfte
+		<LineBreak/>5.2.1 12 x Tu-22M2 924th GuMRAP
+		<LineBreak/>5.2.1 12 x Tu-16K 987th MRAP
+		<LineBreak/>5.2.1 12 x MiG-25PD 445th IAP
+		<LineBreak/>5.3 K-209 (Pr.670M / Charlie-II)
+		<LineBreak/><LineBreak/>
+      6. (S) NACHRICHTENDIENSTLICHE EINSCHÄTZUNG:
+  <LineBreak/>6.1 Der Satellit Kosmos 1932 wird das Europäische Nordmeer um 0028Z überfliegen. Die Amerikaner versuchen jedoch, unsere Satelliten abzuschießen. HQ wird Zielkoordinaten übermitteln, wenn möglich.
+  <LineBreak/>6.2 Amerikanische U-Boote eskortieren mit hoher Wahrscheinlichkeit die Trägerkampfgruppe.
+    </TextBlock>
+</Grid>

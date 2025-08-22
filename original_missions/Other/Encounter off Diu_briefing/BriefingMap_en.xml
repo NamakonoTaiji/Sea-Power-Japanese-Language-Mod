@@ -8,7 +8,7 @@
         <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
             <Grid>
                 <Image Stretch="Uniform" Source="{Binding Assets[IndiaPakistanFar]}" Width="250"/>
-                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="210,0,0,110" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="90,0,0,110" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
             </Grid>
         </Border>
 		

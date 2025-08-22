@@ -1,0 +1,78 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="1988년 7월 7일 | Vol. 105, No. 188 | 52 Cents" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Image Source="{Binding Assets[washington_times_herald_logo]}" Stretch="UniformToFill" Margin="0"/>
+			<!-- Masthead of the Washington Times-Herald created by https://commons.wikimedia.org/w/index.php?title=User:Msinwnc&action=edit&redlink=1 under https://creativecommons.org/licenses/by-sa/4.0/deed.en. This image is included unedited directly from its host https://commons.wikimedia.org/wiki/File:Washington_Times-Herald_Logo.png -->
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Orientation="Vertical">
+					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="평화!" FontWeight="Bold" FontSize="200" LineHeight="0"  LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap" TextAlignment="Center" Margin="-35"/>
+					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="NATO AND SOVIETS AGREE TO CEASEFIRE" FontWeight="Bold" FontSize="36" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,0"/>
+				</StackPanel>	
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[15_reagan_gorbachev]}" Stretch="Uniform" Margin="0,15,0,15"/>
+                    <TextBlock Text="Reagan and Gorbachev shake hands after signing the ceasefire in The Hague yesterday, with both expressing optimism for a lasting peace. The short but bloody conflict threatened to spill over into a wider war. Both leaders emphasized the importance of continued dialogue and rebuilding trust between East and West. Preparations are already underway for formal peace talks, scheduled to begin in Geneva next month. — AP Wire Photo" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,0,15"/>
+                </StackPanel>
+				<StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical"> 
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify" Margin="0,15,0,15">
+					뉴욕 — In a dramatic turn after months of mounting confrontation at sea, President Ronald Reagan and General Secretary Mikhail Gorbachev have jointly announced an immediate ceasefire between NATO and Soviet forces. The agreement was reached late last night reportedly following days of secret negotiations. Effective at 0600 UTC today, all air and naval operations will cease, with orders transmitted to all units in contested regions from the North Atlantic to the Pacific.
+					<LineBreak/>
+					Leaders in both Washington and Moscow acknowledged the danger and emphasized the urgent need to pull back from the brink. The United Nations has praised both governments for their restraint, while citizens across Europe and North America celebrated the news with spontaneous gatherings in city centers.
+					<LineBreak/>
+					Markets worldwide surged on news of the ceasefire, with oil prices stabilizing and major stock indices posting record gains. Analysts say the swift move to dialogue may usher in a new era of cooperation—or, at the very least, a lasting pause to the most dangerous crisis of the Cold War. (continued on pg. 2)
+					</TextBlock>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="ATTU ISLAND GARRISONED BY U.S. MILITARY FORCES" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+ANCHORAGE, ALASKA — U.S. forces have established a permanent garrison on Attu Island in the Aleutians, reinforcing American sovereignty following the ceasefire. The move follows reported combat operations in the area last month, where an unspecified American task force reportedly engaged a Soviet invasion force.
+<LineBreak/>
+The outpost is reported to include Navy, Air Force, and Coast Guard elements, ensuring control over vital North Pacific sea lanes. (continued on pg. 3)
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <TextBlock Text="FORCES REMAIN ON ALERT, ALL OPTIMISTIC FOR PEACE" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+WASHINGTON, D.C. — Though the guns have fallen silent, NATO and Soviet military units remain on high alert across key theaters. Officials caution that tensions could flare until formal agreements are signed, but diplomats on both sides expressed optimism for a durable peace. Allied leaders called for vigilance and patience as new security arrangements are discussed.
+<LineBreak/>
+Troop rotations and air patrols continue while diplomats convene for the first round of talks in Geneva. (ctd on pg. 5)
+					</TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

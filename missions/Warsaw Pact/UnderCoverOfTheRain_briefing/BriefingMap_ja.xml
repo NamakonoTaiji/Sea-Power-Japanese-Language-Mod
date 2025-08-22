@@ -1,0 +1,81 @@
+<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Canvas
+        Width="1000" Height="800">
+        <Image Source="{Binding Assets[MapClose]}" />
+        <Border Canvas.Right="10" Canvas.Bottom="40" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[MapFar]}"
+                    Width="250" />
+                <Border BorderThickness="2"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="20" Height="10"
+                    Margin="120,0,0,130" BorderBrush="{StaticResource Brush.Border.FocusAccent}" />
+            </Grid>
+        </Border>
+        <Ellipse Canvas.Left="100"
+            Canvas.Top="470" Width="80" Height="80" Opacity="0.25" Fill="Red" />
+        <TextBlock
+            Canvas.Left="75" Canvas.Top="550" Text="船団の推定位置" Foreground="White" />
+        <Grid
+            Canvas.Left="90" Canvas.Top="360">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="0" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
+                    Stroke="{StaticResource NTDS.FriendColour}"
+                    Data="{StaticResource NTDS.Allied.Surface}" />
+                <Ellipse
+                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
+                    Stroke="{StaticResource NTDS.FriendColour}" />
+            </Canvas>
+        </Grid>
+        <TextBlock Canvas.Left="60" Canvas.Top="340" Text="ゾールキイ打撃群" Foreground="Blue" />
+        <Grid Canvas.Left="300" Canvas.Top="295">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="0" Width="22.5"
+                Height="22.5" HorizontalAlignment="Center">
+                <Path
+                    StrokeThickness="{DynamicResource ContactIconThickness}"
+                    Stroke="{StaticResource NTDS.FriendColour}"
+                    Data="{StaticResource NTDS.Allied.Surface}" />
+                <Ellipse
+                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
+                    Stroke="{StaticResource NTDS.FriendColour}" />
+            </Canvas>
+        </Grid>
+        <TextBlock Canvas.Left="260" Canvas.Top="280" Text="予備打撃群" Foreground="Blue" />
+        <Path Canvas.Left="55" Canvas.Top="395"
+            Data="M 0 -7 L 10 10 L 4 10 L 4 41 L -4 41 L -4 10 L -10 10 Z"
+            Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="-120" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Canvas.Left="90" Canvas.Top="460"
+            Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z"
+            Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="150" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Canvas.Left="210" Canvas.Top="320"
+            Data="M 0 -7 L 10 10 L 4 10 L 4 90 L -4 90 L -4 10 L -10 10 Z"
+            Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="-100" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Canvas.Left="230" Canvas.Top="400"
+            Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z"
+            Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="150" />
+            </Path.RenderTransform>
+        </Path>
+    </Canvas>
+</Viewbox>

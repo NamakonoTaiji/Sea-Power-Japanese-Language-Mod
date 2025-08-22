@@ -1,0 +1,62 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        1983年10月23日
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="差出人" />
+    <TextBlock Grid.Row="3"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第2艦隊司令官" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="USS CARON DD-970" />
+    <TextBlock Grid.Row="7" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="断片命令01 - アージェント・フューリー作戦" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 至急 - 極秘 <LineBreak />
+        <LineBreak />
+        1. (S) 状況:
+        米情報機関は、キューバ及びソ連軍が南アンティル諸島のグレナダに軍用飛行場を建設中であると見ている。大統領は間もなく「アージェント・フューリー作戦」の実行を承認する見込みである。作戦目的は、グレナダ在留の米国民の保護、民主的な政府の樹立、及び島内におけるキューバとソ連の影響力の排除である。作戦遂行のため、統合任務部隊120が編成されつつある。
+        <LineBreak />     <LineBreak />
+        2. (S) 任務: 米国の陸海空軍は、島への共同攻撃を調整し、米国民を救出し、敵の抵抗を排除する。 <LineBreak />     <LineBreak /> 3. (S) 実行:
+        USSカロンは、上陸部隊への艦砲射撃支援任務を負う。ただちにインディペンデンス戦闘群から分離し、最大船速で南下せよ。ムースブラッガーが10月21日に合流する。グレナダ沖12海里に陣取り、OUTBOARDシステムによる情報収集を開始し、その後の命令を待て。
+        <LineBreak />     <LineBreak />
+        4. (S) 敵戦闘序列:
+        グレナダ人民革命軍（PRA）は、ソ連供給の装甲車両及びZU-23対空機関砲を運用している疑いがある。上陸しているキューバ人顧問も軽装甲車両を装備しており、また、同海域にはフォックストロット級SSKの存在を示す兆候と警告がある。
+        <LineBreak />     <LineBreak />
+        5. (S) 友軍戦闘序列: インディペンデンス戦闘群はグレナダの北西に、グアムを擁するMARG
+        1-84は北方に陣取る。インディペンデンスからの攻撃部隊とグアムからのコブラが、上陸部隊への航空支援を提供する。 <LineBreak />     <LineBreak /> 6. (S)
+        備考: この作戦は、米国民の安全を確保し、ソ連がカリブ海に新たな基地を設立するのを阻止するものである。健闘を祈る。 <LineBreak />     <LineBreak /> 極秘 <LineBreak />
+        宛先の許可なく機密解除しないこと </TextBlock>
+</Grid>

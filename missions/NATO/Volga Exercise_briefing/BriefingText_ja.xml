@@ -1,0 +1,60 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        1985年5月24日
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="差出人" />
+    <TextBlock Grid.Row="3"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="大西洋艦隊総司令官" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="ニュージャージーSAG司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="断片命令01 - 緊急任務変更" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 至急 - 機密 <LineBreak />         <LineBreak /> 1. (S) 状況:
+        西ドイツではNATO軍とワルシャワ条約機構軍の戦闘が継続中。NATOのリフォージャー演習船団は、米国東海岸からアントワープ及びブレストへ向け、定期スケジュール通りに航行中。ソ連の潜水艦及び爆撃機部隊が船団の阻止を試みているが、これまでのところ大きな戦果は挙げていない。5月19日、国家技術情報源は、ムルマンスクに停泊中のキーロフ級原子力ミサイル巡洋艦（CGN）及びソヴレメンヌイ級ミサイル駆逐艦（DDG）の機関室において、熱源の上昇を探知。これらの部隊は5月22日の次回衛星通過時の画像から姿を消しており、大西洋へ移動中と疑われる。
+        <LineBreak />         <LineBreak />
+        2. (S) 任務: NATOの海空部隊は、GIUKギャップにて阻止作戦を実施し、キーロフSAGを捜索、撃破せよ。 <LineBreak />         <LineBreak /> 3. (S)
+        実行:
+        付近に展開するNATO部隊は限定的である。ニュージャージーSAGはGIUKギャップ西側の防衛を担当。ドイツ海軍部隊はヘブリディーズ諸島にて東側の阻止線を担当する。ケプラヴィークから発進するP-3が捜索を支援。キーロフSAGを発見次第、あらゆる手段を行使してこれを撃沈せよ。
+        <LineBreak />         <LineBreak />
+        4. (S) 敵戦闘序列: キーロフ級CGN 1隻、ソヴレメンヌイ級DDG
+        1隻。Tu-95航空機及び情報収集トロール船（AGI）が、貴部隊の目標データを伝達する可能性がある。キーロフ級CGNは、射程350海里のSS-N-19シップレックミサイルを20発搭載。 <LineBreak />         <LineBreak />
+        5. (S) 付記:
+        不均衡な戦闘が予想されるため、電波発射管制（EMCON）を推奨する。これらの部隊は、大西洋に進入し我が船団に脅威を与える前に、迎撃せねばならない。大西洋艦隊総司令官は、これが困難な任務であると理解しているが、ニュージャージーなら必ずや成し遂げると信じている。健闘を祈る。
+        <LineBreak />         <LineBreak />
+        機密 <LineBreak /> 名宛人の承認なく機密指定を解除してはならない </TextBlock>
+</Grid>

@@ -1,0 +1,59 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        1980年11月28日
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+    <TextBlock Grid.Row="3"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="イラン・イスラム共和国海軍司令官" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第421任務部隊司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="新任務 - モルヴァーリード作戦 (عملیات مروارید)" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1.
+        イラク軍はアバダンの我が製油所を破壊。司令部より報復攻撃が命令された。我が部隊はホール・アル・アマヤ及びミナ・アル・バクルの海上石油ターミナルを破壊する。これらの戦略的石油ターミナルの喪失は、イラクの石油輸出能力を大幅に阻害するであろう。司令部はこの攻撃がイラク海軍を誘い出し、我が部隊がこれを撃滅する好機となると判断している。
+        <LineBreak />     <LineBreak />
+        2.
+        今夜、第421任務部隊は石油ターミナルに海兵隊を展開させ、爆薬を設置した後ヘリコプターで撤収させる。第421任務部隊の艦艇は、アル・ファウ及びウンム・カスルを封鎖するため、沿岸に留まる。本任務にはジョシャン及びペイカーンが指定される。
+        <LineBreak />     <LineBreak />
+        3.
+        最新の評価によれば、アル・ファウにP-6級魚雷艇4隻、ウンム・カスルにオーサIまたはオーサII級ミサイル艇5隻が確認されている。ポルノクニー級揚陸艦もウンム・カスルに在泊しており、石油ターミナル奪還のため出撃する可能性がある。
+        <LineBreak />     <LineBreak />
+        4.
+        イラン・イスラム共和国空軍(IRIAF)のトムキャット要撃機1機が、空中レーダープラットフォームとして貴官の指揮下に入る。マーベリックミサイルを搭載したファントムも、ブーシェフルから貴隊支援のため出撃する。敵を洋上に誘い出し、遭遇した全部隊を撃滅せよ。健闘を祈る。
+        <LineBreak />     <LineBreak />
+        極秘 </TextBlock>
+</Grid>
