@@ -1,0 +1,101 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Г (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>М)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Командование флотом"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Командующему группой Нарвик"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Здч:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Операция Тролльфьорд"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="ЗДЧ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Боевое задание"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.  Оперативная обстановка
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+	  Due to the recent attacks by Iran on merchant shipping passing in and out of the Persian Gulf, it has been decided to organize escorted convoys to protect maritime trade.
+	-->
+	
+	Всё готово к началу операции «Тролльфьорд». Ваша группа находится в идеальном положении для перехвата советских десантных сил, следующих в Тромсё.
+      <LineBreak/>
+      <LineBreak/>Наши корабли прячутся под прикрытием берега в 500-х морских милях впереди от цели вражеского вторжения. Хитрость еще нас никогда не подводила и теперь пришёл её черед.
+      <LineBreak/>
+      <LineBreak/>Главные силы группы «Нарвик», ведомые фрегатом F304 «Нарвик» скрыты под крутыми изрезанными берегами норвежского побережья. Перед вами расположены дву ударные группы ракетных катеров и две подлодки типа «Коббен», которые предыдущие два дня скрытно развёртывались под прикрытием шумов местного судоходства.
+      <LineBreak/>
+      <LineBreak/>Силы, находящиеся в Вашем распоряжении уступают противнику, поэтому используйте Вашу находчивость и знание местности, чтобы атаковать десантное соединение противника.
+      <LineBreak/>
+	
+	  <LineBreak/>
+      <LineBreak/>
+      2.  Главная задача:
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      You are to escort the three oil tankers past the Strait of Hormuz to the designated area.
+	-->
+      Атакуйте советское десантное соединение, проходящее через вашу позицию. Используйте рельеф местности, чтобы избегать обнаружения радарами, используйте малошумность ваших подлодок и нанесите по врагу удар!
+      <LineBreak/>
+      <LineBreak/>
+      <LineBreak/>
+      3.  Силы противника:
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      Intel believes only a small force of patrol craft have been sortied by Iran at this point. Your forces should be able to brush them aside with little effort.
+	-->
+	
+	С высокой долей вероятности основные десантные силы прикрыты кораблями ПЛО и прочими боевыми кораблями. Точно рассчитывайте момент вашего удара и открывайте огонь только тогда, когда цели уверенно опознаны как вражеские и наступил благоприятный момент для атаки.
+      <LineBreak/>
+      <LineBreak/>Ожидается, что совесткие силы будут иметь ограниченную поддержку с воздуха в виде как самолётов, так и вертолётов.
+      <LineBreak/>Ожидается, что из-за плохой погоды советская система спутниковой разведки «Зенит» не сможет дать противнику точные и своевременные данные о составе и положении наших сил.
+      <LineBreak/>
+      <LineBreak/>Присутствие советских подводных лодок не ожидается. 
+      <LineBreak/>С высокой долей вероятности десантное соединение сопровождается небольшой группой судов снабжения. Эти суда – ваша дополнительная цель.
+	
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      4.  (S) Warning Yellow - Do not fire unless fired upon
+	-->
+	  <!--
+      5.  (S) EMCON - Maintain radio silence until otherwise directed
+	  -->
+	  Режим использования РТС – на Ваше усмотрение, но подходите к использованию излучающих средств с осторожностью.
+	  <LineBreak/>
+	  <LineBreak/>
+	  
+	  
+	  
+    </TextBlock>
+</Grid>

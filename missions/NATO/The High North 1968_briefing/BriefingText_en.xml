@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		20DEC1968
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS JOSEPH P. KENNEDY JR. DD-850"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CONTACT REPORT"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		FLASH - TOP SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) NAVFAC Norway reported transit of suspected YANKEE class USSR ballistic missile submarine 0030Z yesterday.
+		<LineBreak/>
+		<LineBreak/>
+		2. (TS) National technical intelligence sources indicate USSR Northern Fleet is preparing to get underway, with radio traffic at triple normal level. Soviet surge into the North Atlantic may be imminent. National Command Authority is inquiring their intentions at this time.
+		<LineBreak/>
+		<LineBreak/>
+		3. (TS) Compartmented source "RED DREAM" has passed warning that YANKEE SSBN detected is rogue commander with intentions to strike the U.S. Eastern Seaboard.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) As only U.S.N. unit in the area, proceed northeast to Point CHARLIE, then locate YANKEE SSBN and destroy him. 
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) Air support will be provided from VP-56 out of NAS Reykjavik with first aircraft reporting on top no later than 1035Z. Report location of sinking and await further orders. Good luck.
+		<LineBreak/>
+		<LineBreak/>
+		TOP SECRET
+		<LineBreak/>
+		DO NOT DECLASSIFY WITHOUT PERMISSION OF ORIGINATOR
+	  </TextBlock>
+</Grid>

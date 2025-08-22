@@ -1,0 +1,77 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Naval Command"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Commander of Task Force Narvik"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Info:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Operation Trollfjorden"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Mission Orders"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.  (S)    Tactical Situation:
+      <LineBreak/>
+      <LineBreak/>We are ready to proceed with Operation Trollfjorden. Your Task Force is in perfect position to intercept Soviet Landing Force inbound towards Tromso.
+      <LineBreak/>
+      <LineBreak/>Our units are in hiding, positioned 500 miles forwards of where the enemy expects them to be. So far the ruse has worked and now it's show time.
+      <LineBreak/>
+      <LineBreak/>The main units of Task Force Narvik, led by F304 Narvik are concealed by the rugged Norwegian shoreline. To the front of F304 there are two Strike Groups of Fast Attack Craft and two Kobben class submarines that have spent the last three days shadowing civilian traffic to avoid detection.
+      <LineBreak/>
+      <LineBreak/>The forces at your disposal are technically inferior to those of the enemy, so use your wits and familiarity with terrain to execute a decisive attack on the enemy Landing Force.
+      <LineBreak/>
+	  <LineBreak/>
+      <LineBreak/>
+      2.  (S) Primary Objective:
+      <LineBreak/>
+      <LineBreak/>Attack the Soviet Landing Force passing by your location. Use the limitations of radar systems against terrain to mask your FACs approach, and utilize the silence of your Kobbens to strike the enemy!
+      <LineBreak/>
+      <LineBreak/>
+      <LineBreak/>
+      3.  (S) Threat Report:
+      <LineBreak/>
+      <LineBreak/>It is assessed as highly likely that primary Landing Force will be screened by ASW and ASuW warships. Time your reveal and open fire only when you gain positive ID on enemy ships and are in an advantageous situation.
+      <LineBreak/>
+      <LineBreak/>It is assessed as likely that limited airborne support will be available to Soviet units from both Fixed and Rotary Wing Assets.
+	  <LineBreak/>
+      <LineBreak/>It is assessed as highly likely that due to weather conditions enemy Zenith Satellite Reconnaissance System information is not up to date on our location and force composition.
+      <LineBreak/>
+      <LineBreak/>Soviet submarines are not anticipated to be a threat at this time. 
+	  <LineBreak/>
+      <LineBreak/>It is assessed as highly likely that the Landing Force is being followed by small Resupply group. Those are considered secondary targets.
+      <LineBreak/>
+      <LineBreak/>
+      <LineBreak/>
+	  4.  (S) EMCON - At your discretion, be advised to use your emissions wisely.
+    </TextBlock>
+</Grid>

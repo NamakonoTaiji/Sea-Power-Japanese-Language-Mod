@@ -1,0 +1,103 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Border Background="AntiqueWhite"
+            HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272"
+            Padding="45"
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+            TextElement.FontSize="16">
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Rectangle
+                    HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock
+                    Text="1988年7月7日 | 第105巻 第188号 | 52セント" Margin="0,15,0,15" FontSize="24" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Image
+                    Source="{Binding Assets[washington_times_herald_logo]}" Stretch="UniformToFill"
+                    Margin="0" />
+                <Rectangle HorizontalAlignment="Stretch"
+                    Height="5" Fill="Black" />
+                <Grid Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition
+                            Width="30" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"
+                        Orientation="Vertical">
+                        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="平和！" FontWeight="Bold"
+                            FontSize="200" LineHeight="0" LineStackingStrategy="BlockLineHeight"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="-35" />
+                        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="NATOとソ連、停戦に合意"
+                            FontWeight="Bold"
+                            FontSize="36" TextWrapping="Wrap" TextAlignment="Center"
+                            Margin="0,0,0,0" />
+                    </StackPanel>
+                    <StackPanel
+                        Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                        <Image Source="{Binding Assets[15_reagan_gorbachev]}" Stretch="Uniform"
+                            Margin="0,15,0,15" />
+                        <TextBlock
+                            Text="昨日ハーグで停戦協定に署名した後、握手を交わすレーガン大統領とゴルバチョフ書記長。両者とも恒久平和への楽観的な見方を示した。短期間ながらも血なまぐさい紛争は、より広範な戦争へと拡大する恐れがあった。両首脳は、東西間の対話継続と信頼再構築の重要性を強調した。来月ジュネーブで開始予定の正式な和平交渉に向け、準備はすでに進められている。 — AP通信"
+                            TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,0,15" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Grid.Row="1"
+                        Orientation="Vertical">
+                        <TextBlock TextWrapping="Wrap"
+                            TextAlignment="Justify" Margin="0,15,0,15"> ニューヨーク —
+                            数ヶ月にわたる海上での対立激化の後、ロナルド・レーガン大統領とミハイル・ゴルバチョフ書記長は、NATOとソ連軍との間の即時停戦を共同で発表するという劇的な展開を見せた。合意は昨夜遅く、数日間にわたる秘密交渉の末に達したと報じられている。本日0600
+                            UTC（協定世界時）をもって、北大西洋から太平洋に至る紛争地域内の全部隊に命令が伝達され、全ての航空及び海上作戦は停止される。 <LineBreak />
+                            ワシントンとモスクワの両首脳は危険性を認識し、崖っぷちから後退する必要性を強調した。国連は両政府の自制を称賛し、ヨーロッパと北米の市民は市街地で自然発生的な集会を開き、このニュースを祝った。
+                            <LineBreak />
+                            停戦のニュースを受け、世界中の市場は急騰し、原油価格は安定、主要株価指数は記録的な上昇を見せた。アナリストによれば、対話への迅速な移行は協力の新時代を告げるものか、あるいは少なくとも冷戦で最も危険な危機に恒久的な休止をもたらす可能性があるという。（2ページへ続く）
+                            </TextBlock>
+                    </StackPanel>
+                </Grid>
+                <Rectangle
+                    HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Grid
+                    Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="3*" />
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock
+                            Text="米軍、アッツ島に守備隊を配置" FontSize="24" FontWeight="Bold"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify"> アラスカ州アンカレッジ —
+                            米軍はアリューシャン列島のアッツ島に常設の守備隊を設置し、停戦後の米国の主権を強化した。この動きは、先月同地域で報告された戦闘作戦に続くもので、未確認の米機動部隊がソ連の侵攻部隊と交戦したと伝えられている。
+                            <LineBreak />
+                            この前哨基地には海軍、空軍、沿岸警備隊の部隊が含まれ、北太平洋の重要なシーレーンの支配を確保すると報じられている。（3ページへ続く） </TextBlock>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Orientation="Vertical">
+                        <TextBlock Text="部隊は警戒態勢を維持、平和への期待は高まる" FontSize="24" FontWeight="Bold"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify"> ワシントンD.C. —
+                            砲声は止んだものの、NATOとソ連の軍事部隊は主要な戦域で依然として厳戒態勢を維持している。当局者は、正式な合意が署名されるまで緊張が再燃する可能性があると警告するが、双方の外交官は恒久的な平和への楽観的な見方を示した。同盟国首脳は、新たな安全保障体制が協議される中、警戒と忍耐を呼びかけた。
+                            <LineBreak />
+                            ジュネーブで第一回交渉のために外交官が集まる間も、部隊の交代や航空哨戒は続けられている。（5ページへ続く） </TextBlock>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Viewbox>
+</Page>

@@ -1,0 +1,203 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Grid Width="1920" Height="1080">
+            <Border
+                HorizontalAlignment="Center" VerticalAlignment="Center" Width="1120" Height="864"
+                Padding="45"
+                TextElement.Foreground="Black" TextElement.FontSize="16"
+                Background="#FFFAEBD7">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.85" ScaleY="0.85" />
+                        <SkewTransform />
+                        <RotateTransform Angle="-8" />
+                        <TranslateTransform X="178" Y="136" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition
+                            Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image
+                        Grid.Row="0" Source="{Binding Assets[NavyDSM]}" Width="153"
+                        VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-30,0,0" />
+                    <Image Grid.Row="2"
+                        Source="{Binding Assets[Seal_of_the_United_States_Department_of_Defense]}"
+                        Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+                    <StackPanel Grid.Row="1" Orientation="Vertical">
+                        <TextBlock Text="海軍省"
+                            TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45"
+                            HorizontalAlignment="Center" Margin="0,10,0,0" />
+                        <TextBlock
+                            Text="本文書を閲覧する総ての者へ、海軍長官が本日を以て、下記勲章を授与したことを証明する" TextWrapping="Wrap"
+                            FontFamily="Imprint MT Shadow" TextAlignment="Center"
+                            HorizontalAlignment="Center" Margin="0,5,0,0" />
+                        <TextBlock
+                            Text="殊勲章" FontFamily="Imprint MT Shadow" FontSize="45"
+                            HorizontalAlignment="Center" Margin="-15,10,-15,0" />
+                        <TextBlock
+                            Text="授与対象" TextWrapping="Wrap" FontFamily="Imprint MT Shadow"
+                            TextAlignment="Center" FontSize="24" HorizontalAlignment="Center"
+                            Margin="0,5,0,0" />
+                        <TextBlock Text="リー・ガードナー・ジュニア中佐"
+                            TextWrapping="Wrap" HorizontalAlignment="Center"
+                            FontFamily="Courier New" FontWeight="Bold" FontSize="26"
+                            Margin="0,5,0,0" />
+                        <TextBlock
+                            Text="1988年6月2日、アッツ島において第84戦闘飛行隊（VF-84）司令官として合衆国に卓越かつ類稀なる貢献を為した功績を称えるもの。その類稀なる能力と率先垂範の精神により、ガードナー中佐は自身に大いなる名誉をもたらし、合衆国海軍の崇高なる伝統を堅持した。"
+                            TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New"
+                            FontSize="20" FontWeight="Bold" />
+                    </StackPanel>
+                    <TextBlock
+                        Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow"
+                        VerticalAlignment="Center" FontSize="12"> ワシントンDC市において、我が名の下に授与す <LineBreak />
+<Run
+                            FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988年</Run> <Run
+                            FontFamily="Courier New" FontWeight="Bold" FontSize="18">6月18日</Run>
+                    </TextBlock>
+                    <StackPanel Grid.Row="2" HorizontalAlignment="Right"
+                        VerticalAlignment="Center">
+                        <TextBlock Text="David J Osborne"
+                            FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15" />
+                        <Rectangle Height="1" Fill="#FF000000" Margin="15,0,15,0" />
+                        <TextBlock
+                            FontFamily="Imprint MT Shadow" Text="David J Osborne, NVSFCTA"
+                            TextAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="1120"
+                Height="864"
+                Padding="45"
+                TextElement.Foreground="Black" TextElement.FontSize="16"
+                Background="#FFFAEBD7">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.85" ScaleY="0.85" />
+                        <SkewTransform />
+                        <RotateTransform Angle="-20" />
+                        <TranslateTransform X="-382" Y="204" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition
+                            Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image
+                        Grid.Row="0" Source="{Binding Assets[Navy_Cross]}" Width="153"
+                        VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-30,0,0" />
+                    <Image Grid.Row="2"
+                        Source="{Binding Assets[Seal_of_the_United_States_Department_of_Defense]}"
+                        Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+                    <StackPanel Grid.Row="1" Orientation="Vertical">
+                        <TextBlock Text="アメリカ合衆国"
+                            TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45"
+                            HorizontalAlignment="Center" Margin="0,10,0,0" />
+                        <TextBlock
+                            TextWrapping="Wrap" FontFamily="Imprint MT Shadow"
+                            TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0"
+                            Text="アメリカ合衆国大統領は、下記勲章を授与する" />
+                        <TextBlock Text="海軍十字章"
+                            FontFamily="Imprint MT Shadow" FontSize="45"
+                            HorizontalAlignment="Center" Margin="-15,10,-15,0" />
+                        <TextBlock
+                            Text="授与対象" TextWrapping="Wrap" FontFamily="Imprint MT Shadow"
+                            TextAlignment="Center" FontSize="24" HorizontalAlignment="Center"
+                            Margin="0,5,0,0" />
+                        <TextBlock Text="エドワード・G・マイヤー三世中佐"
+                            TextWrapping="Wrap" HorizontalAlignment="Center"
+                            FontFamily="Courier New" FontWeight="Bold" FontSize="26"
+                            Margin="0,5,0,0" />
+                        <TextBlock
+                            Text="1988年6月2日、アッツ島沖において第75.3任務部隊司令官として合衆国に卓越かつ類稀なる貢献を為した功績を称えるもの。その類稀なる能力、率先垂範の精神、そして任務への完全なる献身により、マイヤー中佐は自身に大いなる名誉をもたらし、合衆国海軍の崇高なる伝統を堅持した。"
+                            TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New"
+                            FontSize="20" FontWeight="Bold" />
+                    </StackPanel>
+                    <TextBlock
+                        Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow"
+                        VerticalAlignment="Center" FontSize="12"> ワシントンDC市において、我が名の下に授与す <LineBreak />
+<Run
+                            FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988年</Run> <Run
+                            FontFamily="Courier New" FontWeight="Bold" FontSize="18">6月12日</Run>
+                    </TextBlock>
+                    <StackPanel Grid.Row="2" HorizontalAlignment="Right"
+                        VerticalAlignment="Center">
+                        <TextBlock Text="Donald G Watson"
+                            FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15" />
+                        <Rectangle Height="1" Fill="#FF000000" Margin="15,0,15,0" />
+                        <TextBlock
+                            FontFamily="Imprint MT Shadow" Text="Donald G Watson, SFCTA"
+                            TextAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Image Source="{Binding Assets[United_States_Navy_Presidential_Unit_Citation_ribbon]}"
+                Width="250" Margin="904,102,-34,694">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform
+                            Angle="19" />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Image.RenderTransform>
+                <Image.Effect>
+                    <DropShadowEffect />
+                </Image.Effect>
+            </Image>
+            <Image Width="250"
+                Source="{Binding Assets[Navy_Distinguished_Service_Medal_ribbon]}"
+                Margin="955,419,-85,377">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform
+                            Angle="-7" />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Image.RenderTransform>
+                <Image.Effect>
+                    <DropShadowEffect />
+                </Image.Effect>
+            </Image>
+            <Image Width="250" Source="{Binding Assets[Navy_Cross_ribbon]}"
+                Margin="948,690,-78,106">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform
+                            Angle="-31" />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Image.RenderTransform>
+                <Image.Effect>
+                    <DropShadowEffect />
+                </Image.Effect>
+            </Image>
+        </Grid>
+    </Viewbox>
+</Page>

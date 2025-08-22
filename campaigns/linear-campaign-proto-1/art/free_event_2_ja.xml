@@ -1,0 +1,104 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Border Background="AntiqueWhite"
+            HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272"
+            Padding="45"
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+            TextElement.FontSize="16">
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Rectangle
+                    HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock
+                    Text="1988年5月1日 日曜日 | 第105巻 第42号 | 52セント" Margin="0,15,0,15" FontSize="24" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Image
+                    Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill"
+                    Margin="0,15,0,15" />
+                <Rectangle HorizontalAlignment="Stretch"
+                    Height="5" Fill="Black" />
+                <Grid Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition
+                            Width="30" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="ソ連艦、黒海で米海軍艦艇に衝突。米国は無害通航を主張"
+                        FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center"
+                        Margin="0,0,0,15" />
+                    <StackPanel Grid.Column="2"
+                        Grid.Row="1" Orientation="Vertical">
+                        <TextBlock
+                            Text="国防総省、作戦を『意図的かつ危険』と非難" FontSize="24" TextWrapping="Wrap"
+                            TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock
+                            TextWrapping="Wrap" TextAlignment="Justify"> バージニア州ノーフォーク発 —
+                            昨日、ソ連の軍艦2隻が黒海で活動中の米海軍艦艇に意図的に衝突し、緊張が急激に高まった。クリミア半島付近で発生したこの事件には、ミサイル巡洋艦USSヨークタウン（CG-48）と駆逐艦USSカロン（DD-970）が関与しており、両艦は海軍が言うところの国際水域での「無害通航」を実施中であった。
+                            <LineBreak />
+                            米国当局によると、ソ連のクリヴァク級フリゲート「ベザヴェートヌイ」とミルカ級フリゲートが、両米艦の船首を横切るように攻撃的に機動し、低速で接触した。負傷者は報告されていないが、カロンは左舷に表面的な損傷を負った。
+                            <LineBreak />
+                            フランク・カールッチ国防長官はソ連の行動を「無謀かつエスカレートさせるもの」として非難した。クレムリンは、米国が機密性の高いソ連施設の近くで「挑発的な監視」を行ったと非難し、この衝突破壊を防御的措置として擁護している。（衝突について2面参照）
+                            </TextBlock>
+                    </StackPanel>
+                    <StackPanel
+                        Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                        <Image Source="{Binding Assets[02_yorktown_collision]}" Stretch="Uniform" />
+                        <TextBlock
+                            Text="ソ連のフリゲート「ベザヴェートヌイ」が米巡洋艦ヨークタウンに衝突。USSカロンもまた、領海を主張するソ連艦によって意図的に衝突された。この意図的な衝突破壊は、航行の自由作戦を実施する米海軍艦艇と、拡大する領海主張を掲げるソ連軍との遭遇の一環として発生した。 — 米海軍写真"
+                            TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0" />
+                    </StackPanel>
+                </Grid>
+                <Rectangle HorizontalAlignment="Stretch"
+                    Height="5" Fill="Black" />
+                <Grid Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition
+                            Width="30" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0"
+                        Orientation="Vertical">
+                        <TextBlock Text="米艦隊、航路変更"
+                            FontSize="24" FontWeight="Bold" TextWrapping="Wrap"
+                            TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock
+                            TextWrapping="Wrap" TextAlignment="Justify"> スペイン、ロタ発 —
+                            米海軍は、北大西洋およびバレンツ海におけるソ連海軍の活動活発化を受け、断固たる武力示威として、地中海での作戦から水上戦闘群（SAG）を北海へ転進させた。土曜日の早朝にロタ米海軍基地を出発したこの機動部隊は、1週間以内にNATOの北方海上防衛を増強することが期待される。
+                            <LineBreak />
+                            この動きは、バレンツ海でのソ連のミサイル実験や北大西洋への潜水艦の侵入増加により、NATO軍が高度な警戒態勢にある中で行われた。情報報告によると、数隻のソ連の巡洋艦と駆逐艦が、大西洋と北極海の間のアクセスを制御する海上のチョークポイントであるGIUKギャップ（グリーンランド-アイスランド-イギリス間）の北に展開している。（海軍について4面参照）
+                            </TextBlock>
+                    </StackPanel>
+                    <StackPanel
+                        Grid.Column="2" Orientation="Vertical">
+                        <TextBlock
+                            Text="ソ連、核ミサイル実験を実施" FontSize="24" FontWeight="Bold" TextWrapping="Wrap"
+                            TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock
+                            TextWrapping="Wrap" TextAlignment="Justify"> モスクワ発 —
+                            東西関係をさらに緊張させる動きとして、ソ連はバレンツ海で一連のミサイル実験を計画していると発表し、NATO内でモスクワの軍事的意図に対する懸念を煽っている。今後2週間以内に実施予定のこの実験には、潜水艦発射型および地上発射型の弾道ミサイルが含まれる。
+                            <LineBreak />
+                            クレムリンは、このミサイル発射をソ連の防衛能力を検証するための「定例の即応性演習」の一環と位置づけている。しかし、西側の分析家は、いくつかの海軍の対立の最中という実験のタイミングが、標準的な訓練というよりは武力の誇示を示唆していると懸念している。（ミサイルについて7面参照）
+                            </TextBlock>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Viewbox>
+</Page>

@@ -1,0 +1,58 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="赤旗太平洋艦隊司令官 (TOF)" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ヴォストーク機動部隊" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="リベンジ作戦" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年5月10日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
+        昨日、合衆国のスパイ船が我が国の領海内で我々の作戦を監視すべく、攻撃的な哨戒活動を行っていた。我々はアメリカ側を追尾し、干渉させないために水上戦闘群を派遣した。国益保護の過程において、アメリカ側が領海から退去しなかったため、過度に攻撃的な司令官がUSNSケープ・ジラードーを拿捕し、ソビエトの戦友と共に米乗組員が死亡した。同海域で作戦中のNATO潜水艦は即座に反撃し、我が軍艦を撃沈、戦友たちを殺害した。事態の深刻化と核戦争の可能性が懸念されるものの、ソ連の兵士と艦船は海底に沈み、彼らの死に報いねばならない。クレムリンは、アッツ島から日本へ向かう米機動部隊を発見し、これを撃沈するよう命じた。
+       <LineBreak /><LineBreak />
+        2. (S) 任務: <LineBreak />2.1 アッツ島から日本へ向かう米機動部隊を発見せよ。 <LineBreak />2.2 米水上部隊を目標とし、これを無力化せよ。 <LineBreak /><LineBreak />
+        3. (S) 実行: <LineBreak />3.1 EMCON（電波発射管制）規定は貴官の裁量に委ねる。 <LineBreak />3.2 航空戦力が任務支援のため、現在接近中。 <LineBreak />3.3
+        自軍部隊を最大限保護せよ。 <LineBreak /><LineBreak /> 4. (S) 敵戦闘序列: <LineBreak />4.1 米機動部隊 <LineBreak />4.1.1
+        リーヒ級巡洋艦 x 1 <LineBreak />4.1.2 スプルーアンス級駆逐艦 x 1 <LineBreak />4.1.3 ベルナップ級巡洋艦 x 1 <LineBreak />4.1.4
+        オリバー・ハザード・ペリー級フリゲート x 1 <LineBreak /><LineBreak /> 5. (S) 友軍戦闘序列: <LineBreak />5.1
+        ヴォストーク機動部隊 <LineBreak />5.1.1 ストーイキー EM-679 <LineBreak />5.1.2 オズマトリテルヌイ EM-672 <LineBreak />5.1.3
+        スラヴァ RKR-103 <LineBreak />5.1.4 アドミラル・イサチェンコフ BPK-686 <LineBreak />5.2 航空部隊 <LineBreak />5.2.1
+        Tu-95RT 偵察機 <LineBreak />5.2.2 Tu-22M2 爆撃機 x 2 <LineBreak />5.3 第10潜水艦師団 <LineBreak />5.3.1
+        K-175 (675型) <LineBreak /><LineBreak /> 6. (S) 諜報評価: <LineBreak />6.1
+        米機動部隊は日本に向け南西に進路を取っていると予想される。 <LineBreak />6.2 米部隊の不意を突くことが期待される。 <LineBreak />6.3
+        敵の航空支援はないと予想される。 </TextBlock>
+</Grid>

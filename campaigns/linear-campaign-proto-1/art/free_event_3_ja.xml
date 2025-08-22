@@ -1,0 +1,265 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Grid>
+            <Border
+                Background="White" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Width="864" Height="1120" Padding="45"
+                TextElement.FontFamily="Times New Roman"
+                TextElement.Foreground="Black" TextElement.FontSize="16">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="5" CenterX="432"
+                            CenterY="560" />
+                        <TranslateTransform X="250" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Vertical">
+                        <TextBlock Text="極秘" Foreground="Black" TextAlignment="Center" FontSize="24" />
+                        <TextBlock Text="25X1" Foreground="Black" TextAlignment="Right"
+                            FontSize="24" />
+                        <Rectangle Height="4" Fill="Black" />
+                        <TextBlock
+                            Text=" " Foreground="Black" TextAlignment="Center" FontSize="3" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1">
+                        <TextBlock
+                            TextWrapping="Wrap">
+                            <LineBreak />         
+       <Run FontWeight="Bold" FontSize="24">
+                                III. エスカレーションの可能性
+                            </Run>             <LineBreak />
+                            現在の動向を鑑みれば、敵対行為が海上でのより直接的な対立へとエスカレートする可能性は高い。 <LineBreak />
+                <LineBreak />
+                            ソ連は、米空母群への嫌がらせや攻撃的な航空迎撃など、抑制的ではあるが攻撃的な海軍交戦を行うことで、その決意を示そうとする可能性がある。 <LineBreak />
+                <LineBreak />
+                            人命の損失を伴ういかなる直接的対立も、特に主力艦への攻撃は、より広範な地域紛争を引き起こす可能性がある。 <LineBreak />   
+             <LineBreak />             <Run
+                                FontWeight="Bold" FontSize="24">
+                                IV. 勧告
+                            </Run>             <LineBreak />
+                            1. 地中海の米第2艦隊戦力を北大西洋へ即時移動させること（進行中）。 <LineBreak /> 2.
+                            ソ連のSSBNが聖域に到達する前に迎撃・追尾するため、追加の米攻撃型潜水艦を展開すること。 <LineBreak /> 3.
+                            NATO同盟国と連携し、偶発的なエスカレーションを防ぐため、海軍哨戒を強化し、明確な交戦規定を確立すること。 <LineBreak /> 4.
+                            信頼できる抑止態勢を維持しつつ、誤算のリスクを軽減するため、モスクワとの外交的裏ルートを強化すること。 <LineBreak />   
+             <LineBreak />             <Run
+                                FontWeight="Bold" FontSize="24">
+                                結論
+                            </Run>             <LineBreak />
+                            海上での緊張の高まりと、モスクワのINF条約からの脱退を考慮すると、今後30～60日以内に敵対行為がエスカレートする可能性は非常に高い。米国及びNATOは、全面的な対立を防ぐための外交努力を維持しつつ、ソ連海軍の攻撃性の高まりに備えなければならない。
+                            </TextBlock>
+                        <TextBlock Text="" Foreground="Black"
+                            TextAlignment="Center" FontSize="3" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Orientation="Vertical">
+                        <TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3" />
+                        <TextBlock Text="-1-" Foreground="Black" TextAlignment="Center"
+                            FontSize="12" />
+                        <TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3" />
+                        <TextBlock Text="極秘" Foreground="Black" TextAlignment="Center" FontSize="24" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Border
+                Background="White" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Width="864" Height="1120" Padding="45"
+                TextElement.FontFamily="Times New Roman"
+                TextElement.Foreground="Black" TextElement.FontSize="16">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-5" CenterX="432"
+                            CenterY="560" />
+                        <TranslateTransform X="-250" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackPanel
+                        Grid.Row="0" Orientation="Vertical">
+                        <Border
+                            Background="Black" Margin="-45,0">
+                            <TextBlock
+                                Text="情報報告書  情報報告書" Foreground="White" TextAlignment="Center"
+                                FontSize="36" />
+                        </Border>
+                        <TextBlock
+                            Text=" " Foreground="Black" TextAlignment="Center" FontSize="24" />
+                        <TextBlock Text="中央情報局" Foreground="Black" TextAlignment="Center"
+                            FontSize="24" />
+                        <TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24" />
+                        <TextBlock
+                            Text="この資料は、合衆国の国防に影響を与える情報を含んでおり、スパイ防止法第18編第793条及び第794条に基づき、許可なく内容を伝達または開示することは法律で禁じられている。"
+                            Foreground="Black" TextAlignment="Justify" FontSize="12"
+                            TextWrapping="Wrap" />
+                        <TextBlock Text=" "
+                            Foreground="Black" TextAlignment="Center" FontSize="12" />
+                        <TextBlock Text="極秘" Foreground="Black" TextAlignment="Center" FontSize="24" />
+                        <TextBlock Text="25X1" Foreground="Black" TextAlignment="Right"
+                            FontSize="24" />
+                        <Rectangle Height="4" Fill="Black" />
+                        <TextBlock Text=" "
+                            Foreground="Black" TextAlignment="Center" FontSize="3" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Vertical">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition
+                                    Width="Auto" />
+                                <ColumnDefinition
+                                    Width="5" />
+                                <ColumnDefinition
+                                    Width="*" />
+                                <ColumnDefinition
+                                    Width="15" />
+                                <ColumnDefinition
+                                    Width="Auto" />
+                                <ColumnDefinition
+                                    Width="5" />
+                                <ColumnDefinition
+                                    Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="Auto" />
+                                <RowDefinition
+                                    Height="5" />
+                                <RowDefinition
+                                    Height="Auto" />
+                                <RowDefinition
+                                    Height="5" />
+                                <RowDefinition
+                                    Height="Auto" />
+                                <RowDefinition
+                                    Height="5" />
+                                <RowDefinition
+                                    Height="Auto" />
+                                <RowDefinition
+                                    Height="5" />
+                                <RowDefinition
+                                    Height="Auto" />
+                                <RowDefinition
+                                    Height="5" />
+                                <RowDefinition
+                                    Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="国" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap"
+                                FontWeight="Bold" />
+                            <TextBlock Grid.Row="0"
+                                Grid.Column="2" Text="ソ連" Foreground="Black" TextAlignment="Left"
+                                FontSize="16" TextWrapping="Wrap" />
+                            <TextBlock Grid.Row="0" Grid.Column="4" Text="報告者" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap"
+                                FontWeight="Bold" />
+                            <Border Grid.Row="0"
+                                Grid.Column="6" Background="Black" />
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="件名" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap"
+                                FontWeight="Bold" />
+                            <TextBlock Grid.Row="2"
+                                Grid.Column="2" Grid.RowSpan="6" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap"> 1.
+                                ソ連軍による潜在的な敵対行動に関する警告。 <LineBreak /> 2.
+                                デルタIV級SSBN（戦略ミサイル原子力潜水艦）一番艦の写真。 <LineBreak /> 3.
+                                黒海におけるソ連軍艦による米艦「ヨークタウン」及び「カロン」への衝突事件に関する報告。 </TextBlock>
+                            <TextBlock Grid.Row="4" Grid.Column="4"
+                                Text="ページ数" Foreground="Black" TextAlignment="Left" FontSize="16"
+                                TextWrapping="Wrap" FontWeight="Bold" />
+                            <TextBlock
+                                Grid.Row="4" Grid.Column="6" Text="2" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap" />
+                            <TextBlock Grid.Row="6" Grid.Column="4" Text="参考文献"
+                                Foreground="Black" TextAlignment="Left" FontSize="16"
+                                TextWrapping="Wrap" FontWeight="Bold" />
+                            <TextBlock
+                                Grid.Row="6" Grid.Column="6" Text="RD" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap" />
+                            <TextBlock Grid.Row="8" Grid.Column="0" Text="情報日時"
+                                Foreground="Black" TextAlignment="Left" FontSize="16"
+                                TextWrapping="Wrap" FontWeight="Bold" />
+                            <Border
+                                Grid.Row="8" Grid.Column="2" Background="Black" />
+                            <TextBlock Grid.Row="10" Grid.Column="0" Text="入手場所及び日時"
+                                Foreground="Black" TextAlignment="Left" FontSize="16"
+                                TextWrapping="Wrap" FontWeight="Bold" />
+                            <Border
+                                Grid.Row="10" Grid.Column="2" Background="Black" />
+                            <TextBlock Grid.Row="10" Grid.Column="4" Text="現地報告番号"
+                                Foreground="Black" TextAlignment="Left" FontSize="16"
+                                TextWrapping="Wrap" FontWeight="Bold" />
+                            <TextBlock
+                                Grid.Row="10" Grid.Column="6" Text="25X1" Foreground="Black"
+                                TextAlignment="Left" FontSize="16" TextWrapping="Wrap" />
+                        </Grid>
+                        <TextBlock Text=" " Foreground="Black"
+                            TextAlignment="Center" FontSize="3" />
+                        <Rectangle
+                            Height="4" Fill="Black" />
+                        <TextBlock
+                            Text="情報源の評価は確定的であるが、内容の評価は暫定的なものである。" Foreground="Black"
+                            TextAlignment="Center" FontSize="16" TextWrapping="Wrap" />
+                        <Rectangle Height="4" Fill="Black" />
+                    </StackPanel>
+                    <TextBlock
+                        Grid.Row="2" TextWrapping="Wrap">
+                        <LineBreak />           <Run FontWeight="Bold" FontSize="24">
+                            要約
+                        </Run>           <LineBreak />
+                        最近の情報評価によれば、今後数週間以内にNATOとソ連軍との間の敵対行為が増加する可能性が非常に高い。この結論は、北極圏におけるソ連海軍の即応態勢の向上、NATO領空への挑発的な航空哨戒、そしてINF条約からのクレムリンの突然の脱退など、複数の兆候が一致していることに基づく。政治的対話が悪化し、軍事的態勢が強化されるにつれ、誤算や意図しない交戦のリスクは急速に高まっている。
+                        <LineBreak />           <LineBreak />           <Run
+                            FontWeight="Bold" FontSize="24">
+                            I. 戦略的概観
+                        </Run>           <LineBreak />
+                        ソ連軍は最近、北大西洋、黒海、及び北極圏において攻撃的な態勢を取っており、これには潜水艦哨戒の増加、ミサイル実験、NATO軍との海軍的対立が含まれる。 <LineBreak />           <LineBreak />           <Run
+                            FontWeight="Bold" FontSize="24">
+                            II. 最近の敵対行動
+                        </Run>           <LineBreak />
+                        北方艦隊の活動急増：国家的技術情報源によれば、ムルマンスク近郊の北方艦隊基地での活動が活発化している。衛星画像では、厚い雲の下で多数の艦艇が出港したことを示唆する航跡と熱反応が確認されている。
+                        <LineBreak />           <LineBreak />
+                        米海軍艦艇への意図的な衝突：2日前、黒海において航行の自由作戦を実施中であった米艦「カロン」と「ヨークタウン」が、意図的に衝突された。ソ連海軍司令官は、NATO軍艦との遭遇時に、より攻撃的に行動するよう命じられている可能性がある。
+                        <LineBreak />           <LineBreak />
+                        ミサイル実験：ソ連海軍は、地上基地からの追加ミサイル発射と連携し、バレンツ海で大規模な弾道ミサイル実験を準備中である。 </TextBlock>
+                    <StackPanel Grid.Row="3" Orientation="Vertical">
+                        <TextBlock
+                            Text=" " Foreground="Black" TextAlignment="Center" FontSize="3" />
+                        <TextBlock Text="-1-" Foreground="Black" TextAlignment="Center"
+                            FontSize="12" />
+                        <TextBlock Text=" " Foreground="Black" TextAlignment="Center"
+                            FontSize="3" />
+                        <TextBlock Text="極秘"
+                            Foreground="Black" TextAlignment="Center" FontSize="24" />
+                        <TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12" />
+                        <Border Background="Black" Margin="-45,0">
+                            <TextBlock
+                                Text="情報報告書  情報報告書" Foreground="White" TextAlignment="Center"
+                                FontSize="36" />
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Viewbox>
+</Page>

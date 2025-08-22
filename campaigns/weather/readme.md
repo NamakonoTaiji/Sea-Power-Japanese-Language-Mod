@@ -1,0 +1,1 @@
+Data drawn from https://iridl.ldeo.columbia.edu/maproom/Global/Climatologies/Vector_Winds.html U V data is used to generate speed and direction as a base onto which weather systems are generated (TBC?) by the game engine.

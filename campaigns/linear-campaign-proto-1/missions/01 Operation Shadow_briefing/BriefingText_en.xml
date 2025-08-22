@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMNATOHQ"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER, KNM"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Info:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMLANTFLT"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPLAN - Operation SHADOW"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="09MAY1988"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. (S) SITUATION:
+      <LineBreak/>
+	  Amidst increased tensions between NATO and the Warsaw Pact, USSR naval activity in the Barents Sea has increased markedly in the last few weeks. NATO forces have been assigned to monitor their activity and gather intelligence data. USNS CAPE GIRARDEAU (a repurposed transport class) has been fitted with advanced SIGINT and listening equipment and is staging out of Kirkenes monitoring Soviet communications. Two Norwegian submarines have been ordered to patrol the area to monitor as well. We anticipate USSR surface forces being present in the area to attempt to deter NATO operations.
+      <LineBreak/><LineBreak/>
+      2. (S) MISSION:
+	<LineBreak/>2.1 KNM submarines will loiter in the patrol zone and monitor USSR naval activity.
+	<LineBreak/>2.2 Remain covert and undetected.
+	<LineBreak/><LineBreak/>
+      3. (S) EXECUTION:
+	<LineBreak/>3.1 USNS CAPE GIRARDEAU is operating independently.
+	<LineBreak/>3.2 KNM forces are ordered to proceed with the mission at Commander's discretion.
+	<LineBreak/>3.3 Be prepared to exit the area at short notice.
+      <LineBreak/><LineBreak/>
+      4. (S) ENEMY OOB:
+	<LineBreak/>4.1 USSR SAG
+	<LineBreak/>4.1.1 UDALOY Class Destroyer
+	<LineBreak/>4.1.2 SOVREMENNYY Class Destroyer
+	<LineBreak/>4.1.3 KRESTA II Class Cruiser
+      <LineBreak/><LineBreak/>
+      5. (S) FRIENDLY OOB:
+	<LineBreak/>5.1 KNM S304 Uthaug
+	<LineBreak/>5.2 KNM S301 Utsira
+	<LineBreak/>5.3 USNS CAPE GIRARDEAU T-AK-2039
+	<LineBreak/><LineBreak/>
+      6. (S) INTEL ASSESSMENT:
+	<LineBreak/>6.1 USSR SAG is assessed as underway in the local Op Area, potentially shadowing T-AK-2039.
+	<LineBreak/>6.2 Intel assesses that the USSR is unaware of KNM submarines presence in the Op Area.
+    </TextBlock>
+</Grid>

@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		23OCT1983
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSECONDFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS CARON DD-970"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FRAGORD 01 - OPERATION URGENT FURY"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		FLASH - SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION: U.S. intelligence believes Cuban and Soviet forces are constructing a military airfield on Grenada in the southern Antilles islands. The President will shortly authorize the execution of Operation URGENT FURY, the objectives of which are to protect American citizens on Grenada, establish a democratic government, and to eradicate Cuban and Soviet influence on the island. Joint Task Force 120 is being established to conduct the operation.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MISSION: U.S. ground, naval, and air forces will coordinate an assault on the island, rescue any American citizens, and destroy enemy opposition.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) EXECUTION: USS CARON will be tasked with naval gunfire support of forces ashore. Effective immediately, detach from INDEPENDENCE battlegroup and proceed south at best speed. MOOSBRUGGER will join you on 21OCT. Take station 12nm off Grenada and begin intelligence gathering with OUTBOARD system, then await further orders.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) ENEMY ORDER OF BATTLE: People's Revolutionary Army (PRA) of Grenada suspected to operate Soviet-supplied armored vehicles and ZU-23 AA guns. Cuban advisors ashore are also equipped with light armor and there are indications and warnings of a FOXTROT class SSK in the area.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) FRIENDLY ORDER OF BATTLE: INDEPENDENCE battle group will take station NW of Grenada and MARG 1-84 with GUAM will take station to the north. Attack flights from INDEPENDENCE and Cobras from GUAM will be available for air support of troops ashore.
+		<LineBreak/>
+		<LineBreak/>
+		6. (S) REMARKS: This operation will ensure the safety of American citizens and prevent the Soviets from establishing another base in the Caribbean. Good luck and good hunting.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		DO NOT DECLASSIFY WITHOUT PERMISSION OF ADDRESSEE
+	  </TextBlock>
+</Grid>

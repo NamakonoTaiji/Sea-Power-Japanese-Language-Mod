@@ -1,0 +1,60 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="NATO司令部" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="第1常設NATO海上グループ司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦計画 - ブロックバスター作戦" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年7月4日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
+        6月の激しい戦闘作戦の後、NATOとワルシャワ条約機構（WP）との間で交渉が続けられてきた。しかし、最近の交渉決裂により、強力なソ連水上戦闘群（SAG）がGIUKギャップへ向け出航し、突破を試みている。第1常設NATO海上グループによって増強されたUSSアイゼンハワー戦闘群は、ワルシャワ条約機構を交渉の席に戻すため、当該SAGを発見し、これを撃破する任務を負う。
+        <LineBreak /><LineBreak />
+        2. (S) 任務: <LineBreak />2.1 ソ連SAGを発見し、これを撃破せよ。 <LineBreak /><LineBreak /> 3. (S) 実行: <LineBreak />3.1
+        EMCON（電波発射管制）規定は貴官の裁量に委ねる。 <LineBreak />3.2 敵SAG発見後、あらゆる手段をもってこれを撃破せよ。 <LineBreak /><LineBreak />
+        4. (S) 敵戦闘序列: <LineBreak />4.1 キーロフ水上戦闘群 <LineBreak />4.1.1 キーロフ級 x 1 <LineBreak />4.1.2
+        スラヴァ級 x 1 <LineBreak />4.1.3 ソヴレメンヌイ級 x 1 <LineBreak />4.1.4 クレスタ級 x 1 <LineBreak />4.1.5
+        ウダロイ級 x 1 <LineBreak />4.2 同海域に情報収集トロール船（AGI）の疑いあり <LineBreak />4.3 ソ連海軍航空隊（支援のため出撃の可能性あり） <LineBreak />4.4
+        コスモス1932 RORSAT（レーダー海洋偵察衛星）がグリニッジ標準時0028に上空を通過予定、米空軍が撃墜を試みる。 <LineBreak /><LineBreak /> 5.
+        (S) 友軍戦闘序列: <LineBreak />5.1 第65.7機動部隊（アイゼンハワー戦闘群） <LineBreak />5.1.1 USS ドワイト・D・アイゼンハワー
+        CVN-69 <LineBreak />5.1.2 USS ニュージャージー BB-62 <LineBreak />5.1.3 USS ヴァリー・フォージ CG-50 <LineBreak />5.1.4
+        USS デール CG-19 <LineBreak />5.1.5 FGS メルダース D-186 <LineBreak />5.1.6 USS アンダーウッド FFG-36 <LineBreak />5.1.7
+        USS トーマス・C・ハート FF-1092 <LineBreak />5.1.8 HNoMS スタヴァンゲル F303 <LineBreak /><LineBreak /> 6.
+        (S) 諜報評価: <LineBreak />6.1 ソ連の攻撃型潜水艦がキーロフSAGを護衛している可能性は中程度と評価。 <LineBreak />6.2
+        ソ連の航空機がキーロフSAGを支援する可能性は非常に高いと評価。 <LineBreak />6.3 天候は今後2時間で回復する可能性が非常に高いと評価。 </TextBlock>
+</Grid>

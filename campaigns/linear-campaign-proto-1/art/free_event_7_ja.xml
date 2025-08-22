@@ -1,0 +1,180 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Grid>
+            <Border
+                HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272"
+                Padding="45"
+                TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+                TextElement.FontSize="16" Background="#FFFAEBD7">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="12" CenterX="432" CenterY="560" />
+                        <TranslateTransform X="375" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding Assets[07_ru_newspaper_header]}"
+                            VerticalAlignment="Top" HorizontalAlignment="Center" Width="800"
+                            Margin="40,40,40,0" />
+                    </Grid>
+                    <TextBlock
+                        Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15"> 第35号 <Run
+                            FontSize="20" Text="•" /> 1988年 <Run FontSize="20" Text="•" /> 5月 </TextBlock>
+                    <Image Grid.Row="2"
+                        Source="{Binding Assets[07_delta_3_surface_launch_2]}" />
+                    <Grid
+                        Grid.Row="3" Margin="0,10,0,20">
+                        <TextBlock Text="強力な兵器の試験発射に成功"
+                            TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold" />
+                        <TextBlock
+                            Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;"
+                            TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top"
+                            FontWeight="Light" />
+                    </Grid>
+                    <Grid Grid.Row="4"
+                        Background="#FFFAEBD7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition
+                                    Height="*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock
+                                Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center"
+                                FontSize="36" Text="偉大なるソビエトの技術力" Margin="0,0,0,45" />
+                            <TextBlock
+                                Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify"
+                                Margin="20,0,10,30">
+                                ソビエト連邦は、新型大陸間弾道ミサイルの開発と配備に成功し、科学技術進歩の先駆者としての地位を強化し続けている。
+                            </TextBlock>
+                        </Grid>
+                        <TextBlock
+                            TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify"
+                            Margin="10,30,10,30"> この社会主義工学の最新の勝利は、祖国防衛におけるソビエトの科学者と労働者の揺るぎない献身の証である。 <LineBreak />       <LineBreak />
+                            ソビエト軍産複合体の最高の頭脳によって設計されたこの兵器は、ミサイル技術の大幅な進歩を象徴し、強化された射程、精度、および搭載能力を誇る。 </TextBlock>
+                        <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify"
+                            Margin="10,30,20,30">
+                            複数の個別目標弾頭を搭載可能なこの恐るべき兵器は、帝国主義の侵略を抑止するために必要な戦略的均衡を保証する。 <LineBreak />       <LineBreak />
+                            国防大臣はこの成果を称賛し、「これは比類なき創意工夫の偉業である」と述べた。 </TextBlock>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border HorizontalAlignment="Center"
+                VerticalAlignment="Center" Width="900" Height="1272" Padding="45"
+                TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+                TextElement.FontSize="16" Background="#FFFAEBD7">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-6" CenterX="432" CenterY="560" />
+                        <TranslateTransform X="-313" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition
+                            Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding Assets[07_ru_newspaper_header]}"
+                            VerticalAlignment="Top" HorizontalAlignment="Center" Width="800"
+                            Margin="40,35,40,0" />
+                    </Grid>
+                    <TextBlock
+                        Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15"> 第34号 <Run FontSize="20"
+                            Text="•" /> 1988年 <Run FontSize="20" Text="•" /> 5月 </TextBlock>
+                    <Image Grid.Row="2" Source="{Binding Assets[07_ticonderoga]}" />
+                    <Grid
+                        Grid.Row="3" Margin="0,10,0,20">
+                        <TextBlock
+                            Text="攻撃的な帝国主義の艦船が我が国の船舶を威嚇し、しばしば調査のために接近してくる" TextWrapping="Wrap"
+                            HorizontalAlignment="Left" FontWeight="Bold" />
+                        <TextBlock
+                            Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;"
+                            TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top"
+                            FontWeight="Light" />
+                    </Grid>
+                    <Grid Grid.Row="4"
+                        Background="#FFFAEBD7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition
+                                    Height="*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock
+                                Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center"
+                                FontSize="36" Text="帝国主義者の侵略" Margin="0,0,0,45" />
+                            <TextBlock
+                                Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify"
+                                Margin="20,0,10,30">
+                                今日、世界は、平和を愛するソビエト連邦とその社会主義同盟国の人民に対する、帝国主義西側諸国の裏切りに満ちた、いわれのない攻撃を目の当たりにしている。早朝、NATO軍はワルシャワ条約機構海軍に対し一連の攻撃的な軍事行動を開始した。これは国際法に違反し、彼らの真の戦争挑発的な本性を明らかにするものである。
+                                <LineBreak />
+                                平和と安定を維持するためのソビエトの数十年にわたる努力にもかかわらず、飽くなき貪欲と社会主義の進歩への恐怖に駆られた帝国主義ブロックは、戦争の道を選んだ。
+                                </TextBlock>
+                        </Grid>
+                        <TextBlock TextWrapping="Wrap" Grid.Column="1"
+                            TextAlignment="Justify" Margin="10,36,10,30">
+                            いわゆる「科学データ収集」を口実に、NATO軍は北部沿岸で露骨な挑発行為を行っている。アメリカとイギリスの侵略者の記章で飾られた軍艦は、社会主義国の領海を侵犯し、我が国の強力なロケット部隊を攻撃した。
+                            <LineBreak />
+                            書記長は政治局の緊急会議において、帝国主義者の行動を非難し、ソビエト人民は祖国防衛において決して揺るがないと宣言した。「敵はその本性を現したが、ソビエト連邦とその社会主義同盟国が決して打ち破られることはないと、すぐに思い知るであろう。我々の軍事的同志が勝利を確実にする。」
+                            </TextBlock>
+                        <TextBlock TextWrapping="Wrap" Grid.Column="2"
+                            TextAlignment="Justify" Margin="10,36,20,30">
+                            前線からの報告によれば、我が勇敢なる部隊は既に侵略者と交戦し、その海軍に大打撃を与えている。空では、英雄的なソビエトのパイロットたちが社会主義海軍航空の優位性を示し、海では、我が国の卓越した潜水艦部隊が間もなくその真価を発揮するだろう。
+                            <LineBreak />
+                            ソビエト連邦の人民は、この試練の瞬間に団結して立ち向かう。全ての工場で、労働者たちは勝利に必要な道具を我々の勇敢な防衛者たちに供給するため、一層の努力を重ねている。全ての都市と村で、市民はレーニンの旗の下に結集し、社会主義の防衛のために全てを犠牲にする覚悟である。
+                            </TextBlock>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Viewbox>
+</Page>

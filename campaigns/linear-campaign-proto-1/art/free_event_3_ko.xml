@@ -1,0 +1,213 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+	<Grid>
+		<Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="5" CenterX="432" CenterY="560"/>
+					<TranslateTransform X="250"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+			<Border.Effect>
+				<DropShadowEffect />
+			</Border.Effect>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Row="0" Orientation="Vertical">
+					<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="25X1" Foreground="Black" TextAlignment="Right" FontSize="24"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1">
+					<TextBlock TextWrapping="Wrap">
+					<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						III. PROBABILITY OF ESCALATION
+						</Run>
+						<LineBreak/>
+						Given the current trajectory, hostilities are likely to escalate into more direct confrontations at sea.
+						<LineBreak/>
+						<LineBreak/>
+						The Soviets may seek to demonstrate their resolve by conducting a controlled but aggressive naval engagement — possibly involving harassment of U.S. carrier groups or aggressive air intercepts.
+						<LineBreak/>
+						<LineBreak/>
+						Any direct confrontation involving loss of life — particularly an attack on a capital ship — could prompt a broader regional conflict.
+						<LineBreak/>
+						<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						IV. RECOMMENDATIONS
+						</Run>
+						<LineBreak/>
+						1. Immediate transfer of U.S. 2nd Fleet forces in the Mediterranean to the North Atlantic (in progress).
+						<LineBreak/>
+						2. Deploy additional U.S. attack submarines to intercept and shadow Soviet SSBNs before they reach protected bastions.
+						<LineBreak/>
+						3. Coordinate with NATO allies to reinforce naval patrols and establish clear rules of engagement to prevent accidental escalation.
+						<LineBreak/>
+						4. Enhance diplomatic backchannels with Moscow to mitigate risks of miscalculation while maintaining a credible deterrent posture
+						<LineBreak/>
+						<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						CONCLUSION
+						</Run>
+						<LineBreak/>
+						Given rising tensions at sea and Moscow's pullback from the INF Treaty, there is a strong possibility that an escalation in hostilities could occur within the next 30-60 days. The United States and NATO must prepare for increased Soviet naval aggression while maintaining diplomatic efforts to prevent a full-scale confrontation.
+					</TextBlock>
+					<TextBlock Text="" Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					
+				</StackPanel>
+				<StackPanel Grid.Row="2" Orientation="Vertical">
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<TextBlock Text="-1-" Foreground="Black" TextAlignment="Center" FontSize="12"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+				</StackPanel>
+			</Grid>
+		</Border>
+		<Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="-5" CenterX="432" CenterY="560"/>
+					<TranslateTransform X="-250"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+			<Border.Effect>
+				<DropShadowEffect />
+			</Border.Effect>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Row="0" Orientation="Vertical">
+					<Border Background="Black" Margin="-45,0">
+						<TextBlock Text="INFORMATION REPORT    INFORMATION REPORT" Foreground="White" TextAlignment="Center" FontSize="36"/>
+					</Border>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="CENTRAL INTELLIGENCE AGENCY" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="This material contains information affecting the National Defense of the United States within the meaning of Espionage Laws. Title 18, U.S.C. Secs. 793 and 794, the transmission or revelation of which in any manner to an unauthorized person is prohibited by law." Foreground="Black" TextAlignment="Justify" FontSize="12" TextWrapping="Wrap"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
+					<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="25X1" Foreground="Black" TextAlignment="Right" FontSize="24"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1" Orientation="Vertical">
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="5"/>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="15"/>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="5"/>
+							<ColumnDefinition Width="*"/>
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						<TextBlock Grid.Row="0" Grid.Column="0" Text="COUNTRY" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="0" Grid.Column="2" Text="USSR" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="0" Grid.Column="4" Text="REPORT AUTH." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="0" Grid.Column="6" Background="Black"/>
+						
+						<TextBlock Grid.Row="2" Grid.Column="0" Text="SUBJECT" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="2" Grid.Column="2" Grid.RowSpan="6" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap">
+							1. Warning of potential hostile actions by Soviet forces.
+							<LineBreak/>
+							2. Photographs of first-of-class DELTA-IV class SSBN.
+							<LineBreak/>
+							3. Report on ramming of USS YORKTOWN and USS CARON by Soviet warships in Black Sea.
+						</TextBlock>
+						
+						<TextBlock Grid.Row="4" Grid.Column="4" Text="NO. PAGES" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="4" Grid.Column="6" Text="2" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="6" Grid.Column="4" Text="REFERENCES" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="6" Grid.Column="6" Text="RD" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="8" Grid.Column="0" Text="DATE OF INFO." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="8" Grid.Column="2" Background="Black"/>
+						
+						<TextBlock Grid.Row="10" Grid.Column="0" Text="PLACE &amp; DATE ACQ." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="10" Grid.Column="2" Background="Black"/>
+						
+						<TextBlock Grid.Row="10" Grid.Column="4" Text="FIELD REPORT NO." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="10" Grid.Column="6" Text="25X1" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+					</Grid>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text="SOURCE EVALUATIONS ARE DEFINITIVE. APPRAISAL OF CONTENT IS TENTATIVE." Foreground="Black" TextAlignment="Center" FontSize="16" TextWrapping="Wrap"/>
+					<Rectangle Height="4" Fill="Black"/>
+				</StackPanel>
+				<TextBlock Grid.Row="2" TextWrapping="Wrap">
+<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					SUMMARY
+					</Run>
+					<LineBreak/>
+					Recent intelligence assessments indicate a high likelihood of increased hostilities between NATO and Soviet forces in the coming weeks. This conclusion is based on a convergence of signals, including elevated Soviet naval readiness in the Arctic, aggressive air patrols probing NATO airspace, and the Kremlin’s abrupt withdrawal from the INF Treaty. As political dialogue deteriorates and military posturing intensifies, the risk of miscalculation or unintended engagement is rapidly rising.
+					<LineBreak/>
+					<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					I. STRATEGIC OVERVIEW
+					</Run>
+					<LineBreak/>
+					The Soviet military has recently undertaken an aggressive posture in both the North Atlantic, Black Sea, and Arctic regions, including increased submarine patrols, missile tests, and naval confrontations with NATO forces.
+					<LineBreak/>
+					<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					II. RECENT HOSTILE ACTIONS
+					</Run>
+					<LineBreak/>
+					NORTHERN FLEET ACTIVITY SURGE: National technical intelligence sources show heightened activity at Northern Fleet bases near Murmansk. Satellite imagery shows vessel wake and thermal signatures suggesting that more units have departed under heavy cloud cover.
+					<LineBreak/>
+					<LineBreak/>
+					DELIBERATE RAMMING OF USN WARSHIPS: USS CARON and USS YORKTOWN were both intentionally rammed in the Black Sea two days ago during freedom of navigation exercises. Soviet naval commanders may have been ordered to act more aggressively when encountering NATO warships.
+					<LineBreak/>
+					<LineBreak/>
+					MISSILE TESTING: The Soviet Navy is preparing a major ballistic missile test in the Barents Sea, coordinated with additional missile launches from ground-based silos.
+				</TextBlock>
+				<StackPanel Grid.Row="3" Orientation="Vertical">
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+						<TextBlock Text="-1-" Foreground="Black" TextAlignment="Center" FontSize="12"/>
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+						<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
+						<Border Background="Black" Margin="-45,0">
+							<TextBlock Text="INFORMATION REPORT    INFORMATION REPORT" Foreground="White" TextAlignment="Center" FontSize="36"/>
+						</Border>
+					</StackPanel>
+			</Grid>
+		</Border>
+	</Grid>
+</Viewbox>
+</Page>

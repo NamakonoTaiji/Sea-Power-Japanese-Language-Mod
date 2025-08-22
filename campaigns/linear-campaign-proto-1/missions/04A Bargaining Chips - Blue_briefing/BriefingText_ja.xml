@@ -1,0 +1,61 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="太平洋艦隊司令官" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="アッツ空軍基地司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="緊急防衛作戦" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年6月2日" />
+    <TextBlock
+        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
+        ソ連軍は、ワルシャワ条約機構とNATO間で進行中の和平交渉における交渉材料として、アッツ島の占領を試み、現在同島へ向かっている。ヴォストーク機動部隊を含む部隊がカムチャツカから出航するのが確認されたが、悪天候により全てのISR（情報・監視・偵察）飛行が中止され、敵部隊は数日間発見されていない。第75.3機動部隊の一部が防衛支援のため北へ急行し、第11空母航空団の戦力がアッツ島のカスコ飛行場へ緊急展開した。部隊を集結させ、侵攻部隊を発見し、これを殲滅せよ。
+       <LineBreak /><LineBreak />
+        2. (S) 任務: <LineBreak />2.1 アッツ島へ向かう全ての上陸部隊を殲滅せよ。 <LineBreak />2.2 残存する全ての部隊を可能な限り殲滅せよ。 <LineBreak /><LineBreak />
+        3. (S) 実行: <LineBreak />3.1 EMCON（電波発射管制）規定は貴官の裁量に委ねる。P-3がチェックインし、水上状況を確立するまで完全なEMCONを推奨する。 <LineBreak />3.2
+        第75.3機動部隊は南方から接近中。 <LineBreak />3.3 第11空母航空団はアッツ島に配置済み。 <LineBreak /><LineBreak /> 4. (S)
+        敵戦闘序列: <LineBreak />4.1 ヴォストーク機動部隊 <LineBreak />4.1.1 スラヴァ級 x 1 <LineBreak />4.1.2 ソヴレメンヌイ級
+        x 1 <LineBreak />4.1.3 クレスタ級 x 1 <LineBreak />4.1.4 ヴィクター級SSN x 1（衛星画像から消失） <LineBreak />4.2
+        侵攻部隊 <LineBreak />4.2.1 ソヴレメンヌイ級 x 1 <LineBreak />4.2.2 クレスタ級 x 1 <LineBreak />4.2.3 カーラ級 x
+        1 <LineBreak />4.2.4 上陸部隊 x 2 <LineBreak /><LineBreak /> 5. (S) 友軍戦闘序列: <LineBreak />5.1
+        第75.3機動部隊 <LineBreak />5.1.1 USS テキサス CGN-39 <LineBreak />5.1.2 USS ウォーデン CG-18 <LineBreak />5.1.3
+        USS キャラハン DDG-994 <LineBreak />5.1.4 USS コープランド FFG-24 <LineBreak />5.2 第11空母航空団分遣隊 <LineBreak />5.2.1
+        P-3 x 2（内1機は捜索エリアへ飛行中） <LineBreak />5.2.2 F-14A x 6 <LineBreak />5.2.3 A-6E x 4 <LineBreak />5.2.4
+        A-7E x 2 <LineBreak /><LineBreak /> 6. (S) 諜報評価: <LineBreak />6.1
+        ソ連の攻撃型潜水艦が侵攻部隊を護衛している可能性は中程度と評価。 <LineBreak />6.2 ソ連の航空機が侵攻部隊を支援する可能性は非常に高いと評価。 <LineBreak />6.3
+        天候は今後2～6時間で回復する可能性が非常に高いと評価。 </TextBlock>
+</Grid>

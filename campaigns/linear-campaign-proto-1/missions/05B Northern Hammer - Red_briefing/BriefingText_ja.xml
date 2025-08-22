@@ -1,0 +1,59 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="赤旗北方艦隊司令部" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="キーロフ打撃群司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="ノルウェー海特別軍事作戦" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年7月4日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. 状況: <LineBreak />
+        太平洋におけるアッツ島の占領は、NATO及びアメリカに対する我々の成功を確固たるものにした。今こそ、我々の揺るぎない決意を示すため、最後の一撃を加える時である。司令部は、GIUKギャップのアメリカ軍を掃討し、大西洋へ進出するよう命じた。諜報によれば、同海域にアメリカの空母戦闘群が確認されている。この戦闘群を撃破、あるいは少なくとも撃退することにより、NATOを交渉の席に着かせることができるだろう。
+       <LineBreak /><LineBreak />
+        2. 任務: <LineBreak />2.1 米空母を発見し、これを撃沈せよ。 <LineBreak /><LineBreak /> 3. 実行: <LineBreak />3.1
+        EMCON（電波発射管制）規定は貴官の裁量に委ねる。 <LineBreak />3.2 敵空母発見後、あらゆる手段をもってこれを撃沈せよ。 <LineBreak /><LineBreak />
+        4. 敵戦闘序列: <LineBreak />4.1 アイゼンハワー戦闘群 <LineBreak />4.1.1 ニミッツ級 x 1 <LineBreak />4.1.2 アイオワ級
+        x 1 <LineBreak />4.1.3 タイコンデロガ級 x 1 <LineBreak />4.1.4 他、複数の護衛艦 <LineBreak /><LineBreak />
+        5. (S) 友軍戦闘序列: <LineBreak />5.1 キーロフ打撃群 <LineBreak />5.1.1 キーロフ RKR-181 <LineBreak />5.1.2
+        クロンシュタット BPK-662 <LineBreak />5.1.3 ベズプレチヌイ EM-820 <LineBreak />5.1.4 ヴィツェ・アドミラル・クラコフ
+        BPK-401 <LineBreak />5.1.5 キエフ TAVKR <LineBreak />5.2 海軍航空隊 <LineBreak />5.2.1 Tu-22M2
+        第924親衛海軍ミサイル航空連隊 x 12 <LineBreak />5.2.2 Tu-16K 第987海軍ミサイル航空連隊 x 12 <LineBreak />5.2.3
+        MiG-25PD 第445戦闘航空連隊 x 12 <LineBreak />5.3 K-209 (670M型 / チャーリーII型) <LineBreak /><LineBreak />
+        6. (S) 諜報評価: <LineBreak />6.1
+        衛星コスモス1932がグリニッジ標準時0028にノルウェー海上空を通過予定。しかし、アメリカ側は我が軍の衛星撃墜を試みている。可能であれば、司令部より目標データを伝送する。 <LineBreak />6.2
+        米潜水艦が空母群を護衛している可能性が高い </TextBlock>
+</Grid>

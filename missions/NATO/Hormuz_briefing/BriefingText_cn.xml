@@ -1,0 +1,98 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第五舰队司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第150特遣舰队司令"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="抄送："/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋舰队司令"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任务命令"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.（密）战术态势：
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+	  Due to the recent attacks by Iran on merchant shipping passing in and out of the Persian Gulf, it has been decided to organize escorted convoys to protect maritime trade.
+	-->
+	
+	伊朗伊斯兰共和国威胁要关闭霍尔木兹海峡，禁止与美国及盟友利益相关的航运，并以此获得国际影响力。
+      <LineBreak/>
+      <LineBreak/>
+	  美国计划应对伊朗的威胁，并且展现根据国际法穿过海峡的能力。
+      <LineBreak/>
+      <LineBreak/>中东部队司令正安排护送油船的护航队穿过霍尔木兹海峡，往返亚丁湾。第150特遣舰队将护送第一批商船前往伊拉克海岸的阿巴克港油库。
+      <LineBreak/>
+	  <LineBreak/>
+      <LineBreak/>
+      2.（密）主要目标：
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      You are to escort the three oil tankers past the Strait of Hormuz to the designated area.
+	-->
+      从亚丁湾出发，穿过霍尔木兹海峡，进入波斯湾，同时保护护航队中的商船免受伊朗伊斯兰共和国的威胁。
+      <LineBreak/>
+      <LineBreak/>
+      <LineBreak/>
+      3.（密）威胁报告：
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      Intel believes only a small force of patrol craft have been sortied by Iran at this point. Your forces should be able to brush them aside with little effort.
+	-->
+	
+	根据评估，阿巴斯港的伊朗海军和革命卫队海军很可能会被部署到霍尔木兹海峡，二者可能会组成联合部队。预计敌方将有大量的快速攻击艇或近海快速攻击艇，但大型巡逻船只的数量有限。
+      <LineBreak/>
+      <LineBreak/>
+	  根据评估，伊朗海军和革命卫队海军可能会得到有限的旋翼和固定翼空中支援。
+	  <LineBreak/>
+	  <LineBreak/>
+	  根据评估，敌方空中单位可能有一定数量的空射反舰导弹。
+      <LineBreak/>
+      <LineBreak/>预计伊朗海军潜艇此时不会构成威胁。根据评估，伊朗海军很可能正尝试获得微型潜艇，但此时不太可能进行部署。
+	  <LineBreak/>
+	<!--
+      4.  (S) Warning Yellow - Do not fire unless fired upon
+	-->
+      <LineBreak/>
+      <LineBreak/>
+	  <!--
+      5.  (S) EMCON - Maintain radio silence until otherwise directed
+	  -->
+	  
+	  4.（密）电磁辐射控制——敌方很可能会使用反舰导弹，因此限制使用电磁辐射设备。
+	  
+    </TextBlock>
+</Grid>

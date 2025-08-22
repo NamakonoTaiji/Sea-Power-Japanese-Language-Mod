@@ -1,0 +1,59 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="赤旗太平洋艦隊司令官 (TOF)" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ヴォストーク機動部隊" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="ベーリング海の一攫千金作戦" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年6月2日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
+        我が軍は、ワルシャワ条約機構とNATO間で進行中の和平交渉において戦略的優位を確保するため、アッツ島の占領を試み、現在同島へ向かっている。NATOは我が軍がカムチャツカを出航したことを把握していると評価するが、悪天候により数日間、我々の位置は探知されていない。しかし、アッツ島に接近するにつれ、敵の航空及び水上部隊による迅速な探知と攻撃が予想される。部隊の準備を整え、侵攻部隊発進地点へ進出せよ。
+       <LineBreak /><LineBreak />
+        2. (S) 任務: <LineBreak />2.1 護衛対象を発進地点へ送り届けよ。 <LineBreak />2.2 可能な限り全てのNATO軍を殲滅せよ。 <LineBreak /><LineBreak />
+        3. (S) 実行: <LineBreak />3.1 EMCON（電波発射管制）規定は貴官の裁量に委ねる。敵航空機の奇襲を防ぐため、対空捜索レーダーの使用を推奨する。 <LineBreak />3.2
+        偵察及び防空戦闘は貴官の直接指揮下にある。 <LineBreak /><LineBreak /> 4. (S) 敵戦闘序列: <LineBreak />4.1 アルファ水上戦闘群 <LineBreak />4.1.1
+        ペガサス級ミサイル艇 x 3 <LineBreak />4.2 第75.3機動部隊 <LineBreak />4.2.1 不明 - ハワイからの増援の可能性あり <LineBreak />4.3
+        航空部隊 <LineBreak />4.3.1 複数機のF-14が衛星画像から消失 <LineBreak />4.3.2 複数機のA-6及びA-7が衛星画像から消失 <LineBreak /><LineBreak />
+        5. (S) 友軍戦闘序列: <LineBreak />5.1 ヴォストーク機動部隊 <LineBreak />5.1.1 ストーイキー EM-679 <LineBreak />5.1.2
+        スラヴァ RKR-103 <LineBreak />5.1.3 ヴァシリー・チャパエフ BPK-511 <LineBreak />5.2 侵攻部隊 <LineBreak />5.2.1
+        ボエヴォイ EM-678 <LineBreak />5.2.2 ペトロパブロフスク BPK-591 <LineBreak />5.2.3 アドミラル・オクチャブリスキー BPK-573 <LineBreak />5.2.4
+        上陸部隊 x 2 <LineBreak />5.3 航空部隊 <LineBreak />5.3.1 Tu-95RT 偵察機 <LineBreak />5.3.2 MiG-25PD
+        迎撃機 x 4 <LineBreak /><LineBreak /> 6. (S) 諜報評価: <LineBreak />6.1
+        NATOが第75.3機動部隊から水上部隊を北方へ増派する可能性は中程度と評価。 <LineBreak />6.2 NATOの航空機が防衛を支援する可能性は非常に高いと評価。 <LineBreak />6.3
+        NATOのアルファ水上戦闘群がアッツから出航している可能性は非常に高いと評価。 </TextBlock>
+</Grid>

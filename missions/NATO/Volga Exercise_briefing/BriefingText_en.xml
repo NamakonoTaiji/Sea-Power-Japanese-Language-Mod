@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		24MAY1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR NEW JERSEY SAG"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FRAGORD 01 - URGENT RETASKING"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		IMMEDIATE - SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION: Fighting continues in West Germany between NATO and Pact forces. NATO REFORGER convoys are transiting on regular schedule from U.S. East Coast to Antwerp and Brest. U.S.S.R. submarine and bomber forces are attempting interdiction of convoys but so far met with little success. On 19MAY, national technical intelligence sources detected heat blooms in engineering plants on KIROV CGN and SOVREMENNY class DDG at Murmansk. These units missing from imagery on next satellite pass 22MAY suspected moving into Atlantic.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MISSION: NATO naval and air forces will conduct barrier operations at GIUK Gap to locate and destroy KIROV SAG.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) EXECUTION: NATO units in the vicinity are limited. NEW JERSEY SAG will be assigned western GIUK Gap defense and German Navy units will be tasked with east barrier at Hebrides. P-3 out of Keflavik will assist search. Once KIROV SAG located, use all available means to sink her.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) ENEMY ORDER OF BATTLE: 1 x KIROV class CGN and 1 x SOVREMENNY class DDG. Tu-95 aircraft and AGI trawlers may pass targeting data on your force. KIROV CGN carries 20 x SS-N-19 Shipwreck missiles with 350nm range.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) REMARKS: Due to lopsided nature of engagement, EMCON is advised. These units must be intercepted before entering the Atlantic and threatening our convoys. CINCLANT understands this is a tough assignment but knows that NEW JERSEY will pull through. Good luck and good hunting.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		DO NOT DECLASSIFY WITHOUT APPROVAL OF ADDRESSEE
+	  </TextBlock>
+</Grid>

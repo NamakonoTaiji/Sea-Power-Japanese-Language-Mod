@@ -1,0 +1,64 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="TG Greyhound"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Screening Operations"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="12.MAI 1988"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. (S) LAGE:
+      <LineBreak/>Nach den Ereignissen vom 09.–10. Mai mobilisieren sowohl die NATO als auch der Warschauer Pakt ihre Streitkräfte schnellstens zur Herstellung der Kriegsbereitschaft. Die UdSSR setzt ihre U-Boot-Flotte in Marsch und versucht, ihre strategischen Raketen-U-Boote in den Nordatlantik zu verlegen. Die Task Group Greyhound der U.S. 2nd Fleet wurde beauftragt, die östlichen Zugänge zur GIUK-Lücke zu sichern und sämtliche sowjetischen U-Boote am Eindringen in den Atlantik zu hindern. Die Search and Attack Unit (SAU) Alpha wurde von der TG Greyhound abgestellt und überwacht den Seeweg zwischen den Färöer-Inseln und Schottland, bleibt jedoch unter der operativen Kontrolle der TG Greyhound. Die Direktive des Chairman of the Joint Chiefs of Staff (CJCS) hat folgende Einsatzregeln (ROE) festgelegt: Feuerfreigabe auf alle unbekannten U-Boot-Kontakte ist erteilt.
+      <LineBreak/><LineBreak/>
+      2. (S) AUFTRAG:
+<LineBreak/>2.1 Führen Sie eine ASW-Suche (U-Jagd) im Bereich der GIUK-Lücke durch.
+<LineBreak/>2.2 Lokalisieren und bekämpfen Sie alle unbekannten U-Boot-Kontakte.
+<LineBreak/><LineBreak/>
+      3. (S) DURCHFÜHRUNG:
+<LineBreak/>3.1 EMCON (Emission Control) liegt im Ermessen des Kommandanten.
+<LineBreak/>3.2 TG Greyhound patrouilliert zwischen Island und den Färöer-Inseln.
+<LineBreak/>3.3 SAU Alpha patrouilliert zwischen den Färöer-Inseln und Schottland.
+      <LineBreak/><LineBreak/>
+      4. (S) FEINDLAGE (OOB):
+<LineBreak/>4.1 1× Tango SSK – nicht auf Satellitenbildern
+<LineBreak/>4.2 2× Victor III SSN – laut Fernerkundung im Einsatzgebiet (MFI)
+<LineBreak/>4.3 1× Delta III SSBN – laut Fernerkundung im Einsatzgebiet (MFI)
+      <LineBreak/><LineBreak/>
+      5. (S) EIGENE KRÄFTE (OOB):
+<LineBreak/>5.1 Task Group Greyhound:
+<LineBreak/>5.1.1 USS *Valley Forge* CG-50
+<LineBreak/>5.1.2 USS *Thomas C. Hart* FF-1092
+<LineBreak/>5.1.3 USS *Rentz* FFG-46
+<LineBreak/>5.2 SAU Alpha:
+<LineBreak/>5.2.1 USS *John Rogers* DD-983
+<LineBreak/>5.2.2 USS *Underwood* FFG-36
+<LineBreak/>5.3 1× P-3 Orion – im Anflug von Thule AFB
+<LineBreak/><LineBreak/>
+      6. (S) ACHRICHTENDIENSTLICHE EINSCHÄTZUNG:
+<LineBreak/>6.1 Mit hoher Wahrscheinlichkeit wird angenommen, dass sowjetische U-Boote versuchen werden, NATO-Einheiten gezielt zu bekämpfen.
+<LineBreak/>6.2 Mit mittlerer Wahrscheinlichkeit wird angenommen, dass sowjetische Bomber zur Unterstützung von U-Boot-Operationen starten werden.
+    </TextBlock>
+</Grid>
