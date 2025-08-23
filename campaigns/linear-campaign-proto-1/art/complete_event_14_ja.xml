@@ -9,10 +9,11 @@
     <StackPanel Orientation="Vertical" Margin="5">
         <TextBlock
             FontSize="24" Foreground="White">
-            駆け引きの駒 - 手札を選べ
+            おめでとうございます！
         </TextBlock>
-        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap"> 「Calculus of
-            Conflict」の「Breaking Point」への到達、おめでとう！このキャンペーンはここで分岐し、次のミッションに進むには NATO
-            側かソ連側のどちらかを完了させる必要がある。 <LineBreak />     <LineBreak /> 好きな方を選べ。健闘を祈る、司令官！ </TextBlock>
+        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap">
+            「カルキュラス・オブ・コンフリクト」を最後までプレイしていただき、誠にありがとうございます。これらの任務は、コミュニティメンバーの iblank、Ian Roberts、Neu
+            による共同制作の賜物です。制作に尽力してくれた彼ら、そしてプレイしてくれた貴方に感謝します！ <LineBreak />     <LineBreak />
+            「交渉の切り札」のもう一方の陣営をプレイしてみてはいかがでしょうか？これらのミッションの制作は非常に楽しいものでした。貴方に全ての任務をプレイしていただけたら幸いです。 </TextBlock>
     </StackPanel>
 </Page>

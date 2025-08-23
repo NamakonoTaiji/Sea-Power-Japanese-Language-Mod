@@ -40,18 +40,18 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="ソ連艦、黒海で米海軍艦艇に衝突。米国は無害通航を主張"
-                        FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center"
+                        FontWeight="Bold" FontSize="30" TextWrapping="Wrap" TextAlignment="Center"
                         Margin="0,0,0,15" />
                     <StackPanel Grid.Column="2"
                         Grid.Row="1" Orientation="Vertical">
                         <TextBlock
-                            Text="国防総省、作戦を『意図的かつ危険』と非難" FontSize="24" TextWrapping="Wrap"
+                            Text="国防総省、衝突を『意図的かつ危険』と非難" FontSize="24" TextWrapping="Wrap"
                             TextAlignment="Center" Margin="0,0,0,15" />
                         <TextBlock
                             TextWrapping="Wrap" TextAlignment="Justify"> バージニア州ノーフォーク発 —
                             昨日、ソ連の軍艦2隻が黒海で活動中の米海軍艦艇に意図的に衝突し、緊張が急激に高まった。クリミア半島付近で発生したこの事件には、ミサイル巡洋艦USSヨークタウン（CG-48）と駆逐艦USSカロン（DD-970）が関与しており、両艦は海軍が言うところの国際水域での「無害通航」を実施中であった。
                             <LineBreak />
-                            米国当局によると、ソ連のクリヴァク級フリゲート「ベザヴェートヌイ」とミルカ級フリゲートが、両米艦の船首を横切るように攻撃的に機動し、低速で接触した。負傷者は報告されていないが、カロンは左舷に表面的な損傷を負った。
+                            米国当局によると、ソ連のクリヴァク級フリゲート「ベザヴェートヌイ」とミルカ級フリゲートが、両米艦の船首を横切るように攻撃的に機動し、低速で接触した。負傷者は報告されていないが、カロンは左舷表面を損傷した。
                             <LineBreak />
                             フランク・カールッチ国防長官はソ連の行動を「無謀かつエスカレートさせるもの」として非難した。クレムリンは、米国が機密性の高いソ連施設の近くで「挑発的な監視」を行ったと非難し、この衝突破壊を防御的措置として擁護している。（衝突について2面参照）
                             </TextBlock>

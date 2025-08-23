@@ -102,7 +102,8 @@
                         <Border
                             Background="Black" Margin="-45,0">
                             <TextBlock
-                                Text="情報報告書  情報報告書" Foreground="White" TextAlignment="Center"
+                                Text="INFORMATION REPORT    INFORMATION REPORT" Foreground="White"
+                                TextAlignment="Center"
                                 FontSize="36" />
                         </Border>
                         <TextBlock
@@ -254,7 +255,8 @@
                         <TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12" />
                         <Border Background="Black" Margin="-45,0">
                             <TextBlock
-                                Text="情報報告書  情報報告書" Foreground="White" TextAlignment="Center"
+                                Text="INFORMATION REPORT    INFORMATION REPORT" Foreground="White"
+                                TextAlignment="Center"
                                 FontSize="36" />
                         </Border>
                     </StackPanel>

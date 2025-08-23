@@ -37,13 +37,13 @@
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
         Text="件名:" />
     <TextBlock Grid.Row="7" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="リベンジ作戦" />
+        FontSize="{StaticResource Font.Size.Header}" Text="オペレーション・リベンジ" />
     <TextBlock Grid.Row="7"
         Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年5月10日" />
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
         TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
-        昨日、合衆国のスパイ船が我が国の領海内で我々の作戦を監視すべく、攻撃的な哨戒活動を行っていた。我々はアメリカ側を追尾し、干渉させないために水上戦闘群を派遣した。国益保護の過程において、アメリカ側が領海から退去しなかったため、過度に攻撃的な司令官がUSNSケープ・ジラードーを拿捕し、ソビエトの戦友と共に米乗組員が死亡した。同海域で作戦中のNATO潜水艦は即座に反撃し、我が軍艦を撃沈、戦友たちを殺害した。事態の深刻化と核戦争の可能性が懸念されるものの、ソ連の兵士と艦船は海底に沈み、彼らの死に報いねばならない。クレムリンは、アッツ島から日本へ向かう米機動部隊を発見し、これを撃沈するよう命じた。
-       <LineBreak /><LineBreak />
+        昨日、合衆国のスパイ船が我が国の領海内で我々の作戦を監視すべく、攻撃的な哨戒活動を行っていた。我々はアメリカ側を追尾し、干渉を防ぐべく水上戦闘群を派遣した。国益保護の過程において、アメリカ側が領海から退去しなかったため、過激な司令官がUSNSケープ・ジラードーを拿捕し、ソビエトの戦友と共に米乗組員が死亡した。同海域で作戦中のNATO潜水艦は即座に反撃し、我が軍艦を撃沈、戦友たちを殺害した。事態の深刻化と核戦争の可能性が懸念されるものの、海底に沈んだ同志達の死に報いねばならない。クレムリンは、アッツ島から日本へ向かう米機動部隊を発見し、これを撃沈するよう命じた。
+        <LineBreak /><LineBreak />
         2. (S) 任務: <LineBreak />2.1 アッツ島から日本へ向かう米機動部隊を発見せよ。 <LineBreak />2.2 米水上部隊を目標とし、これを無力化せよ。 <LineBreak /><LineBreak />
         3. (S) 実行: <LineBreak />3.1 EMCON（電波発射管制）規定は貴官の裁量に委ねる。 <LineBreak />3.2 航空戦力が任務支援のため、現在接近中。 <LineBreak />3.3
         自軍部隊を最大限保護せよ。 <LineBreak /><LineBreak /> 4. (S) 敵戦闘序列: <LineBreak />4.1 米機動部隊 <LineBreak />4.1.1
