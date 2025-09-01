@@ -1,0 +1,60 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SeapowerUI"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+    Padding="5,5,5,5">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBlock
+                TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+                <TextBlock.Inlines>
+                    <Run FontWeight="Bold" Text="艦載兵装の使用 - ミサイル防衛" FontSize="16" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="将来的には、このような兵器による攻撃を受ける可能性がある。ほとんどの艦船には、いくつかの自己防衛手段がある：" FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        FontWeight="Bold" FontSize="12" Text="• Chaff（チャフ）：" />
+                    <Run
+                        Text="偽のレーダー反射を作り出し、レーダー誘導ミサイルを欺瞞する" FontSize="12" />
+                    <LineBreak />
+                    <Run FontWeight="Bold" FontSize="12" Text="• ノイズメーカー：" />
+                    <Run
+                        Text="偽の音響信号を作り出し、パッシブ誘導魚雷を欺瞞する" FontSize="12" />
+                    <LineBreak />
+                    <Run FontWeight="Bold" FontSize="12" Text="• CIWS（近接防御火器システム）：" />
+                    <Run
+                        Text="飛来する敵ミサイルや航空機を撃墜する" FontSize="12" />
+                    <LineBreak />
+                    <Run FontWeight="Bold" FontSize="12" Text="• ECM（電子対抗手段）：" />
+                    <Run
+                        Text="敵ミサイルを妨害し、目標を逸脱させる" FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="注：チャフ、CIWS、ECMは自動的に展開される。ノイズメーカーはプレイヤーが手動で展開する必要がある！" FontSize="12" />
+                </TextBlock.Inlines>
+            </TextBlock>
+            <StackPanel
+                Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                <Button
+                    Width="100" Height="50" Margin="0,0,15,0" FontSize="16"
+                    VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15a_ja.xml" />
+                <Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom"
+                    Content="次へ" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_17_ja.xml" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

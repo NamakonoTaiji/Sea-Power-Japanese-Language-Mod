@@ -1,0 +1,20 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <StackPanel Orientation="Vertical" Margin="5">
+    <TextBlock FontSize="24" Foreground="White">
+恭喜完成战役！
+	</TextBlock>
+    <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap">
+你到达了《冲突演算》的末尾。这组任务是社区成员iblank、Ian Roberts和Neu共同努力的成果。感谢他们的制作和你的游玩！
+<LineBreak/>
+<LineBreak/>
+不妨试试返回分岔点并选择另一方。我们制作这些任务时获得了很多乐趣，也想让你全部体验。
+	</TextBlock>
+  </StackPanel>
+</Page>

@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Officer Training 2 - Conclusion"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Well done on conducting fleet operations within your formation! You have now mastered management of your ships within a formation. This is a critical skill for Sea Power and will come in handy in the following tutorials."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Feel free to take this time to practice formation management. You can try placing your three ships back in a formation that allows the best protection for the tanker assuming an enemy threat approaching from the northwest, or maybe try stationing Narvik as a radar picket 50 nautical miles to the east."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="This completes the second Officer Training session. Good work, Commander!"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Back" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_2_briefing/t02_window_18.xml"/>
+			<Button Width="110" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Exit Mission" Command="{Binding ExecuteTriggerCommand}" CommandParameter="Exit"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

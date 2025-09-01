@@ -1,0 +1,44 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Einsatz der Schiffswaffen - Symbole auf der Taktischen Karte" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Wenn Sie die Rakete in der Leiste am unteren Bildschirmrand auswählen, erscheint auf der Taktischen Karte ein " FontSize="12"/><Run Text="gelber" FontSize="12" FontWeight="Bold" Foreground="#D5A876" /><Run Text=" Kreis. Dieser markiert den für die Waffe notwendigen Mindestabstand zum Ziel. Ziele innerhalb dieses Kreises können nicht bekämpft werden." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Der " FontSize="12"/><Run Text="rote" FontSize="12" FontWeight="Bold" Foreground="#C04A3C"/><Run Text=" Kreis zeigt die maximale Reichweite des Waffensystems an, während die " FontSize="12"/><Run Text=" blauen" FontSize="12" FontWeight="Bold" Foreground="#00AEEF"/><Run Text=" und " FontSize="12"/><Run Text="grünen" FontSize="12" FontWeight="Bold" Foreground="#7CC576"/><Run Text=" Kreise die maximale und minimale Reichweite des Zielbeleuchtungsradars bis zum Horizont auf Meereshöhe darstellen. Beachten Sie, dass das Waffensystem je nach Zeitpunkt des Abschusses ein Ziel nahe der maximalen Einsatzreichweite möglicherweise nicht treffen kann (abhängig von Kurs, Höhe und Geschwindigkeit des Ziels)." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Klicken Sie nun mit der rechten Maustaste innerhalb der Taktischen Karte auf die Zieldrohne, um eine Rakete auf sie abzufeuern. Sobald der Abschuss erfolgt ist, klicken Sie mit der linken Maustaste innerhalb der Taktischen Karte auf das feindliche Ziel, um den Raketeneinschlag zu beobachten." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_14_de.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Weiter">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="QST Harpoon"/>
+						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15a_de.xml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

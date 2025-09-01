@@ -28,9 +28,9 @@
 		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
 	</TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="东大西洋部队总司令"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="东大西洋地区总司令"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="威斯康星战列舰战斗群司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="威斯康星号战斗群司令"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="行动命令"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
@@ -38,7 +38,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.（密）战术态势：
+      1.（机密）战术态势：
       <LineBreak/>
       <LineBreak/>	在双方部队发生敌对行动前，华约为从北约手中夺取主动权，已预先让多项高价值资产进入阵地，包括一个以基辅号航母为核心的航母战斗群。根据《前沿海上战略》，我们必须摧毁苏联的上述关键资产，重新获得作战优势。
       <LineBreak/>
@@ -48,14 +48,14 @@
       <LineBreak/>
 	  <LineBreak/>
       <LineBreak/>
-      2.（密）主要目标：
+      2.（机密）主要目标：
       <LineBreak/>
       <LineBreak/>
 	  在敌方航母战斗群穿过博斯普鲁斯海峡之前将其摧毁。
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-      3.（密）威胁报告：
+      3.（机密）威胁报告：
       <LineBreak/>
       <LineBreak/>
 	目前至少有3艘大型水面战斗舰艇为基辅号提供护航。卫星情报已发现多个移动防空和反舰导弹阵地。
@@ -69,7 +69,7 @@
       <LineBreak/>
       <LineBreak/>
 	  <LineBreak/>
-	  4.（密）无需进行电磁辐射控制。
+	  4.（机密）无需进行电磁辐射控制。
 	  
     </TextBlock>
 </Grid>

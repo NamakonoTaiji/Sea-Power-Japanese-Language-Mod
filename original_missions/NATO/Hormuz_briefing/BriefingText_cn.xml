@@ -32,7 +32,7 @@
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第150特遣舰队司令"/>
     <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="抄送："/>
-    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋舰队司令"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋舰队总司令"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任务命令"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
@@ -40,7 +40,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.（密）战术态势：
+      1.（机密）战术态势：
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -56,7 +56,7 @@
       <LineBreak/>
 	  <LineBreak/>
       <LineBreak/>
-      2.（密）主要目标：
+      2.（机密）主要目标：
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -66,7 +66,7 @@
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-      3.（密）威胁报告：
+      3.（机密）威胁报告：
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -92,7 +92,7 @@
       5.  (S) EMCON - Maintain radio silence until otherwise directed
 	  -->
 	  
-	  4.（密）电磁辐射控制——敌方很可能会使用反舰导弹，因此限制使用电磁辐射设备。
+	  4.（机密）电磁辐射控制——敌方很可能会使用反舰导弹，因此限制使用电磁辐射设备。
 	  
     </TextBlock>
 </Grid>

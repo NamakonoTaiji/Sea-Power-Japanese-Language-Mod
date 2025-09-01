@@ -1,0 +1,140 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Grid>
+      <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+        <Border.RenderTransform>
+          <TransformGroup>
+            <RotateTransform Angle="12" CenterX="432" CenterY="560"/>
+            <TranslateTransform X="375"/>
+          </TransformGroup>
+        </Border.RenderTransform>
+        <Border.Effect>
+          <DropShadowEffect />
+        </Border.Effect>
+        <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="*"/>
+		  </Grid.RowDefinitions>
+          <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,40,40,0"/>
+            <!--<Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="0,0,0,20" HorizontalAlignment="Left" Width="670"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,0,20"/>-->
+          </Grid>
+          <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+			1988年 <Run FontSize="20" Text="•"/> 7月 <Run FontSize="20" Text="•"/> 第36号
+		  </TextBlock>
+          <Image Grid.Row="2" Source="{Binding Assets[17_tu-22m]}"/>
+          <Grid Grid.Row="3" Margin="0,10,0,20">
+            <TextBlock Text="空中的社会主义力量：图波列夫轰炸机为大西洋带去和平" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+			<TextBlock Text="图：V·迪米特柳克;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+          </Grid>
+          <Grid Grid.Row="4" Background="#FFFAEBD7">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+			<Grid>
+			  <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+			  </Grid.RowDefinitions>
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="强大的苏联工程技术" Margin="0,0,0,45" />
+			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">				苏联以雷霆手段展示了自身的军事实力和革命勇气，远程航空兵勇敢的飞行员在北大西洋对美帝国主义势力进行了毁灭性打击。根据最高指挥部的直接命令，图-22M轰炸机团从科拉半岛的航空基地起飞，准确无误地飞向了冰岛以东的敌方阵地。
+			  </TextBlock>
+			</Grid>
+				<TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,30,10,30">				任务目标很明确：消灭试图阻止红旗北方舰队合法进入北大西洋公海的美国航母编队。依靠着纪律、镇定和决心，我们的飞行员突破了北约防空系统，并以压倒性的力量发动了攻击。美国舰队的核心——一艘所谓的“超级航母”被火焰吞没，沉入了海浪之下，在盟友面前颜面扫地。				
+				<LineBreak/>
+				<LineBreak/>				图-16K支援了此次正义打击，其机组人员执行了重要的侦察和电子战任务，致盲了敌方雷达并粉碎了他们微弱的抵抗。
+				</TextBlock>
+				<TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,30,20,30">				这场胜利并非偶然，而是不懈训练、科学进步与对和平事业忠诚追求的成果。我们的工农子弟飞行员并非是追求虚荣，而是在承担责任——保卫祖国免受资本主义的侵犯，维护苏联人民来之不易的安全。
+				<LineBreak/>
+				<LineBreak/>				正如米哈伊尔·戈尔巴乔夫总书记所申明，苏联渴望和平，但和平不会以牺牲我们的尊严或安全为代价。让这场胜利向世界发出了一条信息：团结起来、警惕起来的苏联人民永远不会屈服于帝国主义的威胁。我们的天空固若金汤，我们的实力毋庸置疑，我们的未来一片光明。
+				</TextBlock>
+          </Grid>
+        </Grid>
+      </Border>
+      <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+        <Border.RenderTransform>
+          <TransformGroup>
+            <RotateTransform Angle="-6" CenterX="432" CenterY="560"/>
+            <TranslateTransform X="-313"/>
+          </TransformGroup>
+        </Border.RenderTransform>
+        <Border.Effect>
+          <DropShadowEffect />
+        </Border.Effect>
+        <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="*"/>
+		  </Grid.RowDefinitions>
+          <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,35,40,0"/>
+            <!--<TextBlock Text="Правдоруб" Grid.Column="1" FontSize="135" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+            <Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="40,0,0,20" HorizontalAlignment="Left" Width="300"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,40,20"/>-->
+          </Grid>
+          <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+1988年 <Run FontSize="20" Text="•"/> 7月 <Run FontSize="20" Text="•"/> 第36号
+		  </TextBlock>
+          <Image Grid.Row="2" Source="{Binding Assets[17_reagan_gorbachev]}"/>
+          <Grid Grid.Row="3" Margin="0,10,0,20">
+            <TextBlock Text="美国总统里根与总书记戈尔巴乔夫签订停火协议" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+			<TextBlock Text="图：V·迪米特柳克;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+          </Grid>
+          <Grid Grid.Row="4" Background="#FFFAEBD7">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+			<Grid>
+			  <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+			  </Grid.RowDefinitions>
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="停火协议已签订" Margin="0,0,20,10" />
+			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,20,0">				昨天，总书记米哈伊尔·戈尔巴乔夫与美国总统罗纳德·里根签订了停火协议，这标志着苏联与北约侵略性军事集团之间武装敌对行动的结束，也是和平与社会主义事业的伟大胜利。
+				<LineBreak/>
+				<LineBreak/>				此协议是在苏联军队连续取得数周的决定性军事胜利后达成的，军事胜利为苏联争取了极为有利的条款，也保证了长期的稳定。			
+			  </TextBlock>
+			</Grid>
+				<TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="0,-4,20,0">				此次停火是苏联武装部队英勇壮举的产物，他们沉重打击了企图争霸的北约。最引人注目的成果是苏联占领并解放了北太平洋的阿图岛，它现已成为和平的战略堡垒。
+				<LineBreak/>
+				<LineBreak/>				在挪威海，美国帝国主义者遭受了耻辱性的失败，他们的一艘核动力航空母舰在红旗北方舰队训练有素的精准打击和远程航空兵英勇飞行员的助攻下被送入了海底。	
+			</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="0,-4,0,0">				当华盛顿试图延长冲突时，苏联明显的军事和道义优势使其难以继续抵抗。里根总统面对着动荡的国内局势和出现分歧的联盟，最终被迫根据战场上的现实情况接受停火。				
+				<LineBreak/>
+				<LineBreak/>				戈尔巴乔夫总书记在海牙签署协议后发表声明，重申苏联对和平的承诺，他说：“我们的行动从来不是为了征服，而是为了恢复平衡并捍卫社会主义祖国的主权。”
+			</TextBlock>
+          </Grid>
+        </Grid>
+		</Border>
+    </Grid>
+  </Viewbox>
+</Page>

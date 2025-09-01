@@ -1,0 +1,34 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Camera Modes" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Sea Power offers a few different perspectives with different Camera Modes. We are currently in Follow Camera by default. This view is automatically opened whenever clicking on a unit in the Tactical Display at left. This view will follow the selected unit." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="There is also a Free Camera (hit F2), and a Flyby Camera (F3). Try hitting F2 and panning the camera around, while also using WASD to move the camera in the game world. Hold Shift or Ctrl to adjust the speed of the Free Camera, and use R and F to climb up or down. Hit F1 to return to the selected unit in Follow Camera." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Back" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_3.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Next" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_5.xml"/>	
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

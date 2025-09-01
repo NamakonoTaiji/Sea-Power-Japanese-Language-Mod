@@ -1,0 +1,67 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="北方舰队总部"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="基洛夫号打击群司令"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="挪威海特别军事行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年7月4日"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.（机密）态势：
+      <LineBreak/>我们占领了阿图岛，巩固了对抗北约和美国的胜利。现在我们必须进行最后打击，展现我们毫不动摇的决心。指挥部命令我们清扫GIUK缺口的美军并进入大西洋。情报已确定此地区的一个美国航母战斗群。摧毁这个战斗群，或至少将其驱离阵地，这样就能迫使北约坐到谈判桌前。
+      <LineBreak/><LineBreak/>
+      2.（机密）任务：
+		<LineBreak/>2.1	找到并摧毁美国航母。
+		<LineBreak/><LineBreak/>
+      3.（机密）执行：
+		<LineBreak/>3.1	根据情况自主进行电磁辐射控制。
+		<LineBreak/>3.2	一旦找到敌方航母，就使用一切手段将其摧毁。
+      <LineBreak/><LineBreak/>
+      4.（机密）敌方作战序列：
+		<LineBreak/>4.1	艾森豪威尔号战斗群
+		<LineBreak/>4.1.1	1艘尼米兹级航空母舰
+		<LineBreak/>4.1.2	1艘艾奥瓦级战列舰
+		<LineBreak/>4.1.3	1艘提康德罗加级巡洋舰
+		<LineBreak/>4.1.4	多艘其他护航舰艇
+      <LineBreak/><LineBreak/>
+      5.（机密）友方作战序列：
+		<LineBreak/>5.1	基洛夫号打击群
+		<LineBreak/>5.1.1	1144型巡洋舰基洛夫号
+		<LineBreak/>5.1.2	1134A型巡洋舰喀琅施塔得号
+		<LineBreak/>5.1.3	956型驱逐舰无瑕号
+		<LineBreak/>5.1.4	1155型驱逐舰库拉科夫海军中将号
+		<LineBreak/>5.1.5	1143型航空母舰基辅号
+		<LineBreak/>5.2	海军航空兵
+		<LineBreak/>5.2.1	12架图-22M2（第924近卫海军侦察航空团）
+		<LineBreak/>5.2.1	12架图-16K（第987海军侦察航空团）
+		<LineBreak/>5.2.1	12架米格-25PD（第445战斗机航空团）
+		<LineBreak/>5.3	670M型潜艇K-209号
+		<LineBreak/><LineBreak/>
+      6.（机密）情报评估：
+  <LineBreak/>6.1	宇宙1932号卫星将于0028Z时飞越挪威海，但美国人正在尝试击落我们的卫星。如果有可能，总部将向你发送瞄准数据。 
+  <LineBreak/>6.2	很可能有美国潜艇为航母战斗群护航。
+    </TextBlock>
+</Grid>

@@ -1,0 +1,33 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Sonobojen"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Sonobo­jen sind kleine, aus der Luft abwerfbare Schwimmbojen, die eine lange Leitung mit Unterwasserschallwandlern (Mikrofonen) auf eine voreingestellte Tiefe ausbringen. Diese sind über Funk mit dem Hubschrauber (oder Flugzeug) verbunden. Hinweis: Ein Hubschrauber muss sich innerhalb von 30 sm zu jeder Boje befinden, um deren Daten empfangen zu können!"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Der HSS-2B führt sowohl passive (AN/SSQ-53 DIFAR) als auch aktive (AN/SSQ-62 DICASS) Sonobo­jen mit. Wie bei schiffsgestützten Sonaranlagen dient die passive Variante ausschließlich zum Lauschen, während die aktive ein Signal aussendet, um Richtung und Entfernung zu bestimmen. Hinweis: Aktive Sonobo­jen sind dafür vorgesehen, einen zuvor passiv georteten Kontakt zu lokalisieren und festzulegen. Sie sind nicht dafür ausgelegt, ein Gebiet systematisch abzusuchen!"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_18_de.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Weiter" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_20_de.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

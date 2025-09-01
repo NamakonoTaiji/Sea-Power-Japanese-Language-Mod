@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Helicopters - Fuel Constraints" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="All aircraft including helicopters have limited fuel which affects their range. Note that different loadouts will have different effects on aircraft range." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="For example, ASW loadout for the SH-2F will carry two torpedoes and 15 sonobuoys at a cost to the aircraft's range. Ferry loadout will leave all weapons on the ship, and equip the helicopter with two external fuel tanks. This loadout is useful if you only anticipate using the helo as a radar platform and not to hunt submarines." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="You can see the helicopter's max range on the map, visible as a " FontSize="12"/><Run Text="blue" FontSize="12" FontWeight="Bold" Foreground="#00AEEF"/><Run Text=" circle once the helicopter is airborne (you may have to scroll out pretty far to see it!) You can also hover your mouse over the Status area on the bottom bar to see exact fuel state." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Back" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_22.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Next" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_24.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

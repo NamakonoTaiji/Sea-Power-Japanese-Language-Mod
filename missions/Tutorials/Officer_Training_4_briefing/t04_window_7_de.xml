@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Eine Combat Air Patrol (CAP) starten"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Nun, da Sie Ihr AEW-Flugzeug in der Luft haben, starten Sie einen Flug zur Combat Air Patrol (CAP)."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Der Einsatz einer CAP ermöglicht eine schnelle Reaktion auf jegliche durch Ihre AEW-Flugzeuge entdeckte Bedrohungen aus der Luft und sollte durch eine neue CAP ersetzt werden, sobald Ihre Jäger Treibstoffmangel melden. Beachten Sie, dass Sie als Spieler für die Aufrechterhaltung Ihrer Lufteinsätze verantwortlich sind!"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Verwenden Sie das Flugdeck Ihres Trägers, um eine CAP von 2 × MiG-23A Flogger mit Luft-Luft-Bewaffnung zu starten. Geben Sie diesen Flugzeugen den Befehl, in etwa 30–40 Seemeilen vor Ihrer Formation auf einer Reisehöhe von 37.000 Fuß zu patrouillieren."/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_6_de.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Weiter" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_8_de.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

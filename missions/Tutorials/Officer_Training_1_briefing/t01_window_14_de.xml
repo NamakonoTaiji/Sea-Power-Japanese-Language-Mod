@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Einsatz der Schiffswaffen – SM-1MR Standard" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Der Radarkontakt wurde nun als QST-35 SEPTAR-Zieldrohne identifiziert. Versuchen Sie, dieses Ziel mit Ihren Flugkörpern SM-1MR Standard zu bekämpfen. Dabei handelt es sich um eine Mittelstrecken-Boden-Luft-Rakete (SAM) mit einem sekundären Modus zur Bekämpfung von Seezielen." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Dieser Flugkörper ist die Hauptbewaffnung der Fregatte der Perry-Klasse. Machen wir uns nun mit ihrem Einsatz gegen Seeziele vertraut. Die gleichen Grundsätze gelten auch für den Einsatz gegen Luftziele." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Klicken Sie auf das SM-1MR-Symbol in der Leiste am unteren Bildschirmrand, um die Waffe auszuwählen und bewegen Sie dann die Maus über die Taktische Karte, um ein Ziel auszuwählen." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_13_de.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Weiter" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15_de.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

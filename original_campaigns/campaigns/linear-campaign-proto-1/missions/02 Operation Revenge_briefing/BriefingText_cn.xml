@@ -1,0 +1,69 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋舰队司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="东方特遣舰队"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="复仇行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年5月10日"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.（机密）态势：
+      <LineBreak/>昨天，一艘美国间谍船闯入我方领海巡逻，试图监视我方行动。我方派出了一个水面行动群进行跟随，阻止美国人干涉我方行动。在保护我方利益的过程中，美国人未离开我方领海，一位过于激进的指挥官扣押了吉拉多角号，美国船员和我们的同志均有阵亡。在此区域行动的北约潜艇迅速回应，击沉了我方军舰，杀死了我们的同志。人们越来越担心敌对行动的加剧与核战争的威胁，但苏联的战士和军舰已沉入海底，我们不能无视死难者。克里姆林宫已命令你找到一支从阿图岛前往日本的美国特遣舰队并将其击沉。
+      <LineBreak/><LineBreak/>
+      2.（机密）任务：
+  <LineBreak/>2.1	找到并摧毁从阿图岛前往日本的美国特遣舰队。
+  <LineBreak/>2.2	瞄准并消灭美国水面部队。
+<LineBreak/><LineBreak/>
+      3.（机密）执行：
+  <LineBreak/>3.1	根据情况自主进行电磁辐射控制。
+  <LineBreak/>3.2	空中资产已在支援你的途中。
+  <LineBreak/>3.3	尽可能保护我方部队。
+      <LineBreak/><LineBreak/>
+      4.（机密）敌方作战序列：
+  <LineBreak/>4.1	美国特遣舰队
+  <LineBreak/>4.1.1	1艘莱希级巡洋舰
+  <LineBreak/>4.1.2	1艘斯普鲁恩斯级驱逐舰
+  <LineBreak/>4.1.3	1艘贝尔纳普级巡洋舰
+  <LineBreak/>4.1.4	1艘奥利弗·哈泽德·佩里护卫舰
+      <LineBreak/><LineBreak/>
+      5.（机密）友方作战序列：
+  <LineBreak/>5.1	东方特遣舰队
+  <LineBreak/>5.1.1	956型驱逐舰稳健号
+  <LineBreak/>5.1.2 956型驱逐舰谨慎号
+  <LineBreak/>5.1.3 1164型巡洋舰光荣号
+  <LineBreak/>5.1.4 1134A型巡洋舰伊萨琴科夫海军上将号
+  <LineBreak/>5.2	空中部队
+  <LineBreak/>5.2.1 1架图-95RT 
+  <LineBreak/>5.2.2 2架图-22M2
+  <LineBreak/>5.3	潜艇部队
+  <LineBreak/>5.3.1	675型潜艇K-175号
+<LineBreak/><LineBreak/>
+      6.（机密）情报评估：
+  <LineBreak/>6.1	预计美国特遣舰队正在向西南方开往日本。
+  <LineBreak/>6.2	预计美军对我们没有戒备。
+  <LineBreak/>6.3	预计敌方没有空中掩护。
+    </TextBlock>
+</Grid>

@@ -1,0 +1,44 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Ship Weapons Employment - Tactical Display Symbology" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="When you select the missile on the bottom bar, you will see a " FontSize="12"/><Run Text="yellow" FontSize="12" FontWeight="Bold" Foreground="#D5A876" /><Run Text=" ring appear on the Tactical Display (minimap). This is the weapon's minimum engagement range, meaning you cannot fire at targets inside this ring." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="The " FontSize="12"/><Run Text="red" FontSize="12" FontWeight="Bold" Foreground="#C04A3C"/><Run Text=" circle indicates the weapon's maximum range, while the" FontSize="12"/><Run Text=" blue" FontSize="12" FontWeight="Bold" Foreground="#00AEEF"/><Run Text=" and " FontSize="12"/><Run Text="green" FontSize="12" FontWeight="Bold" Foreground="#7CC576"/><Run Text=" circles are the highest and lowest radar illuminator's range to the horizon at sea level. Keep in mind, depending on when you fire the missile, the weapon system may not be able to hit a target close to the missile's max effective range depending on the target's heading, altitude, and speed." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Go ahead and right click on the target drone in the Tactical Display to fire one missile at it. Once firing commences, let's click on the hostile target vessel via the Tactical Display to watch the missile impact." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Back" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_14.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Next">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="QST Harpoon"/>
+						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15a.xml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

@@ -79,8 +79,8 @@
         TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
                 <Border.RenderTransform>
                     <TransformGroup>
-                        <RotateTransform Angle="-6" CenterX="432" CenterY="560"/>
-                        <TranslateTransform X="-313"/>
+                        <RotateTransform Angle="0" CenterX="432" CenterY="560"/>
+                        <TranslateTransform X="-280"/>
                     </TransformGroup>
                 </Border.RenderTransform>
                 <Border.Effect>

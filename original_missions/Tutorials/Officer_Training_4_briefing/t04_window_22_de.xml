@@ -1,0 +1,39 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Ausrüstung - Luftschlag"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="„Luftschlag“, „Luftschlag Langstrecke“ und „Präzisionsluftschlag“ sind in der Regel für den Einsatz gegen Bodenziele (Landziele) vorgesehen."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Luftschlag-Konfigurationen enthalten ungelenkte Bomben und Streubomben. Die Ausrüstung „Präzisionsluftschlag“ stattet das Flugzeug entweder mit lasergelenkten Bomben oder TV-gelenkten Bomben aus, die beide besondere Einsatzvoraussetzungen erfordern."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• Lasergelenkte Bomben (LGBs)"/><Run Text=" erfordern eine freie Sicht auf das Ziel, damit das markierende Flugzeug es mit dem Laser beleuchten kann. Beachten Sie, dass Flugzeuge sich gegenseitig beim „Buddy Lasing“ unterstützen können, indem sie die Waffe „Lasermarkierer“ gegen ein bestimmtes Ziel einsetzen!"/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• TV-gelenkte Bomben"/><Run Text=" erfordern eine freie Sicht auf das Ziel (z. B. keine Wolkendecke, die es verdeckt), damit der TV-Sucher das Ziel erfassen kann. Typischerweise handelt es sich hier um Gleitbomben, die aus großer Höhe abgeworfen werden sollten, um deren maximale Reichweite optimal nutzen zu können."/>
+				
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_21_de.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Weiter" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_23_de.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

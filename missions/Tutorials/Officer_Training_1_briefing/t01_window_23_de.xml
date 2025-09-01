@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Hubschrauber – Treibstoffeinschränkungen" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Alle Luftfahrzeuge, einschließlich Hubschrauber, verfügen nur über eine begrenzte Treibstoffmenge, die ihre Reichweite beeinflusst. Beachten Sie, dass sich unterschiedliche Bewaffnungen und Ausrüstungen unterschiedlich auf die Reichweite des Luftfahrzeugs auswirken." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Beispielsweise trägt der SH-2F in der U-Jagd-Konfiguration zwei Torpedos und 15 Sonarbojen – was jedoch auf Kosten seiner Reichweite geht. In der Überführungs-Konfiguration bleiben alle Waffen an Bord des Schiffs, und der Hubschrauber wird stattdessen mit zwei externen Zusatztanks ausgerüstet. Diese Konfiguration ist nützlich, wenn der Hubschrauber lediglich als Radarplattform eingesetzt werden soll und nicht zur U-Jagd." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Die maximale Reichweite des Hubschraubers ist auf der Karte als " FontSize="12"/><Run Text="blauer" FontSize="12" FontWeight="Bold" Foreground="#00AEEF"/><Run Text=" Kreis sichtbar, sobald er in der Luft ist (ggf. müssen Sie etwas weiter herauszoomen, um ihn zu sehen). Zudem können Sie den Mauszeiger über den Statusbereich in der unteren Leiste bewegen, um den genauen Treibstoffstand abzulesen." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_22_de.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Weiter" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_24_de.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

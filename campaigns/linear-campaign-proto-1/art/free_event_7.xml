@@ -42,7 +42,7 @@
           <Image Grid.Row="2" Source="{Binding Assets[07_delta_3_surface_launch_2]}"/>
           <Grid Grid.Row="3" Margin="0,10,0,20">
             <TextBlock Text="Successful test launch of mighty Weapons" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
-			<TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+			<TextBlock Text="&#1060;&#1086;&#1090;&#1086; &#1042;. &#1044;&#1052;&#1048;&#1058;&#1056;&#1070;&#1050;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
           </Grid>
           <Grid Grid.Row="4" Background="#FFFAEBD7">
             <Grid.ColumnDefinitions>

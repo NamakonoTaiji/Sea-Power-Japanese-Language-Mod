@@ -1,0 +1,54 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		1968年12月20日
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="大西洋舰队总司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="小约瑟夫·P·肯尼迪号驱逐舰"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触报告"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		紧急——绝密
+		<LineBreak/>
+		<LineBreak/>		1.（机密）美国海军设施工程系统司令部驻挪威单位报告疑似苏联的667A型弹道导弹核潜艇于昨日0030Z时经过。
+		<LineBreak/>
+		<LineBreak/>		2.（绝密）国家技术情报来源表明苏联北方舰队正准备启航，无线电通信量达到正常水平的三倍。苏军可能即将大规模进入北大西洋。国家指挥当局目前正在调查他们的意图。
+		<LineBreak/>
+		<LineBreak/>		3.（绝密）分隔情报来源“红色梦想”已发出警告称侦测到的667A型弹道导弹核潜艇已经叛变，其指挥官意图打击美国东海岸。
+		<LineBreak/>
+		<LineBreak/>		4.（机密）作为此区域内唯一的美国海军部队，你需要向东北航行至C点，之后找到667A型潜艇并将其摧毁。
+		<LineBreak/>
+		<LineBreak/>		5.（机密）雷克雅未克海军航空站的VP-56将提供空中支援，第一架飞机最迟于1035Z时就位。击沉敌方潜艇后报告击沉位置并等待进一步命令。祝你好运。
+		<LineBreak/>
+		<LineBreak/>
+		绝密
+		<LineBreak/>		未经发起人许可不得解密
+	  </TextBlock>
+</Grid>

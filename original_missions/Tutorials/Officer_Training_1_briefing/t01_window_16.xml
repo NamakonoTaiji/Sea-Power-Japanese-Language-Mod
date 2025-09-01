@@ -1,0 +1,43 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Ship Weapons Employment - Missile Defense" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="In the future, you may find yourself under attack by such weapons. Most vessels have a few ways of defending themselves:" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• Chaff:"/><Run Text=" decoys radar-guided missiles by creating a false radar return" FontSize="12"/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• Noisemakers:"/><Run Text=" decoys passive homing torpedoes by creating a false acoustic signature" FontSize="12"/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• CIWS (Close In Weapon Systems):"/><Run Text=" shoots down incoming enemy missiles or aircraft" FontSize="12"/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• ECM (Electronic Countemeasures):"/><Run Text=" jams enemy missiles, causing them to miss" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Note: chaff, CIWS, and ECM will be deployed automatically. Noisemakers require the player to manually deploy!" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Back" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15a.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Next" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_17.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

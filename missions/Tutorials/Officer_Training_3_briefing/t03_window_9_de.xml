@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Umweltfaktoren für die Ortung"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Die Sonarortung wird von mehreren Faktoren stark beeinflusst. Der wichtigste Faktor ist dabei die Geschwindigkeit des eigenen Schiffes. "/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Allerdings wirken sich auch Umweltfaktoren auf die Sonarortung aus. Ein stärkerer Seegang erzeugt mehr Umgebungsgeräusche und erschwert so die passive Ortung. Regen hat denselben Effekt, da er Geräusche an der Wasseroberfläche verursacht. Schnee hingegen beeinflusst die passive Ortung nicht."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Bei höherem Seegang wird die U-Jagd zunehmend schwieriger. Der Seegang wird durch die aktuelle Windstärke beeinflusst. Die aktuellen Bedingungen können Sie im " FontSize="12"/><Run FontWeight="Bold" Text="Event-Logbuch" FontSize="12"/><Run Text=" unten rechts unter dem Reiter " FontSize="12"/><Run FontWeight="Bold" Text="Umwelt" FontSize="12"/><Run Text=" einsehen, wo Windstärke und das Meereshintergrundrauschen angezeigt werden. Eine höhere Windstärke bedeutet mehr Wellen an der Oberfläche und damit einen höheren Geräuschpegel. Das erschwert die passive Ortung für alle Plattformen – einschließlich U-Boote."/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_8_de.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Weiter" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_10_de.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

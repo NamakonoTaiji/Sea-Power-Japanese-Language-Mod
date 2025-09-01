@@ -40,7 +40,7 @@
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
       <LineBreak/>
       <LineBreak/>
-      1.（密）战术态势：
+      1.（机密）战术态势：
       <LineBreak/>
       <LineBreak/>
        我方地面部队正尝试占领纳尔维克港，由于天气恶劣，空军无法破坏敌方补给线，故需要进行海上封锁。
@@ -49,7 +49,7 @@
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-      2.（密）主要目标：
+      2.（机密）主要目标：
       <LineBreak/>
       <LineBreak/>
 	  进入韦斯特峡湾，找到护航队，确保补给船只无法抵达目的地。
@@ -59,7 +59,7 @@
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-      3.（密）威胁报告：
+      3.（机密）威胁报告：
       <LineBreak/>
       <LineBreak/>
 	  预计有敌方水面船只在韦斯特峡湾巡逻。
@@ -72,11 +72,11 @@
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-      4.（密）红色警报——允许与所有敌对目标交战。
+      4.（机密）红色警报——允许与所有敌对目标交战。
       <LineBreak/>
       <LineBreak/>
 	  <LineBreak/>
-      5.（密）电磁辐射控制——保持无线电静默，除非另有指示。
+      5.（机密）电磁辐射控制——保持无线电静默，除非另有指示。
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>

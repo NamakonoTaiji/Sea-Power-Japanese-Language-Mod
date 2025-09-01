@@ -1,0 +1,61 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="19 APR 1972"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSEVENTHFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTU 77.1.1"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Info:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Mission Orders"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      IMMEDIATE - SECRET
+	  <LineBreak/>
+	  <LineBreak/>
+	  1. (S) SITUATION: Intelligence reports indicate the North Vietnamese are transiting large amounts of troops and supplies along the coastal highway towards the Quang Tri Province battlefront.
+      <LineBreak/>
+      <LineBreak/>
+      2. (S) MISSION: TF 77 will conduct shore bombardment to destroy ground installations around Dong Hoi.
+      <LineBreak/>
+      <LineBreak/>
+      3. (S) EXECUTION: Task Unit 77.1.1 (with OKLAHOMA CITY) will engage North Vietnamese shore batteries and installations and suppress all targets encountered. STERETT will be stationed northeast of TU 77.1.1 and coordinate air defense of the Task Unit. No EMCON restrictions. All targets in the area to be considered hostile and TU 77.1.1 is authorized to take under fire without constraint all targets that represent an immediate threat.
+      <LineBreak/>
+      <LineBreak/>
+      4. (S) ENEMY ORDER OF BATTLE: Dong Hoi area is protected by surface to air missile sites and shore batteries. Coastal warfare craft of North Vietnamese Navy may sortie to attack our forces, but be advised this area is heavy fishing ground and civilian casualties must be avoided.
+      <LineBreak/>
+      <LineBreak/>
+      5. (S) REMARKS: Get in quickly and destroy enemy forces before they can resupply their forces to the south. Good luck and good hunting. CTF 77 sends.
+	  <LineBreak/>
+	  <LineBreak/>
+	  SECRET
+    </TextBlock>
+</Grid>

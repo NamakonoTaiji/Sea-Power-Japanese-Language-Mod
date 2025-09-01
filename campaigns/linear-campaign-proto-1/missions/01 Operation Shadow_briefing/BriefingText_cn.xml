@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="北约总部"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="挪威海军潜艇指挥官"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="抄送："/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="大西洋舰队总司令"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="行动计划——阴影行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年5月9日"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.（机密）态势：
+      <LineBreak/>
+	  在北约和华约之间紧张局势加剧的情况下，过去几周内苏联海军在巴伦支海的活动明显增加。北约部队已被指派前往监视其活动并收集情报数据。美军的吉拉多角号（转为军用的运输船）已经配备了先进的信号情报和监听装备，从希尔克内斯出发，监视苏联的通信。两艘挪威潜艇也收到命令在此区域巡逻监视。我们预计苏联水面部队将出现在此区域，制止北约的行动。
+      <LineBreak/><LineBreak/>
+      2.（机密）任务：
+	<LineBreak/>2.1	挪威海军潜艇将在巡逻区域巡弋并监视苏联海军的活动。
+	<LineBreak/>2.2	保持隐蔽，避免暴露。
+	<LineBreak/><LineBreak/>
+      3.（机密）执行：
+	<LineBreak/>3.1	吉拉多角号独立行动。
+	<LineBreak/>3.2	挪威海军部队根据指挥官的命令执行后续任务。
+	<LineBreak/>3.3	准备在短时间内离开此区域。
+      <LineBreak/><LineBreak/>
+      4.（机密）敌方作战序列：
+	<LineBreak/>4.1	苏联水面行动群
+	<LineBreak/>4.1.1	1155型驱逐舰
+	<LineBreak/>4.1.2	956型驱逐舰
+	<LineBreak/>4.1.3	1134A型巡洋舰
+      <LineBreak/><LineBreak/>
+      5.（机密）友方作战序列：
+	<LineBreak/>5.1 科本级潜艇乌特西拉号
+	<LineBreak/>5.2 科本级潜艇乌特豪格号
+	<LineBreak/>5.3	运输船吉拉多角号
+	<LineBreak/><LineBreak/>
+      6.（机密）情报评估：
+	<LineBreak/>6.1	情报评估认为苏联水面行动群已在目标区域航行，很可能在跟随吉拉多角号。
+	<LineBreak/>6.2	情报评估认为苏联尚未发现行动区域内的挪威潜艇。
+    </TextBlock>
+</Grid>

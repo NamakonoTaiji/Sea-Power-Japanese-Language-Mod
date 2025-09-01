@@ -40,7 +40,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.（密）战术态势：
+      1.（机密）战术态势：
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -49,7 +49,7 @@
 	
 以下是北方舰队关于隐蔽百合行动的安排。
       <LineBreak/>
-	  <LineBreak/> 你的949型巡航导弹核潜艇（K-503）和671RTM型攻击型核潜艇（K-244）需要在指定位置与沃尔霍夫河号潜艇补给舰会合并进行海上补给。
+	  <LineBreak/> 你的949型巡航导弹核潜艇K-503号和671RTM型攻击型核潜艇K-244号需要在指定位置与沃尔霍夫河号潜艇补给舰会合并进行海上补给。
       <LineBreak/>
       <LineBreak/>之后你需要在指定位置潜伏，等待敌方护航队经过。我们认为该护航队包含数个高价值单位，并且没有反潜护航船只。
       <LineBreak/>
@@ -62,7 +62,7 @@
 	
 	  <LineBreak/>
       <LineBreak/>
-      2.（密）主要目标：
+      2.（机密）主要目标：
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -72,7 +72,7 @@
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-      3.（密）威胁报告：
+      3.（机密）威胁报告：
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -97,7 +97,7 @@
 	  <!--
       5.  (S) EMCON - Maintain radio silence until otherwise directed
 	  -->
-	  4.（密）电磁辐射控制——保持无线电静默，除非另有指示，此区域内的间谍船可根据情况自行使用无线电。
+	  4.（机密）电磁辐射控制——保持无线电静默，除非另有指示，此区域内的间谍船可根据情况自主使用无线电。
 	  <LineBreak/>
 	  <LineBreak/>
 	  

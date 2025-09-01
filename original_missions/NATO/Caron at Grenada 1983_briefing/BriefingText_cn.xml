@@ -1,0 +1,56 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		1983年10月23日
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第二舰队司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="卡隆号驱逐舰"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="片段命令01——紧急狂暴行动"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		紧急——机密
+		<LineBreak/>
+		<LineBreak/>		1.（机密）态势：美国情报机构认为古巴和苏联军队正在安的列斯群岛南部的格林纳达建造一座军用机场。总统将在不久后授权进行紧急狂暴行动，其目的是保护格林纳达的美国公民，建立民主政府，消除古巴和苏联对此岛屿的影响。我们正在建立第120联合特遣舰队以执行此次行动。
+		<LineBreak/>
+		<LineBreak/>		2.（机密）任务：美国海陆空三军将对岛屿进行协同攻击，营救所有美国公民，摧毁抵抗之敌。
+		<LineBreak/>
+		<LineBreak/>		3.（机密）执行：卡隆号将负责为岸上部队提供海军炮火支援。此命令立即生效，脱离独立号战斗群，以最快速度向南前进。穆斯布鲁格号会在10月21日加入你们。在格林纳达12海里外的海域使用外侧系统收集情报，之后等待进一步命令。
+		<LineBreak/>
+		<LineBreak/>		4.（机密）敌方作战序列：我们怀疑格林纳达人民革命军使用苏联提供的装甲车和ZU-23防空炮。岸上的古巴顾问团也装备了轻型装甲车，有迹象表明此地区存在641型潜艇。
+		<LineBreak/>
+		<LineBreak/>		5.（机密）友方作战序列：独立号战斗群将在格林纳达西北方就位。关岛号及其所属的地中海两栖戒备群1-84将在北方就位。来自独立号的攻击机小队和来自关岛号的眼镜蛇直升机将为岸上的部队提供空中支援。
+		<LineBreak/>
+		<LineBreak/>		6.（机密）备注：此次行动将确保美国公民的安全并防止苏联在加勒比海建立另一个基地。祝你好运，狩猎愉快。
+		<LineBreak/>
+		<LineBreak/>
+		机密
+		<LineBreak/>		未经收件人许可不得解密
+	  </TextBlock>
+</Grid>
