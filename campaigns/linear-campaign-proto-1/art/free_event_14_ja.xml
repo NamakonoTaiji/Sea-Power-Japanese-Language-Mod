@@ -41,8 +41,8 @@
                     </Grid.RowDefinitions>
                     <StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"
                         Orientation="Vertical">
-                        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="平和！" FontWeight="Bold"
-                            FontSize="160" LineHeight="0" LineStackingStrategy="BlockLineHeight"
+                        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="和平へ" FontWeight="Bold"
+                            FontSize="120" LineHeight="0" LineStackingStrategy="BlockLineHeight"
                             TextWrapping="Wrap" TextAlignment="Center" Margin="-35" />
                         <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="NATOとソ連、停戦に合意"
                             FontWeight="Bold"
