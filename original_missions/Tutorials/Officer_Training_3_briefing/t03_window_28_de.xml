@@ -32,6 +32,7 @@
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="Destroy November"/>
+						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="Spawn P3"/>
 						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_29_de.xml"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>

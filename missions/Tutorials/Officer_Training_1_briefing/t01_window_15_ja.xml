@@ -16,30 +16,57 @@
             <TextBlock
                 TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
                 <TextBlock.Inlines>
-                    <Run FontWeight="Bold" Text="艦載兵装の使用 - SM-1MR スタンダード" FontSize="16" />
+                    <Run FontWeight="Bold" Text="艦船兵装の運用 - 戦術ディスプレイの記号" FontSize="16" />
                     <LineBreak />
                     <LineBreak />
                     <Run
-                        Text="レーダー探知目標はQST-35 SEPTAR標的ドローンであることが判明した。SM-1MR スタンダードミサイルでこの目標と交戦してみよう。これは中距離艦対空ミサイル（SAM）であり、見通し線内の交戦用に副次的な対水上モードも備えている。"
+                        Text="下部バーでミサイルを選択すると、戦術ディスプレイ（ミニマップ）に" FontSize="12" />
+                    <Run Text="黄色"
+                        FontSize="12" FontWeight="Bold" Foreground="#D5A876" />
+                    <Run
+                        Text="のリングが表示される。これは兵装の最小交戦距離であり、このリング内の目標には発射できない。" FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="「"
+                        FontSize="12" />
+                    <Run Text="赤" FontSize="12" FontWeight="Bold"
+                        Foreground="#C04A3C" />
+                    <Run Text="」色の円環は兵装の最大射程を示し、「" FontSize="12" />
+                    <Run
+                        Text="青" FontSize="12" FontWeight="Bold" Foreground="#00AEEF" />
+                    <Run
+                        Text="」と「" FontSize="12" />
+                    <Run Text="緑" FontSize="12" FontWeight="Bold"
+                        Foreground="#7CC576" />
+                    <Run
+                        Text="」の円環は、レーダーイルミネーターの水平線に対する最大および最小距離を示す。目標の針路、高度、速度によっては、ミサイルの最大有効射程に近い目標に命中させることができない場合がある点に注意せよ。"
                         FontSize="12" />
                     <LineBreak />
                     <LineBreak />
-                    <Run Text="このミサイルはペリー級フリゲートの主兵装である。対水上目標に対する使用方法に習熟しよう。同じ要領は対空目標にも適用される。"
+                    <Run
+                        Text="戦術ディスプレイ上のターゲット・ドローンを右クリックし、ミサイルを1発発射せよ。発射後、戦術ディスプレイで敵目標をクリックし、ミサイルの着弾を確認しよう。"
                         FontSize="12" />
-                    <LineBreak />
-                    <LineBreak />
-                    <Run Text="下部バーのSM-1MRアイコンをクリックして選択し、次に戦術ディスプレイ上でマウスを操作して目標を選択する。" FontSize="12" />
                 </TextBlock.Inlines>
             </TextBlock>
-            <StackPanel
-                Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
                 <Button
                     Width="100" Height="50" Margin="0,0,15,0" FontSize="16"
                     VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
-                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_13_ja.xml" />
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_14_ja.xml" />
                 <Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom"
-                    Content="次へ" Command="{Binding OpenFileCommand}"
-                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15_ja.xml" />
+                    Content="次へ">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger
+                            EventName="Click">
+                            <i:InvokeCommandAction
+                                Command="{Binding ExecuteTriggerCommand}"
+                                CommandParameter="QST Harpoon" />
+                            <i:InvokeCommandAction
+                                Command="{Binding OpenFileCommand}"
+                                CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15a_ja.xml" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Button>
             </StackPanel>
         </StackPanel>
     </ScrollViewer>

@@ -16,7 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Helicopters for ASW"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="A new noise contact has been detected by one of your platforms!"/>
+				<Run Text="A new contact has been detected. Note: because this is a tutorial, this contact has been revealed to us through artificial means. In the real game, detection of contacts relies on the contact's actual detectability by our sensor platforms!"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Let's now discuss how we will further identify and then prosecute this contact."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Now that a new contact has been detected, let's move back to JDS Hiei and discuss use of helicopters for hunting submarines. Use the Formation Manager to select JDS Hiei, or click the MMB from JDS Kikuzuki to return to JDS Hiei."/>

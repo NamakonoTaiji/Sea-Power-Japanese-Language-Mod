@@ -19,7 +19,7 @@
 				<Run Text="Sonobuoys are small, air-deployable floating buoys, which deploy a long line of transducers (microphones) underwater to a preset depth. These are then connected to the helicopter (or aircraft) using a radio link. Note: you must have a helicopter within 30nm of each buoy to receive data from it!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="The HSS-2B carries both passive (AN/SSQ-53 DIFAR) and active (AN-SSQ-62 DICASS) sonobuoys. As with shipboard sonar sets, passive will listen only and active will ping for direction and ranging. Note: active sonobuoys are designed to be used to localize and 'fix' a passive contact, and are not designed for searching an area!"/>
+				<Run Text="The HSS-2B carries both passive (AN/SSQ-53 DIFAR) and active (AN/SSQ-62 DICASS) sonobuoys. As with shipboard sonar sets, passive will listen only and active will ping for direction and ranging. Note: active sonobuoys are designed to be used to localize and 'fix' a passive contact, and are not designed for searching an area!"/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

@@ -1,0 +1,43 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="探知に影響する環境要因" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+                    <TextBlock.Inlines>
+                        <Run Text="ソナーによる探知は、いくつかの要因に大きく影響される。最も重要なのは自艦の速力である。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="しかし、環境要因もソナー探知に影響を与える。海象（シーステート）が悪化すると、海中雑音が増加し、パッシブ探知がより困難になる。降雨も同様に、海面にノイズを発生させる効果がある。なお、降雪はパッシブ探知に影響しない！" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="海象が悪化するほど、対潜戦闘はますます困難になる。海象は現在の風力に影響される。右下のイベントログを開き、「環境」タブを確認することで、現在の風力と海洋雑音レベルを確認できる。風力が強いほど海面の波が高くなり、雑音レベルも上昇する。これは、（潜水艦を含む）すべてのプラットフォームによるパッシブ探知がより困難になることを意味する。" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_8_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_10_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

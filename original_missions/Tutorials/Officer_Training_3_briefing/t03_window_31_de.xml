@@ -13,10 +13,10 @@
   <Grid>
     <ScrollViewer>
 		<StackPanel Orientation="Vertical" Margin="15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Datum und Furthest On Circle (FOC)"/>
-		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="24" FontWeight="Bold" Text="Datum und Furthest On Circle (FOC)"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="18">
 			<TextBlock.Inlines>
-				<Run Text="Commander, our intel sources have passed a warning of another enemy submarine operating in the area."/>
+				<Run Text="Kommandant, unsere Nachrichtendienste haben eine Warnung über ein weiteres feindliches U-Boot übermittelt, das im Einsatzgebiet operiert.."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Die Japanischen Selbstverteidigungsstreitkräfte haben ein neues Ziel aufgefasst. Die Position für diesen Kontakt wurde nun auf Ihrer Taktischen Karte als „Datum A01“ markiert. Ein „Datum“ ist die letzte bekannte Position eines Kontaktes, festgelegt als geografische Koordinate auf Ihrer Karte. Der Kreis um das Datum ist der „Furthest On Circle (FOC)“, also der äußerste mögliche Wirkungsbereich, der sich aus der letzten bekannten Position und der geschätzten Geschwindigkeit des U-Bootes ergibt. In diesem Fall beträgt der Durchmesser von Datum A01 etwa 10 Seemeilen, basierend auf dem Alter des Kontaktes."/>
@@ -27,8 +27,8 @@
 		</TextBlock>
 		<LineBreak/>
         <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
-			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_30_de.xml"/>
-			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Weiter">
+			<Button Width="150" Height="75" Margin="15" FontSize="20" VerticalAlignment="Bottom" Content="Zurück" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_30_de.xml"/>
+			<Button Width="150" Height="75" Margin="15" FontSize="20" VerticalAlignment="Bottom" Content="Weiter">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="Datum A01"/>

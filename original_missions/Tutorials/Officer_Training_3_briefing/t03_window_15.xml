@@ -17,9 +17,6 @@
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
 				<Run Text="Good work, Commander. At this point, the JDS Kikuzuki will be sprinting and drifting with its towed array below the layer."/>
-				<LineBreak/>
-				<LineBreak/>
-				<Run Text="Let's continue this process until we detect a new submerged noise contact."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

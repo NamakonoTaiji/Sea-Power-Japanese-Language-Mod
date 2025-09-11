@@ -33,7 +33,7 @@
                     <Run Text="青い"
                         FontSize="12" FontWeight="Bold" Foreground="#00AEEF" />
                     <Run
-                        Text="円で表示される（かなりスクロールアウトしないと見えない場合がある！）。また、下部バーのStatusエリアにマウスカーソルを合わせると、正確な燃料残量を確認できる。"
+                        Text="円で表示される（かなりスクロールアウトしないと見えない場合がある！）。また、下部バーの命令エリアにマウスカーソルを合わせると、正確な燃料残量を確認できる。"
                         FontSize="12" />
                 </TextBlock.Inlines>
             </TextBlock>

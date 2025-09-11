@@ -17,9 +17,6 @@
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
 				<Run Text="Gute Arbeit, Kommandant. Die JDS Kikuzuki wird nun sprinten und driften und dabei mit ihrem geschleppten Array unterhalb der Temperaturschicht nach Kontakten suchen."/>
-				<LineBreak/>
-				<LineBreak/>
-				<Run Text="Setzen Sie die Taktik fort, bis ein neuer getauchter Geräuschkontakt erfasst wird."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>
