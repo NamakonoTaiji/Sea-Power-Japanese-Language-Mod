@@ -14,38 +14,38 @@
 			</Border.Effect>
 			<StackPanel Orientation="Vertical">
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock Text="May 9, 1988 | Vol. 80, No. 39 | 25 Cents" Margin="0,15,0,15" FontSize="24"/>
+				<TextBlock Text="1988年5月9日|第80卷第39号|25美分" Margin="0,15,0,15" FontSize="24"/>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
 				<Grid Margin="0,5,0,15">
 					<Rectangle Fill="Red" Margin="0,110,0,5"/>
-					<TextBlock Text="Exposition News" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+					<TextBlock Text="爆炸性新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
 				</Grid>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold" TextWrapping="Wrap" Text="SOVIETS SEIZE U.S. NAVY SHIP—AMERICAN FORCES STRIKE BACK"/>
-				<TextBlock TextAlignment="Center" FontSize="36" TextWrapping="Wrap" Text="U.S. Submarine Sinks Soviet Warships as Special Forces Retake Captured Vessel"/>
+				<TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold" TextWrapping="Wrap" Text="苏联扣押美国船只；美方武力回应"/>
+				<TextBlock TextAlignment="Center" FontSize="36" TextWrapping="Wrap" Text="潜艇击沉苏联军舰；特种部队夺回被扣押船只"/>
 				<TextBlock TextAlignment="Justify" TextWrapping="Wrap">
-				WASHINGTON (AP) - In a dramatic turn of events, U.S. military forces have struck back against Soviet aggression in the Norwegian Sea, sinking multiple Soviet warships and successfully reclaiming the seized U.S. Navy vessel, USNS Cape Girardeau.
+				华盛顿（美联社）——事态出现了重大转折，美国军队以武力回应了苏联在挪威海的激进行为，击沉了多艘苏联军舰，并成功夺回了被扣押的吉拉多角号。
 				<LineBreak/>
 				<LineBreak/>
-				The crisis began early yesterday when Soviet warships forcibly boarded the Cape Girardeau, an unarmed Military Sealift Command vessel conducting routine operations in international waters. The ship and its crew of over 80 were taken by force, with Moscow falsely claiming the vessel was engaged in espionage.
+				这场危机始于昨天早些时候，当时苏联海军人员强行登上了吉拉多角号。这艘军事海运司令部下辖的无武装船只当时正在国际水域例行行动，莫斯科方面以吉拉多角号进行间谍行动为由，强行控制了此船只及船上的80余名船员。
 				<LineBreak/>
 				<LineBreak/>
-				But within hours, the United States launched a decisive response. According to Pentagon officials, two Norwegian submarines tracked the Soviet task force as it attempted to retreat toward Soviet waters. In a lightning fast engagement, the submarines engaged the task group, with at least one of the vessels reported sunk and the remaining ones heavily damaged.
+				然而，美国在数小时内果断回应。据五角大楼官员称，两艘挪威潜艇在苏联军舰尝试撤回苏联海域时进行了跟踪，后续又闪电般地攻击了敌方。据报道，苏联方面至少有一艘船只沉没，其余船只受损严重。
 				<LineBreak/>
 				<LineBreak/>
-				As the Soviet fleet reeled from the sudden assault, U.S. special operations forces launched a daring mission to retake the Cape Girardeau. Under the cover of darkness, Navy SEALs and Delta Force operatives, deployed from helicopters and stormed the captured vessel. After a brief but intense firefight with Soviet naval troops aboard the ship, American forces secured the bridge, neutralized enemy resistance, and freed the hostages.
+				趁着苏联舰队还未从突袭中缓过神，美国特种部队又发起了一项大胆的任务。在夜色的掩护下，海豹突击队和三角洲部队通过直升机部署，突袭了被扣押的船只。在与船上的苏联海军进行了短暂但激烈的交火后，美国军队控制了舰桥，粉碎了敌方的抵抗并释放了人质。
 				<LineBreak/>
 				<LineBreak/>
-				Pentagon sources report that fifteen Americans were killed in the action, and several U.S. special forces operators sustained injuries in the operation. Soviet casualties remain unconfirmed, but intelligence suggests that several enemy personnel were either killed or captured during the engagement.
+				五角大楼消息人士称此次事件中美方有15人死亡，数名特种部队成员在行动中负伤。苏方伤亡人数尚未得到确认，但情报证实敌方人员在交战中均阵亡或被俘。
 				<LineBreak/>
 				<LineBreak/>
-				In a televised address to the nation, President Reagan hailed the operation as a “resounding victory for freedom and justice,” stating, “The United States will never allow Soviet aggression to go unanswered. We have defended our sailors, upheld international law, and made it clear that acts of piracy will not be tolerated.”
+				里根总统在向全国发表的电视讲话中称赞此次行动是“自由和正义的巨大胜利”，并表示：“美国永远不会放任苏联的挑衅行为。我们保护了自己的水手，维护了国际法律，并且明确了不会容忍海盗行为。”
 				<LineBreak/>
 				<LineBreak/>
-				Moscow has reacted with outrage, accusing the U.S. of “reckless escalation” and threatening severe consequences. The Kremlin’s propaganda outlets claim that the Soviet warships were attacked without provocation and have vowed retaliation. NATO forces across Europe and the North Atlantic are now on their highest state of alert, with additional U.S. carrier battle groups reportedly moving into position.
+				莫斯科对此事表示愤怒，指责美国“鲁莽地升级局势”，并威胁称美国将面临严重后果。克里姆林宫宣传机构称苏联军舰在没有挑衅的情况下遭到袭击，并誓言进行报复。欧洲和北大西洋的北约部队目前处于最高级别的戒备状态，据报道，更多的美国航母战斗群正在部署到位。
 				<LineBreak/>
 				<LineBreak/>
-				With the Cold War now hotter than ever, the world holds its breath, uncertain of what will come next. Will cooler heads prevail, or has the conflict entered a point of no return?
+				如今的冷战比以往任何时候都更加激烈，全世界都屏息凝神，不确定未来会发生什么。冷静的大脑能控制局势吗？难道这场冲突已经到了无可避免的地步？
 				<LineBreak/>
 				<LineBreak/>
 				<LineBreak/>
@@ -68,7 +68,7 @@
 			</Border.Effect>
 			<StackPanel Orientation="Vertical">
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock Text="May 9, 1988 | Vol. 105, No. 42 | 52 Cents" Margin="0,15,0,15" FontSize="24"/>
+				<TextBlock Text="1988年5月9日|第105卷第42号|52美分" Margin="0,15,0,15" FontSize="24"/>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
 				<Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
@@ -83,7 +83,7 @@
 						<RowDefinition Height="Auto"/>
 						<RowDefinition Height="Auto"/>
 					</Grid.RowDefinitions>
-					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="WAR?! WAR?! WAR?! WAR?!" FontWeight="Bold" FontSize="196" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="战争？！战争？！战争？！战争？！" FontWeight="Bold" FontSize="196" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
 				</Grid>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
 			</StackPanel>

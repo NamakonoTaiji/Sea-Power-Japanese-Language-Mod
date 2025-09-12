@@ -32,22 +32,22 @@
         <Image Grid.Row="0" Source="{Binding Assets[NavyDSM]}" Width="153" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-30,0,0"/>
         <Image Grid.Row="2" Source="{Binding Assets[Seal_of_the_United_States_Department_of_Defense]}" Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 		<StackPanel Grid.Row="1" Orientation="Vertical">
-          <TextBlock Text="DEPARTMENT OF THE NAVY" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
-          <TextBlock Text="TO ALL WHO SHALL SEE THESE PRESENTS, GREETINGS, THIS IS TO VERTIFY THAT THE SECRETARY OF THE NAVY HAS ON THIS DAY AWAREDED THE" TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-          <TextBlock Text="DISTINGUISHED SERVICE MEDAL" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
-		  <TextBlock Text="TO" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-          <TextBlock Text="COMMANDER LEE GARDNER JR." TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
-          <TextBlock Text="FOR DISTINGUISHED AND EXCEPTIONAL SERVICE TO THE UNITED STATES WHILE SERVING AS COMMANDER FIGHTER SQUADRON EIGHTY FOUR (VF-84) AT ATTU ISLAND ON 2 JUNE 1988. BY HIS EXCEPTIONAL ABILITY AND PERSONAL INITIATIVE, COMMANDER GARDNER REFLECTED GREAT CREDIT UPON HIMSELF AND UPHELD THE HIGHEST TRADITIONS OF THE UNITED STATES NAVAL SERVICE." TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
+          <TextBlock Text="海军部" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+          <TextBlock Text="向所有见证之人致意，兹证明海军部长于今日将" TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+          <TextBlock Text="杰出服役勋章" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
+		  <TextBlock Text="授予" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+          <TextBlock Text="小李·加德纳" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
+          <TextBlock Text="以表彰其作为第84舰载战斗机中队（VF-84）于1988年6月2日在阿图岛为美国建立的卓著功勋。凭借着出众的能力和个人积极性，加德纳为自己赢得了巨大的荣誉，也发扬了美国海军的光荣传统。" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
 		</StackPanel>
 		<TextBlock Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" VerticalAlignment="Center" FontSize="12">
-GIVEN UNDER MY HAND IN THE CITY OF WASHINGTON, DC
+于华盛顿特区签署
 <LineBreak/>
-THIS <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">18TH</Run> DAY OF  <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">JUNE 1988</Run>
+日期：<Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988年</Run><Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">6月18日</Run>
 		</TextBlock>
 		<StackPanel Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">
-		  <TextBlock Text="David J Osborne" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>
+		  <TextBlock Text="戴维·J·奥斯伯恩" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>
 		  <Rectangle Height="1" Fill="#FF000000" Margin="15,0,15,0"/>
-          <TextBlock FontFamily="Imprint MT Shadow" Text="David J Osborne, NVSFCTA" TextAlignment="Center"/>
+          <TextBlock FontFamily="Imprint MT Shadow" Text="" TextAlignment="Center"/>
 		</StackPanel>
       </Grid>
     </Border>
@@ -75,22 +75,22 @@ THIS <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">18TH</Run> DA
         <Image Grid.Row="0" Source="{Binding Assets[Navy_Cross]}" Width="153" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-30,0,0"/>
         <Image Grid.Row="2" Source="{Binding Assets[Seal_of_the_United_States_Department_of_Defense]}" Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 		<StackPanel Grid.Row="1" Orientation="Vertical">
-          <TextBlock Text="THE UNITED STATES OF AMERICA" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
-          <TextBlock TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0" Text="THE PRESIDENT OF THE UNITED STATES OF AMERICA HAS AWARDED THE"/>
-          <TextBlock Text="NAVY CROSS" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
-		  <TextBlock Text="TO" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-          <TextBlock Text="COMMANDER EDWARD G. MEYER III" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
-          <TextBlock Text="FOR DISTINGUISHED AND EXCEPTIONAL SERVICE TO THE UNITED STATES WHILE SERVING AS COMMANDER TASK FORCE 75.3 OFF ATTU ISLAND ON 2 JUNE 1988. BY HIS EXCEPTIONAL ABILITY, PERSONAL INITIATIVE, AND TOTAL DEDICATION TO DUTY, CDR MEYER REFLECTED GREAT CREDIT UPON HIMSELF AND UPHELD THE HIGHEST TRADITIONS OF THE UNITED STATES NAVAL SERVICE." TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
+          <TextBlock Text="美利坚合众国" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+          <TextBlock TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0" Text="美利坚合众国总统将"/>
+          <TextBlock Text="海军十字勋章" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
+		  <TextBlock Text="授予" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+          <TextBlock Text="爱德华·G·迈耶三世" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
+          <TextBlock Text="以表彰其作为第75.3特遣舰队司令于1988年6月2日在阿图岛为美国建立的卓著功勋。凭借着出众的能力、个人积极性和对职责的全心投入，迈耶为自己赢得了巨大的荣誉，也发扬了美国海军的光荣传统。" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
 		</StackPanel>
 		<TextBlock Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" VerticalAlignment="Center" FontSize="12">
-GIVEN UNDER MY HAND IN THE CITY OF WASHINGTON, DC
+于华盛顿特区签署
 <LineBreak/>
-THIS <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">12TH</Run> DAY OF  <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">JUNE 1988</Run>
+日期：<Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988年</Run><Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">6月12日</Run>
 		</TextBlock>
 		<StackPanel Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">
-		  <TextBlock Text="Donald G Watson" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>
+		  <TextBlock Text="唐纳德·G·华生" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>
 		  <Rectangle Height="1" Fill="#FF000000" Margin="15,0,15,0"/>
-          <TextBlock FontFamily="Imprint MT Shadow" Text="Donald G Watson, SFCTA" TextAlignment="Center"/>
+          <TextBlock FontFamily="Imprint MT Shadow" Text="" TextAlignment="Center"/>
 		</StackPanel>
       </Grid>
     </Border>

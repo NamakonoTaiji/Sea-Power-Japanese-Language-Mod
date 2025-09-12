@@ -42,7 +42,7 @@
           <Image Grid.Row="2" Source="{Binding Assets[17_tu-22m]}"/>
           <Grid Grid.Row="3" Margin="0,10,0,20">
             <TextBlock Text="空中的社会主义力量：图波列夫轰炸机为大西洋带去和平" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
-			<TextBlock Text="图：V·迪米特柳克;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+			<TextBlock Text="图：V·德米特柳克；" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
           </Grid>
           <Grid Grid.Row="4" Background="#FFFAEBD7">
             <Grid.ColumnDefinitions>
@@ -105,7 +105,7 @@
           <Image Grid.Row="2" Source="{Binding Assets[17_reagan_gorbachev]}"/>
           <Grid Grid.Row="3" Margin="0,10,0,20">
             <TextBlock Text="美国总统里根与总书记戈尔巴乔夫签订停火协议" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
-			<TextBlock Text="图：V·迪米特柳克;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+			<TextBlock Text="图：V·德米特柳克；" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
           </Grid>
           <Grid Grid.Row="4" Background="#FFFAEBD7">
             <Grid.ColumnDefinitions>

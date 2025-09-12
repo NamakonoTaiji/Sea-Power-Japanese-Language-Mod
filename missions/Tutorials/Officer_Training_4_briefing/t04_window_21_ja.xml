@@ -1,0 +1,44 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="兵装 - 空対空" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+                    <TextBlock.Inlines>
+                        <Run
+                            Text="空対空(標準)、空対空(迎撃装備)、および空対空(増槽)は、戦闘機に空対空ミサイル（可能な場合は長距離（視程外）ミサイルを含む）を装備させる。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="迎撃装備は通常、標準の空対空兵装よりも多くの長距離ミサイルを搭載する。「増槽」兵装は、ミサイルの一部を外部燃料タンクに置き換えて航続距離を伸ばす。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="注意：すべての空対空兵装には、デフォルトでチャフ/フレア（レーダーおよび赤外線ミサイルを欺瞞するため）、および機関砲弾が含まれる！" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_20_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_22_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

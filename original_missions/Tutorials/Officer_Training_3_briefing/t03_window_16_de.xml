@@ -16,10 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Hubschrauber zur U-Jagd"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Ein neuer Geräuschkontakt wurde erfasst!"/>
+				<Run Text="Ein neuer Geräuschkontakt wurde erfasst! Hinweis: Da es sich hierbei um ein Tutorial handelt, wurde Ihnen dieser Kontakt auf künstlichem Wege via Trigger offengelegt. Im eigentlichen Spiel hängt die Entdeckung und Aufklärung von Kontakten von deren tatsächlicher Ortbarkeit durch Ihre Sensorplattformen ab!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Da nun ein neuer Kontakt erfasst wurde, wechseln wir zurück zur JDS Hiei und besprechen den Einsatz von Hubschraubern zur U-Jagd. Nutzen Sie den Formationsmanager, um die JDS Hiei auszuwählen, oder drücken Sie die mittlere Maustaste während die JDS Kikuzuki ausgewählt ist, um direkt zur JDS Hiei zurückzukehren."/>
+				<Run Text="Klären wir nun, wie Sie diesen Kontakt weiter identifizieren und anschließend bekämpfen können."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Da ein neuer Kontakt erfasst wurde, wechseln Sie zurück zur JDS Hiei und besprechen den Einsatz von Hubschraubern zur U-Jagd. Nutzen Sie den Formationsmanager, um die JDS Hiei auszuwählen, oder drücken Sie die mittlere Maustaste während die JDS Kikuzuki ausgewählt ist, um direkt zur JDS Hiei zurückzukehren."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

@@ -1,0 +1,43 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="水上目標への攻撃" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+                    <TextBlock.Inlines>
+                        <Run Text="今のところ、航空機編隊は「同期」のままにしておこう。これにより、各航空機は編隊長に出したのと同じ命令を実行する。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="南西の水上目標に対して、我々のKo-45飛行隊による攻撃を準備しよう。戦術ディスプレイを使用して、水上接触の北東約25海里にウェイポイントを作成せよ。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="戦術ディスプレイの右下にあるマップツールを使用すると、距離の測定、ユニット周辺の楕円の作成、敵の接触への距離円の添付ができることを忘れるな！" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_10_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_12_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

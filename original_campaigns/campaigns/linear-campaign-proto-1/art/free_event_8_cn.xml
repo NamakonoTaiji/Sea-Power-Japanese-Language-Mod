@@ -18,7 +18,7 @@
             <TranslateTransform/>
           </TransformGroup>
         </Border.RenderTransform>
-        <TextBlock Text="SOSUS Barrier" TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center"/>
+        <TextBlock Text="声波监听系统" TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center"/>
       </Border>
       <Border Canvas.Top="317.19464" Canvas.Left="236.73648" Background="#75EEE8AA" Width="135">
         <Border.RenderTransform>
@@ -29,7 +29,7 @@
             <TranslateTransform/>
           </TransformGroup>
         </Border.RenderTransform>
-        <TextBlock Text="SOSUS Barrier" TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center"/>
+        <TextBlock Text="声波监听系统" TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center"/>
       </Border>
       <Border Canvas.Top="76.88474" Canvas.Left="1349.987" Background="#75EEE8AA" Width="312">
         <Border.RenderTransform>
@@ -40,14 +40,14 @@
             <TranslateTransform/>
           </TransformGroup>
         </Border.RenderTransform>
-        <TextBlock Text="SOSUS Barrier" TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center"/>
+        <TextBlock Text="声波监听系统" TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center"/>
       </Border>
-      <TextBlock Text="RAF Maritime Patrol Assets" TextWrapping="Wrap" Canvas.Top="486.13742" Canvas.Left="824.82587" Foreground="#FF000000" FontSize="18"/>
-      <TextBlock Text="RN Towed Array Patrol" TextWrapping="Wrap" Canvas.Top="562.9104" Canvas.Left="874.28265" Foreground="#FF000000" FontSize="18"/>
-      <TextBlock Text="US Maritime Patrol" TextWrapping="Wrap" Canvas.Top="420.6882" Canvas.Left="176.18188" Foreground="#FF000000" FontSize="18"/>
-      <TextBlock Text="US SAG" TextWrapping="Wrap" Canvas.Top="497.47742" Canvas.Left="680" Foreground="#FF000000" FontSize="18"/>
-      <TextBlock Text="US SAG" TextWrapping="Wrap" Canvas.Top="344.69208" Canvas.Left="360.19757" Foreground="#FF000000" FontSize="18"/>
-      <TextBlock Text="Soviet Submarine Forces from Norwegian Sea" TextWrapping="Wrap" Canvas.Top="169.6848" Canvas.Left="786.57245" Foreground="#FF000000" FontSize="18"/>
+      <TextBlock Text="英国皇家空军海上巡逻资产" TextWrapping="Wrap" Canvas.Top="486.13742" Canvas.Left="824.82587" Foreground="#FF000000" FontSize="18"/>
+      <TextBlock Text="英国皇家海军拖曳阵列巡逻队" TextWrapping="Wrap" Canvas.Top="562.9104" Canvas.Left="874.28265" Foreground="#FF000000" FontSize="18"/>
+      <TextBlock Text="美国海上巡逻队" TextWrapping="Wrap" Canvas.Top="420.6882" Canvas.Left="176.18188" Foreground="#FF000000" FontSize="18"/>
+      <TextBlock Text="美国水面行动群" TextWrapping="Wrap" Canvas.Top="497.47742" Canvas.Left="680" Foreground="#FF000000" FontSize="18"/>
+      <TextBlock Text="美国水面行动群" TextWrapping="Wrap" Canvas.Top="344.69208" Canvas.Left="360.19757" Foreground="#FF000000" FontSize="18"/>
+      <TextBlock Text="来自挪威海的苏联潜艇部队" TextWrapping="Wrap" Canvas.Top="169.6848" Canvas.Left="786.57245" Foreground="#FF000000" FontSize="18"/>
     </Canvas>
   </Viewbox>
 </Page>

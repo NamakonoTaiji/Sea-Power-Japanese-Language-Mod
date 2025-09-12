@@ -42,76 +42,76 @@
 		      <ColumnDefinition Width="Auto"/>
 		      <ColumnDefinition Width="Auto"/>
 		    </Grid.ColumnDefinitions>
-			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="SECRET" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="机密" TextAlignment="Center"/>
 			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
-The Director of Central Intelligence
+中央情报局局长
 <LineBreak/>
 <LineBreak/>
-<Run FontSize="12">Washington D.C. 20505</Run>
+<Run FontSize="12">华盛顿特区20505</Run>
 			</TextBlock>
 			<TextBlock Grid.Row="2" Grid.Column="3" TextWrapping="Wrap">
-ER 84-2648
+执行登记号84-2648
 <LineBreak/>
 <LineBreak/>
-CR - NIC 03508-84
+国家情报委员会中心登记号03508-84
 			</TextBlock>
-			<TextBlock Grid.Row="4" Grid.Column="2" Text="15 May 1988"/>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="1988年5月15日"/>
 			<TextBlock Grid.Row="6" Grid.Column="3" Text="25X1"/>
-			<TextBlock Grid.Row="7" Grid.Column="0" Text="MEMORANDUM FOR:   "/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="作为备忘录发送至："/>
 			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
-The President
+总统
 <LineBreak/>
-The Vice President
+副总统
 <LineBreak/>
-Secretary of State
+国务卿
 <LineBreak/>
-Secretary of Defense
+国防部长
 <LineBreak/>
-Assistant to the President for National Security Affairs
+总统国家安全事务助理
 <LineBreak/>
-Chairman, Joint Chiefs of Staff
+参谋长联席会议主席
 			</TextBlock>
 			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
-EO 13526 3.3(b)(1)>25Yrs
+行政命令13526 3.3（b）（1）>25年
 <LineBreak/>
-EO 13526 3.5(c)
+行政命令13526 3.5（c）
 			</TextBlock>
-			<TextBlock Grid.Row="9" Grid.Column="0" Text="SUBJECT:   "/>
-			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="US/Soviet Conflict in Maritime Domain"/>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="主题："/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="美苏海上冲突"/>
 		  </Grid>
 		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
-1. I attach here a rather stunning array of indicators regarding the recent Soviet aggressive activities in the Norwegian Sea and the Bering Strait. It appears that while the initial conflict was started due to the overreach of an individual SAG commander, Soviet High Command used the opportunity to capitalize upon our surprise.
+1.我在此附上一系列令人震惊的迹象，这些迹象与苏联近期在挪威海和白令海峡的激进活动有关。虽然最初的冲突似乎是由苏联的一位水面行动群指挥官引发的，但其高层顺水推舟地利用了此次机会，让我们措手不及。
 <LineBreak/>
 <LineBreak/>
-2. The engagement in the Bering Strait initially bolstered Soviet hopes for a swift gain of key territories, weakening in particular our Early Warning capabilities. We should maintain careful watch on isolated radar stations, particularly in the North Pacific.
+2.白令海峡的交战初步助长了苏联迅速夺取我方关键领土并削弱我方预警能力的野心。我们应当密切关注偏远的雷达站，特别是在北太平洋地区。
 <LineBreak/>
 <LineBreak/>
-3. However, the loss of a Ballistic Missile Submarine as it approached the SOSUS Barrier has caused significant recriminations within the Soviet Strategic Rocket Forces, and Naval Commands. The shock of a significant loss has increased the Soviet's desire to keep conflict isolated, and looks likely to push them towards more realistic negotiations.
+3.苏联的一艘弹道导弹潜艇在靠近声波监听系统时沉没，此事在苏联战略火箭军和海军司令部内部引发了严重的相互指责。重大损失的冲击使苏联不愿将此次冲突扩大化，并且可能促使他们进行更现实的谈判。
 <LineBreak/>
 <LineBreak/>
 		  </TextBlock>
-		  <TextBlock TextAlignment="Right" Text="William J. Casey" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,338,0,0" Grid.Row="2"/>
+		  <TextBlock TextAlignment="Right" Text="威廉·J·凯西" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,338,0,0" Grid.Row="2"/>
 		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
-<Run TextDecorations="Underline">Distribution by ER/19 May 88 w/Atch</Run>
+<Run TextDecorations="Underline">通过执行登记处传递/1988年5月19日/带有附件</Run>
 <LineBreak/>
 <LineBreak/>
-Orig - Each Addressee
+原件——每位收件人
 <LineBreak/>
-   1 - DCI
+   1——中央情报局局长
 <LineBreak/>
-   1 - DDCI
+   1——中央情报局副局长
 <LineBreak/>
-   1 - EXDIR
+   1——执行主任
 <LineBreak/>
-   1 - C/NIC
+   1——国家情报委员会主席
 <LineBreak/>
-   1 - VC/NIC
+   1——国家情报委员会副主席
 <LineBreak/>
-   1 - NIO/Warning
+   1——国家预警情报官
 <LineBreak/>
-   1 - ER File
+   1——执行登记处文件
 		  </TextBlock>
-		  <TextBlock Grid.Row="4" Text="SECRET" TextAlignment="Center"/>
+		  <TextBlock Grid.Row="4" Text="机密" TextAlignment="Center"/>
 	    </Grid>
       </Border>
     </Border>

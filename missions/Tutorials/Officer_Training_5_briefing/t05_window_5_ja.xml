@@ -1,0 +1,45 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="偵察のための海洋哨戒機の使用" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+                    <TextBlock.Inlines>
+                        <Run
+                            Text="戦術ディスプレイを縮小表示すると、捜索を命じられた海域が非常に広大（500海里以上！）であることがわかる。このような広大な海域を水上艦だけで捜索することは不可能である。我々は、自由に使える航空資産を活用して、捜索を開始する必要がある。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="まず、Tu-95RTに捜索パターンを指示することから始めよう。まず、EMCONメニューを使用して、航空機が巡航高度にあり、レーダーがオンになっていることを確認する。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="Tu-95RTのレーダーが有効になったら、指定された捜索海域を東西に移動するための一連のウェイポイントを指示する。Shiftキーを押しながら操作することで、複数のウェイポイントを指示できることを覚えておくこと。" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_4_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_6_ja.xml" />
+
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
