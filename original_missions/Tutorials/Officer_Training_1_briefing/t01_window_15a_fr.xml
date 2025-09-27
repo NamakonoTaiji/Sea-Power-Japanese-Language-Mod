@@ -1,0 +1,37 @@
+         <Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Utilisation des armes - Harpoon RGM-84" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Bon travail, commandant. En plus des missiles SM-1MR, l'USS Gallery est également équipé du " FontSize="12"/><Run FontWeight="Bold" Text="Harpoon RGM-84A" FontSize="12"/><Run Text=". Il s'agit d'un missile antinavire à longue portée qui peut être utilisé contre des navires et des sous-marins en surface. C'est l'arme antinavire principale utilisée par l'USN." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Un autre drone cible a été identifié. Désignez ce drone au missile Harpoon en suivant la même procédure que celle utilisée pour le tir du SM-1MR." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Remarque : le Harpoon utilise un autodirecteur radar actif. Cela signifie qu'il peut être trompé par des leurres ou cibler par erreur des échos radar plus importants que votre cible (comme de grands navires marchands civils). Dans les eaux encombrées, l'utilisation du Harpoon peut s'avérer difficile pour cette raison et il convient d'utiliser plutôt le Standard !" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_15_fr.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_16_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

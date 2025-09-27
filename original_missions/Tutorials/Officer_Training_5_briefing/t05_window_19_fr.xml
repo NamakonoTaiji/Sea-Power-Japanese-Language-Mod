@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Repérage par satellite"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="Voici un exemple de message urgent envoyé à votre groupe de travail par le haut commandement. Les messages de l'OTAN suivent généralement le même format. Toutes les heures indiquées dans ces messages sont exprimées en temps universel coordonné (UTC), appelé « heure Zulu » ou « Z » dans les indications de date et d'heure des messages."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Comme vous pouvez le voir, ce message indique qu'un de nos satellites radar a survolé le Pacifique Nord il y a environ une heure et a détecté un convoi américain. Vous pouvez maintenant voir que notre zone de recherche a été considérablement réduite. De plus, le message nous informe que notre sous-marin lance-missiles K-175 sera placé sous notre commandement tactique et sera disponible pour la frappe."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Utilisons maintenant nos moyens aériens pour localiser précisément la cible et lançons une attaque à l'aide des missiles à longue portée embarqués à bord du Varyag."/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_18_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_20_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

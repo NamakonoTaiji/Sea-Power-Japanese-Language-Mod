@@ -28,7 +28,6 @@
 			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Next">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
-						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="Reveal whale"/>
 						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_8.xml"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>

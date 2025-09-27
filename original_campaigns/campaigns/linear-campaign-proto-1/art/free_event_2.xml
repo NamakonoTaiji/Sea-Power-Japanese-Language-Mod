@@ -29,7 +29,7 @@
 					<RowDefinition Height="Auto"/>
 					<RowDefinition Height="Auto"/>
 				</Grid.RowDefinitions>
-				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="SOVIET WARSHIPS COLLIDE WITH U.S. NAVY IN BLACK SEA; U.S. CLAIMS INNOCENT TRANSIT" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="SOVIET WARSHIPS COLLIDE WITH U.S. NAVY IN BLACK SEA; U.S. CLAIMS INNOCENT PASSAGE" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                 <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
                     
                     <TextBlock Text="Pentagon calls maneuver 'deliberate and dangerous'" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>

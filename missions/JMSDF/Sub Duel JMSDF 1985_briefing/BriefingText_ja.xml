@@ -1,0 +1,54 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="1985年6月26日" />
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="発信:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="潜水艦隊司令官" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="海上自衛隊潜水艦「もちしお」艦長" />
+    <TextBlock Grid.Row="7" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触報告" />
+    <TextBlock
+        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1. (S)
+        協定世界時0831、北海道西方領海内にて、自衛隊のソナー網が2つの未確認音響反応を探知。 <LineBreak />     <LineBreak /> 2. (S)
+        情報部の評価によれば、一方の目標はヴィクターIII級潜水艦。他方は未確認ながら、キロ級またはロメオ級SSKの可能性が高い。両目標は宗谷海峡に向け東進中。 <LineBreak />
+        <LineBreak />
+        3. (S) 宗谷海峡西方に進出し、両潜水艦を発見、撃沈せよ。 <LineBreak />     <LineBreak /> 4. (S)
+        本作戦は、この地域における連合国の活動にとって極めて重要である。我が国のために全力を尽くせ。 <LineBreak />     <LineBreak /> 極秘 </TextBlock>
+</Grid>

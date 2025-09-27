@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Hélicoptères - Retour à la base" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Lorsque tous les avions sont à court de carburant, ils signalent un état de carburant « bingo » et retournent automatiquement à leur base (RTB). Les avions retournent également à leur base s'ils sont à court de munitions pour leurs armes principales." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Les avions qui rentrent à leur base ne peuvent pas être contrôlés par le joueur tant qu'ils n'ont pas atterri, se sont réarmés et ont fait le plein. Vous pouvez voir le temps restant pour le réarmement/ravitaillement en ouvrant le contrôle du poste de pilotage après l'atterrissage des avions." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Remarque : vous pouvez forcer n'importe quel avion à revenir à la base (RTB) à tout moment en appuyant sur la touche T ou en utilisant l'option du menu contextuel." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_23_fr.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_25_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

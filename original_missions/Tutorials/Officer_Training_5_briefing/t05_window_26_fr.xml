@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Exécution de la frappe"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="Continuez à surveiller vos missiles jusqu'à ce qu'ils touchent le convoi américain. Si, pour une raison quelconque, cette première salve ne coule pas tous les navires, veillez à lancer quatre autres missiles depuis le K-175."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Si cela ne suffit pas à couler tous les navires américains, notre dernière option consiste à nous rapprocher à très courte distance et à utiliser les missiles SS-N-22 à bord de l'Osmotritelny pour couler le convoi. Cependant, cela ne devrait pas être nécessaire, car une salve de 12 SS-N-3 devrait suffire à couler le convoi (relativement peu protégé)."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Dans les scénarios plus difficiles, où les convois de l'OTAN sont protégés par des croiseurs Aegis et de nombreuses autres escortes, vous pouvez voir à quel point il est absolument nécessaire de coordonner une attaque ToT parfaite avec la participation de nombreuses plateformes !"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_25_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_27_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

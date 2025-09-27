@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Coordination de la frappe"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="Examinons maintenant notre sous-marin lance-missiles de croisière de classe Echo K-175. Sélectionnez-le dans le gestionnaire de formation ou l'affichage tactique, puis ouvrez sa référence d'unité pour le consulter."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="La classe Echo est une classe plus ancienne de sous-marins lance-missiles de croisière qui transporte 8 missiles antinavires SS-N-3 Shaddock. Il s'agit du même type de missiles que ceux embarqués à bord du Varyag. Comme il s'agit d'un type de missile plus ancien, nous devons coordonner une attaque « Time on Target » entre notre sous-marin et notre croiseur afin de nous assurer de détruire les Américains."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Remarque : le K-175 doit faire surface pour lancer ses missiles et doit rester en surface avec son radar de ciblage activé afin de guider ses missiles en milieu de trajectoire. De plus, il ne peut diriger que quatre missiles à la fois."/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_20_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_22_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

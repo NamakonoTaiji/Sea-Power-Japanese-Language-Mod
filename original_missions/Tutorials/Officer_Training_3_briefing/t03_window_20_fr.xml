@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Torpilles aéroportées"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Les torpilles constituent l'arme principale de l'hélicoptère ASM. Dans ce cas, nos hélicoptères HSS-2B transportent la même torpille légère Mark 46 que celle lancée depuis les tubes lance-torpilles Mark 32 (SVTT) de notre navire. Les torpilles des hélicoptères et celles des navires proviennent du même stock de munitions. Par conséquent, larguer des torpilles depuis vos hélicoptères épuisera le stock de torpilles de votre navire."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Remarque : tous les hélicoptères américains/OTAN/japonais ne peuvent transporter (par défaut) que deux torpilles Mark 46, mais les modèles HSS-2B et SH-3H disposent tous deux d'un équipement « tueur ASM » qui leur permet de transporter quatre torpilles."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Remarque supplémentaire : les torpilles larguées depuis les airs sont nécessairement moins puissantes que celles lancées depuis un navire. Ne soyez pas surpris s'il faut plusieurs tirs de torpilles larguées depuis un hélicoptère ou un avion pour détruire une cible !"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_19_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_21_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

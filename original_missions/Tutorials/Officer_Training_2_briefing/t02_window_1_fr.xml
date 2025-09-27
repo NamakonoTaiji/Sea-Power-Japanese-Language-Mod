@@ -1,0 +1,35 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Leçon n°2 - Gestion de la flotte"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="Bienvenue, Commandant ! Dans ce tutoriel, nous allons apprendre à gérer une flotte en commandant une petite force opérationnelle de l'OTAN. Vous êtes aux commandes du FGS Lütjens et du HNoMS Narvik, deux navires d'escorte de surface, ainsi que du pétrolier américain USNS Sealift Indian Ocean."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Vous pouvez avancer dans le tutoriel à tout moment à l'aide des boutons « Précédent » et « Suivant » de cette fenêtre."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Vous pouvez rappeler cette fenêtre à tout moment en ouvrant le journal des événements (en bas à droite) et en cliquant sur « Ouvrir Fenêtre à texte libre »."/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_2_briefing/t02_window_2_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

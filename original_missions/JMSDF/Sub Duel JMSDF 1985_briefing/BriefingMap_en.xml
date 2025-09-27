@@ -1,0 +1,75 @@
+<Viewbox Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+	<Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[LaPerouseStrait_Close]}"/>
+		<!-- Small Map -->
+        <Border Canvas.Left="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[JapanKoreaFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="150,0,0,130" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+		<!-- Photo inset -->
+        <!--<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="5" BorderBrush="White">
+			<Border.Effect>
+				<DropShadowEffect Opacity="0.25"/>
+			</Border.Effect>
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="-8" CenterY="200"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[10_kiev]}" Width="250"/>
+            </Grid>
+        </Border>-->
+		<!-- Player unit summary -->
+		<!--<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
+			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
+                <Run Text="TASK GROUP 77.3:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="USS Scott DDG-995 (CTG 77.3)"/><LineBreak/>
+                <Run Text="USS Moosbrugger DD-980"/><LineBreak/>
+                <Run Text="JS Kikuzuki DD-165"/>
+           </TextBlock>
+		</Border>-->
+
+		<!-- Map Labels -->
+		<TextBlock Foreground="SteelBlue" Text="Sea of Japan" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="100" Canvas.Top="300"/>
+		<TextBlock Foreground="SteelBlue" Text="La Perouse Strait" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="925" Canvas.Top="330"/>
+		<TextBlock Foreground="Black" Text="Sakhalin" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="1000" Canvas.Top="100"/>
+		<TextBlock Foreground="Black" Text="Hokkaido" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="950" Canvas.Top="550"/>
+		
+		<!-- JDS Mochishio SS-574 -->
+		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="350">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="JDS Mochishio SS-574"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- USSR Sub Group -->
+		<StackPanel Orientation="Vertical" Canvas.Left="200" Canvas.Top="350">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="2 x USSR Subs (?)"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Submarine}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- Arrows -->
+		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+		
+		<Path Canvas.Left="380" Canvas.Top="360" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="85"/>
+            </Path.RenderTransform>
+        </Path>
+	</Canvas>
+</Viewbox>

@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Hélicoptères - Limites de carburant" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Tous les aéronefs, dont les hélicoptères, ont une quantité de carburant limitée qui influe sur leur autonomie. Notez que différents chargements auront des effets différents sur l'autonomie des aéronefs." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Par exemple, l'armement ASM du SH-2F comprendra deux torpilles et 15 bouées acoustiques, au détriment de l'autonomie de l'appareil. Un équipement de type transport laissera toutes les armes à bord du navire et équipera l'hélicoptère de deux réservoirs de carburant externes. Ce type d'équipement est utile si vous prévoyez d'utiliser l'hélicoptère uniquement comme plate-forme radar et non pour chasser des sous-marins." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Vous pouvez voir la portée maximale de l'hélicoptère sur la carte, représentée par un cercle " FontSize="12"/><Run Text="bleu" FontSize="12" FontWeight="Bold" Foreground="#00AEEF"/><Run Text=" une fois que l'hélicoptère est en vol (vous devrez peut-être zoomer assez loin pour le voir). Vous pouvez également passer votre souris sur la zone Statut dans la barre inférieure pour voir la quantité restante de carburant." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_22_fr.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_24_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

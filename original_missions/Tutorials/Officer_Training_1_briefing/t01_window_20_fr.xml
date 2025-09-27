@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="Pont d'envol" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Maintenant que nous avons appris à utiliser nos armes, voyons comment lancer et récupérer des hélicoptères depuis le pont d'envol de votre navire." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="L'USS Gallery transporte deux hélicoptères SH-2F de lutte anti-sous-marine et de reconnaissance dans le hangar arrière. Ses hélicoptères constituent un multiplicateur de force et servent d'armement principal pour la lutte anti-sous-marine (ASM). Ils sont également équipés d'un radar de recherche en surface qui est automatiquement relié au navire par liaison de données." FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Ouvrez le poste de pilotage en cliquant avec le bouton droit sur le vaisseau et en sélectionnant l'option « Pont d'envol » dans le menu, ou en cliquant sur la petite icône en forme d'avion en bas à droite. Une fois les fenêtres ouvertes, utilisez le bouton gauche de la souris pour cliquer et faire glisser afin de les déplacer." FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_19_fr.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_21_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

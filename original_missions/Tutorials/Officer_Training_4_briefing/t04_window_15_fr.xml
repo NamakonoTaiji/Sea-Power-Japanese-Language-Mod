@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Avion de guerre électronique"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Les avions de guerre électronique (EW, Electronic Warfare) sont équipés d'un puissant matériel de brouillage qui peut être orienté selon un axe afin de brouiller toutes les pistes ennemies situées dans le cône violet qui apparaît sur la carte."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Pour brouiller une piste ou une zone, utilisez l'arme « Contre-mesure offensive » disponible sur les avions EW, puis cliquez avec le bouton droit sur une piste ennemie ou une zone de l'affichage tactique pour la brouiller. Les unités brouillées afficheront une petite icône « soleil » à côté de leur piste, indiquant qu'elles sont brouillées."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Les avions EW peuvent également transporter des missiles anti-radar (ARM) qui peuvent être utilisés pour cibler les radars ennemis. Notez que les radars ennemis doivent émettre activement pour pouvoir être ciblés par des missiles anti-radar !"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_14_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_16_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

@@ -1,0 +1,32 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto" FontSize="12">
+<Run FontWeight="Bold" Text="Contrôles de la caméra" FontSize="16"/>
+<LineBreak/>
+<LineBreak/>
+Commençons par les commandes de la caméra. En maintenant le clic gauche enfoncé n'importe où dans la vue du jeu qui n'est pas recouverte par une fenêtre, vous pouvez faire un panoramique autour du vaisseau. Utilisez la molette de la souris pour zoomer et dézoomer. Vous pouvez masquer et afficher l'interface utilisateur en appuyant sur <Run Text="{Binding InputBindingDict[HideHUD], Source={StaticResource InputHandlerInterface}}"/>.
+<LineBreak/>
+<LineBreak/>
+Essayez maintenant de faire un panoramique et n'hésitez pas à aller sous l'eau !
+		</TextBlock>	
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_2_fr.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_4_fr.xml"/>	
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

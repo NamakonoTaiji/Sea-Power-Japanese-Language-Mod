@@ -1,0 +1,43 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Autres moyens de détection"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="Utilisez la compression temporelle pour faire avancer le scénario lorsque cela est nécessaire. "/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Passons maintenant aux « autres méthodes » de détection, c'est-à-dire toutes les méthodes autres que les capteurs dont disposent nos navires et nos avions. En général, les contacts détectés à l'extérieur nous sont signalés sous forme de messages contextuels dans le jeu et de messages de renseignement (« Intel ») enregistrés dans le journal des événements."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Les méthodes de détection qui peuvent nous être transmises par les instances supérieures comprennent les contacts sous-marins par réseau d'hydrophones (SOSUS), les passages de satellites de reconnaissance océanique par radar (RORSAT) au-dessus de la zone, et même les rapports radio de pêcheurs ayant aperçu des navires de guerre ou des périscopes ! Ce comportement sera programmé dans des scénarios et n'est généralement pas « dynamique » dans l'accès anticipé. Cliquez sur « Suivant » pour voir un exemple."/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_17_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="RORSAT message"/>
+						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_19_fr.xml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

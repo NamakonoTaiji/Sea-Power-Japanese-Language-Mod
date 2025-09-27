@@ -1,0 +1,39 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Armements - Frappe"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Les armes de type Frappe, Frappe Longue portée et Frappe de précision sont généralement destinées à être utilisées contre des cibles terrestres (installations). "/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Les armements de frappe comprendront des bombes conventionnelles et des bombes à fragmentation. Les armements de frappe de précision comprendront soit des bombes à guidage laser, soit des bombes à guidage TV, qui ont toutes deux des exigences particulières en matière d'utilisation."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• Bombes guidées Laser (LGBs):"/><Run Text=" nécessitent une vue dégagée sur la cible pour que l'avion désignateur puisse la marquer au laser. Notez que l'avion attaquant peut se reposer sur un équipier utilisant un « Désignateur Laser » sur la cible désignée."/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="• Bombes guidées TV :"/><Run Text=" nécessitent une vue dégagée sur la cible (notamment sans couverture nuageuse) pour que le chercheur TV puisse voir la cible. Généralement de type bombes planantes, elles doivent être larguées à haute altitude afin de maximiser la portée de tir."/>
+				
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_21_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_23_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

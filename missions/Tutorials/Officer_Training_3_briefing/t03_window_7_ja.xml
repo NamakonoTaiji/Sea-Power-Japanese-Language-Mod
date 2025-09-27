@@ -32,8 +32,6 @@
                         VerticalAlignment="Bottom" Content="次へ">
                         <i:Interaction.Triggers>
                             <i:EventTrigger EventName="Click">
-                                <i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}"
-                                    CommandParameter="Reveal whale" />
                                 <i:InvokeCommandAction Command="{Binding OpenFileCommand}"
                                     CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_8_ja.xml" />
                             </i:EventTrigger>

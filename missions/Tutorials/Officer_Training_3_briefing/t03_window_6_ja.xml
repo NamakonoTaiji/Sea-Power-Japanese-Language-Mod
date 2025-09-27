@@ -31,8 +31,16 @@
                         VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
                         CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_5_ja.xml" />
                     <Button Width="100" Height="50" Margin="15" FontSize="16"
-                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
-                        CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_7_ja.xml" />
+                        VerticalAlignment="Bottom" Content="次へ">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}"
+                                    CommandParameter="Reveal whale" />
+                                <i:InvokeCommandAction Command="{Binding OpenFileCommand}"
+                                    CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_7_ja.xml" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>

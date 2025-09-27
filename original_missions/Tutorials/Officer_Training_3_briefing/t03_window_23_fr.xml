@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Définir des réseaux de bouées sonar"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="Maintenant que nous avons passé en revue les types d'armes et de capteurs disponibles pour nos hélicoptères, utilisons l'hélicoptère pour poursuivre le contact sonar."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Sélectionnez le HSS-2B dans le gestionnaire de formation, puis placez un réseau de bouées acoustiques autour du contact sonar. Vous pouvez maintenir la touche Ctrl enfoncée pour placer un réseau prédéfini, ou les placer manuellement en maintenant la touche Maj enfoncée et en cliquant avec le bouton droit de la souris autour de l'affichage tactique. Maintenez les touches Ctrl+Maj enfoncées pour définir un réseau plus large."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Remarque : les bouées sonar peuvent être placées au-dessus ou en dessous de la couche. Cliquez avec le bouton droit sur l'AN/SSQ-53 dans la barre inférieure pour sélectionner « au-dessus » ou « en dessous ». Vous pouvez utiliser le modèle « Intermittent » pour en placer une au-dessus et la suivante en dessous. Il est recommandé de placer des bouées au-dessus et en dessous de la couche afin de maximiser les chances de détecter la cible !"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Précédent" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_22_fr.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Suivant" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_24_fr.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>
