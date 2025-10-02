@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="飞行甲板——飞机起飞" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="现在右下角出现了一个新窗口。你可以通过点击并拖拽窗口标题栏的方式移动窗口。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="通过飞行甲板菜单，你可以看到此护卫舰携带的两架SH-2F直升机。因为此船只仅有一种飞机，所以它将被默认选中，其默认反潜挂载为2枚鱼雷和15枚声呐浮标。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="分配一架直升机携带反潜挂载，再点击起飞按钮，让直升机开始起飞流程。注意：飞机起飞需要时间，在实战中一定要考虑这一点。" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_20_cn.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_22_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

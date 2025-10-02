@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="使用海上巡逻机侦察"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="缩小战术显示，你会发现任务的搜索区域非常大（超过500海里）！如此大的区域仅靠水面舰艇无法完成搜索，因此我们需要利用手头的空中资产。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="首先，我们为图-95RT设置搜索轨迹。在此之前，我们需要确保它已经抵达巡航高度，再使用辐射控制菜单打开它的雷达。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="图-95RT的雷达开机后，设置一系列路径点，使其在标记的搜索区域向东和向西移动。注意：你可以按住Shift键连续设置多个路径点。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_4_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_6_cn.xml"/>
+			
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

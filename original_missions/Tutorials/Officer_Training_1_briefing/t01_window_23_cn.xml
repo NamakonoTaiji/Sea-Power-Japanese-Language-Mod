@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="直升机——燃料限制" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="包括直升机在内的所有飞机都有燃料限制，这会影响它们的航程。注意，不同的挂载也会对飞机航程造成不同影响。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="例如，SH-2F的反潜挂载意味着它会以一定航程为代价携带2枚鱼雷和15枚声呐浮标。转场挂载则意味着直升机不会携带任何武器，只会携带两个外挂副油箱。如果你只希望将直升机用作雷达平台且不需要它猎杀潜艇，就可以使用转场挂载。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="你可以在地图上看到直升机的最大航程。直升机起飞后，航程会显示为一个" FontSize="12"/><Run Text="蓝色" FontSize="12" FontWeight="Bold" Foreground="#00AEEF"/><Run Text="圆圈（你可能需要多次缩小地图才能看到此圆圈） 。你也可以将鼠标指针悬停在底部栏的状态区域，查看具体的燃料状态。" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_22_cn.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_24_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

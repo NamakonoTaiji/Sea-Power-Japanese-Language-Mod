@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="单位参考资料——载具"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="我们可以使用单位参考资料阅读和了解更多关于我方传感器的信息。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="选中卡-27PL，右键点击并打开单位参考资料。这样就能打开此直升机的参考页面，它的传感器也在此显示。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="点击卡-27PL的“鸢-K”（定向对面搜索雷达）查看其参数。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_6_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_8_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

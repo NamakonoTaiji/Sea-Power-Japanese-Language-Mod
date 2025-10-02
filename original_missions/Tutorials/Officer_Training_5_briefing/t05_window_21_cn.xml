@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="协调打击"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="现在看看我们的675型巡航导弹潜艇。使用编队管理器或战术显示选中它，再打开单位参考资料，详细查看。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="675型是老旧的巡航导弹潜艇，携带8枚反舰导弹，与瓦良格号携带的导弹速度相同（同属P-5导弹家族）。使用这些低速的导弹时，我们需要协调潜艇和巡洋舰的攻击时间，才能消灭敌军。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="注意：675型潜艇需要浮出水面才能发射导弹，而且必须停留在水面上才能用瞄准雷达为途中的导弹提供引导。此外，它一次只能引导4枚导弹。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_20_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_22_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

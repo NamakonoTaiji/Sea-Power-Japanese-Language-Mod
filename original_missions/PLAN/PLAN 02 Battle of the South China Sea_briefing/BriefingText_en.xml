@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="4 MARCH 1979"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER, SOUTH SEAS FLEET"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER, SOUTH SEAS ATTACK FORCE"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION PLAN - MYTHIC GUARDIAN"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. Our forces are embattled against the Vietnamese on land, air, and sea. Vietnamese forces continue to harass our naval units in the Gulf of Tonkin, and our intelligence reports that they are planning an assault on our outposts in the Xisha Islands. Worse, the Soviet Union has come to the aid of their Vietnamese allies, and our intelligence has learned that they have promised to support Vietnamese action against us in the South Seas.
+		<LineBreak/>
+		<LineBreak/>
+		2. Southern Theater Command has tasked the South Seas Fleet with resupplying our remote base at Robert Island in the Crescent Group. South Seas Fleet will also locate and destroy any Vietnamese or Soviet attack on our base.
+		<LineBreak/>
+		<LineBreak/>
+		3. Due to hasty nature of this operation, our forces are spread thin and not necessarily ideally placed. You must coordinate the defense of the islands while also ensuring the safety of the convoy.
+		<LineBreak/>
+		<LineBreak/>
+		4. Enemy forces are believed to have broken into several groups. VPN forces have been sighted moving east from Haiphong, equipped with older ex-USN combatants and landing barges. Intelligence believes the USSR force sortied from Cam Ranh Bay yesterday. This force is highly dangerous and includes the light cruiser ADMIRAL SENYAVIN and at least one air-defense destroyer of KANIN or KASHIN type. Destruction of this force if it approaches Xisha Islands is absolute requirement for victory.
+		<LineBreak/>
+		<LineBreak/>
+		5. Reliable reconnaissance has not been possible due to bad weather, but forecasts show improving conditions. Once weather clears, CAP and bomber flights out of Sanya Airbase will again be possible.
+		<LineBreak/>
+		<LineBreak/>
+		6. This operation will secure our sea flank from further Vietnamese aggression. You must not fail. Good luck.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	</TextBlock>
+</Grid>

@@ -1,0 +1,43 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="基准点和最大范围圆"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="指挥官，我们的情报来源发来提醒称有另一艘敌方潜艇在此区域内行动。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="我们利用日本自卫队的海底传感器阵列侦察到了一个新的接触，此接触的“基准点”现已在战术显示上被标记为“基准点A01”。地图上的地理坐标“基准点”是此接触的最后已知位置。基准点周围的圆是“最大范围圆”，它是根据接触的最后已知位置和潜艇的预计速度推测的。在此情况下，根据侦察到接触的时间，此圆形的半径约为10海里。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="基准点信息通常需要岸上基站花费一定时间处理，再转发给反潜编队，“最大范围圆”的半径也受处理的时间影响。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_30_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="Datum A01"/>
+						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_32_cn.xml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

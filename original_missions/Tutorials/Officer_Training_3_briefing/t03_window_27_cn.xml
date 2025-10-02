@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="使用无人反潜直升机"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="攻击此接触的另一种方法是使用菊月号的QH-50D无人反潜直升机。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="遥控的无人反潜直升机可对水下接触投放一枚Mk46鱼雷，它们于1970年代中期被美国海军逐步淘汰，但在此之后仍被日本海上自卫队使用，并且非常成功地成为了一种增大舰载鱼雷射程的方法。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="如果你有兴趣，可以通过飞行甲板控制让无人反潜直升机起飞，也可以让HSS-2B协同攻击，消灭此接触。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_26_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_28_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="船只武器使用——火炮" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="现在用76毫米舰炮打靶。点击底部栏的76毫米炮按钮，再右键点击出现的无人靶船。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="与目标交战时，你可以使用底部栏的按钮，也可以在战术显示上右键点击。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="射击开始时，将视角切换至无人靶船进行观察。注意：射击距离越远，火炮命中率越低。" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_17_cn.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_19_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

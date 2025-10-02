@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="设定声呐浮标阵型"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="既然我们已经了解了直升机上可用的武器和传感器类型，接下来就用它攻击此噪声接触。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="使用编队管理器选中HSS-2B，再在噪声接触周围部署一组声呐浮标。你可以按住Ctrl键部署预设的声呐浮标阵型，也可以按住Shift键并在战术显示上右键点击，手动设定阵型。按住Ctrl键+Shift键可部署更大的阵型。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="注意：声呐浮标可被部署至温跃层上或温跃层下。右键点击底部栏中的AN/SSQ-53，选择上方或下方。你可以选择“间隔”阵型，将相邻的声呐浮标间隔部署至温跃层上和温跃层下。我们建议在温跃层上和温跃层下都部署声呐浮标，这样能最大化侦察到接触的可能性！"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_22_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_24_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

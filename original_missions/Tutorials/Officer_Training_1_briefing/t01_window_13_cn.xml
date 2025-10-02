@@ -1,0 +1,41 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="船只控制——识别雷达接触" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="我们不能仅因为靠雷达回波侦察到接触就将其识别为友方、中立或敌方。我们必须使用其他侦察方式分类并识别接触。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="发射已知敌方雷达辐射的雷达接触会被分类为敌方，但识别接触最可靠的方式还是视觉识别。你可以命令任何单位视觉识别一个未知接触，这样会使它们靠近至可视范围内。注意：这种行为可能会很危险，因为未知接触有可能是敌方！" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_12_cn.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="下一页">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<i:InvokeCommandAction Command="{Binding ExecuteTriggerCommand}" CommandParameter="QST Standard"/>
+						<i:InvokeCommandAction Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_14_cn.xml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="讯问接触"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="“表明身份”操作会命令被选中的单位向此接触发送一条消息，要求其立即表明身份。并非所有单位都愿意表明身份！接触是否接受讯问是随机的，消息会告知你它们的回应。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="“同意服从”的单位将在战术显示中被立即识别，且在此场景中持续保持此状态。无法回应或拒绝回应的接触则会保持未识别状态。你需要使用其他方法识别它们，如视觉识别。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="注意：任何发出“表明身份”消息的单位都会自动对地图上的所有单位暴露自己，包括敌方部队！因此一定要用侦察直升机发出消息，绝对不要使用船只或其他试图保持隐蔽的单位。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_13_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_15_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

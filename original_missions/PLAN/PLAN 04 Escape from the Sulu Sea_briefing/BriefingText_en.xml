@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="26 MARCH 1988"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER, SOUTH SEA FLEET"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER, SULU SEA SCOUTING FORCE"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="REVISED SULU SEA OPERATION PLAN"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. EFFECTIVE IMMEDIATELY, BREAK OFF FREEDOM OF NAVIGATION EXERCISE IN SULU SEA AREA.
+		<LineBreak/>
+		<LineBreak/>
+		2. RETURN TO TERRITORIAL WATERS VIA BALABAC STRAIT AT BEST SPEED.
+		<LineBreak/>
+		<LineBreak/>
+		3. NOTE: AT THIS TIME A DE FACTO STATE OF WAR EXISTS WITH PHILIPPINE FORCES. LAST RECON OVERFLIGHT SHOWED FILIPINO SURFACE FORCES ATTEMPTING TO CLOSE THE STRAIT.
+		<LineBreak/>
+		<LineBreak/>
+		4. INTEL BELIEVES AIRSTRIKES BY FILIPINO FORCES ALSO PROBABLE AS YOUR FORCE REACHES THE STRAIT.
+		<LineBreak/>
+		<LineBreak/>
+		5. WARNING: U.S. SURFACE TASK GROUP WAS LAST SIGHTED NEAR PALAWAN PASSAGE. AMERICANS ARE NOT SUPPORTING THEIR FILIPINO ALLIES YET, BUT IT IS IMPERATIVE THEY ARE NOT ENGAGED. ALL CONTACTS MUST BE POSITIVELY IDENTIFIED BEFORE ATTACKING. GOOD LUCK.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	</TextBlock>
+</Grid>

@@ -1,0 +1,37 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+  Padding="5,5,5,5">
+	<ScrollViewer>
+	<StackPanel Orientation="Vertical">
+		<TextBlock TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run FontWeight="Bold" Text="直升机——侦察任务" FontSize="16"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="SH-2F（和苏联的卡-25/卡-27）携带了对面搜索雷达，因此舰载直升机是水面船只或水面行动群的主要区域侦察方式之一。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="直升机起飞后，你就能在战术显示或编队管理器上选中它，再使用传感器选项打开它的对面搜索雷达。" FontSize="12"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="直升机的雷达开机后，我们需要让它爬升至一定高度，扩大雷达的视野。使用左下角的高度按钮命令直升机爬升至10000英尺。" FontSize="12"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_21_cn.xml"/>
+			<Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_23_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+	</ScrollViewer>
+</Page>

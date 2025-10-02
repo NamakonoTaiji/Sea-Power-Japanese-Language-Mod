@@ -1,0 +1,36 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="执行打击"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+			<TextBlock.Inlines>
+				<Run Text="继续观察你的导弹，直到它们命中美国护航队。如果由于任何原因，第一次齐射的导弹未能消灭全部敌舰，请再从潜艇上发射4枚导弹。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="即使这样也无法击沉所有美国船只，我们最后的选择是靠近至极近距离，使用驱逐舰上的P-270导弹击沉护航队。但你不太可能需要这么做，因为齐射的12枚反舰导弹应当足以消灭（防御相对较弱的）护航队。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="在更困难的场景中，即北约护航队受到宙斯盾巡洋舰和更多护航舰艇保护的情况下，你会发现在多平台的帮助下协调一次完美的同时弹着攻击是绝对有必要的！"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_25_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_27_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

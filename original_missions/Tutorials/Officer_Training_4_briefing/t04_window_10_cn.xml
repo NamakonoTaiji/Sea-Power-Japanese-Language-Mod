@@ -1,0 +1,40 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+  Padding="5,5,5,5">
+  <Grid>
+    <ScrollViewer>
+		<StackPanel Orientation="Vertical" Margin="15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="管理飞机编队"/>
+		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+			<TextBlock.Inlines>
+				<Run Text="我们查看左上角的编队管理器，找到柯-45攻击机小队。注意：飞机小队会获得一个呼号，飞机类型会显示在编队管理器中。"/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="柯-45攻击机小队的右侧有一个攻击命令类型的下拉菜单："/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="•同步："/><Run Text="所有飞机执行队长收到的路径点、高度和速度命令。"/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="•独立："/><Run Text="所有飞机独立行动。"/>
+				<LineBreak/>
+				<Run FontWeight="Bold" FontSize="12" Text="•跟随队长："/><Run Text="所有飞机独立开火，但跟随队长的路径点。"/>
+			</TextBlock.Inlines>
+		</TextBlock>
+		<LineBreak/>
+        <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="上一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_9_cn.xml"/>
+			<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="下一页" Command="{Binding OpenFileCommand}" CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_11_cn.xml"/>
+		</StackPanel>
+	</StackPanel>
+    </ScrollViewer>
+  </Grid>
+</Page>

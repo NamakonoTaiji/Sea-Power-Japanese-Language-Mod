@@ -1,0 +1,62 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="1979年3月4日" />
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="南海艦隊司令官" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="南海攻撃部隊司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="作戦計画 - ミシック・ガーディアン" />
+    <TextBlock
+        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1.
+        我が軍は陸、海、空においてベトナム軍と交戦状態にある。ベトナム軍はトンキン湾で我が海軍部隊への嫌がらせを継続しており、情報部によれば、西沙諸島の我が前哨基地への攻撃を計画中である。さらに悪いことに、ソビエト連邦が同盟国ベトナムの支援に乗り出し、南海における我々に対するベトナムの軍事行動を支援すると約束したとの情報もある。
+        <LineBreak />     <LineBreak />
+        2.
+        南部戦区司令部は、南海艦隊に対し、クレセント諸島のロバート島にある我が軍の遠隔基地への補給任務を課した。南海艦隊はまた、我が基地に対するベトナム軍またはソ連軍によるいかなる攻撃も発見し、これを撃滅せよ。
+        <LineBreak />     <LineBreak />
+        3. 本作戦の緊急性により、我が軍の戦力は分散しており、必ずしも理想的な配置ではない。貴官は船団の安全を確保しつつ、島々の防衛を指揮しなければならない。 <LineBreak />
+        <LineBreak />
+        4.
+        敵部隊は複数のグループに分かれて行動しているとみられる。ベトナム人民海軍（VPN）部隊は旧米海軍の旧式戦闘艦と上陸用舟艇を装備し、ハイフォンから東へ移動中との目撃情報あり。情報部によれば、ソ連軍部隊は昨日カムラン湾から出撃したとみられる。この部隊は非常に危険であり、軽巡洋艦「アドミラル・セニャーヴィン」と、少なくとも1隻のカニン級またはカシン級防空駆逐艦を含む。もしこの部隊が西沙諸島に接近した場合、これを撃滅することが勝利の絶対条件である。
+        <LineBreak />     <LineBreak />
+        5.
+        悪天候のため、信頼性の高い偵察は実施できていないが、予報によれば天候は回復に向かっている。天候が回復次第、三亜航空基地からのCAP（戦闘空中哨戒）および爆撃機の出撃が再び可能となるだろう。
+        <LineBreak />     <LineBreak />
+        6. 本作戦は、これ以上のベトナムによる侵攻から我が国の海上側面を確保するものである。失敗は許されない。健闘を祈る。 <LineBreak />     <LineBreak /> 極秘 </TextBlock>
+</Grid>

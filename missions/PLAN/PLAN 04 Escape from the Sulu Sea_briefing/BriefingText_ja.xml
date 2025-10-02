@@ -1,0 +1,56 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="1988年3月26日" />
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="南海艦隊司令官" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="スールー海偵察部隊司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="スールー海作戦計画改訂版" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1. ただちにスールー海域における航行の自由作戦を中止せよ。 <LineBreak />     <LineBreak />
+        2. 最大戦速にてバラバク海峡を経由し、領海へ帰投せよ。 <LineBreak />     <LineBreak /> 3.
+        注：現時点において、フィリピン軍との間には事実上の戦争状態が存在する。最終偵察飛行において、フィリピン水上部隊が海峡を封鎖しようと試みていることが確認された。 <LineBreak />
+        <LineBreak />
+        4. 情報部によれば、貴官の部隊が海峡に到達する際、フィリピン軍による空爆の可能性も高いとみられる。 <LineBreak />
+        <LineBreak /> 5.
+        警告：米国水上任務群がパラワン水道付近で最後に目撃された。米国は未だフィリピンの同盟国を支援していないが、彼らとの交戦は絶対に避けなければならない。全ての目標は攻撃前に確実に識別すること。健闘を祈る。
+        <LineBreak />     <LineBreak />
+        極秘 </TextBlock>
+</Grid>

@@ -1,0 +1,54 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="1974年8月4日" />
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="北海艦隊司令官" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="潜水艦404号艦長" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="作戦計画 - サイレント・スピア" />
+    <TextBlock
+        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1.
+        司令部は、我が軍の091型原子力潜水艦1隻を使用し、隠密裏に情報を収集する能力を試験する。 <LineBreak />     <LineBreak /> 2.
+        潜水艦404号は最大戦速にて北緯26.57度、東経126.84度へ進出せよ。探知を避けよ。 <LineBreak />     <LineBreak /> 3.
+        当該地点にて待機し、更なる命令を待て。 <LineBreak />     <LineBreak /> 4.
+        日本側に探知された場合は、直ちにこの位置を放棄し、東方の領海へ退避せよ。兵装の使用は自衛の場合にのみ許可され、敵との接触・撃破よりも離脱を優先すること。健闘を祈る。 <LineBreak />
+        <LineBreak />
+        極秘 </TextBlock>
+</Grid>

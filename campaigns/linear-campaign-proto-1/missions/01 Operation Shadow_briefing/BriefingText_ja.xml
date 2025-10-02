@@ -1,0 +1,62 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="NATO司令部" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ノルウェー海軍司令官" />
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="情報:" />
+    <TextBlock Grid.Row="5" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="大西洋艦隊司令官" />
+    <TextBlock Grid.Row="7"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="作戦計画 - シャドウ作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="4"
+        FontSize="{StaticResource Font.Size.Header}" Text="1988年5月9日" />
+    <TextBlock
+        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
+        NATOとワルシャワ条約機構間の緊張が高まる中、ここ数週間でバレンツ海におけるソ連海軍の活動が著しく活発化。NATO軍は彼らの活動を監視し、諜報データを収集する任務を負う。輸送船を改造したUSNS「ケープ・ジラードー」は、高度なSIGINT（通信情報）及び聴音装置を装備し、キルケネスを拠点にソ連の通信を監視中。2隻のノルウェー海軍潜水艦も同区域の哨戒監視を命じられている。NATOの作戦を抑止するため、ソ連の水上部隊が同区域に展開していると予想される。
+        <LineBreak /><LineBreak />
+        2. (S) 任務: <LineBreak />2.1 ノルウェー海軍潜水艦は哨戒区域に留まり、ソ連海軍の活動を監視せよ。 <LineBreak />2.2
+        隠密行動を維持し、探知を回避せよ。 <LineBreak /><LineBreak /> 3. (S) 実行: <LineBreak />3.1
+        USNS「ケープ・ジラードー」は単独で作戦行動中。 <LineBreak />3.2 ノルウェー海軍部隊は司令官の裁量により任務を遂行せよ。 <LineBreak />3.3
+        短時間での区域離脱に備えよ。 <LineBreak /><LineBreak /> 4. (S) 敵軍戦闘序列: <LineBreak />4.1 ソ連水上打撃群 <LineBreak />4.1.1
+        ウダロイ級駆逐艦 <LineBreak />4.1.2 ソヴレメンヌイ級駆逐艦 <LineBreak />4.1.3 クレスタII級巡洋艦 <LineBreak /><LineBreak />
+        5. (S) 友軍戦闘序列: <LineBreak />5.1 ノルウェー海軍 S304 ウトハウグ <LineBreak />5.2 ノルウェー海軍 S301 ウトシラ <LineBreak />5.3
+        USNS ケープ・ジラードー T-AK-2039 <LineBreak /><LineBreak /> 6. (S) 情報評価: <LineBreak />6.1
+        ソ連水上打撃群は当該作戦区域を航行中であり、T-AK-2039を追尾している可能性があると評価。 <LineBreak />6.2
+        情報部によれば、ソ連は作戦区域内におけるノルウェー海軍潜水艦の存在に気づいていないと評価。 </TextBlock>
+</Grid>

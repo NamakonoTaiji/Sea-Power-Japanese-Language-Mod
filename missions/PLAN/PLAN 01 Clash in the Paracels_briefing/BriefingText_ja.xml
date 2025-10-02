@@ -1,0 +1,56 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="1974年8月4日" />
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="差出人" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="南海艦隊司令官" />
+    <TextBlock Grid.Row="4"
+        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第1水上攻撃部隊司令官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="作戦計画 - パラセル" />
+    <TextBlock
+        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1.
+        西沙諸島の漁船および調査船より、南ベトナム海軍（RVNN）戦闘艦艇による嫌がらせ行為の報告あり。昨日、ベトナム軍は我々が掲げた旗に砲撃を加えた後、ロバート島に上陸した。更なるベトナム海軍部隊とコマンド部隊が諸島に移動中との報告も入っている。これは我々の領有権の侵害であり、司令部は南海艦隊に対し、彼らを駆逐するため直ちに出撃するよう命じた。
+        <LineBreak />     <LineBreak />
+        2. 第1水上攻撃部隊は第2水上部隊に先んじてクレセント諸島に進入せよ。そこにいるベトナム軍部隊の位置を特定し識別せよ。ただし、攻撃を受けるまで発砲してはならない。 <LineBreak />
+        <LineBreak />
+        3.
+        ベトナム軍の戦力は、76mm砲を搭載した旧米海軍エドサル級駆逐艦1隻、127mm砲を搭載した旧米海軍バーナガット級フリゲート2隻、および軽砲を搭載した旧米海軍掃海艇1隻で構成される。これらの艦艇は我々の射程を上回るため、接近して我々の速射砲で無力化することが推奨される。敵対行為が発生した場合、我々の対潜迫撃砲はこれらの艦艇に対して致命的となりうるため、その使用を推奨する。
+        <LineBreak />     <LineBreak />
+        4. 当該区域へ移動せよ。面倒は起こすな、先制攻撃はするな、そして損害は被るな。諸君らの幸運と戦果を祈る。 <LineBreak />     <LineBreak /> 極秘 </TextBlock>
+</Grid>
