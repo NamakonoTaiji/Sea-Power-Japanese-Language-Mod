@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="4. MÄRZ 1979"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, SÜDMEERFLOTTE"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, SÜDMEERKAMPFVERBAND"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION PLAN - MYTHIC GUARDIAN"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. Unsere Kräfte befinden sich an Land, in der Luft und auf See im Gefecht mit den Vietnamesen. Vietnamesische Einheiten setzen unsere Marineverbände im Golf von Tonkin weiterhin unter Druck. Nachrichtendienste melden, dass die Vietnamesen einen Angriff auf unsere Außenposten auf den Xisha-Inseln planen. Schlimmer noch: Die Sowjetunion steht ihren vietnamesischen Verbündeten bei. Unsere Aufklärung meldet, dass sie die vietnamesischen Operationen gegen uns im Südmeer unterstützen.
+		<LineBreak/>
+		<LineBreak/>
+		2. Das Southern Theater Command hat der Südmeerflotte den Befehl erteilt, unsere abgelegene Basis auf Robert Island in der Crescent-Gruppe zu versorgen. Die Südmeerflotte hat zudem den Befehl erhalten, jeden vietnamesischen oder sowjetischen Angriff auf unsere Basis aufzuklären und zu stoppen.
+		<LineBreak/>
+		<LineBreak/>
+		3. Aufgrund der Tatsache, dass dieser Einsatz sehr spontan durchgeführt wird, sind unsere Kräfte weit verstreut und befinden sich in keiner optimalen Position. Sie müssen die Verteidigung der Inseln koordinieren und gleichzeitig die Sicherheit des Konvois gewährleisten.
+		<LineBreak/>
+		<LineBreak/>
+		4. Es wird angenommen, dass sich die feindlichen Kräfte in mehrere Gruppen aufgeteilt haben. Einheiten der VPN wurden östlich von Haiphong gesichtet. Sie verfügen über Kampfschiffe aus alten Beständen der US NAVY. Nachrichtendienste berichten, dass die sowjetische Streitmacht gestern aus der Cam-Ranh-Bucht ausgelaufen ist. Diese Streitmacht ist hochgefährlich und besteht aus dem leichten Kreuzer ADMIRAL SENYAVIN sowie mindestens einem luftverteidigungsfähigen Zerstörer des Typs KANIN oder KASHIN. Die Vernichtung dieser Streitmacht ist eine unabdingbare Voraussetzung für den Sieg, falls sie sich den Xisha-Inseln nähert.
+		<LineBreak/>
+		<LineBreak/>
+		5. Zuverlässige Aufklärung war aufgrund schlechten Wetters bislang nicht möglich. Die Vorhersagen zeigen jedoch Besserung. Sobald das Wetter aufklart, sind wieder CAP- und Bomberflüge vom Luftwaffenstützpunkt Sanya durchführbar.
+		<LineBreak/>
+		<LineBreak/>
+		6. Diese Operation sichert unsere Flanke gegen weitere vietnamesische Aggressionen. Sie dürfen nicht scheitern. Viel Erfolg.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+	</TextBlock>
+</Grid>

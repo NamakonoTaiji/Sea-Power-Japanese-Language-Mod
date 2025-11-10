@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		23OCT1983
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSECONDFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS CARON DD-970"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="OBJET"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FRAGORD 01 - OPERATION URGENT FURY"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		FLASH - SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION : Les services de renseignement américains pensent que les forces cubaines et soviétiques construisent un aérodrome militaire à la Grenade, dans les îles des Antilles méridionales. Le président autorisera prochainement l'exécution de l'opération URGENT FURY, dont les objectifs sont de protéger les citoyens américains à la Grenade, d'établir un gouvernement démocratique et d'éradiquer l'influence cubaine et soviétique sur l'île. La Force opérationnelle interarmées 120 est en cours de constitution pour mener cette opération.
+		<LineBreak/>
+    <LineBreak/>
+    2. (S) MISSION : Les forces terrestres, navales et aériennes américaines coordonneront un assaut sur l'île, sauveront tous les citoyens américains et détruiront l'opposition ennemie.
+    <LineBreak/>
+		<LineBreak/>
+    3. (S) EXÉCUTION : L'USS CARON sera chargé d'apporter un soutien naval aux forces terrestres. À compter de maintenant, détachez-vous du groupe de combat INDEPENDENCE et mettez le cap vers le sud à pleine vitesse. Le MOOSBRUGGER vous rejoindra le 21 octobre. Prenez position à 12 milles marins au large de la Grenade et commencez à recueillir des renseignements à l'aide du système OUTBOARD, puis attendez de nouveaux ordres.
+		<LineBreak/>
+    <LineBreak/>
+    4. (S) ORDRE DE BATAILLE DE L'ENNEMI : L'Armée révolutionnaire populaire (PRA) de la Grenade est soupçonnée d'utiliser des véhicules blindés fournis par l'Union soviétique et des canons antiaériens ZU-23. Les conseillers cubains à terre sont également équipés de blindés légers et il existe des indications et des avertissements concernant la présence d'un SSK de classe FOXTROT dans la zone.
+		<LineBreak/>
+    <LineBreak/>
+		5. (S) ORDRE DE BATAILLE US : Le groupe de combat INDEPENDENCE prendra position au nord-ouest de la Grenade et MARG 1-84 avec GUAM prendra position au nord. Les vols d'attaque de l'INDEPENDENCE et les Cobras de GUAM seront disponibles pour le soutien aérien des troupes à terre.
+    <LineBreak/>
+		<LineBreak/>
+    6. (S) REMARQUES : Cette opération garantira la sécurité des citoyens américains et empêchera les Soviétiques d'établir une autre base dans les Caraïbes. Bonne chance et bonne chasse.
+    <LineBreak/>
+    <LineBreak/>
+    SECRET
+    <LineBreak/>
+    NE PAS DÉCLASSIFIER SANS L'AUTORISATION DU DESTINATAIRE
+	  </TextBlock>
+</Grid>

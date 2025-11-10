@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE :"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COM 7EME ESCADRON OPERATIONNEL(SF)"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A :"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COM 2EME DIVISION DE DEFENSE COTIERE"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="OBJET :"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="RAPPORT DE CONTACT - ORDRE DE MISSION"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. SITUATION TACTIQUE : Des sous-marins américains continuent de tenter d'infiltrer notre territoire en mer de Barents. La 2e Division de défense côtière est chargée de la lutte anti-sous-marine contre les Américains dans nos eaux territoriales. Ce matin, l'un de nos sous-marins d'attaque a signalé une signature acoustique américaine à environ 150 milles marins au nord d'Ostrovnoï.
+      <LineBreak/>
+      <LineBreak/>
+      2. OBJECTIF PRINCIPAL : Le détachement ANTON de la 2e division côtière se déplacera jusqu'au dernier point de contact signalé et détruira l'Américain.
+      <LineBreak/>
+      <LineBreak/>
+      3. ASSISTANCE ALLIEE : Un Il-38 de la 145ème PLAP est disponible en soutien aérien.
+      <LineBreak/>
+      <LineBreak/>
+      4. ORDRE DE BATAILLE ENNEMI : Le K-481 signale une signature correspondant à celle d'un sous-marin d'attaque de classe STURGEON américain.
+      <LineBreak/>
+      <LineBreak/>
+      5. ENGAGEMENT DE LA CIBLE : autorisé sur tous les contacts sous-marins.
+      <LineBreak/>
+      <LineBreak/>
+      6. EMCON: Pas de restriction.
+	  <LineBreak/>
+      <LineBreak/>
+      6. REMARQUE : Les sous-marins d'attaque américains consituent une menace dangereuse et ne doivent pas être sous-estimés. Bonne chance, camarades.
+    </TextBlock>
+</Grid>

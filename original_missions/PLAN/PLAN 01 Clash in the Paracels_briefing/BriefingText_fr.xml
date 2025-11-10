@@ -1,0 +1,54 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="4 AOUT 1974"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE "/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDANT FLOTTE DES MERS DU SUD"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A "/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDANT 1ERE FORCE D'ATTAQUE DE SURFACE"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUJET"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="PLAN D'OPERATION - PARACELS"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. Les pêcheurs et les navires de recherche des îles Xisha signalent être harcelés par des navires de combat de la Marine de la République du Vietnam (RVNN). Hier, les forces vietnamiennes ont débarqué sur l'île Robert après avoir bombardé notre drapeau qui y était hissé. D'autres forces navales et commandos vietnamiens ont été signalés en approche dans les îles. Il s'agit d'une violation de nos droits territoriaux et le commandement a ordonné à la Flotte des mers du Sud de sortir immédiatement pour les repousser.
+		<LineBreak/>
+		<LineBreak/>
+		2. La 1re Force d'attaque de surface entrera dans le Groupe Croissant avant la 2e Force de surface. Localisez et identifiez les forces vietnamiennes qui s'y trouvent, mais ne tirez pas, sauf si vous êtes pris pour cible.
+		<LineBreak/>
+		<LineBreak/>
+		3. Les forces vietnamiennes se composent d'un ancien destroyer américain de classe EDSALL, équipé de canons de 76 mm, de deux anciennes frégates américaines de classe BARNEGAT, équipées de canons de 127 mm, et d'un ancien dragueur de mines américain équipé de canons légers. Ces navires ont une portée supérieure à la nôtre ; il est donc conseillé de s'approcher et d'utiliser nos canons à cadence de tir élevée pour les réduire au silence. Nos mortiers anti-sous-marins seront redoutables contre ces navires et leur utilisation est recommandée en cas de déclenchement des hostilités.
+		<LineBreak/>
+		<LineBreak/>
+		4. Avancez-vous dans la zone, ne causez pas d'incidents, n'ouvrez pas le feu en premier et ne vous faites pas avoir. Bonne chance et bonne chasse.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	</TextBlock>
+</Grid>

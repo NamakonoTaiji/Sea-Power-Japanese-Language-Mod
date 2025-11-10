@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		24MAY1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDANT SAG NEW JERSEY"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="OBJET"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FRAGORD 01 - NOUVEL ORDRE URGENT"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		IMMEDIAT - SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION: Les combats se poursuivent en Allemagne de l'Ouest entre les forces de l'OTAN et celles du Pacte. Des convois REFORGER de l'OTAN transitent régulièrement de la côte est des États-Unis vers Anvers et Brest. Les forces sous-marines et de bombardiers soviétiques tentent d'intercepter les convois, mais sans grand succès jusqu'à présent. Le 19 mai, des sources nationales de renseignement technique ont détecté des éruptions de chaleur dans les installations techniques des navires de guerre de classe KIROV et SOVREMENNY à Mourmansk. Ces unités, absentes des images satellites lors du prochain passage le 22 mai, sont suspectées de se diriger vers l'Atlantique.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MISSION: Les forces navales et aériennes de l'OTAN mèneront des opérations de barrage sur la ligne GIUK pour localiser et détruire le KIROV.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) EXECUTION: Les unités de l'OTAN à proximité sont limitées. Le New Jersey sera affecté à la défense de la zone ouest du GIUK, tandis que les unités de la marine allemande seront chargées de la défense de la barrière Est des Hébrides. Un P-3 de Keflavik participera aux recherches. Une fois le Kirov localisé, tous les moyens seront mis en œuvre pour le couler.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) FORCES ENNEMIES : 1 CGN de ​​classe KIROV et 1 DDG de classe SOVREMENNY. Les avions Tu-95 et les chalutiers AGI peuvent transmettre vos positions pour ciblage. Le CGN KIROV est équipé de 20 missiles SS-N-19 Shipwreck d'une portée de 350 nm.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) REMARQUES: En raison du caractère déséquilibré de l'engagement, un contrôle EMCON est conseillé. Ces unités doivent être interceptées avant d'entrer dans l'Atlantique et de menacer nos convois. CINCLANT comprend que la mission est difficile, mais sait que le NEW JERSEY s'en sortira. Bonne chance et bonne chasse.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		NE PAS DÉCLASSIFIER SANS L'APPROBATION DU DESTINATAIRE
+	  </TextBlock>
+</Grid>

@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="4 MARS 1979"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDANT FLOTTE MERS DU SUD"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDANT FORCE D'ATTAQUE MERS DU SUD"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUJET"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="PLAN D'OPERATION - GARDIEN MYTHIQUE"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. Nos forces sont confrontées aux Vietnamiens sur terre, dans les airs et en mer. Les forces vietnamiennes continuent de harceler nos unités navales dans le golfe du Tonkin, et nos services de renseignement indiquent qu'elles préparent une attaque contre nos avant-postes dans les îles Xisha. Pire encore, l'Union soviétique est venue en aide à ses alliés vietnamiens, et nos services de renseignement ont appris qu'elle a promis de soutenir une action vietnamienne contre nous dans les mers du Sud.
+		<LineBreak/>
+		<LineBreak/>
+		2. Le Commandement du Théâtre d'opérations Sud a chargé la Flotte des Mers du Sud de ravitailler notre base isolée de l'île Robert, dans les parages du groupe Croissant. La Flotte des Mers du Sud localisera et détruira également toute attaque vietnamienne ou soviétique contre notre base.
+		<LineBreak/>
+		<LineBreak/>
+		3. En raison du caractère précipité de cette opération, nos forces sont dispersées et mal positionnées. Vous devez coordonner la défense des îles tout en assurant la sécurité du convoi.
+		<LineBreak/>
+		<LineBreak/>
+		4. On pense que les forces ennemies se sont réparties en plusieurs groupes. Des forces VPN ont été aperçues en mouvement vers l'est depuis Haïphong, équipées de vieux navires de combat de l'US Navy et de barges de débarquement. Les services de renseignement pensent que la force soviétique a quitté la baie de Cam Ranh hier. Cette force, extrêmement dangereuse, comprend le croiseur léger Amiral Senyavin et au moins un destroyer de défense aérienne de type Kanin ou Kashin. La destruction de cette force à l'approche des îles Xisha est une condition sine qua non de la victoire.
+		<LineBreak/>
+		<LineBreak/>
+		5. Les mauvaises conditions météorologiques n'ont pas permis d'effectuer des reconnaissances fiables, mais les prévisions annoncent une amélioration prochaine. Dès que la météo s'améliorera, les vols de CAP et de bombardiers au départ de la base aérienne de Sanya seront à nouveau possibles.
+		<LineBreak/>
+		<LineBreak/>
+		6. Cette opération protégera notre flanc maritime contre toute nouvelle agression vietnamienne. Vous ne devez pas échouer. Bonne chance.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	</TextBlock>
+</Grid>

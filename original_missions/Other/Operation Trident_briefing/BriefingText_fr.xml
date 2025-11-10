@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		4 DECEMBRE 1971
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE :"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OFFICIER C-IN-C, COMMANDEMENT NAVAL DE L'OUEST"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CDT K/ P. GOPAL RAO, GROUPE D'ATTAQUE DE KARACHI"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUJET :"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ORDRES - OPERATION TRIDENT"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. Le quartier général de la marine vous a ordonné de lancer l'opération TRIDENT et d'attaquer les forces pakistanaises à Karachi. Notre objectif est de détruire tous les navires pakistanais rencontrés au large de Karachi et d'interdire l'accès au port aux forces ennemies.
+		<LineBreak/>
+		<LineBreak/>
+		2. Les corvettes de classe PETYA de votre flotte (KATCHALL et KILTAN) seront vos navires de commandement et utiliseront leur puissant radar pour détecter les contacts de surface. Les vedettes lance-missiles de classe OSA (VEER, NIPAT, NIRGHAT) utiliseront leurs missiles Styx pour attaquer les forces ennemies détectées par les KATCHALL et KILTAN.
+		<LineBreak/>
+		<LineBreak/>
+		3. Des interceptions radio indiquent que le QG pakistanais a ordonné à toute la marine marchande neutre de rester à l'extérieur de la zone des 75 milles nautiques du port de Karachi entre le coucher du soleil et l'aube. Tous les contacts radar nocturnes à l'intérieur de cette zone au large de Karachi seront considérés comme hostiles et traités comme il se doit par nos forces.
+		<LineBreak/>
+		<LineBreak/>
+		4. Note : Les forces pakistanaises à Karachi comprennent d'anciens destroyers de la Royal Navy dépourvus de missiles antinavires longue distance. Le cargo M/V VENUS CHALLENGER est attendu dans la zone pour transporter des munitions vers le Pakistan depuis les bases américaines de Saïgon. L'aviation pakistanaise ne dispose pas de capacité de bombardement nocturne et ne sera donc pas déployée pendant la nuit.
+		<LineBreak/>
+		<LineBreak/>
+		5. Avancez vers le nord-ouest à toute vitesse, identifiez tous les contacts hostiles et détruisez-les. Bonne chance.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	  </TextBlock>
+</Grid>

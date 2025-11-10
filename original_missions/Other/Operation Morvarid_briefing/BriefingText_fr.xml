@@ -1,0 +1,55 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		28 NOVEMBRE 1980
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE :"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDT MARINE DE LA REPUBLIQUE ISLAMIQUE D'IRAN"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A :"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDT FORCE OPERATIONNELLE 421"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUJET :"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NOUVEAUX ORDRES - OPERATION MORVARID (عملیات مروارید)"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. Les forces irakiennes ont détruit notre raffinerie d'Abadan et le haut commandement a ordonné une frappe de représailles. Nos forces détruiront les terminaux pétroliers offshore de Khor al-Amaya et de Mina al-Bakr. La perte de ces terminaux pétroliers stratégiques entraverait considérablement la capacité de l'Irak à exporter son pétrole. Le commandement estime que cette attaque mobilisera la marine irakienne, où nos forces pourront la détruire.
+		<LineBreak/>
+		<LineBreak/>
+		2. Ce soir, la Force opérationnelle 421 déploiera des Commandos Marine sur les terminaux pétroliers. Ils poseront des charges explosives et se retireront par hélicoptère. Les navires de la Force opérationnelle 421 resteront au large des côtes, bloquant Al-Faw et Um-Qasr. Le JOSHAN et le PAYKAN sont affectés à cette opération.
+		<LineBreak/>
+		<LineBreak/>
+		3. Les dernières estimations font état de quatre torpilleurs P-6 à Al-Faw et de cinq vedettes lance-missiles de classe OSA ou OSA II à Um-Qasr. Un navire amphibie de classe POLNOCNY est également positionné à Um-Qasr et pourrait effectuer une sortie pour tenter de reprendre les terminaux pétroliers.
+		<LineBreak/>
+		<LineBreak/>
+		4. Un intercepteur Tomcat de l'IRIAF vous sera affecté comme plateforme radar aéroportée. Des Phantoms équipés de missiles Maverick sortiront également de Bushehr pour vous soutenir. Attirez l'ennemi vers la mer, puis détruisez toutes les forces rencontrées. Bonne chance !
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+	  </TextBlock>
+</Grid>

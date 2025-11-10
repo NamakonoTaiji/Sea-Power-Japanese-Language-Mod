@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="26. MÄRZ 1988"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, SÜDMEERFLOTTE"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, AUFKLÄRUNGSGRUPPE SULUSEE"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="REVISED SULU SEA OPERATION PLAN"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. SOFORT WIRKSAM: MANÖVER ZUR WAHRUNG DER FREIHEIT DER SCHIFFFAHRT IN DER SULUSEE ABBRECHEN.
+		<LineBreak/>
+		<LineBreak/>
+		2. MIT HÖCHSTFAHRT ÜBER DIE BALABACSTRAßE IN UNSERE HOHEITSGEWÄSSER ZURÜCKZIEHEN.
+		<LineBreak/>
+		<LineBreak/>
+		3. HINWEIS: ZURZEIT BESTEHT DE FACTO EIN KRIEGSZUSTAND MIT DEN PHILIPPINISCHEN KRÄFTEN. DER LETZTE AUFKLÄRUNGSÜBERFLUG ZEIGTE, DASS PHILIPPINISCHE SEESTREITKRÄFTE VERSUCHEN, DIE BALABACSTRAßE ZU SCHLIESSEN.
+		<LineBreak/>
+		<LineBreak/>
+		4. DIE NACHRICHTENDIENSTE GEHEN DAVON AUS, DASS LUFTSCHLÄGE PHILIPPINISCHER KRÄFTE WAHRSCHEINLICH SIND, WENN IHR VERBAND DIE STRAßE ERREICHT.
+		<LineBreak/>
+		<LineBreak/>
+		5. WARNUNG: EINE U.S. SURFACE TASK GROUP WURDE ZULETZT IN DER NÄHE DER PALAWAN-PASSAGE GESICHTET. DIE AMERIKANER UNTERSTÜTZEN IHRE PHILIPPINISCHEN VERBÜNDETEN NOCH NICHT, EIN ANGRIFF AUF DIE AMERIKANER IST DAHER UNBEDINGT ZU VERMEIDEN. ALLE KONTAKTE MÜSSEN VOR EINEM GEFECHT POSITIV IDENTIFIZIERT WERDEN. VIEL ERFOLG.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+	</TextBlock>
+</Grid>

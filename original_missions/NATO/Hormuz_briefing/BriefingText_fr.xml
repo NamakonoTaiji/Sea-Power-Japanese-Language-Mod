@@ -1,0 +1,96 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="de :"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Commandand 5ème flotte US"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A :"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Commandant du TF150"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Info :"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Commandand flotte US du Pacifique"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Sujet :"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ordres de mission"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1.  (S)    Situation tactique :
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+	  Due to the recent attacks by Iran on merchant shipping passing in and out of the Persian Gulf, it has been decided to organize escorted convoys to protect maritime trade.
+	-->
+	
+      La République islamique d’Iran a menacé de fermer le détroit d’Ormuz à la navigation liée aux intérêts et aux alliés des États-Unis pour obtenir un effet de levier à l’échelle mondiale.
+      <LineBreak/>
+      <LineBreak/>Les États-Unis ont l’intention de résister aux menaces iraniennes et de démontrer leur capacité à traverser le détroit comme le permet le droit international.
+      <LineBreak/>
+      <LineBreak/>COMMIDEASTFOR organise l'escorte de convois de pétroliers à travers le détroit d'Ormuz, à destination et en provenance du golfe d'Aden. Le TF150 doit escorter le premier groupe de navires marchands vers le terminal pétrolier de Minā' al-Bakr, sur la côte irakienne.
+      <LineBreak/>
+	
+	  <LineBreak/>
+      <LineBreak/>
+      2.  (S) Objectif principal :
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      You are to escort the three oil tankers past the Strait of Hormuz to the designated area.
+	-->
+      Traversez le détroit d'Ormuz depuis le golfe d'Aden jusqu'au golfe Persique tout en défendant les navires de commerce escortés contre les menaces posées par la République islamique d'Iran.
+      <LineBreak/>
+      <LineBreak/>
+      <LineBreak/>
+      3.  (S) Evaluation de la menace :
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      Intel believes only a small force of patrol craft have been sortied by Iran at this point. Your forces should be able to brush them aside with little effort.
+	-->
+	
+	Il est hautement probable que des unités de surface de l'IRIN et de l'IRGCN de Bandar Abbas soient déployées dans le détroit d'Ormuz. Ces unités seront probablement représentatives des forces combinées de l'IRIN et de l'IRGCN. On peut s'attendre à un nombre important de FAC/FIAC, avec un soutien limité de patrouilleurs de plus grande taille.
+      <LineBreak/>
+      <LineBreak/>Il est probable qu'un soutien aéroporté limité sera apporté aux unités de l'IRIN et de l'IRGCN, composé à la fois d'avions et d'hélicoptères. Il est également probable qu'un nombre limité de missiles antiaériens aéroportés équipe les unités aériennes ennemies.
+      <LineBreak/>
+      <LineBreak/>Les sous-marins de l'IRIN ne devraient pas constituer une menace pour le moment. Il est hautement probable que l'IRIN cherche à acquérir des sous-marins de poche, mais il est hautement improbable qu'ils puissent être déployés à ce stade.
+	
+      <LineBreak/>
+      <LineBreak/>
+	<!--
+      4.  (S) Warning Yellow - Do not fire unless fired upon
+	-->
+      <LineBreak/>
+      <LineBreak/>
+	  <!--
+      5.  (S) EMCON - Maintain radio silence until otherwise directed
+	  -->
+	  
+	  (S) EMCON - En raison de la forte probabilité de missiles anti-navires, le niveau d'EMCON n'est pas limité.
+	  
+    </TextBlock>
+</Grid>

@@ -1,0 +1,54 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="4. AUGUST 1974"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, SÜDMEERFLOTTE"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, 1ST SURFACE ATTACK FORCE"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION PLAN - PARACEL-INSELN"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. Fischer und Forschungsschiffe auf den Xisha-Inseln melden, dass sie von Einheiten der Marine der Republik Vietnam (RVNN) belästigt werden. Gestern landeten vietnamesische Kräfte auf Robert-Island, nachdem sie unsere dort errichteten Flaggen beschossen hatten. Weitere vietnamesische Seestreitkräfte und Kommandos werden gemeldet, die zu den Inseln verlegen. Dies ist eine Verletzung unserer Hoheitsrechte. Die Führung hat die Südmeerflotte angewiesen, unverzüglich auszulaufen und die feindlichen Kräfte zu vertreiben.
+		<LineBreak/>
+		<LineBreak/>
+		2. Die 1st Surface Attack Force wird die Crescent-Gruppe vor der 2nd Surface Force erreichen. Lokalisieren und identifizieren Sie die dortigen vietnamesischen Kräfte, eröffnen Sie jedoch nicht das Feuer, sofern nicht zuvor auf Sie geschossen wird.
+		<LineBreak/>
+		<LineBreak/>
+		3. Die vietnamesischen Kräfte bestehen aus einem ehem. US-Zerstörer der EDSALL-Klasse mit 76-mm-Geschützen, zwei ehem. US-Fregatten der BARNEGAT-Klasse mit 127-mm-Geschützen und einem ehem. US-Minensucher mit leichten Kanonen. Diese Schiffe haben eine größere Reichweite als wir, es empfiehlt sich also dicht heranzufahren und unsere schnellschießenden Geschütze einzusetzen, um sie zum Schweigen zu bringen. Unsere U-Jagd-Mörser sind gegen diese Einheiten äußerst wirkungsvoll und deren Einsatz wird dringend empfohlen, falls es zu Kampfhandlungen kommt.
+		<LineBreak/>
+		<LineBreak/>
+		4. Begeben Sie sich in das Einsatzgebiet, verursachen Sie keine Zwischenfälle, eröffnen Sie nicht als Erster das Feuer und bringen Sie sich nicht in eine unvorteilhafte Lage. Viel Erfolg und Waidmannsheil.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+	</TextBlock>
+</Grid>

@@ -1,0 +1,61 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="19 AVR 1972"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="De :"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSEVENTHFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A :"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTU 77.1.1"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Info :"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Objet :"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ordres de mission"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      IMMEDIAT - SECRET
+	  <LineBreak/>
+	  <LineBreak/>
+      1. (S) SITUATION : Les rapports de renseignement indiquent que les Nord-Vietnamiens font transiter de grandes quantités de troupes et de fournitures le long de la route côtière vers le front de bataille de la province de Quang Tri.
+      <LineBreak/>
+      <LineBreak/>
+      2. (S) MISSION : Le TF 77 effectuera un bombardement côtier pour détruire les installations terrestres autour de Dong Hoi.
+      <LineBreak/>
+      <LineBreak/>
+      3. (S) EXECUTION : L'unité opérationnelle 77.1.1 (avec l'OKLAHOMA CITY) engagera les batteries et installations côtières nord-vietnamiennes et neutralisera toutes les cibles rencontrées. Le STERETT sera stationné au nord-est de l'unité opérationnelle 77.1.1 et coordonnera la défense aérienne de l'unité. Aucune restriction de communications (EMCON) n'est imposée. Toutes les cibles de la zone seront considérées comme hostiles et l'unité opérationnelle 77.1.1 est autorisée à engager sans restriction toutes les cibles représentant une menace immédiate.
+      <LineBreak/>
+      <LineBreak/>
+      4. (S) ORDRE DE BATAILLE ENNEMI : La région de Dong Hoi est protégée par des sites de missiles sol-air et des batteries côtières. Des navires de guerre côtière de la marine nord-vietnamienne pourraient attaquer nos forces, mais il est important de noter que cette zone est une zone de pêche importante et qu'il est impératif d'éviter toute victime civile.
+      <LineBreak/>
+      <LineBreak/>
+      5. (S) REMARQUES : Entrez rapidement en action et détruisez les forces ennemies avant qu'elles ne puissent ravitailler leurs troupes vers le sud. Bonne chance et bonne chasse.
+	  <LineBreak/>
+	  <LineBreak/>
+	  SECRET
+    </TextBlock>
+</Grid>
