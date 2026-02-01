@@ -17,7 +17,7 @@
                     FontWeight="Bold" Text="磁気異常探知機（MAD）" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="航空機が利用できる最後の探知メカニズムは、磁気異常探知機（MAD）である。" />
+                        <Run Text="航空機が利用できる最後の探知メカニズムは、磁気探知機（MAD）である。" />
                         <LineBreak />
                         <LineBreak />
                         <Run

@@ -20,7 +20,7 @@
                         <Run Text="外洋偵察と部隊による目標到達時間差攻撃の実施、お見事であった！ " />
                         <LineBreak />
                         <LineBreak />
-                        <Run Text="これで最終士官訓練セッションは完了である。ご苦労だった、司令官！" />
+                        <Run Text="これで最終士官訓練セッションは完了である。ご苦労だった、指揮官！" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

@@ -14,7 +14,7 @@
 		</Border.Effect>
         <StackPanel Orientation="Vertical">
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-            <TextBlock Text="1988년 5월 1일 일요일 | Vol. 105, No. 42 | 52 Cents" Margin="0,15,0,15" FontSize="24"/>
+            <TextBlock Text="1988년 5월 1일 일요일 | Vol. 105, 42호 | 52 센트" Margin="0,15,0,15" FontSize="24"/>
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
             <Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/>
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
@@ -29,21 +29,21 @@
 					<RowDefinition Height="Auto"/>
 					<RowDefinition Height="Auto"/>
 				</Grid.RowDefinitions>
-				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="SOVIET WARSHIPS COLLIDE WITH U.S. NAVY IN BLACK SEA; U.S. CLAIMS INNOCENT TRANSIT" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="소련 군함이 흑해에서 미 해군과 충돌하다" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                 <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
                     
-                    <TextBlock Text="Pentagon calls maneuver 'deliberate and dangerous'" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="미 국방부는 이러한 행동을 '의도적이며 공격적이라' 부름" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-						NORFOLK, VIRGINIA — Tensions spiked yesterday as two Soviet warships intentionally collided with U.S. Navy vessels operating in the Black Sea. The incident, which took place near the Crimean Peninsula, involved the guided missile cruiser USS Yorktown (CG-48) and destroyer USS Caron (DD-970), which were conducting what the Navy calls “innocent passage” through international waters.
+						노퍽, 버지니아 - 어제경 소련 해군이 흑해에서 활동중이던 미 해군 군함에 의도적인 충각 공격을 가하자 양국간의 긴장상태가 격화되었습니다. 크림 반도 인근에서 일어난 이 사건은 미 해군의 유도탄 순양함인 USS 요크타운(CG-48)과 구축함 USS 카론(DD-970)이 연관되었으며 해당 함정들은 해당 해역에서 "무해 통항"을 위해 공해에서 항해중이였습니다.
 						<LineBreak/>
-						According to U.S. officials, the Soviet Krivak-class frigate Bezzavetnyy and a Mirka-class frigate aggressively maneuvered across the bows of both American ships, making contact at low speed. No injuries were reported, though Caron sustained superficial damage to her port side.
+						미 정부에 따르면 소련 해군의 크리박급 호위함인 베즈자베트니함과 미르카급 호위함이 위협적이게 다가와 미 해군 함정들의 함수 앞에서 길을 가로막자 저속으로 충돌했다고 전해집니다. 양측간 부상자는 없었지만 카론함이 좌현에 경미한 피해를 입었습니다.
 						<LineBreak/>
-						Defense Secretary Frank Carlucci condemned the Soviet actions, calling them “reckless and escalatory.” The Kremlin has defended the ramming as a defensive measure, accusing the United States of “provocative surveillance” near sensitive Soviet facilities. (see COLLISION on pg. 2)
+						프랭크 칼루치 국방장관은 소련의 행동을 "무모하고 확대적"이라고 비난했습니다. 크렘린궁은 미국이 민감한 소련 시설 근처에서 "도발적 감시"를 하고 있다고 비난하며 이번 공격을 방어 조치로 옹호해 왔습니다. (페이지 2의 충돌 참조)
 					</TextBlock>
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
                     <Image Source="{Binding Assets[02_yorktown_collision]}" Stretch="Uniform"/>
-                    <TextBlock Text="Soviet frigate Bezzavetnyy collides with U.S. cruiser Yorktown. USS Caron was also deliberately struck by Soviet warships asserting territorial seas. The deliberate ramming occurred as part of an encounter between U.S. Navy vessels conducting freedom of navigation exercises and Soviet forces asserting expanding territorial sea claims. — US Navy photo" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                    <TextBlock Text="소련의 호위함 베즈자베트니가 미국의 요크타운과 충돌. USS 카론은 또한 소련 군함들에 의해 의도적으로 영해를 주장하는 공격을 받았습니다. 이 고의적인 충돌은 항해의 자유를 보장하는 미 해군 함정과 확대되는 영해 영유권 주장을 주장하는 소련군 간의 충돌의 일환으로 발생했습니다. — 미 해군의 사진" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
                 </StackPanel>
             </Grid>
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
@@ -54,19 +54,19 @@
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Vertical">
-                    <TextBlock Text="U.S. SHIPS REROUTED" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="미국 선박 경로 변경" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-						스페인, 로타 — In a decisive show of force, the U.S. Navy has redirected a Surface Action Group (SAG) from its Mediterranean operations to the North Sea, following heightened Soviet naval activity in the North Atlantic and Barents Sea. The task force, which departed the U.S. Naval Station in Rota early Saturday morning, is expected to reinforce NATO’s northern maritime defenses within the week.
+						스페인, 로타 — 결정적인 무력 과시로, 미 해군은 북대서양과 바렌츠해에서 소련 해군의 활동이 강화됨에 따라 지중해 작전에서 북해로 이동하는 수상 행동 그룹(SAG)을 재편성했습니다. 토요일 이른 아침 로타에 있는 미 해군 기지를 출발한 태스크 포스는 이번 주 안에 나토의 북부 해상 방어를 강화할 것으로 예상됩니다.
 						<LineBreak/>
-						This move comes as Soviet missile tests in the Barents Sea and increased submarine incursions into the North Atlantic have put NATO forces on high alert. Intelligence reports indicate that several Soviet  cruisers and destroyers have deployed north of the GIUK (Greenland-Iceland-UK) Gap, a maritime chokepoint that controls access between the Atlantic and Arctic waters. (see NAVY on pg.4)
+						이 움직임은 바렌츠해에서의 소련 미사일 시험과 북대서양으로의 잠수함 침투 증가로 인해 나토군이 높은 경계 태세에 돌입한 가운데 나온 것입니다. 정보 보고서에 따르면 여러 소련 순양함과 구축함이 대서양과 북극 해역 간의 접근을 통제하는 해상 초크 포인트인 GIUK(그린랜드-아이슬랜드-영국) 갭 북쪽에 배치되었다고 합니다. (페이지 4의 NAVY 참조)
 					</TextBlock>
                 </StackPanel>
                 <StackPanel Grid.Column="2" Orientation="Vertical">
-                    <TextBlock Text="SOVIETS CONDUCT NUCLEAR MISSILE TESTS" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="소련, 핵 미사일 실험 실시" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-						모스크바 — In a move that has further strained East-West relations, the Soviet Union has announced a series of planned missile tests in the Barents Sea, fuelling concerns within NATO about Moscow’s military intentions. The tests, scheduled to take place within the next two weeks, will involve both submarine-launched and ground-based ballistic missiles.
+						모스크바 — 동서 관계를 더욱 긴장시키는 움직임으로, 소련은 바렌츠해에서 일련의 미사일 시험 계획을 발표했으며, 이는 모스크바의 군사적 의도에 대한 나토 내의 우려를 불러일으켰습니다. 향후 2주 이내에 실시될 예정인 이 시험에는 잠수함 발사 탄도 미사일과 지상 탄도 미사일이 모두 포함될 예정입니다.
 						<LineBreak/>
-						The Kremlin has framed the missile launches as part of a “routine readiness exercise” meant to validate the Soviet Union’s defensive capabilities. However, Western analysts fear the timing of the tests (amid several naval confrontations) signals a show of force rather than standard drills. (see MISSILES on pg.7)
+						크렘린궁은 소련의 방어 능력을 검증하기 위한 '일상적인 준비 훈련'의 일환으로 미사일 발사를 계획했습니다. 그러나 서방 분석가들은 (여러 차례의 해군 대치 속에서) 시험 시기가 표준 훈련이 아닌 무력 과시의 신호라고 우려하고 있습니다. (페이지 7의 미사일 참조)
 					</TextBlock>
                 </StackPanel>
             </Grid>

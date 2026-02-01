@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Einheiten-Info - Fahrzeuge"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Sie können das Fenster 'Einheiten-Info' nutzen, um mehr über die Sensoren und Bewaffnung der eigenen Kräften zu lesen und zu verstehen."/>
+				<Run Text="Sie können das Fenster 'Einheiten-Info' nutzen, um mehr über die Sensoren und Bewaffnung der eigenen Kräften zu erfahren."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Klicken Sie mit der rechten Maustaste auf den zuvor ausgewählten Ka-27P und klicken Sie anschließend auf 'Einheiten-Info'. Dadurch wird die Referenzseite des Hubschraubers aufgerufen, auf welcher beispielsweise die Sensoren des Hubschraubers aufgeführt sind."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Klicken Sie auf das „Wet Eye (Seegestütztes Überwachungsradar)“, das auf der Referenzseite des Ka-27PL aufgeführt ist, um seine genauen Eigenschaften einzusehen."/>
+				<Run Text="Klicken Sie auf das „Wet Eye (Luftgestütztes Überwachungsradar)“, das auf der Referenzseite des Ka-27PL aufgeführt ist, um seine genauen Eigenschaften einzusehen."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

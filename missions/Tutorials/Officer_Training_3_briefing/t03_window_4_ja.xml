@@ -17,11 +17,11 @@
                     FontWeight="Bold" Text="探知精度向上のための減速" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="護衛艦「ひえい」を選択すると、艦隊がすでに原速（Ahead 2/3）、約12～15ノットで航行していることがわかる。" />
+                        <Run Text="護衛艦「ひえい」を選択すると、艦隊がすでに前進半速（2/3）、約12～15ノットで航行していることがわかる。" />
                         <LineBreak />
                         <LineBreak />
                         <Run
-                            Text="潜航目標の対潜探知において最も重要な要素の一つは、自艦の速力である。自艦が発する雑音を低減し、潜航目標の探知能力を向上させるため、艦隊に微速（Ahead 1/3）への減速を命じること。" />
+                            Text="潜航目標の対潜探知において最も重要な要素の一つは、自艦の速力である。自艦が発する雑音を低減し、潜航目標の探知能力を向上させるため、艦隊に前進微速（1/3）への減速を命じること。" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

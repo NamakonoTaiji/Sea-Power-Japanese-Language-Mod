@@ -22,7 +22,7 @@
 				<Run Text="Klicken Sie mit der rechten Maustaste auf einen unidentifizierten Kontakt und klicken Sie anschließend auf „Informationen“. Dort werden alle Merkmale des Kontaktes aufgeführt, wie etwa die Größe des Radarechos, Antriebsart/Propellerblattzahl (nur sichtbar bei akustischen Kontakten), Radarausstrahlungen usw."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Aspekte des Kontaktes, die eindeutig erfasst wurden, werden in Grün angezeigt. Beachten Sie, dass die möglichen Klassifizierungen für diesen Kontakt auf der linken Seite aufgeführt werden – geordnet nach ihrer Wahrscheinlichkeit von oben nach unten. Oben werden außerdem die eigenen Einheiten angezeigt, die diesen Kontakt erfassen, zusammen mit dem Alter des Kontakts in Minuten/Sekunden."/>
+				<Run Text="Merkmale des Kontaktes, die eindeutig erfasst wurden, werden in Grün angezeigt. Beachten Sie, dass die möglichen Klassifizierungen für diesen Kontakt auf der linken Seite aufgeführt werden, jeweils von oben nach unten und nach ihrer Wahrscheinlichkeit geordnet. Im oberen Bereich werden außerdem die eigenen Einheiten angezeigt, die diesen Kontakt erfassen. Zusätzlich wird hier das Alter des Kontakts in Minuten/Sekunden angezeigt."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

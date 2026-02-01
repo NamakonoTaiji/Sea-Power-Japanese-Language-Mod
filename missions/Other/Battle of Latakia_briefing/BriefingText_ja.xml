@@ -23,26 +23,26 @@
         FontSize="{StaticResource Font.Size.Header}">
         1973年10月7日
     </TextBlock>
-    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
         Text="イスラエル海軍司令官" />
-    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
-        Text="ミハエル・バルカイ中佐、INS ミズナーク" />
-    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+        Text="マイケル・バルカイ指揮官、INSミズナク" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
-        Text="新任務 - ラタキア襲撃" />
+        Text="新規命令――ラタキア急襲" />
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
-        TextWrapping="Wrap"> 極秘 <LineBreak />
-        <LineBreak /> 1.
-        イスラエルは全戦線で攻撃を受けている。これより戦争状態に突入、遭遇した敵艦は全て撃沈を許可する。 <LineBreak />
-        <LineBreak /> 2.
-        ハイファにて第3ミサイル艇戦隊から北部機動部隊を編成、その後、最高速度でラタキアへ北上せよ。 <LineBreak />
-        <LineBreak /> 3.
-        情報部によると、最大でコマール級ミサイル艇4隻、およびスティックスミサイルを搭載したオーサ級ミサイル艇1隻が当該海域に展開している模様。 <LineBreak />
+        TextWrapping="Wrap"> 秘密（SECRET） <LineBreak />
         <LineBreak />
-        4. 注記: 電子偵察により、付近にソ連のスパイ・トロール船の存在を確認。いかなる状況においても、このユニットへの攻撃を固く禁ずる。 <LineBreak />
+        1.イスラエルは全戦線で攻撃を受けている。本命令をもって直ちに戦時体制へと移行せよ。遭遇するあらゆる敵艦の撃沈を許可する。 <LineBreak />
         <LineBreak />
-        5. ラタキア港からシリアの軍艦を全て誘き出し、撃沈せよ。健闘を祈る。 <LineBreak />
-        <LineBreak /> 極秘 </TextBlock>
+        2.ハイファに展開する第3シャイェテット（第3ミサイル艇隊）のミサイル艇により北方任務部隊を編成し、最大戦速でラタキアへ向け北上せよ。 <LineBreak />
+        <LineBreak />
+        3.情報によれば、スティックス・ミサイルを装備したコマール型ミサイル艇が最大4隻、オーサ型ミサイル艇が1隻、当該海域に展開しているものと思われる。 <LineBreak />
+        <LineBreak />
+        4.注意：電子偵察により付近にソ連の密偵漁船（スパイ・トロール船）の存在が判明している。本船に対し、いかなる状況下においても攻撃を行ってはならない。 <LineBreak />
+        <LineBreak />
+        5.ラタキア港よりシリア軍の全艦艇を誘き出し、これを撃沈せよ。諸君の健闘を祈る。 <LineBreak />
+        <LineBreak /> 秘密（SECRET） </TextBlock>
 </Grid>

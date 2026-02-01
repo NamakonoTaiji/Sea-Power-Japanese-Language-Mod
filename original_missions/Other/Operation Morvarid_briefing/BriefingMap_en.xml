@@ -23,7 +23,8 @@
 
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="Persian Gulf" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="800" Canvas.Top="350"/>
-		<TextBlock Foreground="Black" Text="Iraq" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Canvas.Left="100" Canvas.Top="300"/>
+		<TextBlock Foreground="Black" Text="Iraq" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Canvas.Left="100" Canvas.Top="100"/>
+		<TextBlock Foreground="Black" Text="Kuwait" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Canvas.Left="100" Canvas.Top="350"/>
 		<TextBlock Foreground="Black" Text="Um-Qasr" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="275" Canvas.Top="150"/>
 		<TextBlock Foreground="Black" Text="Al-Faw" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="550" Canvas.Top="100"/>
 

@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Nutzung der DASH-Drohne"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Eine weitere Möglichkeit diesen Kontakt zu bekämpfen ist der QH-50D DASH (Drone Anti-Submarine Helicopter) an Bord der JDS Kikuzuki."/>
+				<Run Text="Der QH-50D DASH (Drone Anti-Submarine Helicopter) an Bord der JDS Kikuzuki bietet eine weitere Möglichkeit das Ziel zu bekämpfen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="DASH ist ein unbemannter, ferngesteuerter Drohnenhubschrauber, der einen einzelnen Mark-46-Torpedo auf ein getauchtes Ziel abwerfen kann. Diese Drohnen wurden Mitte der 1970er Jahre aus dem Dienst der US Navy ausgemustert, blieben jedoch bei der JMSDF bis in die frühen 1980er Jahre im Einsatz und wurden dort sehr erfolgreich verwendet, um die Reichweite der schiffsgestützten Torpedos zu verlängern."/>
+				<Run Text="Der DASH ist ein unbemannter, ferngesteuerter Drohnenhubschrauber, der einen einzelnen Mark-46-Torpedo auf ein getauchtes Ziel abwerfen kann. Diese Drohnen wurden Mitte der 1970er Jahre von der US Navy ausgemustert, blieben jedoch bei der JMSDF bis in die frühen 1980er Jahre im Einsatz und wurden dort sehr erfolgreich verwendet, um die Reichweite der schiffsgestützten Torpedos zu verlängern."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Wenn Sie möchten, können Sie den QH-50 DASH über das Flugdeck der JDS Kikuzuki starten oder den Kontakt mit Ihrem HSS-2B-Hubschrauber bekämpfen – oder beides."/>

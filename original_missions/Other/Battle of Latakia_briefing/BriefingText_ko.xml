@@ -26,9 +26,9 @@
     <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
 
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="이스라엘 해군함대 사령관"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="이스라엘 해군사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="INS 미즈나크의 사령관 미첼 바르카이"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="INS 미즈나크의 함장 미첼 바르카이"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="새로운 명령 - 라타키아 공습"/>
 	    <!--
@@ -38,10 +38,10 @@
 		기밀
 		<LineBreak/>
 		<LineBreak/>
-		1. Israel is under attack on all fronts. Effective immediately, a state of war exists and you are authorized to sink any enemy ship encountered.
+		1. 이스라엘이 전국에서 공격을 받고 있음. 이에 즉각적인 전시상황임을 알리며 조우하는 모든 적군 함선들을 격침시킬것.
 		<LineBreak/>
 		<LineBreak/>
-		2. Form Northern Task Force from 3rd Shayetet missile boats at Haifa, then proceed north at best speed to Latakia.
+		2. 하이파에 있는 제3 샤이예트 미사일 고속정부대에서 북부 기동부대를 구성한 다음, 최상의 속도로 북쪽으로 이동하여 라타키아로 이동하세요.
 		<LineBreak/>
 		<LineBreak/>
 		3. 정보국은 최대 4대의 코마르급 미사일 고속정과 1대의 오사급 미사일 고속정이 스틱스(P-15 테르밋) 미사일을 장착한 것으로 보고 있습니다.
@@ -50,7 +50,7 @@
 		4. 참고: 전자 감시를 통해 근처에 소련의 스파이 트롤선이 발견되었습니다. 이 트롤선과는 어떤 상황에서도 교전해서는 안 됩니다.
 		<LineBreak/>
 		<LineBreak/>
-		5. 라타키아 항구에서 모든 시리아 군함을 끌어내어 침몰시키시오. 행운을 빕니다.
+		5. 라타키아 항구에서 모든 시리아 군함을 끌어내어 침몰시킬것. 행운을 빔.
 		<LineBreak/>
 		<LineBreak/>
 		기밀

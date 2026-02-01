@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Sonobojen"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Sonobo­jen sind kleine, aus der Luft abwerfbare Schwimmbojen, die eine lange Leitung mit Unterwasserschallwandlern (Mikrofonen) auf eine voreingestellte Tiefe ausbringen. Diese sind über Funk mit dem Hubschrauber (oder Flugzeug) verbunden. Hinweis: Ein Hubschrauber muss sich innerhalb von 30 sm zu jeder Boje befinden, um deren Daten empfangen zu können!"/>
+				<Run Text="Sonobojen sind kleine, aus der Luft abwerfbare Schwimmbojen, die eine lange Leitung mit Unterwasserschallwandlern (Mikrofonen) auf eine voreingestellte Tiefe ausbringen. Diese sind über Funk mit dem Hubschrauber (oder Flugzeug) verbunden. Hinweis: Ein Hubschrauber muss sich innerhalb von 30nm zu jeder Boje befinden, um deren Daten empfangen zu können!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Der HSS-2B führt sowohl passive (AN/SSQ-53 DIFAR) als auch aktive (AN/SSQ-62 DICASS) Sonobo­jen mit. Wie bei schiffsgestützten Sonaranlagen dient die passive Variante ausschließlich zum Lauschen, während die aktive ein Signal aussendet, um Richtung und Entfernung zu bestimmen. Hinweis: Aktive Sonobo­jen sind dafür vorgesehen, einen zuvor passiv georteten Kontakt zu lokalisieren und festzulegen. Sie sind nicht dafür ausgelegt, ein Gebiet systematisch abzusuchen!"/>
+				<Run Text="Der HSS-2B führt sowohl passive (AN/SSQ-53 DIFAR) als auch aktive (AN/SSQ-62 DICASS) Sonobojen mit. Wie bei schiffsgestützten Sonaranlagen dient die passive Variante ausschließlich zum Lauschen, während die aktive ein Signal aussendet, um Richtung und Entfernung eines Kontaktes zu bestimmen. Hinweis: Aktive Sonobojen sind dafür vorgesehen, einen zuvor passiv georteten Kontakt zu lokalisieren und festzulegen. Sie sind nicht dafür ausgelegt, ein großes Areal abzusuchen!"/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

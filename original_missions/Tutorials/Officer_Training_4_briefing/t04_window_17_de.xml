@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Hubschrauber"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="U-Jagd-Hubschrauber übernehmen dieselbe Rolle wie jene, die auf kleineren Begleitschiffen stationiert sind. "/>
+				<Run Text="U-Jagd-Hubschrauber übernehmen dieselbe Rolle wie jene, die auf kleineren Begleitschiffen stationiert sind."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Diese Hubschrauber sind mit Tauchsonaren, Sonobojen, Torpedos und gelegentlich Wasserbomben ausgerüstet und können die U-Jagd-Flugzeuge an Bord des Trägers wirkungsvoll ergänzen."/>

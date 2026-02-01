@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		03 JUNE 1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="태평양함대사령부"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="70 기동부대 사령부(CTF 70)"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="작전 계획 - 어전트 썬더볼트"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		최신 - 기밀
+		<LineBreak/>
+		<LineBreak/>
+		1. (기밀) 상황: 유럽에서 적대 행위가 진행 중입니다. 바르샤바 조약군이 풀다 갭을 넘었고, 레이건 대통령은 유럽에서 리포저 작전을 시작했습니다. NATO를 강화하기 위한 긴 항해를 시작하기 위해 주요 동해안 항구에 상선 호송대가 편성되고 있습니다. 태평양에서 훈련을 마친 후 페트로파블롭스크로 돌아갈 것으로 추정되는 대규모 소련 기동부대가 이제 방향을 틀어 미드웨이와 하와이로 향하고 있습니다.
+		<LineBreak/>
+		<LineBreak/>
+		2. (기밀) 임무: TF 70은 진주만에서 북서쪽으로 진격한 후, 소련군을 북태평양에서 찾아내어 파괴한 후 미드웨이나 하와이를 공격할 것입니다.
+		<LineBreak/>
+		<LineBreak/>
+		3. (기밀) 실행: 니미츠와 델타 전투단과 함께하는 TF 70은 하와이 해역을 떠나 소련 기동부대를 찾기 시작할 것입니다. 소련군의 위치를 파악한 후, 알파 공격을 감행하여 마주친 모든 적군 부대를 격파하십시오. 인텔은 소련이 군대를 여러 그룹으로 나누었다고 생각합니다. 모든 소련 선박은 침몰하거나 후퇴해야 합니다.
+		<LineBreak/>
+		<LineBreak/>
+		5. (기밀) 적군 부대 편성: 소련 북부 기동부대는 공중익을 보유한 초대형 항공모함 빌누스를 중심으로 구성되어 있습니다. 항공기를 탑재한 순양함 민스크와 노보로시크가 공격용 항공기를 장착한 별도의 임무 그룹, 아마도 상륙 부대일 것입니다. 인텔은 병력이 감지되면 캄차카에서 연대급 역화 공격을 예상해야 한다고 의심하고 있습니다.
+		<LineBreak/>
+		<LineBreak/>
+		6. (기밀) 아군 부대: 일본, 오키나와, 괌이 집중 공격을 받고 있기 때문에, 이 지역들로부터의 항공 지원은 불가능할 것입니다. 미드웨이에서 출발한 P-3 오리온들이 수색을 지원하며, USS 오마하가 경로를 소독할 수 있도록 자세히 설명해 드립니다.
+		<LineBreak/>
+		<LineBreak/>
+		7. (기밀) 중요: 적절한 작전 수행을 통해 소련 태평양 함대의 대부분을 이 작전에서 제외할 수 있습니다. 행운이 함께하길 빌며 좋은 사냥되길.
+		<LineBreak/>
+		<LineBreak/>
+		기밀
+		<LineBreak/>
+		수신인의 승인 없이 기밀 해제하지 말것
+	  </TextBlock>
+</Grid>

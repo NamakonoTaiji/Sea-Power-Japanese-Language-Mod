@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Kontakte abfragen"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="„Auffordern: Identifizieren“ sendet eine Meldung an den Kontakt mit der Aufforderung, sich unverzüglich zu identifizieren. Nicht alle Kontakte werden Ihnen antworten! Ob Kontakte auf eine Abfrage reagieren oder nicht, ist dem Zufall überlassen. Ihnen werden jedoch Meldungen angezeigt, die Sie über die jeweilige Reaktion informieren."/>
+				<Run Text="„Auffordern: Identifizieren“ sendet eine Meldung an den Kontakt mit der Aufforderung, sich unverzüglich zu identifizieren. Dennoch werden Ihnen nicht alle Konakte antworten! Ob Kontakte auf eine Abfrage reagieren oder nicht, ist dem Zufall überlassen. Ihnen werden jedoch Meldungen angezeigt, die Sie über die jeweilige Reaktion informieren."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Kontakte, die „bereitwillig antworten“, werden auf Ihrer Taktischen Karte sofort identifiziert und bleiben für den Rest des Szenarios als solche markiert. Kontakte, die entweder nicht antworten können oder die Antwort verweigern, bleiben auf der Taktischen Karte unidentifiziert. Sie müssen dann andere Methoden zur Identifizierung einsetzen, wie zum Beispiel die visuelle Identifizierung."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Hinweis: Jede Einheit, die eine „Identifizieren Sie sich“-Meldung aussendet, gibt ihre Position automatisch gegenüber ALLEN Einheiten auf der Karte preis – einschließlich feindlicher Kräfte! Aus diesem Grund sollten für diesen Zweck ausschließlich Aufklärungshubschrauber eingesetzt werden, niemals Schiffe oder andere Einheiten, die verborgen bleiben sollen."/>
+				<Run Text="Hinweis: Jede Einheit, die eine „Identifizieren Sie sich“-Meldung aussendet, gibt ihre Position automatisch gegenüber ALLEN Einheiten auf der Karte preis, einschließlich allen feindlichen Kräften! Aus diesem Grund sollten für diesen Zweck ausschließlich Aufklärungshubschrauber eingesetzt werden, niemals Schiffe oder andere Einheiten, die verborgen bleiben sollen."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		03 JUIN 1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDANT TASK FORCE 70 (CTF 70)"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="OBJET"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="PLAN D'OPERATION - URGENT ECLAIR"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		FLASH - SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION : Des hostilités sont en cours en Europe. Les forces du Pacte de Varsovie ont franchi la brèche de Fulda, et le président Reagan a lancé l'opération REFORGER en Europe. Des convois marchands se forment dans les principaux ports de la côte est pour entamer le long voyage destiné à renforcer l'OTAN. Dans le Pacifique, une importante force opérationnelle soviétique, que l'on croyait en route vers Petropavlovsk après avoir terminé ses exercices, a fait demi-tour et se dirige vers Midway et Hawaï.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MISSION: La TF 70 se dirigera vers le nord-ouest depuis Pearl Harbor, puis localisera et détruira les forces soviétiques dispersées dans le Pacifique Nord avant qu'elles ne puissent attaquer Midway ou Hawaï.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) EXECUTION: La TF 70 avec le NIMITZ et le groupe de combat DELTA quitteront les eaux hawaïennes et commenceront à rechercher la force opérationnelle soviétique. Une fois la force soviétique localisée, lancez une attaque alpha et détruisez toutes les unités ennemies rencontrées. Les services de renseignement pensent que les Soviétiques ont divisé leurs forces en plusieurs groupes. Tous les navires soviétiques doivent être coulés ou contraints de battre en retraite.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) ENEMY ORDRE DE BATAILLE: Le groupe opérationnel soviétique nord est centré sur le superporte-avions VILNIUS et son escadre aérienne. Un groupe opérationnel distinct, probablement une force amphibie, est soutenu par les croiseurs porte-avions MINSK et NOVOROSSISYK et leurs escadres aériennes d'attaque. Les services de renseignement soupçonnent que des raids Backfire au niveau du régiment devraient être attendus depuis le Kamtchatka si vos forces sont détectées.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) FORCES ALLIÉES : Le Japon, Okinawa et Guam étant soumis à des attaques intenses, aucun soutien aérien ne pourra être fourni depuis ces endroits. Les P-3 Orion basés à Midway participeront aux recherches, et l'USS OMAHA vous a été affecté pour sécuriser votre route.
+		<LineBreak/>
+		<LineBreak/>
+		6. (S) REMARQUES : Si cette opération est menée correctement, nous pourrons éliminer la majeure partie de la flotte pacifique de l'URSS. Bonne chance et bonne chasse.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		NE PAS DÉCLASSIFIER SANS L'APPROBATION DU DESTINATAIRE
+	  </TextBlock>
+</Grid>

@@ -20,7 +20,7 @@
         <ColumnDefinition Width="Auto"/>
     </Grid.ColumnDefinitions>
 	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR RED BANNER PACIFIC FLEET (TOF)"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="적기 훈장을 수훈한 태평양 함대(TOF)"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="보스토크 TF"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
@@ -31,16 +31,16 @@
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
       1. (기밀) 전술적 상황:
-      <LineBreak/>Yesterday, a United States spy ship was aggressively patrolling in our territorial waters attempting to monitor our operations. We had dispatched a Surface Action Group to shadow the Americans and ensure they did not interfere; during the course of protecting our interests, when the Americans failed to leave our territorial waters, an overly aggressive Commander seized the USNS Cape Girardeau and U.S. crewmen were killed along with Soviet comrades. NATO submarines operating in the area hastily responded, sinking our warships and killing our comrades.  While there are concerns about escalation and the potential for nuclear war, USSR men and ships lay at the bottom of the ocean and their death cannot go unanswered. The Kremlin has ordered you to locate a U.S. Task force en route from Attu Island to Japan and to sink it.
+      <LineBreak/>어제 미국 정찰선이 우리 영해에서 우리의 작전을 감시하기 위해 공격적으로 순찰을 돌고 있었습니다. 우리는 미국인들을 감시하고 방해하지 않도록 하기 위해 지상 행동 그룹을 파견했습니다. 우리의 이익을 보호하는 과정에서 미국인들이 우리 영해를 떠나지 않자 지나치게 공격적인 지휘관이 미국 해군의 지라도 곶을 점령했고, 소련 동료들과 함께 미군 승무원들이 사망했습니다. 이 지역에서 작전 중인 나토 잠수함들은 서둘러 대응하여 우리 군함을 격침시키고 전우들을 사살했습니다. 격화와 핵전쟁 가능성에 대한 우려가 있지만, 소련의 남성과 선박은 해저에 누워 있으며 그들의 죽음은 답을 찾을 수 없습니다. 크렘린궁은 당신에게 애투 섬에서 일본으로 가는 도중에 미국 태스크 포스를 찾아 침몰시키라고 명령했습니다.
       <LineBreak/><LineBreak/>
       2. (기밀) 목표:
-<LineBreak/>2.1 Locate the U.S. Task Force traveling from Attu to Japan.
-<LineBreak/>2.2 Target and neutralize the U.S. surface forces.
+<LineBreak/>2.1 애투 섬에서 일본으로 향하는 미국 기동부대의 위치를 파악할 것.
+<LineBreak/>2.2 미국 수상함대를 목표로 하여 무력화할 것.
 <LineBreak/><LineBreak/>
       3. (기밀) 실행:
-<LineBreak/>3.1 EMCON policy at your discretion.  
-<LineBreak/>3.2 Air assets are en route to support your mission.
-<LineBreak/>3.3 Protect own forces to the fullest extent possible.
+<LineBreak/>3.1 전파방사통제는 지휘관의 재량에 따를 것.
+<LineBreak/>3.2 임무 지원을 위해 항공 자산이 배정됨.
+<LineBreak/>3.3 가능한 최대로 아군 전력을 보호할 것.
       <LineBreak/><LineBreak/>
       4. (기밀) 적 전투서열:
 <LineBreak/>4.1 미국 태스크 포스
@@ -56,14 +56,14 @@
 <LineBreak/>5.1.3 슬라바 RKR-103
 <LineBreak/>5.1.4 아드미랄 이사첸코프 BPK-686
 <LineBreak/>5.2 공군
-<LineBreak/>5.2.1 Tu-95RT Reconaissance Plane
+<LineBreak/>5.2.1 Tu-95RT 정찰기
 <LineBreak/>5.2.2 2 x Tu-22M2 폭격기
-<LineBreak/>5.3 10th Submarine Division
+<LineBreak/>5.3 제10 잠수함사단
 <LineBreak/>5.3.1 K-175 (Pr.675)
 <LineBreak/><LineBreak/>
-      6. (S) INTEL ASSESSMENT:
-<LineBreak/>6.1 Anticipate U.S. Task Force is operating on a southwesterly course towards Japan.
-<LineBreak/>6.2 Anticipate catching the U.S. force unawares.
-<LineBreak/>6.3 Do not expect enemy air coverage.
+      6. (기밀) 정보 종합:
+<LineBreak/>6.1 미국 기동부대는 일본을 향해 남서쪽으로 항로를 잡은 것으로 추정됨.
+<LineBreak/>6.2 미국 함대와 불시에 접촉할 것으로 추정됨.
+<LineBreak/>6.3 적 항공 엄호는 없을 것으로 예상됨.
     </TextBlock>
 </Grid>

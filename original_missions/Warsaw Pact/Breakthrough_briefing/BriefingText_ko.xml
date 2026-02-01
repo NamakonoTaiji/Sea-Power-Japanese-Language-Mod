@@ -28,9 +28,9 @@
 		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
 	</TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="소련해군 총사령관"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="소련해군 총사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="태스크포스 오룔 사령관"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="오룔 기동부대 사령부"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="작전 명령"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
@@ -44,23 +44,23 @@
       2.  (기밀) 중요 목표:
       <LineBreak/>
       <LineBreak/>
-      아군 잠수함과 지정된 지역에서 재집결할것
+      아군 잠수함과 지정된 지역에서 재집결할것.
       <LineBreak/>
-      - 빌누스는 반드시 생존시킬것
+      - 빌누스는 반드시 생존시킬것.
       <LineBreak/>
       <LineBreak/>
       3. (기밀) 부차적 목표:
       <LineBreak/>
       <LineBreak/>
-      가능하면 지브롤터 기지를 무력화할것
+      가능하면 지브롤터 기지를 무력화할것.
       <LineBreak/>
       <LineBreak/>
-      4.  (기밀) 가능하다면 적군의 항공정찰대로부터 발각되지 않도록 할것
+      4.  (기밀) 가능하다면 적군의 항공정찰대로부터 발각되지 않도록 할것.
       <LineBreak/>
       <LineBreak/>
       5.  (기밀) 교전제한
       <LineBreak/>
       <LineBreak/>
-      6.  (기밀) 전파통제 - 추가 지시 전까진 무선침묵 유지
+      6.  (기밀) 전파통제 - 추가 지시 전까진 무선침묵 유지.
     </TextBlock>
 </Grid>

@@ -15,20 +15,23 @@
                     BorderBrush="{StaticResource Brush.Border.FocusAccent}" />
             </Grid>
         </Border>
-        <Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3"
-            BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
-            <TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="ニュージャージーSAG:" TextDecorations="Underline" />
+        <Border Canvas.Right="10" Canvas.Bottom="10"
+            BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}"
+            Background="#90a3b6" Width="250">
+            <TextBlock Foreground="Blue"
+                TextAlignment="Left" VerticalAlignment="Center" Margin="5">
+                <Run
+                    Text="ニュージャージー水上打撃群(SAG):" TextDecorations="Underline" />
                 <LineBreak />
                 <LineBreak />
-                <Run Text="USS ニュージャージー (BB-62)" />
+                <Run Text="戦艦ニュージャージー (BB-62)" />
                 <LineBreak />
                 <Run
-                    Text="USS ヨークタウン (CG-48)" />
+                    Text="ミサイル巡洋艦ヨークタウン (CG-48)" />
             </TextBlock>
         </Border>
-        <TextBlock Foreground="Black" Text="アイスランド" HorizontalAlignment="Center" FontSize="16"
-            FontWeight="Bold" Canvas.Left="875" Canvas.Top="375" />
+        <TextBlock Foreground="Black" Text="アイスランド" HorizontalAlignment="Center"
+            FontSize="16" FontWeight="Bold" Canvas.Left="875" Canvas.Top="375" />
         <TextBlock
             Foreground="Black" Text="グリーンランド" HorizontalAlignment="Center" FontSize="16"
             FontWeight="Bold" Canvas.Left="200" Canvas.Top="50" />
@@ -39,7 +42,7 @@
             Orientation="Vertical" Canvas.Left="250" Canvas.Top="500">
             <TextBlock
                 Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="ニュージャージーSAG" />
+                <Run Text="ニュージャージー水上打撃群" />
             </TextBlock>
             <Canvas
                 Width="22.5" Height="22.5" HorizontalAlignment="Center">
@@ -67,12 +70,12 @@
             </Canvas>
         </StackPanel>
         <StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="150">
-            <TextBlock>
-                <Run
-                    Text="キーロフSAG (?)" />
+            <TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center"
+                Margin="0,0,0,0">
+                <Run Text="キーロフ水上打撃群 (推定)" />
             </TextBlock>
-            <Canvas Width="22.5" Height="22.5"
-                HorizontalAlignment="Center">
+            <Canvas
+                Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path
                     StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.HostileColour}"

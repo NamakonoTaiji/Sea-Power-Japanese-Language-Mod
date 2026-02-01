@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Spionagetrawler"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Besprechen wir nun weitere Methoden zur Durchsuchung eines großen Seegebiets. Da Sie auf sowjetischer Seite spielen, stehen Ihnen Spionagetrawler der Okean-Klasse zur Verfügung."/>
+				<Run Text="Lassen Sie uns nun weitere Methoden zur Durchsuchung eines großen Seegebiets besprechen. Da Sie auf sowjetischer Seite spielen, stehen Ihnen Spionagetrawler der Okean-Klasse zur Verfügung."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Die Trawler der Okean-Klasse sind hochseetaugliche, in der DDR gebaute Fischereifahrzeuge, die von den Sowjets weltweit für nachrichtendienstliche Missionen eingesetzt werden. Diese Trawler verfügen über eine außergewöhnliche Ausdauer und waren während des Kalten Krieges ein häufiger Anblick beim Beschatten von NATO-Gefechtsverbänden."/>

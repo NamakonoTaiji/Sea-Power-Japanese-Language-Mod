@@ -3,60 +3,51 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
-        <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-        <ColumnDefinition
-            Width="Auto" />
+        <ColumnDefinition Width="Auto" />
         <ColumnDefinition Width="10" />
-        <ColumnDefinition
-            Width="*" />
+        <ColumnDefinition Width="*" />
         <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
         1968年12月20日
     </TextBlock>
-    <TextBlock Grid.Row="3" Grid.Column="0"
-        FontSize="{StaticResource Font.Size.Header}" Text="差出人" />
-    <TextBlock Grid.Row="3"
-        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="大西洋艦隊総司令官" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
-        Text="USS ジョセフ・P・ケネディ・ジュニア (DD-850)" />
-    <TextBlock Grid.Row="7" Grid.Column="0"
-        FontSize="{StaticResource Font.Size.Header}" Text="件名" />
-    <TextBlock Grid.Row="7"
-        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触報告" />
-    <TextBlock
-        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
-        TextWrapping="Wrap"> 緊急 - 最高機密 <LineBreak />     <LineBreak /> 1. (S)
-        ノルウェー海軍施設（NAVFAC）は昨日0030Z（ズールー時）、ソ連のヤンキー級弾道ミサイル潜水艦と疑われる艦の通過を報告。 <LineBreak />  
-      <LineBreak />
-        2. (TS)
-        国家技術情報源によれば、ソ連北方艦隊が出港準備中であり、無線通信量は通常の3倍に達している。ソ連軍の北大西洋への急派が差し迫っている可能性がある。国家指揮権限者は、現時点においてその意図を調査中。
-        <LineBreak />     <LineBreak />
-        3. (TS) コンパートメント化された情報源「RED
-        DREAM」からの警告によれば、探知されたヤンキー級SSBNは、米国東海岸を攻撃する意図を持った、指揮系統を離脱した（ローグ）艦長の指揮下にある。 <LineBreak />
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="大西洋艦隊総司令官（CINCLANTFLT）" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="駆逐艦ジョセフ・P・ケネディ・ジュニア（DD-850）艦長" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触報告" />
+
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 至急 ― 最高機密（TOP SECRET） <LineBreak />
+        <LineBreak /> 1. (S)
+        ノルウェー海軍施設（NAVFAC）は、昨日0030Zにソ連のヤンキー級弾道ミサイル潜水艦と思われる航過を探知した。 <LineBreak />
+        <LineBreak /> 2. (TS)
+        国家技術情報源によれば、ソ連北方艦隊が出撃準備を進めており、無線通信量は通常の3倍に達している。北大西洋への大規模進出が切迫している可能性が高い。国家指揮権限（NCA）は現在、彼らの意図を照会中である。
         <LineBreak />
-        4. (S) 当該海域における唯一の米海軍部隊として、北東のポイント・チャーリーへ進出せよ。その後、ヤンキー級SSBNを捜索し、これを撃沈せよ。 <LineBreak />     <LineBreak />
+        <LineBreak />
+        3. (TS) 特別区分情報源「レッド・ドリーム」より、当該ヤンキー級SSBNは米東海岸への攻撃を企図する反乱指揮官の手にあるとの警告が入っている。 <LineBreak />
+        <LineBreak />
+        4. (S) 当該海域に展開中の唯一の米海軍ユニットとして、北東の地点「チャーリー」へ進出せよ。当該ヤンキー級を捕捉し、これを撃破せよ。 <LineBreak />
+        <LineBreak />
         5. (S)
-        航空支援は、レイキャビク海軍航空基地（NAS）の第56哨戒飛行隊（VP-56）から提供される。先発機は1035Zまでに現場上空に到着予定。撃沈位置を報告し、追っての指示を待て。健闘を祈る。
-        <LineBreak />     <LineBreak />
-        最高機密 <LineBreak /> 発信者の許可なく機密指定を解除してはならない </TextBlock>
+        レイキャビク海軍航空基地より第56哨戒飛行隊（VP-56）の航空支援を提供する。初号機は遅くとも1035Zまでに目標上空へ到達する予定である。撃沈地点を報告し、次命を待て。諸君の幸運を祈る。
+        <LineBreak />
+        <LineBreak />
+        最高機密（TOP SECRET） <LineBreak /> 作成元の許可なく機密解除することを禁ず </TextBlock>
 </Grid>

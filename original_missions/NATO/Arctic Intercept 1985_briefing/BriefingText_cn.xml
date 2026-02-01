@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		1985年1月29日
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="大西洋舰队总司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="根室氏管鼻鲷号潜艇"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="片段命令01——紧急重分配"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		紧急——绝密
+		<LineBreak/>
+		<LineBreak/>
+		1.（绝密）国家技术情报来源显示以基辅号为核心的苏联航母战斗群正向西南方向的丹麦海峡移动。
+		<LineBreak/>
+		<LineBreak/>
+		2.（绝密）1月28日的最后一次卫星飞越显示此战斗群航向230，速度20节，位于扬马延岛以北约150海里处。
+		<LineBreak/>
+		<LineBreak/>
+		3.（机密）以最快速度向北离开你的巡逻区域，拦截并摧毁基辅号战斗群。
+		<LineBreak/>
+		<LineBreak/>
+		4.（机密）敌方舰队包括：1艘1143型巡洋舰（基辅号）、1艘1134型导弹巡洋舰、2艘1135型护卫舰和1艘1155型驱逐舰。
+		<LineBreak/>
+		<LineBreak/>
+		5.（机密）主要目标为击沉基辅号。报告沉没地点，然后等待进一步命令。祝你好运，猎杀愉快。
+		<LineBreak/>
+		<LineBreak/>
+		机密
+		<LineBreak/>
+		未经收件人许可不得解密
+	  </TextBlock>
+</Grid>

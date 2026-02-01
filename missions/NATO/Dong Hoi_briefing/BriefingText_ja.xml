@@ -28,45 +28,39 @@
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
-        <Run
-            Text="{Binding MissionStartTime.Year}" />-<Run
-            Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
-            Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
+        <Run Text="1972年4月19日" />
     </TextBlock>
-    <TextBlock
-        Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
-        FontSize="{StaticResource Font.Size.Header}">
-        <Run
-            Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
-            Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
-            Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
-            Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="差出人:" />
+        Text="発：" />
     <TextBlock Grid.Row="3" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="米第7艦隊司令官" />
-    <TextBlock Grid.Row="4"
-        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
+        FontSize="{StaticResource Font.Size.Header}" Text="第7艦隊司令官（COMSEVENTHFLT）" />
     <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="オクラホマSAG司令官" />
-    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="情報:" />
-    <TextBlock Grid.Row="5" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="米太平洋艦隊司令官" />
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="第77.1.1任務分遣隊指揮官（CTU 77.1.1）" />
+    <TextBlock Grid.Row="5" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="報：" />
+    <TextBlock Grid.Row="5"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋艦隊総司令官（CINCPACFLT）" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="作戦命令" />
     <TextBlock Grid.Row="7"
-        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
-    <TextBlock
-        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦命令" />
-    <TextBlock
-        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
-        Text="#0-144.142.143" />
-    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
-        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
-       <LineBreak />
-        情報報告によると、北ベトナム軍は沿岸の高速道路を経由して、クアンチ省の戦線へ大量の部隊と物資を輸送中である。    <LineBreak /> 
+        Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 即時受領 ― 秘密 (IMMEDIATE - SECRET) <LineBreak />       <LineBreak /> 1. (S)
+        状況：北ベトナム軍がクアンチ省の戦線へ向けて、沿岸道路沿いに大量の兵員および補給物資を輸送中であるとの情報報告あり。 <LineBreak />    
       <LineBreak /> 2. (S)
-        主要目標: <LineBreak />    <LineBreak /> 沿岸部を航行し、発見した埠頭や燃料貯蔵所などの主要施設を破壊せよ。
-        ミサイル巡洋艦ステレットが北東に展開し、航空支援を提供する。 <LineBreak />    <LineBreak /> 3. (S) 脅威報告: <LineBreak />    <LineBreak />
-        情報部によると、目標は複数の沿岸砲台によって防衛されていると推測される。 <LineBreak />    <LineBreak /> 4. (S) 警告イエロー -
-        敵から攻撃を受けるまで発砲を禁ず <LineBreak />    <LineBreak /> 5. (S) EMCON - 別途指示があるまで無線封鎖を維持せよ </TextBlock>
+        任務：第77任務部隊（TF 77）は、ドンホイ周辺の地上施設を破壊するため艦砲射撃を実施せよ。 <LineBreak />
+          <LineBreak /> 3. (S)
+        実施：第77.1.1任務分遣隊（TU
+        77.1.1／ミサイル巡洋艦オクラホマシティを含む）は北ベトナム軍の沿岸砲台および施設と交戦し、遭遇したすべての目標を制圧せよ。ステレット（STERETT）は第77.1.1任務分遣隊の北東に位置し、同部隊の防空統制を担当せよ。電波発射管制（EMCON）の制限なし。当該海域のすべての目標は敵対的とみなし、第77.1.1任務分遣隊は即座に脅威となるすべての目標に対し、制限なく砲火を浴びせることを許可する。
+        <LineBreak />       <LineBreak />
+        4. (S)
+        敵軍戦闘序列：ドンホイ周辺は地対空ミサイル（SAM）陣地および沿岸砲台によって防護されている。北ベトナム海軍の沿岸戦闘艇が我が部隊を攻撃すべく出撃する可能性があるが、当該海域は好漁場であり、民間人の犠牲は絶対に避けなければならない。
+        <LineBreak />       <LineBreak />
+        5. (S) 備考：迅速に突入し、敵軍が南方へ補給を完了させる前にこれら戦力を撃破せよ。諸君の幸運と健闘を祈る。第77任務部隊指揮官より。 <LineBreak />       <LineBreak />
+        秘密 (SECRET) </TextBlock>
 </Grid>

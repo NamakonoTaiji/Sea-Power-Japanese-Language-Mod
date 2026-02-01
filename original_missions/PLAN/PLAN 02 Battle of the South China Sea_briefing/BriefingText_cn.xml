@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="1979年3月4日"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="南海舰队司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="南海攻击支队支队长"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="行动计划——传说卫士"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		机密
+		<LineBreak/>
+		<LineBreak/>
+		1.我军正与越军进行海陆空战斗。越军持续骚扰北部湾的海军单位，我方情报显示他们正计划攻击我方位于西沙群岛的前哨。苏联已经派兵支援越南，而且我方情报机构已获悉他们承诺支援越军在南海的行动，这令局势雪上加霜。
+		<LineBreak/>
+		<LineBreak/>
+		2.海军总部已命令南海舰队为永乐环礁甘泉岛的偏远基地提供补给。此外，南海舰队还需要击退越南或苏联对我方基地的进攻。
+		<LineBreak/>
+		<LineBreak/>
+		3.由于此次行动准备仓促，我方船只的布局较为分散，未必处于理想位置。你必须协调岛屿防御，同时保证护航队的安全。
+		<LineBreak/>
+		<LineBreak/>
+		4.我们相信敌方已分为几组。目击报告称越南海军正从海防向东移动。情报显示苏军已于昨天离开金兰湾，这支部队包含谢尼亚文海军上将号轻巡洋舰和至少一艘57A或61型防空驱逐舰，如果它靠近西沙群岛，我们必须将其摧毁才能取胜。
+		<LineBreak/>
+		<LineBreak/>
+		5.由于天气恶劣，我们无法进行可靠的侦察 ，但天气预报显示情况正在好转。一旦天气转晴，战斗空中巡逻和轰炸机小队将有机会从三亚航空基地起飞。
+		<LineBreak/>
+		<LineBreak/>
+		6.此次行动将确保我方海军的侧翼不受越南袭扰，我们无法接受失败。祝你好运。
+		<LineBreak/>
+		<LineBreak/>
+		机密
+	</TextBlock>
+</Grid>

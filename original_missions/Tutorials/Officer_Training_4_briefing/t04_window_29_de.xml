@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Offiziersausbildung 4 - Abschluss"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Da wir nun den Betrieb von Flugzeugträgern, die verschiedenen Flugzeugtypen und deren Einsatzkonfigurationen behandelt haben, können Sie diese Mission nutzen, um den weiteren Trägerbetrieb zu üben."/>
+				<Run Text="Da wir nun den Betrieb von Flugzeugträgern sowie die verschiedenen Flugzeugtypen und deren Einsatzkonfigurationen behandelt haben, können Sie diese Mission nutzen, um den weiteren Trägerbetrieb zu üben."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Südlich Ihrer Trägergruppe liegt Island. Dort befinden sich mehrere feindliche Ziele an Land, die von Ihren Kräften bekämpft werden können. Nutzen Sie das erworbene Wissen, um weitere Angriffe durchzuführen und zerstören Sie die Küstenziele."/>
+				<Run Text="Südlich Ihrer Trägergruppe liegt Island. Dort befinden sich mehrere feindliche Landziele, die von Ihren Kräften bekämpft werden können. Nutzen Sie das erworbene Wissen, um weitere Angriffe durchzuführen und zerstören Sie diese Küstenziele."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

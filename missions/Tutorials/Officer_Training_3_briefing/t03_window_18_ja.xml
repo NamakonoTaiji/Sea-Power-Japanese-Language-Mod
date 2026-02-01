@@ -18,7 +18,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
                         <Run
-                            Text="HSS-2Bはソノブイ、魚雷、吊下式ソナー、磁気異常探知機（MAD）を搭載する。これらの機能は他のすべての対潜哨戒機とほぼ共通するため、各能力について説明する。" />
+                            Text="HSS-2Bはソノブイ、魚雷、吊下式ソナー、磁気探知機（MAD）を搭載する。これらの機能は他のすべての対潜哨戒機とほぼ共通するため、各能力について説明する。" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

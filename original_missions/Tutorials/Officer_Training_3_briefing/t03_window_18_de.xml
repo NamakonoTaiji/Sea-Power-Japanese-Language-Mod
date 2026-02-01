@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Hubschrauber zur U-Jagd"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Der HSS-2B ist mit Sonobo­jen, Torpedos, einem Tauchsonar und einem Magnetanomalie-Detektor (MAD) ausgerüstet. Lassen Sie uns diese Fähigkeiten im Einzelnen durchgehen, da ihre Funktion im Allgemeinen auch mit allen anderen U-Jagd-Flugzeugen vergleichbar ist."/>
+				<Run Text="Der HSS-2B ist mit Sonobojen, Torpedos, einem Tauchsonar und einem Magnetanomalie-Detektor (MAD) ausgerüstet. Lassen Sie uns diese Systeme im Einzelnen durchgehen, da ihre Funktion im Allgemeinen auch mit allen anderen U-Jagd-Flugzeugen vergleichbar ist."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

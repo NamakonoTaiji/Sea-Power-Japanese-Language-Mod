@@ -17,7 +17,7 @@
 <Run FontWeight="Bold" Text="Camera Controls" FontSize="16"/>
 <LineBreak/>
 <LineBreak/>
-Let's first start with the Camera Controls. Holding down left click anywhere in the game view that is not covered with a window will allow you to pan the view around the ship. Use the scrollwheel to zoom in and out. You can hide and recall the entire UI by hitting <Run Text="{Binding InputBindingDict[HideHUD], Source={StaticResource InputHandlerInterface}}"/>.
+Let's first start with the Camera Controls. Holding down left click anywhere in the game view that is not covered with a window will allow you to pan the view around the ship. Use the scrollwheel to zoom in and out. You can hide and recall the entire UI by hitting Backspace (or Delete on some keyboards).
 <LineBreak/>
 <LineBreak/>
 Try panning the view around now, and feel free to go underwater too!

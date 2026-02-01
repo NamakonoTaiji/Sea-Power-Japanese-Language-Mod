@@ -19,10 +19,10 @@
 				<Run Text="Nun, da Sie Ihr AEW-Flugzeug in der Luft haben, starten Sie einen Flug zur Combat Air Patrol (CAP)."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Der Einsatz einer CAP ermöglicht eine schnelle Reaktion auf jegliche durch Ihre AEW-Flugzeuge entdeckte Bedrohungen aus der Luft und sollte durch eine neue CAP ersetzt werden, sobald Ihre Jäger Treibstoffmangel melden. Beachten Sie, dass Sie als Spieler für die Aufrechterhaltung Ihrer Lufteinsätze verantwortlich sind!"/>
+				<Run Text="Der Einsatz einer CAP ermöglicht eine schnelle Reaktion auf jegliche durch Ihre AEW-Flugzeuge entdeckte Bedrohungen aus der Luft und sollte durch eine neue CAP ersetzt werden, sobald Ihre Jäger Treibstoffmangel melden. Beachten Sie, dass Sie als Spieler für die Aufrechterhaltung Ihrer Einsatzflüge verantwortlich sind!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Verwenden Sie das Flugdeck Ihres Trägers, um eine CAP von 2 × MiG-23A Flogger mit Luft-Luft-Bewaffnung zu starten. Geben Sie diesen Flugzeugen den Befehl, in etwa 30–40 Seemeilen vor Ihrer Formation auf einer Reisehöhe von 37.000 Fuß zu patrouillieren."/>
+				<Run Text="Verwenden Sie das Flugdeck Ihres Trägers, um eine CAP von 2 × MiG-23A Flogger mit Luft-Luft-Bewaffnung zu starten. Erteilen Sie diesen Flugzeugen den Befehl, in etwa 30–40 Seemeilen vor Ihrem Verband auf einer Reisehöhe von 37.000 Fuß zu patrouillieren."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

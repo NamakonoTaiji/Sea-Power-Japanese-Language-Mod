@@ -32,22 +32,22 @@
         <Image Grid.Row="0" Source="{Binding Assets[NavyDSM]}" Width="153" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-30,0,0"/>
         <Image Grid.Row="2" Source="{Binding Assets[Seal_of_the_United_States_Department_of_Defense]}" Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 		<StackPanel Grid.Row="1" Orientation="Vertical">
-          <TextBlock Text="DEPARTMENT OF THE NAVY" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
-          <TextBlock Text="TO ALL WHO SHALL SEE THESE PRESENTS, GREETINGS, THIS IS TO VERTIFY THAT THE SECRETARY OF THE NAVY HAS ON THIS DAY AWAREDED THE" TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-          <TextBlock Text="DISTINGUISHED SERVICE MEDAL" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
-		  <TextBlock Text="TO" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-          <TextBlock Text="COMMANDER LEE GARDNER JR." TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
-          <TextBlock Text="FOR DISTINGUISHED AND EXCEPTIONAL SERVICE TO THE UNITED STATES WHILE SERVING AS COMMANDER FIGHTER SQUADRON EIGHTY FOUR (VF-84) AT ATTU ISLAND ON 2 JUNE 1988. BY HIS EXCEPTIONAL ABILITY AND PERSONAL INITIATIVE, COMMANDER GARDNER REFLECTED GREAT CREDIT UPON HIMSELF AND UPHELD THE HIGHEST TRADITIONS OF THE UNITED STATES NAVAL SERVICE." TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
+          <TextBlock Text="해군부" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+          <TextBlock Text="이 선물들을 보시게 될 모든 인물들에게, 이는 해군장관이 해당 훈장을 수훈했다는것을 확인하기 위함임" TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+          <TextBlock Text="해군수훈십자장" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
+		  <TextBlock Text="수신" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+          <TextBlock Text="리 가드너 Jr. 사령관" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
+          <TextBlock Text="1988년 6월 2일 이루어진 애투섬 전투에서 보여준 귀관과 귀관의 소속 부대인 제84전투비행단(VF-84)의 용맹한 활약과 우수한 행동성으로 미국의 국익에 상당한 이득을 가져다 주었으며 리 가드너 Jr. 중령은 이러한 행동들로 미 해군의 전통과 영광을 지켜냈기에 수여함." TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
 		</StackPanel>
 		<TextBlock Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" VerticalAlignment="Center" FontSize="12">
-GIVEN UNDER MY HAND IN THE CITY OF WASHINGTON, DC
+워싱턴 D.C.에서 직접 수여함
 <LineBreak/>
-THIS <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988년</Run> 6월 18일  <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">오늘</Run>
+날짜 <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988년</Run> 6월 18일  <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">오늘</Run>
 		</TextBlock>
 		<StackPanel Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">
-		  <TextBlock Text="David J Osborne" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>
+		  <TextBlock Text="데이비드 J 오스본" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>
 		  <Rectangle Height="1" Fill="#FF000000" Margin="15,0,15,0"/>
-          <TextBlock FontFamily="Imprint MT Shadow" Text="David J Osborne, NVSFCTA" TextAlignment="Center"/>
+          <TextBlock FontFamily="Imprint MT Shadow" Text="데이비드 J 오스본, NVSFCTA" TextAlignment="Center"/>
 		</StackPanel>
       </Grid>
     </Border>
@@ -76,16 +76,16 @@ THIS <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988년</Run>
         <Image Grid.Row="2" Source="{Binding Assets[Seal_of_the_United_States_Department_of_Defense]}" Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 		<StackPanel Grid.Row="1" Orientation="Vertical">
           <TextBlock Text="미합중국" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="0,10,0,0"/>
-          <TextBlock TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0" Text="THE PRESIDENT OF THE UNITED STATES OF AMERICA HAS AWARDED THE"/>
-          <TextBlock Text="NAVY CROSS" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
-		  <TextBlock Text="TO" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-          <TextBlock Text="COMMANDER EDWARD G. MEYER III" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
-          <TextBlock Text="FOR DISTINGUISHED AND EXCEPTIONAL SERVICE TO THE UNITED STATES WHILE SERVING AS COMMANDER TASK FORCE 75.3 OFF ATTU ISLAND ON 2 JUNE 1988. BY HIS EXCEPTIONAL ABILITY, PERSONAL INITIATIVE, AND TOTAL DEDICATION TO DUTY, CDR MEYER REFLECTED GREAT CREDIT UPON HIMSELF AND UPHELD THE HIGHEST TRADITIONS OF THE UNITED STATES NAVAL SERVICE." TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
+          <TextBlock TextWrapping="Wrap"  FontFamily="Imprint MT Shadow" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0" Text="미국 대통령은 다음과 같은 상을 수여했습니다"/>
+          <TextBlock Text="해군 십자장" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
+		  <TextBlock Text="수신" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+          <TextBlock Text="에드워드 G. 마이어 3세 사령관" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
+          <TextBlock Text="1988년 6월 2일 애투섬 앞바다에서 75.3 사령관 태스크포스로 복무하는 동안 미국에 대한 탁월한 공로를 인정받아. 그의 뛰어난 능력, 개인적인 주도권, 그리고 전적인 임무에 대한 헌신 덕분에, CDR 마이어는 자신에게 큰 공로를 인정받았고 미국 해군의 최고 전통을 유지했습니다." TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
 		</StackPanel>
 		<TextBlock Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" VerticalAlignment="Center" FontSize="12">
-GIVEN UNDER MY HAND IN THE CITY OF WASHINGTON, DC
+워싱턴 D.C.에서 직접 수여함
 <LineBreak/>
-THIS <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988년</Run> 6월 12일  <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">오늘</Run>
+날짜 <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">1988년</Run> 6월 12일  <Run FontFamily="Courier New" FontWeight="Bold" FontSize="18">오늘</Run>
 		</TextBlock>
 		<StackPanel Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">
 		  <TextBlock Text="도날드 G 왓슨" FontFamily="Brush Script MT" FontSize="60" Margin="0,0,0,-15"/>

@@ -1,50 +1,59 @@
-<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center">
-    <Canvas
-        Width="1095" Height="662">
+<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:SeapowerUI">
+    <Canvas Width="1095" Height="662">
         <Image Source="{Binding Assets[DongHoiClose]}" />
         <Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="5" BorderBrush="White">
             <Grid>
-                <Image Stretch="Uniform" Source="{Binding Assets[DongHoiFar]}"
-                    Width="250" />
-                <Border BorderThickness="2"
-                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20"
-                    Margin="122,0,0,96" BorderBrush="{StaticResource Brush.Border.FocusAccent}" />
+                <Image Stretch="Uniform" Source="{Binding Assets[DongHoiFar]}" Width="250" />
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                    Width="30" Height="20" Margin="122,0,0,96"
+                    BorderBrush="{StaticResource Brush.Border.FocusAccent}" />
             </Grid>
         </Border>
-        <Grid Canvas.Left="810" Canvas.Top="360"
-            Width="120" Height="120">
+        <Grid Canvas.Left="810" Canvas.Top="360" Width="120" Height="120">
             <Ellipse Opacity="0.15" Fill="Blue" />
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
-                Text="ヤンキー・ステーション" Foreground="White" />
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ヤンキー・ステーション"
+                Foreground="White" />
         </Grid>
-        <Ellipse
-            Canvas.Left="295" Canvas.Top="280" Width="80" Height="80" Opacity="0.25" Fill="Red" />
-        <TextBlock Canvas.Left="267" Canvas.Top="267" Text="作戦区域" Foreground="White" />
+        <Ellipse Canvas.Left="295" Canvas.Top="280" Width="80" Height="80" Opacity="0.25" Fill="Red" />
+        <TextBlock Canvas.Left="267" Canvas.Top="267" Text="作戦海域" Foreground="White" />
         <Grid Canvas.Left="380" Canvas.Top="345">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <Canvas Grid.Column="0" Width="22.5"
-                Height="22.5" HorizontalAlignment="Center">
-                <Path
-                    StrokeThickness="{DynamicResource ContactIconThickness}"
+            <Canvas Grid.Column="0" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.FriendColour}"
                     Data="{StaticResource NTDS.Allied.Surface}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.FriendColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
             </Canvas>
-            <TextBlock
-                Grid.Column="1" Foreground="Blue" TextAlignment="Left" Margin="0,0,-5,0">
-                <Run Text="SAG オクラホマシティ" />
+            <TextBlock Grid.Column="1" Foreground="Blue" TextAlignment="Left"
+                VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="第77.1.1任務分遣隊(TU 77.1.1)" />
             </TextBlock>
         </Grid>
-        <Grid
-            Canvas.Left="245" Canvas.Top="302">
+
+        <StackPanel Orientation="Vertical" Canvas.Left="420" Canvas.Top="300">
+            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center"
+                Margin="0,0,0,0">
+                <Run Text="ミサイル巡洋艦ステレット(DLG-31)" />
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
+                    Stroke="{StaticResource NTDS.FriendColour}"
+                    Data="{StaticResource NTDS.Allied.Surface}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
+            </Canvas>
+        </StackPanel>
+
+        <Grid Canvas.Left="245" Canvas.Top="302">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition
-                    Width="Auto" />
+                <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <Canvas Grid.Column="1" Width="22.5" Height="22.5" HorizontalAlignment="Center">
@@ -53,7 +62,7 @@
                     Data="{StaticResource NTDS.Enemy.Installation}" />
             </Canvas>
             <TextBlock Grid.Column="0" Foreground="Red" TextAlignment="Right" Margin="0,0,5,0">
-                <Run Text="敵" />
+                <Run Text="敵地上" />
                 <LineBreak />
                 <Run Text="施設" />
             </TextBlock>
@@ -65,5 +74,6 @@
                 <RotateTransform Angle="-55" />
             </Path.RenderTransform>
         </Path>
+
     </Canvas>
 </Viewbox>

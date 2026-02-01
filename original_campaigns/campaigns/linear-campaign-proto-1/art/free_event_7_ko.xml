@@ -41,7 +41,7 @@
 		  </TextBlock>
           <Image Grid.Row="2" Source="{Binding Assets[07_delta_3_surface_launch_2]}"/>
           <Grid Grid.Row="3" Margin="0,10,0,20">
-            <TextBlock Text="Successful test launch of mighty Weapons" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+            <TextBlock Text="강력한 무기의 성공적인 시험 발사" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
 			<TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
           </Grid>
           <Grid Grid.Row="4" Background="#FFFAEBD7">
@@ -55,22 +55,22 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
 			  </Grid.RowDefinitions>
-			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="Mighty Soviet Engineering" Margin="0,0,0,45" />
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="강력한 소련 공학" Margin="0,0,0,45" />
 			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">
-				The Soviet Union continues to strengthen its position as the vanguard of scientific and technological progress with the successful development and deployment of a new
+				소련은 새로운 기술의 성공적인 개발 및 배치를 통해 과학 및 기술 발전의 선봉장으로서의 입지를 계속 강화하고 있습니다
 			  </TextBlock>
 			</Grid>
             <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,30,10,30">
-			intercontinental ballistic missile. This latest triumph of socialist engineering stands as a testament to the unwavering dedication of Soviet scientists and workers in the defense of the Motherland.
+			대륙간 탄도 미사일. 사회주의 공학의 최근 승리는 조국을 지키기 위한 소련 과학자들과 노동자들의 변함없는 헌신을 보여주는 증거입니다.
 			<LineBreak/>
 			<LineBreak/>
-			Designed by the finest minds of the Soviet military-industrial complex, the weapon represents a significant advancement in missile technology,
+			소련 군사 산업 단지의 최고 인재들이 설계한 이 무기는 미사일 기술의 중요한 발전을 상징합니다,
 			</TextBlock>
             <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,30,20,30">
-			boasting enhanced range, precision, and payload capacity. Capable of delivering multiple independently targeted warheads, this formidable weapon ensures the strategic balance necessary to deter imperialist aggression.
+			향상된 사거리, 정밀도, 적재 용량을 자랑합니다. 여러 개의 독립적인 표적 탄두를 장착할 수 있는 이 강력한 무기는 제국주의 침략을 저지하는 데 필요한 전략적 균형을 보장합니다.
 			<LineBreak/>
 			<LineBreak/>
-			 The Minister of Defense lauded the achievement, stating: “this is an unparalleled feat of ingenuity."
+			 국방부 장관은 이 업적을 높이 평가하며 다음과 같이 말했습니다: "이것은 비할 데 없는 독창성의 업적입니다."
 			</TextBlock>
           </Grid>
         </Grid>
@@ -109,7 +109,7 @@
 		  </TextBlock>
           <Image Grid.Row="2" Source="{Binding Assets[07_ticonderoga]}"/>
           <Grid Grid.Row="3" Margin="0,10,0,20">
-            <TextBlock Text="Aggressive imperialist vessels menace our ships, often passing close to examine us" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+            <TextBlock Text="공격적인 제국주의 선박이 우리 배를 위협하며, 종종 우리를 조사하기 위해 가까이 지나갑니다" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
 			<TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
           </Grid>
           <Grid Grid.Row="4" Background="#FFFAEBD7">
@@ -123,22 +123,22 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
 			  </Grid.RowDefinitions>
-			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="Imperialist Aggression" Margin="0,0,0,45" />
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="제국주의 침략" Margin="0,0,0,45" />
 			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">
-			Today, the world bears witness to the treacherous and unprovoked assault of the imperialist Western powers against the peace-loving peoples of the Soviet Union and its socialist allies. In the early hours of the morning, NATO forces launched a series of aggressive military actions against the Naval Forces of the Warsaw Pact, violating international law and revealing their true, warmongering nature.
+			오늘날 세계는 소련과 그 사회주의 동맹국들의 평화를 사랑하는 국민들에 대한 제국주의 서구 열강의 배신적이고 이유 없는 공격을 목격하고 있습니다. 이른 아침, 나토군은 바르샤바 조약기구 해군에 대해 일련의 공격적인 군사 행동을 개시하여 국제법을 위반하고 그들의 진정한 전쟁 성격을 드러냈습니다.
 			<LineBreak/>
-			Despite decades of Soviet efforts to preserve peace and stability, the imperialist bloc, driven by insatiable greed and fear of socialist progress,
+			수십 년간의 소련의 평화와 안정을 지키기 위한 노력에도 불구하고, 사회주의 진보에 대한 끝없는 탐욕과 두려움에 이끌린 제국주의 블록은,
 			  </TextBlock>
 			</Grid>
             <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,36,10,30">
-			has chosen the path of war. Under the guise of so-called ‘scientific data gathering’ NATO forces have engaged in blatant provocations along the Northern Coast. Military vessels, adorned with the insignia of American and British aggressors, have violated socialist waters, and attacked our impressive Rocket Forces.
+			전쟁의 길을 선택했습니다. 나토군은 이른바 '과학적 데이터 수집'을 명분으로 북부 해안에서 노골적인 도발을 감행했습니다. 미국과 영국 침략자들의 휘장이 장식된 군함들이 사회주의 해역을 침범하여 인상적인 로켓 부대를 공격했습니다.
 			<LineBreak/>
-			The General Secretary, in an emergency session of the Politburo, condemned the imperialist actions, declaring that the Soviet people will not waver in the defense of their homeland. “The enemy has revealed its hand, but they will soon learn that the Soviet Union and its socialist allies will never be broken. Our military Comrades will ensure our victory.”
+			총서기는 긴급 정치국 회의에서 제국주의적 행동을 규탄하며 소련 국민들이 조국을 지키기 위해 흔들리지 않을 것이라고 선언했습니다. "적은 손을 드러냈지만, 곧 소련과 그 사회주의 동맹국들은 결코 깨지지 않을 것이라는 것을 알게 될 것입니다. 우리 군 동지들이 우리의 승리를 보장할 것입니다."
 			</TextBlock>
             <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,36,20,30">
-			Reports from the front indicate that our brave forces have already engaged the aggressors, dealing significant blows to their Naval Forces. In the skies, heroic Soviet pilots have demonstrated the superiority of socialist naval aviation and in the seas our superlative submarine forces will soon show their value.
+			전선에서 보고된 바에 따르면, 우리의 용감한 군대는 이미 침략자들과 교전하여 그들의 해군에 상당한 타격을 입혔다고 합니다. 하늘에서는 영웅적인 소련 조종사들이 사회주의 해군 항공의 우월성을 입증했으며, 바다에서는 우리의 최고 잠수함 부대가 곧 그들의 가치를 보여줄 것입니다.
 			<LineBreak/>
-			The people of the Soviet Union stand united in this moment of trial. In every factory, workers redouble their efforts to supply our valiant defenders with the necessary tools of victory. In every city and village, citizens rally behind the banner of Lenin, prepared to sacrifice all in the defense of socialism. 
+			소련 국민들은 이 재판의 순간에 단결하고 있습니다. 모든 공장에서 노동자들은 용감한 수비수들에게 필요한 승리 도구를 제공하기 위해 노력을 배가합니다. 모든 도시와 마을에서 시민들은 레닌의 깃발 뒤에 모여 사회주의를 지키기 위해 모든 것을 희생할 준비를 합니다.
 			</TextBlock>
           </Grid>
         </Grid>

@@ -26,13 +26,13 @@
             Width="*" />
         <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
-    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+    <TextBlock
+        Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
         <Run
-            Text="{Binding MissionStartTime.Year}" />-<Run
-            Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
-            Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
-    </TextBlock>
+            Text="{Binding MissionStartTime.Year}" />年<Run
+            Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />月<Run
+            Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />日 </TextBlock>
     <TextBlock
         Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
         FontSize="{StaticResource Font.Size.Header}">
@@ -41,43 +41,41 @@
             Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
             Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
             Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="発:" />
+    <TextBlock Grid.Row="3" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="合衆国第5艦隊司令官" />
     <TextBlock
-        Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
+        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛:" />
     <TextBlock
-        Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="米第5艦隊司令官" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第150任務部隊司令官" />
-    <TextBlock
-        Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="情報:" />
-    <TextBlock
-        Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="米太平洋艦隊司令官" />
+        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第150任務部隊指揮官" />
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="報:" />
+    <TextBlock Grid.Row="5" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="合衆国太平洋艦隊司令官" />
     <TextBlock
         Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
     <TextBlock
-        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦指示" />
+        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="実施命令" />
     <TextBlock
         Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
         Text="#0-144.142.143" />
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
         FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />
-       <LineBreak />
-        イラン・イスラム共和国は、世界規模での影響力を行使するため、米国の権益および同盟国に関連する船舶に対し、ホルムズ海峡を閉鎖すると威嚇。 <LineBreak />    <LineBreak />
-        米国はイランの脅威に抵抗し、国際法に基づき海峡を航行する能力を示す所存。
-       <LineBreak />    <LineBreak />
-        中東軍（COMMIDEASTFOR）は、アデン湾とホルムズ海峡間のタンカー護送船団を編成中。第150任務部隊（TF150）は、イラク沿岸のミーナー・アル・バクル石油ターミナルに向かう最初の商船団を護衛する。
-       <LineBreak />      <LineBreak />    <LineBreak />
-        2. (S) 主要任務目標: <LineBreak />
-       <LineBreak />
-        アデン湾からホルムズ海峡を通過しペルシャ湾へ進入、その際、護衛対象の商船をイラン・イスラム共和国がもたらす脅威から防衛すること。 <LineBreak />    <LineBreak />    <LineBreak />
-        3. (S) 脅威報告: <LineBreak />
-       <LineBreak />
-        バンダル・アッバースから出撃したイラン・イスラム共和国海軍（IRIN）及びイスラム革命防衛隊海軍（IRGCN）の水上部隊が、ホルムズ海峡に展開している可能性が極めて高いと評価される。部隊はIRIN及びIRGCNの混成部隊であると見られる。大型哨戒艇からの限定的な支援を受けた、多数のミサイル艇（FAC/FIAC）の襲来を想定せよ。
-        <LineBreak />    <LineBreak />
-        IRIN及びIRGCNの部隊は、固定翼機及び回転翼機の双方から、限定的な航空支援を受ける可能性がある。航空部隊は、限定数の空中発射型対艦ミサイル（AShM）を装備している可能性があると評価される。
-       <LineBreak />    <LineBreak />
-        現時点において、IRINの潜水艦が脅威となる可能性は低い。IRINは小型潜水艇の調達を試みている可能性が極めて高いと評価されるが、現時点で配備可能な艦艇が存在する可能性は極めて低い。
-         <LineBreak />    <LineBreak />      <LineBreak />    <LineBreak />
-        (S) 電波発射管制（EMCON） - 対艦ミサイル（AShM）による脅威の可能性が高いため、EMCON状態は無制限とする。 </TextBlock>
+          <LineBreak />
+        イランイスラム共和国は、世界規模での影響力を行使するため、アメリカの権益および同盟国に関わる船舶に対しホルムズ海峡の封鎖を警告した。 <LineBreak />
+          <LineBreak />
+        合衆国はイランの脅威に抵抗し、国際法の下で認められた海峡通航能力を誇示する意向である。 <LineBreak />       <LineBreak />
+        中東派遣部隊司令官（COMMIDEASTFOR）は、ホルムズ海峡を通過しアデン湾との間を往来するタンカーの護衛船団を編成中である。第150任務部隊（TF150）は、イラク沿岸のミナ・アル・バクル石油ターミナルへ向かう最初の商船グループを護衛せよ。
+        <LineBreak />           <LineBreak />       <LineBreak />
+        2. (S) 第一目標: <LineBreak />
+          <LineBreak />
+        イランイスラム共和国による脅威から護衛対象の商船を守りつつ、アデン湾からホルムズ海峡を通過してペルシャ湾へ進入せよ。 <LineBreak />
+          <LineBreak />       <LineBreak />
+        3. (S) 脅威報告: <LineBreak />       <LineBreak />
+        バンダレ・アッバースより出撃したイラン海軍（IRIN）および革命防衛隊海軍（IRGCN）の水上部隊が、ホルムズ海峡に展開している可能性が極めて高い。部隊構成はIRINとIRGCNの混成と推測される。多数の高速攻撃艇（FAC/FIAC）に加え、大型哨戒艦艇による限定的な支援を警戒せよ。
+        <LineBreak />       <LineBreak />
+        固定翼および回転翼機による限定的な航空支援が予想される。また、航空機発射型対艦ミサイル（AShM）を少数保有している可能性が高い。 <LineBreak />       <LineBreak />
+        現時点でイラン海軍の潜水艦による脅威は想定されていない。同海軍は小型潜水艦の調達を試みている可能性が極めて高いが、現時点で実戦配備されている可能性は極めて低い。 <LineBreak />       <LineBreak />       <LineBreak />       <LineBreak />
+        (S) 電波発射管制（EMCON）：対艦ミサイルの脅威が高いため、制限なし。 </TextBlock>
 </Grid>

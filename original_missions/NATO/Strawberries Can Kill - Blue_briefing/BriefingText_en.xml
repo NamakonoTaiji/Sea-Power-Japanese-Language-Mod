@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		03 JUNE 1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER, TASK FORCE 70 (CTF 70)"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION PLAN - URGENT THUNDERBOLT"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		FLASH - SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION: Hostilities are underway in Europe. Warsaw Pact forces have crossed the Fulda Gap, and President Reagan has initiated Operation REFORGER in Europe. Merchant convoys are forming at major east coast ports to begin the long voyage to reinforce NATO. In the Pacific, a large Soviet task force believed to be returning to Petropavlovsk after completing exercises has now turned around and is heading towards Midway and Hawaii.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MISSION: TF 70 will proceed northwest from Pearl Harbor, then locate and destroy the Soviet forces at large in the North Pacific before they can attack Midway or Hawaii.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) EXECUTION: TF 70 with NIMITZ and Battle Group DELTA will leave Hawaiian waters and begin searching for the Soviet task force. On locating the Soviet force, conduct an alpha strike and destroy all enemy units encountered. Intel believes the Soviets have broken their force into several groups - all Soviet ships must be sunk or forced to retreat.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) ENEMY ORDER OF BATTLE: The northern Soviet task group is centered on supercarrier VILNIUS with its carrier air wing. A separate task group, likely an amphibious force, is supported by aircraft-carrying cruisers MINSK and NOVOROSSISYK with their attack air wings. Intel suspects that Regiment-level Backfire raids should be expected from Kamchatka if your force is detected.
+		<LineBreak/>
+		<LineBreak/>
+		6. (S) ALLIED FORCES: With Japan, Okinawa, and Guam under heavy attack, no air support from these locations will be possible. P-3 Orions out of Midway will assist search, and USS OMAHA has been detailed to you to sanitize your route.
+		<LineBreak/>
+		<LineBreak/>
+		7. (S) REMARKS: With proper execution, we can take the bulk of the USSR Pacific Fleet off the board with this operation. Good luck and good hunting.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		DO NOT DECLASSIFY WITHOUT APPROVAL OF ADDRESSEE
+	  </TextBlock>
+</Grid>

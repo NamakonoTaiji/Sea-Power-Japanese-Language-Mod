@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Ausrüstung - U-Jagd"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="U-Jagd-Konfigurationen umfassen eine Ausrüstung mit Sonobojen (aktiv und passiv), Torpedos und gelegentlich Wasserbomben, sowohl für Seefernaufklärer als auch für Hubschrauber."/>
+				<Run Text="U-Jagd-Konfigurationen für Seefernaufklärer und Hubschrauber umfassen eine Ausrüstung mit Sonobojen (aktiv und passiv), Torpedos und gelegentlich Wasserbomben."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Hinweis: Einige Flugzeuge und Hubschrauber verfügen sowohl über die Konfigurationen „U-Jagd - Aufklärung“- und „U-Jagd - Zerstörung“. Die Aufklärungsvariante führt mehr Sonobojen zur Suche mit, während die Zerstörungsvariante hauptsächlich aus Torpedos, aktive Sonarbojen und – falls verfügbar – Wasserbomben besteht."/>

@@ -22,7 +22,7 @@
 				<Run Text="Alle Ihre Einheiten sind mit Funkgeräten ausgerüstet, die auf den zivilen Standardfrequenzen für Navigation und Sicherheit kommunizieren können."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Wählen Sie unseren Ka-27PL-Hubschrauber aus, halten Sie anschließend Strg gedrückt und klicken Sie mit der rechten Maustaste auf ein aktuell erfasstes Radarecho, und wählen Sie dann „Auffordern: Identifizieren“."/>
+				<Run Text="Wählen Sie Ihren Ka-27PL-Hubschrauber aus, halten Sie anschließend Strg gedrückt und klicken Sie mit der rechten Maustaste auf ein aktuell erfasstes Radarecho. Klicken Sie dann auf „Auffordern: Identifizieren“."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

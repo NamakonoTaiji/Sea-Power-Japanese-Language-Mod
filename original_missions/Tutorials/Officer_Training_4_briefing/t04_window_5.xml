@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Setting Up AEW/AWACS Patrol"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Once the AEW aircraft is airborne, let's order it up to cruising altitude. Use the Height control at the bottom left to order the aircraft to 37,000'. This will extend its radar horizon and allow its sensors to see much further."/>
+				<Run Text="Once the AEW aircraft has prepped and launched, let's order it up to cruising altitude. Use the Height control at the bottom left to order the aircraft to 37,000'. This will extend its radar horizon and allow its sensors to see much further."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Use the time compression controls at top right to speed up the game while the aircraft climbs. Using the arrows, speed up time to 10x."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Once the aircraft reaches its cruising altitude, let's set it back to 1x time by clicking the left facing arrows, or by quickly pausing the game (Space Bar) and resuming it (Space Bar) to set the speed back to 1x."/>
+				<Run Text="Once the aircraft reaches its cruising altitude, let's set it back to 1x time by clicking the left facing arrows, or by quickly pausing the game (Space Bar) and resuming it (Space Bar)."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

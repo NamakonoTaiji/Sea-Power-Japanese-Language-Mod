@@ -14,7 +14,7 @@
 		</Border.Effect>
         <StackPanel Orientation="Vertical">
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-            <TextBlock Text="1988년 7월 7일 | Vol. 105, No. 188 | 52 Cents" Margin="0,15,0,15" FontSize="24"/>
+            <TextBlock Text="1988년 7월 7일 | Vol. 105, 188호 | 52 센트" Margin="0,15,0,15" FontSize="24"/>
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
             <Image Source="{Binding Assets[washington_times_herald_logo]}" Stretch="UniformToFill" Margin="0"/>
 			<!-- Masthead of the Washington Times-Herald created by https://commons.wikimedia.org/w/index.php?title=User:Msinwnc&action=edit&redlink=1 under https://creativecommons.org/licenses/by-sa/4.0/deed.en. This image is included unedited directly from its host https://commons.wikimedia.org/wiki/File:Washington_Times-Herald_Logo.png -->
@@ -32,19 +32,19 @@
 				</Grid.RowDefinitions>
 				<StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Orientation="Vertical">
 					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="평화!" FontWeight="Bold" FontSize="200" LineHeight="0"  LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap" TextAlignment="Center" Margin="-35"/>
-					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="NATO AND SOVIETS AGREE TO CEASEFIRE" FontWeight="Bold" FontSize="36" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,0"/>
+					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="NATO와 소련, 휴전에 합의하다" FontWeight="Bold" FontSize="36" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,0"/>
 				</StackPanel>	
                 <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
                     <Image Source="{Binding Assets[15_reagan_gorbachev]}" Stretch="Uniform" Margin="0,15,0,15"/>
-                    <TextBlock Text="Reagan and Gorbachev shake hands after signing the ceasefire in The Hague yesterday, with both expressing optimism for a lasting peace. The short but bloody conflict threatened to spill over into a wider war. Both leaders emphasized the importance of continued dialogue and rebuilding trust between East and West. Preparations are already underway for formal peace talks, scheduled to begin in Geneva next month. — AP Wire Photo" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,0,15"/>
+                    <TextBlock Text="레이건과 고르바초프는 어제 헤이그에서 휴전 협정에 서명한 후 악수를 나누고 있으며, 두 사람 모두 지속적인 평화에 대한 낙관적인 입장을 표명했습니다. 짧지만 피비린내 나는 갈등은 더 넓은 전쟁으로 번질 위험이 있었다. 두 정상은 동서 간의 지속적인 대화와 신뢰 회복의 중요성을 강조했습니다. 다음 달 제네바에서 시작될 예정인 공식 평화 회담 준비가 이미 진행 중입니다. — AP 와이어 사진" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,0,15"/>
                 </StackPanel>
 				<StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical"> 
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify" Margin="0,15,0,15">
-					뉴욕 — In a dramatic turn after months of mounting confrontation at sea, President Ronald Reagan and General Secretary Mikhail Gorbachev have jointly announced an immediate ceasefire between NATO and Soviet forces. The agreement was reached late last night reportedly following days of secret negotiations. Effective at 0600 UTC today, all air and naval operations will cease, with orders transmitted to all units in contested regions from the North Atlantic to the Pacific.
+					뉴욕 — 몇 달간의 해상 대치 끝에 극적인 전환점을 맞이한 로널드 레이건 대통령과 미하일 고르바초프 서기장은 나토와 소련군 간의 즉각적인 휴전을 공동으로 발표했습니다. 며칠간의 비밀 협상 끝에 어젯밤 늦게 합의에 도달한 것으로 알려졌습니다. 오늘 0600 UTC부터 모든 항공 및 해군 작전이 중단되며, 북대서양에서 태평양까지 분쟁 지역의 모든 부대에 명령이 전달됩니다.
 					<LineBreak/>
-					Leaders in both Washington and Moscow acknowledged the danger and emphasized the urgent need to pull back from the brink. The United Nations has praised both governments for their restraint, while citizens across Europe and North America celebrated the news with spontaneous gatherings in city centers.
+					워싱턴과 모스크바의 지도자들은 위험을 인정하고 벼랑 끝에서 물러나야 할 긴급한 필요성을 강조했습니다. 유엔은 양국 정부의 자제를 칭찬했으며, 유럽과 북미 전역의 시민들은 도심에서 자발적인 모임을 통해 이 소식을 축하했습니다.
 					<LineBreak/>
-					Markets worldwide surged on news of the ceasefire, with oil prices stabilizing and major stock indices posting record gains. Analysts say the swift move to dialogue may usher in a new era of cooperation—or, at the very least, a lasting pause to the most dangerous crisis of the Cold War. (continued on pg. 2)
+					휴전 소식에 전 세계 시장은 유가가 안정되고 주요 주가지수가 기록적인 상승세를 보이면서 급등했습니다. 분석가들은 대화로의 신속한 전환이 새로운 협력의 시대를 열 수도 있고, 최소한 냉전이라는 가장 위험한 위기에 대한 지속적인 중단을 가져올 수도 있다고 말합니다. (2쪽에서 계속)
 					</TextBlock>
                 </StackPanel>
             </Grid>
@@ -56,19 +56,19 @@
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Vertical">
-                    <TextBlock Text="ATTU ISLAND GARRISONED BY U.S. MILITARY FORCES" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="미군이 주둔한 애투 섬" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-ANCHORAGE, ALASKA — U.S. forces have established a permanent garrison on Attu Island in the Aleutians, reinforcing American sovereignty following the ceasefire. The move follows reported combat operations in the area last month, where an unspecified American task force reportedly engaged a Soviet invasion force.
+알래스카, 앵커리지 — 미군은 휴전 이후 미국의 주권을 강화하기 위해 알류샨 열도의 애투 섬에 영구 주둔지를 설립했습니다. 이번 조치는 지난달 이 지역에서 불특정 미국 태스크포스가 소련 침공군과 교전한 것으로 알려진 전투 작전에 따른 것입니다.
 <LineBreak/>
-The outpost is reported to include Navy, Air Force, and Coast Guard elements, ensuring control over vital North Pacific sea lanes. (continued on pg. 3)
+전초 기지에는 해군, 공군, 해안경비대 요소가 포함되어 있어 중요한 북태평양 해상 항로를 통제할 수 있는 것으로 보고되고 있습니다. (페이지 3에서 계속)
 					</TextBlock>
                 </StackPanel>
                 <StackPanel Grid.Column="2" Orientation="Vertical">
                     <TextBlock Text="FORCES REMAIN ON ALERT, ALL OPTIMISTIC FOR PEACE" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-WASHINGTON, D.C. — Though the guns have fallen silent, NATO and Soviet military units remain on high alert across key theaters. Officials caution that tensions could flare until formal agreements are signed, but diplomats on both sides expressed optimism for a durable peace. Allied leaders called for vigilance and patience as new security arrangements are discussed.
+워싱턴, D.C. — 총성은 조용해졌지만 나토와 소련 군부대는 주요 극장에서 여전히 경계 태세를 유지하고 있습니다. 관리들은 공식적인 합의가 체결될 때까지 긴장이 고조될 수 있다고 경고하지만, 양측 외교관들은 지속 가능한 평화에 대한 낙관적인 전망을 표명했습니다. 연합군 지도자들은 새로운 안보 협정이 논의될 때 경계와 인내를 촉구했습니다.
 <LineBreak/>
-Troop rotations and air patrols continue while diplomats convene for the first round of talks in Geneva. (ctd on pg. 5)
+제네바에서 외교관들이 첫 회담을 위해 모이는 동안 병력 순환과 항공 순찰이 계속되고 있습니다. (5쪽 ctd)
 					</TextBlock>
                 </StackPanel>
             </Grid>

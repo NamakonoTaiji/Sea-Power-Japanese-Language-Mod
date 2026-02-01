@@ -19,7 +19,7 @@
 				<Run Text="Die JDS Hiei ist ein „Hubschrauberträger“ (DDH), ein spezieller Typ von U-Jagd-Kampfschiff, der von der JMSDF betrieben wird. Dieses Schiff führt drei HSS-2B Sea King mit, eine in Lizenz gebaute Version des US-amerikanischen SH-3H Sea King U-Jagd-Hubschraubers."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Lassen Sie einen dieser Hubschrauber starten, um den entdeckten Geräuschkontakt zu untersuchen. Verwenden Sie das Flugdeck, um einen HSS-2B mit U-Jagd-Bewaffnung zu starten, und geben Sie ihm anschließend auf der Taktischen Karte einen Wegpunkt in der Nähe des Kontakts."/>
+				<Run Text="Lassen Sie einen dieser Hubschrauber starten, um den entdeckten Geräuschkontakt zu untersuchen. Verwenden Sie das Flugdeck, um einen HSS-2B mit U-Jagd-Bewaffnung zu starten, und setzen Sie ihm anschließend auf der Taktischen Karte einen Wegpunkt in der Nähe des Kontakts."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

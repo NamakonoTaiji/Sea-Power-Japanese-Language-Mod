@@ -3,7 +3,7 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:local="clr-namespace:SeapowerUI">
 	<Canvas Width="1095" Height="662">
-        <Image Source="{Binding Assets[Arctic_KirkenesNorth_Close]}"/>
+        <Image Source="{Binding Assets[Arctic_KirkenesNorth_Close_ko]}"/>
 		<!-- Small Map -->
         <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
             <Grid>
@@ -26,20 +26,20 @@
                 <Image Stretch="Uniform" Source="{Binding Assets[screenshot_cape_girardeau]}" Width="250"/>
 				<TextBlock Foreground="Black" TextAlignment="Left" VerticalAlignment="Center" Margin="5" FontFamily="Courier New" FontWeight="Bold">
 					<Run Text="USNS 케이프 지라도 T-AK-2039"/><LineBreak/>
-					<Run Text="19-LCM-978108 - BUSHIPS PHOTO"/>
+					<Run Text="19-LCM-978108 함선국 사진"/>
 				</TextBlock>
             </StackPanel>
 			
         </Border>
 
 		<!-- Map Labels -->
-		<TextBlock Foreground="SteelBlue" Text="Barents Sea" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="100"/>
+		<TextBlock Foreground="SteelBlue" Text="바렌츠 해" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="100"/>
 		
 		<!-- Mission Area Ellipse -->
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="475" Canvas.Top="300">
 			<Ellipse Width="150" Height="150" Opacity="0.25" Fill="{StaticResource NTDS.FriendColour}"/>
 			<!-- Mission Area Text -->
-			<TextBlock Foreground="{StaticResource NTDS.FriendColour}" Text="Patrol Zone" HorizontalAlignment="Center"/>
+			<TextBlock Foreground="{StaticResource NTDS.FriendColour}" Text="정찰 구역" HorizontalAlignment="Center"/>
 		</StackPanel>	
 		
 		<!-- KNM Kobben -->

@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Einsatz von Seefernaufklärern zur Aufklärung"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Beim Herauszoomen auf der Taktischen Karte erkennen Sie, dass das Gebiet, welches Sie durchsuchen sollen, sehr groß ist (über 500 Seemeilen!). Ein derartiges Gebiet kann nicht allein durch Schiffe abgesucht werden. Sie müssen daher die verfügbaren Luftfahrzeuge einsetzen, um mit dem Aufbau eines Suchrasters zu beginnen."/>
+				<Run Text="Nach dem Herauszoomen auf der Taktischen Karte werden Sie erkennen, dass das Gebiet, welches Sie durchsuchen sollen, sehr groß ist (über 500 Seemeilen!). Ein derartiges Gebiet kann nicht allein durch Ihre Schiffe abgesucht werden. Sie müssen daher die verfügbaren Luftfahrzeuge einsetzen, um mit dem Aufbau eines Suchrasters zu beginnen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Beginnen Sie damit, der Tu-95RT ein Suchmuster zuzuweisen. Stellen Sie zunächst sicher, dass das Luftfahrzeug auf Reiseflughöhe ist und sein Radar über das EMCON-Menü eingeschaltet wurde."/>
+				<Run Text="Weisen Sie zunächst der Tu-95RT ein Suchmuster zu. Stellen Sie sicher, dass sich das Luftfahrzeug auf Reiseflughöhe befindet und sein Radar über das EMCON-Menü eingeschaltet wurde."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Sobald die Tu-95RT ihr Radar aktiviert hat, geben Sie ihr eine Reihe von Wegpunkten, um sich ost- und westwärts durch das markierte Suchgebiet zu bewegen. Denken Sie daran, dass Sie mit gedrückter Shift-Taste mehrere Wegpunkte setzen können."/>
+				<Run Text="Sobald das Radar der Tu-95RT aktiviert ist, geben Sie ihr eine Reihe von Wegpunkten, um sich ost- und westwärts durch das markierte Suchgebiet zu bewegen. Denken Sie daran, dass Sie mit gedrückter Shift-Taste mehrere Wegpunkte setzen können."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

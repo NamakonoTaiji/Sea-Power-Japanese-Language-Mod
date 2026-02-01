@@ -17,10 +17,10 @@
                     FontWeight="Bold" Text="士官訓練3 - 総括" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="対潜戦闘のノウハウをよく学んだ！これはシナリオとキャンペーンの両方において、司令官にとって重要なスキルである。" />
+                        <Run Text="対潜戦闘のノウハウをよく学んだ！これはシナリオとキャンペーンの両方において、指揮官にとって重要なスキルである。" />
                         <LineBreak />
                         <LineBreak />
-                        <Run Text="これで第3回士官訓練を終了する。見事であった、司令官！" />
+                        <Run Text="これで第3回士官訓練を終了する。見事であった、指揮官！" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

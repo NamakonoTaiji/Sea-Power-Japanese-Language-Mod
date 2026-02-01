@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="24" FontWeight="Bold" Text="Seefernaufklärer – P-3C Orion"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="18">
 			<TextBlock.Inlines>
-				<Run Text="Nun, da wir uns die P-3C Orion beobachten, lassen Sie uns die Fähigkeiten besprechen, die dieses Flugzeug in unsere U-Jagd-Gruppe einbringt."/>
+				<Run Text="Nun, da wir die P-3C Orion betrachten, lassen Sie uns die Möglichkeiten besprechen, die dieses Flugzeug in unsere U-Jagd-Gruppe einbringt."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Die P-3 Orion ist ein Seefernaufklärer (Maritime Patrol Aircraft, MPA), auch bekannt als Maritime Patrol and Reconnaissance Aircraft (MPRA). Ihre Aufgabe ist die Aufklärung und U-Jagd. Die Orion ist mit Sonobojen und Torpedos ausgerüstet (sie kann zudem Bomben und Harpoon-Raketen mitführen)."/>

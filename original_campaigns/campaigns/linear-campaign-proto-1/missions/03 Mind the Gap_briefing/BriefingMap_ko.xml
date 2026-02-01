@@ -45,7 +45,7 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="SAU ALPHA:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="SAU 알파:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 <Run Text="USS 존 로저스 DD-983"/><LineBreak/>
                 <Run Text="USS 언더우드 FFG-36"/>
            </TextBlock>
@@ -65,7 +65,7 @@
 		<!-- SAU Alpha -->
 		<StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="300">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="SAU Alpha"/>
+                <Run Text="SAU 알파"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

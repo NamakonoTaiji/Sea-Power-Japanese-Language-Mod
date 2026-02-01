@@ -16,10 +16,11 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Koordinierung des Schlages"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Nutzen Sie die Zeitkompression, bis sich beide Ihrer Einheiten in Reichweite befinden."/>
+				<Run Text="Nutzen Sie den Zeitraffer, bis sich beide Ihrer Einheiten in Reichweite befinden."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Zum Zwecke dieses Tutorials wurde die K-175 etwa 300 Seemeilen von der Varyag entfernt positioniert, wodurch Sie einen Mehrachsenangriff koordinieren können. Dies ist besonders wichtig beim Angriff auf Einheiten mit starker Luftverteidigungsfähigkeit, wie die US-amerikanische Ticonderoga-Klasse oder die sowjetische Udaloy-Klasse."/>
+				<Run Text="
+Zum Zwecke dieses Tutorials wurde die K-175 etwa 300 Seemeilen von der Varyag entfernt positioniert, wodurch Sie einen Mehrachsenangriff koordinieren können. Dies ist besonders wichtig beim Angriff auf Einheiten mit starker Luftabwehr, wie die US-amerikanische Ticonderoga-Klasse oder die sowjetische Udaloy-Klasse."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

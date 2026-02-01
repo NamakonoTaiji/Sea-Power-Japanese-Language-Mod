@@ -19,7 +19,7 @@
 				<Run Text="Denken Sie daran: Wenn Sie mit Sicherheit wissen, dass ein bestimmter Kontakt neutral oder feindlich ist, können Sie ihn jederzeit manuell identifizieren, indem Sie mit der rechten Maustaste darauf klicken und anschließend seine Gesinnung („Freund“, „Neutral“, oder „Feind“) festlegen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Probieren Sie dies nun mit einem der offensichtlich zivilen Handelsschiffe auf der Taktischen Karte aus, indem Sie mit der rechten Maustaste auf den Kontakt klicken und anschließend „Neutral“ auswählen."/>
+				<Run Text="Probieren Sie dies nun mit einem der offensichtlich zivilen Handelsschiffe auf der Taktischen Karte aus. Klicken Sie mit der rechten Maustaste auf den Kontakt und wählen Sie anschließend „Neutral“."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

@@ -1,0 +1,52 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        02FEB1985
+    </TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="HQ RED BANNER NORTHERN FLEET"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR, SUBMARINE K-527"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NORWEGIAN SEA INTERCEPTION OPERATION"/>
+        <!--
+    <Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+    -->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        1. SITUATION: Combat operations continue in vicinity of Narvik as our forces attempt to capture this bastion from the NATO defenders. The balance of forces is tilting in our favor, but SIGINT intercepts show U.S. surface strike group with Missouri-class battleship moving through the Iceland-Faroe gap to support.
+        <LineBreak/>
+        <LineBreak/>
+        2. MISSION: Northern Fleet submarines will execute intercept of American surface group along expected route to Narvik. Sinking of the American battleship is of highest priority.
+        <LineBreak/>
+        <LineBreak/>
+        3. EXECUTION: K-527 will proceed south to intercept point, then rendezvous with nearby submarines K-254 and B-402 to coordinate attack and sink the American force.
+        <LineBreak/>
+        <LineBreak/>
+        4. American surface group is likely composed of ASW escorts of Perry, Knox, and Spruance class with Belknap class AAW escort. American P-3 Orion aircraft should be expected to operate in support.
+        <LineBreak/>
+        <LineBreak/>
+        5. Success in this operation will deprive the enemy forces of critical naval support for the ground troops ashore and will result in our victory at Narvik. Good luck, Comrade.
+      </TextBlock>
+</Grid>

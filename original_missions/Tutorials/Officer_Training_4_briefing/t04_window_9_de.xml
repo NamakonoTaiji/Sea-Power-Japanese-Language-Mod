@@ -22,7 +22,7 @@
 				<Run Text="Alle Formationen haben einen Formationsanführer. Sie können diesen auswählen, indem Sie auf eine beliebige Einheit innerhalb der Formation klicken und anschließend die mittlere Maustaste drücken."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Standardmäßig folgen alle Einheiten einer Formation den Wegpunkten, Höhen- und Geschwindigkeitsbefehlen des Formationsanführers. Für Luftfahrzeuge können Sie den Formationsmuster und die Abstände ändern, indem Sie mit der rechten Maustaste klicken und dann über "/><Run Text="Formation" FontWeight="Bold"/><Run Text=" die Punkte "/><Run Text="Muster" FontWeight="Bold"/><Run Text=" oder "/><Run Text="Abstand" FontWeight="Bold"/><Run Text=" anwählen. Belassen Sie Ihre Flugzeuge vorerst in der „Vic“-Formation."/>
+				<Run Text="Standardmäßig folgen alle Einheiten einer Formation den Wegpunkten, Höhen- und Geschwindigkeitsbefehlen des Formationsanführers. Bei Luftfahrzeugen können Sie das Formationsmuster und die Abstände ändern, indem Sie mit der rechten Maustaste klicken und dann über "/><Run Text="Formation" FontWeight="Bold"/><Run Text=" die Punkte "/><Run Text="Muster" FontWeight="Bold"/><Run Text=" oder "/><Run Text="Abstand" FontWeight="Bold"/><Run Text=" anwählen. Belassen Sie Ihre Flugzeuge vorerst in der „Vic“-Formation."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

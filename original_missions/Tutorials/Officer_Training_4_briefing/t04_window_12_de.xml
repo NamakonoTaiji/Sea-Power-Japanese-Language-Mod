@@ -22,7 +22,7 @@
 				<Run Text="Drücken Sie die mittlere Maustaste, um zum Formationsanführer zu wechseln, klicken Sie anschließend auf die AS-13-Schaltfläche in der unteren Leiste und dann mit der rechten Maustaste auf einen der feindlichen Kontakte. Die Flugzeuge richten sich auf das Ziel aus und feuern eine ihrer Raketen ab, sobald sie sich in Feuerreichweite befinden."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Beachten Sie, dass Sie die Shift-Taste gedrückt halten können, um Angriffsaufträge für Flugzeuge gleichzeitig auf mehrere Ziele zu verteilen. Nachdem Ihre Raketen das erste Ziel getroffen haben, befehlen Sie Ihren Flugzeugen, das zweite Ziel mit AS-13-Raketen anzugreifen."/>
+				<Run Text="Beachten Sie, dass Sie die Shift-Taste gedrückt halten können, um Angriffsaufträge für Flugzeuge auf mehrere Ziele zu erteilen. Nachdem ihre Raketen das erste Ziel getroffen haben, befehlen Sie Ihren Flugzeugen, das zweite Ziel mit AS-13-Raketen anzugreifen."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

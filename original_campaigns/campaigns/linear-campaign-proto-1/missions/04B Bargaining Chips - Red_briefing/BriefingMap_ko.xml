@@ -38,7 +38,7 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="INVASION FORCE:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="침공군:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 <Run Text="보예보이 EM-678"/><LineBreak/>
                 <Run Text="페트로파블롭스크 BPK-591"/><LineBreak/>
                 <Run Text="마르샬 티모셴코 BPK-690"/><LineBreak/>
@@ -49,7 +49,7 @@
 
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="베링해" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="100"/>
-		<TextBlock Foreground="SteelBlue" Text="태평양 북부" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="600"/>
+		<TextBlock Foreground="SteelBlue" Text="북태평양" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="600"/>
 		<TextBlock Foreground="Black" Text="애투" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="775" Canvas.Top="290"/>
 		
 		<!-- Mission Area Ellipse -->
@@ -74,7 +74,7 @@
 		<!-- SAG Alpha -->
 		<StackPanel Orientation="Vertical" Canvas.Left="600" Canvas.Top="200">
 			<TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="SAG 알파"/>
+                <Run Text="알파 수상전단"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
@@ -85,7 +85,7 @@
 		<!-- Attu AFB -->
 		<StackPanel Orientation="Vertical" Canvas.Left="815" Canvas.Top="280">
 			<TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="애투 AFB"/>
+                <Run Text="애투 공군기지"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Airbase}"/>
@@ -118,7 +118,7 @@
 		<!-- Invasion Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="400">
 			<TextBlock Foreground="{StaticResource NTDS.FriendColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="Invasion Force"/>
+                <Run Text="침공 부대"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

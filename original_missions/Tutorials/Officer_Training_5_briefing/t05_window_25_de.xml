@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Mittelphasenführung"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Nachdem Sie nun Ihren Angriff mit den SS-N-3-Raketen gestartet haben, betrachten wir einige der Merkmale der Mittelphasenführung dieses Raketentyps."/>
+				<Run Text="Da Sie nun Ihren Angriff mit den SS-N-3-Raketen gestartet haben, betrachten wir einige der Merkmale der Mittelphasenführung dieses Raketentyps."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Wenn Sie auf eine abgefeuerte Rakete klicken, können Sie im unteren Bereich im Feld „Status“ den Stand der Mittelphasenführung ablesen. Raketen, die in Führung bleiben, zeigen ihren Ziel-Track und den Linkstatus an und können manuell auf ein neues Ziel umgelenkt werden, indem Sie sie auf der Taktischen Karte auswählen und dann mit der rechten Maustaste auf einen neuen Ziel-Track oder einen Bereich der Karte klicken. Diese Fähigkeit können Sie auch nutzen, um zwei Raketen­gruppen abzufeuern und sie anschließend aus unterschiedlichen Richtungen auf dasselbe Ziel zusammenzuführen."/>
+				<Run Text="Wenn Sie auf eine abgefeuerte Rakete klicken, können Sie im unteren Bereich im Feld „Status“ den Stand der Mittelphasenführung ablesen. Geführte Flugkörper zeigen ihren Ziel-Track und den Linkstatus an und können manuell auf ein neues Ziel umgelenkt werden, indem Sie den Flugkörper auf der Taktischen Karte auswählen und dann mit der rechten Maustaste auf einen neuen Ziel-Track oder einen Bereich der Karte klicken. Diese Option können Sie beispielsweise nutzen, um zwei Raketen­gruppen abzufeuern und sie anschließend aus unterschiedlichen Richtungen auf dasselbe Ziel zusammenzuführen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Hinweis: Die Mittelphasenführung der SS-N-3 überträgt die Daten des Radarsuchkopfes zurück an die Startplattform. Dadurch können diese Raketen auch als improvisierte Aufklärungsdrohnen eingesetzt werden."/>
+				<Run Text="Hinweis: Die Mittelphasenführung der SS-N-3 überträgt die Daten des Radarsuchkopfes zurück an die Startplattform. Dadurch können diese Raketen theoretisch auch als improvisierte Aufklärungsdrohnen eingesetzt werden."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

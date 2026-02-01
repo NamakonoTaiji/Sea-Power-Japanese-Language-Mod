@@ -44,7 +44,7 @@
 		    </Grid.ColumnDefinitions>
 			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="SECRET" TextAlignment="Center"/>
 			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
-The Director of Central Intelligence
+중앙 정보국 국장
 <LineBreak/>
 <LineBreak/>
 <Run FontSize="12">워싱턴 D.C. 20505</Run>
@@ -55,47 +55,47 @@ ER 84-2648
 <LineBreak/>
 CR - NIC 03508-84
 			</TextBlock>
-			<TextBlock Grid.Row="4" Grid.Column="2" Text="15 May 1988"/>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="1988년 5월 15일"/>
 			<TextBlock Grid.Row="6" Grid.Column="3" Text="25X1"/>
-			<TextBlock Grid.Row="7" Grid.Column="0" Text="MEMORANDUM FOR:   "/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="각서:   "/>
 			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
 대통령
 <LineBreak/>
-The Vice President
+부통령
 <LineBreak/>
-Secretary of State
+국무장관
 <LineBreak/>
-Secretary of Defense
+국방부 장관
 <LineBreak/>
-Assistant to the President for National Security Affairs
+대통령 국가안보보좌관
 <LineBreak/>
-Chairman, Joint Chiefs of Staff
+합동참모본부 의장
 			</TextBlock>
 			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
 EO 13526 3.3(b)(1)>25Yrs
 <LineBreak/>
 EO 13526 3.5(c)
 			</TextBlock>
-			<TextBlock Grid.Row="9" Grid.Column="0" Text="SUBJECT:   "/>
-			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="US/Soviet Conflict in Maritime Domain"/>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="내용:   "/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="해양 영역에서의 미국/소련 분쟁"/>
 		  </Grid>
 		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
-1. I attach here a rather stunning array of indicators regarding the recent Soviet aggressive activities in the Norwegian Sea and the Bering Strait. It appears that while the initial conflict was started due to the overreach of an individual SAG commander, Soviet High Command used the opportunity to capitalize upon our surprise.
+1. 여기에 최근 노르웨이해와 베링 해협에서 소련의 공격적인 활동에 관한 다소 놀라운 일련의 지표를 첨부합니다. 초기 분쟁은 개인 SAG 사령관의 과도한 접근으로 인해 시작된 것으로 보이지만, 소련 최고 사령부는 이 기회를 이용해 우리의 놀라움을 활용한 것으로 보입니다.
 <LineBreak/>
 <LineBreak/>
-2. The engagement in the Bering Strait initially bolstered Soviet hopes for a swift gain of key territories, weakening in particular our Early Warning capabilities. We should maintain careful watch on isolated radar stations, particularly in the North Pacific.
+2. 베링 해협에서의 교전은 초기에 소련이 주요 영토를 빠르게 확보하려는 희망을 강화시켰고, 특히 우리의 조기 경보 능력을 약화시켰습니다. 우리는 특히 북태평양의 고립된 레이더 기지를 주의 깊게 감시해야 합니다.
 <LineBreak/>
 <LineBreak/>
-3. However, the loss of a Ballistic Missile Submarine as it approached the SOSUS Barrier has caused significant recriminations within the Soviet Strategic Rocket Forces, and Naval Commands. The shock of a significant loss has increased the Soviet's desire to keep conflict isolated, and looks likely to push them towards more realistic negotiations.
+3. 그러나 탄도 미사일 잠수함이 SOSUS 장벽에 접근하는 과정에서 손실되면서 소련 전략 로켓 부대와 해군 사령부 내에서 상당한 비난을 받았습니다. 큰 손실의 충격으로 인해 소련은 갈등을 고립시키려는 욕구가 커졌고, 이는 그들을 보다 현실적인 협상으로 이끌 가능성이 높아 보입니다.
 <LineBreak/>
 <LineBreak/>
 		  </TextBlock>
-		  <TextBlock TextAlignment="Right" Text="William J. Casey" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,338,0,0" Grid.Row="2"/>
+		  <TextBlock TextAlignment="Right" Text="윌리엄 J. 케이시" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,338,0,0" Grid.Row="2"/>
 		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
-<Run TextDecorations="Underline">Distribution by ER/19 May 88 w/Atch</Run>
+<Run TextDecorations="Underline">응급실별 분포/88년 5월 19일/Atch</Run>
 <LineBreak/>
 <LineBreak/>
-Orig - Each Addressee
+오리진 - 각 수신자
 <LineBreak/>
    1 - DCI
 <LineBreak/>
@@ -109,7 +109,7 @@ Orig - Each Addressee
 <LineBreak/>
    1 - NIO/경고
 <LineBreak/>
-   1 - ER File
+   1 - ER 파일
 		  </TextBlock>
 		  <TextBlock Grid.Row="4" Text="SECRET" TextAlignment="Center"/>
 	    </Grid>

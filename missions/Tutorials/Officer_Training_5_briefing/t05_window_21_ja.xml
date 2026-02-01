@@ -18,7 +18,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
                     <TextBlock.Inlines>
                         <Run
-                            Text="では、エコー級巡航ミサイル潜水艦K-175を見てみよう。フォーメーションマネージャーまたは戦術ディスプレイからそれを選択し、ユニットリファレンスを開いて確認すること。" />
+                            Text="では、エコー級巡航ミサイル潜水艦K-175を見てみよう。編隊マネージャーまたは戦術ディスプレイからそれを選択し、ユニット参照を開いて確認すること。" />
                         <LineBreak />
                         <LineBreak />
                         <Run

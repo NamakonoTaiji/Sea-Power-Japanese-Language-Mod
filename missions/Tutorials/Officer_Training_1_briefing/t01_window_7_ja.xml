@@ -23,12 +23,12 @@
                     <LineBreak />
                     <LineBreak />
                     <Run
-                        Text="Sea Power の全ての水上艦と潜水艦は、エンジン・オーダー・テレグラフ（EOT）による操作方式を採用している。これにより、艦船は次の速度で航行できる：Back Full、All Stop、Ahead 1/3、Ahead 2/3、Ahead Standard、Ahead Full、そしてAhead Flank。"
+                        Text="Sea Power の全ての水上艦と潜水艦は、エンジン・オーダー・テレグラフ（EOT）による操作方式を採用している。これにより、艦船は次の速度で航行できる：Back Full、All Stop、1/3、2/3、Standard、Full、そしてFlank。"
                         FontSize="12" />
                     <LineBreak />
                     <LineBreak />
                     <Run
-                        Text="「Ahead Standard」は通常、その艦種にとって最も経済的で燃費の良い速度で前進することを意味する。「Ahead Full」は通常、最大速度の75%で前進することを意味し、「Ahead Flank」は最大速度の100%で前進することを意味する。"
+                        Text="「Standard」は通常、その艦種にとって最も経済的で燃費の良い速度で前進することを意味する。「Full」は通常、最大速度の75%で前進することを意味し、「Flank」は最大速度の100%で前進することを意味する。"
                         FontSize="12" />
                 </TextBlock.Inlines>
             </TextBlock>

@@ -39,7 +39,7 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="CARRIER AIR WING 11 (ATTU AFB):" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="제11 항모비행단 (애투 AFB):" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 <Run Text="2 x P-3C VP-5 '매드 폭스'"/><LineBreak/>
                 <Run Text="6 x F-14A VF-84 '졸리 로저스'"/><LineBreak/>
                 <Run Text="4 x A-6E VA-34 '블루 블라스터즈'"/><LineBreak/>
@@ -49,7 +49,7 @@
 
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="베링해" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="100"/>
-		<TextBlock Foreground="SteelBlue" Text="태평양 북부" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="600"/>
+		<TextBlock Foreground="SteelBlue" Text="북태평양" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="500" Canvas.Top="600"/>
 		<TextBlock Foreground="Black" Text="애투" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="775" Canvas.Top="290"/>
 		
 		<!-- Mission Area Ellipse -->
@@ -74,7 +74,7 @@
 		<!-- Attu AFB -->
 		<StackPanel Orientation="Vertical" Canvas.Left="815" Canvas.Top="280">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="애투 AFB"/>
+                <Run Text="애투 공군기지"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Airbase}"/>
@@ -107,7 +107,7 @@
 		<!-- Invasion Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="200" Canvas.Top="400">
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="Invasion Force"/>
+                <Run Text="침공군"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>

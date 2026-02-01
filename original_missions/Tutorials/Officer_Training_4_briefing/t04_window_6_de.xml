@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Einrichten einer AEW/AWACS-Patrouille"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Nun, da sich das AEW-Flugzeug auf Reiseflughöhe befindet und Sie die Zeitkompression wieder auf 1x reduziert haben, schalten Sie sein Radar ein und beginnen mit der Suche nach Radarkontakten."/>
+				<Run Text="Nun, da sich das AEW-Flugzeug auf Reiseflughöhe befindet und Sie den Zeitraffer wieder auf Echtzeit reduziert haben, schalten Sie das Radar des Flugzeugs ein und beginnen mit der Suche nach Radarkontakten."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Verwenden Sie die EMCON-Schaltfläche unten rechts, um das Luft- und Seeraumaufklärungsradar des Flugzeugs einzuschalten."/>

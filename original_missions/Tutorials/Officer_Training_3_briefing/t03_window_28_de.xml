@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Den getauchten Kontakt zerstören"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Setzen Sie Ihre Schiffe und Hubschrauber ein, um das U-Boot der November-Klasse zu bekämpfen und zu zerstören. Beachten Sie jedoch, dass feindliche U-Boote Torpedos auf Ihre Schiffe abfeuern können, sobald sie erkennen, dass sie angegriffen werden!"/>
+				<Run Text="Setzen Sie Ihre Schiffe und Hubschrauber ein, um das U-Boot der November-Klasse zu bekämpfen und zu zerstören. Beachten Sie jedoch, dass feindliche U-Boote Torpedos auf Ihre Schiffe abfeuern können, sobald sie bemerken, dass sie angegriffen werden!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Sie können das Tutorial an dieser Stelle fortsetzen, selbst wenn beide Ihrer Schiffe versenkt wurden."/>
+				<Run Text="Sie können das Tutorial trotzdem fortsetzen, selbst wenn beide Ihrer Schiffe versenkt wurden."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Zerstören Sie entweder das U-Boot oder klicken Sie auf „Weiter“, um fortzufahren."/>

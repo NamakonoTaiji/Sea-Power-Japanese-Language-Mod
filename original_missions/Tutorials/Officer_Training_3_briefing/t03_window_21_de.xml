@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Tauchsonar"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Tauchsonare stellen im Grunde ein miniaturisiertes variables Tiefensonar dar, das an einem langen Kabel aus der Hubschrauberkabine herabgelassen wird und eingesetzt werden kann während der Hubschraubers über der Wasseroberfläche schwebt."/>
+				<Run Text="Tauchsonare sind im Grunde miniaturisierte variable Tiefensonare (VDS), die an einem langen Kabel aus der Hubschrauberkabine herabgelassen und eingesetzt werden können, während der Hubschrauber über der Wasseroberfläche schwebt."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Tauchsonare können unterhalb der Temperaturschicht eingesetzt werden und verfügen in der Regel sowohl über ein aktives Sonar als auch über einen passiven Empfänger. Sie sind daher besonders nützlich, wenn ein Gebiet nach einem getauchten Kontakt durchsucht werden soll."/>
+				<Run Text="Tauchsonare können unterhalb der Temperaturschicht eingesetzt werden und verfügen in der Regel sowohl über ein aktives Sonar als auch über einen passiven Empfänger. Sie sind daher besonders nützlich, wenn ein Gebiet nach einem getauchten Kontakt durchkämmt werden soll."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Sie können den Hubschrauber anweisen, sein Sonar über das EMCON-Menü unten rechts einzusetzen, und dort auch die Einsatztiefe (unter/über Thermokline) festlegen."/>
+				<Run Text="Sie können den Hubschrauber anweisen, sein Sonar über das EMCON-Menü unten rechts einzusetzen, und können dort auch die Einsatztiefe (unter/über Thermokline) festlegen."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

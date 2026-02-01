@@ -1,0 +1,54 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="1974年8月4日"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="南海舰队司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第1水面攻击支队支队长"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="西沙自卫反击战"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		机密
+		<LineBreak/>
+		<LineBreak/>
+		1.西沙群岛的渔民和研究船报告称受到南越军舰的骚扰。昨天，南越军队炮击了我们竖立在甘泉岛的国旗并在此岛屿登陆。据报告，越来越多的南越军舰和突击队正在靠近周边岛屿。他们侵犯了我方的领土主权，指挥部已命令南海舰队立即出击，驱逐敌军。
+		<LineBreak/>
+		<LineBreak/>
+		2.第1水面攻击支队将在第2水面攻击支队之前开往永乐环礁，找到并识别那里的南越军队，但不要主动开火，除非受到攻击。
+		<LineBreak/>
+		<LineBreak/>
+		3.南越舰队包含1艘配备76毫米炮的埃德索尔级驱逐舰、2艘配备127毫米炮的巴尼加特级护卫舰和1艘配备轻型火炮的扫雷艇，上述军舰均由美国援助。敌人的射程优于我们，因此建议快速靠近并用我们的速射炮使敌人哑火。我们的反潜迫击炮将对这些船只造成致命打击，如果出现对抗，建议使用这些武器。
+		<LineBreak/>
+		<LineBreak/>
+		4.进入此区域，不要主动挑衅和开火，但也不要对敌方的挑衅坐视不管。祝你好运，猎杀愉快。
+		<LineBreak/>
+		<LineBreak/>
+		机密
+	</TextBlock>
+</Grid>

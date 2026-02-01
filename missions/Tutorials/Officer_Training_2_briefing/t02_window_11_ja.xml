@@ -27,7 +27,7 @@
                         <LineBreak />
                         <LineBreak />
                         <Run
-                            Text="これは、タンカーを右クリックし、『編隊（Formation）』、次に『編隊から離脱（Leave Formation）』をクリックすることで実行できる。" />
+                            Text="これは、タンカーを右クリックし、『編隊（Formation）』、次に『編隊離脱（Leave Formation）』をクリックすることで実行できる。" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

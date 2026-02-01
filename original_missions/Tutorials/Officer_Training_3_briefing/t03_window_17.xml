@@ -20,6 +20,9 @@
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Let's get one of these helicopters airborne to investigate the noise contact we have detected. Use the Flight Deck controls to launch one HSS-2B with an ASW loadout, then order it to proceed towards the contact with a waypoint on the Tactical Display."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Note: all aircraft launches in Sea Power will incur a 'prep' time, as well as a 'cooldown' time (when landing after a mission). By default, all ships with ASW helicopters will start each mission with one helicopter prepped and ready for launch. All additional aircraft must undergo preparation before taking off."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

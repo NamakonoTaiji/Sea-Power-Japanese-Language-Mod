@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		1985년 5월 24일
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="대서양함대사령관"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="뉴 저지 수상전단 사령관"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="단편명령 01호 - 어전트 리태스킹 작전"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		즉시 - 기밀처리됨
+		<LineBreak/>
+		<LineBreak/>
+		1. (기밀) 상황: 서독에서 나토와 조약기구 군대 간의 전투가 계속되고 있습니다. 나토 리포거 호송대는 미국 동부 해안에서 앤트워프와 브레스트로 정기적으로 이동하고 있습니다. 미 해군 잠수함과 폭격기 부대는 호송대를 차단하려고 시도하고 있지만 아직까지는 별다른 성과를 거두지 못했습니다. 5월 19일, 국가 기술 정보원은 무르만스크의 키로프 CGN 및 소브레멘니급 DDG에 있는 엔지니어링 공장에서 열이 나는 것을 감지했습니다. 다음 위성의 이미지에서 누락된 이 유닛들은 5월 22일 대서양으로 이동하는 것으로 의심됩니다.
+		<LineBreak/>
+		<LineBreak/>
+		2. (기밀) 임무: NATO 해군과 공군은 키로프 수상전단을 찾아 파괴하기 위해 GIUK 갭에서 장벽 작전을 수행할 것입니다.
+		<LineBreak/>
+		<LineBreak/>
+		3. (기밀) 실행: 인근의 나토 부대는 제한됨. 뉴저지 수상전단은 서부 GIUK 갭 방어 임무를 맡게 되며, 독일 해군 부대는 헤브리디스에서 동쪽 장벽 임무를 맡게 됩니다. 케플라비크의 P-3가 수색을 도와줄 것입니다. 키로프 수상전단 발견되면 가능한 모든 수단을 동원하여 함선을 침몰시킬것.
+		<LineBreak/>
+		<LineBreak/>
+		4. (기밀) 적의 전투 서열: 키로프급 CGN 1대와 소브레멘니급 DDG 1대. Tu-95 항공기 및 AGI 트롤어선은 병력에 대한 표적 데이터를 통과할 수 있습니다. 키로프 CGN은 사거리 350nm의 SS-N-19 쉽렉 미사일 20발을 탑재하고 있습니다.
+		<LineBreak/>
+		<LineBreak/>
+		5. (기밀) 비고: 참여의 편향된 특성으로 인해 EMCON이 권장됩니다. 이 부대들은 대서양에 진입하여 우리 호송대를 위협하기 전에 반드시 요격해야 합니다. 신클랜트는 이것이 어려운 과제라는 것을 이해하지만 뉴저지가 해낼 것이라는 것을 알고 있습니다. 행운을 빌며 좋은 사냥되길.
+		<LineBreak/>
+		<LineBreak/>
+		기밀
+		<LineBreak/>
+		수신인의 승인 없이 기밀 해제하지 말것
+	  </TextBlock>
+</Grid>

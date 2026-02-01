@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Andere Aufklärungsmethoden"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Nutzen Sie die Zeitkompression, um das Szenario bei Bedarf voranzubringen."/>
+				<Run Text="Nutzen Sie den Zeitraffer, um das Szenario bei Bedarf voranzubringen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Besprechen wir nun „andere Methoden“ der Aufklärung – damit sind alle Verfahren gemeint, die nichts mit den Sensoren Ihrer Schiffe und Luftfahrzeuge zu tun haben. In der Regel werden extern erfasste Kontakte in Form von Ingame-Popup-Meldungen sowie „Aufklärungs“-Nachrichten an Sie übermittelt, die im Event-Logbuch gespeichert werden."/>
+				<Run Text="Besprechen wir nun einmal „andere Methoden“ der Aufklärung. Damit sind alle Verfahren gemeint, die nichts mit den Sensoren Ihrer Schiffe und Luftfahrzeuge zu tun haben. In der Regel werden extern erfasste Kontakte in Form von Ingame-Popup-Meldungen sowie „Aufklärungs“-Nachrichten an Sie übermittelt, die im Event-Logbuch gespeichert werden."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Aufklärungsmethoden, die Ihnen von höherer Stelle übermittelt werden können, umfassen Kontakte von Unterwasser-Hydrofonketten (SOSUS), Überflüge von Radaraufklärungssatelliten (RORSAT) über das Einsatzgebiet und sogar Funkmeldungen von Fischern, die Kriegsschiffe oder Periskope gesichtet haben! Dieses Verhalten wird in die Szenarien einprogrammiert und ist im Early Access in der Regel nicht „dynamisch“. Klicken Sie auf „Weiter“ für ein Beispiel."/>

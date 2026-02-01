@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Rückführung des Angriffsverbandes"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Führen Sie weitere Angriffsflüge durch und greifen Sie die beiden feindlichen Schiffe so lange an, bis sie versenkt sind."/>
+				<Run Text="Greifen Sie weiter an und bekämpfen Sie die beiden feindlichen Schiffe, bis sie versenkt sind."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Sobald beide feindlichen Schiffe zerstört sind, befehlen Sie Ihren Angriffsflugzeugen den Rückflug zur Basis (RTB). Klicken Sie die mittlere Maustaste, um zum Formationsanführer zu springen und drücken Sie anschließend die Taste T, um der gesamten Formation den Rückflug zum Träger zu befehlen."/>

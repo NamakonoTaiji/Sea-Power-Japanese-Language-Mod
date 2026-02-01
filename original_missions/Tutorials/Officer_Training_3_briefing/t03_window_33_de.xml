@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Offiziersausbildung 3 - Abschluss"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Gute Arbeit beim Erlernen der Feinheiten der U-Jagd! Dies ist eine wichtige Fähigkeit im weiteren Spiel – sowohl in einzelnen Szenarien als auch in der Kampagne."/>
+				<Run Text="Gute Arbeit! Sie haben die Feinheiten der U-Jagd mit Erfolg erlernt! Diese Fähigkeiten werden noch im weiteren Spiel wichtig, sowohl in einzelnen Szenarien als auch in der Kampagne."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Damit ist die dritte Ausbildungseinheit abgeschlossen. Gut gemacht, Kommandant!"/>

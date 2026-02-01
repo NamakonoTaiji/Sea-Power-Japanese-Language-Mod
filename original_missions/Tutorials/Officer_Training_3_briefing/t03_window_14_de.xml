@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Thermokline (Temperaturschichten)"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Da Sie nun das Schleppsonar einsetzen, wollen wir die Thermokline und ihre Eigenschaften behandeln."/>
+				<Run Text="Da Sie nun das Schleppsonar einsetzen, wollen wir kurz auf die Thermokline und ihre Eigenschaften eingehen."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="In den meisten Bereichen des Ozeans existiert in einer bestimmten Tiefe eine ausgeprägte Thermokline, bei der sich die Wassertemperatur stark verändert. Diese wird auch als „Temperaturschicht“ bezeichnet. U-Boote, die sich unterhalb der Schicht befinden, sind für Schiffe und Sonobojen oberhalb der Schicht schwieriger zu orten, da die Wassertemperatur die Schallausbreitung im Wasser stark beeinflusst."/>

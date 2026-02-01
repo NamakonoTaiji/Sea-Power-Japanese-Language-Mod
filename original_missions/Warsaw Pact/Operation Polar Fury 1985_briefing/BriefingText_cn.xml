@@ -1,0 +1,52 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        1985年2月2日
+    </TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="北方舰队总部"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="K-527号潜艇艇长"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="挪威海拦截行动"/>
+        <!--
+    <Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+    -->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        1.态势：我方部队在纳尔维克附近海域持续作战，尝试从北约守军手中夺取这座堡垒。双方兵力对比正向我方倾斜，但信号情报截获信息显示以艾奥瓦级战列舰为核心的美国水面打击群正穿过冰岛和法罗群岛之间的海域前来支援。
+        <LineBreak/>
+        <LineBreak/>
+        2.任务：北方舰队潜艇将沿预计航线在美国水面打击群前往纳尔维克的途中拦截。击沉美国战列舰是首要任务。
+        <LineBreak/>
+        <LineBreak/>
+        3.执行：K-527号潜艇将向南航行至拦截点，与附近的K-452号和B-402号潜艇会合，协调攻击并击沉美国舰队。
+        <LineBreak/>
+        <LineBreak/>
+        4.美国水面打击群可能由佩里级、诺克斯级和斯普鲁恩斯级反潜护航舰和贝尔纳普级防空护航舰组成。预计美国的P-3反潜机将前来支援。
+        <LineBreak/>
+        <LineBreak/>
+        5.此次行动如果成功，即可切断敌方陆军的海上支援，并且使我们取得纳尔维克之战的最终胜利。祝你好运，同志。
+      </TextBlock>
+</Grid>

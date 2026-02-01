@@ -17,7 +17,7 @@
                     FontWeight="Bold" Text="データムと最大進出円" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="司令官、情報筋から本海域で作戦中の別潜水艦に関する警告がもたらされた。" />
+                        <Run Text="指揮官、情報筋から本海域で作戦中の別潜水艦に関する警告がもたらされた。" />
                         <LineBreak />
                         <LineBreak />
                         <Run

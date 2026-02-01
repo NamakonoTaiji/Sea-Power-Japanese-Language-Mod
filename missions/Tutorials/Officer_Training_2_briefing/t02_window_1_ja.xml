@@ -19,7 +19,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
                     <TextBlock.Inlines>
                         <Run
-                            Text="ようこそ、司令官！このチュートリアルでは、小規模な NATO 機動部隊を指揮し、艦隊運用について学ぶ。貴官は水上護衛艦 FGS リュッチェンスと HNoMS ナルヴィク、そして海上輸送司令部のタンカー USNS シーリフト・インディアン・オーシャンの指揮を執る。" />
+                            Text="ようこそ、指揮官！このチュートリアルでは、小規模な NATO 機動部隊を指揮し、艦隊運用について学ぶ。貴官は水上護衛艦 FGS リュッチェンスと HNoMS ナルヴィク、そして海上輸送司令部のタンカー USNS シーリフト・インディアン・オーシャンの指揮を執る。" />
                         <LineBreak />
                         <LineBreak />
                         <Run
@@ -27,7 +27,7 @@
                         <LineBreak />
                         <LineBreak />
                         <Run
-                            Text="このウィンドウは、右下のイベントログを開き、「フリーコンテンツウィンドウを開く」をクリックすることで、いつでも再度表示可能だ。" />
+                            Text="このウィンドウは、右下のイベントログを開き、「フリーコンテンツウィンドウ」をクリックすることで、いつでも再度表示可能だ。" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

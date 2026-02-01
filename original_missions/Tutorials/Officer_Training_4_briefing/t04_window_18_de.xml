@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Alle Flugzeuge zurückrufen"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Jetzt, da wir alle an Bord befindlichen Flugzeugtypen durchgegangen sind, befehlen Sie allen in der Luft befindlichen Maschinen die Rückkehr zur Basis. Wählen Sie dazu ihren Formationsanführer mit der mittleren Maustaste aus und drücken Sie anschließend die Taste T."/>
+				<Run Text="Jetzt, da wir alle an Bord befindlichen Flugzeugtypen durchgegangen sind, befehlen Sie allen in der Luft befindlichen Maschinen die Rückkehr zur Basis. Wählen Sie dazu ihren jeweiligen Formationsanführer mit der mittleren Maustaste aus und drücken Sie anschließend die Taste T."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Hinweis: Sie können allen in der Luft befindlichen Flugzeugen den Befehl zur Rückkehr erteilen, indem Sie das Flugdeck öffnen und auf die Schaltfläche "/><Run Text="Alle Zurückrufen" FontWeight="Bold"/><Run Text=" klicken!"/>

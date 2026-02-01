@@ -11,10 +11,10 @@
 		축하합니다!
 	</TextBlock>
     <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap">
-		Well done on making it to the end of Calculus of Conflict. This set of missions has been a combined effort from community members iblank, Ian Roberts, and Neu. Thank you to them for making it and you for playing it!
+		분쟁의 미적분학을 끝까지 잘 해냈습니다. 이 일련의 임무는 커뮤니티 구성원인 iblank, Ian Roberts, 그리고 Neu의 공동 노력이었습니다. 만들어 주셔서 감사드리며, 여러분도 함께 해주셔서 감사합니다!
 		<LineBreak/>
 		<LineBreak/>
-		Why not try going back and playing the other side of Bargaining Chips? We've had a lot of fun making these missions and we'd love for you to play them all.
+		다시 돌아가서 협상 카드의 반대편을 플레이해보는 건 어떨까요? 우리는 이 미션들을 정말 재미있게 만들었고, 여러분도 모두 해주셨으면 좋겠습니다.
 	</TextBlock>
   </StackPanel>
 </Page>

@@ -19,7 +19,7 @@
 				<Run Text="Die Korrelation von Informationen aus Ihren verschiedenen Sensoren ist nicht zwingend der einzige Weg, um Radarechos zu identifizieren. Als Spieler können Sie fundierte Vermutungen darüber anstellen, um welche Kontakte es sich bei bestimmten Radarechos handeln könnte, auch ohne dass ein weiterer Sensor diesen Kontakt ebenfalls meldet."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Beispielsweise sind die meisten Radarechos, die auf der Taktischen Karte erscheinen, in großen Abständen voneinander versetzt (mehr als 50 Seemeilen) und bewegen sich überwiegend in etwa derselben Richtung, entweder ost- oder westwärts. Diese Kontakte können mit hoher Wahrscheinlichkeit als neutrale Handelsschiffe klassifiziert werden, die bekannte Schifffahrtskorridore passieren."/>
+				<Run Text="Beispielsweise sind die meisten Radarechos, die auf der Taktischen Karte erscheinen, in großen Abständen voneinander versetzt (mehr als 50 Seemeilen) und bewegen sich überwiegend in etwa derselben Richtung, entweder ost- oder westwärts. Diese Kontakte können mit hoher Wahrscheinlichkeit als neutrale Handelsschiffe klassifiziert werden, die bekannte Schifffahrtskorridore befahren."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

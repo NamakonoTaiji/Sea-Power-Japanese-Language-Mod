@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="飞机起飞"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="我们让航母开始航空行动。首先，我们需要加速至30节，这样才能让飞机起飞。飞机收到起飞命令时航母会自动进行加速。"/>
+				<Run Text="我们让航母开始航空行动。首先，我们需要加速至20节，这样才能让飞机起飞。飞机收到起飞命令时航母会自动进行加速。"/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="注意：如果你的航母编队中有护航或辅助舰艇，它们的速度可能不足以在飞机起飞时跟随航母！"/>

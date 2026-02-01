@@ -4,168 +4,150 @@
     xmlns:local="clr-namespace:SeapowerUI">
     <Canvas Width="1095" Height="662">
         <Image Source="{Binding Assets[Grenada_Close]}" />
-        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5"
-            BorderBrush="White">
+        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
             <Grid>
-                <Image Stretch="Uniform"
-                    Source="{Binding Assets[AtlanticFar]}" Width="250" />
-                <Border
-                    BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                <Image Stretch="Uniform" Source="{Binding Assets[AtlanticFar]}" Width="250" />
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom"
                     Width="30" Height="20" Margin="45,0,0,30"
                     BorderBrush="{StaticResource Brush.Border.FocusAccent}" />
             </Grid>
         </Border>
-        <TextBlock Foreground="SteelBlue" Text="大西洋"
-            HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="890"
-            Canvas.Top="500" />
-        <TextBlock Foreground="Black" Text="グレナダ"
-            HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="530"
-            Canvas.Top="250" />
-        <TextBlock Foreground="SteelBlue" Text="カリブ海"
-            HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="100"
-            Canvas.Top="300" />
-        <StackPanel Orientation="Vertical"
-            Canvas.Left="350" Canvas.Top="575">
-            <TextBlock Foreground="Blue"
-                TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run
-                    Text="USS Caron DD-970" />
+
+        <TextBlock Foreground="SteelBlue" Text="大西洋" HorizontalAlignment="Center" FontSize="16"
+            FontWeight="Bold" Canvas.Left="890" Canvas.Top="500" />
+        <TextBlock Foreground="Black" Text="グレナダ" HorizontalAlignment="Center" FontSize="16"
+            FontWeight="Bold" Canvas.Left="530" Canvas.Top="250" />
+        <TextBlock Foreground="SteelBlue" Text="カリブ海" HorizontalAlignment="Center" FontSize="16"
+            FontWeight="Bold" Canvas.Left="100" Canvas.Top="300" />
+
+        <StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="575">
+            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center"
+                Margin="0,0,0,0">
+                <Run Text="駆逐艦キャロン(DD-970)" />
             </TextBlock>
-            <Canvas
-                Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path
-                    StrokeThickness="{DynamicResource ContactIconThickness}"
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.FriendColour}"
                     Data="{StaticResource NTDS.Allied.Surface}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.FriendColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="700" Canvas.Top="500">
             <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center"
                 Margin="0,0,0,0">
-                <Run Text="USS Moosbrugger DD-980" />
+                <Run Text="駆逐艦ムースブラッガー(DD-980)" />
                 <LineBreak />
                 <Run Text="(単独行動中)" />
             </TextBlock>
-            <Canvas
-                Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path
-                    StrokeThickness="{DynamicResource ContactIconThickness}"
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.FriendColour}"
                     Data="{StaticResource NTDS.Allied.Surface}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.FriendColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="600">
             <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center"
                 Margin="0,0,0,0">
-                <Run Text="AH-1T HMLA-269 'Gunrunners'" />
+                <Run Text="AH-1T 第269海兵軽攻撃ヘリコプター飛行隊 'Gunrunners'" />
             </TextBlock>
             <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.FriendColour}"
                     Data="{StaticResource NTDS.Allied.Helicopter}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.FriendColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="400">
             <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center"
                 Margin="0,0,0,0">
-                <Run Text="SH-3H HS-9 'Sea Griffins' CSAR" />
+                <Run Text="SH-3H 第9対潜ヘリコプター飛行隊 'Sea Griffins' (CSAR)" />
             </TextBlock>
             <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.FriendColour}"
                     Data="{StaticResource NTDS.Allied.Helicopter}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.FriendColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="150" Canvas.Top="200">
             <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center"
                 Margin="0,0,0,0">
-                <Run Text="2 x A-7E VA-15 'Valions'" />
+                <Run Text="A-7E 第15攻撃飛行隊 'Valions' ×2" />
             </TextBlock>
             <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.FriendColour}"
                     Data="{StaticResource NTDS.Allied.Air}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.FriendColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="475">
             <TextBlock Foreground="{StaticResource NTDS.NeutralColour}" TextAlignment="Center"
                 VerticalAlignment="Center" Margin="0,0,0,0">
                 <Run Text="ポイント・サリンス空港" />
             </TextBlock>
-            <Canvas Width="22.5" Height="22.5"
-                HorizontalAlignment="Center">
-                <Path
-                    StrokeThickness="{DynamicResource ContactIconThickness}"
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.NeutralColour}"
                     Data="{StaticResource NTDS.Neutral.Airbase}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.NeutralColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.NeutralColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="360" Canvas.Top="375">
             <TextBlock Foreground="{StaticResource NTDS.NeutralColour}" TextAlignment="Center"
                 VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="総督公邸" />
+                <Run Text="総督官邸" />
             </TextBlock>
             <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.NeutralColour}"
                     Data="{StaticResource NTDS.Neutral.Airbase}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.NeutralColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.NeutralColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="400" Canvas.Top="420">
             <TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center"
                 VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run
-                    Text="フォート・フレデリック (PRA)" />
+                <Run Text="フォート・フレデリック(PRA)" />
             </TextBlock>
-            <Canvas
-                Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path
-                    StrokeThickness="{DynamicResource ContactIconThickness}"
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.HostileColour}"
                     Data="{StaticResource NTDS.Enemy.Installation}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.HostileColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}" />
             </Canvas>
         </StackPanel>
+
         <StackPanel Orientation="Vertical" Canvas.Left="375" Canvas.Top="325">
             <TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center"
                 VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run
-                    Text="ラジオ・フリー・グレナダ (PRA)" />
+                <Run Text="ラジオ・フリー・グレナダ(PRA)" />
             </TextBlock>
-            <Canvas
-                Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path
-                    StrokeThickness="{DynamicResource ContactIconThickness}"
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}"
                     Stroke="{StaticResource NTDS.HostileColour}"
                     Data="{StaticResource NTDS.Enemy.Radar}" />
-                <Ellipse
-                    Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325"
-                    Stroke="{StaticResource NTDS.HostileColour}" />
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3"
+                    StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}" />
             </Canvas>
         </StackPanel>
+
         <Path Canvas.Left="300" Canvas.Top="300"
             Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z"
             Fill="{StaticResource NTDS.FriendColour}">
@@ -173,6 +155,7 @@
                 <RotateTransform Angle="130" />
             </Path.RenderTransform>
         </Path>
+
         <Path Canvas.Left="300" Canvas.Top="515"
             Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z"
             Fill="{StaticResource NTDS.FriendColour}">

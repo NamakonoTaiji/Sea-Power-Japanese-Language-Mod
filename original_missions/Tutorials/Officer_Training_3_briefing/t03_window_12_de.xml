@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Sprint und Drift"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Klicken Sie nun mit der rechten Maustaste auf den nächsten Wegpunkt in der Reihe und verwenden Sie dasselbe Menü, um die Geschwindigkeit auf " FontSize="12"/><Run FontWeight="Bold" Text="Kleine Fahrt Voraus" FontSize="12"/><Run Text=" zu setzen. Dies stellt die „Drift“-Phase des Manövers dar."/>
+				<Run Text="Klicken Sie nun mit der rechten Maustaste auf den nächsten Wegpunkt in der Reihe und verwenden Sie dasselbe Menü, um die Geschwindigkeit auf " FontSize="12"/><Run FontWeight="Bold" Text="Kleine Fahrt Voraus" FontSize="12"/><Run Text=" zu reduzieren. Dies stellt die „Drift“-Phase des Manövers dar."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Sie können diesen Vorgang beliebig oft in eine bestimmte Richtung wiederholen, aber verlegen Sie die JDS Kikuzuki weiterhin auf einer Linie nach Nordosten (ungefähr Kurs 045), während die JDS Hiei mit konstanter Geschwindigkeit " FontSize="12"/><Run FontWeight="Bold" Text="Kleine Fahrt Voraus" FontSize="12"/><Run Text=" ebenfalls nach Nordosten fährt."/>
+				<Run Text="Sie können diesen Vorgang beliebig oft in eine bestimmte Richtung wiederholen, aber verlegen Sie in unserem Fall die JDS Kikuzuki weiterhin auf einer Linie nach Nordosten (ungefähr Kurs 045), während die JDS Hiei mit konstanter Geschwindigkeit " FontSize="12"/><Run FontWeight="Bold" Text="Kleine Fahrt Voraus" FontSize="12"/><Run Text=" ebenfalls nach Nordosten fährt."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

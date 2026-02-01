@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
+	</TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="제7특수작전비행대대 사령부"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="제2해안방어사단 사령부"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="접촉 보고 - 명령 하달"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. 전술적 상황: 미국 잠수함들이 바렌츠 해에 있는 우리의 요새에 계속 침투하려고 시도하고 있습니다. 제2해안방어사단은 우리 영해에서 미군에 대한 대잠전을 수행하고 있습니다. 오늘 아침, 우리의 공격 잠수함 중 하나가 오스트로노이 북쪽 약 150nm 지점에서 미국의 음향 신호를 보고했습니다.
+      <LineBreak/>
+      <LineBreak/>
+      2. 주요 목표: 제2해안사단 안톤 분견대는 마지막으로 보고된 연락 지점으로 이동하여 미군을 파괴할 것입니다.
+      <LineBreak/>
+      <LineBreak/>
+	  3. 아군 지원: 제145대잠항공연대의 IL-38 항공 지원이 가능합니다.
+	  <LineBreak/>
+      <LineBreak/>
+	  4. 적 전투 명령: K-481이 미국 스터전급 공격 잠수함과 관련된 서명을 보고합니다.
+      <LineBreak/>
+      <LineBreak/>
+      5. 무장사용 준비허가: 잠수함 접촉 전 상황에 대해 승인.
+      <LineBreak/>
+      <LineBreak/>
+      6. 전파방사통제: 전파통제 제한 없음.
+	  <LineBreak/>
+      <LineBreak/>
+      7. 비고: 미국의 공격 잠수함은 위험한 적이므로 과소평가해서는 안 됩니다. 행운을 빕니다, 동지들.
+    </TextBlock>
+</Grid>

@@ -17,7 +17,7 @@
                     FontWeight="Bold" Text="対潜任務における航空機の活用" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="見事だ、司令官。ノヴェンバー級の破壊に成功した！" />
+                        <Run Text="見事だ、指揮官。ノヴェンバー級の破壊に成功した！" />
                         <LineBreak />
                         <LineBreak />
                         <Run

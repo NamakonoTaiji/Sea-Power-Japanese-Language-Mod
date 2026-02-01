@@ -37,20 +37,20 @@
                 <Run Text="항공 자산:"/><LineBreak/>
                 <Run Text="Tu-95RT 제392독립장거리정찰항공연대"/><LineBreak/>
                 <Run Text="2 x Tu-22M2 제924근위해군로켓항공연대"/><LineBreak/><LineBreak/>
-                <Run Text="10TH SUBMARINE DIVISION:"/><LineBreak/>
+                <Run Text="제10 잠수함사단 :"/><LineBreak/>
                 <Run Text="K-175 (Pr.675)"/>
            </TextBlock>
 		</Border>
 
 		<!-- Map Labels -->
-		<TextBlock Foreground="SteelBlue" Text="North Pacific Ocean" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="750" Canvas.Top="300"/>
+		<TextBlock Foreground="SteelBlue" Text="북태평양" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="750" Canvas.Top="300"/>
 		
 		<!-- Mission Area Ellipse -->
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="475" Canvas.Top="300">
 			<Ellipse Width="200" Height="200" Opacity="0.25" Fill="{StaticResource NTDS.HostileColour}"/>
 			<!-- Mission Area Text -->
-			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="U.S. Task Force" HorizontalAlignment="Center"/>
-			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="Approximate Location" HorizontalAlignment="Center"/>
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="미국 태스크포스" HorizontalAlignment="Center"/>
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="대략적인 위치" HorizontalAlignment="Center"/>
 		</StackPanel>	
 		
 		<!-- Task Force Vostok -->

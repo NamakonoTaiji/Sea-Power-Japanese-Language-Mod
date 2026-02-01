@@ -22,7 +22,7 @@
 				<Run Text="Bei diesem Kontakt handelt es sich offenbar um ein sowjetisches Jagd-U-Boot der November-Klasse!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Hinweis: Feindliche Einheiten werden in diesem Tutorial zurückschießen, wenn sie dazu in der Lage sind. Die November-Klasse ist mit dem 53-65K-Torpedo mit Kielwassererkennung ausgerüstet, der eine Reichweite von 10 Seemeilen hat. Wenn dieser Torpedo das Kielwasser eines Ihrer Schiffe kreuzt, wird er darauf aufschalten und Sie versenken! Sie können das vermeiden, indem Sie nach Erkennung eines Kielwasser-Torpedos die Fahrt auf " FontSize="12"/><Run FontWeight="Bold" Text="Alle Maschinen Stop" FontSize="12"/><Run Text=" reduzieren oder den Kurs so ändern, dass die Kielwasser-Sucher vor Ihnen queren und Ihr Kielwasser nicht erfassen."/>
+				<Run Text="Hinweis: Feindliche Einheiten werden in diesem Tutorial zurückschießen, wenn sie dazu in der Lage sind. Die November-Klasse ist mit dem 53-65K-Torpedo mit Kielwassererkennung ausgerüstet, der eine Reichweite von 10 Seemeilen hat. Wenn dieser Torpedo das Kielwasser eines Ihrer Schiffe kreuzt, wird er darauf aufschalten und sie versenken! Sie können das vermeiden, indem Sie nach Sichtung eines Kielwasser-Torpedos die Fahrt auf " FontSize="12"/><Run FontWeight="Bold" Text="Alle Maschinen Stop" FontSize="12"/><Run Text=" reduzieren oder den Kurs so ändern, dass die Kielwasser-Sucher vor Ihnen queren und Ihr Kielwasser nicht erfassen."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

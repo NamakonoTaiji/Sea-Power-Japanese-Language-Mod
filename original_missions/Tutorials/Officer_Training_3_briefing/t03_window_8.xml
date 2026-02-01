@@ -19,7 +19,7 @@
 				<Run Text="Since we know the noise contact ahead of us is a whale, if our ships have not already identified it, we can manually identify it as the player."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Right click on the noise contact and then click on 'Neutral' to designate it as a neutral contact. If the contact was already identified by our sonar operators, proceed to the next step."/>
+				<Run Text="Hold Left Ctrl and then right click on the noise contact and then click on 'Neutral' to designate it as a neutral contact. If the contact was already identified by our sonar operators, proceed to the next step."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

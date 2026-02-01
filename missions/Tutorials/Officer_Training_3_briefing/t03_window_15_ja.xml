@@ -17,7 +17,7 @@
                     FontWeight="Bold" Text="コンタクトの捜索" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="見事だ、司令官。この時点で、護衛艦「きくづき」は曳航式アレイを層の下に展開したまま、スプリント＆ドリフトを実施している。" />
+                        <Run Text="見事だ、指揮官。この時点で、護衛艦「きくづき」は曳航式アレイを層の下に展開したまま、スプリント＆ドリフトを実施している。" />
                         <LineBreak />
                         <LineBreak />
                         <Run Text="新たな潜航中のノイズコンタクトを探知するまで、このプロセスを継続する。" />

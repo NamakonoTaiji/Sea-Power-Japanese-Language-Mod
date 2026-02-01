@@ -17,7 +17,7 @@
                     FontWeight="Bold" Text="攻撃の連携" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
                     <TextBlock.Inlines>
-                        <Run Text="時間圧縮を使用して、両ユニットが射程内に入るまでシナリオを進める。" />
+                        <Run Text="早送りを使用して、両ユニットが射程内に入るまでシナリオを進める。" />
                         <LineBreak />
                         <LineBreak />
                         <Run

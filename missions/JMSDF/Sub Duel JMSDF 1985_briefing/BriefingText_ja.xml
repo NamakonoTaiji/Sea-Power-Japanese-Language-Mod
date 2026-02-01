@@ -19,36 +19,35 @@
             Height="Auto" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition
+            Width="10" />
+        <ColumnDefinition Width="*" />
         <ColumnDefinition
             Width="Auto" />
-        <ColumnDefinition Width="10" />
-        <ColumnDefinition
-            Width="*" />
-        <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
         <Run Text="1985年6月26日" />
     </TextBlock>
-    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="発信:" />
-    <TextBlock Grid.Row="3" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="潜水艦隊司令官" />
-    <TextBlock Grid.Row="4"
-        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
-        Text="海上自衛隊潜水艦「もちしお」艦長" />
-    <TextBlock Grid.Row="7" Grid.Column="0"
-        FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
-    <TextBlock Grid.Row="7"
-        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触報告" />
-    <TextBlock
-        Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
-        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1. (S)
-        協定世界時0831、北海道西方領海内にて、自衛隊のソナー網が2つの未確認音響反応を探知。 <LineBreak />     <LineBreak /> 2. (S)
-        情報部の評価によれば、一方の目標はヴィクターIII級潜水艦。他方は未確認ながら、キロ級またはロメオ級SSKの可能性が高い。両目標は宗谷海峡に向け東進中。 <LineBreak />
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="自衛艦隊潜水艦隊司令官" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="潜水艦「もちしお」(SS-574) 艦長" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触報告" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 秘密 (SECRET) <LineBreak />         
+        <LineBreak /> 1. (S)
+        0831Z、自衛隊のソーナー監視網が北海道西方の領海内において、正体不明の音響信号2隻を捕捉した。 <LineBreak />         
+        <LineBreak /> 2. (S)
+        情報評価によれば、接触標的のうち1隻はヴィクターIII型潜水艦と判定。もう1隻は特定に至っていないが、キロ型またはロメオ型通常動力潜水艦（SSK）である可能性が高い。標的は共に宗谷海峡へ向けて東進中である。
         <LineBreak />
-        3. (S) 宗谷海峡西方に進出し、両潜水艦を発見、撃沈せよ。 <LineBreak />     <LineBreak /> 4. (S)
-        本作戦は、この地域における連合国の活動にとって極めて重要である。我が国のために全力を尽くせ。 <LineBreak />     <LineBreak /> 極秘 </TextBlock>
+        <LineBreak />
+        3. (S) 宗谷海峡西方にて哨戒につき、当該潜水艦2隻を捕捉・撃沈せよ。 <LineBreak />         
+        <LineBreak /> 4. (S)
+        本作戦はこの海域における同盟軍の活動において極めて重要である。国家の期待に応え、最善を尽くされたし。 <LineBreak />         
+        <LineBreak /> 秘密 (SECRET) </TextBlock>
 </Grid>

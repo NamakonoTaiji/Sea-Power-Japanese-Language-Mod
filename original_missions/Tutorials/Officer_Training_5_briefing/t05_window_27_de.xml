@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Offiziersausbildung 5 - Abschluss"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Gute Arbeit bei der Durchführung der offenen Seeaufklärung und des Time on Target-Schlages durch Ihre Kräfte!"/>
+				<Run Text="Gute Arbeit! Sie haben mit Ihren Kräften erfolgreich eine offene Seeaufklärung und einen Time on Target-Angriff durchgeführt!"/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Damit ist der letzte Teil der Offiziersausbildung abgeschlossen. Gut gemacht, Kommandant!"/>

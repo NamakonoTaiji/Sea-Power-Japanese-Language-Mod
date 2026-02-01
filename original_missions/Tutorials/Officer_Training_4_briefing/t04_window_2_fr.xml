@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Faire décoller un avion"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Commençons les opérations aériennes avec notre porte-avions. L'une des premières choses que les porte-avions doivent faire pour lancer un avion est d'atteindre une vitesse de 30 nœuds. Cela se fait automatiquement lorsqu'un avion est prêt à décoller."/>
+				<Run Text="Commençons les opérations aériennes avec notre porte-avions. L'une des premières choses que les porte-avions doivent faire pour lancer un avion est d'atteindre une vitesse de 20 nœuds. Cela se fait automatiquement lorsqu'un avion est prêt à décoller."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Gardez à l'esprit que si vous avez des escortes ou des navires auxiliaires en formation avec votre porte-avions, ils pourraient ne pas être en mesure de suivre le rythme du porte-avions lorsqu'il mène des opérations aériennes !"/>

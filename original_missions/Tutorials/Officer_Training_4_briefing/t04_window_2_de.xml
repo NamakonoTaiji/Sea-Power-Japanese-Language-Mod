@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Flugzeuge Starten"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Beginnen wir mit dem Flugbetrieb Ihres Trägers. Einer der ersten Schritte beim Start von Flugzeugen ist das Erreichen einer Geschwindigkeit von 30 Knoten. Dies geschieht automatisch, sobald ein Flugzeug zum Start vorbereitet wird."/>
+				<Run Text="Beginnen wir mit dem Flugbetrieb Ihres Trägers. Einer der ersten Schritte beim Start von Flugzeugen ist das Erreichen einer Geschwindigkeit von 20 Knoten. Dies geschieht automatisch, sobald ein Flugzeug zum Start vorbereitet wird."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Beachten Sie: Wenn sich Begleitschiffe oder Versorgungseinheiten in Formation mit Ihrem Träger befinden, können diese möglicherweise nicht mit der Geschwindigkeit des Trägers mithalten, sobald dieser den Flugbetrieb aufnimmt."/>

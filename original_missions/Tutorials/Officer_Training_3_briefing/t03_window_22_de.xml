@@ -19,10 +19,10 @@
 				<Run Text="Das letzte den Luftfahrzeugen zur Verfügung stehende Werkzeug ist der Magnetanomalie-Detektor (MAD)."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Ein MAD wird über einen sogenannten „MAD-Bird“ eingesetzt, der am Heck des Hubschraubers ausgefahren wird. Der MAD funktioniert, indem er Veränderungen im Erdmagnetfeld erkennt, die durch große Massen von ferromagnetischen Metallen, wie z. B. den Stahlrumpf eines U-Bootes, verursacht werden. Hinweis: U-Boote mit Titanrumpf, wie die sowjetische Alfa-Klasse, sind mit MAD-Geräten nur sehr schwer zu orten!"/>
+				<Run Text="Ein MAD wird über einen sogenannten „MAD-Bird“ eingesetzt, der sich am Heck des Hubschraubers befindet. Ein MAD misst und erkennt Veränderungen im Erdmagnetfeld, die durch große Massen von ferromagnetischen Metallen, wie z.B. den Stahlrumpf eines U-Bootes, verursacht werden. Hinweis: U-Boote mit Titanrumpf, wie die sowjetische Alfa-Klasse, sind mit MAD-Geräten nur sehr schwer zu orten!"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Die MAD-Ausrüstung erfordert, dass der Hubschrauber sehr enge Suchmuster in geringer Höhe fliegt. Sie können eine MAD-Suche durchführen, indem Sie dem Hubschrauber befehlen, sich auf seine minimale Flughöhe zu begeben. Danach wird der MAD-Bird ausgefahren und hinter dem Hubschrauber mitgeführt. MAD-Kontakte erscheinen als „Magnetische Anomalie“ auf der Taktischen Karte."/>
+				<Run Text="Für die Nutzung des MAD ist es erforderlich, dass der Hubschrauber sehr enge Suchmuster in geringer Höhe fliegt. Sie können eine MAD-Suche durchführen, indem Sie dem Hubschrauber befehlen, sich auf seine minimale Flughöhe zu begeben. Danach wird der MAD-Bird ausgefahren und hinter dem Hubschrauber mitgezogen. MAD-Kontakte erscheinen als „Magnetische Anomalie“ auf der Taktischen Karte."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Andere Luftfahrzeugtypen"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Zusätzlich zu Jagdflugzeugen, Frühwarnflugzeugen (AEW) und Angriffsflugzeugen führt die Vilnus auch Flugzeuge für die elektronische Kampfführung, U-Boot-Abwehrflugzeuge sowie Hubschrauber mit."/>
+				<Run Text="Zusätzlich zu Jagdflugzeugen, Frühwarnflugzeugen (AEW) und Angriffsflugzeugen führt die Vilnus auch Flugzeuge für die elektronische Kampfführung, Flugzeuge zur U-Jagd sowie Hubschrauber mit."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Lassen Sie uns die verschiedenen Flugzeugtypen durchgehen, die sich an Bord von Flugzeugträgern befinden."/>
+				<Run Text="Lassen Sie uns nun die verschiedenen Flugzeugtypen durchgehen, die sich an Bord von Flugzeugträgern befinden."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

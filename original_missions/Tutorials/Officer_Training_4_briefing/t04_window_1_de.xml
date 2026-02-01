@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Offiziersausbildung 4 - Trägeroperationen"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Willkommen, Kommandant! In diesem Tutorial werden Sie den Ablauf von Trägeroperationen erlernen. Dazu gehören das Aufrechterhalten und Auffrischen der Combat Air Patrol, die Durchführung von Aufklärungsflügen sowie die Durchführung eines Angriffs gegen See- und Landziele. In dieser Mission führen Sie den sowjetischen Träger Vilnus."/>
+				<Run Text="Willkommen, Kommandant! In diesem Tutorial werden Sie den Ablauf von Trägeroperationen erlernen. Dazu gehören das Aufrechterhalten und Versorgen einer sogenannten Combat Air Patrol, die Durchführung von Aufklärungsflügen sowie die Durchführung eines Angriffs gegen See- und Landziele. In dieser Mission führen Sie den sowjetischen Träger Vilnus."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Sie können das Tutorial jederzeit mit den Schaltflächen „Zurück“ und „Weiter“ in diesem Fenster fortsetzen."/>

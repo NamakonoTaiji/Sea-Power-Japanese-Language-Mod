@@ -24,7 +24,7 @@
                     <LineBreak />
                     <LineBreak />
                     <Run
-                        Text="これで最初の士官訓練は完了だ。ご苦労だった、司令官！" FontSize="12" />
+                        Text="これで最初の士官訓練は完了だ。ご苦労だった、指揮官！" FontSize="12" />
                 </TextBlock.Inlines>
             </TextBlock>
             <StackPanel Orientation="Horizontal" Margin="0"

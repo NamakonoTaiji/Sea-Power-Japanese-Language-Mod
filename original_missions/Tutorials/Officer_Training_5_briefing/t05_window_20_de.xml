@@ -16,13 +16,13 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Koordinierung des Schlages"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Da Sie nun Aufklärungsergebnisse seitens Ihrer Führung erhalten haben, können Sie mit Sicherheit annehmen, dass alle Radarkontakte im markierten Suchgebiet feindlich sind."/>
+				<Run Text="Da Sie nun einige Aufklärungsergebnisse seitens Ihrer Führung erhalten haben, können Sie mit Sicherheit annehmen, dass alle Radarkontakte im markierten Suchgebiet feindlich sind."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Führen Sie Ihre Aufklärungsflugzeuge weiter in Richtung des markierten Suchgebiets. Weisen Sie zudem Ihren Schiffen einen Wegpunkt in der Nähe des markierten Bereichs zu, um die Distanz zu verkürzen."/>
+				<Run Text="Lassen Sie Ihre Aufklärungsflugzeuge weiter in Richtung des markierten Suchgebiets verlegen. Weisen Sie zudem Ihren Schiffen einen Wegpunkt in der Nähe des markierten Bereichs zu, um die Distanz zu verkürzen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Denken Sie daran: Sie können die Reichweite der SS-N-3B-Raketen an Bord der Varyag einsehen, indem Sie entweder unten in der Leiste auf die Rakete klicken (um einen roten Reichweitenkreis zu sehen) oder die Einheiten-Info aufrufen, um die Maximalreichweite abzulesen. Führen Sie Ihren Verband in Reichweite der SS-N-3B-Raketen, bevor Sie den Angriff starten!"/>
+				<Run Text="Denken Sie daran: Sie können die Reichweite der SS-N-3B-Raketen an Bord der Varyag einsehen, indem Sie entweder unten in der Leiste auf die Rakete klicken (um den roten Reichweitenkreis anzuzeigen) oder die Einheiten-Info aufrufen, um die Maximalreichweite abzulesen. Verlegen Sie Ihren Verband in Reichweite der SS-N-3B-Raketen, bevor Sie den Angriff starten!"/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

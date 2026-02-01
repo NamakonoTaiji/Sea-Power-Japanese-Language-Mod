@@ -15,10 +15,10 @@
             <StackPanel Orientation="Vertical"
                 Margin="15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,15"
-                    FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="スプリント・アンド・ドリフト" />
+                    FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="スプリント＆ドリフト" />
                 <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
                     <TextBlock.Inlines>
-                        <Run Text="潜水艦の捜索を続けよう。この過程で水上艦が使える有効な戦術に『スプリント・アンド・ドリフト』がある。" />
+                        <Run Text="潜水艦の捜索を続けよう。この過程で水上艦が使える有効な戦術に『スプリント＆ドリフト』がある。" />
                         <LineBreak />
                         <LineBreak />
                         <Run

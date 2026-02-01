@@ -30,7 +30,7 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="북부 태스크 포스:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="북부 기동부대:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 <Run Text="INS 미즈나크"/><LineBreak/>
                 <Run Text="INS 가아쉬"/><LineBreak/>
                 <Run Text="INS 하닛"/><LineBreak/>
@@ -47,7 +47,7 @@
 		<!-- Northern Task Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="550">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="북부 태스크포스"/>
+                <Run Text="북부 기동부대"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

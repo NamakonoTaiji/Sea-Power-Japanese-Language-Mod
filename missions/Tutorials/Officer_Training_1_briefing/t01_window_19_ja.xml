@@ -24,7 +24,7 @@
                         FontSize="12" />
                     <LineBreak />
                     <LineBreak />
-                    <Run Text="ユニットを右クリックし、「攻撃中止」メニューオプションを選択することでも、射撃中止を命令できる。" FontSize="12" />
+                    <Run Text="ユニットを右クリックし、「撃ち方やめ」を選択することでも、射撃中止を命令できる。" FontSize="12" />
                     <LineBreak />
                     <LineBreak />
                     <Run

@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Aus der Luft abgeworfene Torpedos"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Torpedos sind die Hauptbewaffnung des U-Jagd-Hubschraubers. In diesem Fall tragen unsere HSS-2B-Helikopter denselben Mark-46-Leichtgewichtstorpedo, der auch aus den schiffsgestützten Mark-32-Torpedorohren (SVTT) verschossen wird. Hubschrauber- und Schiffstorpedos stammen aus demselben Munitionsvorrat, sodass das Abwerfen von Torpedos durch Ihre Helikopter den Vorrat an Bord des Schiffes verringert."/>
+				<Run Text="Die Hauptbewaffnung des U-Jagd-Hubschraubers besteht aus Torpedos. In diesem Beispiel führen unsere HSS-2B-Helikopter denselben Mark-46-Leichtgewichtstorpedo mit, der auch aus den schiffsgestützten Mark-32-Torpedorohren (SVTT) verschossen wird. Hubschrauber- und Schiffstorpedos stammen aus demselben Munitionsvorrat, sodass das Abwerfen von Torpedos durch Ihre Helikopter den Vorrat an Bord des Schiffes verringert."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Hinweis: Alle US-/NATO-/japanischen Helikopter führen standardmäßig nur zwei Mark-46-Torpedos, jedoch verfügen sowohl der HSS-2B als auch der SH-3H über eine „U-Jagd - Zerstörung“-Konfiguration, die es dem Hubschrauber ermöglicht, vier Torpedos mitzuführen."/>
+				<Run Text="Hinweis: Alle US-/NATO-/japanischen Hubschrauber führen in der Standardkonfiguration nur zwei Mark-46-Torpedos mit, jedoch verfügen sowohl der HSS-2B als auch der SH-3H über eine „U-Jagd - Zerstörung“-Konfiguration, die es dem Hubschrauber ermöglicht, vier Torpedos mitzuführen."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Weiterer Hinweis: Aus der Luft abgeworfene Torpedos sind zwangsläufig weniger leistungsstark als schiffsgestützte Torpedos. Seien Sie also nicht überrascht, wenn mehrere Treffer durch Torpedos von Hubschraubern oder Flugzeugen erforderlich sind, um ein Ziel zu vernichten!"/>

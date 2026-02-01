@@ -14,38 +14,38 @@
 			</Border.Effect>
 			<StackPanel Orientation="Vertical">
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock Text="1988년 5월 9일 | Vol. 80, No. 39 | 25 Cents" Margin="0,15,0,15" FontSize="24"/>
+				<TextBlock Text="1988년 5월 9일 | Vol. 80, 39호 | 25 센트" Margin="0,15,0,15" FontSize="24"/>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
 				<Grid Margin="0,5,0,15">
 					<Rectangle Fill="Red" Margin="0,110,0,5"/>
-					<TextBlock Text="Exposition News" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+					<TextBlock Text="특보" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
 				</Grid>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold" TextWrapping="Wrap" Text="SOVIETS SEIZE U.S. NAVY SHIP—AMERICAN FORCES STRIKE BACK"/>
-				<TextBlock TextAlignment="Center" FontSize="36" TextWrapping="Wrap" Text="U.S. Submarine Sinks Soviet Warships as Special Forces Retake Captured Vessel"/>
+				<TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold" TextWrapping="Wrap" Text="소련, 미 해군 함정 압수 - 미군 반격"/>
+				<TextBlock TextAlignment="Center" FontSize="36" TextWrapping="Wrap" Text="미군 잠수함, 특수부대가 나포된 선박을 탈환하면서 소련 군함 침몰"/>
 				<TextBlock TextAlignment="Justify" TextWrapping="Wrap">
-				WASHINGTON (AP) - In a dramatic turn of events, U.S. military forces have struck back against Soviet aggression in the Norwegian Sea, sinking multiple Soviet warships and successfully reclaiming the seized U.S. Navy vessel, USNS Cape Girardeau.
+				워싱턴 (AP) - 극적인 변화 속에서 미군은 노르웨이해에서 소련의 침략에 반격하여 여러 소련 군함을 침몰시키고 나포된 미 해군 함정인 USNS 케이프 지라도를 되찾는 데 성공했습니다.
 				<LineBreak/>
 				<LineBreak/>
-				The crisis began early yesterday when Soviet warships forcibly boarded the Cape Girardeau, an unarmed Military Sealift Command vessel conducting routine operations in international waters. The ship and its crew of over 80 were taken by force, with Moscow falsely claiming the vessel was engaged in espionage.
+				위기는 어제 새벽 소련 군함들이 공해상에서 일상적인 작전을 수행하던 비무장 군사 인장 사령선인 케이프 지라도에 강제로 승선하면서 시작되었습니다. 그 배와 80명 이상의 승무원들은 강제로 끌려갔고, 모스크바는 그 배가 스파이 활동을 하고 있다고 거짓으로 주장했습니다.
 				<LineBreak/>
 				<LineBreak/>
-				But within hours, the United States launched a decisive response. According to Pentagon officials, two Norwegian submarines tracked the Soviet task force as it attempted to retreat toward Soviet waters. In a lightning fast engagement, the submarines engaged the task group, with at least one of the vessels reported sunk and the remaining ones heavily damaged.
+				하지만 몇 시간 만에 미국은 단호한 대응을 시작했습니다. 국방부 관계자에 따르면, 두 척의 노르웨이 잠수함이 소련 해역으로 후퇴하려고 시도하는 소련 태스크포스를 추적했다고 합니다. 번개처럼 빠른 교전 속에서 잠수함들은 작업 그룹과 교전을 벌였고, 최소 한 척의 함정이 침몰하고 나머지 함정들은 심하게 손상된 것으로 보고되었습니다.
 				<LineBreak/>
 				<LineBreak/>
-				As the Soviet fleet reeled from the sudden assault, U.S. special operations forces launched a daring mission to retake the Cape Girardeau. Under the cover of darkness, Navy SEALs and Delta Force operatives, deployed from helicopters and stormed the captured vessel. After a brief but intense firefight with Soviet naval troops aboard the ship, American forces secured the bridge, neutralized enemy resistance, and freed the hostages.
+				소련 함대가 갑작스러운 공격에서 휘청거리자, 미국 특수 작전 부대는 대담한 임무를 시작하여 케이프 지라도를 탈환했습니다. 어둠 속에서 네이비 씰과 델타 포스 요원들이 헬리콥터에서 배치되어 나포된 선박을 습격했습니다. 소련 해군 병력과 짧지만 격렬한 총격전을 벌인 후, 미군은 다리를 확보하고 적의 저항을 무력화시키며 인질들을 석방했습니다.
 				<LineBreak/>
 				<LineBreak/>
-				Pentagon sources report that fifteen Americans were killed in the action, and several U.S. special forces operators sustained injuries in the operation. Soviet casualties remain unconfirmed, but intelligence suggests that several enemy personnel were either killed or captured during the engagement.
+				국방부 소식통에 따르면 이 작전에서 15명의 미국인이 사망했으며, 여러 미군 특수부대 요원이 작전 중 부상을 입었다고 합니다. 소련의 사상자는 아직 확인되지 않았지만, 정보에 따르면 교전 중에 여러 적군이 사망하거나 포로로 잡혔다고 합니다.
 				<LineBreak/>
 				<LineBreak/>
-				In a televised address to the nation, President Reagan hailed the operation as a “resounding victory for freedom and justice,” stating, “The United States will never allow Soviet aggression to go unanswered. We have defended our sailors, upheld international law, and made it clear that acts of piracy will not be tolerated.”
+				레이건 대통령은 대국민 TV 연설에서 이번 작전을 "자유와 정의를 위한 강력한 승리"라고 칭송하며 "미국은 소련의 침략을 결코 용납하지 않을 것"이라고 말했습니다. 우리는 선원들을 변호하고, 국제법을 준수하며, 불법 복제 행위를 용납하지 않을 것임을 분명히 했습니다.
 				<LineBreak/>
 				<LineBreak/>
-				Moscow has reacted with outrage, accusing the U.S. of “reckless escalation” and threatening severe consequences. The Kremlin’s propaganda outlets claim that the Soviet warships were attacked without provocation and have vowed retaliation. NATO forces across Europe and the North Atlantic are now on their highest state of alert, with additional U.S. carrier battle groups reportedly moving into position.
+				모스크바는 분노로 대응하며 미국을 "무모한 확대"라고 비난하고 심각한 결과를 초래할 수 있다고 위협했습니다. 크렘린궁의 선전 매체들은 소련 군함들이 도발 없이 공격을 받았다고 주장하며 보복을 다짐했습니다. 유럽과 북대서양 전역의 나토군은 현재 최고 경계 상태에 있으며, 추가적인 미국 항공모함 전투 그룹이 배치된 것으로 알려졌습니다.
 				<LineBreak/>
 				<LineBreak/>
-				With the Cold War now hotter than ever, the world holds its breath, uncertain of what will come next. Will cooler heads prevail, or has the conflict entered a point of no return?
+				냉전이 그 어느 때보다 뜨거워지면서 전 세계는 다음에 어떤 일이 일어날지 불확실한 채 숨을 죽이고 있습니다. 냉정한 입장이 우세할까요, 아니면 갈등이 돌이킬 수 없는 지경에 이르렀을까요?
 				<LineBreak/>
 				<LineBreak/>
 				<LineBreak/>
@@ -68,7 +68,7 @@
 			</Border.Effect>
 			<StackPanel Orientation="Vertical">
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock Text="1988년 5월 9일 | Vol. 105, No. 42 | 52 Cents" Margin="0,15,0,15" FontSize="24"/>
+				<TextBlock Text="1988년 5월 9일 | Vol. 105, 42호 | 52 센트" Margin="0,15,0,15" FontSize="24"/>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
 				<Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>

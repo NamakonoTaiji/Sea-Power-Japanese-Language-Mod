@@ -23,7 +23,7 @@
                         FontSize="12" />
                     <Run Text="Weapons Tight" FontSize="12" FontWeight="Bold" />
                     <Run
-                        Text="（制限的攻撃許可）モードで開始する。Weapons Tightは、ユニットがプレイヤーの介入なしに自動的に自身とそのフォーメーション内の全ユニットを防衛するが、プレイヤーからの命令がなければ敵ユニットを積極的に攻撃しないことを意味する。"
+                        Text="（自衛のみ）モードで開始する。Weapons Tightは、ユニットがプレイヤーの介入なしに自動的に自身とそのフォーメーション内の全ユニットを防衛するが、プレイヤーからの命令がなければ敵ユニットを積極的に攻撃しないことを意味する。"
                         FontSize="12" />
                     <LineBreak />
                     <LineBreak />
@@ -35,7 +35,7 @@
                         FontSize="12" />
                     <LineBreak />
                     <Run
-                        FontWeight="Bold" FontSize="12" Text="• Weapons Free（自由交戦許可）：" />
+                        FontWeight="Bold" FontSize="12" Text="• Weapons Free（武器使用自由）：" />
                     <Run
                         Text="ユニットがプレイヤーの介入なしに全ての敵ユニットを自主的に攻撃できるようにする" FontSize="12" />
                     <LineBreak />

@@ -34,10 +34,10 @@
             </Canvas>
         </StackPanel>
 		
-		<!-- Il-38 145th PLAP -->
+		<!-- Ka-25 745th PLAVP -->
 		<StackPanel Orientation="Vertical" Canvas.Left="500" Canvas.Top="500">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="Il-38 145th PLAP"/>
+                <Run Text="Ka-25 745th PLAVP"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
@@ -58,7 +58,7 @@
 
 		<!-- Arrows -->
 		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
-        <Path Canvas.Left="510" Canvas.Top="425" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+        <Path Canvas.Left="515" Canvas.Top="425" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
             <Path.RenderTransform>
                 <RotateTransform Angle="340"/>
             </Path.RenderTransform>

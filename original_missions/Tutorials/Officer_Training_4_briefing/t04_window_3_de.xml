@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Flugzeuge Starten"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
 			<TextBlock.Inlines>
-				<Run Text="Öffnen Sie nun das Flugdeck indem Sie entweder mit der rechten Maustaste auf den Träger klicken und die Option "/><Run Text="Flugdeck" FontWeight="Bold"/><Run Text=" auswählen, oder indem Sie auf das Flugdeck-Symbol unten rechts klicken."/>
+				<Run Text="Öffnen Sie nun das Flugdeck indem Sie entweder mit der rechten Maustaste auf den Träger klicken und die Option "/><Run Text="Flugdeck" FontWeight="Bold"/><Run Text=" auswählen, oder indem Sie auf das Flugdeck-Symbol am unteren rechten Bildschirmrand klicken."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Denken Sie daran, dass Sie auch die Titelleiste eines Fensters anklicken und daran ziehen können, um die Fenster zu verschieben!"/>
+				<Run Text="Denken Sie daran, dass Sie auch die Titelleiste eines Fensters anklicken und daran ziehen können, um ein Fenster zu verschieben!"/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

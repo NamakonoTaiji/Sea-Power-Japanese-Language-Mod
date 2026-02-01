@@ -19,10 +19,10 @@
 				<Run Text="Sobald das AEW-Flugzeug in der Luft ist, befehlen Sie ihm den Aufstieg auf Reiseflughöhe. Nutzen Sie dazu die Höhensteuerung unten links und befehlen Sie dem Flugzeug, auf 37.000 Fuß zu steigen. Dies vergrößert den Radarsichtbereich und ermöglicht es den Sensoren, deutlich weiter zu sehen."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Verwenden Sie die Zeitbeschleunigung oben rechts, um das Spiel zu beschleunigen, während das Flugzeug steigt. Nutzen Sie die Pfeiltasten, um die Zeit auf das 10-fache zu beschleunigen."/>
+				<Run Text="Verwenden Sie den Zeitraffer oben rechts, um das Spiel zu beschleunigen, während das Flugzeug steigt. Nutzen Sie die Pfeiltasten, um die Zeit um den Faktor 10 zu beschleunigen"/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="Sobald das Flugzeug seine Reiseflughöhe erreicht hat, stellen Sie die Zeit wieder auf 1x, indem Sie auf die nach links zeigenden Pfeile klicken oder das Spiel kurz pausieren (Leertaste) und es anschließend (erneut mit der Leertaste) fortsetzen, um die Geschwindigkeit wieder auf 1x zu setzen."/>
+				<Run Text="Sobald das Flugzeug seine Reiseflughöhe erreicht hat, stellen Sie die Zeit wieder auf 1x, indem Sie auf die nach links zeigenden Pfeile klicken oder das Spiel kurz pausieren (Leertaste) und es anschließend (erneut mit der Leertaste) fortsetzen."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

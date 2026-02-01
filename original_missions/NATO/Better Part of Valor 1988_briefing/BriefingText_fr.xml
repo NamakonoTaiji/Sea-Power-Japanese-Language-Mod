@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		02AVR1988
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="DE"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="A"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS PEGASUS PHM-1"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="OBJET"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FRAGORD 01 - URGENT RE-ASSIGNATION"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		FLASH
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) Des opérations militaires dans le sud des Caraïbes deviennent de plus en plus probables à mesure que la situation se détériore.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) Le PEGASUS prendra la mer au plus tard à 020630Z et effectuera une traversée à grande vitesse vers l'ouest des Caraïbes via le détroit du Yucatan. Lors de la traversée du détroit, le PEGASUS se signalera au CTF 27 pour recevoir de nouvelles instructions.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) ATTENTION : Des interceptions radio indiquent que les forces cubaines pourraient être en opération dans le détroit et tenter de bloquer le passage. Procédez sous EMCON, sauf si la situation tactique ne le permet pas. Les forces cubaines présentes dans la zone comprennent 2 torpilleurs à hydroptère de classe TURYA, 2 vedettes lance-missiles de classe KOMAR et 1 frégate de classe KONI ou GRISHA. Des chasseurs-bombardiers de l'armée de l'air cubaine pourraient être dépêchés si vous êtes détectés.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) Un SH-2F vous sera attribué pour la reconnaissance et le ciblage. Remarque : en raison du faible stock de missiles Harpoon à la base aéronavale de Key West, le PEGASUS doit appareiller avec ses seules munitions embarquées.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) Traversez le détroit et rendez compte quand vous atteignez la haute mer. Bonne chance.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		NE PAS DECLASSIFIER SANS L'APPROBATION DE L'EMETTEUR.
+	  </TextBlock>
+</Grid>

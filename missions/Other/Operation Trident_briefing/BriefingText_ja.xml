@@ -3,58 +3,50 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
-        <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-        <ColumnDefinition
-            Width="Auto" />
+        <ColumnDefinition Width="Auto" />
         <ColumnDefinition Width="10" />
-        <ColumnDefinition
-            Width="*" />
+        <ColumnDefinition Width="*" />
         <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
         1971年12月4日
     </TextBlock>
-    <TextBlock Grid.Row="3" Grid.Column="0"
-        FontSize="{StaticResource Font.Size.Header}" Text="差出人:" />
-    <TextBlock Grid.Row="3"
-        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="西部海軍管区司令長官" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
-        Text="カラチ攻撃部隊司令 K/ P. ゴパール・ラオ中佐" />
-    <TextBlock Grid.Row="7" Grid.Column="0"
-        FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
-    <TextBlock Grid.Row="7"
-        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="命令 - トライデント作戦" />
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="西方海軍司令部総司令官" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="カラチ打撃群指揮官、K・P・ゴパール・ラオ中佐" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="命令――トライデント作戦" />
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
-        TextWrapping="Wrap"> 極秘 <LineBreak />     <LineBreak /> 1.
-        海軍司令部は、貴官に対し「トライデント作戦」を開始し、カラチのパキスタン軍を攻撃するよう命じた。我々の目標は、カラチ沖で遭遇する全てのパキスタン船舶を撃破し、敵軍による港湾の使用を拒否することである。
-        <LineBreak />     <LineBreak />
-        2.
-        貴隊のペチャ級コルベット（カッチャル及びキルタン）は、戦隊司令艦として行動し、その優れたレーダーを用いて水上目標を探知せよ。オーサ型ミサイル艇（ヴィール、ニパト、ニルガト）は、カッチャル及びキルタンによって探知された敵部隊に対し、スティックスミサイルを用いて攻撃を実施せよ。
-        <LineBreak />     <LineBreak />
-        3.
-        無線傍受によれば、パキスタン海軍司令部は全ての中立国船舶に対し、日没から日の出までの間、カラチ港から75海里の外側に留まるよう命じた。夜間、カラチ沖のこの境界内にいる全てのレーダー探知目標は敵性であるとみなし、我が部隊はこれに適切に対処せよ。
-        <LineBreak />     <LineBreak />
-        4. 注：カラチのパキスタン軍は、対艦スタンドオフミサイルを装備していない旧イギリス海軍の駆逐艦を含んでいる。貨物船「M/V
-        ヴィーナス・チャレンジャー」が、サイゴンのアメリカ人からパキスタンへ弾薬を輸送するため、当該海域にいると予想される。パキスタン空軍は夜間爆撃能力を持たず、夜間においては脅威とはならない。
-        <LineBreak />     <LineBreak />
-        5. 最大船速で北西に進撃し、全ての敵性目標を識別、これを撃破せよ。健闘を祈る。 <LineBreak />     <LineBreak /> 極秘 </TextBlock>
+        TextWrapping="Wrap"> 秘密（SECRET） <LineBreak />
+        <LineBreak />
+        1.海軍総司令部は、貴官に対しトライデント作戦の発動およびカラチにおけるパキスタン軍への攻撃を命じた。我々の目的は、カラチ沖で遭遇するパキスタン艦艇をすべて撃破し、敵軍による同港の利用を阻止することにある。
+        <LineBreak />
+        <LineBreak />
+        2.貴部隊のペチャ型コルベット（「カチャル」および「キルタン」）は、戦隊司令艦として運用し、その優れたレーダー能力を活かして水上目標を捕捉せよ。オーサ型ミサイル艇（「ヴィール」、「ニパット」、「ニルガット」）は、「カチャル」および「キルタン」が探知した敵軍に対し、スティックス・ミサイルを用いて攻撃を行え。
+        <LineBreak />
+        <LineBreak />
+        3.無線傍受によれば、パキスタン海軍総司令部はすべての中立船舶に対し、日没から夜明けまでの間、カラチ港から75海里圏外に留まるよう命じている。夜間、カラチ沖の当該境界線内にあるすべてのレーダー目標は敵対的であるとみなし、我が方戦力をもって適切に交戦せよ
+        。 <LineBreak />
+        <LineBreak />
+        4.注意：カラチのパキスタン軍には、旧英海軍の駆逐艦が含まれるが、対艦アウトレンジ・ミサイルは装備していない。また、サイゴンのアメリカ軍からパキスタンへ弾薬を輸送中の貨物船「ヴィーナス・チャレンジャー」が当該海域に出現する見込みである。パキスタン空軍は夜間爆撃能力を有しておらず、夜間における脅威とはならない。
+        <LineBreak />
+        <LineBreak />
+        5.最大戦速で北西へ進出し、すべての敵対目標を識別・撃破せよ。諸君の健闘を祈る。 <LineBreak />
+        <LineBreak /> 秘密（SECRET） </TextBlock>
 </Grid>

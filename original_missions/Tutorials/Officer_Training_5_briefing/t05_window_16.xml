@@ -16,10 +16,10 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Spy Trawlers"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Let's now discuss other methods of searching a large ocean area. As we are playing as the Soviets, we have access to an Okean-class spy trawlers."/>
+				<Run Text="Let's now discuss other methods of searching a large ocean area. As we are playing as the Soviets, we have access to an Okean-class spy trawler."/>
 				<LineBreak/>
 				<LineBreak/>
-				<Run Text="The Okean class trawlers are East German-built oceangoing trawlers which are employed by the Soviets in intelligence gathering missions worldwide. These trawlers have incredible endurance and were a common sight shadowing NATO battle groups during the Cold War."/>
+				<Run Text="The Okean class trawlers are East German-built oceangoing trawlers which are employed by the Soviets in intelligence gathering missions worldwide. These trawlers have incredible endurance and are a common sight shadowing NATO battle groups during the Cold War."/>
 				<LineBreak/>
 				<LineBreak/>
 				<Run Text="Let's click on our Okean-class trawler and examine it now."/>

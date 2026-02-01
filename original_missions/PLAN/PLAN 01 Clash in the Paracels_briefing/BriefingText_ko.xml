@@ -1,0 +1,54 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		<Run Text="1974년 8월 4일"/>
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="남해함대 사령관"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="제1해상공격대 사령관"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="작전 계획 - 시사군도"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		기밀
+		<LineBreak/>
+		<LineBreak/>
+		1. 시사 군도의 어부들과 연구선들이 베트남 공화국 해군(RVNN) 전투선들에게 괴롭힘을 당하고 있다고 보고합니다. 어제 베트남군이 로버트 섬에 세워진 우리 국기를 포격한 후 상륙했습니다. 더 많은 베트남 해군과 특공대가 이 섬으로 이동하는 것으로 보고되었습니다. 이것은 우리의 영토 권리를 침해하는 행위이며, 지휘부는 남해 함대를 즉시 출격시켜 그들을 몰아내라고 명령했습니다.
+		<LineBreak/>
+		<LineBreak/>
+		2. 제1 해상공격대는 제2 해상부대보다 먼저 초승달 그룹에 진입할 것입니다. 그곳에서 베트남군을 찾아 식별하되, 선제공격하지 않는 한 발포하지 마시오.
+		<LineBreak/>
+		<LineBreak/>
+		3. 베트남군은 76mm 포와 127mm 포를 가진 전미 애드솔급 구축함 1척, 127mm 포를 가진 전미 바네갓급 호위함 2척, 경포를 가진 전미 지뢰 제거함 1척으로 구성되어 있습니다. 이 배들은 우리를 위협하고 있으므로 가까이 접근하여 우리의 속사포를 사용하여 그들을 침묵시키는 것이 좋습니다. 우리의 대잠 박격포는 이 함선들에 치명적일 것이며, 적대 행위가 발생할 경우 그 사용이 권장됩니다.
+		<LineBreak/>
+		<LineBreak/>
+		4. 그 지역으로 이동하고, 문제를 일으키지 않으며, 먼저 발포하지 않으며, 최악의 상황에 처하지 마시오. 행운을 빌고 좋은 사냥 하길.
+		<LineBreak/>
+		<LineBreak/>
+		기밀
+	</TextBlock>
+</Grid>

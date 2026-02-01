@@ -22,7 +22,7 @@
                         <LineBreak />
                         <LineBreak />
                         <Run
-                            Text="リュッチェンスに命令を下すと、編隊の残りの艦もそれに追従する。リュッチェンスの速力を最大戦速（Ahead Flank）まで上げてみよう。" />
+                            Text="リュッチェンスに命令を下すと、編隊の残りの艦もそれに追従する。リュッチェンスの速力を前進一杯（Flank）まで上げてみよう。" />
                     </TextBlock.Inlines>
                 </TextBlock>
                 <LineBreak />

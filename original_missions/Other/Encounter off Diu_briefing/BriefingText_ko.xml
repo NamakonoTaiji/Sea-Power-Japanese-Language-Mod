@@ -26,7 +26,7 @@
     <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
 
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="해군 NHQ, 카라치"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="카라치 해군사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="PNS 한고르(S131)의 사령관 아흐메드 타스님"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
@@ -38,7 +38,7 @@
 		기밀
 		<LineBreak/>
 		<LineBreak/>
-		1. 해군 NHQ는 인도 해군 지상 임무 부대에 접근할 것을 사령부에 알리는 03DEC 전송을 수신했습니다.
+		1. 해군사령부는 인도 해군 지상 임무 부대에 접근할 것을 사령부에 알리는 03DEC 전송을 수신했습니다.
 		<LineBreak/>
 		<LineBreak/>
 		2. 당신은 공격을 위해 마주치는 인도 군함을 파괴할 권한이 있습니다.

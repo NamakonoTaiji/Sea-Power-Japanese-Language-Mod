@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Offiziersausbildung 5 - Aufklärung"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Wir werden behandeln, wie ein Seegebiet mit begrenzten Kräften durchsucht wird (z. B. ohne einen Flugzeugträger in der Verfügungsgewalt), wie Oberflächenradarkontakte identifiziert werden, wie neutrale Handelsschifffahrt von feindlichen Kräften unterschieden wird und welche weiteren Aufklärungsmethoden neben Ihrer eigenen Sensorik existieren."/>
+				<Run Text="In diesem Tutorial lernen Sie, wie ein Seegebiet mit begrenzten Kräften durchsucht wird (z. B. ohne einen Flugzeugträger), wie Radarkontakte identifiziert werden, wie neutrale Handelsschifffahrt von feindlichen Kräften unterschieden wird und welche weiteren Aufklärungsmethoden neben Ihrer eigenen Sensorik existieren."/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>

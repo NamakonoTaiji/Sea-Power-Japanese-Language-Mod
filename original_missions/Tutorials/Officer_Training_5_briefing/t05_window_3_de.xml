@@ -16,7 +16,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16" FontWeight="Bold" Text="Offiziersausbildung 5 – Einsatzvoraussetzungen"/>
 		<TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
 			<TextBlock.Inlines>
-				<Run Text="Dieses Tutorial setzt voraus, dass Ihnen die grundlegenden Bedienkonzepte von Sea Power bereits vertraut sind, wie etwa die Navigation Ihrer Einheiten und die Nutzung der Taktischen Karte. Sollten Ihnen diese Grundlagen noch nicht bekannt sein, gehen Sie bitte zurück und absolvieren Sie zunächst die ersten vier Offiziersausbildungstutorials!"/>
+				<Run Text="Dieses Tutorial setzt voraus, dass Ihnen die grundlegenden Bedienkonzepte von Sea Power bereits bekannt sind, wie etwa die Navigation Ihrer Einheiten und die Nutzung der Taktischen Karte. Sollten Ihnen diese Grundlagen noch nicht bekannt sein, gehen Sie bitte zurück und absolvieren Sie zunächst die ersten vier Offiziersausbildungstutorials!"/>
 			</TextBlock.Inlines>
 		</TextBlock>
 		<LineBreak/>
