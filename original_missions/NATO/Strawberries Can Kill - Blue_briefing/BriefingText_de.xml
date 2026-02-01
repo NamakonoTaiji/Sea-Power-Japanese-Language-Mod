@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		03 JUNI 1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT, TASK FORCE 70 (CTF 70)"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION - URGENT THUNDERBOLT"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		BLITZ - GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) LAGE: In Europa finden Kampfhandlungen statt. Streitkräfte des Warschauer Pakts haben die Fulda-Lücke durchquert, und Präsident Reagan hat die Operation REFORGER in Europa gestartet. In den großen Häfen der US-Ostküste formieren sich Handelskonvois, um den langwierigen Seetransport zur Verstärkung der NATO aufzunehmen. Im Pazifik hat eine große sowjetische Einsatzgruppe, die nach Abschluss von Übungen auf dem Rückmarsch nach Petropawlowsk vermutet wurde, gewendet und läuft nun in Richtung Midway und Hawaii.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) AUFTRAG: TF 70 verlegt nordwestwärts aus Pearl Harbor und hat die im Nordpazifik befindlichen sowjetischen Kräfte aufzuklären und zu vernichten, bevor diese Midway oder Hawaii angreifen können.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) DURCHFÜHRUNG: TF 70 mit NIMITZ und Battle Group DELTA verlässt die hawaiischen Gewässer und beginnt die Suche nach der sowjetischen Einsatzgruppe. Nach Ortung der sowjetischen Kräfte ist ein konzentrierter Alpha-Schlag zu führen und alle angetroffenen Feindeinheiten sind zu zerstören. Die Aufklärung geht davon aus, dass die Sowjets ihre Kräfte in mehrere Gruppen aufgeteilt haben – alle sowjetischen Schiffe sind zu versenken oder zum Rückzug zu zwingen.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) FEINDLAGE / ORBAT: Die nördliche sowjetische Einsatzgruppe ist um den Superflugzeugträger VILNIUS mit seinem Trägerluftgeschwader gegliedert. Eine weitere Einsatzgruppe, vermutlich amphibischer Natur, wird durch die flugzeugtragenden Kreuzer MINSK und NOVOROSSISYK mit deren Angriffsluftverbänden unterstützt. Die Aufklärung erwartet bei Entdeckung Ihrer Kräfte Backfire-Angriffe in Regimentsstärke aus dem Raum Kamtschatka.
+		<LineBreak/>
+		<LineBreak/>
+		6. (S) EIGENE / ALLIIERTE KRÄFTE: Aufgrund schwerer Angriffe auf Japan, Okinawa und Guam steht aus diesen Räumen keine Luftunterstützung zur Verfügung. P-3 Orion aus Midway unterstützen die Suche. Die USS OMAHA wurde Ihnen unterstellt, um Ihre Marschroute zu sichern.
+		<LineBreak/>
+		<LineBreak/>
+		7. (S) BEMERKUNGEN: Bei sachgerechter Durchführung besteht die Möglichkeit, mit dieser Operation den Großteil der sowjetischen Pazifikflotte außer Gefecht zu setzen. Viel Glück und Waidmannsheil.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+		<LineBreak/>
+		NICHT FREIGEBEN OHNE GENEHMIGUNG DES EMPFÄNGERS
+	  </TextBlock>
+</Grid>

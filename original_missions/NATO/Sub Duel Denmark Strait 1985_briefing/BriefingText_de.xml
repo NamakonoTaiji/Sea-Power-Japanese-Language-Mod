@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		26JUN1985
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSUBLANT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS BALTIMORE SSN-704"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KONTAKTMELDUNG"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		BLITZ - STRENG GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) Die Nationale technische Aufklärung weist darauf hin, dass die Sowjets versuchen, U-Boote ihrer Nordflotte verstärkt in den Atlantik zu verlegen.
+		<LineBreak/>
+		<LineBreak/> 
+		2. (TS) NAVFAC Norwegen meldet intermittierenden Unterwasserkontakt mit einem Hochgeschwindigkeits-U-Boot westlich der Insel Jan Mayen. Dieser Kontakt wird als SSN der ALFA-Klasse bewertet. 
+		<LineBreak/> 
+		<LineBreak/> 
+		3. (S) Patrouille abbrechen und Stellung in der Dänemarkstraße beziehen, um diese Einheit abzufangen und zu versenken. 
+		<LineBreak/> 
+		<LineBreak/> 
+		4. (S) Position der Versenkung melden und weitere Befehle abwarten. Viel Glück. 
+		<LineBreak/> 
+		<LineBreak/> 
+		STRENG GEHEIM 
+		<LineBreak/> 
+		NICHT FREIGEBEN OHNE GENEHMIGUNG DES EMPFÄNGERS
+	  </TextBlock>
+</Grid>

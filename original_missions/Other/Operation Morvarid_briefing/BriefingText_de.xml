@@ -1,0 +1,55 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		28. NOVEMBER 1980
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT ISLAMIC REPUBLIC OF IRAN NAVY"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT TASK FORCE 421"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NEUE BEFEHLE - OPERATION MORVARID (عملیات مروارید)"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. Irakische Kräfte haben unsere Raffinerie bei Abadan zerstört. Das Oberkommando hat einen Vergeltungsschlag befohlen. Unsere Kräfte werden die Offshore-Ölterminals Khor al-Amaya und Mina al-Bakr vernichten. Der Verlust dieser strategischen Ölterminals wird die Fähigkeit des Iraks zum Ölexport erheblich beeinträchtigen. Das Kommando geht davon aus, dass dieser Angriff die irakische Marine herauslocken wird, sodass unsere Kräfte sie vernichten können.
+		<LineBreak/>
+		<LineBreak/>
+		2. Heute Nacht wird die Marineinfanterie der Task Force 421 an den Ölterminals anlanden, dort Sprengladungen anbringen und sich anschließend per Hubschrauber zurückziehen. Die Schiffe der Task Force 421 verbleiben küstennah und blockieren Al-Faw und Um-Qasr. JOSHAN und PAYKAN sind für diese Operation abgestellt.
+		<LineBreak/>
+		<LineBreak/>
+		3. Die aktuelle Lagebewertung weist 4 × Torpedoboote der P-6-Klasse bei Al-Faw sowie 5 × Lenkwaffenschnellboote der OSA- oder OSA-II-Klasse bei Um-Qasr aus. Ein amphibisches Landungsschiff der POLNOCNY-Klasse befindet sich ebenfalls bei Um-Qasr und könnte auslaufen, um zu versuchen, die Ölterminals zurückzuerobern.
+		<LineBreak/>
+		<LineBreak/>
+		4. Ein IRIAF-Tomcat-Abfangjäger wird Ihnen als luftgestützte Radarplattform unterstellt. Zusätzlich werden Phantoms mit Maverick-Flugkörpern von Buschehr zur Unterstützung anfliegen. Locken Sie den Feind auf See hinaus und vernichten Sie anschließend alle angetroffenen Kräfte. Viel Glück.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+	  </TextBlock>
+</Grid>

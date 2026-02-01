@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		02APR1988
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS PEGASUS PHM-1"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="FRAGORD 01 - SOFORTIGE UMPLANUNG"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		BLITZ
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) Militärische Konfrontationen in der Südkaribik werden mit der sich zuspitzenden Lage zunehmend wahrscheinlicher.
+		<LineBreak/>
+		<LineBreak/> 
+		2. (S) PEGASUS läuft spätestens NLT 020630Z aus und führt einen Hochgeschwindigkeitsmarsch in die Westkaribik über die Yucatánstraße durch. Nach Passage der Meerenge meldet sich PEGASUS bei CTF 27 zur weiteren Auftragserteilung. 
+		<LineBreak/> 
+		<LineBreak/> 
+		3. (S) WARNUNG: Die Funkaufklärung weist darauf hin, dass kubanische Kräfte in der Meerenge operieren und versuchen könnten, die Durchfahrt zu verhindern. Marsch unter EMCON, sofern die taktische Lage dies zulässt. Zu den kubanischen Kräften im Einsatzraum zählen 2 × Torpedoboote der TURYA-Klasse, 2 × Raketenschnellboote der KOMAR-Klasse sowie 1 × Fregatte der KONI- oder GRISHA-Klasse. Jagdbomber der kubanischen Luftstreitkräfte könnten bei Entdeckung alarmiert werden. 
+		<LineBreak/> 
+		<LineBreak/> 
+		4. (S) Ein SH-2F der HSL-36 wird Ihnen zur Aufklärung und Zielzuweisung unterstellt. Hinweis: Aufgrund geringer Bestände an Harpoon-Flugkörpern auf NAS Key West muss PEGASUS ausschließlich mit der an Bord befindlichen Bewaffnung auslaufen. 
+		<LineBreak/> 
+		<LineBreak/> 
+		5. (S) Durchfahren Sie die Meerenge und melden Sie Status nach Erreichen der offenen Gewässer. Viel Glück. 
+		<LineBreak/> 
+		<LineBreak/> 
+		GEHEIM 
+		<LineBreak/> 
+		NICHT FREIGEBEN OHNE GENEHMIGUNG DES EMPFÄNGERS
+	  </TextBlock>
+</Grid>

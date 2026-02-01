@@ -1,0 +1,76 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--<TextBlock Grid.Row="1" Grid.Column="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		DEPARTMENT OF DEFENSE
+		<LineBreak/>
+		JCS MESSAGE CENTER
+	</TextBlock>-->	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		BLITZ
+		<LineBreak/>
+		Z 230017Z MÄR 86
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSIXTHFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 60"/>
+	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		JCS WASHINGTON DC //CJCS//<LineBreak/>
+		USCINCEUR VAIHINGEN GE<LineBreak/>
+		USCINCLANT NORFOLK VA<LineBreak/>
+		DIA WASHINGTON DC
+	</TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="BEFEHL AUSFÜHREN--OPERATION PRAIRIE FIRE"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">		STRENG GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. (TS) DIES IST EIN BEFEHL ZUR AUSFÜHRUNG KRAFT AUTORITÄT UND WEISUNG DES VERTEIDIGUNGSMINISTERS.
+		<LineBreak/>
+		<LineBreak/> 
+		2. (TS) LAGE: NACH FEINDLICHEN HANDLUNGEN LIBYSCHER KRÄFTE WÄHREND UNSERER OPERATIONEN ZUR WAHRUNG DER FREIEN SCHIFF- UND LUFTFAHRT (LUFT UND SEE) IN DER GROßEN SYRTE SÜDLICH 32-30N HAT DER JCS DIE OPERATION PRAIRIE FIRE GENEHMIGT. 
+		<LineBreak/> 
+		<LineBreak/> 
+		2. (TS) AUFTRAG: TF 60 HAT NACH EINGANG DIESES BEFEHLS UNVERZÜGLICH DIE UNTER PRAIRIE FIRE GEPLANTEN SCHLÄGE GEGEN PRIORITÄRE ZIELE DURCHZUFÜHREN. 
+		<LineBreak/> 
+		<LineBreak/> 
+		3. (TS) DURCHFÜHRUNG: LUFTVERBÄNDE DES SARATOGA CVBG (TG 60.2) HABEN DIE LIBYSCHE SA-5-FLARAK-STELLUNG BEI SIRTE ZU ZERSTÖREN SOWIE CAP UND SUCAP FÜR DIE TICONDEROGA SAG SICHERZUSTELLEN. DIE TICONDEROGA SAG (TG 60.5) HAT DEN DURCHMARSCH DURCH DIE GROßE SYRTE AUFZUNEHMEN UND JEDEN FEINDLICHEN LIBYSCHEN SEEGEGENANGRIFF UNTER FEUER ZU NEHMEN UND ZU VERNICHTEN. 
+		<LineBreak/> 
+		<LineBreak/> 
+		4. (TS) WARNUNG: LUFTSTREITKRÄFTE DER LIBYSCHEN LUFTWAFFE AUS DEM RAUM TRIPOLIS KÖNNEN ZUR UNTERSTÜTZUNG DER SEESTREITKRÄFTE AUSFLIEGEN. 
+		<LineBreak/> 
+		<LineBreak/> 
+		5. (TS) ROE BLEIBEN WIE FESTGELEGT. ALLE FEINDLICHEN KRÄFTE SIND ZU ZERSTÖREN. VIEL GLÜCK UND WAIDMANNSHEIL. ENDE COMSIXTHFLT.
+		<LineBreak/>
+		<LineBreak/>
+		STRENG GEHEIM
+		<LineBreak/>
+		DECL OADR BT
+		</TextBlock>
+
+</Grid>

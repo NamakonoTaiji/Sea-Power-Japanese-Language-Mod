@@ -130,7 +130,7 @@
 		<!-- U.S. Task Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="100">
 			<TextBlock Foreground="{StaticResource NTDS.NeutralColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="미군 태스크포스"/>
+                <Run Text="미군 기동부대"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.NeutralColour}" Data="{StaticResource NTDS.Neutral.Surface}"/>
