@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком. КУГ «Молния»"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Всем кораблям КУГ «Молния»"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Операция на Чагосе"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="15 июля 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	СООБЩЕНИЕ ПО ГРУППЕ
+	<LineBreak/>
+    <LineBreak/>
+	Товарищи! Я получил известие, что американцы направили авианосную ударную группу «Энтерпрайз» на поиски нас. Уже один этот факт — огромная победа для Советского Союза! Это означает, что наши небольшие силы нанесли НАТО такой ущерб, что те были вынуждены выделить один из своих драгоценных авианосцев для наших поисков.
+	<LineBreak/>
+    <LineBreak/>
+	Наше дальнейшее выживание теперь зависит от умелого маневрирования и точного исполнения. Штаб флота добился соглашения о продвижении наших сил к нейтральной Индии, но это означает прохождение через центральную часть Индийского океана, где высока вероятность нашего обнаружения.
+    <LineBreak/>
+    <LineBreak/>
+	Согласно разведывательным данным, АУГ «Энтерпрайз» испытывает с нехватку топлива и боеприпасов и направила USS «Кэмден» для встречи с подразделениями материально-технического обеспечения к западу от Диего-Гарсии. Мы воспользуемся ситуацией, чтобы потопить этот корабль.
+	<LineBreak/>
+	<LineBreak/>
+	Вероятнее всего охранение группы снабжения будет состоять из эсминцев и самолетов S-3. Следует также ожидать, что база на Диего-Гарсии может прислать «Орионы» и «Фантомы» в случае нашего обнаружения.
+	<LineBreak/>
+	<LineBreak/>
+	Мы обнаружим и уничтожим USS «Кэмден», а затем отступим, прежде чем «Энтерпрайз» сумеет отреагировать. Успех даст нам время добраться до Индии, где мы сможем продолжить борьбу!
+	<LineBreak/>
+    <LineBreak/>
+	Удачи, товарищи!
+	<LineBreak/>
+    <LineBreak/>
+	КОНЕЦ СООБЩЕНИЯ
+	<LineBreak/>
+	Марков
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>

@@ -1,0 +1,50 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="北方舰队总部"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="K-316号潜艇指挥官"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="穿越行动"/>
+		<TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985年6月24日"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		1.北约部队已开始对我们在德国的同志发动攻势。我们现在处于战时状态。海军的职责是阻止北约部队从美国增援欧洲。因此北方舰队的所有潜艇收到命令进入大西洋。 
+		<LineBreak/>
+		<LineBreak/>
+		2.K-316号潜艇从扬马延附近的巡逻阵位出发，穿越丹麦海峡进入大西洋。
+		<LineBreak/>
+		<LineBreak/>
+		3.警告：我方情报显示美国的一艘洛杉矶级攻击型核潜艇正在丹麦海峡巡逻。
+		<LineBreak/>
+		<LineBreak/>
+		4.我方导弹潜艇在你身后，击沉这艘美国潜艇是首要任务。找到并摧毁它，之后在战术态势允许时报告。祝你好运，同志。
+		<LineBreak/>
+		<LineBreak/>
+		/署名/海军上将I·M·卡皮塔涅茨
+		<LineBreak/>
+		<LineBreak/>
+		绝密
+		<LineBreak/>
+		阅后销毁
+		<LineBreak/>
+    </TextBlock>
+</Grid>

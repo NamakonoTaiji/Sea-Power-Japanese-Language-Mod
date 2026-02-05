@@ -1,0 +1,76 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком. КУГ «Молния»"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Всем кораблям КУГ «Молния»"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Спецоперация на Маврикии"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="3 июля 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	СООБЩЕНИЕ ПО ГРУППЕ
+	<LineBreak/>
+    <LineBreak/>
+	Наши успешные операции против торговых судов в Южной Атлантике вынуждают НАТО перенаправлять свои корабли и самолеты на поиски нас. Это значительно помогает нашим товарищам в Северной Атлантике, которые атакуют конвои НАТО.
+	<LineBreak/>
+    <LineBreak/>
+	Штаб сообщает, что суда НАТО укрываются в Порт-Луи на Маврикии. Быстрый удар по нему позволит нанести дополнительный ущерб до того, как НАТО сумеет опомниться.
+    <LineBreak/>
+    <LineBreak/>
+	Приложение (А) содержит дополнительную информацию о судах НАТО, находящихся в настоящее время в Порт-Луи. Необходимо точно идентифицировать эти суда - жертвы среди гражданского населения недопустимы. Мы приблизимся под покровом темноты и начнем атаку на рассвете, когда наши Яки смогут поддержать нас.
+	<LineBreak/>
+    <LineBreak/>
+	Наши разведчики сообщают, что НАТО в этом регионе поддерживают только Пакистан и ЮАР, чьи истребители «Мираж» сейчас базируются на Реюньоне. Также где-то поблизости действует небольшая группа ВМС США. Мы будем избегать их, если возможно, но уничтожим, если это будет необходимо.
+	<LineBreak/>
+    <LineBreak/>
+	Наша задача — потопить суда НАТО в гавани и уничтожить всех встреченных врагов. После этого мы встретимся с нашими силами снабжения на крайнем юге. Удачи, товарищи!
+	<LineBreak/>
+    <LineBreak/>
+	КОНЕЦ СООБЩЕНИЯ
+	<LineBreak/>
+	Марков
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+	<LineBreak/>
+	<LineBreak/>
+	---
+	<LineBreak/>
+	<LineBreak/>
+	Приложение (A)
+	<LineBreak/>
+	<LineBreak/>
+	Разведка полагает, что к Порт-Луи непосредственно прикреплен как минимум один корабль ВМС США типа «Гарсия» или «Брук».
+	<LineBreak/>
+	Транспорты НАТО, находящиеся в порту:
+	<LineBreak/>
+	<LineBreak/>
+	• Америкэн Эллайнс - Контейнеровоз типа «Лэнсер»
+	<LineBreak/>
+	• Президент Ван Бюрен - Сухогруз типа «Улучшенный С4»
+	<LineBreak/>
+	• Кейп Арчвэй AK-5011 - Сухогруз типа «С4»
+	<LineBreak/>
+    </TextBlock>
+</Grid>

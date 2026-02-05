@@ -1,0 +1,78 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ RED BANNER NORTHERN FLEET"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком., КУГ «Молния»"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Операция в Южной Атлантике"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="25 Июня 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	СРОЧНОЕ СООБЩЕНИЕ
+	<LineBreak/>
+    <LineBreak/>
+	Силы НАТО предприняли вооруженные действия против нашего наблюдательной группы во время проведения военных учений в Норвежском море. Имеющаяся информация указывает на то, что НАТО было готово к эскалации и ожидало предлога для наступательных операций.
+    <LineBreak/>
+    <LineBreak/>
+	Вооруженные силы СССР переведены на военное положение. Настоящим приказываю группе «Молния», осуществлять неограниченные морские и воздушные боевые действия против сил НАТО и торговых судов, под флагами стран НАТО.
+	<LineBreak/>
+    <LineBreak/>
+	Приложение (А) содержит идентификационные данные торговых судов НАТО, следующих через Южную Атлантику в направлении Кейптауна. По оценкам разведки, эти суда предназначены для поддержки усиления объектов НАТО на острове Диего-Гарсия. Последний спутниковый пролет показал, что к ним присоединились корабли эскорта. Обнаружение и уничтожение этих судов до того, как они достигнут воздушного прикрытия НАТО из Южной Африки, является наивысшим оперативным приоритетом.
+	<LineBreak/>
+    <LineBreak/>
+	После уничтожения этих кораблей, уходите южнее и продвигайтесь в Индийский Океан держась вне зоны действия авиации ЮАР. Ожидайте дальнейших инструкций.
+	<LineBreak/>
+    <LineBreak/>
+	Удачи, товарищи!
+	<LineBreak/>
+    <LineBreak/>
+	КОНЕЦ СООБЩЕНИЯ
+	<LineBreak/>
+	Ком. КСФ Адм. Капитанец И.М.
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+	<LineBreak/>
+	<LineBreak/>
+	---
+	<LineBreak/>
+	<LineBreak/>
+	ПРИЛОЖЕНИЕ (A)
+	<LineBreak/>
+	<LineBreak/>
+	Диспозиция транспортной группы НАТО:
+	<LineBreak/>
+	<LineBreak/>
+	• Америкэн Линкс - Контейнеровоз типа «Лэнсер»
+	<LineBreak/>
+	• Кейп Чалмерс AK-5036 - Сухогруз типа «С4»
+	<LineBreak/>
+	• Эдсон Нью-Орлеанс - средний танкер
+	<LineBreak/>
+	• Президент Монро - Сухогруз типа «Улучшенный С4»
+	<LineBreak/>
+	• Также разведка предполагает присутствие как минимум двух сопровождающих фрегатов классов «Нокс» или «Брук».
+	<LineBreak/>
+    </TextBlock>
+</Grid>

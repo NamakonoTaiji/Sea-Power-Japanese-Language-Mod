@@ -1,0 +1,114 @@
+<!-- Campaign event template USSR dispatch - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="# 389/PR/52" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Text="10.07.85 r." Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="Cовершенно cекретно" Margin="0" TextDecorations="Underline" FontSize="20" FontWeight="Bold" TextAlignment="Right"/>
+			<TextBlock Grid.Row="1" Grid.Column="2" Text="Экз. № 1" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+		</Grid>
+
+				<TextBlock Text="Приказ №028/85" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ОТ:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="Ком. КСФ"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="КОМУ:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="Ком. КУГ «МОЛНИЯ»"/>
+				<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="КОПИЯ:"/>
+				<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="Штаб 8-й ОПЭСК, ТОФ"/>
+				<TextBlock Grid.Row="6" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ПРЕДМЕТ:"/>
+				<TextBlock Grid.Row="6" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="СПЕЦОПЕРАЦИЯ В ИНДИЙСКОМ ОКЕАНЕ"/>
+
+				<TextBlock Grid.Row="7" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap" FontWeight="Bold">
+					<LineBreak/>
+					Командование подтверждает получение вашего отчета о завершении боевых действий и пополнении запасов от 9 июля после боевых действий на островах Крозе. Топливо и боекомплект признаны достаточными для продолжения маневров и боевых операций.
+					<LineBreak/>
+					<LineBreak/>
+					Главный штаб выражает благодарность офицерам и экипажам ударной группы «Молния». Оперативные потери, нанесенные силам Южно-Африканской Республики, вынудили ее правительство вступить в переговоры и занять нейтральную позицию в конфликте. По оценкам, оставшееся сопротивление на этом театре военных действий в настоящее время ограничивается американскими подразделениями.
+					<LineBreak/>
+					<LineBreak/>
+					Однако наши информационные источники в Америке передают что авианосная группа USS «Энтерпрайз» перенаправляется из Аравийского моря, чтобы найти и уничтожить вас. Мы считаем, что продолжение боевых действий против этой группы сопряжено с неприемлемыми потерями личного состава без соответствующей оперативной выгоды.
+					<LineBreak/>
+					<LineBreak/>
+					В связи с этим вам приказано начать движение на север, в сторону нейтральных вод Индии, избегая установленных районов судоходства и предсказуемых патрульных путей. Командование заключило соглашение с правительством Индии о размещении ваших сил на их военно-морской базе в Кочине. Это соглашение позволит сохранить ударную группу «Молния» для потенциальных будущих операций и обяжет американские силы оставаться в зоне боевых действий.
+					<LineBreak/>
+					<LineBreak/>
+					Дальнейшие указания будут переданы по мере возможности. Удачи, товарищи!
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="8" Grid.ColumnSpan="4" TextWrapping="Wrap" FontWeight="Bold">
+					КОНЕЦ СООБЩЕНИЯ
+					<LineBreak/>
+					Ком. КСФ Адм. Капитанец И.М.
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					Cовершенно cекретно
+					<LineBreak/>
+					После прочтения — уничтожить
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

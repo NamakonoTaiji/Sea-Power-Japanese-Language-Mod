@@ -1,0 +1,126 @@
+<!-- Campaign event template USSR dispatch - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="# 374/ПР/52" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Text="17.05.85 г." Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="Cовершенно cекретно" Margin="0" TextDecorations="Underline" FontSize="20" FontWeight="Bold" TextAlignment="Right"/>
+			<TextBlock Grid.Row="1" Grid.Column="2" Text="Экз. № 1" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+		</Grid>
+
+				<TextBlock Text="Приказ №.017/85" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ОТ:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ГЛАВКОМ ВМФ"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="КОМУ:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="КОМ. КСФ"/>
+				<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="КОПИЯ:"/>
+				<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ГЕН. ШТАБ"/>
+				<TextBlock Grid.Row="6" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ПРЕДМЕТ:"/>
+				<TextBlock Grid.Row="6" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="ПЕРЕВОД БПК «ПЕТРОПАВЛОВСК»"/>
+
+				<TextBlock Grid.Row="7" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap" FontWeight="Bold">
+					<LineBreak/>
+					В соответствии с текущей международной ситуацией и утвержденными директивами по планированию действий в чрезвычайных ситуациях, БПК «Петропавловск» переводится из состава Краснознамённого Тихоокеанского флота в состав Краснознамённого Северного флота.
+					<LineBreak/>
+					<LineBreak/>
+					Настоящим приказываю Командующему Краснознамённым Северным флотом направить БПК «Петропавловск» с приданными ему силами в Южную Атлантику. К «Петропавловску» присоединятся следующие боевые корабли:
+					<LineBreak/>
+					<LineBreak/>
+					• Ракетный крейсер «Варяг»
+					<LineBreak/>
+					• БПК «Огневой»
+					<LineBreak/>
+					• Экспериментальный авианесущий корабль «Знамя Октября»
+					<LineBreak/>
+					• 8 x Як-38 из 279го отдельного корабельного штурмового авиационного полка
+					<LineBreak/>
+					<LineBreak/>
+					Группа получает обозначение "Ударная группа «Молния»". Оперативная группа должна действовать в условиях строгого радиомолчания, избегая ненужных контактов, и вне установленных торговых морских путей.
+					<LineBreak/>
+					<LineBreak/>
+					Командование группой примет Капитан 1 ранга {Binding DataSource.PersistentData[CommanderName]}.
+					<LineBreak/>
+					<LineBreak/>
+					По прибытии в назначенный район, ударная группа должна сохранять полную боеготовность для выполнения боевых задач в случае начала боевых действий. Дальнейшие инструкции будут переданы после подтверждения изменений в оперативной обстановке.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="8" Grid.ColumnSpan="4" TextWrapping="Wrap" FontWeight="Bold">
+					КОНЕЦ СООБЩЕНИЯ
+					<LineBreak/>
+					Главком ВМФ Адм. ГОРШКОВ С.Г.
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					Cовершенно cекретно
+					<LineBreak/>
+					После прочтения — уничтожить
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

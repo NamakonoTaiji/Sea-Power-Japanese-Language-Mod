@@ -1,0 +1,114 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+	  <Border.Effect>
+	    <DropShadowEffect />
+	  </Border.Effect>
+			
+	  <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+	    <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="10"/>
+		    <RowDefinition Height="*"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		  </Grid.RowDefinitions>
+	      <TextBlock Text="C05084488" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+		  <Grid Grid.Row="0">
+		    <Grid.RowDefinitions>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="10"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		    </Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="*"/>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="Auto"/>
+		    </Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="TOP SECRET" TextAlignment="Center"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+				The Director of Central Intelligence
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontSize="12">Washington D.C., 20505</Run>
+			</TextBlock>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="16 июля 1985"/>
+			<TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="МЕМОРАНДУМ ДЛЯ:   "/>
+			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+				JCS ВАШИНГТОН DC//J3//
+				<LineBreak/>
+				USCINCLANT НОРФОЛК VA
+				<LineBreak/>
+				USCINCEUR ФАЙХИНГЕН GE
+				<LineBreak/>
+				USCINCPAC ГОНОЛУЛУ HI
+				<LineBreak/>
+				CINCSAC ОФФАТ AFB NE
+			</TextBlock>
+			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+				EO 13526 3.3(b)(1)>25Yrs
+				<LineBreak/>
+				EO 13526 3.5(c)
+			</TextBlock>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="SUBJECT:   "/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="Действия советской группы «Рейдер» в Индийском океане"/>
+		  </Grid>
+		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
+			1. Согласно сообщениям, группа «Рейдер» в настоящее время движется на север в сторону территориальных вод Индии. Москва добилась согласия Индии на вход группы в гавань Кочина, несмотря на дипломатические возражения США. После того, как советская группа достигнет Индии, возможности США по реагированию будут значительно ограничены нейтральным статусом Индии.
+			<LineBreak/>
+			<LineBreak/>
+			2. Эта советская рейдовая группа доказала свою высокую изобретательность и опасность. Она несет ответственность за многочисленные нападения на конвои в этом районе, удар по Маврикию 3 июля и вчерашнее нападение на подразделения сил материально-технического обеспечения к западу от Диего-Гарсии, в результате которого был потерян USS «Кэмден» (AOE-2). Кроме того, южноафриканцы сообщают об исчезновении двух своих дизельных катеров при попытке перехватить советские корабли снабжения вблизи островов Крозе.
+			<LineBreak/>
+			<LineBreak/>
+			3. АУГ «Энтерпрайз» (CTF 71) была переброшена на юго-восток из Оманского залива для преследования советского соединения. Однако потеря USS «Кэмден», значительно сократила возможности для выполнения боевых вылетов. После потери «Кэмдена» эффективность авиагруппы «Энтерпрайз» снизилась примерно вдвое.
+			<LineBreak/>
+			<LineBreak/>
+			4. Мы считаем, что наиболее благоприятная возможность нейтрализовать группу «Рейдер» существует во время ее нынешнего движения на север в сторону Индии. Вход в контролируемые Индией воды исключит любую возможность военных действий против них. В дальнейшем будет представлен анализ с вариантами состава сил, необходимых для сдерживания советских войск в Кочине, если это потребуется.
+			<LineBreak/>
+			<LineBreak/>
+		  </TextBlock>
+		  <TextBlock TextAlignment="Right" Text="William J. Casey, Director" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0" Grid.Row="2"/>
+		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+			<Run TextDecorations="Underline">Distribution by ER/16 July 1985 w/Att</Run>
+			<LineBreak/>
+			<LineBreak/>
+			Orig - Each Addressee
+			<LineBreak/>
+			   1 - DCI
+			<LineBreak/>
+			   1 - DDCI
+			<LineBreak/>
+			   1 - EXDIR
+			<LineBreak/>
+			   1 - C/NIC
+			<LineBreak/>
+			   1 - VC/NIC
+			<LineBreak/>
+			   1 - NIO/Warning
+			<LineBreak/>
+			   1 - ER File
+		  </TextBlock>
+		  <TextBlock Grid.Row="4" Text="TOP SECRET" TextAlignment="Center"/>
+	    </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

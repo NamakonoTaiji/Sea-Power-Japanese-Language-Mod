@@ -1,0 +1,89 @@
+<Viewbox Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+	<Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[01_SaintHelena_SouthAtlantic_Close]}"/>
+		<!-- Small Map -->
+        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[SouthAtlanticFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="105,0,0,5" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+		<!-- Photo inset -->
+        <Border Canvas.Left="5" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+			<Border.Effect>
+				<DropShadowEffect Opacity="0.25"/>
+			</Border.Effect>
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="12" CenterY="200"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[01_edson_new_orleans]}" Width="250"/>
+            </Grid>
+        </Border>
+		<Border Canvas.Left="225" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+			<Border.Effect>
+				<DropShadowEffect Opacity="0.25"/>
+			</Border.Effect>
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="5" CenterY="200"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[01_president_monroe]}" Width="250"/>
+            </Grid>
+        </Border>
+		<!-- Player unit summary -->
+		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
+			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
+                <Run Text="КУГ «Молния»:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="БПК «Петропавловск»"/><LineBreak/>
+                <Run Text="РКР «Варяг»"/><LineBreak/>
+                <Run Text="БПК «Огневой»"/><LineBreak/>
+                <Run Text="АВЛ «Знамя Октября»"/>
+           </TextBlock>
+		</Border>
+
+		<!-- Map Labels -->
+		<TextBlock Foreground="SteelBlue" Text="Атлантический Океан" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="525" Canvas.Top="75"/>
+		<TextBlock Foreground="Black" Text="Ангола" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Canvas.Left="1000" Canvas.Top="550"/>
+		<TextBlock Foreground="Black" Text="о. Св. Елены (Англ.)" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Canvas.Left="190" Canvas.Top="500"/>
+		
+		<!-- Strike Group Molniya -->
+		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="350">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="КУГ «Молния»"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- NATO Merchant Convoy -->
+		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="300">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="Конвой НАТО"/><LineBreak/>
+                <Run Text="Точное местоположение неизвестно"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+
+		<!-- Arrows -->
+		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+        <Path Canvas.Left="625" Canvas.Top="400" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="140"/>
+            </Path.RenderTransform>
+        </Path>
+
+	</Canvas>
+</Viewbox>

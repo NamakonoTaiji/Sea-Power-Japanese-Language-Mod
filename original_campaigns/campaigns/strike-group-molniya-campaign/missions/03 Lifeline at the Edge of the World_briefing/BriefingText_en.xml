@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ALL SHIPS, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Subj:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Resupply Operations"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="5 JULY 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	EXECUTION MESSAGE
+	<LineBreak/>
+    <LineBreak/>
+	I must congratulate all ships, crews, and pilots of our force on a memorable operation against the enemy at Mauritius. We are becoming a deadly thorn in the side of NATO.
+	<LineBreak/>
+    <LineBreak/>
+	The action off Port Louis has greatly reduced our ammunition and fuel supplies. We must now head south to rendezvous with our comrades of the merchant navy for resupply. I have selected a remote anchorage in the Crozet Islands, where three of our disguised merchant vessels will meet us with fuel, provisions, aviation stores, and missile reloads.
+    <LineBreak/>
+    <LineBreak/>
+	Intercepted communications indicate that the enemy may be aware of our intentions. We now know that South Africa has joined forces with NATO, and we may encounter their diesel submarines. Our reconnaissance ship Ampermetr will also rendezvous with us, and will be a valuable source of intelligence with his onboard signals processing equipment. We must guarantee his survival.
+	<LineBreak/>
+	<LineBreak/>
+	We will reach the anchorage and sanitize the area, then begin our resupply before we proceed north to hunt the enemy again.
+	<LineBreak/>
+    <LineBreak/>
+	Good luck, Comrades.
+	<LineBreak/>
+    <LineBreak/>
+	END OF MESSAGE
+	<LineBreak/>
+	/s/ Markov
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>

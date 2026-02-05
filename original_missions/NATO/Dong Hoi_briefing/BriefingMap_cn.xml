@@ -19,7 +19,7 @@
         <Ellipse Canvas.Left="295" Canvas.Top="280" Width="80" Height="80" Opacity="0.25" Fill="Red"/>
 		<!-- Mission Area Text -->
         <TextBlock Canvas.Left="267" Canvas.Top="267" Text="任务区域" Foreground="White"/>
-		<!-- Oklahoma group icon and text -->
+		<!-- TU 77.1.1 group icon and text -->
         <Grid Canvas.Left="380" Canvas.Top="345">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
@@ -29,10 +29,20 @@
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
                 <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
             </Canvas>
-            <TextBlock Grid.Column="1" Foreground="Blue" TextAlignment="Left" Margin="0,0,-5,0">
-                <Run Text="俄克拉荷马市号水面行动群"/>
+            <TextBlock Grid.Column="1" Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="第77.1.1特遣分队"/>
             </TextBlock>
         </Grid>
+		<!-- USS Sterett DLG-31 -->
+		<StackPanel Orientation="Vertical" Canvas.Left="420" Canvas.Top="300">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="USS Sterett DLG-31"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
 		<!-- Hostile installations -->
         <Grid Canvas.Left="245" Canvas.Top="302">
             <Grid.ColumnDefinitions>

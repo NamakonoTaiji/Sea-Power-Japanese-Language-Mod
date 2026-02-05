@@ -1,0 +1,79 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="June 1, 1985 | Vol. 76, No. 22 | 25 Cents" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <!--Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/-->
+			<Grid Margin="0,5,0,15">
+				<Rectangle Fill="Red" Margin="0,110,0,5"/>
+				<TextBlock Text="Exposition News" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+			</Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="EUROPE ON EDGE AS TALKS BETWEEN EAST AND WEST CONTINUE; LITTLE PROGRESS MADE" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+                    
+                    <TextBlock Text="NATO officials deny exercises are prelude to war" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						BRUSSELS — Efforts to stabilize relations between NATO and Warsaw Pact states have made little tangible progress in recent days, according to officials in Brussels and several European capitals.
+						<LineBreak/>
+						Diplomatic contacts remain ongoing, but European officials acknowledge that trust between East and West has eroded significantly since this spring. Senior diplomats familiar with the talks described recent exchanges as largely procedural, with both sides restating established positions while avoiding commitments that might ease tensions.
+						<LineBreak/>
+						Defense ministries in several NATO countries confirmed that military exercises have been accelerated, including naval maneuvers in the Norwegian Sea and ground training in West Germany. Analysts warn that the pace of activity increases the risk of accidents, especially if these exercises are observed by Soviet forces. (continued on page 2)
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[01_nato_tanks]}" Stretch="Uniform"/>
+                    <TextBlock Text="American heavy tanks advance across a training range in West Germany during a NATO exercise last week. Defense officials emphasized the drills were defensive, even as military readiness levels continue to rise. Similar exercises have been expanded across Central Europe amid growing concern over deteriorating East–West relations. Similar naval exercises are planned for the end of June. (AP Wire Photo)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="EUROPEAN SHIPPING FACES HEIGHTENED UNCERTAINTY" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						ROTTERDAM – Shipping companies and insurers across Europe are reassessing their risk exposure given heightened tensions between East and West during recent weeks. Insurance rates for trans-Atlantic cargoes have increased sharply this month as a result.
+						<LineBreak/>
+						Representatives from the maritime insurance sector note increased scrutiny of long-distance trade lanes, particularly those supporting energy and raw-material supplies. Several firms have begun issuing precautionary advisories as the security environment at sea becomes more uncertain.
+						<LineBreak/>
+						Although no formal restrictions have been imposed on commercial shipping, insurers warn that established sea lanes may grow less predictable if political conditions deteriorate further. (continued on page 3)
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <Image Source="{Binding Assets[01_container_ship_photo]}"/>
+                    <TextBlock Text="The New York-bound container vessel M/V Botany Bay departs the port of Rotterdam earlier this month. Ships such as this form critical links in trans-Atlantic trade, carrying manufactured goods and raw materials between Europe and North America. (Royal Navy photo)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+			<TextBlock Text="-1-" TextAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

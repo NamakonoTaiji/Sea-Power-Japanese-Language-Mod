@@ -1,0 +1,126 @@
+<!-- Campaign event template USSR dispatch - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="# 374/PR/52" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Text="17.05.85 r." Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="Cовершенно cекретно" Margin="0" TextDecorations="Underline" FontSize="20" FontWeight="Bold" TextAlignment="Right"/>
+			<TextBlock Grid.Row="1" Grid.Column="2" Text="Экз. № 1" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+		</Grid>
+
+				<TextBlock Text="DIRECTIVE No.017/85" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="FROM:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="High Command of the Navy (GK VMF)"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="TO:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="Commander, Red Banner Northern Fleet"/>
+				<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="COPY:"/>
+				<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="Commander, Red Banner Pacific Fleet"/>
+				<TextBlock Grid.Row="6" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="SUBJECT:"/>
+				<TextBlock Grid.Row="6" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="Forward Deployment of PETROPAVLOVSK"/>
+
+				<TextBlock Grid.Row="7" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap" FontWeight="Bold">
+					<LineBreak/>
+					Pursuant to the current international situation and in accordance with approved contingency planning directives, Red Banner Pacific Fleet large anti-submarine ship PETROPAVLOVSK is seconded to Red Banner Northern Fleet.
+					<LineBreak/>
+					<LineBreak/>
+					Commander Red Banner Northern Fleet is ordered to deploy PETROPAVLOVSK with attached forces to the South Atlantic. PETROPAVLOVSK will be joined by following warships:
+					<LineBreak/>
+					<LineBreak/>
+					• Missile cruiser VARYAG
+					<LineBreak/>
+					• Large anti-submarine ship OGNEVOY
+					<LineBreak/>
+					• Experimental aviation ship ZNAMNYA OKTYBYRA
+					<LineBreak/>
+					• 8 x Yak-38 279th Independent Shipborne Assault Aviation Regiment
+					<LineBreak/>
+					<LineBreak/>
+					This force will be designated STRIKE GROUP MOLNIYA (Lightning). The task force is to proceed under conditions of strict radio silence, avoiding unnecessary contact, and must operate outside of established commercial shipping lanes.
+					<LineBreak/>
+					<LineBreak/>
+					The Strike Group will be commanded by Captain 1st Rank {Binding DataSource.PersistentData[CommanderName]}.
+					<LineBreak/>
+					<LineBreak/>
+					Upon arrival in the assigned operating area, the Strike Group will maintain full readiness for execution of combat missions in the event of hostilities. Further instructions will be transmitted upon confirmation of changes to the operational situation.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="8" Grid.ColumnSpan="4" TextWrapping="Wrap" FontWeight="Bold">
+					END OF DIRECTIVE
+					<LineBreak/>
+					/s/ GORSHKOV
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					Cовершенно cекретно
+					<LineBreak/>
+					После прочтения — уничтожить
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

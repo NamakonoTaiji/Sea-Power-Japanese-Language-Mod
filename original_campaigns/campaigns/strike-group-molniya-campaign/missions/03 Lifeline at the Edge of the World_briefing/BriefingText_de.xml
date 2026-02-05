@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ALLE SSCHIFFE, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Versorgung"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="5. JULI 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	EXECUTION MESSAGE
+	<LineBreak/>
+    <LineBreak/>
+	Ich gratuliere allen Besatzungen und Piloten unseres Verbandes zum erfolgreichen Schlag gegen den Feind bei Mauritius. Wir werden für die NATO zunehmend zu einer tödlichen Gefahr.
+	<LineBreak/>
+	<LineBreak/>
+	Das Gefecht vor Port Louis hat unsere Munitions- und Treibstoffvorräte aufgezehrt. Wir müssen nun südwärts verlegen, um mit unseren Genossen der Handelsmarine zur Versorgung zusammenzutreffen. Wer verlegen zu einem abgelegenen Ankerplatz bei den Crozetinseln, an welchem drei unserer getarnten Handelsschiffe uns mit Treibstoff, Versorgungsgütern und Munition erwarten.
+	<LineBreak/>
+	<LineBreak/>
+	Abgefangene Funkmeldungen deuten darauf hin, dass der Feind unsere Absichten erkannt haben könnte. Wir wissen nun, dass Südafrika sich der NATO angeschlossen hat und wir könnten auf deren Diesel-U-Boote treffen. Unser Aufklärungsschiff Ampermetr wird ebenfalls zu uns stoßen und ist eines unserer besten und modernsten Aufklärungsschiffe. Sein Überleben muss unbedingt sichergestellt werden.
+	<LineBreak/>
+	<LineBreak/>
+	Wir werden das Gebiet um den Ankerplatz säubern und anschließend die Versorgung aufnehmen, bevor wir erneut nordwärts verlegen, um den Feind zu jagen.
+	<LineBreak/>
+	<LineBreak/>
+	Viel Glück, Genossen.
+	<LineBreak/>
+	<LineBreak/>
+	ENDE DER MELDUNG
+	<LineBreak/>
+	/s/ Markov
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>

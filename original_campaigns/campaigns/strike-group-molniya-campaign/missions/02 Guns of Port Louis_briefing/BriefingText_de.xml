@@ -1,0 +1,74 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ALLE SCHIFFE, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Spezialoperation Mauritius"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="3. JULI 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	BEFEHLSAUSGABE
+	<LineBreak/>
+    <LineBreak/>
+	Unser erfolgreicher Schlag im Südatlantik zwingt die NATO, Schiffe und Luftfahrzeuge zur Suche nach uns abzuziehen. Dies unterstützt unsere Genossen im Nordatlantik erheblich bei ihren Angriffen auf die NATO-Konvois.
+	<LineBreak/>
+	<LineBreak/>
+	Das HQ hat uns informiert, dass NATO-Handelsschiffe in Port Louis, Mauritius, Schutz suchen. Ein schneller Schlag gegen diesen Ankerplatz bietet die Möglichkeit, zusätzliche Nadelstiche zu setzen, bevor die NATO sich organisieren kann.
+	<LineBreak/>
+	<LineBreak/>
+	Anlage (A) enthält weitere Informationen zu den derzeit in Port Louis befindlichen NATO-Schiffen. Eine eindeutige Identifizierung dieser Einheiten ist erforderlich; zivile Verluste werden nicht toleriert. Wir nähern uns im dem Schutz der Dunkelheit und greifen bei Tagesanbruch an, wenn unsere Luftkräfte unterstützen können.
+	<LineBreak/>
+	<LineBreak/>
+	Unsere Quellen berichten, dass die NATO in dieser Region lediglich durch Pakistan und Südafrika unterstützt wird, deren Mirage-Jäger auf Réunion stationiert sind. Eine weitere Meldung weist jedoch darauf hin, dass eine kleine Einsatzgruppe der US Navy irgendwo in der Nähe operiert. Je nach Situation werden wir ihr ausweichen (wenn möglich) oder sie vernichten (falls nötig).
+	<LineBreak/>
+	<LineBreak/>
+	Unser Auftrag lautet, den Hafen anzugreifen und alle Feindkräfte zu zerstören. Nach dieser Aktion treffen wir im Süden mit unserer Versorgungsgruppe zusammen. Viel Glück, Genossen.
+	<LineBreak/>
+	<LineBreak/>
+	ENDE DER MELDUNG
+	<LineBreak/>
+	/s/ Markov
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+	<LineBreak/>
+	<LineBreak/>
+	---
+	<LineBreak/>
+	<LineBreak/>
+	ANLAGE (A)
+	<LineBreak/>
+	<LineBreak/>
+	Zusammensetzung der Primärziele in Port Louis wie folgt. Die Aufklärung meldet mindestens eine NATO-Sicherungseinheit der GARCIA- oder BROOKE-Klasse.
+	<LineBreak/>
+	<LineBreak/>
+	• SS AMERICAN ALLIANCE – Containerschiff der LANCER-Klasse
+	<LineBreak/>
+	• SS PRESIDENT MONROE – Verbesserter Stückgutfrachter Typ C4
+	<LineBreak/>
+	• SS CAPE ARCHWAY AK-5011 – Stückgutfrachter Typ C4
+	<LineBreak/>
+    </TextBlock>
+</Grid>

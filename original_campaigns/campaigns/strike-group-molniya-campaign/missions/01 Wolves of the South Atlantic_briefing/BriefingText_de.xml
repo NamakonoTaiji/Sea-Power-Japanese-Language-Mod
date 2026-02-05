@@ -1,0 +1,76 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ ROTBANNER NORDFLOTTE"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, STRIKE GROUP MOLNIYA"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Auftrag im Südatlantik"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="25. JUNI 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	BEFEHLSAUSGABE
+	<LineBreak/>
+	<LineBreak/>
+	Im Zusammenhang mit dem Ausbruch feindseliger Handlungen wird bestätigt, dass Kräfte der NATO während der Durchführung von Militärmanövern im europäischen Nordmeer Kampfhandlungen gegen unsere beobachtenden Kräfte aufgenommen haben haben. Unsere Aufklärung weist darauf hin, dass die NATO auf eine Eskalation vorbereitet war und auf einen Vorwand für den Angriff wartete.
+	<LineBreak/>
+	<LineBreak/>
+	Die Streitkräfte der UdSSR haben auf Kriegsbereitschaft umgestellt. Mit sofortiger Wirkung sind uneingeschränkte See- und Luftkampfoperationen gegen NATO-Kräfte sowie NATO-nahe Handelsschifffahrt durchzuführen.
+	<LineBreak/>
+	<LineBreak/>
+	Anlage (A) enthält Identifikationsdaten zu NATO-Handelsschiffen, die den Südatlantik in Richtung Kapstadt befahren. Die Aufklärung bewertet, dass diese Schiffe zur Unterstützung der Verstärkung von Einrichtungen der NATO auf Diego Garcia bestimmt sind. Der letzte Satellitenüberflug zeigte diese Handelsschiffe beim Versuch, sich unter US-Sicherung zu einem Konvoi zusammenzuschließen. Die Aufklärung und Vernichtung dieser Einheiten vor Erreichen des südafrikanischen Luftschutzschirmes hat höchste operative Priorität.
+	<LineBreak/>
+	<LineBreak/>
+	Nach Vernichtung dieser Schiffe ist Verbindung mit unserer Versorgungsgruppe bei Luanda, Angola, zum aufmunitionieren und zum Erhalt weiterer Weisungen herzustellen.
+	<LineBreak/>
+	<LineBreak/>
+	Die Ozeane sind nun Schlachtfelder. Viel Glück, Genosse.
+	<LineBreak/>
+	<LineBreak/>
+	ENDE DER MELDUNG
+	<LineBreak/>
+	/s/ Adm. I. M. Kapitanets
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+	<LineBreak/>
+	<LineBreak/>
+	---
+	<LineBreak/>
+	<LineBreak/>
+	ANLAGE (A)
+	<LineBreak/>
+	<LineBreak/>
+	Zusammensetzung der NATO-Handelsschiffe wie folgt. Die Aufklärung vermutet mindestens zwei Fregatten der KNOX- oder BROOKE-Klasse zur Konvoisicherung.
+	<LineBreak/>
+	<LineBreak/>
+	• SS AMERICAN LYNX – Containerschiff der LANCER-Klasse
+	<LineBreak/>
+	• SS CAPE CHALMERS AK-5036 – Stückgutfrachter Typ C4
+	<LineBreak/>
+	• MV EDSON NEW ORLEANS – Mittlerer Tanker
+	<LineBreak/>
+	• SS PRESIDENT MONROE – Verbesserter Stückgutfrachter Typ C4
+	<LineBreak/>
+    </TextBlock>
+</Grid>

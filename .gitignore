@@ -1,5 +1,6 @@
-# mp4を除外
+# mp4とpngを除外
 *.mp4
+*.png
 # Pacific Strikeファイルを除外
 Pacific Strike
 GeminiContext

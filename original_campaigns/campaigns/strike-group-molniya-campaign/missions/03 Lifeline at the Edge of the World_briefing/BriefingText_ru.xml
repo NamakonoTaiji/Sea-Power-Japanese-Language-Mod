@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком. КУГ «Молния»"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Всем кораблям КУГ «Молния»"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Опереция снабжения"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="5 июля 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	СООБЩЕНИЕ ПО ГРУППЕ
+	<LineBreak/>
+    <LineBreak/>
+	Я поздравляю моряков и пилотов нашей группы с успешной операцией на Маврикии. Для НАТО мы становимся проблемой, которую сложно игнорировать.
+	<LineBreak/>
+    <LineBreak/>
+	Боевые действия у Порт-Луи значительно сократили наши запасы боеприпасов и топлива. Теперь нам нужно двигаться на юг, чтобы встретиться с нашими товарищами из торгового флота для пополнения запасов. Я выбрал отдаленную якорную стоянку на островах Крозе, где нас встретят три наших замаскированных торговых судна с топливом, провиантом и боеприпасами.
+    <LineBreak/>
+    <LineBreak/>
+	Мы полагаем, что противник догадывается о наших намерениях. Теперь мы знаем, что ЮАР помогает НАТО, и мы можем столкнуться с их дизельными подводными лодками. Наш разведывательный корабль «Амперметр» также встретится с нами и станет ценным источником разведданных. Мы должны гарантировать его выживание.
+	<LineBreak/>
+	<LineBreak/>
+	Мы доберемся до якорной стоянки и зачистим территорию. Затем, после пополнения запасов, мы двинемся на север, чтобы снова охотиться на врага.
+	<LineBreak/>
+    <LineBreak/>
+	Удачи, товарищи!
+	<LineBreak/>
+    <LineBreak/>
+	КОНЕЦ СООБЩЕНИЯ
+	<LineBreak/>
+	Марков
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>
