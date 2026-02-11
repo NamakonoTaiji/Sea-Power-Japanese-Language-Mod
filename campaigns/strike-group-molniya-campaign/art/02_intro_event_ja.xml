@@ -1,0 +1,126 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:SeapowerUI">
+
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill"
+        Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black"
+        TextElement.FontSize="16" Padding="45">
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill" />
+        </Border.Background>
+
+        <StackPanel Orientation="Vertical">
+
+            <Grid
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="# 374/PR/52" Margin="0" FontSize="20"
+                    FontWeight="Bold" TextAlignment="Left" />
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="17.05.85 r." Margin="0" FontSize="20"
+                    FontWeight="Bold" TextAlignment="Left" />
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="" Margin="40,0,40,0" FontWeight="Bold"
+                    TextAlignment="Center" />
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="極秘" Margin="0"
+                    TextDecorations="Underline" FontSize="20" FontWeight="Bold"
+                    TextAlignment="Right" />
+                <TextBlock Grid.Row="1" Grid.Column="2" Text="第1写" Margin="0" FontSize="20"
+                    FontWeight="Bold" TextAlignment="Center" />
+            </Grid>
+
+            <TextBlock Text="指令 第017/85号" Margin="0" FontSize="20" FontWeight="Bold"
+                TextAlignment="Left" />
+            <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1" />
+            <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10" />
+
+            <Grid
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="発：" />
+                <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="海軍総司令部（GK VMF）" />
+                <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="宛：" />
+                <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="赤旗北方艦隊司令官" />
+                <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="報：" />
+                <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="赤旗太平洋艦隊司令官" />
+                <TextBlock Grid.Row="6" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="件名：" />
+                <TextBlock Grid.Row="6" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="「ペトロパブロフスク」の前方展開" />
+
+                <TextBlock Grid.Row="7" Grid.ColumnSpan="4"
+                    FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"
+                    FontWeight="Bold">
+                    <LineBreak />
+                    現下の国際情勢に鑑み、承認済みの不測事態計画指令に基づき、赤旗太平洋艦隊所属の大型対潜艦「ペトロパブロフスク」を赤旗北方艦隊の指揮下に編入する。 <LineBreak />
+					<LineBreak />
+                    北方艦隊司令官は、ペトロパブロフスクおよび配属部隊を南大西洋に展開させよ。ペトロパブロフスクには以下の艦艇が合流する： <LineBreak />
+					<LineBreak />
+                    ・ミサイル巡洋艦 ヴァリャーグ <LineBreak /> ・大型対潜艦 オグネヴォイ <LineBreak /> ・実験航空母艦 ズナーミャ・オクチャブリャ <LineBreak />
+                    ・第279独立艦上襲撃機連隊所属 Yak-38 x 8機 <LineBreak />
+					<LineBreak />
+                    本部隊の呼称を打撃群「モルニヤ（稲妻）」とする。当該任務部隊は厳格な無線封止の下で進出し、不要な接触を避け、既存の商船航路の外側を航行しなければならない。 <LineBreak />
+					<LineBreak />
+                    打撃群の指揮は、一等海佐 {Binding DataSource.PersistentData[CommanderName]} が執るものとする。 <LineBreak />
+					<LineBreak />
+                    指定された作戦海域に到達後、打撃群は戦闘事態発生時に備え、戦闘任務遂行のための全待機態勢を維持せよ。作戦状況に変化が生じ次第、追って指示を伝達する。 <LineBreak />
+                </TextBlock>
+                <TextBlock Grid.Row="8" Grid.ColumnSpan="4" TextWrapping="Wrap" FontWeight="Bold">
+                    以上 <LineBreak /> 署名：ゴルシコフ <LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+					<LineBreak />
+                    極秘 <LineBreak /> 読了後、速やかに破棄せよ </TextBlock>
+            </Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

@@ -7,39 +7,34 @@
     d:DesignWidth="1920"
     d:DesignHeight="1080">
     <Viewbox>
-        <Border Background="White"
-            HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120"
-            Padding="45"
+        <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center"
+            Width="864" Height="1120" Padding="45"
             TextElement.FontFamily="Courier New" TextElement.Foreground="Black"
             TextElement.FontSize="16">
             <Border.Effect>
                 <DropShadowEffect />
             </Border.Effect>
+
             <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
-                        <RowDefinition
-                            Height="45" />
+                        <RowDefinition Height="45" />
                         <RowDefinition Height="*" />
-                        <RowDefinition
-                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <TextBlock Text="C05071157" Background="#FFFFFFFF" HorizontalAlignment="Left"
                         VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
-                    <Grid
-                        Grid.Row="0">
+                    <Grid Grid.Row="0">
                         <Grid.RowDefinitions>
-                            <RowDefinition
-                                Height="Auto" />
+                            <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="90" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="15" />
-                            <RowDefinition
-                                Height="Auto" />
+                            <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="15" />
                             <RowDefinition Height="Auto" />
@@ -48,15 +43,12 @@
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition
-                                Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock
-                            Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="極秘"
-                            TextAlignment="Center" />
-                        <TextBlock Grid.Row="1"
-                            Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2"
-                            TextAlignment="Center" FontFamily="Times New Roman"> 中央情報長官 <LineBreak />
+                        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"
+                            Text="極 秘 (SECRET)" TextAlignment="Center" />
+                        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2"
+                            TextAlignment="Center" FontFamily="Times New Roman"> 中央情報局長官 <LineBreak />
 <LineBreak />
 <Run
                                 FontSize="12">ワシントンD.C. 20505</Run>
@@ -64,49 +56,42 @@
                         <TextBlock Grid.Row="2" Grid.Column="3" TextWrapping="Wrap"> ER 84-2648 <LineBreak />
 <LineBreak />
                             CR - NIC 03508-84 </TextBlock>
-                        <TextBlock Grid.Row="4" Grid.Column="2"
-                            Text="1988年5月15日" />
-                        <TextBlock Grid.Row="6" Grid.Column="3"
-                            Text="25X1" />
-                        <TextBlock Grid.Row="7" Grid.Column="0"
-                            Text="メモ:  " />
-                        <TextBlock Grid.Row="7" Grid.Column="1"
-                            TextWrapping="Wrap"> 大統領 <LineBreak /> 副大統領 <LineBreak /> 国務長官 <LineBreak />
-                            国防長官 <LineBreak /> 国家安全保障問題担当大統領補佐官 <LineBreak /> 統合参謀本部議長 </TextBlock>
-                        <TextBlock
-                            Grid.Row="7" Grid.Column="3" TextWrapping="Wrap"> EO 13526
+                        <TextBlock Grid.Row="4" Grid.Column="2" Text="1988年5月15日" />
+                        <TextBlock Grid.Row="6" Grid.Column="3" Text="25X1" />
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="覚書先：   " />
+                        <TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap"> 大統領 <LineBreak />
+                            副大統領 <LineBreak /> 国務長官 <LineBreak /> 国防長官 <LineBreak /> 国家安全保障担当大統領補佐官 <LineBreak />
+                            統合参謀本部議長 </TextBlock>
+                        <TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap"> EO 13526
                             3.3(b)(1)>25Yrs <LineBreak /> EO 13526 3.5(c) </TextBlock>
-                        <TextBlock
-                            Grid.Row="9" Grid.Column="0" Text="件名:  " />
-                        <TextBlock
-                            Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="海上領域における米ソ紛争" />
+                        <TextBlock Grid.Row="9" Grid.Column="0" Text="件名：   " />
+                        <TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3"
+                            Text="海域における米ソ紛争について" />
                     </Grid>
                     <TextBlock Grid.Row="2" TextWrapping="Wrap"> 1.
-                        ノルウェー海及びベーリング海峡における最近のソ連の攻撃的活動に関する驚くべき一連の兆候をここに添付する。当初の紛争は個別の水上戦闘群（SAG）司令官の独断専行によって開始されたようであるが、ソ連最高司令部はこの機に乗じて我々の不意を突いたものと見られる。
+                        ノルウェー海およびベアリング海峡における最近のソ連の侵略的活動に関する一連の指標を添付する。初期の紛争は個別の水上打撃群（SAG）指揮官の独断専行により発生したものであるが、ソ連軍最高司令部はこの機会を利用して、我々の不意を突く形で戦果の拡大を図ったものと思われる。
                         <LineBreak />
 <LineBreak />
                         2.
-                        ベーリング海峡での交戦は当初、ソ連側の主要領域の迅速な獲得への期待を高め、特に我々の早期警戒能力を弱体化させた。我々は、特に北太平洋における孤立したレーダー基地を注意深く監視し続けるべきである。
+                        ベアリング海峡での交戦により、ソ連側は当初、迅速な領土獲得に期待を寄せ、特に我々の早期警戒能力を減退させた。北太平洋の孤立したレーダー基地については、引き続き厳重な警戒を維持すべきである。
                         <LineBreak />
 <LineBreak />
                         3.
-                        しかしながら、弾道ミサイル潜水艦がSOSUSバリアに接近中に喪失したことは、ソ連の戦略ロケット軍及び海軍司令部内で深刻な非難の応酬を引き起こした。重大な損失の衝撃は、紛争を限定的なものに留めたいというソ連側の願望を増大させ、彼らをより現実的な交渉へと向かわせる可能性が高い。
+                        しかしながら、SOSUS防衛線に接近した弾道ミサイル原子力潜水艦（SSBN）の喪失は、ソ連の戦略ロケット軍および海軍司令部内に深刻な非難の応酬を引き起こした。この甚大な損失による衝撃は、紛争を局地的なものに留めたいというソ連側の意向を強めており、より現実的な交渉へと彼らを追い込む可能性が高い。
                         <LineBreak />
 <LineBreak />
                     </TextBlock>
-                    <TextBlock TextAlignment="Right" Text="ウィリアム・J・ケイシー"
-                        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,338,0,0"
-                        Grid.Row="2" />
-                    <TextBlock Grid.Row="2" Grid.RowSpan="3"
-                        VerticalAlignment="Bottom">
-                        <Run TextDecorations="Underline">配布: ER/88年5月19日 添付資料あり</Run>
+                    <TextBlock TextAlignment="Right" Text="ウィリアム・J・ケーシー" HorizontalAlignment="Left"
+                        VerticalAlignment="Top" Margin="480,338,0,0" Grid.Row="2" />
+                    <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+                        <Run TextDecorations="Underline">1988年5月19日 添付資料とともにERにより配布済</Run>
 <LineBreak />
 <LineBreak />
-                        原本 - 各宛先 <LineBreak /> 1 - 中央情報長官 <LineBreak /> 1 - 中央情報副長官 <LineBreak /> 1
-                        - 実行長官 <LineBreak /> 1 - 国家情報会議議長 <LineBreak /> 1 - 国家情報会議副議長 <LineBreak />
-                        1 - 国家情報官/警告担当 <LineBreak /> 1 - ERファイル </TextBlock>
-                    <TextBlock Grid.Row="4" Text="極秘"
-                        TextAlignment="Center" />
+                        正本 - 各宛先 <LineBreak /> 1 - 中央情報局長官 (DCI) <LineBreak /> 1 - 中央情報局副長官 (DDCI) <LineBreak />
+                        1 - 執行局長 (EXDIR) <LineBreak /> 1 - 国家インテリジェンス会議議長 (C/NIC) <LineBreak /> 1 -
+                        国家インテリジェンス会議副議長 (VC/NIC) <LineBreak /> 1 - 警戒担当国家情報官 (NIO/Warning) <LineBreak />
+                        1 - ERファイル </TextBlock>
+                    <TextBlock Grid.Row="4" Text="極 秘 (SECRET)" TextAlignment="Center" />
                 </Grid>
             </Border>
         </Border>

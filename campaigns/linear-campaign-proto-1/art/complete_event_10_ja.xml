@@ -7,12 +7,13 @@
     d:DesignWidth="1920"
     d:DesignHeight="1080">
     <StackPanel Orientation="Vertical" Margin="5">
-        <TextBlock
-            FontSize="24" Foreground="White">
-            交渉の切り札 - 陣営を選択
+        <TextBlock FontSize="24" Foreground="White">
+            交渉の切り札 ―― どちらの手札を選ぶか
         </TextBlock>
-        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap"> 「Calculus of
-            Conflict」キャンペーンの分岐点へようこそ！ このキャンペーンはここから二つの道に分かれる。次のミッションに進むには、NATO側かソ連側のどちらかを完了させる必要がある。 <LineBreak />     <LineBreak />
-            司令官、陣営を選択し、健闘を祈る！ </TextBlock>
+        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap"> 『Calculus of
+            Conflict』における分岐点への到達、見事である。本キャンペーンはここでルートが分岐しており、次のミッションへ進むにはNATO側、あるいはソ連側のいずれかを選択して完遂する必要がある。
+            <LineBreak />
+        <LineBreak />
+            選択せよ。幸運を祈る、司令官。 </TextBlock>
     </StackPanel>
 </Page>

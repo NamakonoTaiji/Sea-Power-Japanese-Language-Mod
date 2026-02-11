@@ -7,12 +7,9 @@
     d:DesignWidth="1920"
     d:DesignHeight="1080" Padding="30,30,30,30">
     <Viewbox>
-        <Canvas
-            Width="1360" Height="1030">
-            <Image Source="{Binding Assets[shipping_forecast]}"
-                Canvas.Top="0" Canvas.Left="0" />
-            <Border Canvas.Top="437.5975"
-                Canvas.Left="634.74976" Background="#75EEE8AA" Width="323">
+        <Canvas Width="1360" Height="1030">
+            <Image Source="{Binding Assets[shipping_forecast]}" Canvas.Top="0" Canvas.Left="0" />
+            <Border Canvas.Top="437.5975" Canvas.Left="634.74976" Background="#75EEE8AA" Width="323">
                 <Border.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform />
@@ -21,11 +18,11 @@
                         <TranslateTransform />
                     </TransformGroup>
                 </Border.RenderTransform>
-                <TextBlock Text="SOSUSバリア" TextWrapping="Wrap"
-                    Foreground="#FF000000" HorizontalAlignment="Center" />
+                <TextBlock Text="SOSUS防衛線" TextWrapping="Wrap" Foreground="#FF000000"
+                    HorizontalAlignment="Center" />
             </Border>
-            <Border
-                Canvas.Top="317.19464" Canvas.Left="236.73648" Background="#75EEE8AA" Width="135">
+            <Border Canvas.Top="317.19464" Canvas.Left="236.73648" Background="#75EEE8AA"
+                Width="135">
                 <Border.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform />
@@ -34,8 +31,8 @@
                         <TranslateTransform />
                     </TransformGroup>
                 </Border.RenderTransform>
-                <TextBlock Text="SOSUSバリア"
-                    TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center" />
+                <TextBlock Text="SOSUS防衛線" TextWrapping="Wrap" Foreground="#FF000000"
+                    HorizontalAlignment="Center" />
             </Border>
             <Border Canvas.Top="76.88474" Canvas.Left="1349.987" Background="#75EEE8AA" Width="312">
                 <Border.RenderTransform>
@@ -46,23 +43,20 @@
                         <TranslateTransform />
                     </TransformGroup>
                 </Border.RenderTransform>
-                <TextBlock Text="SOSUSバリア"
-                    TextWrapping="Wrap" Foreground="#FF000000" HorizontalAlignment="Center" />
+                <TextBlock Text="SOSUS防衛線" TextWrapping="Wrap" Foreground="#FF000000"
+                    HorizontalAlignment="Center" />
             </Border>
-            <TextBlock Text="英空軍海上哨戒部隊" TextWrapping="Wrap" Canvas.Top="486.13742"
+            <TextBlock Text="英空軍(RAF)海洋哨戒戦力" TextWrapping="Wrap" Canvas.Top="486.13742"
                 Canvas.Left="824.82587" Foreground="#FF000000" FontSize="18" />
-            <TextBlock
-                Text="英海軍曳航ソナー哨戒" TextWrapping="Wrap" Canvas.Top="562.9104" Canvas.Left="874.28265"
-                Foreground="#FF000000" FontSize="18" />
-            <TextBlock Text="米海軍海上哨戒"
-                TextWrapping="Wrap" Canvas.Top="420.6882" Canvas.Left="176.18188"
-                Foreground="#FF000000" FontSize="18" />
-            <TextBlock Text="米水上戦闘群"
-                TextWrapping="Wrap" Canvas.Top="497.47742" Canvas.Left="680" Foreground="#FF000000"
-                FontSize="18" />
-            <TextBlock Text="米水上戦闘群" TextWrapping="Wrap"
-                Canvas.Top="344.69208" Canvas.Left="360.19757" Foreground="#FF000000" FontSize="18" />
-            <TextBlock Text="ノルウェー海よりソ連潜水艦部隊" TextWrapping="Wrap" Canvas.Top="169.6848"
+            <TextBlock Text="英海軍(RN)曳航ソナー哨戒部隊" TextWrapping="Wrap" Canvas.Top="562.9104"
+                Canvas.Left="874.28265" Foreground="#FF000000" FontSize="18" />
+            <TextBlock Text="米海洋哨戒戦力" TextWrapping="Wrap" Canvas.Top="420.6882"
+                Canvas.Left="176.18188" Foreground="#FF000000" FontSize="18" />
+            <TextBlock Text="米水上打撃群(SAG)" TextWrapping="Wrap" Canvas.Top="497.47742"
+                Canvas.Left="680" Foreground="#FF000000" FontSize="18" />
+            <TextBlock Text="米水上打撃群(SAG)" TextWrapping="Wrap" Canvas.Top="344.69208"
+                Canvas.Left="360.19757" Foreground="#FF000000" FontSize="18" />
+            <TextBlock Text="ノルウェー海方面からのソ連潜水艦部隊" TextWrapping="Wrap" Canvas.Top="169.6848"
                 Canvas.Left="786.57245" Foreground="#FF000000" FontSize="18" />
         </Canvas>
     </Viewbox>

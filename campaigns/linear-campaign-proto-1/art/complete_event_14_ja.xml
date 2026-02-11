@@ -7,13 +7,14 @@
     d:DesignWidth="1920"
     d:DesignHeight="1080">
     <StackPanel Orientation="Vertical" Margin="5">
-        <TextBlock
-            FontSize="24" Foreground="White">
-            おめでとうございます！
+        <TextBlock FontSize="24" Foreground="White">
+            任務完遂、おめでとう。
         </TextBlock>
-        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap">
-            「カルキュラス・オブ・コンフリクト」を最後までプレイしていただき、誠にありがとうございます。これらの任務は、コミュニティメンバーの iblank、Ian Roberts、Neu
-            による共同制作の賜物です。制作に尽力してくれた彼ら、そしてプレイしてくれた貴方に感謝します！ <LineBreak />     <LineBreak />
-            「交渉の切り札」のもう一方の陣営をプレイしてみてはいかがでしょうか？これらのミッションの制作は非常に楽しいものでした。貴方に全ての任務をプレイしていただけたら幸いです。 </TextBlock>
+        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap"> 『Calculus of
+            Conflict』を最後まで攻略した諸君の奮闘を称えたい。本ミッション群は、コミュニティメンバーであるiblank、Ian
+            Roberts、およびNeuの協力によって制作された。素晴らしいミッションを用意してくれた彼らと、プレイしてくれた諸君に深く感謝する。 <LineBreak />
+        <LineBreak />
+            もしよければ、『交渉の切り札（Bargaining
+            Chips）』に戻り、別陣営の視点から戦場を体験してみてはどうだろうか。我々も楽しみながらこれらのミッションを制作した。ぜひ、全てのミッションを遊び尽くしてほしい。 </TextBlock>
     </StackPanel>
 </Page>

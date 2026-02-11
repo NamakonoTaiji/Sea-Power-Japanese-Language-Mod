@@ -7,94 +7,77 @@
     d:DesignWidth="1920"
     d:DesignHeight="1080">
     <Viewbox>
-        <Border Background="AntiqueWhite"
-            HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272"
-            Padding="45"
+        <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center"
+            Width="900" Height="1272" Padding="45"
             TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
             TextElement.FontSize="16">
             <Border.Effect>
                 <DropShadowEffect />
             </Border.Effect>
             <StackPanel Orientation="Vertical">
-                <Rectangle
-                    HorizontalAlignment="Stretch" Height="5" Fill="Black" />
-                <TextBlock
-                    Text="1988年5月1日 日曜日 | 第105巻 第42号 | 52セント" Margin="0,15,0,15" FontSize="24" />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
-                <Image
-                    Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill"
+                <TextBlock Text="1988年5月1日(日) | 第105巻 第42号 | 52セント" Margin="0,15,0,15" FontSize="24" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill"
                     Margin="0,15,0,15" />
-                <Rectangle HorizontalAlignment="Stretch"
-                    Height="5" Fill="Black" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
                 <Grid Margin="0,15,0,15">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="3*" />
-                        <ColumnDefinition
-                            Width="30" />
+                        <ColumnDefinition Width="30" />
                         <ColumnDefinition Width="2*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition
-                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="ソ連艦、黒海で米海軍艦艇に衝突。米国は無害通航を主張"
-                        FontWeight="Bold" FontSize="30" TextWrapping="Wrap" TextAlignment="Center"
-                        Margin="0,0,0,15" />
-                    <StackPanel Grid.Column="2"
-                        Grid.Row="1" Orientation="Vertical">
-                        <TextBlock
-                            Text="国防総省、衝突を『意図的かつ危険』と非難" FontSize="24" TextWrapping="Wrap"
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3"
+                        Text="黒海にてソ連軍艦が米海軍艦艇と衝突  米国側は「無害通航」を主張" FontWeight="Bold" FontSize="25"
+                        TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                    <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+
+                        <TextBlock Text="国防総省、ソ連側の機動を「意図的かつ危険」と非難" FontSize="24" TextWrapping="Wrap"
                             TextAlignment="Center" Margin="0,0,0,15" />
-                        <TextBlock
-                            TextWrapping="Wrap" TextAlignment="Justify"> バージニア州ノーフォーク発 —
-                            昨日、ソ連の軍艦2隻が黒海で活動中の米海軍艦艇に意図的に衝突し、緊張が急激に高まった。クリミア半島付近で発生したこの事件には、ミサイル巡洋艦USSヨークタウン（CG-48）と駆逐艦USSカロン（DD-970）が関与しており、両艦は海軍が言うところの国際水域での「無害通航」を実施中であった。
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【バージニア州ノーフォーク】昨日、黒海で活動中の米海軍艦艇に対し、ソ連軍艦2隻が意図的に衝突を仕掛け、緊張が急激に高まった。クリミア半島近海で発生したこの事件には、国際海域で「無害通航」を実施中だったミサイル巡洋艦ヨークタウン(CG-48)と駆逐艦カロン(DD-970)が巻き込まれた。
                             <LineBreak />
-                            米国当局によると、ソ連のクリヴァク級フリゲート「ベザヴェートヌイ」とミルカ級フリゲートが、両米艦の船首を横切るように攻撃的に機動し、低速で接触した。負傷者は報告されていないが、カロンは左舷表面を損傷した。
+                            米当局の発表によると、ソ連海軍のクリヴァク級フリゲート「ベズザヴェトヌイ」とミルカ級フリゲートが、米艦2隻の艦首を横切る強引な機動を行い、低速で接触した。カロンの左舷側に表面的な損傷が生じたものの、負傷者は報告されていない。
                             <LineBreak />
-                            フランク・カールッチ国防長官はソ連の行動を「無謀かつエスカレートさせるもの」として非難した。クレムリンは、米国が機密性の高いソ連施設の近くで「挑発的な監視」を行ったと非難し、この衝突破壊を防御的措置として擁護している。（衝突について2面参照）
+                            フランク・カールッチ国防長官は、ソ連側の行動を「無謀かつ挑発的」であるとして非難した。一方、クレムリン側は今回の体当たりを防御的措置であると主張し、米軍がソ連の重要施設付近で「挑発的な偵察活動」を行っていたと反論している。（衝突事件の詳細は2面へ）
                             </TextBlock>
                     </StackPanel>
-                    <StackPanel
-                        Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical"
+                        VerticalAlignment="Top">
                         <Image Source="{Binding Assets[02_yorktown_collision]}" Stretch="Uniform" />
                         <TextBlock
-                            Text="ソ連のフリゲート「ベザヴェートヌイ」が米巡洋艦ヨークタウンに衝突。USSカロンもまた、領海を主張するソ連艦によって意図的に衝突された。この意図的な衝突破壊は、航行の自由作戦を実施する米海軍艦艇と、拡大する領海主張を掲げるソ連軍との遭遇の一環として発生した。 — 米海軍写真"
+                            Text="米巡洋艦ヨークタウンと衝突するソ連フリゲート「ベズザヴェトヌイ」。領海を主張するソ連軍艦により、駆逐艦カロンもまた意図的な打撃を受けた。この衝突は、「航行の自由作戦」を遂行する米海軍艦艇と、拡大された領海権を主張するソ連軍との遭遇戦の最中に発生した。――米海軍提供"
                             TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0" />
                     </StackPanel>
                 </Grid>
-                <Rectangle HorizontalAlignment="Stretch"
-                    Height="5" Fill="Black" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
                 <Grid Margin="0,15,0,15">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="3*" />
-                        <ColumnDefinition
-                            Width="30" />
+                        <ColumnDefinition Width="30" />
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0"
-                        Orientation="Vertical">
-                        <TextBlock Text="米艦隊、航路変更"
-                            FontSize="24" FontWeight="Bold" TextWrapping="Wrap"
-                            TextAlignment="Center" Margin="0,0,0,15" />
-                        <TextBlock
-                            TextWrapping="Wrap" TextAlignment="Justify"> スペイン、ロタ発 —
-                            米海軍は、北大西洋およびバレンツ海におけるソ連海軍の活動活発化を受け、断固たる武力示威として、地中海での作戦から水上戦闘群（SAG）を北海へ転進させた。土曜日の早朝にロタ米海軍基地を出発したこの機動部隊は、1週間以内にNATOの北方海上防衛を増強することが期待される。
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="米艦隊、北海へ転進" FontSize="24" FontWeight="Bold"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【スペイン、ロタ】北大西洋およびバレンツ海におけるソ連海軍の活動活発化を受け、米海軍は地中海で展開中だった水上戦闘群(SAG)を北海へ転進させ、断固たる軍事力誇示に踏み切った。土曜早朝にスペインのロタ海軍基地を出航した任務部隊は、週内にもNATOの北方海上防衛線を強化する見込みだ。
                             <LineBreak />
-                            この動きは、バレンツ海でのソ連のミサイル実験や北大西洋への潜水艦の侵入増加により、NATO軍が高度な警戒態勢にある中で行われた。情報報告によると、数隻のソ連の巡洋艦と駆逐艦が、大西洋と北極海の間のアクセスを制御する海上のチョークポイントであるGIUKギャップ（グリーンランド-アイスランド-イギリス間）の北に展開している。（海軍について4面参照）
+                            この措置は、バレンツ海でのソ連によるミサイル発射試験や、北大西洋への潜水艦侵入増加を受けてNATO軍が高度な警戒態勢に入った中で行われた。情報機関の報告によれば、複数のソ連巡洋艦および駆逐艦が、大西洋と北極海を結ぶ海上交通の要衝「GIUKギャップ」の北方に展開しているという。（海軍の動向は4面へ）
                             </TextBlock>
                     </StackPanel>
-                    <StackPanel
-                        Grid.Column="2" Orientation="Vertical">
-                        <TextBlock
-                            Text="ソ連、核ミサイル実験を実施" FontSize="24" FontWeight="Bold" TextWrapping="Wrap"
-                            TextAlignment="Center" Margin="0,0,0,15" />
-                        <TextBlock
-                            TextWrapping="Wrap" TextAlignment="Justify"> モスクワ発 —
-                            東西関係をさらに緊張させる動きとして、ソ連はバレンツ海で一連のミサイル実験を計画していると発表し、NATO内でモスクワの軍事的意図に対する懸念を煽っている。今後2週間以内に実施予定のこの実験には、潜水艦発射型および地上発射型の弾道ミサイルが含まれる。
+                    <StackPanel Grid.Column="2" Orientation="Vertical">
+                        <TextBlock Text="ソ連、核ミサイル発射試験を実施" FontSize="24" FontWeight="Bold"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【モスクワ】ソ連はバレンツ海において一連のミサイル発射試験を計画していると発表した。東西関係がさらに悪化する中、NATO内ではモスクワの軍事的な意図に対する懸念が強まっている。今後2週間以内に実施予定の試験には、潜水艦発射弾道ミサイルと陸上配備型弾道ミサイルの双方が含まれる。
                             <LineBreak />
-                            クレムリンは、このミサイル発射をソ連の防衛能力を検証するための「定例の即応性演習」の一環と位置づけている。しかし、西側の分析家は、いくつかの海軍の対立の最中という実験のタイミングが、標準的な訓練というよりは武力の誇示を示唆していると懸念している。（ミサイルについて7面参照）
+                            クレムリン側はこのミサイル発射を、自国の防衛能力を検証するための「定例の即応演習」の一環であるとしている。しかし、西側の分析官は、海上での衝突が相次ぐこの時期での実施は、単なる演習を超えた軍事デモンストレーションであると危惧している。（ミサイル関連の記事は7面へ）
                             </TextBlock>
                     </StackPanel>
                 </Grid>

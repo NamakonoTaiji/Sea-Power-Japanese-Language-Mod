@@ -1,0 +1,127 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:SeapowerUI">
+
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill"
+        Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black"
+        TextElement.FontSize="16" Padding="45">
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill" />
+        </Border.Background>
+
+        <StackPanel Orientation="Vertical">
+
+            <Grid
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="# 389/PR/52" Margin="0" FontSize="20"
+                    FontWeight="Bold" TextAlignment="Left" />
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="10.07.85 r." Margin="0" FontSize="20"
+                    FontWeight="Bold" TextAlignment="Left" />
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="" Margin="40,0,40,0" FontWeight="Bold"
+                    TextAlignment="Center" />
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="極秘（Совершенно cекретно）" Margin="0"
+                    TextDecorations="Underline" FontSize="20" FontWeight="Bold"
+                    TextAlignment="Right" />
+                <TextBlock Grid.Row="1" Grid.Column="2" Text="第1写" Margin="0" FontSize="20"
+                    FontWeight="Bold" TextAlignment="Center" />
+            </Grid>
+
+            <TextBlock Text="指令 第028/85号" Margin="0" FontSize="20" FontWeight="Bold"
+                TextAlignment="Left" />
+            <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1" />
+            <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10" />
+
+            <Grid
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="発：" />
+                <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="赤旗勲章受章北方艦隊司令官" />
+                <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="宛：" />
+                <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="打撃群「モルニヤ」指揮官" />
+                <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="報：" />
+                <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="第8運用艦隊司令部、赤旗勲章受章太平洋艦隊" />
+                <TextBlock Grid.Row="6" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="件名：" />
+                <TextBlock Grid.Row="6" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+                    HorizontalAlignment="Left" FontWeight="Bold" Text="インド洋における今後の作戦について" />
+
+                <TextBlock Grid.Row="7" Grid.ColumnSpan="4"
+                    FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"
+                    FontWeight="Bold">
+                    <LineBreak />
+                    司令部は、クローゼー諸島における戦闘後の、7月9日付の戦闘および補給報告を受領した。燃料、弾薬、および航空用資材は、継続的な機動および戦闘作戦を遂行するのに十分であると判断する。
+                    <LineBreak />
+                    <LineBreak />
+                    総司令部は、打撃群「モルニヤ」の士官および乗組員に祝辞を述べる。南アフリカ共和国軍に与えた損害により、同国政府は交渉に応じ、本紛争における中立を宣言するに至った。当該戦域に残る敵対勢力は、現在、アメリカ軍部隊のみに限定されるものと評価する。
+                    <LineBreak />
+                    <LineBreak />
+                    しかしながら、アメリカ内部の機密情報源より、空母エンタープライズ空母戦闘群が貴官らを捕捉・撃滅するためアラビア海から転進中であるとの警告が入っている。当該部隊との交戦継続は、相応の作戦上の利益なしに、容認しがたい人的損失を招く恐れがあると判断した。
+                    <LineBreak />
+                    <LineBreak />
+                    よって貴官に対し、既存の商船航路や予測可能な哨戒ルートを避け、中立国インドの領海へ向けて北上を開始するよう命ずる。司令部はインド政府との間で、コーチンの艦隊基地にて貴部隊を保護する合意を取り付けた。この措置により、将来の作戦に備えて打撃群「モルニヤ」を温存するとともに、米軍を当該戦域に釘付けにすることが可能となる。
+                    <LineBreak />
+                    <LineBreak />
+                    今後の作戦指針については、随時伝達する。好機目標が出現した場合は、攻撃命令を下す。同志諸君、健闘を祈る。 <LineBreak />
+                </TextBlock>
+                <TextBlock Grid.Row="8" Grid.ColumnSpan="4" TextWrapping="Wrap" FontWeight="Bold">
+                    以上 <LineBreak /> 署名：カピタネッツ <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    <LineBreak />
+                    極秘 <LineBreak /> 読了後、速やかに破棄せよ </TextBlock>
+            </Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

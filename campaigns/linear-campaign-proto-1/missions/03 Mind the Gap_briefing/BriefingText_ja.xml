@@ -3,55 +3,49 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
-        <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-        <ColumnDefinition
-            Width="Auto" />
+        <ColumnDefinition Width="Auto" />
         <ColumnDefinition Width="10" />
-        <ColumnDefinition
-            Width="*" />
+        <ColumnDefinition Width="*" />
         <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
-    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="差出人:" />
-    <TextBlock Grid.Row="3" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="大西洋艦隊司令官" />
-    <TextBlock Grid.Row="4"
-        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="グレイハウンド任務群" />
-    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="件名:" />
-    <TextBlock Grid.Row="7" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="警戒作戦" />
-    <TextBlock Grid.Row="7"
-        Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年5月12日" />
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}"> 極秘（SECRET） <LineBreak /> Z 120800Z MAY 88 </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="大西洋艦隊司令官（COMLANTFLT）" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="任務部隊「グレイハウンド」（TG Greyhound）" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="哨戒阻止作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="1988年5月12日" />
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
-        TextWrapping="Wrap"> 1. (S) 状況: <LineBreak />
-        5月9日から10日にかけての事件の後、NATOとワルシャワ条約機構は共に戦時体制へと急速に部隊を動員している。ソ連は潜水艦隊を展開させ、弾道ミサイル潜水艦を北大西洋へ突破させようと試みている。米第2艦隊所属のグレイハウンド任務群は、GIUKギャップ東方海域を防衛し、全ソ連潜水艦の大西洋への進入を阻止するよう指示された。捜索攻撃部隊アルファはTGG（グレイハウンド任務群）から分派され、フェロー諸島とスコットランド間の海域を防衛するが、指揮権はTGGが有する。統合参謀本部議長からの直接指導により交戦規定が更新され、未識別潜水艦との交戦が許可された。
-       <LineBreak /><LineBreak />
-        2. (S) 任務: <LineBreak />2.1 GIUKギャップ付近にて対潜障壁捜索を実施せよ。 <LineBreak />2.2 未識別の潜水艦を探知し、これを目標とせよ。 <LineBreak /><LineBreak />
-        3. (S) 実行: <LineBreak />3.1 EMCON（電波発射管制）規定は貴官の裁量に委ねる。 <LineBreak />3.2
-        グレイハウンド任務群はアイスランドとフェロー諸島間を哨戒せよ。 <LineBreak />3.3 アルファ水上戦闘部隊はフェロー諸島とスコットランド間を哨戒せよ。 <LineBreak /><LineBreak />
-        4. (S) 敵戦闘序列: <LineBreak />4.1 タンゴ級SSK x 1（衛星画像から消失） <LineBreak />4.2 ヴィクターIII級SSN x
-        2（衛星画像から消失） <LineBreak />4.3 デルタIII級SSBN x 1（衛星画像から消失） <LineBreak /><LineBreak /> 5. (S)
-        友軍戦闘序列: <LineBreak />5.1 グレイハウンド任務群 <LineBreak />5.1.1 USS ヴァリー・フォージ CG-50 <LineBreak />5.1.2
-        USS トーマス・C・ハート FF-1092 <LineBreak />5.1.3 USS レンツ FFG-46 <LineBreak />5.2 アルファ水上戦闘部隊 <LineBreak />5.2.1
-        USS ジョン・ロジャース DD-983 <LineBreak />5.2.2 USS アンダーウッド FFG-36 <LineBreak />5.3 P-3 x
-        1（チューレ空軍基地から接近中） <LineBreak /><LineBreak /> 6. (S) 諜報評価: <LineBreak />6.1
-        ソ連の攻撃型潜水艦がNATO軍と交戦を試みる可能性は非常に高いと評価。 <LineBreak />6.2 ソ連の爆撃機部隊が潜水艦作戦支援のため緊急発進する可能性は中程度と評価。 </TextBlock>
+        TextWrapping="Wrap"> 1. (S) 状況： <LineBreak />
+        5月9日から10日にかけての一連の出来事を受け、NATOおよびワルシャワ条約機構の双方は、急速に戦時体制への動員を進めている。ソ連は潜水艦艦隊を展開し、弾道ミサイル原子力潜水艦（SSBN）を北大西洋へと進出させようとしている。合衆国第2艦隊所属の任務部隊「グレイハウンド」は、GIUKギャップの東側接近路を封鎖し、ソ連潜水艦の大西洋進入を阻止せよとの命を受けた。対潜掃討部隊「アルファ」は任務部隊（TGG）から分離し、フェロー諸島とスコットランド間の接近路をカバーしているが、指揮下は依然としてTGGにある。統合参謀本部議長（CJCS）からの直接の指示により交戦規定（ROE）が更新された。未確認の潜水艦接触に対する攻撃を許可する。
+        <LineBreak /><LineBreak />
+        2. (S) 任務： <LineBreak />2.1 GIUKギャップ付近における対潜（ASW）バリア捜索を実施せよ。 <LineBreak />2.2
+        未確認の潜水艦接触を捕捉し、攻撃せよ。 <LineBreak /><LineBreak /> 3. (S) 実施： <LineBreak />3.1
+        電波放射管制（EMCON）方針は指揮官の裁量とする。 <LineBreak />3.2 任務部隊「グレイハウンド」はアイスランド・フェロー諸島間を哨戒せよ。 <LineBreak />3.3
+        対潜掃討部隊「アルファ」はフェロー諸島・スコットランド間を哨戒せよ。 <LineBreak /><LineBreak /> 4. (S) 敵戦力組成（OOB）： <LineBreak />4.1
+        タンゴ級潜水艦 x1（画像偵察にて所在不明） <LineBreak />4.2 ヴィクターIII級原子力潜水艦 x2（所在不明） <LineBreak />4.3
+        デルタIII級弾道ミサイル原子力潜水艦 x1（所在不明） <LineBreak /><LineBreak /> 5. (S) 友軍戦力組成（OOB）： <LineBreak />5.1
+        任務部隊「グレイハウンド」 <LineBreak />5.1.1 ミサイル巡洋艦バレー・フォージ CG-50 <LineBreak />5.1.2 フリゲート トーマス・C・ハート
+        FF-1092 <LineBreak />5.1.3 ミサイルフリゲート レンツ FFG-46 <LineBreak />5.2 対潜掃討部隊「アルファ」 <LineBreak />5.2.1
+        駆逐艦ジョン・ロジャース DD-983 <LineBreak />5.2.2 ミサイルフリゲート アンダーウッド FFG-36 <LineBreak />5.3 P-3C 哨戒機
+        x1（チューレ空軍基地より接近中） <LineBreak /><LineBreak /> 6. (S) インテリジェンス評価： <LineBreak />6.1
+        ソ連の攻撃型潜水艦がNATO部隊との交戦を試みる可能性が極めて高い。 <LineBreak />6.2
+        潜水艦作戦を支援するため、ソ連爆撃機部隊が緊急発進（スクランブル）する可能性が高い。 </TextBlock>
 </Grid>

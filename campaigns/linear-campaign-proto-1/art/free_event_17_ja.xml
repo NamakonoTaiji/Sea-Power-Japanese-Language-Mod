@@ -8,9 +8,8 @@
     d:DesignHeight="1080">
     <Viewbox>
         <Grid>
-            <Border
-                HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272"
-                Padding="45"
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900"
+                Height="1272" Padding="45"
                 TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
                 TextElement.FontSize="16" Background="#FFFAEBD7">
                 <Border.RenderTransform>
@@ -25,11 +24,9 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
-                        <RowDefinition
-                            Height="Auto" />
                         <RowDefinition Height="Auto" />
-                        <RowDefinition
-                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0" Margin="-40,-45,-40,0">
@@ -41,61 +38,53 @@
                             VerticalAlignment="Top" HorizontalAlignment="Center" Width="800"
                             Margin="40,40,40,0" />
                     </Grid>
-                    <TextBlock
-                        Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15"> 第36号 <Run
-                            FontSize="20" Text="•" /> 1988年 <Run FontSize="20" Text="•" /> 7月 </TextBlock>
+                    <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15"> 第36号 <Run
+                            FontSize="20" Text="•" /> 1988年7月 </TextBlock>
                     <Image Grid.Row="2" Source="{Binding Assets[17_tu-22m]}" />
-                    <Grid
-                        Grid.Row="3" Margin="0,10,0,20">
-                        <TextBlock
-                            Text="空における社会主義の力：ツポレフ爆撃機が大西洋に平和をもたらす" TextWrapping="Wrap"
+                    <Grid Grid.Row="3" Margin="0,10,0,20">
+                        <TextBlock Text="空における社会主義の力：ツポレフ爆撃機が大西洋に平和をもたらした" TextWrapping="Wrap"
                             HorizontalAlignment="Left" FontWeight="Bold" />
-                        <TextBlock
-                            Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;"
-                            TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top"
-                            FontWeight="Light" />
+                        <TextBlock Text="撮影：V.ドミトリュク" TextWrapping="Wrap"
+                            HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light" />
                     </Grid>
-                    <Grid Grid.Row="4"
-                        Background="#FFFAEBD7">
+                    <Grid Grid.Row="4" Background="#FFFAEBD7">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition
-                                Width="*" />
+                            <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
-                                <RowDefinition
-                                    Height="*" />
+                                <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
-                            <TextBlock
-                                Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center"
-                                FontSize="36" Text="偉大なるソビエトの技術力" Margin="0,0,0,45" />
-                            <TextBlock
-                                Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify"
+                            <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center"
+                                FontSize="28" Text="偉大なるソビエトの工学技術" Margin="0,0,0,45" />
+                            <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify"
                                 Margin="20,0,10,30">
-                                ソビエトの力と革命的勇気の轟くような誇示の中、長距離航空隊の勇敢なる飛行士たちは北大西洋のアメリカ帝国主義部隊に壊滅的な打撃を与えた。最高司令部の直接命令に基づき、Tu-22Mバックファイア爆撃機の連隊がコラ半島の空軍基地から発進し、アイスランド東方の敵陣地へと正確かつ意図的に飛行した。
+                                ソビエトの軍事力と革命的勇気の轟きの中、長距離航空隊の勇猛なる飛行士たちは、北大西洋においてアメリカ帝国主義軍に壊滅的な打撃を与えた。最高司令部の直接命令により、Tu-22Mバックファイア爆撃連隊がコーラ半島の航空基地から出撃。アイスランド東方の敵陣地へと正確かつ果敢に突き進んだ。
                             </TextBlock>
                         </Grid>
-                        <TextBlock TextWrapping="Wrap"
-                            Grid.Column="1" TextAlignment="Justify" Margin="10,30,10,30">
-                            任務目標は明確であった。赤旗北方艦隊の大西洋への合法的な進出を妨害しようとする米空母群の殲滅である。規律と冷静な決意をもって、我らが飛行士たちはNATOの防空網を突破し、圧倒的な力で攻撃した。アメリカ艦隊の中心である、いわゆる「超大型空母」は炎に包まれ、波の下に沈み、同盟国の面前で敵を屈服させた。
-                            <LineBreak />         <LineBreak />
-                            この正義の攻撃を支援したのはTu-16K航空機であり、その乗組員は重要な偵察及び電子戦任務を遂行し、敵のレーダーを無力化し、その微弱な抵抗の試みを妨害した。
+                        <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify"
+                            Margin="10,30,10,30">
+                            任務の目的は明白であった。公海上を航行する赤旗北方艦隊の正当な進出を阻もうとする、米空母打撃群の排除である。規律と沈着な決意を胸に、我が飛行士たちはNATOの防空網を突破し、圧倒的な火力をもってこれを撃破した。アメリカ艦隊の中核をなす「スーパーキャリアー」は炎に包まれ、同盟諸国の眼前で波間の底へと沈み、敵を屈服させた。
+                            <LineBreak />
+                <LineBreak />
+                            この正義の打撃を支えたのはTu-16K航空機であり、その乗組員は重要な偵察および電子戦任務を遂行。敵のレーダーを無効化し、脆弱な抵抗の試みを封殺したのである。
                             </TextBlock>
                         <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify"
                             Margin="10,30,20,30">
-                            この勝利は偶然ではなく、絶え間ない訓練、科学的成果、そして平和の大義への忠誠の産物である。労働者と農民の息子である我らが飛行士たちは、栄光のためではなく、資本主義の侵略から祖国を守り、ソビエト人民が苦労して勝ち取った安全を維持するという義務のために飛んだ。
-                            <LineBreak />         <LineBreak />
-                            ミハイル・ゴルバチョフ書記長が断言したように、ソビエト連邦は平和を望んでいるが、我々の尊厳や安全を犠牲にしてまでではない。この勝利が世界へのメッセージとなることを願う。団結し警戒を怠らないソビエト人民は、決して帝国主義の脅威に屈しない。我々の空は守られ、我々の力は証明され、我々の未来は安泰である。
+                            この勝利は偶然ではなく、絶え間ない訓練、科学的達成、そして平和への大義に対する忠誠の賜物である。労働者と農民の息子である我が飛行士たちは、栄光のためではなく義務のために飛んだ。それは資本主義の侵食から祖国を守り、ソビエト人民が勝ち取った安全を維持するためである。
+                            <LineBreak />
+                <LineBreak />
+                            ミハイル・ゴルバチョフ書記長が断言した通り、ソビエト連邦は平和を望んでいる。しかし、それは我々の尊厳や安全を犠牲にして得られるものではない。この勝利を世界へのメッセージとせよ。団結し警戒を怠らないソビエト人民は、帝国主義者の脅威に決して屈しない。我が空は守られ、その力は証明された。我らの未来は安泰である。
                             </TextBlock>
                     </Grid>
                 </Grid>
             </Border>
-            <Border
-                HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272"
-                Padding="45"
+
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900"
+                Height="1272" Padding="45"
                 TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
                 TextElement.FontSize="16" Background="#FFFAEBD7">
                 <Border.RenderTransform>
@@ -110,11 +99,9 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
-                        <RowDefinition
-                            Height="Auto" />
                         <RowDefinition Height="Auto" />
-                        <RowDefinition
-                            Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0" Margin="-40,-45,-40,0">
@@ -126,56 +113,49 @@
                             VerticalAlignment="Top" HorizontalAlignment="Center" Width="800"
                             Margin="40,35,40,0" />
                     </Grid>
-                    <TextBlock
-                        Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15"> 第36号 <Run FontSize="20"
-                            Text="•" /> 1988年 <Run FontSize="20" Text="•" /> 7月 </TextBlock>
+                    <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15"> 第36号 <Run
+                            FontSize="20" Text="•" /> 1988年7月 </TextBlock>
                     <Image Grid.Row="2" Source="{Binding Assets[17_reagan_gorbachev]}" />
-                    <Grid
-                        Grid.Row="3" Margin="0,10,0,20">
-                        <TextBlock
-                            Text="アメリカのレーガン大統領がゴルバチョフ書記長と停戦に署名" TextWrapping="Wrap"
+                    <Grid Grid.Row="3" Margin="0,10,0,20">
+                        <TextBlock Text="アメリカ大統領レーガン、ゴルバチョフ書記長と停戦文書に署名" TextWrapping="Wrap"
                             HorizontalAlignment="Left" FontWeight="Bold" />
-                        <TextBlock
-                            Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;"
-                            TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top"
-                            FontWeight="Light" />
+                        <TextBlock Text="撮影：V.ドミトリュク" TextWrapping="Wrap"
+                            HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light" />
                     </Grid>
-                    <Grid Grid.Row="4"
-                        Background="#FFFAEBD7">
+                    <Grid Grid.Row="4" Background="#FFFAEBD7">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition
-                                Width="*" />
+                            <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
-                                <RowDefinition
-                                    Height="*" />
+                                <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
-                            <TextBlock
-                                Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center"
-                                FontSize="36" Text="停戦協定締結" Margin="0,0,20,10" />
-                            <TextBlock
-                                Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify"
+                            <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center"
+                                FontSize="28" Text="停戦協定に調印" Margin="0,0,20,10" />
+                            <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify"
                                 Margin="0,0,20,0">
-                                平和と社会主義の決意にとっての大勝利の中、ミハイル・ゴルバチョフ書記長とロナルド・レーガン米大統領は昨日、停戦協定に署名し、ソビエト連邦と攻撃的なNATO軍事ブロックとの間の武力による敵対行為の終結を印した。
-                                <LineBreak />         <LineBreak />
-                                ソ連軍による数週間にわたる決定的な軍事的勝利の後に締結されたこの協定は、ソ連にとって極めて有利な条件を確保し、長期的な安定を保証するものである。
+                                平和と社会主義の決意が勝ち取った偉大なる勝利である。昨日、ミハイル・ゴルバチョフ書記長とロナルド・レーガン合衆国大統領は停戦協定に署名した。これにより、ソビエト連邦と好戦的な軍事ブロックであるNATOとの間の武力衝突に終止符が打たれた。
+                                <LineBreak />
+                <LineBreak />
+                                ソビエト軍による数週間にわたる決定的な軍事的勝利の末に締結されたこの合意は、ソビエト連邦にとって極めて有利な条件を確保し、長期的な安定を保証するものである。
                                 </TextBlock>
                         </Grid>
-                        <TextBlock TextWrapping="Wrap" Grid.Column="1"
-                            TextAlignment="Justify" Margin="0,-4,20,0">
-                            この停戦は、NATOの支配の試みに壊滅的な打撃を与えたソ連軍の英雄的行動の後に実現した。最も注目すべきは、北太平洋のアッツ島を解放・占領し、現在では平和の戦略的拠点として確保されていることである。
-                            <LineBreak />         <LineBreak />
-                            ノルウェー海では、帝国主義のアメリカ人が屈辱的な敗北を喫した。彼らの原子力空母の一隻が、長距離航空隊の恐れを知らぬ飛行士たちの支援を受けた赤旗北方艦隊の正確かつ規律ある攻撃により、海底に沈められたのである。
+                        <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify"
+                            Margin="0,-4,20,0">
+                            この停戦は、覇権を企むNATOの試みに壊滅的な打撃を与えたソビエト連邦軍の英雄的行動の結果である。特筆すべきは、北太平洋におけるアッツ島の解放と占拠であり、同島は現在、平和の戦略的要塞として確保されている。
+                            <LineBreak />
+                <LineBreak />
+                            ノルウェー海では、帝国主義のアメリカ軍が屈辱的な敗北を喫した。彼らの原子力空母の一隻が、勇敢なる長距離航空隊の支援を受けた赤旗北方艦隊による精密かつ規律ある打撃によって、海底へと送られたのである。
                             </TextBlock>
-                        <TextBlock TextWrapping="Wrap" Grid.Column="2"
-                            TextAlignment="Justify" Margin="0,-4,0,0">
-                            ワシントンが紛争の長期化を図る一方、ソ連の明らかな軍事的・道徳的優位性は、これ以上の抵抗を不可能にした。国内の不安と分裂した同盟に直面したレーガン大統領は、最終的に戦場の現実によって決定された条件の下で停戦を受け入れざるを得なかった。
-                            <LineBreak />         <LineBreak />
-                            ゴルバチョフ書記長は、ハーグでの署名後の声明で、ソ連の平和へのコミットメントを再確認し、「我々の行動は決して征服を目的としたものではなく、均衡を回復し、社会主義祖国の主権を守ることを目的としたものであった」と述べた。
+                        <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify"
+                            Margin="0,-4,0,0">
+                            ワシントン側は紛争の長期化を目論んでいたが、ソビエト連邦の軍事的・道徳的優位性はもはや抵抗を不可能にした。レーガン大統領は国内の混乱と崩壊しかけた同盟に直面し、最終的には戦場の現実に即した条件での停戦受け入れを余儀なくされたのである。
+                            <LineBreak />
+                <LineBreak />
+                            ハーグでの署名後、ゴルバチョフ書記長は声明を発表し、ソビエトの平和に対する誓いを再確認した。「我々の行動は決して征服を目的としたものではない。均衡を回復し、社会主義祖国の主権を守るためのものである」。
                             </TextBlock>
                     </Grid>
                 </Grid>

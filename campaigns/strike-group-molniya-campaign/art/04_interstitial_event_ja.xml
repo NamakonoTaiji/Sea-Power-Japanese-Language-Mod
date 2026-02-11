@@ -1,0 +1,106 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center"
+            Width="864" Height="1120" Padding="45"
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black"
+            TextElement.FontSize="16">
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+
+            <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="10" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="C05084475" Background="#FFFFFFFF" HorizontalAlignment="Left"
+                        VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+                    <Grid Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="10" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="15" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="15" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"
+                            Text="最高機密" TextAlignment="Center" />
+                        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2"
+                            TextAlignment="Center" FontFamily="Times New Roman"> 中央情報長官（The Director
+                            of Central Intelligence） <LineBreak />
+                <LineBreak />
+                <Run FontSize="12">ワシントンD.C.
+                            20505</Run>
+                        </TextBlock>
+                        <TextBlock Grid.Row="4" Grid.Column="2" Text="1985年6月28日" />
+                        <TextBlock Grid.Row="6" Grid.Column="3" Text="222X1" />
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="覚書宛先：   " />
+                        <TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+                            統合参謀本部（JCS）//J3// <LineBreak /> アメリカ大西洋軍総司令官（USCINCLANT） <LineBreak />
+                            アメリカ欧州軍総司令官（USCINCEUR） <LineBreak /> アメリカ太平洋軍総司令官（USCINCPAC） <LineBreak />
+                            戦略航空軍総司令官（CINCSAC） </TextBlock>
+                        <TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap"> EO 13526
+                            3.3(b)(1)>25Yrs <LineBreak /> EO 13526 3.5(c) </TextBlock>
+                        <TextBlock Grid.Row="9" Grid.Column="0" Text="件名：   " />
+                        <TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3"
+                            Text="南大西洋におけるソ連海軍作戦の拡大について" />
+                    </Grid>
+                    <TextBlock Grid.Row="2" TextWrapping="Wrap"> 1.
+                        ソ連は南方の海洋を実戦海域とするべく、意図的に戦域を拡大したと分析する。協力機関からの情報および国家技術手段（NTM）によれば、現在南大西洋にてソ連の通商破壊部隊が作戦行動中である。当該部隊の正確な位置は、6月28日現在、捕捉できていない。
+                        <LineBreak />
+            <LineBreak />
+                        2. 当該部隊の主力ユニットは、開戦前に北方艦隊基地を出撃したが、大西洋中部を通過中の荒天に乗じて消息を絶った。 <LineBreak />
+            <LineBreak />
+                        3.
+                        6月26日、ケープタウンへ航行中の米国籍商船4隻が、トリスタンダクーニャ島東方にて攻撃を受けた。救助された生存者は英海軍によってセントヘレナ島へ移送された。乗組員への事情聴取によれば、ソ連軍による統制された海空同時攻撃が行われたことが示唆されている。乗組員の中には、被弾当時、開戦の事実を把握していなかった者もいた。
+                        <LineBreak />
+            <LineBreak />
+                        4.
+                        軽航空機による攻撃報告は国防総省（DoD）内でも深刻に受け止められており、通商破壊群が海軍航空隊の支援下で作戦を展開している可能性が高い。ソ連の基地から極めて遠距離であることを考慮すれば、Ro-Ro船「アゴスティニョ・ネト」を改装し、Yak-38
+                        VTOL戦闘機を運用する急造航空プラットフォーム（即席空母）として利用しているものと推測される。同船は以前、フォークランド紛争における英国の経験を受け、VTOL運用の試験に従事していた経緯がある。
+                        <LineBreak />
+            <LineBreak />
+                        5.
+                        欧州および太平洋への戦力集中により、本戦域における我が方の即応能力は極めて限定的である。これに対し、南アフリカ共和国は特定条件下での航空・海軍資産の提供に合意した。本協力の取り付けには、既存の制裁および武器禁輸措置に対する「暗黙の譲歩」が前提となっており、政策面への影響については上層部（閣僚級）による精査を要する。大西洋における我が方の戦力配置案については、至急送付する。
+                        <LineBreak />
+            <LineBreak />
+                    </TextBlock>
+                    <TextBlock TextAlignment="Right" Text="中央情報長官 ウィリアム・J・ケーシー "
+                        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0"
+                        Grid.Row="2" />
+                    <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+                        <Run TextDecorations="Underline">執行書記局配付 1985年6月28日（添付資料あり）</Run>
+            <LineBreak />
+            <LineBreak />
+                        正 - 各宛先 <LineBreak /> 1 - DCI（中央情報長官） <LineBreak /> 1 - DDCI（中央情報副長官） <LineBreak />
+                        1 - EXDIR（執行役員） <LineBreak /> 1 - C/NIC（国家情報会議議長） <LineBreak /> 1 -
+                        VC/NIC（国家情報会議副議長） <LineBreak /> 1 - NIO/Warning（警告担当国家情報官） <LineBreak /> 1 -
+                        ERファイル </TextBlock>
+                    <TextBlock Grid.Row="4" Text="最高機密" TextAlignment="Center" />
+                </Grid>
+            </Border>
+        </Border>
+    </Viewbox>
+</Page>

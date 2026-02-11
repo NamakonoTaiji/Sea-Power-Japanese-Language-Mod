@@ -35,26 +35,26 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="ソ連、INF全廃条約から脱退"
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="モスクワ、ミサイル廃棄条約から脱退"
                         FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center"
                         Margin="0,0,0,15" />
                     <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
 
-                        <TextBlock Text="クレムリン、条約を戦略的罠と批判。NATO当局は警戒" FontSize="24"
-                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
-                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify"> モスクワ発 —
-                            劇的な展開として、ソ連は本日、中距離核戦力（INF）全廃条約への参加を停止すると発表した。その理由として「西側諸国の執拗な二枚舌」と「NATOの包囲網戦略」を挙げている。
+                        <TextBlock Text="クレムリン、条約を戦略的罠と非難。NATO当局は警戒" FontSize="24"
+                            TextWrapping="Wrap" TextAlignment="Left" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【モスクワ】本日、ソビエト連邦は中距離核戦力（INF）全廃条約への参加を停止すると電撃発表した。その理由として「執拗な西側の二枚舌」および「NATOによる包囲戦略」を挙げている。
                             <LineBreak />
-                            ミハイル・ゴルバチョフ書記長は、最高会議へのテレビ演説で、米国が北極圏での軍備増強とNATO同盟国への秘密裏のミサイル配備を続け、条約の「精神と条文」に違反していると非難。「NATOがナイフを研いでいる間、我々が武装解除することはない」とゴルバチョフは宣言した。
+                            ミハイル・ゴルバチョフ書記長は最高会議でのテレビ演説において、北極圏での継続的な軍備増強とNATO加盟国への隠密ミサイル配備を指摘し、米国が条約の「精神と条文」に違反していると非難した。ゴルバチョフ氏は「NATOがナイフを研いでいる最中に、我々だけが武装解除することはない」と宣言した。
                             <LineBreak />
-                            わずか3ヶ月前に調印されたINF全廃条約は、ヨーロッパに配備された数千発の核搭載可能ミサイルの廃棄を義務付け、超大国関係における歴史的な雪解けを示していた。本日の脱退は外交界に衝撃を与え、長年の軍備管理に対する努力を覆す恐れがある。（2面に続く）
+                            わずか3ヶ月前に調印されたINF条約は、欧州における数千基の核搭載可能ミサイルの廃棄を義務付け、大国間の歴史的な緊張緩和を象徴するものだった。本日の脱退宣言は外交界に衝撃を与えており、長年にわたる軍備管理の努力を台無しにする恐れがある。（2面へ続く）
                             </TextBlock>
                     </StackPanel>
                     <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical"
                         VerticalAlignment="Top">
                         <Image Source="{Binding Assets[01_ussr_missile_parade]}" Stretch="Uniform" />
                         <TextBlock
-                            Text="モスクワの赤の広場で行われた戦勝記念日の祝典で、ソ連軍の先進的な中距離弾道ミサイルがパレードで行進する。戦略ロケット軍の威力を誇示するこれらのミサイルは、事実上すべての主要なNATO都市を数分以内に攻撃可能である。現在停止されているINF全廃条約は、双方の兵器庫からこのような兵器を排除することを目的としており、緊張緩和と恒久的な軍備管理に向けた重要な一歩であった。（AP通信）"
+                            Text="モスクワの勝利記念日祝典にて、赤の広場を行進するソ連軍の最新鋭中距離弾道ミサイル。戦略ロケット軍の威容を誇示するこれらのミサイルは、数分以内にNATOの主要都市のほぼすべてを攻撃する能力を持つ。現在停止状態にあるINF条約は、緊張緩和と恒久的な軍備管理に向けた重要な一歩として、双方の兵器庫からこうした兵器を排除することを目的としていた。（AP通信）"
                             TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0" />
                     </StackPanel>
                 </Grid>
@@ -66,20 +66,20 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <StackPanel Grid.Column="0" Orientation="Vertical">
-                        <TextBlock Text="ソ連爆撃機、北海空域で挑発行動" FontSize="24" FontWeight="Bold"
+                        <TextBlock Text="ソ連爆撃機、北海領空付近で挑発行為を激化" FontSize="24" FontWeight="Bold"
                             TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
-                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify"> オスロ発 –
-                            ソ連のTu-95「ベア」爆撃機2機が金曜日、ノルウェー沿岸から25マイル以内を飛行し、今月3度目となるNATO戦闘機の緊急発進を促した。イギリスおよびノルウェー当局は、英空軍のトーネードとノルウェー空軍のF-16が、両国の防空識別圏（ADIZ）に沿って飛行する爆撃機を追尾するためにスクランブル発進したことを確認した。
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【オスロ】金曜日、ソ連のTu-95「ベア」爆撃機2機がノルウェー沿岸から25マイル以内に接近し、今月で3度目となるNATO機による緊急発進（スクランブル）を招いた。英国とノルウェーの当局は、両国の防空識別圏（ADIZ）をかすめるように飛行する爆撃機に対し、英空軍のトーネードとノルウェー空軍のF-16が追尾にあたったことを認めた。
                             <LineBreak />
-                            軍事アナリストは、これらの飛行がスクランブルの反応速度を試し、電子情報を収集することを目的とした、増大するソ連の偵察任務の一環であると述べている。「彼らは大胆になっている」とノルウェー国防筋の一人は語った。「これは通常の哨戒ではなかった。メッセージだ。」
+                            軍事アナリストによれば、こうした飛行は、NATOの反応時間を試すと同時に電子情報を収集することを目的とした、ソ連の威力偵察パターンの拡大の一環であるという。ノルウェー国防関係者は「彼らは大胆になっている。これは単なる定例パトロールではなく、明確なメッセージだ」と語った。
                             <LineBreak />
-                            敵対行動は発生しなかったが、ノルウェーのトルヴァル・ストルテンベルグ外相はこの飛行を「挑発的」と呼び、モスクワに対しさらなる瀬戸際政策を控えるよう警告した。ソ連外務省はこれに対し、NATOが「ヒステリー」を起こし、「北極圏の国境を軍事化している」と非難して応じた。
+                            敵対行動は発生しなかったが、ノルウェーのトールヴァル・ストルテンベルグ外相は、今回の飛行を「挑発的」と呼び、モスクワに対しさらなる瀬戸際政策を警告した。ソ連外務省はこれに対し、NATOによる「ヒステリー」であり「北極圏の軍事化」であると反論している。
                             </TextBlock>
                     </StackPanel>
                     <StackPanel Grid.Column="2" Orientation="Vertical">
                         <Image Source="{Binding Assets[01_bear_intercept]}" />
                         <TextBlock
-                            Text="バレンツ海の上空を長距離哨戒飛行するソ連のTu-95「ベア」爆撃機。この機種はソ連海軍航空隊によって、海上監視、電子情報収集、NATOの防空態勢の偵察に頻繁に使用される。特徴的なターボプロップエンジンと長い航続距離を持つベアは、ノルウェー、イギリス、アイスランドの空域近くではおなじみの、そして挑発的な存在となっている。米国当局は、これらの飛行を同盟国の反応速度と覚悟を試すための意図的なエスカレーションであるとして非難している。（国防総省ファイル写真）"
+                            Text="バレンツ海上空を長距離哨戒飛行するソ連のTu-95「ベア」爆撃機。この機体は、ソ連海軍航空隊によって海上監視、電子情報収集、そしてNATO防空網への威力偵察に頻繁に使用されている。特徴的なターボプロップエンジンと長大な航続距離を持つベアは、ノルウェー、英国、アイスランド周辺の領空付近における「お馴染みの、しかし挑発的な存在」となっている。米国当局は、同盟軍の対応速度と決意を試す意図的な挑発行為として、こうした飛行を強く非難している。（国防総省提供写真）"
                             TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0" />
                     </StackPanel>
                 </Grid>
