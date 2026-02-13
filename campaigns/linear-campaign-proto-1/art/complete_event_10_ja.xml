@@ -1,0 +1,19 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <StackPanel Orientation="Vertical" Margin="5">
+        <TextBlock FontSize="24" Foreground="White">
+            交渉の切り札 ―― どちらの手札を選ぶか
+        </TextBlock>
+        <TextBlock FontSize="16" Margin="0,0,0,15" TextWrapping="Wrap"> 『Calculus of
+            Conflict』における分岐点への到達、見事である。本キャンペーンはここでルートが分岐しており、次のミッションへ進むにはNATO側、あるいはソ連側のいずれかを選択して完遂する必要がある。
+            <LineBreak />
+        <LineBreak />
+            選択せよ。幸運を祈る、司令官。 </TextBlock>
+    </StackPanel>
+</Page>

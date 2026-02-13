@@ -1,0 +1,63 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition
+            Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition
+            Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        1985年1月29日
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0"
+        FontSize="{StaticResource Font.Size.Header}" Text="発" />
+    <TextBlock Grid.Row="3"
+        Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋艦隊総司令官（CINCPACFLT）" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
+        Text="宛" />
+    <TextBlock Grid.Row="4" Grid.Column="2"
+        FontSize="{StaticResource Font.Size.Header}" Text="ペリリュー揚陸即応群指揮官／第78任務部隊（TF 78）" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock
+        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="作戦計画――サザン・シールド" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
+        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 緊急――最高機密（TOP SECRET） <LineBreak />         <LineBreak />
+        1. (S)
+        状況：ワルシャワ条約機構軍はマダガスカル政府の転覆を企図しており、モザンビークおよびインド洋における作戦拠点を確保するため同島の奪取を狙っている。キューバ特殊部隊による奇襲攻撃でマダガスカル政府中枢は機能不全に陥り、同国軍は混乱状態にある。欧州および太平洋での戦闘により、NATOおよび連合軍の戦力は極めて分散しているが、マダガスカルは戦略上の要衝であり、共産勢力の手へと落ちることは断じて許されない。開戦に伴い南アフリカへの制裁および禁輸措置は解除された。実戦経験豊富で精強な同国軍は、現在、地域における重要な同盟軍として我々の指揮下にある。
+        <LineBreak />         <LineBreak />
+        2. (S) 任務：ペリリュー揚陸即応群（ARG）は第17海兵遠征部隊（17 MEU）を展開し、アンタナナリボの抵抗勢力を増援せよ。第78任務部隊（TF
+        78）が敵の海空戦力に遭遇した場合は、これも撃破せよ。 <LineBreak />         <LineBreak /> 3. (S)
+        実施：ペリリュー航空部隊はアンタナナリボの米軍および抵抗勢力への空中補給を実施し、遭遇したすべての敵勢力を撃破せよ。アンタナナリボへの航空廊下には強力な対空砲火（AAA）が存在するため、ペリリュー攻撃隊による制圧を要する。南アフリカ空軍（SAAF）のミラージュF1部隊が戦闘空中哨戒（CAP）を提供する。
+        <LineBreak />         <LineBreak />
+        4. (S) 同盟軍：南アフリカ国防軍（SADF）ユニットが第78任務部隊（TF
+        78）の指揮下に入る。これにはCAP任務用の第3飛行隊所属ミラージュF1が含まれる。また、南アフリカ海軍（SAN）潜水艦ヨハンナ・ファン・デル・メルウェがペリリュー揚陸即応群の北方直衛にあたる。
+        <LineBreak />         <LineBreak />
+        5. (S)
+        敵軍配置：付近でキューバ空軍ユニットが活動しており、ペリリュー揚陸即応群および同盟軍への攻撃を企図している可能性がある。マダガスカル北東で東ドイツの偵察艦が探知されており、可能であればこれを撃破せよ。
+        <LineBreak />         <LineBreak />
+        6. (S) 備考：本作戦は、重要な戦略的同盟国が条約機構軍の手に落ちるのを防ぐための第一歩である。諸君の幸運と健闘を祈る。 <LineBreak />         <LineBreak />
+        秘密（SECRET） <LineBreak /> 宛先の承認なく機密解除することを禁ず </TextBlock>
+</Grid>

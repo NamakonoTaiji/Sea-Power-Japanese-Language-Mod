@@ -1,0 +1,51 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SeapowerUI"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+    Padding="5,5,5,5">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBlock
+                TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+                <TextBlock.Inlines>
+                    <Run FontWeight="Bold" Text="ヘリコプター - 燃料の制約" FontSize="16" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="ヘリコプターを含む全ての航空機は燃料が限られており、それが航続距離に影響する。兵装の種類によって航空機の航続距離に与える影響が異なる点に注意が必要だ。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="例えば、SH-2FのASW兵装は魚雷2本とソノブイ15発を搭載するが、その代償として航続距離が短くなる。増槽では全ての兵装を艦に残し、ヘリコプターに外部燃料タンクを2つ装備する。この兵装は、ヘリを潜水艦狩りではなく、レーダープラットフォームとしてのみ使用する場合に有用だ。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="ヘリコプターの最大航続距離は、離陸後にマップ上に" FontSize="12" />
+                    <Run Text="青い"
+                        FontSize="12" FontWeight="Bold" Foreground="#00AEEF" />
+                    <Run
+                        Text="円で表示される（かなりスクロールアウトしないと見えない場合がある！）。また、下部バーの「状況:」エリアににマウスカーソルを合わせると、正確な燃料残量を確認できる。"
+                        FontSize="12" />
+                </TextBlock.Inlines>
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                <Button
+                    Width="100" Height="50" Margin="0,0,15,0" FontSize="16"
+                    VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_22_ja.xml" />
+                <Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom"
+                    Content="次へ" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_24_ja.xml" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

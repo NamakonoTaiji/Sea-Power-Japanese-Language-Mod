@@ -1,0 +1,43 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SeapowerUI"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+    Padding="5,5,5,5">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBlock
+                TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+                <TextBlock.Inlines>
+                    <Run FontWeight="Bold" Text="マップ操作 - グローバルマップ" FontSize="16" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="指揮官、グローバルマップを見てみよう。Tabキーを押すか、戦術ディスプレイウィンドウの最大化ボタンをクリックすると、マップを全画面で表示できる。マップを終了するには、再度Tabキーを押すか、右上の最小化ボタンをクリックする。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="マップまたは戦術ディスプレイを完全に非表示にしたい場合は、戦術ディスプレイのXボタンを押すか、Mキーを押すか、画面右下のマップアイコンをクリックする。"
+                        FontSize="12" />
+                </TextBlock.Inlines>
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                <Button
+                    Width="100" Height="50" Margin="0,0,15,0" FontSize="16"
+                    VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_5_ja.xml" />
+                <Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom"
+                    Content="次へ" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_6a_ja.xml" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

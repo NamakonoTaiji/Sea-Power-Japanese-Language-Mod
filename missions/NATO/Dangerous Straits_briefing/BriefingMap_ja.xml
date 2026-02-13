@@ -1,0 +1,5 @@
+<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[AegeanSeaClose]}"/>
+	</Canvas>
+</Viewbox>

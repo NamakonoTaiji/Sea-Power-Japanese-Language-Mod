@@ -1,0 +1,50 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}"> 極秘（SECRET） <LineBreak /> Z 100400Z MAY 88 </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="赤旗太平洋艦隊司令官（TOF）" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="ヴォストーク任務部隊（TF VOSTOK）" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="実施命令 ―― リベンジ作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="1988年5月10日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 状況： <LineBreak />
+        昨日、アメリカのスパイ船が我々の動向を監視すべく、我が国の領海内で哨戒を実施した。これに対し、我々は監視部隊を派遣して追跡し、我が軍の活動を阻害させぬよう対処した。しかし、当該艦が退去を拒否したため、我が国の権益を守るべく熱意に駆られた指揮官が独断でUSNSケープ・ジラルドーへの接舷・拿捕を敢行した。この交戦により、敵乗組員のみならず、我が同志たちにも犠牲者が発生した。さらに当該海域のNATO潜水艦が即座に介入し、我が軍艦を撃沈。多大なるソ連水兵が命を落とした。核戦争への拡大が懸念される中、海底に沈んだ同志たちの死を看過することは断じて許されない。クレムリンは、アッツ島から日本へ転進中のアメリカ任務部隊を捕捉し、これを撃滅することを命じた。
+        <LineBreak /><LineBreak />
+        2. (S) 任務： <LineBreak />2.1 アッツ島から日本へ向かうアメリカ任務部隊を捕捉せよ。 <LineBreak />2.2 アメリカ軍艦を捕捉し、これを撃滅せよ。 <LineBreak /><LineBreak />
+        3. (S) 実施： <LineBreak />3.1 電波放射管制（EMCON）は指揮官の裁量とする。 <LineBreak />3.2 支援航空部隊が作戦海域に接近中である。 <LineBreak />3.3
+        自軍戦力の保全を最優先事項とする。 <LineBreak /><LineBreak /> 4. (S) 敵戦力組成（OOB）： <LineBreak />4.1 アメリカ任務部隊： <LineBreak />4.1.1
+        リーヒ級ミサイル巡洋艦 x1 <LineBreak />4.1.2 スプルーアンス級駆逐艦 x1 <LineBreak />4.1.3 ベルナップ級ミサイル巡洋艦 x1 <LineBreak />4.1.4
+        オリバー・ハザード・ペリー級フリゲート x1 <LineBreak /><LineBreak /> 5. (S) 友軍戦力組成（OOB）： <LineBreak />5.1
+        ヴォストーク任務部隊： <LineBreak />5.1.1 駆逐艦ストイキー EM-679 <LineBreak />5.1.2 駆逐艦オスモトリテリヌイ EM-672 <LineBreak />5.1.3
+        ミサイル巡洋艦スラヴァ RKR-103 <LineBreak />5.1.4 大型対潜艦アドミラル・イサチェンコフ BPK-686 <LineBreak />5.2 航空戦力： <LineBreak />5.2.1
+        Tu-95RT 偵察機 x1 <LineBreak />5.2.2 Tu-22M2 爆撃機 x2 <LineBreak />5.3 第10潜水艦師団： <LineBreak />5.3.1
+        K-175（675型） <LineBreak /><LineBreak /> 6. (S) インテリジェンス評価： <LineBreak />6.1
+        アメリカ任務部隊は日本へ向けて南西へ航行中と推定される。 <LineBreak />6.2 ソ連軍による奇襲の成功が見込まれる。 <LineBreak />6.3
+        敵の航空支援は想定されていない。 </TextBlock>
+</Grid>

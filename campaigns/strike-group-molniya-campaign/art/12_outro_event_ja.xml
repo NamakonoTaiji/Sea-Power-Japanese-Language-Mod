@@ -1,0 +1,89 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080">
+    <Viewbox>
+        <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center"
+            Width="900" Height="1272" Padding="45"
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+            TextElement.FontSize="16">
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock Text="1985年7月20日 | 第76巻 第35号 | 25セント" Margin="0,15,0,15" FontSize="24" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Grid Margin="0,5,0,15">
+                    <Rectangle Fill="Red" Margin="0,110,0,5" />
+                    <TextBlock Text="Exposition News" TextAlignment="Center" FontSize="112"
+                        FontWeight="Bold" />
+                </Grid>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Grid Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3"
+                        Text="ソ連通商破壊艦隊、インドの港に停泊。西側諸国は外交的憤りをあらわに" FontWeight="Bold" FontSize="32"
+                        TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                    <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+
+                        <TextBlock Text="中立を標榜するインドに「特定の国への便宜供与」との非難" FontSize="22"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【インド、コーチン】ニューデリーおよび複数の西側諸国当局によれば、ソ連海軍の通商破壊部隊が昨日、インドのコーチン港に入港した。これにより、南大西洋からインド洋にかけて数週間にわたり展開された米軍および連合軍による追跡劇は終止符を打たれた。
+                            <LineBreak />
+                            国防当局は、インド側の中立宣言を受け、ソ連艦艇がインド領海に接近した時点で米軍艦艇および航空機が追跡を断念せざるを得なかったことを認めた。西側の外交官らはインドの決定に対し極度の不満を表明しているが、インド当局は、地域海域におけるさらなる事態の悪化と流血を避けるために必要な措置であったと主張している。
+                            <LineBreak />
+                            世界各国の国防アナリストは、この通商破壊作戦によって、NATOが主要戦域から多大な海軍戦力を転用せざるを得なくなったと指摘している。（2面へ続く）
+                            </TextBlock>
+                    </StackPanel>
+                    <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical"
+                        VerticalAlignment="Top">
+                        <Image Source="{Binding Assets[12_petropavlovsk]}" Stretch="Uniform" />
+                        <TextBlock
+                            Text="開戦前の演習におけるソ連の大型ミサイル巡洋艦「ペトロパブロフスク」。この巡洋艦とその艦長は大西洋とインド洋を横断し、NATO軍の目をかいくぐりながら、神出鬼没の攻撃を繰り返した。国防アナリストらは、これによりNATOが主要戦域から多大な戦力の転用を強いられたと考えている。ある米上院議員は本紙に対し、ソ連艦隊のインド入港に伴う作戦停止の決定は「決意の重大な欠如」であると語ったが、政府当局はインドの中立宣言を理由にそれ以上のコメントを控えている。米軍および連合軍の艦艇は依然としてインド沖に展開中である。（米国防総省撮影）"
+                            TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0" />
+                    </StackPanel>
+                </Grid>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Grid Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="米国、インド沖に海上封鎖線を構築" FontSize="24" FontWeight="Bold"
+                            TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                            【インド、コーチン】ソ連艦艇がコーチン港に留まる中、米海軍部隊は本日、インド西岸沖に海上障壁を構築した。外交的解決への模索が続く中、インド領海の外側に水上艦艇と哨戒機を配備し、監視を継続するという。国防当局は、今回の配備は監視の維持を目的としたものであると述べている。
+                            <LineBreak />
+                            軍事筋によれば、空母艦載機と護衛艦艇が港への接近路を継続的に監視しており、指揮官らはインド側が宣言した排除区域の遵守を強調している。 <LineBreak />
+                            追加の軍事行動は承認されていないものの、米軍立案者らはソ連の存在が続く限り部隊は現場に留まると警告した。連合軍当局は、関心が再び主要戦域へと戻りつつある中でも、通商破壊部隊が再展開する懸念を反映した障壁であるとしている。（3面へ続く）
+                            </TextBlock>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Orientation="Vertical">
+                        <Image Source="{Binding Assets[12_p-3c]}" />
+                        <TextBlock
+                            Text="浮上中の潜水艦の上空を飛行する米海軍のP-3オライオン哨戒機。ソ連艦隊をコーチンに釘付けにするための威圧行動の一環である。米国防当局は、インドの中立を全面的に尊重して行動していると主張している。（米海軍撮影）"
+                            TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0" />
+                    </StackPanel>
+                </Grid>
+                <TextBlock Text="-1-" TextAlignment="Center" />
+            </StackPanel>
+        </Border>
+    </Viewbox>
+</Page>

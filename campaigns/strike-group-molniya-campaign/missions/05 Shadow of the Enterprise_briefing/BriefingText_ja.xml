@@ -1,0 +1,52 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="打撃群「モルニヤ」指揮官" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="打撃群「モルニヤ」全艦" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="最終作戦――インド" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="1985年7月18日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 作戦実施命令 <LineBreak />
+    <LineBreak />
+        打撃群「モルニヤ」の諸君へ。昨日の米軍後方支援部隊に対する強襲成功により、インド到達という任務を完遂するための時間を稼ぐことができた。司令部によれば、空母エンタープライズは我々の捜索・撃滅に全力を挙げているという。繰り返すが、これはソビエト連邦にとっての偉大なる勝利である！我が小規模な部隊を仕留めるために、彼らは貴重な空母戦力を釘付けにせざるを得ないのだ。
+        <LineBreak />
+    <LineBreak />
+        モルディブ諸島東方で大規模な嵐が発生しつつある。天候が回復する前にインド領海へ到達すべく、最大速力で嵐の中を突破する。天候が回復次第、西方からの米軍による空襲が予想される。警戒を怠るな。
+        <LineBreak />
+    <LineBreak />
+        諜報によれば、パキスタン海軍部隊が米軍と共謀し、我々のインド入港を阻止しようと展開している。彼らの戦力は小規模で武装も貧弱だ。また、米軍が水上部隊を分離させ、東進して我々を攻撃してくる可能性も高い。
+        <LineBreak />
+    <LineBreak />
+        必要とあれば戦い、奴らを撃滅するが、現時点では脱出にこそ高い戦略的価値がある。駐インド大使からの連絡によれば、コーチンの空軍基地は必要に応じて我が方の航空機の基地転換（リベイシング）に使用可能とのことだ。
+        <LineBreak />
+    <LineBreak />
+        同志諸君、健闘を祈る。諸君と共に戦えたことを誇りに思う。コーチンで会おう。 <LineBreak />
+    <LineBreak /> 以上 <LineBreak /> 署名：マルコフ <LineBreak />
+    <LineBreak />
+        極秘 <LineBreak /> 読了後、速やかに破棄せよ </TextBlock>
+</Grid>
