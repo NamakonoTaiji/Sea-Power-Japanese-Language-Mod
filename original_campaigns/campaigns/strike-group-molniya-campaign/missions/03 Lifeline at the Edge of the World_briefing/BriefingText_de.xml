@@ -27,7 +27,7 @@
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Versorgung"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="5. JULI 1985"/>
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-	EXECUTION MESSAGE
+	BEFEHLSAUSGABE
 	<LineBreak/>
     <LineBreak/>
 	Ich gratuliere allen Besatzungen und Piloten unseres Verbandes zum erfolgreichen Schlag gegen den Feind bei Mauritius. Wir werden für die NATO zunehmend zu einer tödlichen Gefahr.
@@ -52,6 +52,6 @@
 	<LineBreak/>
 	Cовершенно cекретно
 	<LineBreak/>
-	После прочтения — уничтожить
+	При чтении — уничтожить
     </TextBlock>
 </Grid>

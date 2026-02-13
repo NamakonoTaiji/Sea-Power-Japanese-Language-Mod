@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, EINSATZGRUPPE MOLNIYA"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ALLE SCHIFFE, EINSATZGRUPPE MOLNIYA"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Chagos Operations"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="15. JULI 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	BEFEHLSAUSGABE
+		<LineBreak/>
+		<LineBreak/>
+		An die Männer der Einsatzgruppe MOLNIYA: Mir wurde gemeldet, dass die Amerikaner die Trägerkampfgruppe USS ENTERPRISE entsandt haben um uns zu jagen. Diese Tatsache allein stellt einen großen Sieg für die Sowjetunion dar! Sie bedeutet, dass unser kleiner Verband der NATO derart schwere Schäden zugefügt hat, dass sie gezwungen waren, einen ihrer kostbaren Flugzeugträger nur für die Jagd auf uns abzustellen.
+		<LineBreak/>
+		<LineBreak/>
+		Unser weiteres Überleben hängt nun von diszipliniertem Manövrieren und präziser Durchführung ab. Das Flottenhauptquartier hat eine Vereinbarung übermittelt, die unserem Verband den Marsch in Richtung des neutralen Indien ermöglicht. Dieser Marsch erfordert jedoch das Durchqueren des Indischen Ozeans, in welchem wir mit hoher Wahrscheinlichkeit entdeckt werden. Sobald das passiert, müssen wir mit voller Härte zuschlagen!
+		<LineBreak/>
+		<LineBreak/>
+		Meldungen der Nachrichtendienste weisen darauf hin, dass die USS ENTERPRISE mit reduzierten Treibstoff- und Luftfahrzeugvorräten operiert und die USS CAMDEN aus dem Verband gelöst hat, um sich westlich von Diego Garcia mit Logistikelementen zu treffen. Diese Situation werden wir ausnutzen, um das Schiff zu versenken.
+		<LineBreak/>
+		<LineBreak/>
+		Die Amerikanische Doktrin sieht vor, ihre Versorgungsgruppen zur See durch Zerstörer und S-3-Luftfahrzeuge zu sichern. Zudem ist damit zu rechnen, dass der Stützpunkt Diego Garcia P-3 ORION sowie PHANTOM-Jets gegen uns einsetzt, sobald wir durch den Feind aufgeklärt werden.
+		<LineBreak/>
+		<LineBreak/>
+		Wir werden die USS CAMDEN suchen und vernichten und uns anschließend auflösen, bevor die amerikanischen Träger reagieren können. Ein Erfolg verschafft uns die notwendige Zeit, unseren sicheren Hafen in Indien zu erreichen!
+		<LineBreak/>
+		<LineBreak/>
+		Viel Glück, Genossen.
+		<LineBreak/>
+		<LineBreak/>
+		ENDE DER MELDUNG
+	<LineBreak/>
+	/s/ Markov
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>

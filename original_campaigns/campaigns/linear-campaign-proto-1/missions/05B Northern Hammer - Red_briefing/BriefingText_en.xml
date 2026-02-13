@@ -20,10 +20,10 @@
         <ColumnDefinition Width="Auto"/>
     </Grid.ColumnDefinitions>
 	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="HQ RED BANNER NORTHERN FLEET"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ RED BANNER NORTHERN FLEET"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR, KIROV STRIKE GROUP"/>
-    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Subj:"/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NORWEGIAN SEA SPECIAL MILITARY OPERATION"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="4 JULY 1988"/>
 	    <!--

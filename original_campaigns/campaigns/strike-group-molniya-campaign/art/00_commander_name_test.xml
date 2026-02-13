@@ -1,4 +1,121 @@
-<Page
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+    <Border Background="#2b2d31" HorizontalAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="900" TextElement.Foreground="#949aa1" TextElement.FontSize="16" TextElement.FontFamily="Roboto" Padding="20">
+		<!--<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>-->
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="STRIKE GROUP MOLNIYA" Margin="0" FontSize="48" TextAlignment="Center"/>
+			<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="#949aa1" Margin="0,0,0,10"/>
+			<TextBlock TextWrapping="Wrap" TextAlignment="Justify" Margin="0">
+				<TextBlock.Inlines>
+					<Run FontWeight="Bold" Text="" /><Run Text="" />
+					<Run FontWeight="Bold" Text="" /><Run Text="" />
+				</TextBlock.Inlines>
+			</TextBlock>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical">
+
+					<Image Source="{local:IniToProfile IniRef=wp_bpk_kara, VariantIndex=0}" Stretch="Uniform" Width="350" Margin="0,0,0,5"/>
+					<StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+						<Image Source="{local:NationToFlag NationRef=Soviet}" Stretch="Uniform" Height="30" VerticalAlignment="Center" Margin="0,0,15,0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left">
+							<TextBlock.Inlines>
+							<Run FontWeight="Bold" Text="PETROPAVLOVSK BPK-591" /><LineBreak/>
+							<Run Text="Proficiency level: " /><Run FontWeight="Bold" Foreground="DarkOrange" Text="Seasoned" />
+						</TextBlock.Inlines>
+						</TextBlock>
+					</StackPanel>
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="2*"/>
+							<ColumnDefinition Width="3*"/>
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						
+						<Image Source="{Binding Assets[profile_wp_ss-n-14b]}" Stretch="Uniform" Width="80" Margin="0,0,0,15" Grid.Row="0" Grid.Column="0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left" Grid.Row="0" Grid.Column="2">
+							<TextBlock.Inlines>
+							<Run Text="SS-N-14B x 8" />
+						</TextBlock.Inlines>
+						</TextBlock>
+						
+						<Image Source="{Binding Assets[profile_wp_sa-n-3]}" Stretch="Uniform" Width="80" Margin="0,0,0,15" Grid.Row="1" Grid.Column="0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left" Grid.Row="1" Grid.Column="2">
+							<TextBlock.Inlines>
+							<Run Text="SA-N-3 x 60" />
+						</TextBlock.Inlines>
+						</TextBlock>
+						
+						<Image Source="{Binding Assets[profile_wp_sa-n-4]}" Stretch="Uniform" Width="80" Margin="0,0,0,15" Grid.Row="2" Grid.Column="0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left" Grid.Row="2" Grid.Column="2">
+							<TextBlock.Inlines>
+							<Run Text="SA-N-4 x 36" />
+						</TextBlock.Inlines>
+						</TextBlock>
+						
+						<Image Source="{local:IniToProfile IniRef=wp_ka-25, VariantIndex=0}" Stretch="Uniform" Width="150" Margin="0,0,0,15" Grid.Row="3" Grid.Column="0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2">
+							<TextBlock.Inlines>
+							<Run Text="Ka-25PL 785th PLAVP x 1" />
+						</TextBlock.Inlines>
+						</TextBlock>
+					</Grid>
+					
+					<Border Background="#FFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="375" Padding="5" CornerRadius="10">
+						<Image Source="{local:IniToProfile IniRef=wp_rkr_kynda, VariantIndex=0}" Stretch="Uniform" Width="350" Margin="0,0,0,5"/>
+					</Border>
+					<StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+						<Image Source="{local:NationToFlag NationRef=Soviet}" Stretch="Uniform" Height="30" VerticalAlignment="Center" Margin="0,0,15,0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left">
+							<TextBlock.Inlines>
+							<Run FontWeight="Bold" Text="VARYAG RKR-120" /><LineBreak/>
+							<Run Text="Proficiency level: " /><Run FontWeight="Bold" Foreground="DarkOrange" Text="Seasoned" />
+						</TextBlock.Inlines>
+						</TextBlock>
+					</StackPanel>
+
+				</StackPanel>
+				
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+					
+					<Image Source="{local:IniToProfile IniRef=wp_bpk_kashin_mod, VariantIndex=0}" Stretch="Uniform" Width="350" Margin="0,0,0,5"/>
+					<StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+						<Image Source="{local:NationToFlag NationRef=Soviet}" Stretch="Uniform" Height="30" VerticalAlignment="Center" Margin="0,0,15,0"/>
+						<TextBlock TextWrapping="Wrap" TextAlignment="Left">
+							<TextBlock.Inlines>
+							<Run FontWeight="Bold" Text="OGNEVOY BPK-296" /><LineBreak/>
+							<Run Text="Proficiency level: " /><Run FontWeight="Bold" Foreground="DarkOrange" Text="Seasoned" />
+						</TextBlock.Inlines>
+						</TextBlock>
+					</StackPanel>
+                </StackPanel>
+            </Grid>
+			<TextBlock Text="All ships, aircraft, and helicopters have been refuelled, rearmed, and repaired." TextWrapping="Wrap" TextAlignment="Left" Margin="0,0,0,15"/>
+        </StackPanel>
+    </Border>
+</ScrollViewer>
+
+<!--<Page
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -25,4 +142,4 @@
         <Button Width="120" Margin="0,15,0,0" Content="Submit" />
 		
     </StackPanel>
-</Page>
+</Page>-->

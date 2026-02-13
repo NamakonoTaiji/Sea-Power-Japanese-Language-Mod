@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, EINSATZGRUPPE MOLNIYA"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ALLE SCHIFFE, EINSATZGRUPPE MOLNIYA"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Finale Operation - Indien"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="18. JULI 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	BEFEHLSAUSGABE
+	<LineBreak/>
+    <LineBreak/>
+	An die Männer der Einsatzgruppe MOLNIYA: Unser erfolgreicher Schlag gegen die amerikanischen Logistikkräfte gestern hat uns Zeit verschafft, unseren Auftrag fortzusetzen, der das Erreichen Indiens vorsieht. Das Kommando teilte mir mit, dass die USS ENTERPRISE nun vollständig auf uns angesetzt worden ist. Auch dies ist ein großer Sieg für die Sowjetunion!
+	<LineBreak/>
+	<LineBreak/>
+	Ein heftiger Sturm bildet sich östlich der Malediven. Wir werden ihn mit höchster Fahrt durchqueren, um noch vor dem Aufklaren des Wetters in die Nähe der indischen Hoheitsgewässer zu gelangen. Unmittelbar nach Wetterbesserung ist mit amerikanischen Luftangriffen aus westlicher Richtung zu rechnen.
+	<LineBreak/>
+	<LineBreak/>
+	Die Nachrichtendienste melden, dass pakistanische Seestreitkräfte in enger Zusammenarbeit mit den Amerikanern operieren und versuchen werden, unsere Einfahrt in indische Gewässer zu verhindern. Ihre Anzahl ist gering und ihre Bewaffnung ist nur sehr schwach.
+	<LineBreak/>
+	<LineBreak/>
+	Falls es erforderlich ist, werden wir werden kämpfen und sie vernichten, doch unser Durchbruch hat höchste Priorität. Unser Botschafter in Indien hat mir zudem bestätigt, dass der Luftwaffenstützpunkt Cochin unseren Luftfahrzeugen bei Bedarf zur Verfügung stehen wird.
+	<LineBreak/>
+	<LineBreak/>
+	Viel Glück, Genossen. Es war mir eine Ehre mit Ihnen zu dienen und ich werde Sie alle in Cochin wiedersehen.
+	<LineBreak/>
+    <LineBreak/>
+	ENDE DER MELDUNG
+	<LineBreak/>
+	/s/ Markov
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>
