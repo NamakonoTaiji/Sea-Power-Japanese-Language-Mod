@@ -20,7 +20,7 @@
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
                 <Grid Margin="0,5,0,15">
                     <Rectangle Fill="Red" Margin="0,110,0,5" />
-                    <TextBlock Text="エクスポジション・ニュース" TextAlignment="Center" FontSize="112"
+                    <TextBlock Text="Exposition News" TextAlignment="Center" FontSize="112"
                         FontWeight="Bold" />
                 </Grid>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
@@ -40,7 +40,7 @@
                         TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
                     <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
 
-                        <TextBlock Text="中立を標榜するインドに「特定の国への便宜供与」との非難" FontSize="24"
+                        <TextBlock Text="中立を標榜するインドに「特定の国への便宜供与」との非難" FontSize="22"
                             TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15" />
                         <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
                             【インド、コーチン】ニューデリーおよび複数の西側諸国当局によれば、ソ連海軍の通商破壊部隊が昨日、インドのコーチン港に入港した。これにより、南大西洋からインド洋にかけて数週間にわたり展開された米軍および連合軍による追跡劇は終止符を打たれた。
