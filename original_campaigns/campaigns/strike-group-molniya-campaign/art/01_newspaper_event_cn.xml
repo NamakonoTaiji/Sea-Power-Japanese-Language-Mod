@@ -1,0 +1,80 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="1985年6月1日|第76卷第22号|25美分" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <!--Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/-->
+			<Grid Margin="0,5,0,15">
+				<Rectangle Fill="Red" Margin="0,110,0,5"/>
+				<TextBlock Text="博览新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+			</Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="欧洲局势紧张，东西方会谈仍在继续但进展甚微" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+                    
+                    <TextBlock Text="北约官员否认演习是战争的预兆" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						布鲁塞尔——据布鲁塞尔和几个欧洲国家首都的官员称，近日来为稳定北约和华约国家之间关系所做的努力几乎没有取得任何实质性成果。
+						<LineBreak/>
+						外交接触仍在继续，但欧洲官员承认自今年春季以来东西方之间的信任已显著下降。熟悉会谈的高级外交官表示近期的交流主要停留在程序层面，双方重申既定立场，同时避免做出任何可能缓解紧张局势的承诺。
+						<LineBreak/>
+						多个北约国家的国防部证实军事演习已加快步伐，包括位于挪威海的海上演习和位于西德的地面训练。分析人士警告如此频繁的演习提高了发生意外的风险，尤其是在苏联军队监视这些演习的情况下。（接第2页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[01_nato_tanks]}" Stretch="Uniform"/>
+                    <TextBlock Text="上周，在北约的一次演习中，美军重型坦克在西德的一处训练场上行进。尽管军队战备水平持续提高，但国防官员强调这些演习属于防御性质。随着东西方关系日益恶化，类似的演习已在中欧地区大规模出现。类似的海上演习计划于6月底举行。（美联社图片）" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="欧洲航运业面临更大的不确定性" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						鹿特丹——鉴于近几周东西方之间紧张局势的加剧，欧洲各地的航运公司和保险公司正在重新评估其风险敞口。受此影响，本月跨大西洋货物的保险费率大幅上涨。
+						<LineBreak/>
+						
+海上保险行业的代表指出对长途贸易航线的审查力度正在加大，尤其是对支撑能源和原材料供应的航线。随着海上安全环境的日益恶化，多家公司已开始发布预防性建议。
+						<LineBreak/>
+						虽然目前尚未对商业运输实施正式限制，但保险公司警告称现有海上航线的稳定性在政治局势进一步恶化的情况下可能会下降。（接第3页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <Image Source="{Binding Assets[01_container_ship_photo]}"/>
+                    <TextBlock Text="本月初，驶往纽约的集装箱船植物学湾号从鹿特丹港启航。此类船舶是跨大西洋贸易的关键，它们在欧洲和北美之间运输制成品和原材料。（英国皇家海军图片）" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+			<TextBlock Text="-1-" TextAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

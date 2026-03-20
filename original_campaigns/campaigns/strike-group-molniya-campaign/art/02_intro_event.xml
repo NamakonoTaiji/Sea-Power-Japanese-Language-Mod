@@ -92,9 +92,6 @@
 					This force will be designated STRIKE GROUP MOLNIYA (Lightning). The task force is to proceed under conditions of strict radio silence, avoiding unnecessary contact, and must operate outside of established commercial shipping lanes.
 					<LineBreak/>
 					<LineBreak/>
-					The Strike Group will be commanded by Captain 1st Rank {Binding DataSource.PersistentData[CommanderName]}.
-					<LineBreak/>
-					<LineBreak/>
 					Upon arrival in the assigned operating area, the Strike Group will maintain full readiness for execution of combat missions in the event of hostilities. Further instructions will be transmitted upon confirmation of changes to the operational situation.
 					<LineBreak/>
 				</TextBlock>
@@ -102,6 +99,10 @@
 					END OF DIRECTIVE
 					<LineBreak/>
 					/s/ GORSHKOV
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
+					<LineBreak/>
 					<LineBreak/>
 					<LineBreak/>
 					<LineBreak/>

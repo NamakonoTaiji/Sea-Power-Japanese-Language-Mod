@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群指挥官"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群所有船只"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="最后行动——印度"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985年7月18日"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	执行消息
+	<LineBreak/>
+    <LineBreak/>
+	致闪电打击群全体官兵：我们昨天对美国后勤部队的成功打击为自己争取到了时间，现在我们可以继续执行前往印度的任务。指挥部发来通知称企业号已做好充分准备，试图全力搜寻并消灭我们。这是苏联的又一次伟大胜利！
+	<LineBreak/>
+    <LineBreak/>
+	一个大型风暴正在马尔代夫以东形成。我们将以最快速度穿过风暴，在风暴消散前进入印度海域。预计美军会在天气好转时从西方发动空袭。
+    <LineBreak/>
+    <LineBreak/>
+	情报显示巴基斯坦海军正与美国协同作战，尝试阻止我们进入印度海域。他们的部队规模小，装备简陋。此外，美军很可能会抽调水面舰艇向东航行并发动攻击。
+	<LineBreak/>
+	<LineBreak/>
+	如有必要，我们将与敌人战斗并将其消灭，但撤退的战略意义更大。我方驻印度大使称科钦的航空基地可在必要时供我方飞机重新部署。
+	<LineBreak/>
+    <LineBreak/>
+	祝你们好运，同志们。与你们并肩作战是我的荣幸，我们科钦再见。
+	<LineBreak/>
+    <LineBreak/>
+	消息结束
+	<LineBreak/>
+	/署名/马尔可夫
+	<LineBreak/>
+	<LineBreak/>
+	绝密
+	<LineBreak/>
+	阅后销毁
+    </TextBlock>
+</Grid>

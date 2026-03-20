@@ -1,0 +1,117 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+	  <Border.Effect>
+	    <DropShadowEffect />
+	  </Border.Effect>
+			
+	  <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+	    <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="10"/>
+		    <RowDefinition Height="*"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		  </Grid.RowDefinitions>
+	      <TextBlock Text="C05084475" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+		  <Grid Grid.Row="0">
+		    <Grid.RowDefinitions>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="10"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		    </Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="*"/>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="Auto"/>
+		    </Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="绝密" TextAlignment="Center"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+				中央情报局局长
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontSize="12">华盛顿特区20505</Run>
+			</TextBlock>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="1985年6月28日"/>
+			<TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="作为备忘录发送至："/>
+			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+				华盛顿特区参谋长联席会议作战处
+				<LineBreak/>
+				弗吉尼亚州诺福克美国大西洋司令部总司令
+				<LineBreak/>
+				德国法伊英根美国欧洲司令部总司令
+				<LineBreak/>
+				夏威夷州火奴鲁鲁美国太平洋司令部总司令
+				<LineBreak/>
+				内布拉斯加州奥佛特空军基地战略空军司令
+			</TextBlock>
+			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+				行政命令13526 3.3（b）（1）>25年
+				<LineBreak/>
+				行政命令13526 3.5（c）
+			</TextBlock>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="主题："/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="苏联将海军行动扩展至南大西洋"/>
+		  </Grid>
+		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
+			1.我们评估认为苏联有意将南方大洋开辟为活跃的海战区域。联络报告和国家技术手段表明苏联的一支突袭部队正在南大西洋活动。截至6月28日，此部队位置尚不明确。
+			<LineBreak/>
+			<LineBreak/>
+			2.此突袭群的核心单位在战争爆发前已离开北方舰队水域，但由于恶劣天气，我们失去了与这支部队的接触。
+			<LineBreak/>
+			<LineBreak/>
+			3.6月26日，四艘悬挂美国国旗的商船在前往开普敦的途中于特里斯坦-达库尼亚群岛以东遭到袭击。幸存者被英国皇家海军救起并转移至圣赫勒拿岛。船员采访表明苏联进行了海空协同攻击，部分船员当时尚不知晓战争已经爆发。 
+			<LineBreak/>
+			<LineBreak/>
+			4.轻型飞机袭击的报告引起了国防部的担忧，这表明此突袭群可能得到了苏联海军航空兵的支援。鉴于其与任何已知的苏联基地都相隔遥远，我们评估认为改装后的 阿戈斯蒂纽·内图号滚装船很可能被用作临时航空平台，搭载雅克-38垂直起降战斗机。此货船曾根据英国在福克兰群岛的经验进行过垂直起降试验。
+			<LineBreak/>
+			<LineBreak/>
+			5.欧洲和太平洋地区的持续军事行动限制了我们在此战区的快速反应能力。南非共和国已同意在特定条件下提供有限的海空支援。此项合作需要在执行现有制裁和武器禁运方面做出默许让步，进一步的政策影响需要高层审查。我们将尽快提交我方在大西洋的兵力部署情况。
+			<LineBreak/>
+			<LineBreak/>
+		  </TextBlock>
+		  <TextBlock TextAlignment="Right" Text="威廉·J·凯西" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0" Grid.Row="2"/>
+		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+			<Run TextDecorations="Underline">通过执行登记处传递/1985年6月28日/带有附件</Run>
+			<LineBreak/>
+			<LineBreak/>
+			原件——每位收件人
+			<LineBreak/>
+			   1——中央情报局局长
+			<LineBreak/>
+			   1——中央情报局副局长
+			<LineBreak/>
+			   1——执行主任
+			<LineBreak/>
+			   1——国家情报委员会主席
+			<LineBreak/>
+			   1——国家情报委员会副主席
+			<LineBreak/>
+			   1——国家预警情报官
+			<LineBreak/>
+			   1——执行登记处文件
+		  </TextBlock>
+		  <TextBlock Grid.Row="4" Text="绝密" TextAlignment="Center"/>
+	    </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

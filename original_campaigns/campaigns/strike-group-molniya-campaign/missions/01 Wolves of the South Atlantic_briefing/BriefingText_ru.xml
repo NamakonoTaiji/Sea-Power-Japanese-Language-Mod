@@ -20,7 +20,7 @@
         <ColumnDefinition Width="Auto"/>
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ RED BANNER NORTHERN FLEET"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ГлавКом КСФ"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком., КУГ «Молния»"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
@@ -30,7 +30,7 @@
 	СРОЧНОЕ СООБЩЕНИЕ
 	<LineBreak/>
     <LineBreak/>
-	Силы НАТО предприняли вооруженные действия против нашего наблюдательной группы во время проведения военных учений в Норвежском море. Имеющаяся информация указывает на то, что НАТО было готово к эскалации и ожидало предлога для наступательных операций.
+	Силы НАТО применили оружие против нашей наблюдательной группы во время проведения военных учений в Норвежском море. Имеющаяся информация указывает на то, что НАТО было готово к эскалации и ожидало предлога для наступательных операций.
     <LineBreak/>
     <LineBreak/>
 	Вооруженные силы СССР переведены на военное положение. Настоящим приказываю группе «Молния», осуществлять неограниченные морские и воздушные боевые действия против сил НАТО и торговых судов, под флагами стран НАТО.

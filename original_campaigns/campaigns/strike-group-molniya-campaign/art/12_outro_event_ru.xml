@@ -14,7 +14,7 @@
 		</Border.Effect>
         <StackPanel Orientation="Vertical">
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-            <TextBlock Text="July 20, 1985 | Vol. 76, No. 35 | 25 Cents" Margin="0,15,0,15" FontSize="24"/>
+            <TextBlock Text="Июль 20, 1985 | Vol. 76, No. 35 | 25 Cents" Margin="0,15,0,15" FontSize="24"/>
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
             <!--Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/-->
 			<Grid Margin="0,5,0,15">
@@ -33,21 +33,21 @@
 					<RowDefinition Height="Auto"/>
 					<RowDefinition Height="Auto"/>
 				</Grid.RowDefinitions>
-				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="SOVIET COMMERCE RAIDERS TIE UP IN INDIAN HARBOR AMIDST WESTERN DIPLOMATIC FURY" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="СОВЕТСКИЕ РЕЙДЕРЫ УКРЫЛИСЬ В ИНДИИ. ЗАПАДНЫЕ ДИПЛОМАТЫ В ЯРОСТИ!" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                 <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
                     
-                    <TextBlock Text="India, officially neutral, accused of playing favorites" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="Индию обвиняют в предвзятости" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-						COCHIN, INDIA — A Soviet commerce raiding naval group entered the Indian port of Cochin yesterday, according to officials in New Delhi and several Western capitals, bringing an end to a weeks-long pursuit by U.S. and Allied naval forces across the South Atlantic and Indian Ocean.
+						КОЧИН, ИНДИЯ — По сообщениям официальных лиц в Нью-Дели, вчера в индийский порт Кочин вошла советская группа военных кораблей, проводившая операции против торговых судов НАТО, в Южной Атлантике и Индийском океане.
 						<LineBreak/>
-						U.S. defense officials confirmed that American warships and aircraft were forced to break off their pursuit as the Soviet vessels approached Indian territorial waters, citing New Delhi's declaration of neutrality. Western diplomats have expressed extreme frustration with India's decision, while Indian officials maintained that the move was necessary to prevent further escalation and bloodshed in their regional waters.
+						Представители Минобороны США подтвердили, что американские ВМС были вынуждены прекратить преследование, когда советские корабли вошли в территориальные воды Индии. Западные дипломаты выразили крайнее недовольство решением Индии, в то время как индийские официальные лица заявили, что этот шаг был необходим для предотвращения дальнейшего кровопролития в их региональных водах.
 						<LineBreak/>
-						Defense analysts around the world commented that the raiding campaign had compelled NATO to divert significant naval assets from primary theaters. (continued on page 2)
+						Военные аналитики отмечают, что действия рейдеров вынудили НАТО перенаправить значительные силы с основных театров военных действий. (продолжение на странице 2)
 					</TextBlock>
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
                     <Image Source="{Binding Assets[12_petropavlovsk]}" Stretch="Uniform"/>
-                    <TextBlock Text="The Soviet heavy missile cruiser Petropavlovsk on exercise from a pre-war photo. This cruiser and its captain traversed Atlantic and Indian oceans, hiding from NATO forces and striking seemingly at will. Defense analysts believe this forced the diversion of significant NATO assets from primary theaters. A U.S. senator told Exposition News that the decision to halt operations as the Soviet force entered Indian waters represented “a serious failure of resolve,” though U.S. officials declined further comment, citing India’s declared neutrality. U.S. and Allied warships remain at sea off the Indian coast. (DoD Photo)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                    <TextBlock Text="БПК «Петропавловск» на учениях (фотография довоенного периода). Этот корабль и его капитан пересекли Атлантический и Индийский океаны, скрываясь от сил НАТО и нанося неожиданные удары. Сенатор США заявил изданию Exposition News, что решение о прекращении преследования советских кораблей в индийских водах, представляет собой «серьезный провал решимости». Американские и союзные военные корабли остаются в море у берегов Индии. (Фото Министерства обороны США)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
                 </StackPanel>
             </Grid>
             <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
@@ -58,18 +58,18 @@
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Vertical">
-                    <TextBlock Text="U.S. FORMS MARITIME BLOCKADE OFF INDIA" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="США УСТАНАВЛИВАЮТ МОРСКУЮ БЛОКАДУ У БЕРЕГОВ ИНДИИ." FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-						COCHIN, INDIA - U.S. naval forces established a maritime barrier off India’s western coast today, positioning surface ships and patrol aircraft outside Indian territorial waters as Soviet warships remain interned in Cochin harbor. Defense officials said the deployment is intended to maintain surveillance while diplomatic efforts continue.
+						КОЧИН, ИНДИЯ — Сегодня военно-морские силы США установили морскую блокаду у западного побережья Индии, разместив надводные корабли и патрульные самолеты за пределами территориальных вод Индии, в то время как советские военные корабли остаются интернированными в гавани Кочина. Представители министерства обороны заявили, что развертывание предназначено для поддержания наблюдения в то время, когда продолжаются дипломатические усилия.
 						<LineBreak/>
-						Military sources reported that carrier-based aircraft and escort vessels are conducting continuous monitoring of maritime approaches to the port, with commanders emphasizing adherence to India’s declared exclusion zone.
+						Военные источники сообщили, что палубная авиация и корабли сопровождения ведут непрерывное наблюдения за акваторией Кочина, при этом командиры подчеркивают необходимость соблюдения объявленной Индией зоны отчуждения.
 						<LineBreak/>
-						Although no additional military action has been authorized, U.S. planners cautioned that forces will remain on station as long as the Soviet presence persists. Allied officials said the barrier reflects concern over potential redeployment of the raider force, even as attention shifts back toward primary theaters. (continued on page 3)
+						Американские представители предупредили, что войска останутся на позиции до тех пор, пока сохраняется советское присутствие в Кочине. Представители союзников заявили, что блокада отражает обеспокоенность по поводу возможнсти возвращения рейдеров, даже несмотря на то, что внимание снова переключается на основные театры военных действий. (продолжение на странице 3)
 					</TextBlock>
                 </StackPanel>
                 <StackPanel Grid.Column="2" Orientation="Vertical">
                     <Image Source="{Binding Assets[12_p-3c]}"/>
-                    <TextBlock Text="A U.S. Navy Orion patrol plane flies over a surfaced submarine, part of a show of force intended to keep the Soviets at anchor in Cochin. U.S. defense officials maintain they are acting with full respect for India's neutrality. (U.S. Navy photo)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                    <TextBlock Text="Патрульный самолет ВМС США «Орион» пролетает над всплывшей подводной лодкой в ​​рамках демонстрации силы, призванной удержать советские войска на якоре в Кочине. Представители Министерства обороны США утверждают, что действуют с полным уважением к нейтралитету Индии. (Фото ВМС США)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
                 </StackPanel>
             </Grid>
 			<TextBlock Text="-1-" TextAlignment="Center"/>

@@ -1,0 +1,51 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}"> 極秘（SECRET） <LineBreak /> Z 120800Z MAY 88 </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="大西洋艦隊司令官（COMLANTFLT）" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="任務部隊「グレイハウンド」（TG Greyhound）" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="哨戒阻止作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="1988年5月12日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 状況： <LineBreak />
+        5月9日から10日にかけての一連の出来事を受け、NATOおよびワルシャワ条約機構の双方は、急速に戦時体制への動員を進めている。ソ連は潜水艦艦隊を展開し、弾道ミサイル原子力潜水艦（SSBN）を北大西洋へと進出させようとしている。合衆国第2艦隊所属の任務部隊「グレイハウンド」は、GIUKギャップの東側接近路を封鎖し、ソ連潜水艦の大西洋進入を阻止せよとの命を受けた。対潜掃討部隊「アルファ」は任務部隊（TGG）から分離し、フェロー諸島とスコットランド間の接近路をカバーしているが、指揮下は依然としてTGGにある。統合参謀本部議長（CJCS）からの直接の指示により交戦規定（ROE）が更新された。未確認の潜水艦接触に対する攻撃を許可する。
+        <LineBreak /><LineBreak />
+        2. (S) 任務： <LineBreak />2.1 GIUKギャップ付近における対潜（ASW）バリア捜索を実施せよ。 <LineBreak />2.2
+        未確認の潜水艦接触を捕捉し、攻撃せよ。 <LineBreak /><LineBreak /> 3. (S) 実施： <LineBreak />3.1
+        電波放射管制（EMCON）方針は指揮官の裁量とする。 <LineBreak />3.2 任務部隊「グレイハウンド」はアイスランド・フェロー諸島間を哨戒せよ。 <LineBreak />3.3
+        対潜掃討部隊「アルファ」はフェロー諸島・スコットランド間を哨戒せよ。 <LineBreak /><LineBreak /> 4. (S) 敵戦力組成（OOB）： <LineBreak />4.1
+        タンゴ級潜水艦 x1（画像偵察にて所在不明） <LineBreak />4.2 ヴィクターIII級原子力潜水艦 x2（所在不明） <LineBreak />4.3
+        デルタIII級弾道ミサイル原子力潜水艦 x1（所在不明） <LineBreak /><LineBreak /> 5. (S) 友軍戦力組成（OOB）： <LineBreak />5.1
+        任務部隊「グレイハウンド」 <LineBreak />5.1.1 ミサイル巡洋艦バレー・フォージ CG-50 <LineBreak />5.1.2 フリゲート トーマス・C・ハート
+        FF-1092 <LineBreak />5.1.3 ミサイルフリゲート レンツ FFG-46 <LineBreak />5.2 対潜掃討部隊「アルファ」 <LineBreak />5.2.1
+        駆逐艦ジョン・ロジャース DD-983 <LineBreak />5.2.2 ミサイルフリゲート アンダーウッド FFG-36 <LineBreak />5.3 P-3C 哨戒機
+        x1（チューレ空軍基地より接近中） <LineBreak /><LineBreak /> 6. (S) インテリジェンス評価： <LineBreak />6.1
+        ソ連の攻撃型潜水艦がNATO部隊との交戦を試みる可能性が極めて高い。 <LineBreak />6.2
+        潜水艦作戦を支援するため、ソ連爆撃機部隊が緊急発進（スクランブル）する可能性が高い。 </TextBlock>
+</Grid>

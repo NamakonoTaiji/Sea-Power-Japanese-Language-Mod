@@ -36,7 +36,7 @@
                 <Run Text="伊萨琴科夫海军上将"/><LineBreak/><LineBreak/>
                 <Run Text="空中资产："/><LineBreak/>
                 <Run Text="图-95RT（第392独立远程侦察航空团）"/><LineBreak/>
-                <Run Text="图-22M2（第924近卫海军侦察航空团）"/><LineBreak/><LineBreak/>
+                <Run Text="图-22M2（第924近卫海军导弹航空团）"/><LineBreak/><LineBreak/>
                 <Run Text="潜艇部队："/><LineBreak/>
                 <Run Text="K-175"/>
            </TextBlock>
@@ -78,7 +78,7 @@
 		<!-- 2 x Tu-22M2 924th GuMRAP -->
 		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="50">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="图-22M2（第924近卫海军侦察航空团）"/>
+                <Run Text="图-22M2（第924近卫海军导弹航空团）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>

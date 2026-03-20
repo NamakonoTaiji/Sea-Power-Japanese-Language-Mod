@@ -20,7 +20,7 @@
                 <!--Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/-->
                 <!--Grid Margin="0,5,0,15">
                     <Rectangle Fill="Red" Margin="0,110,0,5"/>
-                    <TextBlock Text="爆炸性新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+                    <TextBlock Text="博览新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
                 </Grid>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/-->
                 <Grid Margin="0,15,0,15">

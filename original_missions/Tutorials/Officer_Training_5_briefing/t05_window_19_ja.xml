@@ -1,0 +1,43 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="衛星による発見" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+                    <TextBlock.Inlines>
+                        <Run
+                            Text="これは、上級司令部から君の任務群に送信された緊急優先メッセージの例である。NATOのメッセージは、一般的に同じ形式に従う。これらのメッセージで与えられるすべての時間は、協定世界時（UTC）であり、メッセージの日時ブロックでは「ズールー時間」または「Z」として表示される。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="ご覧の通り、このメッセージは、我々のレーダー衛星の1つが約1時間前に北太平洋上空を通過し、アメリカ船団を探知したことを示している。これで、捜索範囲マーカーが大幅に縮小されたことがわかるであろう。さらに、このメッセージは、巡航ミサイル潜水艦K-175が我々の戦術指揮下に置かれ、攻撃に利用可能になることを知らせている。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run Text="では、航空戦力を使用して、確実な目標位置を特定し、ヴァリャーグに搭載された長距離ミサイルを使用して攻撃を開始しよう。" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_18_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_20_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

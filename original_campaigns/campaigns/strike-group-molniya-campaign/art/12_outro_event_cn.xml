@@ -1,0 +1,79 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="1985年7月20日|第76卷第35号|25美分" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <!--Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/-->
+			<Grid Margin="0,5,0,15">
+				<Rectangle Fill="Red" Margin="0,110,0,5"/>
+				<TextBlock Text="博览新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+			</Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="苏联航线突袭部队在印度靠岸，引发西方外交怒火" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+                    
+                    <TextBlock Text="印度官方宣称中立，但被指控偏袒一方" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						科钦——据新德里和几个西方国家首都的官员称，苏联的一支破交部队昨日驶入印度科钦港，终结了美国及其盟友海军在南大西洋和印度洋长达数周的追击行动。
+						<LineBreak/>
+						美国国防官员证实由于苏联舰艇靠近印度领海，美国军舰和飞机被迫停止追击，理由是新德里已宣布印度保持中立。西方外交官对印度的决定表示极度不满，而印度官员则坚称为了防止地区水域局势进一步升级和流血冲突，此举是必要的。
+						<LineBreak/>
+						世界各地的国防分析人士评论称此次破交行动迫使北约从主要战区调集了大量海军力量。（接第2页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[12_petropavlovsk]}" Stretch="Uniform"/>
+                    <TextBlock Text="照片显示的是战前进行演习的苏联重型导弹巡洋舰彼得罗巴甫洛夫斯克号。此巡洋舰及其舰长横跨大西洋和印度洋，躲避北约部队的追踪，并且似乎肆无忌惮地发动攻击。国防分析人士认为北约为此从主要战区抽调了大量资源。一位美国参议员告知博览新闻社称美国在苏联舰队进入印度海域后停止行动的决定是“决心严重不足”的表现，但美国官员以印度已宣布中立为由拒绝进一步评论。目前，美国及其盟友的军舰仍在印度沿海活动。（国防部图片）" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="美国对印度实施海上封锁" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						科钦——今天，美国海军在印度西海岸附近设立了海上封锁线，将水面舰艇和巡逻机部署在印度领海之外，而苏联军舰仍被扣留在科钦港。国防官员表示此举的目的是在外交工作继续进行的同时保持监视。
+						<LineBreak/>
+						军方消息人士称航母舰载机和护航舰艇正在持续监视港口附近的海上航线，指挥官强调必须遵守印度划定的禁区。
+						<LineBreak/>
+						虽然尚未授权采取进一步的军事行动，但美方决策层警告称只要苏联军舰继续驻扎，美军就不会离开。盟军官员表示设立此封锁线反映了对苏联破交部队可能重新部署的担忧，即便目前各方注意力已重新转向主要战区。（接第3页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <Image Source="{Binding Assets[12_p-3c]}"/>
+                    <TextBlock Text="美国海军P-3巡逻机飞越浮航的潜艇，这种武力展示的目的是迫使苏军停留在科钦港内。美国国防官员坚称他们的行动完全尊重印度的中立立场。（美国海军图片）" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+			<TextBlock Text="-1-" TextAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

@@ -1,0 +1,212 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+    <Viewbox>
+        <Grid>
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="12" CenterX="432" CenterY="560"/>
+                        <TranslateTransform X="375"/>
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,40,40,0"/>
+                        <!--<Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="0,0,0,20" HorizontalAlignment="Left" Width="670"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,0,20"/>-->
+                    </Grid>
+                    <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+			№ 35 <Run FontSize="20" Text="•"/> May <Run FontSize="20" Text="•"/> 1988
+                    </TextBlock>
+                    <Image Grid.Row="2" Source="{Binding Assets[17_tu-22m]}"/>
+                    <Grid Grid.Row="3" Margin="0,10,0,20">
+                        <TextBlock Text="Mächtige sowjetische Ingenieurskunst" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+                        <TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+                    </Grid>
+                    <Grid Grid.Row="4" Background="#FFFAEBD7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="Mighty Soviet Engineering" Margin="0,0,0,45" />
+                            <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">
+				Das Ziel der Operation war eindeutig: Die amerikanische Flugzeugträgergruppe auszuschalten, die versuchte, den rechtmäßigen Vorstoß der ruhmreichen Rotbanner-Nordflotte in den offenen Atlantik zu verhindern. Mit Disziplin und Entschlossenheit durchbrachen unsere Flieger die NATO-Luftverteidigung und führten einen vernichtenden Schlag durch.
+                            </TextBlock>
+                        </Grid>
+                        <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,30,10,30">
+			Das Herzstück der amerikanischen Flotte, ein sogenannter „Superträger“, wurde in Flammen gehüllt und auf den Meeresgrund geschickt. Und das vor den Augen seiner Verbündeten.
+			<LineBreak/>
+			<LineBreak/>
+			Unterstützt wurde dieser gerechte Einsatz durch Flugzeuge des Typs Tu-16K, deren Besatzungen entscheidende Aufklärungs- und Kampfeinsätze durchführten. Durch ihr entschlossenes Handeln wurden die feindlichen Radarsysteme wirksam gestört und die unzureichenden Abwehrversuche des Gegners zer-schlagen.
+                        </TextBlock>
+                        <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,30,20,-1">
+			Dieser Erfolg war kein Zufall, sondern das Ergebnis unermüdlicher Ausbildung, wissenschaftlicher Leistungsfähigkeit und unerschütter-licher Treue zur Sowjetunion. Unsere Flieger, Söhne der Arbeiter und Bauern, handelten nicht im Streben nach Ruhm, sondern aus Pflichtgefühl zum Schutz des sozialistischen Vaterlandes und zur Sicherung des Friedens für das sowjetische Volk.
+			<LineBreak/>
+			<LineBreak/>
+			 Wie Generalsekretär Michail Gorbachev bekräftigte, strebt die Sowjetunion den Frieden an, jedoch niemals auf Kosten ihrer Würde oder Sicherheit. Dieser Erfolg zeigt der Welt deutlich: Das sowjetische Volk steht vereint und wachsam und wird imperialistischen Drohungen niemals nachgeben.
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="0" CenterX="432" CenterY="560"/>
+                        <TranslateTransform X="-280"/>
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--Image Source="Assets/07_ru_newspaper_header.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,35,40,0"/-->
+                        <!--<TextBlock Text="Правдоруб" Grid.Column="1" FontSize="135" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+            <Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="40,0,0,20" HorizontalAlignment="Left" Width="300"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,40,20"/>-->
+                    </Grid>
+                    <Border Background="AntiqueWhite" Margin="0,0,0,5" HorizontalAlignment="Left" Width="810" Height="150">
+                        <TextBlock Text="DAS VOLK" FontFamily="Arial" Foreground="Black" FontWeight="Bold" FontSize="100" TextWrapping="Wrap" TextAlignment="Center" Margin="0,-30,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="0,100,0,5" HorizontalAlignment="Left" Width="810" Height="50">
+                        <TextBlock Text="ORGAN DER BEZIRKSLEITUNG ERFURT DER SOZIALISTISCHEN EINHEITSPARTEI DEUTSCHLANDS" FontFamily="Arial" Foreground="Black" FontWeight="Bold" FontSize="16" TextWrapping="Wrap" TextAlignment="Center" Margin="0,-25,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-140,0,5" HorizontalAlignment="Left" Width="125" Height="20">
+                        <TextBlock Text="P  R  O  L  E  T  A  R  I  E  R" FontFamily="Times New Roman" Foreground="Black" FontWeight="Regular" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="9,8,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-95,0,5" HorizontalAlignment="Left" Width="125" Height="20">
+                        <TextBlock Text="A L L E R      L Ä N D E R ," FontFamily="Times New Roman" Foreground="Black" FontWeight="Regular" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="9,3,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-55,0,5" HorizontalAlignment="Left" Width="125" Height="20">
+                        <TextBlock Text="V E R E I N I G T  E U C H !" FontFamily="Times New Roman" Foreground="Black" FontWeight="Regular" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="9,2,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-140,0,5" HorizontalAlignment="Right" Width="125" Height="20">
+                        <TextBlock Text="Sonntag," FontFamily="Arial" Foreground="Black" FontWeight="Bold" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="-74,5,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-95,0,5" HorizontalAlignment="Right" Width="125" Height="20">
+                        <TextBlock Text="15. Mai 1988" FontFamily="Arial" Foreground="Black" FontWeight="Bold" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="-60,-7,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-55,0,5" HorizontalAlignment="Right" Width="125" Height="10">
+                        <TextBlock Text="44. Jahrgang Nr.211" FontFamily="Arial" Foreground="Black" FontWeight="Regular" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="-30,-18,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-55,0,5" HorizontalAlignment="Right" Width="125" Height="10">
+                        <TextBlock Text="Einzelpreis 15 Pf" FontFamily="Arial" Foreground="Black" FontWeight="Regular" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="-43,-9,0,0"/>
+                    </Border>
+                    <Border Background="AntiqueWhite" Margin="4,-5,0,5" HorizontalAlignment="Right" Width="125" Height="5">
+                        <TextBlock Text="Monatsabonnement 3,00 M" FontFamily="Arial" Foreground="Black" FontWeight="Regular" FontSize="9" TextWrapping="Wrap" TextAlignment="Center" Margin="0,-28,0,0"/>
+                    </Border>
+                    <Rectangle HorizontalAlignment="Stretch" Height="4" Fill="Black" Margin="0,50,0,0"/>
+                    <Rectangle HorizontalAlignment="Stretch" Height="2" Fill="Black" Margin="0,60,0,0"/>
+                    <Rectangle HorizontalAlignment="Left" Width="130" Height="2" Fill="Black" Margin="0,-170,0,0"/>
+                    <Rectangle HorizontalAlignment="Left" Width="2" Height="68" Fill="Black" Margin="0,-102,0,0"/>
+                    <Rectangle HorizontalAlignment="Left" Width="130" Height="2" Fill="Black" Margin="0,-35,0,0"/>
+                    <Rectangle HorizontalAlignment="Right" Width="130" Height="2" Fill="Black" Margin="0,-170,0,0"/>
+                    <Rectangle HorizontalAlignment="Right" Width="2" Height="68" Fill="Black" Margin="0,-102,0,0"/>
+                    <Rectangle HorizontalAlignment="Right" Width="130" Height="2" Fill="Black" Margin="0,-35,0,0"/>
+                    <!--TextBlock Grid.Row="2" TextWrapping="Wrap" Margin="0,0,0,15">
+					№ 34 <Run FontSize="20" Text="•"/> May <Run FontSize="20" Text="•"/> 1988
+                    </TextBlock-->
+                    <Image Grid.Row="1" Width="850" Source="{Binding Assets[17_reagan_gorbachev]}" Margin="0,-20,0,0"/>
+                    <Grid Grid.Row="3" Margin="0,10,0,20">
+                        <!--TextBlock Text="Aggressive imperialist vessels menace our ships, often passing close to examine us" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/-->
+                        <!--TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/-->
+                        <TextBlock Text="Der amerikanische Präsident Reagan unterzeichnet die Waffenstillstandsvereinbarung mit Generalsekretär Gorbatchev." TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+                    </Grid>
+                    <Canvas>
+                        <Border Width="170" Height="1050" Margin="0,450,0,0" HorizontalAlignment="Left">
+                            <Grid>
+                                <Rectangle Fill="OrangeRed" Opacity="0.0"/>
+                            </Grid>
+                        </Border>
+                    </Canvas>
+                    <Grid Grid.Row="4" Background="#FFFAEBD7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="1" FontFamily="Arial" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,90,0" FontWeight="bold">
+			                Waffenstillstandsver-einbarung unterzeichnet. Erfolg für Frieden und Sozia-lismus
+			                <LineBreak/>
+                            </TextBlock>
+                            <TextBlock Grid.Row="1" FontFamily="Arial" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,95,90,-12">
+                            Generalsekretär Michail Gorbachev und US-Präsident Ronald Rea-gan unterzeichneten gestern ein Waffenstill-standsabkommen. Damit enden die bewaffneten Feindseligkeiten zwi-schen der Sowjetunion und dem aggressiven Militärblock der NATO.
+                            <LineBreak/>
+                            </TextBlock>
+                        </Grid>
+                        <TextBlock TextWrapping="Wrap" FontFamily="Arial" Grid.Column="1" TextAlignment="Justify" Margin="-70,0,120,0">
+						Das Abkommen wurde nach mehreren Wochen massiver militärischer Erfolge der sowjetischen Streitkräfte geschlossen und sichert Bedingungen, die für die UdSSR äußerst günstig sind und langfristige Stabilität garantieren.
+						<LineBreak/>
+						Der Waffenstillstand folgt auf die heldenhaften Aktionen der sowjetischen Streitkräfte, die den Versuchen der NATO, ihre Vorherrschaft durchzusetzen, schwere Schläge versetzten. Besonders hervorzuheben ist
+                        </TextBlock>
+                        <TextBlock FontFamily="Arial" TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="-100,0,180,0">
+						die Einnahme und Sicherung der Insel Attu im Nordpazifik, die nun als strategischer Stützpunkt des Friedens dient. Im europäischen Nordmeer erlitten die imperia-listischen Streitkräfte der Vereinigten Staaten eine schwere Niederlage, als ein atomgetriebener Flug-zeugträger durch den präzisen und diszi-plinierten Einsatz der Rotbanner-Nordflotte und unserer Luftstreitkräfte
+                        </TextBlock>
+                        <Canvas>
+                            <Border Width="170" Height="1050" Margin="650,0,0,0" HorizontalAlignment="Right">
+                                <Grid>
+                                    <Rectangle Fill="OrangeRed" Opacity="0.0"/>
+                                    <TextBlock Text="versenkt wurde. Gene-ralsekretär Gorbachev erklärte nach der Unter-zeichnung: „Unser Han-deln diente niemals der Eroberung, sondern der Wiederherstellung des Gleichgewichts und der Verteidigung der Sou-veränität des sozialis-tischen Vaterlandes.“"
+								Margin="0,0,0,15"
+								Foreground="Black"
+								FontWeight="Regular"
+								FontSize="16"
+								FontFamily="Arial"
+								TextWrapping="Wrap"
+								TextAlignment="Justify"/>
+                                </Grid>
+                            </Border>
+                        </Canvas>
+                        <Canvas>
+                        </Canvas>
+                        <Canvas/>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Viewbox>
+</Page>

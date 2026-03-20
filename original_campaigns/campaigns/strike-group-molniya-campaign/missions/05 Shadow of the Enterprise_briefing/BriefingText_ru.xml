@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком. КУГ «Молния»"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Всем кораблям КУГ «Молния»"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Операция «Индия»"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="18 Июля 1985"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	СООБЩЕНИЕ ПО ГРУППЕ
+	<LineBreak/>
+    <LineBreak/>
+	Экипажам ударной группы «Молния»: наша вчерашняя успешная атака на американские силы снабжения помогла нам выиграть время для продолжения нашей миссии по достижению Индии. Командование сообщает, что авианосец «Энтерпрайз» полон решимости найти и уничтожить нас. Ещё раз, это великая победа для Советского Союза!
+	<LineBreak/>
+    <LineBreak/>
+	К востоку от Мальдив формируется мощный штормовой фронт. Мы пройдем через него на максимальной скорости, чтобы оказаться в зоне досягаемости индийских территориальных вод до того, как шторм рассеется. Как только погода улучшится, нам следует ожидать американской воздушной атаки с запада.
+    <LineBreak/>
+    <LineBreak/>
+	Штаб сообщает, что пакистанские ВМС действуют совместно с американцами и попытаются преградить нам путь в индийские воды. Их силы немногочисленны и плохо вооружены. Также вероятно, что американцы отрядят свои корабли, чтобы двинуться на восток и атаковать нас.
+	<LineBreak/>
+	<LineBreak/>
+	Мы будем сражаться с ними и уничтожим их, если потребуется, но наш отход в Кочин будет иметь гораздо большее стратегическое значение. Наш посол в Индии заверил меня, что авиабаза в Кочине будет доступна для передислокации наших самолетов в случае необходимости.
+	<LineBreak/>
+    <LineBreak/>
+	Удачи, товарищи! Для меня было честью служить с вами. Увидимся в Кочине.
+	<LineBreak/>
+    <LineBreak/>
+    <LineBreak/>
+	КОНЕЦ СООБЩЕНИЯ
+	<LineBreak/>
+	Контр-адмирал Марков С.А.
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+    </TextBlock>
+</Grid>

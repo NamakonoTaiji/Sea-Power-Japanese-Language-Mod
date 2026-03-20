@@ -1,0 +1,49 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="兵装 - 対地攻撃" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+                    <TextBlock.Inlines>
+                        <Run Text="爆装(標準)、爆装(長距離航続)、爆装(誘導兵器)は、通常、地上目標（地上施設）に対して使用することを目的としている。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="爆装(標準)には、無誘導爆弾とクラスター爆弾が含まれる。爆装(誘導兵器)には、レーザー誘導爆弾またはTV誘導爆弾のいずれかが搭載されており、どちらも使用には特別な要件がある。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run FontWeight="Bold" FontSize="12" Text="• レーザー誘導爆弾（LGB）：" />
+                        <Run
+                            Text="指定航空機がレーザーで照射するために、目標がはっきりと見える必要がある。航空機は、特定の航跡で「レーザー指定装置」兵器タイプを使用して、互いに「buddy laze(友軍の航空機がレーザーを目標に照射し、そのレーザー反射を別の航空機が投下したレーザー誘導兵器が捉えて命中する、連携攻撃方法のこと)」できることに注意せよ！" />
+                        <LineBreak />
+                        <Run FontWeight="Bold" FontSize="12" Text="• TV誘導爆弾：" />
+                        <Run
+                            Text="TVシーカーが目標を視認するために、目標がはっきりと見える必要がある（例：雲に覆われていないこと）。通常は滑空爆弾であり、スタンドオフ距離を最大化するために高高度から投下する必要がある。" />
+
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_21_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_4_briefing/t04_window_23_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

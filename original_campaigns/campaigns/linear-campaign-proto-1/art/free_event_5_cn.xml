@@ -18,16 +18,16 @@
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
 				<Grid Margin="0,5,0,15">
 					<Rectangle Fill="Red" Margin="0,110,0,5"/>
-					<TextBlock Text="爆炸性新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+					<TextBlock Text="博览新闻" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
 				</Grid>
 				<Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
-				<TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold" TextWrapping="Wrap" Text="苏联扣押美国船只；美方武力回应"/>
+				<TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold" TextWrapping="Wrap" Text="苏联扣押美国船只；美方以武力回应"/>
 				<TextBlock TextAlignment="Center" FontSize="36" TextWrapping="Wrap" Text="潜艇击沉苏联军舰；特种部队夺回被扣押船只"/>
 				<TextBlock TextAlignment="Justify" TextWrapping="Wrap">
 				华盛顿（美联社）——事态出现了重大转折，美国军队以武力回应了苏联在挪威海的激进行为，击沉了多艘苏联军舰，并成功夺回了被扣押的吉拉多角号。
 				<LineBreak/>
 				<LineBreak/>
-				这场危机始于昨天早些时候，当时苏联海军人员强行登上了吉拉多角号。这艘军事海运司令部下辖的无武装船只当时正在国际水域例行行动，莫斯科方面以吉拉多角号进行间谍行动为由，强行控制了此船只及船上的80余名船员。
+				这场危机始于昨天早些时候，当时苏联海军人员强行登上了吉拉多角号。这艘军事海运司令部辖下的无武装船只当时正在国际水域进行例行行动，莫斯科方面以吉拉多角号进行间谍行动为由，强行控制了此船只及船上的80余名船员。
 				<LineBreak/>
 				<LineBreak/>
 				然而，美国在数小时内果断回应。据五角大楼官员称，两艘挪威潜艇在苏联军舰尝试撤回苏联海域时进行了跟踪，后续又闪电般地攻击了敌方。据报道，苏联方面至少有一艘船只沉没，其余船只受损严重。
@@ -39,10 +39,10 @@
 				五角大楼消息人士称此次事件中美方有15人死亡，数名特种部队成员在行动中负伤。苏方伤亡人数尚未得到确认，但情报证实敌方人员在交战中均阵亡或被俘。
 				<LineBreak/>
 				<LineBreak/>
-				里根总统在向全国发表的电视讲话中称赞此次行动是“自由和正义的巨大胜利”，并表示：“美国永远不会放任苏联的挑衅行为。我们保护了自己的水手，维护了国际法律，并且明确了不会容忍海盗行为。”
+				里根总统在向全国发表的电视讲话中称赞这次行动是“自由和正义的巨大胜利”，并表示：“美国永远不会放任苏联的挑衅行为。我们保护了自己的水手，维护了国际法律，并且明确表示了不会容忍海盗行为。”
 				<LineBreak/>
 				<LineBreak/>
-				莫斯科对此事表示愤怒，指责美国“鲁莽地升级局势”，并威胁称美国将面临严重后果。克里姆林宫宣传机构称苏联军舰在没有挑衅的情况下遭到袭击，并誓言进行报复。欧洲和北大西洋的北约部队目前处于最高级别的戒备状态，据报道，更多的美国航母战斗群正在部署到位。
+				莫斯科对此事表示愤怒，指责美国“鲁莽地升级局势”，并威胁称美国将面临严重后果。克里姆林宫宣传机构称苏联军舰在没有挑衅的情况下遭到袭击，并誓言进行报复。欧洲和北大西洋的北约部队目前处于最高级别的戒备状态，据报道，更多的美国航母战斗群正在部署到位
 				<LineBreak/>
 				<LineBreak/>
 				如今的冷战比以往任何时候都更加激烈，全世界都屏息凝神，不确定未来会发生什么。冷静的大脑能控制局势吗？难道这场冲突已经到了无可避免的地步？

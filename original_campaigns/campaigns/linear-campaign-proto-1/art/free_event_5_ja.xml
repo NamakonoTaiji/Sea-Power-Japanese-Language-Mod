@@ -1,0 +1,103 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center"
+            Width="900" Height="1272" Padding="45"
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+            TextElement.FontSize="16">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="12" CenterX="432" CenterY="560" />
+                    <TranslateTransform X="375" />
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock Text="1988年5月9日 | 第80巻 第39号 | 25セント" Margin="0,15,0,15" FontSize="24" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Grid Margin="0,5,0,15">
+                    <Rectangle Fill="Red" Margin="0,110,0,5" />
+                    <TextBlock Text="Exposition News" TextAlignment="Center" FontSize="112"
+                        FontWeight="Bold" />
+                </Grid>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock TextAlignment="Center" FontSize="52" FontWeight="Bold"
+                    TextWrapping="Wrap" Text="ソ連軍、米海軍艦艇を拿捕 ―― 米軍、直ちに反撃を開始" />
+                <TextBlock TextAlignment="Center" FontSize="36" TextWrapping="Wrap"
+                    Text="米潜水艦がソ連軍艦を撃沈、特殊部隊が強襲により被拿捕艦を奪還" />
+                <TextBlock TextAlignment="Justify" TextWrapping="Wrap">
+                    【ワシントン（AP通信）】事態は風雲急を告げている。ノルウェー海において、ソ連の侵略行為に対し米軍が反撃を開始。複数のソ連軍艦を撃沈し、拿捕されていた米海軍艦艇「ケープ・ジラルドー」の奪還に成功した。
+                    <LineBreak />
+                <LineBreak />
+                    危機の始まりは昨日未明。国際海域で通常業務に従事していた米軍事海上輸送司令部（MSC）所属の非武装艦「ケープ・ジラルドー」に対し、ソ連軍艦が強行接舷のうえ乗船。モスクワ側は同艦がスパイ活動に従事していたとの虚偽の主張を行い、80人以上の乗組員とともに力ずくで拿捕した。
+                    <LineBreak />
+                <LineBreak />
+                    しかし、米国は数時間以内に断固たる対応をとった。国防総省の発表によれば、2隻のノルウェー潜水艦が、自国領海へ向けて撤退を試みるソ連任務部隊を追跡。電撃的な交戦により、少なくとも1隻を撃沈、残る艦艇にも甚大な損害を与えた。
+                    <LineBreak />
+                <LineBreak />
+                    ソ連艦隊が突然の強襲に混乱する中、米特殊作戦軍は「ケープ・ジラルドー」奪還のため、大胆な任務を遂行した。暗闇に乗じ、ヘリコプターから展開した海軍SEALsおよびデルタフォースの隊員が艦内に突入。艦を占拠していたソ連海軍歩兵との短くも激しい銃撃戦の末、米軍は艦橋を制圧。敵の抵抗を排除し、人質となっていた乗組員全員を解放した。
+                    <LineBreak />
+                <LineBreak />
+                    国防総省の情報筋によると、この作戦で15人の米国人が戦死し、数人の特殊部隊員が負傷した。ソ連側の死傷者数は依然として未確認だが、インテリジェンスの分析では、交戦中に多数の敵人員が死亡または捕虜になったことを示唆している。
+                    <LineBreak />
+                <LineBreak />
+                    レーガン大統領はテレビ演説を行い、今回の作戦を「自由と正義の輝かしい勝利」と称賛。「合衆国はソ連の侵略を断じて見逃さない。我々は自国の船乗りを守り、国際法を維持した。海賊行為は容認されないということを明確にしたのだ」と述べた。
+                    <LineBreak />
+                <LineBreak />
+                    モスクワ側は猛反発しており、米国を「無謀なエスカレーション」と非難し、重大な報復を予告。ソ連のプロパガンダ機関は、ソ連軍艦が無差別な攻撃を受けたと主張し、報復を誓っている。欧州全土および北大西洋のNATO軍は現在、最高レベルの警戒態勢（デフコン）にあり、追加の米空母打撃群が配置に就きつつあるという。
+                    <LineBreak />
+                <LineBreak />
+                    冷戦がかつてないほど「過熱」する中、世界は固意を呑んで次の一手を注視している。沈着な理性が勝利するのか、それとも紛争はもはや引き返せない地点に達してしまったのか。
+                    <LineBreak />
+                <LineBreak />
+                <LineBreak />
+                <LineBreak />
+                </TextBlock>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock Text="-1-" TextAlignment="Center" />
+            </StackPanel>
+        </Border>
+
+        <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center"
+            Width="900" Height="1272" Padding="45"
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black"
+            TextElement.FontSize="16">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="-6" CenterX="432" CenterY="560" />
+                    <TranslateTransform X="-175" />
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <TextBlock Text="1988年5月9日 | 第105巻 第42号 | 52セント" Margin="0,15,0,15" FontSize="24" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill"
+                    Margin="0,15,0,15" />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+                <Grid Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="戦争か？！ 戦争か？！ 戦争か？！ 戦争か？！"
+                        FontWeight="Bold" FontSize="150" TextWrapping="Wrap" TextAlignment="Center"
+                        Margin="0,0,0,15" />
+                </Grid>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Viewbox>

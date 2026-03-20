@@ -1,0 +1,60 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群指挥官"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群所有船只"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="查戈斯群岛行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985年7月15日"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	执行消息
+	<LineBreak/>
+    <LineBreak/>
+	致闪电打击群全体官兵：我已收到消息，美国人已派遣企业号航母战斗群前来猎杀我们。仅此一点对苏联而言即是巨大的胜利！这意味着我们这支偏师已重创了北约，导致他们不得不调动一艘宝贵的航母来搜寻我们。
+	<LineBreak/>
+    <LineBreak/>
+	我们继续生存的可能性取决于机动的严密性和命令执行的准确性。舰队总部已与中立国印度达成协议，为我们提供庇护，但此行需要穿越印度洋中部，我们很可能在那里暴露行踪。一旦被发现，我们就必须全力出击！
+    <LineBreak/>
+    <LineBreak/>
+	情报显示企业号航母的燃料和航空物资水平较低，并且已派出卡姆登号前往迪戈加西亚岛以西与后勤单位会合。我们将利用此机会击沉此补给舰。
+	<LineBreak/>
+	<LineBreak/>
+	美军的惯例是用驱逐舰和S-3舰载机保护海上补给群。我们也应当预料到，在行踪暴露的情况下，他们在迪戈加西亚岛的基地可能会派出飞机。
+	<LineBreak/>
+	<LineBreak/>
+	我们将找到并摧毁卡姆登号并且在美国航母反应之前脱离接触。成功的行动将为我们争取时间，前往印度落脚，以图来日再战！
+	<LineBreak/>
+    <LineBreak/>
+	祝你们好运，同志们。
+	<LineBreak/>
+    <LineBreak/>
+	消息结束
+	<LineBreak/>
+	/署名/马尔可夫
+	<LineBreak/>
+	<LineBreak/>
+	绝密
+	<LineBreak/>
+	阅后销毁
+    </TextBlock>
+</Grid>

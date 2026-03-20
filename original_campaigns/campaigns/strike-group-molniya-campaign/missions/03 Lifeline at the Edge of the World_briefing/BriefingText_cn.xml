@@ -1,0 +1,57 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群指挥官"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群所有船只"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="再补给行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985年7月5日"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	执行消息
+	<LineBreak/>
+    <LineBreak/>
+	我必须祝贺我方所有舰艇、船员和飞行员在毛里求斯作战中取得的辉煌战果。我们正成为北约的一根眼中钉。
+	<LineBreak/>
+    <LineBreak/>
+	路易港附近的战斗极大地消耗了我们的弹药和燃料。我们现在必须前往南方，与商船队的同志会合并进行补给。我已选择克罗泽群岛的一处偏远锚地，届时我方的三艘伪装商船将携带燃料、给养、航空物资和导弹弹药与我们会合。
+    <LineBreak/>
+    <LineBreak/>
+	截获的通信表明敌方可能已经察觉到我们的意图。我们现在知道南非已与北约组成联合部队，我们可能会遭遇他们的柴电潜艇。我方侦察船电流表号也将与我们会合，其舰载信号处理设备将成为重要的情报来源，我们必须确保其安全。
+	<LineBreak/>
+	<LineBreak/>
+	我们将抵达锚地并清理此区域，进行补给，之后继续北上，再次猎杀敌人。
+	<LineBreak/>
+    <LineBreak/>
+	祝你们好运，同志们。
+	<LineBreak/>
+    <LineBreak/>
+	消息结束
+	<LineBreak/>
+	/署名/马尔可夫
+	<LineBreak/>
+	<LineBreak/>
+	绝密
+	<LineBreak/>
+	阅后销毁
+    </TextBlock>
+</Grid>

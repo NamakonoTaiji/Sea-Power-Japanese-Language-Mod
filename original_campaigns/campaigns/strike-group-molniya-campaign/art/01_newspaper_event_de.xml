@@ -1,0 +1,213 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="-0" CenterX="432" CenterY="560"/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Canvas>
+                    <Rectangle HorizontalAlignment="Left" Width="190" Height="3" Fill="Black" Margin="4,0,0,10"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="BONN, Jahrgang 23, Nr.186 " Margin="4,5,0,0" FontSize="15"/>
+                    <Image Source="{Binding Assets[Exzess]}" Width="200" Margin="0,20,00,15" Canvas.Left="0" Stretch="Uniform"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="Samstag," Margin="25,173,0,0" FontWeight="Bold" FontSize="12"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="1. Juni 1985" Margin="25,185,0,0" FontWeight="Bold" FontSize="12"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="50" Margin="135,180,0,0" FontWeight="Bold" FontSize="18"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="PF" Margin="160,185,0,0" FontWeight="Bold" FontSize="12"/>
+                    <Border Width="160" Height="100" Margin="200,0,0,0" HorizontalAlignment="Left" BorderBrush="Red" BorderThickness="2">
+                        <Grid>
+                            <Rectangle Fill="Yellow" Opacity="0.2"/>
+                            <TextBlock Text="Große EXZESS-Aktion"
+               Margin="15,2,10,15"
+               Foreground="Black"
+               FontWeight="Bold"
+               FontSize="12"
+               TextWrapping="Wrap"
+               TextDecorations="Underline"
+               TextAlignment="center"/>
+                            <TextBlock Text="HEUTE RIESEN- JACKPOT"
+               Margin="15,15,10,0"
+               Foreground="red"
+               FontWeight="Bold"
+               FontSize="24"
+               TextWrapping="Wrap"
+               TextAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="250" Height="100" Margin="370,0,0,0" HorizontalAlignment="Left" BorderBrush="black" BorderThickness="2">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0.2"/>
+                            <TextBlock Text="Was verheimlichen die uns eigentlich?!"
+               Margin="2,2,2,15"
+               Foreground="Black"
+               FontWeight="Bold"
+               FontSize="12"
+               TextWrapping="Wrap"
+               TextElement.FontFamily="Arial"
+               TextDecorations="Underline"
+               TextAlignment="center"/>
+                            <TextBlock Text="Regierung und Militär schweigen zur wahren Lage. Kritische Details bleiben geheim."
+               Margin="15,15,10,0"
+               Foreground="black"
+               FontWeight="Bold"
+               FontSize="17"
+               TextWrapping="Wrap"
+               TextElement.FontFamily="Arial"
+               TextAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="160" Height="100" Margin="630,0,0,0" HorizontalAlignment="Left" BorderBrush="Red" BorderThickness="2">
+                        <Grid>
+                            <Rectangle Fill="Yellow" Opacity="0.2"/>
+                            <TextBlock Text="Glücks-EXZESS"
+               Margin="15,2,10,15"
+               Foreground="Black"
+               FontWeight="Bold"
+               FontSize="12"
+               TextWrapping="Wrap"
+               TextDecorations="Underline"
+               TextAlignment="center"/>
+                            <TextBlock Text="7  31  12  23  4  81  39  17  77  56  90  15"
+               Margin="15,15,5,0"
+               Foreground="black"
+               FontWeight="Bold"
+               FontSize="24"
+               TextWrapping="Wrap"
+               TextAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <Rectangle HorizontalAlignment="Center" Width="590" Height="10" Fill="CornflowerBlue" Margin="200,115,0,10"/>
+                    <Rectangle HorizontalAlignment="Right" Width="10" Height="320" Fill="CornflowerBlue" Margin="780,115,0,10"/>
+                </Canvas>
+                <Grid Margin="0,15,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="EUROPA" FontWeight="Bold" FontSize="100" TextWrapping="Wrap" TextAlignment="Center" Margin="-3,105,0,0"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="Kaum Fortschritte bei" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" TextDecorations="Underline" Margin="380,220,0,0"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="den Krisengesprächen" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" TextDecorations="Underline" Margin="360,270,0,0"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="Die Anspannung steigt" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" TextDecorations="Underline" Margin="360,320,0,0"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="AM AB-" FontWeight="Bold" FontSize="100" TextWrapping="Wrap" TextAlignment="Left" Margin="5,190,0,15"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="GRUND!" FontWeight="Bold" FontSize="100" TextWrapping="Wrap" TextAlignment="Left" Margin="0,280,0,15"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="Ost und West reden miteinander – doch der große Durchbruch bleibt aus!" FontWeight="Bold" FontSize="22" TextWrapping="Wrap" TextAlignment="Left" Margin="10,385,0,20"/>
+                </Grid>
+                <Border Width="190" Height="730" Margin="5,-20,0,0" HorizontalAlignment="Left" BorderBrush="Red" BorderThickness="2">
+                    <Grid>
+                        <Rectangle HorizontalAlignment="Left" Width="150" Height="20" Fill="Red" Margin="18,-717,0,10"/>
+                        <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" Text="-schnell - noch schneller - EXZESS-" Foreground="white" FontWeight="Bold" FontSize="8.5" TextWrapping="Wrap" TextAlignment="Left" Margin="21,-5,0,0"/>
+                        <Rectangle Fill="White" Opacity="0.1"/>
+                        <TextBlock Text="Falco stürmt mit „Rock Me Amadeus“ die Charts" TextElement.FontFamily="Arial" Margin="5,15,5,5" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Wien: Mit seinem Hit „Rock Me Amadeus“ erreicht Falco Spitzenplätze in den internationalen Charts." Margin="5,43,10,15" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        <TextBlock Text="Weizsäcker nennt Kriegsende einen „Tag der Befreiung“" TextElement.FontFamily="Arial" Margin="5,120,5,5" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Bonn: Bundespräsident Richard von Weizsäcker würdigt den 8. Mai 1945 in einer viel beachteten Rede als Befreiung von der nationalsozialistischen Diktatur." Margin="5,150,10,15" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        <TextBlock Text="Pokalsensation: Uerdingen schlägt Bayern im Finale" TextElement.FontFamily="Arial" Margin="5,255,5,5" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Berlin: Bayer 05 Uerdingen besiegt Favorit Bayern München mit 2:1 im DFB-Pokalfinale und sorgt mit dem Triumph für eine der größten Überraschungen des deutschen Fußballs." Margin="5,285,10,15" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        <TextBlock Text="Computer und Videospiele erobern deutsche Wohn-zimmer" TextElement.FontFamily="Arial" Margin="5,405,5,5" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Bundesrepublik: Immer mehr Familien entdecken Heim-computer und Spielkonsolen als neues Freizeitvergnügen." Margin="5,450,10,15" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        <TextBlock Text="25.000 demonstrieren zum G7-Start in Bonn" TextElement.FontFamily="Arial" Margin="5,530,5,5" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Bonn: Zum Auftakt des elften Weltwirtschaftsgipfels gehen rund 25.000 Menschen für Abrüstung und Umweltschutz auf die Straße. Während Bundeskanzler Helmut Kohl erstmals das Thema Umwelt auf die G7-Agenda setzt, stehen Konjunktur und Arbeitslosigkeit im Mittelpunkt der Beratungen." Margin="5,560,10,15" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                    </Grid>
+                </Border>
+                <Border Width="160" Height="500" Margin="0,-960,20,0" HorizontalAlignment="Right" BorderBrush="Red" BorderThickness="2">
+                    <Grid>
+                        <Rectangle Fill="yellow" Opacity="0.2"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Hamburg: Popstar sagt Konzert plötzlich ab" Margin="10,95,10,0" Foreground="Black" FontWeight="Bold" FontSize="20" TextWrapping="Wrap" TextAlignment="left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Seite 3" Margin="10,182,10,0" Foreground="Black" FontWeight="Regular" FontSize="16" TextWrapping="Wrap" TextAlignment="right"/>
+                        <Rectangle HorizontalAlignment="Left" Width="148" Height="3" Fill="Black" Margin="5,-85,0,10"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Berlin: Mann lebt drei Tage unbemerkt im Kaufhaus" Margin="10,205,10,0" Foreground="Black" FontWeight="Bold" FontSize="20" TextWrapping="Wrap" TextAlignment="left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Seite 5" Margin="10,293,10,0" Foreground="Black" FontWeight="Regular" FontSize="16" TextWrapping="Wrap" TextAlignment="right"/>
+                        <Rectangle HorizontalAlignment="Left" Width="148" Height="3" Fill="Black" Margin="5,135,0,10"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Gerüchte um Ehekrise bei TV-Lieblingen" Margin="10,315,10,0" Foreground="Black" FontWeight="Bold" FontSize="20" TextWrapping="Wrap" TextAlignment="left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Seite 12" Margin="10,385,5,0" Foreground="Black" FontWeight="Regular" FontSize="16" TextWrapping="Wrap" TextAlignment="right"/>
+                        <Rectangle HorizontalAlignment="Left" Width="148" Height="3" Fill="Black" Margin="5,320,0,10"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Kiel: Boot treibt führerlos im Hafen" Margin="10,405,10,0" Foreground="Black" FontWeight="Bold" FontSize="20" TextWrapping="Wrap" TextAlignment="left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Seite 15" Margin="10,478,5,0" Foreground="Black" FontWeight="Regular" FontSize="16" TextWrapping="Wrap" TextAlignment="right"/>
+                    </Grid>
+                </Border>
+                <Border Width="100" Height="60" Margin="0,-1385,50,0" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="2">
+                    <Grid>
+                        <Rectangle Fill="White" Opacity="1"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="Heute" Margin="0,-5,0,0" Foreground="Black" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" TextAlignment="Left"/>
+                        <TextBlock TextElement.FontFamily="Arial" Text="im" Margin="0,22,0,0" Foreground="Black" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" TextAlignment="Left"/>
+                    </Grid>
+                </Border>
+                <Canvas>
+                    <Image Source="{Binding Assets[Exzess]}" Width="70" Margin="45,-1310,0,15" Canvas.Left="650" Stretch="Uniform"/>
+                    <Image Source="{Binding Assets[01_nato_tanks]}" Width="410" Margin="-460,-1175,0,15" Canvas.Left="650" Stretch="Uniform"/>
+                    <Rectangle HorizontalAlignment="Center" Width="415" Height="10" Fill="CornflowerBlue" Margin="205,-450,0,10"/>
+                    <Rectangle HorizontalAlignment="Left" Width="10" Height="500" Fill="CornflowerBlue" Margin="205,-960,0,10"/>
+                    <Rectangle HorizontalAlignment="Center" Width="2" Height="150" Fill="Black" Margin="350,-645,0,10"/>
+                    <Rectangle HorizontalAlignment="Center" Width="2" Height="150" Fill="Black" Margin="495,-645,0,10"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="D" Margin="215,-422,0,0" Foreground="Black" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" TextAlignment="Left"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="ie Bemühungen, das" Margin="238,-416,0,0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="Verhältnis zwischen" Margin="238,-403,0,0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="Schwere US-Panzer fahren während eines Manövers durch" Margin="218,-450,0,0" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                    <TextBlock TextElement.FontFamily="Arial" Text="Westdeutschland (Foto: AP Wire)" Margin="218,-435,0,0" Foreground="Black" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" TextAlignment="Left"/>
+                    <Border Width="125" Height="165" Margin="217,-630,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="der NATO und dem Warschauer Pakt zu beruhigen, kommen kaum voran. Das melden Insider aus Brüssel und mehreren europäischen Haupt- städten. Zwar laufen die diplomatischen Ge- spräche weiter, doch europäische Spitzen-" Margin="0,8,0,-0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="125" Height="183" Margin="360,-650,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="beamte geben offen zu: Das Vertrauen zwischen Ost und West ist seit dem Frühjahr zerstört. Er- fahrene Diplomaten berichten von Gesprä- chen, die vor allem „Pflichtprogramm“ seien. Beide Seiten wiederholen nur ihre alten Standpunkte und vermeiden jede Zu-" Margin="0,0,0,0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="125" Height="183" Margin="500,-655,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="sage, die die Lage entspannen könnte. Währenddessen ziehen die Militärs die Zügel an: Verteidigungsmini- sterien mehrerer NATO-Staaten bestätigen die Durchführung von Militärmanövern, darun- ter Seemanöver im europäischen Nordmeer und Bodenmanöver in Westdeutschland." Margin="-1,0,-3,0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                    <Rectangle HorizontalAlignment="Center" Width="585" Height="13" Fill="red" Margin="205,-372,0,10"/>
+                    <TextBlock TextElement.FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="1" Text="Europas Schifffahrt blickt in eine unsichere Zukunft" FontWeight="Bold" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="205,-225,0,15"/>
+                    <Rectangle HorizontalAlignment="Center" Width="2" Height="165" Fill="Black" Margin="360,-170,0,10"/>
+                    <Rectangle HorizontalAlignment="Center" Width="2" Height="165" Fill="Black" Margin="505,-170,0,10"/>
+                    <Rectangle HorizontalAlignment="Center" Width="2" Height="165" Fill="Black" Margin="645,-170,0,10"/>
+                    <Image Source="{Binding Assets[01_container_ship_photo]}" Width="150" Margin="205,-247,00,0" Canvas.Left="0" Stretch="Uniform"/>
+                    <Border Width="125" Height="165" Margin="375,-180,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="Rotterdam: Reedereien und Versicherer in ganz Europa prüfen nervös ihre Risikokalkulationen, nachdem sich die Span-nungen zwischen Ost und West verschärft haben. Die Versich-erungsprämien für At-lantiküberfahrten sind in diesem Monat drastisch gestiegen." Margin="-10,0,0,-0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="125" Height="165" Margin="515,-180,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="Branchenvertreter berichten von wach-sender Sorge um wichtige Handelsrou-ten, vor allem für Energie und Rohstoffe. Erste Unternehmen geben bereits Warn-hinweise heraus, da die Sicherheitslage auf See zunehmend unbe-rechenbar erscheint." Margin="0,0,0,0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="125" Height="165" Margin="650,-180,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="Offiziell bleibt der Schiffsverkehr frei, doch Versicherer war-nen: Sollte sich die politische Lage weiter zuspitzen, könnten selbst etablierte See-wege unsicher werden. (Fortsetzung auf Seite 3)" Margin="0,0,-3,0" Foreground="Black" FontWeight="Regular" FontSize="12" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                    <Border Width="150" Height="165" Margin="205,-180,0,0" HorizontalAlignment="Left">
+                        <Grid>
+                            <Rectangle Fill="White" Opacity="0"/>
+                            <TextBlock TextElement.FontFamily="Arial" Text="Das Containerschiff Botany Bay. Schiffe wie dieses sind entscheidend für den Transport von Industriegütern und Roh-stoffen zwischen Europa und Nordamerika (Foto: Royal Navy)" Margin="0,100,-3,-16" Foreground="Black" FontWeight="bold" FontSize="10" TextWrapping="Wrap" TextAlignment="Justify"/>
+                        </Grid>
+                    </Border>
+                </Canvas>
+                <!--Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/-->
+            </StackPanel>
+        </Border>
+    </Grid>
+</Viewbox>

@@ -3,88 +3,78 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
-        <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="Auto" />
-        <RowDefinition
-            Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
         <RowDefinition Height="10" />
-        <RowDefinition
-            Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-        <ColumnDefinition
-            Width="Auto" />
+        <ColumnDefinition Width="Auto" />
         <ColumnDefinition Width="10" />
-        <ColumnDefinition
-            Width="*" />
+        <ColumnDefinition Width="*" />
         <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
-        <Run
-            Text="{Binding MissionStartTime.Year}" />-<Run
+        <Run Text="{Binding MissionStartTime.Year}" />-<Run
             Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}" />-<Run
             Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}" />
     </TextBlock>
-    <TextBlock
-        Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right"
         FontSize="{StaticResource Font.Size.Header}">
-        <Run
-            Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
+        <Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}" />:<Run
             Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}" />Z (<Run
             Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}" />:<Run
             Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}" />L) </TextBlock>
-    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="差出人:" />
-    <TextBlock Grid.Row="3" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="北極海小艦隊司令部" />
-    <TextBlock Grid.Row="4"
-        Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛先:" />
-    <TextBlock
-        Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="K-503潜水艦長" />
-    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}"
-        Text="情報:" />
-    <TextBlock Grid.Row="5" Grid.Column="2"
-        FontSize="{StaticResource Font.Size.Header}" Text="『隠された百合』作戦" />
-    <TextBlock
-        Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
-    <TextBlock
-        Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦指示" />
-    <TextBlock
-        Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発:" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="北極海小艦隊司令部" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛:" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="K-503 艦長" />
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報:" />
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="「ヒドゥン・リリーズ」作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="作戦実施命令" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
         Text="#0-144.142.143" />
-    <TextBlock Grid.Row="9" Grid.ColumnSpan="4"
-        FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap"> 1. (S) 戦術状況: <LineBreak />    <LineBreak />
-        以下は北方艦隊による『隠された百合』作戦の命令である。 <LineBreak />
-        貴官の潜水艦、オスカーI級SSGN『K-503』およびヴィクターIII級SSN『K-244』は、指定地点にて潜水母艦『ヴォルホフ』とその護衛と会合し、洋上補給を実施せよ。
-       <LineBreak />    <LineBreak />
-        その後、指定海域に潜伏し、敵船団の通過を待て。当該船団は対潜（ASW）防備が手薄であり、複数の高価値目標（HVT）ユニットで構成されていると考えられる。
-       <LineBreak />    <LineBreak />
-        推定20分後、Tu-95RTsの編隊が作戦エリア付近を通過し、追加データを収集して状況の解明を支援する。情報は安全なリンクを介して、可及的速やかに貴官と共有される。
-       <LineBreak />    <LineBreak />
-        会合地点の南方では、オケアン級情報収集艦『バロメトル』が活動中である。さらに、警戒心を高めさせないよう、哨戒群『カーテン』はより東方の位置へ呼び戻された。必要であれば、これを有利に利用せよ。
-       <LineBreak />    <LineBreak />
-        現在、敵潜水艦がスヴァールバル諸島のこちら側で作戦行動をとっていないことは、事実として確認済みである。    <LineBreak />
-         <LineBreak />    <LineBreak />
-        2. (S) 主要任務目標: <LineBreak />    <LineBreak />
-        スヴァールバル諸島北方沖を通過する米海軍の船団を攻撃せよ。上陸用舟艇や艦隊補助艦艇のような高価値目標（HVT）に注力せよ。 <LineBreak />  
-     <LineBreak />    <LineBreak />
-        3. (S) 脅威評価: <LineBreak />    <LineBreak />
-        目標船団が対潜（ASW）戦闘艦によって護衛されている可能性は低いと評価される。しかし、遭遇するいかなる目標も、すべて確実に識別することが求められる。 <LineBreak />
-       <LineBreak />
-        敵の早期警戒管制（AWACS）機が、貴官の位置の南方で定期的な飛行を行う可能性は非常に高いと評価される。我々はそのスケジュールを把握し、飛行を常に追跡しているため、懸念には及ばない。
-       <LineBreak />    <LineBreak />
-        スヴァールバル諸島の北方において、NATOの潜水艦が脅威となることは予期されていない。貴官の作戦エリアの南西に1、2隻の潜水艦がいるとの情報がある。
-       <LineBreak />
-        敵船団がより小規模なグループに追随されている可能性は非常に高いと評価される。これらの艦艇は副次的な目標と見なされる。      <LineBreak />
-       <LineBreak />
-        (S) 電波発射管制（EMCON）：別途指示があるまで無線封鎖を維持せよ。エリア内の情報収集艦（AGI）は、独自の裁量で行動する。 <LineBreak />    <LineBreak />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1. (S) 戦況: <LineBreak />
+      <LineBreak />
+        以下は北方艦隊（セヴェルヌィ・フロート）より発令された、コードネーム「ヒドゥン・リリーズ作戦」の指令である。 <LineBreak />
+        貴官の潜水艦K-503（オスカーI型SSGN）およびK-244（ヴィクターIII型SSN）は、指定地点にて潜水母艦「ヴォルホフ」およびその護衛艦艇と合流し、洋上補給を実施せよ。 <LineBreak /> <LineBreak />
+        補給完了後、指定海域に潜伏して敵船団の通過を待機せよ。当該船団は対潜（ASW）護衛が不足しており、複数の高価値目標（HVT）が含まれていると判断している。 <LineBreak /> <LineBreak />
+        約20分後、Tu-95RTsの編隊が作戦海域付近を通過し、索敵データ収集による状況の明確化を支援する。得られた情報は、機密回線を通じて速やかに共有される。 <LineBreak />
+      <LineBreak />
+        会合地点の南方では、オケアン級諜報艦「バロメートル」が運用中である。さらに、不必要な疑念を招かぬよう、哨戒部隊「カーテン」をさらに東の海域へ後退させた。必要に応じてこれを利用せよ。 <LineBreak />
+      <LineBreak />
+        現在、スヴァールバル諸島のこちら側には敵潜水艦は展開していないことが確認されている。 <LineBreak />
+      
+      <LineBreak />
+      <LineBreak /> 2. (S)
+        主要目的: <LineBreak />
+      <LineBreak />
+        スヴァールバル諸島北方を通航するアメリカ海軍船団を攻撃せよ。揚陸艦や艦隊補助艦艇などの高価値目標（HVT）に攻撃を集中させよ。<LineBreak />
+      <LineBreak />
+      <LineBreak />
+        3. (S) 脅威報告: <LineBreak />
+      <LineBreak />
+        目標船団に対潜護衛艦が随伴している可能性は低いと推定される。しかし、遭遇するすべての接敵目標に対し、確実な識別を行うことが求められる。 <LineBreak /> <LineBreak />
+        貴艦の南方では、敵のAWACSプラットフォームによる定期的な飛行が行われる可能性が高い。我々はスケジュールを把握し常に追跡しているため、これについて懸念する必要はない。<LineBreak />
+      <LineBreak />
+        スヴァールバル諸島北側にNATO潜水艦の脅威は予想されない。作戦海域の南西に1、2隻の潜水艦が存在するとの情報を得ている。<LineBreak />
+        敵船団の後方には小規模な部隊が続いている可能性が極めて高い。それらの艦艇は二次目標とみなす。 <LineBreak />
+      <LineBreak /> (S) EMCON（電波管制）:
+        別途指示があるまで無線封鎖を維持せよ。当該海域の諜報艦（AGI）は、独自の判断で運用される。 <LineBreak />
+      <LineBreak />
+
+
     </TextBlock>
 </Grid>

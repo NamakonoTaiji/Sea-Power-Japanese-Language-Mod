@@ -1,0 +1,74 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群指挥官"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="闪电打击群所有船只"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="毛里求斯特别行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985年7月3日"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	执行消息
+	<LineBreak/>
+    <LineBreak/>
+	我们在南大西洋的成功突袭迫使北约调动船只和飞机搜寻我们。这极大地帮助我们在北大西洋的同志们攻击北约的护航队。
+	<LineBreak/>
+    <LineBreak/>
+	总部已通知我们北约商船正躲避在毛里求斯的路易港。。对其发动快速打击即可在北约组织起来之前造成进一步破坏。
+    <LineBreak/>
+    <LineBreak/>
+	附件（A）提供了关于路易港内北约船只的更多信息。我们必须主动确认这些船只的身份，并且不能容忍平民伤亡。我们将在夜色掩护下靠近，在黎明时分发动攻击，届时我们的空中部队可以协助。
+	<LineBreak/>
+    <LineBreak/>
+	情报人员告知我们北约在此区域内仅能得到巴基斯坦和南非的协助，而南非的幻影战斗机目前停泊在留尼汪岛。但另一条消息表明美国的一支小型特遣舰队正在附近活动。我们将尽可能规避美国人，但如果必须，就消灭他们。
+	<LineBreak/>
+    <LineBreak/>
+	我们的任务是突袭港口，消灭遭遇的所有敌人。行动结束后，我们将在遥远的南方与补给部队会合。祝你们好运，同志们。
+	<LineBreak/>
+    <LineBreak/>
+	消息结束
+	<LineBreak/>
+	/署名/马尔可夫
+	<LineBreak/>
+	<LineBreak/>
+	绝密
+	<LineBreak/>
+	阅后销毁
+	<LineBreak/>
+	<LineBreak/>
+	————
+	<LineBreak/>
+	<LineBreak/>
+	附件（A）
+	<LineBreak/>
+	<LineBreak/>
+	路易港的目标船只如下。情报评估显示至少有一艘北约护航舰艇（加西亚级或布鲁克级）直接伴随。
+	<LineBreak/>
+	<LineBreak/>
+	• SS AMERICAN ALLIANCE——枪骑兵级集装箱船
+	<LineBreak/>
+	• SS PRESIDENT VAN BUREN——改进型C4级杂货船
+	<LineBreak/>
+	• SS CAPE ARCHWAY AK-5011——C4级杂货船
+	<LineBreak/>
+    </TextBlock>
+</Grid>
