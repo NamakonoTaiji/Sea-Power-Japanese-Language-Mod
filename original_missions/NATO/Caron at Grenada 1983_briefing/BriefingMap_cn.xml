@@ -21,7 +21,7 @@
 		<!-- USS Caron DD-970 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="575">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="卡隆DD-970"/>
+                <Run Text="卡隆（DD-970）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
@@ -32,7 +32,7 @@
 		<!-- USS Moosbrugger DD-980 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="700" Canvas.Top="500">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="穆斯布鲁格DD-980"/><LineBreak/>
+                <Run Text="穆斯布鲁格（DD-980）"/><LineBreak/>
                 <Run Text="（独立行动）"/>				
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">

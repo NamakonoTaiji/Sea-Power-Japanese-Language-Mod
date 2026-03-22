@@ -11,20 +11,6 @@
                 <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="165,0,0,125" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
             </Grid>
         </Border>
-		<!-- Photo inset -->
-        <!--<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="5" BorderBrush="White">
-			<Border.Effect>
-				<DropShadowEffect Opacity="0.25"/>
-			</Border.Effect>
-			<Border.RenderTransform>
-				<TransformGroup>
-					<RotateTransform Angle="-8" CenterY="200"/>
-				</TransformGroup>
-			</Border.RenderTransform>
-            <Grid>
-                <Image Stretch="Uniform" Source="{Binding Assets[10_kiev]}" Width="250"/>
-            </Grid>
-        </Border>-->
 
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="Atlantic Ocean" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="350" Canvas.Top="100"/>
@@ -33,24 +19,15 @@
 		<TextBlock Foreground="Black" Text="Scotland" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="900" Canvas.Top="600"/>
 		
 		<!-- Player unit summary -->
-		<Border Canvas.Left="10" Canvas.Bottom="95" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
-			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="TG GREYHOUND:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="USS Valley Forge CG-50"/><LineBreak/>
-                <Run Text="USS Thomas C. Hart FF-1092"/><LineBreak/>
-                <Run Text="USS Jack Williams FFG-24"/>
-           </TextBlock>
-		</Border>
-		
-		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="SAU ALPHA:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="TASK GROUP GREYHOUND:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 <Run Text="USS John Rodgers DD-983"/><LineBreak/>
-                <Run Text="USS Underwood FFG-36"/>
+                <Run Text="USS Jack Williams FFG-24"/><LineBreak/>
+				<Run Text="USS Thomas C. Hart FF-1092"/>
            </TextBlock>
 		</Border>
-		
+
 		<!-- TG Greyhound -->
 		<StackPanel Orientation="Vertical" Canvas.Left="500" Canvas.Top="200">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
@@ -62,21 +39,10 @@
             </Canvas>
         </StackPanel>
 		
-		<!-- SAU Alpha -->
-		<StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="300">
+		<!-- P-3C VP-5 'Mad Foxes' -->
+		<StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="450">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="SAU Alpha"/>
-            </TextBlock>
-			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
-                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
-            </Canvas>
-        </StackPanel>
-		
-		<!-- P-3C VP-47 'Golden Swordsmen' -->
-		<StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="300">
-			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="P-3C VP-47 'Golden Swordsmen'"/>
+                <Run Text="P-3C VP-5 'Mad Foxes'"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
@@ -85,9 +51,9 @@
         </StackPanel>
 		
 		<!-- USSR sub -->
-		<StackPanel Orientation="Vertical" Canvas.Left="850" Canvas.Top="335">
+		<StackPanel Orientation="Vertical" Canvas.Left="600" Canvas.Top="45">
 			<TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="?"/>
+                <Run Text="3 x USSR Submarines"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Submarine}"/>
@@ -96,10 +62,15 @@
         </StackPanel>
 		
 		<!-- USSR sub -->
-		<StackPanel Orientation="Vertical" Canvas.Left="690" Canvas.Top="45">
-			<TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="?"/>
-            </TextBlock>
+		<StackPanel Orientation="Vertical" Canvas.Left="660" Canvas.Top="100">
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Submarine}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- USSR sub -->
+		<StackPanel Orientation="Vertical" Canvas.Left="675" Canvas.Top="75">
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Submarine}"/>
                 <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
@@ -108,10 +79,9 @@
 
 		<!-- Arrows -->
 		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
-		
-		<Path Canvas.Left="750" Canvas.Top="400" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+		<Path Canvas.Left="640" Canvas.Top="350" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
             <Path.RenderTransform>
-                <RotateTransform Angle="250"/>
+                <RotateTransform Angle="330"/>
             </Path.RenderTransform>
         </Path>
 		<Path Canvas.Left="600" Canvas.Top="150" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">

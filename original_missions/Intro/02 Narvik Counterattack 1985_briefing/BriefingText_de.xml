@@ -1,0 +1,79 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  TextElement.FontFamily="Roboto">
+<Grid.RowDefinitions>
+        <RowDefinition Height="40"/>
+		<RowDefinition Height="60"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="24">
+		Einführungsmissionen
+	</TextBlock>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold">
+		GEGENANGRIFF BEI NARVIK
+	</TextBlock>
+	<TextBlock Grid.Row="2" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		Willkommen bei Sea Power, Kommandant!
+		<LineBreak/>
+		<LineBreak/>
+		In dieser Mission befehligen Sie die Sovremenny-Einsatzgruppe, die mit dem Schutz der Landungoperationen bei Narvik beauftragt ist. Seestreitkräfte der NATO führen einen Gegenangriff aus, um unsere Truppen aus dem Brückenkopf zu verdrängen.
+		<LineBreak/>
+		<LineBreak/>
+		Sie führen die Sovremenny (EM-680) und die Vizeadmiral Kulakov (BPK-401), zwei der modernsten Begleitschiffe der Rotbanner-Nordflotte. Setzen Sie die Seezielflugkörper der Sovremenny ein, um die anrückenden NATO-Kräfte zu zerstören, während das SA-N-9-Flugabwehrsystem der Kulakov für die Luftverteidigung Ihrer Kräfte sorgt. Beachten Sie, dass die Kulakov auch SS-N-14B-Raketen mitführt, die ebenfalls gegen Schiffe eingesetzt werden können. Ein Aufklärungsflugzeug vom Typ Tu-95RT stellt die Radaraufklärung sicher.
+		<LineBreak/>
+		<LineBreak/>
+		FEINDKRÄFTE:
+		<LineBreak/>
+		<LineBreak/>
+		Norwegischer Verband, Annäherung aus Süden:
+		<LineBreak/>
+		• Fregatte der Oslo-Klasse
+		<LineBreak/>
+		• Korvette der Sleipner-Klasse
+		<LineBreak/>
+		• 2 x F-5A Kampfflugzeuge
+		<LineBreak/>
+		<LineBreak/>
+		US-amerikanische Task Group, Annäherung aus Westen:
+		<LineBreak/>
+		• Fregatte der Perry-Klasse
+		<LineBreak/>
+		• Fregatte der Knox-Klasse
+		<LineBreak/>
+		• Landungsschiff der Newport-Klasse
+		<LineBreak/>
+		<LineBreak/>
+		EINSATZREGELN (ROE):
+		<LineBreak/>
+		• Sie sind befugt, alle feindlichen (roten) Kräfte zu bekämpfen und zu zerstören.
+		<LineBreak/>
+		<LineBreak/>
+		EMISSIONSKONTROLLE (EMCON):
+		<LineBreak/>
+		• Keine Einschränkungen. Halten Sie alle Radarsysteme aktiv, um sämtliche feindlichen Kontakte frühzeitig zu erfassen.
+		<LineBreak/>
+		<LineBreak/>
+		ZIEL:
+		<LineBreak/>
+		• Mindestens eines Ihrer Schiffe muss überleben.
+		<LineBreak/>
+		• Zerstören Sie alle aufgeklärten feindlichen Schiffe.
+		<LineBreak/>
+		<LineBreak/>
+		Viel Glück, Kommandant!
+		</TextBlock>
+</Grid>

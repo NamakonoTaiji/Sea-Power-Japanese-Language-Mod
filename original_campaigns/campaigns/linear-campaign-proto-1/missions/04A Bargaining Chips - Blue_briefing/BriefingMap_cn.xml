@@ -28,11 +28,11 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Right="10" Canvas.Bottom="125" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="第75.3特遣舰队" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="德克萨斯CGN-39"/><LineBreak/>
-                <Run Text="沃登CG-18"/><LineBreak/>
-                <Run Text="卡拉汉DDG-994"/><LineBreak/>
-                <Run Text="柯普兰FFG-25"/>
+                <Run Text="第75.3特遣大队" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="德克萨斯（CGN-39）"/><LineBreak/>
+                <Run Text="沃登（CG-18）"/><LineBreak/>
+                <Run Text="卡拉汉（DDG-994）"/><LineBreak/>
+                <Run Text="柯普兰（FFG-25）"/>
            </TextBlock>
 		</Border>
 		
@@ -63,7 +63,7 @@
 		<!-- TF 75.3 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="460">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="第75.3特遣舰队"/>
+                <Run Text="第75.3特遣大队"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

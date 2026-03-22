@@ -29,14 +29,14 @@
 					<RowDefinition Height="Auto"/>
 					<RowDefinition Height="Auto"/>
 				</Grid.RowDefinitions>
-				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="소련 군함이 흑해에서 미 해군과 충돌하다" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="소련 군함이 흑해에서 미 해군 함정과 충돌하다" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                 <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
                     
-                    <TextBlock Text="미 국방부는 이러한 행동을 '의도적이며 공격적이라' 부름" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="미 국방부는 해당 기동을 '고의적이고 공격적인 행위'라 규정" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
                     <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
-						노퍽, 버지니아 - 어제경 소련 해군이 흑해에서 활동중이던 미 해군 군함에 의도적인 충각 공격을 가하자 양국간의 긴장상태가 격화되었습니다. 크림 반도 인근에서 일어난 이 사건은 미 해군의 유도탄 순양함인 USS 요크타운(CG-48)과 구축함 USS 카론(DD-970)이 연관되었으며 해당 함정들은 해당 해역에서 "무해 통항"을 위해 공해에서 항해중이였습니다.
+						버지니아주 노퍽 — 어제 소련 군함 두 척이 흑해에서 작전 중이던 미 해군 함정과 고의로 충돌하면서 긴장이 고조되었다. 크림반도 인근에서 발생한 이 사건에는 유도탄 순양함인 USS 요크타운(CG-48)과 구축함 USS 캐런(DD-970)이 연루되었으며, 해당 해역에서 "무해 통항"을 위해 공해를 항해중이였다.
 						<LineBreak/>
-						미 정부에 따르면 소련 해군의 크리박급 호위함인 베즈자베트니함과 미르카급 호위함이 위협적이게 다가와 미 해군 함정들의 함수 앞에서 길을 가로막자 저속으로 충돌했다고 전해집니다. 양측간 부상자는 없었지만 카론함이 좌현에 경미한 피해를 입었습니다.
+						미국 관계자에 따르면 소련 해군의 크리박급 호위함인 베즈자베트니함과 미르카급 호위함이 두 미군 함정의 함수 쪽으로 공격적으로 기동하며 저속으로 충돌했다고 한다. 인명 피해는 없었지만, 캐런함은 좌현에 경미한 손상을 입었다.
 						<LineBreak/>
 						프랭크 칼루치 국방장관은 소련의 행동을 "무모하고 확대적"이라고 비난했습니다. 크렘린궁은 미국이 민감한 소련 시설 근처에서 "도발적 감시"를 하고 있다고 비난하며 이번 공격을 방어 조치로 옹호해 왔습니다. (페이지 2의 충돌 참조)
 					</TextBlock>

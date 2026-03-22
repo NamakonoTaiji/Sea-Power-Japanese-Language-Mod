@@ -22,7 +22,7 @@
 	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="北方舰队总部"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="基洛夫号打击群司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="基洛夫号打击群指挥官"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="挪威海特别军事行动"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988年7月4日"/>
@@ -49,16 +49,16 @@
       <LineBreak/><LineBreak/>
       5.（机密）友方作战序列：
 		<LineBreak/>5.1	基洛夫号打击群
-		<LineBreak/>5.1.1	1144型巡洋舰基洛夫号
-		<LineBreak/>5.1.2	1134A型巡洋舰喀琅施塔得号
-		<LineBreak/>5.1.3	956型驱逐舰无瑕号
-		<LineBreak/>5.1.4	1155型驱逐舰库拉科夫海军中将号
-		<LineBreak/>5.1.5	1143型航空母舰基辅号
+		<LineBreak/>5.1.1	1144型巡洋舰基洛夫号（RKR-181）
+		<LineBreak/>5.1.2	1134A型巡洋舰喀琅施塔得号（BPK-662）
+		<LineBreak/>5.1.3	956型驱逐舰无瑕号（EM-820）
+		<LineBreak/>5.1.4	1155型驱逐舰库拉科夫海军中将号（BPK-401）
+		<LineBreak/>5.1.5	1143型航空母舰基辅号（TAVKR-069）
 		<LineBreak/>5.2	海军航空兵
 		<LineBreak/>5.2.1	12架图-22M2（第924近卫海军导弹航空团）
 		<LineBreak/>5.2.1	12架图-16K（第987海军导弹航空团）
 		<LineBreak/>5.2.1	12架米格-25PD（第445战斗机航空团）
-		<LineBreak/>5.3	670M型潜艇K-209号
+		<LineBreak/>5.3	670M型潜艇（K-209）
 		<LineBreak/><LineBreak/>
       6.（机密）情报评估：
   <LineBreak/>6.1	宇宙1932号卫星将于0028Z时飞越挪威海，但美国人正在尝试击落我们的卫星。如果有可能，总部将向你发送瞄准数据。 

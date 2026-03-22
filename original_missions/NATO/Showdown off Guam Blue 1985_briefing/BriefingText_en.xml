@@ -1,0 +1,73 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--<TextBlock Grid.Row="1" Grid.Column="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		DEPARTMENT OF DEFENSE
+		<LineBreak/>
+		JCS MESSAGE CENTER
+	</TextBlock>-->	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		IMMEDIATE
+		<LineBreak/>
+		O 270010Z JUN 85
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT PEARL HARBOR HI"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF SEVEN TWO"/>
+	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		JCS WASHINGTON DC //CJCS//<LineBreak/>
+		HQ PACAF HICKAM AFB HI<LineBreak/>
+		COMUSJAPAN YOKOTA AB
+	</TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="EXECUTE ORDER--OPERATION PROMPT THUNDER"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		TOP SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (TS) SITUATION: ON 18JUN LARGE SOVIET SURFACE FORCE CONSISTING OF KIROV CLASS BATTLECRUISER AND AIRCRAFT CARRIER MINSK DEPARTED VLADIVOSTOK WITH ESCORTS, TRANSITING MIYAKO STRAIT JUST PRIOR TO DECLARATION OF WAR. THIS FORCE IS CURRENTLY UNLOCATED AS OF 27JUN, ASSESSED AS OPERATING IN PHILIPPINE SEA. INDICATIONS AND WARNING SOURCES ASSESS HIGH PROBABILITY THIS FORCE WILL CONDUCT ATTACK ON GUAM NO LATER THAN 28JUN.
+		<LineBreak/>
+		<LineBreak/>
+		2. (TS) MISSION: CTF 72.1 IS DIRECTED TO LOCATE, INTERDICT, AND NEUTRALIZE ALL SOVIET FORCES IN PHILIPPINE SEA.
+		<LineBreak/>
+		<LineBreak/>
+		2. (TS) EXECUTION: THIS ORDER IS EFFECTIVE IMMEDIATELY UPON RECEIPT. TF 72.1 (SURFACE ACTION GROUP) TO DEPART APRA IMMEDIATELY AND PROCEED NORTHWEST. COORDINATE WITH ANDERSEN AFB FOR RECONNAISSANCE AND MARITIME STRIKE. B-52 FORCE AT ANDERSEN HAS RECENTLY BEEN UPDATED TO CARRY HARPOON MISSILES FOR ANTI-SHIP TASKING.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) ALLIED FORCES: JASDF MARITIME STRIKE FORCES ARE FULLY COMMITTED IN DEFENSE OF JAPAN MISSION, BUT JMSDF MARITIME PATROL ASSETS WILL STAGE OUT OF AIRFIELD ON IWO JIMA TO ASSIST SEARCH.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) ENEMY ORDER OF BATTLE: KIROV AND MINSK ARE SCREENED BY MISC SURFACE FORCES AND LIKELY ONE SUBMARINE WHICH MAY PASS TARGETING DATA. MINSK CARRIES FULL AIRWING, AND INTERCEPTS INDICATE ENEMY FORCE HAS LIKELY BROKEN INTO SEVERAL GROUPS TO EVADE RECONNAISSANCE.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) ROE REMAINS AS STATED. DESTROY ALL HOSTILE FORCES. GOOD LUCK AND GOOD HUNTING. CINCPAC SENDS.
+		<LineBreak/>
+		<LineBreak/>
+		TOP SECRET
+		<LineBreak/>
+		DECL OADR BT
+		</TextBlock>
+
+</Grid>

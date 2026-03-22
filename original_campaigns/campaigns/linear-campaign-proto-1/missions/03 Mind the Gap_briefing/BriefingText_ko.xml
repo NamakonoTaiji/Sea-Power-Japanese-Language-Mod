@@ -20,12 +20,12 @@
         <ColumnDefinition Width="Auto"/>
     </Grid.ColumnDefinitions>
 	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="미국 대서양함대"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="대서양함대 사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="TG 그레이하운드"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="그레이하운드 기동부대"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="측면 보호 작전"/>
-    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988.05.12"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988.05.18"/>
 	    <!--
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
@@ -39,7 +39,7 @@
 <LineBreak/><LineBreak/>
       3. (기밀) 실행:
 <LineBreak/>3.1 전파방사통제는 지휘관의 재량에 따를 것. 
-<LineBreak/>3.2 TG 그레이하운드는 아이슬란드와 페로 제도 사이를 초계할 것.
+<LineBreak/>3.2 그레이하운드 기동부대는 아이슬란드와 페로 제도 사이를 초계할 것.
 <LineBreak/>3.3 SAU 알파는 페로 제도와 스코틀랜드 사이를 초계할 것.
       <LineBreak/><LineBreak/>
       4. (기밀) 적 전투서열:

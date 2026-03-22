@@ -35,7 +35,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		최신 - 기밀
+		위급 - II급 비밀
 		<LineBreak/>
 		<LineBreak/>
 		1. (기밀) 상황: 유럽에서 적대 행위가 진행 중입니다. 바르샤바 조약군이 풀다 갭을 넘었고, 레이건 대통령은 유럽에서 리포저 작전을 시작했습니다. NATO를 강화하기 위한 긴 항해를 시작하기 위해 주요 동해안 항구에 상선 호송대가 편성되고 있습니다. 태평양에서 훈련을 마친 후 페트로파블롭스크로 돌아갈 것으로 추정되는 대규모 소련 기동부대가 이제 방향을 틀어 미드웨이와 하와이로 향하고 있습니다.

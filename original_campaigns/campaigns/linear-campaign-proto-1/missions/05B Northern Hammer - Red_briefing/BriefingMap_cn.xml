@@ -21,11 +21,11 @@
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="基洛夫号打击群：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="基洛夫"/><LineBreak/>
-				<Run Text="喀琅施塔得"/><LineBreak/>
-                <Run Text="无瑕"/><LineBreak/>
-                <Run Text="库拉科夫海军中将"/><LineBreak/>
-				<Run Text="基辅"/>
+                <Run Text="基洛夫（RKR-181）"/><LineBreak/>
+				<Run Text="喀琅施塔得（BPK-662）"/><LineBreak/>
+                <Run Text="无瑕（EM-820）"/><LineBreak/>
+                <Run Text="库拉科夫海军中将（BPK-401）"/><LineBreak/>
+				<Run Text="基辅（TAVKR-069）"/>
            </TextBlock>
 		</Border>
 		

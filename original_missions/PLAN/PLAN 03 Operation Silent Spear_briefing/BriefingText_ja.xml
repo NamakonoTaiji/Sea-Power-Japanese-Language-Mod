@@ -21,7 +21,7 @@
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
         FontSize="{StaticResource Font.Size.Header}">
-        <Run Text="1974年8月4日" />
+        <Run Text="1985年2月2日" />
     </TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発" />
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"

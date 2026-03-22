@@ -40,7 +40,7 @@
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
       <LineBreak/>
       <LineBreak/>
-      1.  (기밀)    전술적 상황:
+      1.  (II비)    전술적 상황:
       <LineBreak/>
       <LineBreak/>
        우리의 지상군이 나르비크 항구를 점령하느라 노력중인 한편 해상 봉쇄가 나쁜 날씨로 인하여 공군 출격이 금지된 이상 진행되어야 적군의 보급선을 교란할수 있을것.
@@ -49,7 +49,7 @@
       <LineBreak/>
       <LineBreak/>
 
-      2.  (기밀) 중요 목표:
+      2. (II비) 중요 목표:
       <LineBreak/>
       <LineBreak/>베스트피요르덴에 진입하여 호송대를 찾고 보급선들이 목표 지점에 도달하지 못하도록 할것.
       <LineBreak/>목표물 확인을 철저히 하여 민간인 함선 공격을 피할것.
@@ -66,11 +66,11 @@
       <LineBreak/>
       <LineBreak/>
 
-      4.  (기밀) 황색경보 - 모든 적대 목표에 교전 허가
+      4.  (II비)    황색경보 - 모든 적대 목표에 교전 허가
       <LineBreak/>
       <LineBreak/>
 
-      5.  (기밀) 전파통제 - 추가 지시 전까진 무선침묵 유지
+      5.  (II비) 전파통제 - 추가 지시 전까진 무선침묵 유지
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>

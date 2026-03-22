@@ -29,15 +29,15 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="보스토크 태스크포스:" TextDecorations="Underline"/><LineBreak/>
+                <Run Text="보스토크 기동부대:" TextDecorations="Underline"/><LineBreak/>
                 <Run Text="스토이키 EM-679"/><LineBreak/>
                 <Run Text="오스모트리텔니 EM-672"/><LineBreak/>
                 <Run Text="슬라바 RKR-103"/><LineBreak/>
                 <Run Text="아드미랄 이사첸코프 BPK-686"/><LineBreak/><LineBreak/>
-                <Run Text="항공 자산:"/><LineBreak/>
+                <Run Text="항공 전력:"/><LineBreak/>
                 <Run Text="Tu-95RT 제392독립장거리정찰항공연대"/><LineBreak/>
                 <Run Text="2 x Tu-22M2 제924근위해군로켓항공연대"/><LineBreak/><LineBreak/>
-                <Run Text="제10 잠수함사단 :"/><LineBreak/>
+                <Run Text="제10잠수함분대:"/><LineBreak/>
                 <Run Text="K-175 (Pr.675)"/>
            </TextBlock>
 		</Border>
@@ -49,14 +49,14 @@
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="475" Canvas.Top="300">
 			<Ellipse Width="200" Height="200" Opacity="0.25" Fill="{StaticResource NTDS.HostileColour}"/>
 			<!-- Mission Area Text -->
-			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="미국 태스크포스" HorizontalAlignment="Center"/>
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="미군 기동부대" HorizontalAlignment="Center"/>
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="대략적인 위치" HorizontalAlignment="Center"/>
 		</StackPanel>	
 		
 		<!-- Task Force Vostok -->
 		<StackPanel Orientation="Vertical" Canvas.Left="400" Canvas.Top="200">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="보스토크 태스크포스"/>
+                <Run Text="보스토크 기동부대"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
@@ -100,7 +100,7 @@
 		<!-- U.S. Task Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="532" Canvas.Top="380">
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="미국 태스크포스"/>
+                <Run Text="미군 기동부대"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>

@@ -1,0 +1,76 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="적기북부함대 사령부"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="몰니야 타격전단 사령부"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="남대서양 작전들"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985년 6월 25일"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+	EXECUTION MESSAGE
+	<LineBreak/>
+    <LineBreak/>
+	적대 행위의 발생과 관련하여, NATO군이 노르웨이해에서 군사 훈련을 실시하는 동안 우리 관측 요소에 대해 무력 행동을 개시한 것이 확인되었습니다. 이용 가능한 정보에 따르면 NATO는 확전에 대비하고 공격 작전의 구실을 기다리고 있었습니다.
+    <LineBreak/>
+    <LineBreak/>
+	소련군은 전시 체제로 전환했습니다. 즉시 효과적으로 NATO군과 NATO 동맹 상선에 맞서 무제한 해상 및 공중 전투 작전을 수행하십시오.
+	<LineBreak/>
+    <LineBreak/>
+	Attachment (A) provides identification data for NATO merchants transiting the South Atlantic towards Cape Town. Intelligence assesses these vessels are intended to support reinforcement of NATO facilities at Diego Garcia. Last satellite pass showed these merchants attempting to form up into convoy with U.S. escorts while underway. Detection and destruction of these vessels prior to reaching NATO air cover from South Africa is the highest operational priority.
+	<LineBreak/>
+    <LineBreak/>
+	After destruction of these ships, rendezvous with our support element at Luanda, Angola, for resupply and further instructions.
+	<LineBreak/>
+    <LineBreak/>
+	바다는 이제 전장이 되었음. 행운을 빔, 동지.
+	<LineBreak/>
+    <LineBreak/>
+	메세지 끝
+	<LineBreak/>
+	/s/ Adm. I. M. Kapitanets
+	<LineBreak/>
+	<LineBreak/>
+	Cовершенно cекретно
+	<LineBreak/>
+	После прочтения — уничтожить
+	<LineBreak/>
+	<LineBreak/>
+	---
+	<LineBreak/>
+	<LineBreak/>
+	첨부파일 (A)
+	<LineBreak/>
+	<LineBreak/>
+	Disposition of NATO merchant group as follows. Intelligence assesses at least two escorting frigates of KNOX or BROOKE class present.
+	<LineBreak/>
+	<LineBreak/>
+	• SS AMERICAN LYNX - LANCER-class container vessel
+	<LineBreak/>
+	• SS CAPE CHALMERS AK-5036 - C4 type break-bulk cargo vessel
+	<LineBreak/>
+	• MV EDSON NEW ORLEANS - medium products tanker
+	<LineBreak/>
+	• SS PRESIDENT MONROE - Improved C4 type break-bulk cargo vessel
+	<LineBreak/>
+    </TextBlock>
+</Grid>

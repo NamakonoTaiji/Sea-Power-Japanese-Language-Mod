@@ -1,0 +1,73 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  TextElement.FontFamily="Roboto">
+<Grid.RowDefinitions>
+        <RowDefinition Height="40"/>
+		<RowDefinition Height="60"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="24">
+		Introductory Scenario Series
+	</TextBlock>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold">
+		RED SEA BREAKOUT (1988)
+	</TextBlock>
+    <TextBlock Grid.Row="2" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		Welcome to Sea Power, Commander!
+		<LineBreak/>
+		<LineBreak/>
+		In this mission, you will command the USS Yorktown (CG-48) to force the Bab al-Mandab Strait, which connects the Red Sea to the Gulf of Aden and the Indian Ocean. Yemeni forces are attempting to block our passage.
+		<LineBreak/>
+		<LineBreak/>
+		USS Yorktown is an AEGIS cruiser equipped with advanced SPY-1A radar and modern weapons. An E-2C Hawkeye from USS Enterprise is providing additional air and surface surveillance.
+		<LineBreak/>
+		<LineBreak/>
+		ENEMY FORCES:
+		<LineBreak/>
+		• Osa-class missile boats
+		<LineBreak/>
+		• P6-class torpedo boats
+		<LineBreak/>
+		• Petya-class coastal frigate
+		<LineBreak/>
+		• MiG-21 fighters with bombs approaching from the northeast
+		<LineBreak/>
+		• Land-based SS-N-2 missiles and coastal batteries on the northern shore
+		<LineBreak/>
+		• One Krivak-class frigate
+		<LineBreak/>
+		<LineBreak/>
+		RULES OF ENGAGEMENT (ROE):
+		<LineBreak/>
+		• You are cleared to destroy all hostile (red) forces.
+		<LineBreak/>
+		<LineBreak/>
+		EMISSIONS CONTROL (EMCON):
+		<LineBreak/>
+		• No restrictions. Keep all radars active during the transit.
+		<LineBreak/>
+		<LineBreak/>
+		OBJECTIVE:
+		<LineBreak/>
+		• USS Yorktown must survive.
+		<LineBreak/>
+		• Reach the marked circle on the map, OR destroy all enemy forces in the strait
+		<LineBreak/>
+		<LineBreak/>
+		Good luck, Commander!
+		</TextBlock>
+</Grid>

@@ -30,15 +30,15 @@
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="东方特遣舰队：" TextDecorations="Underline"/><LineBreak/>
-                <Run Text="稳健"/><LineBreak/>
-                <Run Text="谨慎"/><LineBreak/>
-                <Run Text="光荣"/><LineBreak/>
-                <Run Text="伊萨琴科夫海军上将"/><LineBreak/><LineBreak/>
+                <Run Text="稳健（EM-679）"/><LineBreak/>
+                <Run Text="谨慎（EM-672）"/><LineBreak/>
+                <Run Text="光荣（RKR-103）"/><LineBreak/>
+                <Run Text="伊萨琴科夫海军上将（BPK-686）"/><LineBreak/><LineBreak/>
                 <Run Text="空中资产："/><LineBreak/>
                 <Run Text="图-95RT（第392独立远程侦察航空团）"/><LineBreak/>
                 <Run Text="图-22M2（第924近卫海军导弹航空团）"/><LineBreak/><LineBreak/>
                 <Run Text="潜艇部队："/><LineBreak/>
-                <Run Text="K-175"/>
+                <Run Text="675型潜艇（K-175）"/>
            </TextBlock>
 		</Border>
 

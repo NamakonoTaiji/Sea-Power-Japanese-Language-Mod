@@ -43,7 +43,7 @@
 		华盛顿特区国防情报局
 	</TextBlock>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
-    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="执行命令——草原烈火行动"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="行动命令——草原烈火行动"/>
 	    <!--
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
@@ -62,7 +62,7 @@
 		4.（绝密）执行：萨拉托加号航母（第60.2特遣大队）的航空联队摧毁位于苏尔特的利比亚S-200面对空导弹阵地，并为提康德罗加号水面行动群提供战斗空中巡逻和水面战斗空中巡逻。 提康德罗加号水面行动群（第60.5特遣大队）开始通过锡德拉湾，开火摧毁反击的利比亚海军单位。
 		<LineBreak/> 
 		<LineBreak/> 
-		5.（绝密）警告：从的黎波里起飞的利比亚空军可能出动支援海军部队。
+		5.（绝密）提示：从的黎波里起飞的利比亚空军可能出动支援海军部队。
 		<LineBreak/> 
 		<LineBreak/> 
 		6.（绝密）交战规则保持不变。消灭所有敌对力量。祝你好运，猎杀愉快。

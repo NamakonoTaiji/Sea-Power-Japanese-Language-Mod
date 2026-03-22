@@ -25,7 +25,7 @@
             <StackPanel Orientation="Vertical">
                 <Image Stretch="Uniform" Source="{Binding Assets[screenshot_cape_girardeau]}" Width="250"/>
 				<TextBlock Foreground="Black" TextAlignment="Left" VerticalAlignment="Center" Margin="5" FontFamily="Courier New" FontWeight="Bold">
-					<Run Text="吉拉多角T-AK-2039"/><LineBreak/>
+					<Run Text="吉拉多角（T-AK-2039）"/><LineBreak/>
 					<Run Text="19-LCM-978108——舰船局照片"/>
 				</TextBlock>
             </StackPanel>
@@ -45,7 +45,7 @@
 		<!-- KNM Kobben -->
 		<StackPanel Orientation="Vertical" Canvas.Left="330" Canvas.Top="400">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="2 艘科本级潜艇"/>
+                <Run Text="2艘科本级潜艇"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>
@@ -56,7 +56,7 @@
 		<!-- USNS Cape Girardeau T-AK-2039 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="500" Canvas.Top="250">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="吉拉多角T-AK-2039"/>
+                <Run Text="吉拉多角（T-AK-2039）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

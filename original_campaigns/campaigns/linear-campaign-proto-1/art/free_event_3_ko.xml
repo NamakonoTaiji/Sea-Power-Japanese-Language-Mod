@@ -38,7 +38,7 @@
 						III. 에스컬레이션 확률
 						</Run>
 						<LineBreak/>
-						현재 진행 양상 상, 적대적인 행위는 해상에서의 더욱 직접적인 대립으로 확대될 가능성이 높습니다.
+						현재 진행 양상 상, 적대적인 행위는 해상에서의 더욱 직접적인 대립으로 확대될 가능성이 높음.
 						<LineBreak/>
 						<LineBreak/>
 						소련은 통제적이지만 공격적인 해상 교전을 통해 자신들의 결의를 과시하려고 할 수 있으며, 이는 아마도 미국 항공모함 그룹에 대한 괴롭힘이나 공격적인 공중 요격과 관련이 있을 수 있습니다.
@@ -97,7 +97,7 @@
 				</Grid.RowDefinitions>
 				<StackPanel Grid.Row="0" Orientation="Vertical">
 					<Border Background="Black" Margin="-45,0">
-						<TextBlock Text="정보 보고    정보 보고" Foreground="White" TextAlignment="Center" FontSize="36"/>
+						<TextBlock Text="정 보 보 고 서" Foreground="White" TextAlignment="Center" FontSize="36"/>
 					</Border>
 					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
 					<TextBlock Text="중앙정보국" Foreground="Black" TextAlignment="Center" FontSize="24"/>
@@ -203,7 +203,7 @@
 						<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
 						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
 						<Border Background="Black" Margin="-45,0">
-							<TextBlock Text="정보 보고    정보 보고" Foreground="White" TextAlignment="Center" FontSize="36"/>
+							<TextBlock Text="정 보 보 고 서" Foreground="White" TextAlignment="Center" FontSize="36"/>
 						</Border>
 					</StackPanel>
 			</Grid>

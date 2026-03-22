@@ -1,0 +1,114 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+	  <Border.Effect>
+	    <DropShadowEffect />
+	  </Border.Effect>
+			
+	  <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+	    <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="10"/>
+		    <RowDefinition Height="*"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		  </Grid.RowDefinitions>
+	      <TextBlock Text="C05084488" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+		  <Grid Grid.Row="0">
+		    <Grid.RowDefinitions>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="10"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		    </Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="*"/>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="Auto"/>
+		    </Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="최고 기밀" TextAlignment="Center"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+				중앙정보국 국장
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontSize="12">워싱턴 D.C., 20505</Run>
+			</TextBlock>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="1985년 7월 16일"/>
+			<TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="비망록:   "/>
+			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+				JCS WASHINGTON DC//J3//
+				<LineBreak/>
+				USCINCLANT NORFOLK VA
+				<LineBreak/>
+				USCINCEUR VAIHINGEN GE
+				<LineBreak/>
+				USCINCPAC HONOLULU HI
+				<LineBreak/>
+				CINCSAC OFFUTT AFB NE
+			</TextBlock>
+			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+				EO 13526 3.3(b)(1)>25Yrs
+				<LineBreak/>
+				EO 13526 3.5(c)
+			</TextBlock>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="내용:   "/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="Soviet RAIDER GROUP Operations in Indian Ocean"/>
+		  </Grid>
+		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
+			1. Reporting indicates the Soviet surface raider group is currently transiting north toward Indian territorial waters. Moscow has secured Indian agreement for the force to enter Cochin harbor, despite U.S. diplomatic objections. Once the Soviet group reaches India, U.S. response options will be significantly constrained by India’s neutral status.
+			<LineBreak/>
+			<LineBreak/>
+			2. This Soviet raider group has proven itself to be highly resourceful and dangerous. It is responsible for multiple attacks on convoys in the area, the strike on Mauritius of 03 JUL, and yesterday's attack on Logistics Force units west of Diego Garcia which resulted in loss of USS CAMDEN (AOE-2). Further, South Africans report two of their diesel boats disappeared attempting to interdict its resupply units near Crozet Islands.
+			<LineBreak/>
+			<LineBreak/>
+			3. ENTERPRISE CVBG (CTF 71) has been reassigned to proceed southeast from Gulf of Oman to pursue the Soviet formation. However, loss of USS CAMDEN yesterday has greatly reduced sortie generation margins and limited flexibility for prolonged pursuit. ENTERPRISE air wing is operating at 50% capacity after loss of CAMDEN.
+			<LineBreak/>
+			<LineBreak/>
+			4. We assess that the most favorable opportunity to neutralize the Soviet raider group exists during its current northbound transit toward India. Entry into Indian-controlled waters will negate any possibility of military action against them. A follow on analysis will be sent with options for force composition required to keep Soviet force bottled up at Cochin, if necessary.
+			<LineBreak/>
+			<LineBreak/>
+		  </TextBlock>
+		  <TextBlock TextAlignment="Right" Text="윌리엄 J. 케이시 국장" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0" Grid.Row="2"/>
+		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+			<Run TextDecorations="Underline">Distribution by ER/16 July 1985 w/Att</Run>
+			<LineBreak/>
+			<LineBreak/>
+			원문 - 각 수신자
+			<LineBreak/>
+			   1 - DCI
+			<LineBreak/>
+			   1 - DDCI
+			<LineBreak/>
+			   1 - EXDIR
+			<LineBreak/>
+			   1 - C/NIC
+			<LineBreak/>
+			   1 - VC/NIC
+			<LineBreak/>
+			   1 - NIO/Warning
+			<LineBreak/>
+			   1 - ER File
+		  </TextBlock>
+		  <TextBlock Grid.Row="4" Text="TOP SECRET" TextAlignment="Center"/>
+	    </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

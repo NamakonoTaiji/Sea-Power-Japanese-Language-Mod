@@ -1,0 +1,72 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		FLASH
+		<LineBreak/>
+		Z 180017Z JUL 85
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSIXTHFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 61"/>
+	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		JCS WASHINGTON DC //CJCS//<LineBreak/>
+		USCINCEUR VAIHINGEN GE<LineBreak/>
+		USCINCLANT NORFOLK VA<LineBreak/>
+		DIA WASHINGTON DC
+	</TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="EXECUTE ORDER--OPERATION PRIME ANVIL"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		TOP SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (TS) This is an execute order by authority of the Secretary of Defense.
+		<LineBreak/>
+		<LineBreak/>
+		2. (TS) SITUATION: Following enemy action against Greece and Turkey, JCS has authorized Operation PRIME ANVIL. Heavy Soviet Black Sea Fleet surface units remain at large in the Aegean and must be destroyed.
+		<LineBreak/>
+		<LineBreak/>
+		2. (TS) MISSION: U.S. forces will destroy all Soviet naval units in the Aegean Sea, then cover landing of 26 Marine Amphibious Unit in Thrace to support Greek forces ashore.
+		<LineBreak/>
+		<LineBreak/>
+		3. (TS) EXECUTION: TG 61.2 (IOWA Surface Action Group) will proceed north into the Aegean Sea. Carrier Airwing 1 (CVW-1) and Hellenic Air Force will provide strike aircraft to CTG 61.2 for SEAD, SuCAP, or maritime strike missions at his discretion. TG 61.2 will locate and destroy KIEV CVBG in coordination with carrier air, before it can withdraw to Bosporus.
+		<LineBreak/>
+		<LineBreak/>
+		4. (TS) WARNING: Soviet forces have emplaced shore-based missiles throughout the Greek islands, and 1 x TANGO class SSK remain unlocated as of 17JUL.
+		<LineBreak/>
+		<LineBreak/>
+		5. (TS) REMARKS: Due to confined waters of the Aegean, EMCON restrictions are lifted. Expect close engagements with coastal sites. Destroy all hostile forces that engage you. Good luck and good hunting. COMSIXTHFLT sends.
+		<LineBreak/>
+		<LineBreak/>
+		TOP SECRET
+		<LineBreak/>
+		DECL OADR BT
+		</TextBlock>
+
+</Grid>

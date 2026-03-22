@@ -20,22 +20,22 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="第65.7特遣舰队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="艾森豪威尔CVN-69"/><LineBreak/>
-				<Run Text="新泽西BB-62"/><LineBreak/>
-                <Run Text="福吉谷CG-50"/><LineBreak/>
-                <Run Text="戴尔CG-19"/><LineBreak/>
-				<Run Text="莫尔德斯D186"/><LineBreak/>
-				<Run Text="安德伍德FFG-36"/><LineBreak/>
-				<Run Text="托马斯·C·哈特FF-1092"/><LineBreak/>
-				<Run Text="斯塔万格F303"/>
+                <Run Text="第65.7特遣大队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="艾森豪威尔（CVN-69）"/><LineBreak/>
+				<Run Text="新泽西（BB-62）"/><LineBreak/>
+                <Run Text="福吉谷（CG-50）"/><LineBreak/>
+                <Run Text="戴尔（CG-19）"/><LineBreak/>
+				<Run Text="莫尔德斯（D186）"/><LineBreak/>
+				<Run Text="安德伍德（FFG-36）"/><LineBreak/>
+				<Run Text="托马斯·C·哈特（FF-1092）"/><LineBreak/>
+				<Run Text="斯塔万格（F303）"/>
            </TextBlock>
 		</Border>
 		
 		<!-- TF 65.7 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="350">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="第65.7特遣舰队"/>
+                <Run Text="第65.7特遣大队"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

@@ -29,9 +29,9 @@
 		<Border Canvas.Left="10" Canvas.Bottom="140" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="东方特遣舰队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="稳健"/><LineBreak/>
-                <Run Text="光荣"/><LineBreak/>
-                <Run Text="瓦西里·恰巴耶夫"/>   
+                <Run Text="稳健（EM-679）"/><LineBreak/>
+                <Run Text="光荣（RKR-103）"/><LineBreak/>
+                <Run Text="瓦西里·恰巴耶夫（BPK-511）"/>   
            </TextBlock>
 		</Border>
 		
@@ -39,9 +39,9 @@
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="登陆部队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="好斗"/><LineBreak/>
-                <Run Text="彼得罗巴甫洛夫斯克"/><LineBreak/>
-                <Run Text="奥克佳布里斯基海军上将"/><LineBreak/>
+                <Run Text="好斗（EM-678）"/><LineBreak/>
+                <Run Text="彼得罗巴甫洛夫斯克（BPK-591）"/><LineBreak/>
+                <Run Text="奥克佳布里斯基海军上将（BPK-573）"/><LineBreak/>
                 <Run Text="伊万·罗戈夫"/><LineBreak/>
                 <Run Text="亨里希·加萨诺夫"/>
            </TextBlock>
@@ -63,7 +63,7 @@
 		<!-- TF 75.3 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="800" Canvas.Top="600">
 			<TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="第75.3特混舰队（？）"/>
+                <Run Text="第75.3特遣大队（？）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>

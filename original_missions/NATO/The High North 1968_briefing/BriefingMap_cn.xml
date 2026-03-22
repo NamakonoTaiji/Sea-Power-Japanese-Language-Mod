@@ -27,7 +27,7 @@
 		<!-- USS Joseph P. Kennedy Jr. DD-850 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="400">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="小约瑟夫·P·肯尼迪DD-850"/>
+                <Run Text="小约瑟夫·P·肯尼迪（DD-850）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

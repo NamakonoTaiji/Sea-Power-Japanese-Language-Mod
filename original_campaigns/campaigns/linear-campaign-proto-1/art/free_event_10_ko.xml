@@ -42,9 +42,9 @@
 		      <ColumnDefinition Width="Auto"/>
 		      <ColumnDefinition Width="Auto"/>
 		    </Grid.ColumnDefinitions>
-			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="SECRET" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="기밀" TextAlignment="Center"/>
 			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
-중앙 정보국 국장
+중앙정보국 국장
 <LineBreak/>
 <LineBreak/>
 <Run FontSize="12">워싱턴 D.C. 20505</Run>
@@ -69,7 +69,7 @@ CR - NIC 03508-84
 <LineBreak/>
 대통령 국가안보보좌관
 <LineBreak/>
-합동참모본부 의장
+합동참모의장
 			</TextBlock>
 			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
 EO 13526 3.3(b)(1)>25Yrs
@@ -95,7 +95,7 @@ EO 13526 3.5(c)
 <Run TextDecorations="Underline">응급실별 분포/88년 5월 19일/Atch</Run>
 <LineBreak/>
 <LineBreak/>
-오리진 - 각 수신자
+원문 - 각 수신자
 <LineBreak/>
    1 - DCI
 <LineBreak/>
@@ -107,9 +107,9 @@ EO 13526 3.5(c)
 <LineBreak/>
    1 - VC/NIC
 <LineBreak/>
-   1 - NIO/경고
+   1 - 국가정보담당관(경보담당)
 <LineBreak/>
-   1 - ER 파일
+   1 - 전자열람실 문서담당
 		  </TextBlock>
 		  <TextBlock Grid.Row="4" Text="SECRET" TextAlignment="Center"/>
 	    </Grid>

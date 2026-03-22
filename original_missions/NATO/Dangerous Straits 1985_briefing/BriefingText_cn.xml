@@ -1,0 +1,72 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		紧急
+		<LineBreak/>
+		1985年7月18日0017Z时
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第六舰队司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第61特遣舰队司令"/>
+	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="抄送："/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		华盛顿特区参谋长联席会议//参谋长联席会议主席//<LineBreak/>
+		德国法伊英根美国欧洲司令部总司令<LineBreak/>
+		弗吉尼亚州诺福克美国大西洋司令部总司令<LineBreak/>
+		华盛顿特区国防情报局
+	</TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="行动命令——优质铁砧行动"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		绝密
+		<LineBreak/>
+		<LineBreak/>
+		1.（绝密）此命令为国防部长授权的命令。
+		<LineBreak/>
+		<LineBreak/>
+		2.（绝密）态势：鉴于敌方对希腊和土耳其采取的行动，参谋长联席会议已授权进行优质铁砧行动。苏联黑海舰队的大型水面舰艇仍在爱琴海区域活动，我们必须将其摧毁。
+		<LineBreak/>
+		<LineBreak/>
+		2.（绝密）任务：美军将摧毁爱琴海上的所有苏联海军单位，之后掩护海军陆战队第26远征队在色雷斯登陆，支援岸上的希腊军队。
+		<LineBreak/>
+		<LineBreak/>
+		3.（绝密）执行：第61.2特遣大队（艾奥瓦号水面行动群）将向北进入爱琴海。第1舰载机联队（CVW-1）将为第61.2特遣大队提供飞机，根据其指示执行对敌防空压制、水面战斗空中巡逻或海上打击任务。第61.2特遣大队需要进行协调，在基辅号航母战斗群撤退至博斯普鲁斯海峡之前将其找到并摧毁。
+		<LineBreak/>
+		<LineBreak/>
+		4.（绝密）提示：苏联军队已在希腊各岛屿部署岸基导弹，截至7月17日，有1艘641B型潜艇的位置尚不明确。
+		<LineBreak/>
+		<LineBreak/>
+		5.（绝密）备注：由于爱琴海水域狭窄，你可以解除电磁辐射控制限制措施。预计将与海岸阵地发生近距离交战。消灭所有与你交战的敌军。祝你好运，猎杀愉快。
+		<LineBreak/>
+		<LineBreak/>
+		绝密
+		<LineBreak/>
+		解密：由原始发布机构决定
+		</TextBlock>
+
+</Grid>

@@ -43,7 +43,7 @@
             <StackPanel Orientation="Vertical">
                 <Image Stretch="Uniform" Source="{Binding Assets[04_Sacramento_AOE]}" Width="275"/>
 				<TextBlock Foreground="Black" TextAlignment="Left" VerticalAlignment="Center" Margin="5" FontFamily="Courier New" FontWeight="Bold">
-					<Run Text="萨克拉门托（AOE-2）"/><LineBreak/>
+					<Run Text="卡姆登（AOE-2）"/><LineBreak/>
 					<Run Text="海军1982年8月"/>
 				</TextBlock>
             </StackPanel>	
@@ -93,7 +93,7 @@
 		<!-- USS Sacramento Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="200" Canvas.Top="250">
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="萨克拉门托号编队"/>
+                <Run Text="卡姆登号编队"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>

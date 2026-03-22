@@ -15,7 +15,7 @@
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="대서양" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="890" Canvas.Top="500"/>
 		<TextBlock Foreground="Black" Text="그레나다" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="530" Canvas.Top="250"/>
-		<TextBlock Foreground="SteelBlue" Text="카리브 해" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="100" Canvas.Top="300"/>
+		<TextBlock Foreground="SteelBlue" Text="카리브해" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="100" Canvas.Top="300"/>
 		
 
 		<!-- USS Caron DD-970 -->
@@ -66,7 +66,7 @@
 		<!-- 2 x A-7E VA-15 'Valions' -->
 		<StackPanel Orientation="Vertical" Canvas.Left="150" Canvas.Top="200">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="2 x A-7E VA-15 '발리온스'"/>
+                <Run Text="2 x A-7E VA-15 '발리언즈'"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>

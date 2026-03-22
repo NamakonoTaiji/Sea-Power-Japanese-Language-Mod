@@ -26,7 +26,7 @@
     <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
 
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSUBLANT"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="대서양함대 잠수함사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="USS 볼티모어 SSN-704"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
@@ -35,19 +35,19 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		최신 - 최고 기밀
+		위급 - I급 비밀
 		<LineBreak/>
 		<LineBreak/>
-		1. (S) National technical means indicate Soviets are attempting to surge their Northern Fleet submarines into the Atlantic.
+		1. (기밀) 국가 기술적 수단에 따르면 소련은 북함대 잠수함을 대서양으로 급강하시키려 하고 있습니다.
 		<LineBreak/>
 		<LineBreak/>
-		2. (TS) NAVFAC Norway reports intermittent submerged contact with high speed submarine west of Jan Mayen Land. Evaluate this contact as ALFA class SSN.
+		2. (최고기밀) NAVFAC 노르웨이는 얀마옌 섬 서쪽에서 고속 잠수함과의 간헐적인 수중 접촉을 보고했습니다. 이 보고를 알파급 SSN으로 평가함.
 		<LineBreak/>
 		<LineBreak/>
-		3. (S) Break off from patrol station and take up position in Denmark Strait to intercept and sink this unit.
+		3. (기밀) 정찰 지점을 떠나 덴마크 해협에서 이 부대를 요격하고 침몰시키세요.
 		<LineBreak/>
 		<LineBreak/>
-		4. (S) Report location of sinking and await further orders. Good luck.
+		4. (기밀) 침몰 위치를 보고하고 추가 명령을 기다릴 것. 행운을 빔.
 		<LineBreak/>
 		<LineBreak/>
 		최고 기밀

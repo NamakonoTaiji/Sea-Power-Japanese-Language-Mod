@@ -35,7 +35,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		즉시 - 기밀처리됨
+		긴급 - II급 비밀
 		<LineBreak/>
 		<LineBreak/>
 		1. (기밀) 상황: 서독에서 나토와 조약기구 군대 간의 전투가 계속되고 있습니다. 나토 리포거 호송대는 미국 동부 해안에서 앤트워프와 브레스트로 정기적으로 이동하고 있습니다. 미 해군 잠수함과 폭격기 부대는 호송대를 차단하려고 시도하고 있지만 아직까지는 별다른 성과를 거두지 못했습니다. 5월 19일, 국가 기술 정보원은 무르만스크의 키로프 CGN 및 소브레멘니급 DDG에 있는 엔지니어링 공장에서 열이 나는 것을 감지했습니다. 다음 위성의 이미지에서 누락된 이 유닛들은 5월 22일 대서양으로 이동하는 것으로 의심됩니다.

@@ -42,10 +42,10 @@
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="闪电打击群：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="彼得罗巴甫洛夫斯克"/><LineBreak/>
-                <Run Text="瓦良格"/><LineBreak/>
-                <Run Text="火热"/><LineBreak/>
-                <Run Text="十月旗帜"/>
+                <Run Text="彼得罗巴甫洛夫斯克（BPK-591）"/><LineBreak/>
+                <Run Text="瓦良格（RKR-120）"/><LineBreak/>
+                <Run Text="火热（BPK-296）"/><LineBreak/>
+                <Run Text="十月旗帜（改装商船）"/>
            </TextBlock>
 		</Border>
 

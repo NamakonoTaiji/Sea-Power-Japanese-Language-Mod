@@ -37,7 +37,7 @@
           <TextBlock Text="杰出服役勋章" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
 		  <TextBlock Text="授予" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
           <TextBlock Text="小李·加德纳" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
-          <TextBlock Text="以表彰其作为第84舰载战斗机中队（VF-84）于1988年6月2日在阿图岛为美国建立的卓著功勋。凭借着出众的能力和个人积极性，加德纳为自己赢得了巨大的荣誉，也发扬了美国海军的光荣传统。" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
+          <TextBlock Text="以表彰其作为第84舰载战斗机中队（VF-84）指挥官于1988年6月2日在阿图岛为美国建立的卓著功勋。凭借着出众的能力和个人积极性，加德纳为自己赢得了巨大的荣誉，也发扬了美国海军的光荣传统。" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
 		</StackPanel>
 		<TextBlock Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" VerticalAlignment="Center" FontSize="12">
 于华盛顿特区签署
@@ -80,7 +80,7 @@
           <TextBlock Text="海军十字勋章" FontFamily="Imprint MT Shadow" FontSize="45" HorizontalAlignment="Center" Margin="-15,10,-15,0"/>
 		  <TextBlock Text="授予" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" TextAlignment="Center" FontSize="24" HorizontalAlignment="Center" Margin="0,5,0,0"/>
           <TextBlock Text="爱德华·G·迈耶三世" TextWrapping="Wrap" HorizontalAlignment="Center" FontFamily="Courier New" FontWeight="Bold" FontSize="26" Margin="0,5,0,0"/>
-          <TextBlock Text="以表彰其作为第75.3特遣舰队司令于1988年6月2日在阿图岛为美国建立的卓著功勋。凭借着出众的能力、个人积极性和对职责的全心投入，迈耶为自己赢得了巨大的荣誉，也发扬了美国海军的光荣传统。" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
+          <TextBlock Text="以表彰其作为第75.3特遣大队指挥官于1988年6月2日在阿图岛为美国建立的卓著功勋。凭借着出众的能力、个人积极性和对职责的全心投入，迈耶为自己赢得了巨大的荣誉，也发扬了美国海军的光荣传统。" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Courier New" FontSize="20" FontWeight="Bold"/>
 		</StackPanel>
 		<TextBlock Grid.Row="2" TextWrapping="Wrap" FontFamily="Imprint MT Shadow" VerticalAlignment="Center" FontSize="12">
 于华盛顿特区签署

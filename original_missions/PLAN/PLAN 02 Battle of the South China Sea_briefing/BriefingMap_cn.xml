@@ -29,18 +29,18 @@
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="支援部队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="昆明"/><LineBreak/>
+                <Run Text="昆明（505）"/><LineBreak/>
                 <Run Text="南运836"/><LineBreak/>
-                <Run Text="五峰山"/><LineBreak/>
-                <Run Text="333"/><LineBreak/><LineBreak/>
+                <Run Text="五峰山（928）"/><LineBreak/>
+                <Run Text="010型（333）"/><LineBreak/><LineBreak/>
 				<Run Text="南海攻击支队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-				<Run Text="长沙"/><LineBreak/>
-                <Run Text="南宁"/><LineBreak/><LineBreak/>
+				<Run Text="长沙（161）"/><LineBreak/>
+                <Run Text="南宁（162）"/><LineBreak/><LineBreak/>
 				<Run Text="永乐环礁部队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-				<Run Text="鹰潭"/><LineBreak/>
-				<Run Text="287"/><LineBreak/>
-                <Run Text="321"/><LineBreak/>
-                <Run Text="322"/>
+				<Run Text="鹰潭（531）"/><LineBreak/>
+				<Run Text="037型（287）"/><LineBreak/>
+                <Run Text="0111型（321）"/><LineBreak/>
+                <Run Text="0111型（322）"/>
            </TextBlock>
 		</Border>
 

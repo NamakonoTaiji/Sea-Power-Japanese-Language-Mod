@@ -1,0 +1,79 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="1985년 6월 1일 | Vol. 76, 22호 | 25 센트" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <!--Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/-->
+			<Grid Margin="0,5,0,15">
+				<Rectangle Fill="Red" Margin="0,110,0,5"/>
+				<TextBlock Text="특보" TextAlignment="Center" FontSize="112" FontWeight="Bold"/>
+			</Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="동서 간의 대화가 계속되면서 긴장한 유럽; 거의 진전이 없다" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+                    
+                    <TextBlock Text="NATO 관계자들은 훈련이 전쟁의 서막이라는것을 부인" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						브뤼셀 — 브뤼셀과 여러 유럽 수도의 관리들에 따르면, NATO와 바르샤바 조약 기구 국가들 간의 관계를 안정시키기 위한 노력은 최근 며칠 동안 거의 가시적인 진전을 이루지 못했습니다.
+						<LineBreak/>
+						외교적 접촉은 여전히 진행 중이지만, 유럽 관리들은 올봄 이후 동서 간의 신뢰가 크게 약화되었다고 인정하고 있습니다. 회담에 정통한 고위 외교관들은 최근의 교류가 대체로 절차적이라고 설명했으며, 양측은 긴장을 완화할 수 있는 약속을 피하면서 기존 입장을 다시 표명했습니다.
+						<LineBreak/>
+						여러 NATO 국가의 국방부는 노르웨이해에서의 해상 기동과 서독에서의 지상 훈련을 포함한 군사 훈련이 가속화되었다고 확인했습니다. 분석가들은 특히 이러한 훈련이 소련군에 의해 관찰될 경우 활동 속도가 사고 위험을 증가시킨다고 경고합니다. (2페이지에서 계속)
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[01_nato_tanks]}" Stretch="Uniform"/>
+                    <TextBlock Text="지난주 NATO 훈련 중 미국 중전차가 서독의 훈련장을 가로질러 진격하고 있습니다. 국방 관계자들은 군사 준비 수준이 계속해서 상승하고 있음에도 불구하고 훈련이 방어적이었다고 강조했습니다. 동서 관계 악화에 대한 우려가 커지는 가운데 비슷한 훈련이 중부 유럽 전역으로 확대되었습니다. 유사한 해군 훈련이 6월 말에 계획되어 있습니다. (AP 사진)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="유럽의 상황은 불확실성이 높아졌습니다" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						로테르담 – 유럽 전역의 해운 회사와 보험사들은 최근 몇 주 동안 동서 간의 긴장이 고조됨에 따라 위험 노출을 재평가하고 있습니다. 그 결과 이번 달 대서양 횡단 화물의 보험료가 급격히 인상되었습니다.
+						<LineBreak/>
+						해상 보험 부문의 대표들은 특히 에너지 및 원자재 공급을 지원하는 장거리 무역로에 대한 조사가 강화되었다고 지적합니다. 해상 보안 환경이 더욱 불확실해짐에 따라 여러 회사들이 예방 주의보를 발령하기 시작했습니다.
+						<LineBreak/>
+						상업 운송에 대한 공식적인 제한은 없지만, 보험사들은 정치적 상황이 더욱 악화될 경우 기존 해상 항로의 예측 가능성이 낮아질 수 있다고 경고합니다. (3 페이지에서 계속)
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <Image Source="{Binding Assets[01_container_ship_photo]}"/>
+                    <TextBlock Text="뉴욕행 컨테이너선 M/V 보타니 베이가 이달 초 로테르담 항구를 출발합니다. 이와 같은 선박은 유럽과 북미 간의 대서양 횡단 무역에서 중요한 연결 고리를 형성하며, 제조된 상품과 원자재를 운송합니다. (왕립 해군 사진)" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+			<TextBlock Text="-1-" TextAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

@@ -1,0 +1,117 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+	  <Border.Effect>
+	    <DropShadowEffect />
+	  </Border.Effect>
+			
+	  <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+	    <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="10"/>
+		    <RowDefinition Height="*"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		  </Grid.RowDefinitions>
+	      <TextBlock Text="C05084475" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+		  <Grid Grid.Row="0">
+		    <Grid.RowDefinitions>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="10"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		    </Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="*"/>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="Auto"/>
+		    </Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="I급 기밀" TextAlignment="Center"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+				중앙 정보국 국장
+				<LineBreak/>
+				<LineBreak/>
+				<Run FontSize="12">워싱턴 D.C., 20505</Run>
+			</TextBlock>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="1985년 6월 28일"/>
+			<TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="비망록:   "/>
+			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+				워싱턴 D.C 합동참모부//J3//
+				<LineBreak/>
+				미국대서양함대 노퍽, 버지니아
+				<LineBreak/>
+				유럽사령부 바이잉겐, 독일
+				<LineBreak/>
+				태평양 사령부 호놀룰루, 하와이
+				<LineBreak/>
+				전략공군사령부 오펏 공군기지, 네브래스카
+			</TextBlock>
+			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+				EO 13526 3.3(b)(1)>25Yrs
+				<LineBreak/>
+				EO 13526 3.5(c)
+			</TextBlock>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="내용:   "/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="소련의 남대서양 해상 작전 확장"/>
+		  </Grid>
+		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
+			1. 우리는 소련이 의도적으로 남해를 해상 전쟁의 활발한 무대로 개방했다고 평가함. 연락 보고와 국가 기술 수단은 남대서양에서 활동하는 소련 공습 부대를 나타냄. 이 부대는 06/28 시점에서 위치가 밝혀지지 않음.
+			<LineBreak/>
+			<LineBreak/>
+			2. 이 레이더 그룹의 핵심 부대는 적대 행위가 발생하기 전에 북부함대는 해역을 떠났지만, 악천후로 인해 중부 대서양에서 연락이 끊겼음.
+			<LineBreak/>
+			<LineBreak/>
+			3. 6월 26일, 미국 국적의 상선 4척이 케이프타운으로 향하던 중 트리스탄 다 쿠냐 동쪽에서 공격을 받음. 생존자들은 영국 해군에 의해 구조되어 세인트 헬레나로 이송됨. 승무원 증언에 따르면 소련의 공중 및 함상 공격이 조직적으로 이루어졌다고 함. 일부 승무원들은 적대 행위가 시작되었다는 사실을 알지 못했음.
+			<LineBreak/>
+			<LineBreak/>
+			4. 경비행기의 공격에 대한 보고는 국방부 내에서 우려를 불러일으켰으며, 이는 레이더 그룹이 소련 해군 항공 지원을 받아 작전을 수행할 수 있음을 시사함. 알려진 소련 기지와의 극한 거리를 고려할 때, 우리는 Yak-38 VTOL 전투기를 운용하는 즉흥 항공 플랫폼으로서 개조된 RoRo 아고스티뉴 네토의 사용 가능성을 평가함. 이 배는 이전에 영국 포클랜드에서 경험한 후 VTOL 작전을 위해 시험 운행되었음.
+			<LineBreak/>
+			<LineBreak/>
+			5. 유럽과 태평양에서의 지속적인 약속은 우리가 이 극장에서 신속하게 대응할 수 있는 능력을 제한함. 남아프리카 공화국은 특정 조건에 따라 제한된 항공/해군 자산을 제공하기로 합의했음. 이 협력은 기존 제재 및 무기 금수 조치의 시행과 관련하여 암묵적인 양보를 요구해 왔으며, 추가적인 정책적 함의는 고위급 검토가 필요함. 대서양에서의 우리 부대 배치는 최대한 빨리 전달될 것.
+			<LineBreak/>
+			<LineBreak/>
+		  </TextBlock>
+		  <TextBlock TextAlignment="Right" Text="William J. Casey, Director" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0" Grid.Row="2"/>
+		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+			<Run TextDecorations="Underline">전자열람실 배포자료 / 1985년 6월 28일 / 붙임 문서 포함</Run>
+			<LineBreak/>
+			<LineBreak/>
+			원문 - 각 수신자
+			<LineBreak/>
+			   1 - 중앙정보국장
+			<LineBreak/>
+			   1 - 중앙정보국 부국장
+			<LineBreak/>
+			   1 - 집행국장
+			<LineBreak/>
+			   1 - C/NIC
+			<LineBreak/>
+			   1 - VC/NIC
+			<LineBreak/>
+			   1 - 국가정보담당관(경보담당)
+			<LineBreak/>
+			   1 - 전자열람실 문서담당
+		  </TextBlock>
+		  <TextBlock Grid.Row="4" Text="최고 기밀" TextAlignment="Center"/>
+	    </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

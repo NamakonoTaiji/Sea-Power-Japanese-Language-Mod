@@ -35,7 +35,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		긴급
+		위급
 		<LineBreak/>
 		<LineBreak/>
 		1. (기밀) 상황이 악화됨에 따라 남부 카리브해에서의 군사 작전 가능성이 높아지고 있습니다.

@@ -1,0 +1,50 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="적기북부함대 사령부"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="K-316 함장"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="수송 작전"/>
+		<TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1985년 6월 24일"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		1. NATO군이 독일내 동지들에 대한 공격 작전을 시작했습니다. 우리는 이제 전쟁 기반에서 작전을 수행하고 있습니다. 미국에서 오는 NATO군의 유럽 강화를 막는 것은 해군의 책임입니다. 따라서 모든 북부함대 잠수함은 대서양으로 진격하라는 명령을 받았습니다.
+		<LineBreak/>
+		<LineBreak/>
+		2. K-316은 얀마옌 섬의 순찰지점에서 덴마크 해협을 거쳐 대서양으로 이동하라는 명령을 받았습니다.
+		<LineBreak/>
+		<LineBreak/>
+		3. 경고: 정보 소식통에 따르면 미국 로스앤젤레스급 공격 잠수함이 덴마크 해협에서 순찰 중이라고 합니다.
+		<LineBreak/>
+		<LineBreak/>
+		4. 우리 미사일 잠수함들이 당신 뒤를 따르고 있으니, 이 미국 잠수함을 침몰시키는 것이 최우선 과제입니다. 그것을 찾아서 파괴한 다음, 전술적 상황이 허락하면 보고하세요. 행운을 빕니다, 동지.
+		<LineBreak/>
+		<LineBreak/>
+		/s/ I. M. 카피타네츠 소장
+		<LineBreak/>
+		<LineBreak/>
+		Cовершенно cекретно
+		<LineBreak/>
+		При чтении — уничтожить
+		<LineBreak/>
+    </TextBlock>
+</Grid>

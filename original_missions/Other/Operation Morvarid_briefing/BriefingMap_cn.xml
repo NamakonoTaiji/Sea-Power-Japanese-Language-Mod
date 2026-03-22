@@ -16,8 +16,8 @@
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="第421特遣舰队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="胸甲P225"/><LineBreak/>
-                <Run Text="箭头P224"/>
+                <Run Text="胸甲（P225）"/><LineBreak/>
+                <Run Text="箭头（P224）"/>
            </TextBlock>
 		</Border>
 

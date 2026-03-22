@@ -36,12 +36,12 @@
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-        1.  (기밀) 전술적 상황:<LineBreak/>
+        1.   (II비) 전술적 상황:<LineBreak/>
       <LineBreak/>대서양으로 돌파하기 위해서는 지브롤터 기지를 통과해야함. 적군의 해군과
       공군으로부터 강력한 저항이 있을것이라 기대됨. 어떠한 피해를 입더라도 항공모함을 보호해야함. 목표물을 확인할것: 민간인 피해는 용납되지 않음.
       <LineBreak/>
       <LineBreak/>
-      2.  (기밀) 중요 목표:
+      2. (II비) 중요 목표:
       <LineBreak/>
       <LineBreak/>
       아군 잠수함과 지정된 지역에서 재집결할것.
@@ -49,18 +49,18 @@
       - 빌누스는 반드시 생존시킬것.
       <LineBreak/>
       <LineBreak/>
-      3. (기밀) 부차적 목표:
+      3. (II비) 부차적 목표:
       <LineBreak/>
       <LineBreak/>
       가능하면 지브롤터 기지를 무력화할것.
       <LineBreak/>
       <LineBreak/>
-      4.  (기밀) 가능하다면 적군의 항공정찰대로부터 발각되지 않도록 할것.
+      4. (II비) 가능하다면 적군의 항공정찰대로부터 발각되지 않도록 할것
       <LineBreak/>
       <LineBreak/>
-      5.  (기밀) 교전제한
+      5. (II비) 교전제한
       <LineBreak/>
       <LineBreak/>
-      6.  (기밀) 전파통제 - 추가 지시 전까진 무선침묵 유지.
+      6.  (II비) 전파통제 - 추가 지시 전까진 무선침묵 유지
     </TextBlock>
 </Grid>

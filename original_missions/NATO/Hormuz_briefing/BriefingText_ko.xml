@@ -40,7 +40,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.  (기밀)    전술적 상황:
+      1.  (II비)    전술적 상황:
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -56,7 +56,7 @@
 	
 	  <LineBreak/>
       <LineBreak/>
-      2.  (기밀) 중요 목표:
+      2. (II비) 중요 목표:
       <LineBreak/>
       <LineBreak/>
 	<!--
@@ -90,7 +90,7 @@
       5.  (S) EMCON - Maintain radio silence until otherwise directed
 	  -->
 	  
-	  (기밀) 전파통제 - 대함미사일 공격의 가능성이 매우 높은 관계로 전파통제는 해제됨
+	  (II비) 전파통제 - 대함미사일 공격의 가능성이 매우 높은 관계로 전파통제는 해제됨
 	  
     </TextBlock>
 </Grid>

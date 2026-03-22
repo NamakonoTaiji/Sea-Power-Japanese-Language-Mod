@@ -1,0 +1,59 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}"> 緊急（FLASH） <LineBreak /> Z 180017Z JUL 85 </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="第6艦隊司令官（COMSIXTHFLT）" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="第61任務部隊指揮官（CTF 61）" />
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報" />
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        統合参謀本部（ワシントンDC） //統合参謀本部議長//<LineBreak /> 欧州軍総司令官（ヴァイヒンゲン、西独）<LineBreak />
+        大西洋軍総司令官（ノーフォーク、バージニア州）<LineBreak /> 国防情報局（ワシントンDC） </TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="実施命令――プライム・アンビル作戦" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 最高機密（TOP SECRET） <LineBreak />
+        <LineBreak /> 1. (TS)
+        本命令は、国防長官の権限および指示に基づく実施命令である。 <LineBreak />
+        <LineBreak /> 2. (TS)
+        状況：ギリシャおよびトルコに対する敵対行動を受け、統合参謀本部はプライム・アンビル作戦の発動を承認した。エーゲ海にはソ連黒海艦隊の有力な水上部隊が依然として展開しており、これらを撃滅せよ。
+        <LineBreak />
+        <LineBreak />
+        2. (TS) 任務：米軍はエーゲ海における全てのソ連海軍部隊を撃破せよ。その後、地上軍を支援するため、トラキアへの第26海兵揚陸部隊（26 MAU）の上陸を掩護せよ。 <LineBreak />
+        <LineBreak />
+        3. (TS)
+        実施：第61.2任務部隊（アイオワ水上打撃群）はエーゲ海を北進せよ。第1空母航空団（CVW-1）およびギリシャ空軍は、SEAD（敵防空網制圧）、SuCAP（水上戦闘航空哨戒）、または対艦攻撃任務のため、指揮官の裁量に応じ第61.2任務部隊に対して攻撃機を提供せよ。第61.2任務部隊は、空母航空団と連携し、ボスポラス海峡へと撤退する前にキエフ級空母戦闘群を捕捉・撃滅せよ。
+        <LineBreak />
+        <LineBreak />
+        4. (TS) 警告：ソ連軍はギリシャの島々の至る所に地上発射型ミサイルを配置している。また、7月17日時点でタンゴ級潜水艦1隻が消息不明である。 <LineBreak />
+        <LineBreak />
+        5. (TS)
+        備考：エーゲ海の狭隘な海域特性を考慮し、電波封止（EMCON）制限を解除する。沿岸陣地との近接戦闘を覚悟せよ。諸君を攻撃する全ての敵対勢力を粉砕せよ。諸君の幸運と健闘を祈る。第6艦隊司令官より。
+        <LineBreak />
+        <LineBreak />
+        最高機密（TOP SECRET） <LineBreak /> DECL OADR BT </TextBlock>
+
+</Grid>

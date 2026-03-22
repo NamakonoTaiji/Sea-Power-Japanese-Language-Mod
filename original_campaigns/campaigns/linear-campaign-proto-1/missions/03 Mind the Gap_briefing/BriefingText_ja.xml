@@ -20,7 +20,7 @@
         <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
     <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
-        FontSize="{StaticResource Font.Size.Header}"> 極秘（SECRET） <LineBreak /> Z 120800Z MAY 88 </TextBlock>
+        FontSize="{StaticResource Font.Size.Header}"> 極秘（SECRET） <LineBreak /> Z 180800Z MAY 88 </TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
         Text="大西洋艦隊司令官（COMLANTFLT）" />

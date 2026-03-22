@@ -1,0 +1,118 @@
+<!-- Campaign event template USSR dispatch - formatting taken from real world examples -->
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="clr-namespace:SeapowerUI"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="# 374/PR/52" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Text="17.05.85 r." Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="Cовершенно cекретно" Margin="0" TextDecorations="Underline" FontSize="20" FontWeight="Bold" TextAlignment="Right"/>
+			<TextBlock Grid.Row="1" Grid.Column="2" Text="Экз. № 1" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+		</Grid>
+
+				<TextBlock Text="017/85호 지침" Margin="0" FontSize="20" FontWeight="Bold" TextAlignment="Left"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+				<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="발신:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="해군 최고사령부 (GK VMF)"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="수신:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="적기 북부함대 사령부"/>
+				<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="참조:"/>
+				<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="적기 태평양함대 사령부"/>
+				<TextBlock Grid.Row="6" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="내용:"/>
+				<TextBlock Grid.Row="6" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" HorizontalAlignment="Left" FontWeight="Bold" Text="페트로파블롭스크의 전진 배치"/>
+
+				<TextBlock Grid.Row="7" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap" FontWeight="Bold">
+					<LineBreak/>
+					현재 국제 정세와 승인된 비상 계획 지침에 따라 적기 태평양함대 대형 대잠함 페트로파블롭스크는 적기 북부함대에 배속함.
+					<LineBreak/>
+					<LineBreak/>
+					적기 북부함대 사령관은 남대서양에 배치한 페트로파블롭스크를 재배치하라는 명령을 받았음. 페트로파블롭스크는 다음 함들과 합류할 예정:
+					<LineBreak/>
+					<LineBreak/>
+					• 미사일 순양함 바랴그
+					<LineBreak/>
+					• 대형 대잠함 오그네보이
+					<LineBreak/>
+					• 실험용 항공선 즈나미야 오흐티부라
+					<LineBreak/>
+					• 8 x Yak-38 제279독립함재공격항공연대
+					<LineBreak/>
+					<LineBreak/>
+					이 부대는 몰니야(번개) 타격전단으로 지정됨. 기동 부대는 불필요한 접촉을 피하고 엄격한 무선 침묵 조건 하에서 진행되며, 기존 상업용 선박 항로를 벗어나 운영되어야 함.
+					<LineBreak/>
+					<LineBreak/>
+					지정된 작전 구역에 도착하면, 타격전단은 적대 행위가 발생할 경우 전투 임무를 수행할 완전한 준비 태세를 유지할 것. 운영 상황의 변경 사항이 확인되면 추가 지침이 전송될 것.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="8" Grid.ColumnSpan="4" TextWrapping="Wrap" FontWeight="Bold">
+					지침 끝
+					<LineBreak/>
+					/s/ 고르시코프
+					<LineBreak/>
+					<LineBreak/>
+					Cовершенно cекретно
+					<LineBreak/>
+					После прочтения — уничтожить
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>
