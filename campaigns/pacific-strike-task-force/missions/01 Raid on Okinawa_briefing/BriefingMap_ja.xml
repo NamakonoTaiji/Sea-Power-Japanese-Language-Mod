@@ -1,0 +1,151 @@
+<Viewbox Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+    <Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[01_Okinawa_Close]}"/>
+        <!-- 小地図 -->
+        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[WesternPacificFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="120,0,0,130" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+        <!-- 写真挿入 -->
+        <Border Canvas.Left="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Border.Effect>
+                <DropShadowEffect Opacity="0.25"/>
+            </Border.Effect>
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="5" CenterY="200"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[01_tropic]}" Width="250"/>
+            </Grid>
+        </Border>
+        <!-- 写真挿入 -->
+        <Border Canvas.Left="15" Canvas.Top="20" BorderThickness="5" BorderBrush="White">
+            <Border.Effect>
+                <DropShadowEffect Opacity="0.25"/>
+            </Border.Effect>
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="10" CenterY="200"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[01_tropic]}" Width="250"/>
+            </Grid>
+        </Border>
+
+        <!-- プレイヤー部隊概要 -->
+        <!--<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
+            <TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
+                <Run Text="{TaskForceName}:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                {TaskForceVesselSummaryRuns}
+           </TextBlock>
+        </Border>-->
+        
+        <!-- 作戦海域楕円 -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="240" Canvas.Top="440" >
+            <Ellipse Width="100" Height="100" Opacity="0.25" Fill="{StaticResource NTDS.HostileColour}"/>
+            <!-- 作戦海域テキスト -->
+            <TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="久米島" HorizontalAlignment="Center"/>
+            <TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="上陸予想地域" HorizontalAlignment="Center" />
+        </StackPanel>   
+        
+        <!-- 地図ラベル -->
+        <TextBlock Foreground="Black" Text="沖縄" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="975" Canvas.Top="375"/>
+        
+        <!-- {TaskForceName} グループアイコンおよびテキスト -->
+        <StackPanel Orientation="Vertical" Canvas.Left="750" Canvas.Top="415">
+            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="同盟軍任務部隊"/>
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+        <!-- USS Drum グループアイコンおよびテキスト -->
+        <!--<StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="300">
+            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="USS Drum SSN-677"/>
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>-->
+        <!-- P-3C グループアイコンおよびテキスト -->
+        <StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="550">
+            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="海上自衛隊P-3C第9航空隊「シースター」"/>
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+        <!-- E-3A グループアイコンおよびテキスト -->
+        <StackPanel Orientation="Vertical" Canvas.Left="850" Canvas.Top="450">
+            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="米空軍E-3A第961空中警戒管制飛行隊「ダークスター」"/>
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+        <!-- PLAN強襲部隊 グループアイコンおよびテキスト -->
+        <StackPanel Orientation="Vertical" Canvas.Left="400" Canvas.Top="100">
+            <TextBlock Foreground="Red" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="中国海軍打撃部隊"/>
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+        <!-- 不明部隊 グループアイコンおよびテキスト -->
+        <StackPanel Orientation="Vertical" Canvas.Left="50" Canvas.Top="425">
+            <TextBlock Foreground="{StaticResource NTDS.UnknownColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="ソ連軍工作部隊（？）"/>
+            </TextBlock>
+            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.UnknownColour}" Data="{StaticResource NTDS.Unknown.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.UnknownColour}"/>
+            </Canvas>
+        </StackPanel> 
+
+        
+        <!--<Grid Canvas.Left="750" Canvas.Top="415">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.Column="0" Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+            <TextBlock Grid.Column="1" Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="{TaskForceName}"/>
+            </TextBlock>
+        </Grid>-->
+        <!-- 矢印 -->
+        <!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+        <Path Canvas.Left="225" Canvas.Top="470" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="100"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path Canvas.Left="515" Canvas.Top="200" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="140"/>
+            </Path.RenderTransform>
+        </Path>
+
+    </Canvas>
+</Viewbox>

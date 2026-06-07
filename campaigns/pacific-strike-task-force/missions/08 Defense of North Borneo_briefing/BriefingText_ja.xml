@@ -1,0 +1,65 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        最優先（FLASH）
+        <LineBreak/>
+        Z 190300Z SEP 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（CTF 77）"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName}指揮官（サンダカン、マレーシア）"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
+        オーストラリア王立空軍第81臨時飛行団（サンダカン、マレーシア）
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="警告――敵によるサンダカンへの攻撃切迫"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        最高機密（TOP SECRET）
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) 状況：インドネシアでの作戦成功を受け、同盟軍の攻勢は7月以来敵軍が固執しているパラワン島の奪還に向けて北方へと移行した。マレーシアのサンダカンにある同盟軍基地は、今後の作戦のための出撃拠点として使用されている。国家技術手段の示すところによると、敵は同盟軍の攻勢作戦を遅延させるため、サンダカンに対する攻勢妨害攻撃を間近に企図している模様。
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) 任務：サンダカン周辺の米軍および同盟軍部隊は、敵の海空からの攻撃を撃退せよ。
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) 実施：{TaskForceName}は局地防衛の戦術指揮権を執り、すべての戦力を連携させて敵の攻撃を破れ。防衛の最優先はサンダカン港内に錨泊中の同盟軍補助艦艇である。これらの艦艇に対する敵の爆撃またはミサイル攻撃は阻止（MUST）されなければならない。サンダカンを攻撃するすべての敵戦力を撃滅せよ。
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) 脅威：プエルト・プリンセサの区分情報源「スターライト（STAR LIGHT）」によると、敵水上部隊がサンダカン攻撃のため出撃中である。中国海軍（PLAN）のミサイル艇が江滬（JIANGHU）型フリゲートの掩護下で沿岸を移動しているのが目撃されたほか、直近の衛星通過時には旅大（LUDA）型駆逐艦がスールー海を南東に進発しているのが確認された。敵潜水艦の存在も報告されており、プエルト・プリンセサおよびカムラン湾からの航空攻撃の可能性が極めて高い。
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) 同盟軍：{TaskForceName}に編入されたフィリピン海軍部隊はハープーンを換装され、各艦に軽攻撃ヘリコプターを搭載している。同盟軍航空部隊はサンダカンから出撃するが、同基地の簡素な設備環境のため兵装の備蓄は限られている。サンダカン港近郊のホーク（HAWK）陣地が局地的な地対空ミサイル（SAM）の掩護を提供する。
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) 備考：サンダカンの同盟軍基地を確実に死守せよ。諸君の幸運と健闘を祈る。第77任務部隊指揮官より。
+        <LineBreak/>
+        <LineBreak/>
+        機密（SECRET）
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

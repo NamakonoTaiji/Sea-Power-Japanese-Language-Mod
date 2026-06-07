@@ -1,0 +1,66 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+	BLITZ
+	<LineBreak/>
+	Z 070230Z JUN 85
+	</TextBlock>
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77 YOKOSUKA JA"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KOMMANDANT {TaskForceName}"/>
+	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		CINCPACFLT PEARL HARBOR HI<LineBreak/>
+		COMUSJAPAN YOKOTA AB
+	</TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NEUE BEFEHLE - VERTEIDIGUNG VON SINGAPUR"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) FEINDLICHE LUFT- UND SEESTREITKRÄFTE BEDROHEN NUN SINGAPUR.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MIT SOFORTIGER WIRKUNG WIRD {TaskForceName} VON OKINAWA ABKOMMANDIERT.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) VERLEGEN SIE MIT HÖCHSTMÖGLICHER GESCHWINDIGKEIT NACH SANDAKAN, MALAYSIA, UM SICH DEN DORT SAMMELNDEN ALLIIERTEN KRÄFTEN ANZUSCHLIESSEN.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) FEINDLICHE U-BOOT-PRÄSENZ IN DER PALAWAN-PASSAGE UND NORDWESTLICH VON BORNEO VERMUTET.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) HINWEIS: ALLE ALLIIERTEN U-BOOTE SIND BEI TAIWAN UND OKINAWA VOLL GEBUNDEN. DER RAUM PALAWAN IST FREIE FEUERZONE FÜR UNTERWASSERKONTAKTE.
+		<LineBreak/>
+		<LineBreak/>
+		6. (S) ERREICHEN SIE SANDAKAN UND ERWARTEN SIE WEITERE BEFEHLE. HINWEIS: AUFGRUND DER BEGRENZTEN VERSORGUNGSLAGE STEHT IN SANDAKAN KEINE MUNITIONSVERSORGUNG ZUR VERFÜGUNG. VIEL GLÜCK.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+		<LineBreak/>
+		DECL OADR BT
+	</TextBlock>
+</Grid>

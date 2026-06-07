@@ -1,0 +1,331 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=600}">
+  <Grid Margin="14">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="12"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <TabControl Grid.Row="0">
+      <TabItem Header="Overview">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Pacific Strike '85 - Task Force Mode" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Welcome, Commander!" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="War has broken out in Europe and the Pacific. You are the Allies' first line of defense, stationed in Japan at the outbreak of hostilities." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Your Goal" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Build a task force with Campaign Points." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="{Binding StartingPointsRuleText}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Lead that force through connected operations." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Rearm: available before certain missions, for free." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Repair: available before certain missions, requiring points to repair damage." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Damage, losses, repairs, aircraft, and upgraded loadouts can shape the campaign as it develops." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Use the other tabs if you want more detail before starting." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Commander">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Commander Rules" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Coalition Command" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="At the outbreak of hostilities, U.S., Japanese, and Australian naval forces were preparing for a major allied exercise in the Pacific. When the crisis became war, those forces were folded into a combined command." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <TextBlock Text="You may lead the campaign as a commander from the USA, Japan, or Australia." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <TextBlock Text="Commander nationality does not change mission rules, ship performance, aircraft performance, or combat capability." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="National Purchase Discount" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Commanders receive a "/><Run Text="{Binding SameNationDiscountPercentText}"/><Run Text="% point discount when purchasing units from their own nation."/>
+            </TextBlock>
+            <TextBlock Text="- Most available units are from the USA, so choosing a U.S. commander provides the most flexibility." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Japanese or Australian commanders increase the challenge without changing the missions themselves." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Awards and Promotions" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Your commander's campaign progress is tracked in the Service Record." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- The Service Record includes promotions, medals, total kills, losses, survivors rescued, and score." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Select an award or ribbon to read its full citation." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Unit Catalog">
+        <Grid Margin="16,14,16,18">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="12"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <TextBlock Text="Unit Prices" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap"/>
+          <TextBlock Grid.Row="2" Text="Review available unit classes and point costs. Select a class name to open its unit reference. Use the Task Force Builder to add units to your task force." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+
+          <Grid Grid.Row="4" Margin="0,0,16,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="210"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="150"/>
+              <ColumnDefinition Width="220"/>
+              <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Nation" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Nation" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="1" Content="Class Name" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="ClassName" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="2" Content="Category" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Category" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="3" Content="Type" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Type" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="4" Content="Price" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Price" Height="28" Padding="8,0" HorizontalContentAlignment="Right"/>
+          </Grid>
+
+          <Border Grid.Row="5" Height="1" Background="#59606B" Margin="0,0,16,0"/>
+
+          <ScrollViewer Grid.Row="6" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl ItemsSource="{Binding RosterPriceRows}">
+              <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                  <Border BorderBrush="#253140" BorderThickness="0,0,0,1" Margin="0,0,16,0">
+                  <Grid MinHeight="34" Margin="0,2,0,2">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="210"/>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="150"/>
+                      <ColumnDefinition Width="220"/>
+                      <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="8,0">
+                      <Image Source="{Binding NationFlag}" Width="30" Height="20" Stretch="Uniform" Margin="0,0,8,0"/>
+                      <TextBlock Text="{Binding NationName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Grid.Column="1"
+                            Command="{Binding OpenReferenceCommand}"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,0"
+                            HorizontalContentAlignment="Left">
+                      <TextBlock Text="{Binding ClassName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+                    </Button>
+                    <TextBlock Grid.Column="2" Text="{Binding CategoryName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                    <TextBlock Grid.Column="3" Text="{Binding TypeName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                    <TextBlock Grid.Column="4" Text="{Binding PriceText}" FontSize="15" Foreground="#D8DDE8" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                  </Grid>
+                  </Border>
+                </DataTemplate>
+              </ItemsControl.ItemTemplate>
+            </ItemsControl>
+          </ScrollViewer>
+        </Grid>
+      </TabItem>
+
+      <TabItem Header="Campaign Rules">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Campaign Rules" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Persistence" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Damage, ammunition use, and losses carry forward between missions." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Ships can repair their damage slightly between missions, but full repair still costs campaign points." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Damaged ships can be repaired when repairs are available, but repairs cost campaign points." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Ships which are heavily damaged cannot be repaired and can only be decommissioned. Ships which are lightly or moderately damaged can be repaired for points." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Rearming is only available between certain missions. Task Force Manager will show a green 'Rearmed' icon when your ships have been rearmed before the mission." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+            <TextBlock Text="Building and Managing the Task Force" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Manage your force from the task force bar at the top of the campaign map. It shows current points, force status, and available task force actions between missions." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Open "/><Hyperlink Command="{Binding OpenTaskForceBuilderCommand}">Task Force Builder</Hyperlink><Run Text=" from the task force bar to add ships, submarines, helicopters, and aircraft to your task force."/>
+            </TextBlock>
+            <TextBlock Text="- Selected units are not purchased until the task force is confirmed." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Unit availability can change between missions. Japanese units, for example, may not be available after leaving Japanese waters." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Use the task force bar to repair damage, inspect weapons, change loadouts, view proficiency, and manage aircraft assignments."/>
+            </TextBlock>
+            <TextBlock Text="- The Unit Catalog tab lists available unit classes and point costs." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Task Force Builder Availability" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Some missions take your task force far from friendly bases. When operating at sea, you may not be able to add new units between missions." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- New units can only be added when the Task Force Builder is available. Continue the campaign until your force reaches a friendly base." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Any limits on resupply or reinforcement will be noted in the mission description before you deploy." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Campaign Points" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Spent points are final and cannot be refunded." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="{Binding PurchaseLoadoutsRuleText}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Dismissing a unit from Task Force Manager will return "/><Run Text="{Binding DismissRefundPercentText}"/><Run Text="% of its points value."/>
+            </TextBlock>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Decommissioning a heavily damaged unit that cannot be repaired will return "/><Run Text="{Binding DecommissionRefundPercentText}"/><Run Text="% of its points value."/>
+            </TextBlock>
+            <TextBlock Text="- Losing a ship in combat will return none of its points value." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Additional points are awarded as the campaign advances and missions are completed." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Crew Proficiency" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Units increase their proficiency level by surviving missions." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Higher proficiency improves combat efficiency, sensor processing speed, damage control capability, and reduces the chance that hits will be fatal." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <Border Width="1120" HorizontalAlignment="Center" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="1" Background="{StaticResource Brush.Window.Background}" Margin="0,0,0,14">
+              <Grid>
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="126"/>
+                  <ColumnDefinition Width="112"/>
+                  <ColumnDefinition Width="150"/>
+                  <ColumnDefinition Width="150"/>
+                  <ColumnDefinition Width="132"/>
+                  <ColumnDefinition Width="174"/>
+                  <ColumnDefinition Width="144"/>
+                  <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Proficiency" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="1" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Survived Missions" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Number of missions the unit must survive to reach this proficiency level."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="2" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Contact Processing" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplier for target acquisition, sonar target-motion analysis, ESM identification, and acoustic confidence growth."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="3" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Hull/Flood/Fire Repair" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplier for flooding-rate repair, flooding repair, structure repair, and fire-severity repair."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="4" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="System Repair" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplier for repairing damaged ship systems."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="5" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Aircraft Gun Intercept" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Aircraft cannon interception bonus against aircraft / missiles."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="6" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Critical Hit Bonus" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Additional chance for a successful attack to cause a severe or instantly fatal result."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="7" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1">
+                  <TextBlock Text="Fatal Hit Risk" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Chance for the unit to suffer an immediately fatal result when it is hit."/>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Green}" HorizontalAlignment="Center">
+                    <TextBlock Text="Novice" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="0" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0 / +0" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="10%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="2" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Trained}" HorizontalAlignment="Center">
+                    <TextBlock Text="Regular" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="2" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.25x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+5 / +2" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="10%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="3" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Seasoned}" HorizontalAlignment="Center">
+                    <TextBlock Text="Seasoned" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+10 / +3" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+2%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="8%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="4" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Veterans}" HorizontalAlignment="Center">
+                    <TextBlock Text="Veteran" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="4" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.75x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+15 / +4" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+4%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="6%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="5" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Ultra}" HorizontalAlignment="Center">
+                    <TextBlock Text="Elite" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="7" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="3x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="3x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="+20 / +5" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="+6%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,0"><TextBlock Text="5%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+              </Grid>
+            </Border>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Aircraft and Submarines" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Ships purchased in Task Force Builder include their airwing for free, and those aircraft are assigned to the ship automatically. Replacement aircraft must be purchased separately if aircraft are lost." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Helicopters are available immediately at campaign start. Each ship will show its supported aircraft in Task Force Builder." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Fixed-wing aircraft are not available for purchase at the start of the campaign, but become available later on." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Purchased fixed-wing aircraft operate from airbases in missions that support them. If no airbase is available, fixed-wing aircraft do not deploy and are held in reserve." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Submarines operate independently of your task force. They appear in separate (but connected) optional side missions, which offer benefits to complete, but do not advance the main campaign." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Flagships" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- A surface ship is required before the task force can deploy." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- The first ship in your task force is the flagship by default. You can assign any ship as flagship from Task Force Manager." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- The flagship must survive each mission. Other units in the task force may be lost, but if the flagship is destroyed, the mission fails." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Search and Rescue" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Life rafts may appear when ships are sunk or aircraft are shot down. Move a helicopter or ship close to the rafts to recover survivors." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14">
+              <Run Text="- Every "/><Run Text="{Binding CSARPointModifierText}"/><Run Text=" survivors rescued in a mission awards 1 campaign point at mission end. Partial groups do not award additional points."/>
+            </TextBlock>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Mission Outcomes" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Losing a mission does not damage your task force or apply additional penalties." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- A failed mission must be replayed and completed successfully to advance." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Completed missions can be replayed with the original task force built for that mission." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- After completing the campaign, all missions unlock for use with any task force you configure." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+    </TabControl>
+
+    <Button Grid.Row="2"
+            HorizontalAlignment="Right"
+            Width="110"
+            Height="32"
+            Content="{Binding Path=LanguageDictionary[genericskip], Source={StaticResource LanguageResourceInterface}, FallbackValue='Skip'}"
+            Command="{Binding CloseWindowCommand}"/>
+  </Grid>
+</Page>

@@ -1,0 +1,53 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border Background="#2b2d31" HorizontalAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="900" TextElement.Foreground="#949aa1" TextElement.FontWeight="Bold" TextElement.FontSize="16" Padding="20">
+
+        <StackPanel Orientation="Vertical">
+
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="100"/>
+					<ColumnDefinition Width="3*"/>
+					<ColumnDefinition Width="100"/>
+				</Grid.ColumnDefinitions>
+				
+				<Button Grid.Row="0" Grid.Column="0" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&lt;&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_4.xml"/>
+							
+				<TextBlock HorizontalAlignment="Center" FontSize="36" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+					ВСТУПЛЕНИЕ
+				</TextBlock>
+				
+				<Button Grid.Row="0" Grid.Column="2" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&gt;&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_6.xml"/>
+			
+			</Grid>
+
+			<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="#949aa1" Margin="0,10,0,10"/>
+			
+			<Image Source="{Binding Assets[s01_map_pacific_offensive_ru]}" Margin="0,0,0,0" Height="500"/>
+			
+			<TextBlock Text="Основные направления атак СССР и НОАК в начале конфликта, 25 Июня 1985." FontStyle="Italic" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="12"/>
+
+			<TextBlock> <LineBreak/> </TextBlock>
+			<TextBlock Text="Начало войны на Тхом океане" HorizontalAlignment="Center"  FontSize="24"/>
+			
+			<TextBlock TextWrapping="Wrap" Height="200">
+				<LineBreak/>
+				Еще за несколько недель до начала боевых действий в Европе советские ВМС на Тихом океане вышли в море для проведения крупных военных учений в Японском море, в то время как китайские силы проводили параллельные маневры в Южно-Китайском и Восточно-Китайском морях.
+				<LineBreak/>
+				<LineBreak/>
+				После того как войска стран ОВД вошли в Фульдский корридор, оба флота перестали создавать видимость мирных маневров и начали наступление, уничтожая союзные патрульные подразделения и нанося удары по уязвимым базам, кораблям и аванпостам в западной части Тихого океана.
+			</TextBlock>	
+			
+			<StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Назад" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_4.xml"/>
+				<TextBlock VerticalAlignment="Center" FontSize="36" Text="                              "/>
+				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Дальше" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_6.xml"/>
+		</StackPanel>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

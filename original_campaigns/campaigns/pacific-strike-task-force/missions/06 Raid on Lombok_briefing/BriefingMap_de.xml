@@ -1,0 +1,163 @@
+<Viewbox Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+	<Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[06_BaliLombok_Close]}"/>
+		<!-- Small Map -->
+        <Border Canvas.Right="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[WesternPacificFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="15" Height="10" Margin="85,0,0,25" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+		
+		<!-- Photo inset -->
+        <Border Canvas.Left="30" Canvas.Bottom="15" BorderThickness="5" BorderBrush="White" Background="White">
+			<Border.Effect>
+				<DropShadowEffect Opacity="0.25"/>
+			</Border.Effect>
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="-5" CenterY="200"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+            <StackPanel Orientation="Vertical">
+                <Image Stretch="Uniform" Source="{Binding Assets[06_kanin]}" Width="250"/>
+				<TextBlock Foreground="Black" TextAlignment="Left" VerticalAlignment="Center" Margin="5" FontFamily="Courier New" FontWeight="Bold">
+					<Run Text="ENCL(4)5-423-2534-83/KANIN DDG"/><LineBreak/>
+					<Run Text="14 AUG 85/SECRET"/>
+				</TextBlock>
+            </StackPanel>	
+        </Border>
+		
+		<!-- Player unit summary -->
+		<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
+			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
+                <Run Text="{TaskForceName}:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                {TaskForceVesselSummaryRuns}
+           </TextBlock>
+		</Border>
+
+		<!-- Map Labels -->
+		<TextBlock Foreground="SteelBlue" Text="Lombokstraße" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="550" Canvas.Top="275"/>
+		<TextBlock Foreground="Black" Text="Bali" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="250" Canvas.Top="175"/>
+		<TextBlock Foreground="Black" Text="Lombok" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="850" Canvas.Top="325"/>
+		
+		<!-- {TaskForceName} -->
+		<StackPanel Orientation="Vertical" Canvas.Left="625" Canvas.Top="525">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="{TaskForceName}"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+
+		<!-- 2 x F-111C 6 Sqdn RAAF -->
+		<StackPanel Orientation="Vertical" Canvas.Left="700" Canvas.Top="600">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="2 x F-111C 6 Sqdn RAAF"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- E-2C VAW-114 'Hormel Hawgs' -->
+		<StackPanel Orientation="Vertical" Canvas.Left="400" Canvas.Top="600">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="E-2C VAW-114 'Hormel Hawgs'"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- USSR Coastal Forces -->
+		<StackPanel Orientation="Vertical" Canvas.Left="525" Canvas.Top="325">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="Küstenstreitkräfte der UdSSR"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- USSR Coastal Forces -->
+		<StackPanel Orientation="Vertical" Canvas.Left="375" Canvas.Top="325">
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+				
+		<!-- USSR air -->
+		<StackPanel Orientation="Vertical" Canvas.Left="625" Canvas.Top="100">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="?"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- USSR air -->
+		<StackPanel Orientation="Vertical" Canvas.Left="125" Canvas.Top="300">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="?"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- Emplacements -->
+		<StackPanel Orientation="Vertical" Canvas.Left="475" Canvas.Top="375">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text=""/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.AAA}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- Emplacements -->
+		<StackPanel Orientation="Vertical" Canvas.Left="325" Canvas.Top="280">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text=""/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.AAA}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+
+		<!-- Bali Airfield -->
+		<StackPanel Orientation="Vertical" Canvas.Left="275" Canvas.Top="325">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="Bali Airfield"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Airbase}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+
+		<!-- Arrows -->
+		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+		
+		<Path Canvas.Left="590" Canvas.Top="450" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="330"/>
+            </Path.RenderTransform>
+        </Path>
+	</Canvas>
+</Viewbox>

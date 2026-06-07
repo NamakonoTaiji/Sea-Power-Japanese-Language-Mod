@@ -1,0 +1,64 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		FLASH
+		<LineBreak/>
+		Z 300200Z JUN 85
+		</TextBlock>
+		<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77 YOKOSUKA JA"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMMANDER {TaskForceName} NAHA, OKINAWA, JA"/>
+		<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+		<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		CINCPACFLT PEARL HARBOR HI<LineBreak/>
+		COMUSJAPAN YOKOTA AB
+		</TextBlock>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION PLAN - MAGIC THUNDER"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) SITUATION: U.S. and Allied forces are heavily engaged across the Western Pacific. Chinese forces are using this opportunity to mount an offensive operation against Taiwan, starting with attacks on Nationalist-held islands in the Taiwan Strait. Liaison reporting indicates imminent amphibious operations against Dongyin Island in the north, and Kinmen in the south.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) MISSION: {TaskForceName} will sortie for an anti-surface strike against the PLA invasion force heading towards Dongyin Island and destroy it.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) EXECUTION: Proceed west from Miyako-jima at best speed. Coordinate with Allied assets in theater to destroy the enemy amphibious units en route Dongyin Island along with their surface escorts. Destruction of PLAN YUKAN class LST carrying assault unit is first priority, then escorting destroyers.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) THREAT: Enemy amphibious force is supported by two surface strike forces of PLAN destroyers and coastal craft. Strikes by PLAAF bombers and fighters should be expected, and PLAN diesel submarines are likely active around Dongyin Island.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) ALLIED FORCES: USAF E-3A "Darkstar" is on station over Taipei for air and surface picture. USAF F-15C out of Kadena AFB will report in for CAP.
+		<LineBreak/>
+		<LineBreak/>
+		6. (S) REMARKS: Sink all enemy amphibious forces, then retire north of Taipei after ordnance expended. Return to Okinawa at best speed for full rearm before further operations. Good luck and good hunting.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		DECL OADR BT
+	</TextBlock>
+</Grid>

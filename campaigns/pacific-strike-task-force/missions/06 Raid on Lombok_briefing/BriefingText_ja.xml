@@ -1,0 +1,65 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        即時（IMMEDIATE）
+        <LineBreak/>
+        O 200300Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（CTF 77）"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName}指揮官（ダーウィン、ノーザンテリトリー、豪州）"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
+        オーストラリア王立空軍航空軍司令部（グレンブルック、ニューサウスウェールズ州、豪州）
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦計画――ドラゴンズピア"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        機密（SECRET）
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) 状況：8月11日のキーロフ（KIROV）水上戦闘群の撃滅により同盟軍の作戦への圧力が緩和され、反攻への道が開かれた。敵軍は7月20日に占領したバリ島の飛行場を依然として保持しており、その沿岸部隊がロンボク海峡で活動している。インドネシア政府は、これらの部隊を排除するための我が方の支援を要請した。
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) 任務：第77任務部隊（TF 77）はロンボク海峡を強行突破し、通航を阻む敵軍を破り、後続の水陸両用作戦に備えてバリ島を孤立化させよ。作戦完了後、第17海兵両用部隊（17 MAU）の海兵隊員が飛行場を奪還し、バリ島をインドネシアの施政下へと戻すものとする。
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) 実施：{TaskForceName}はロンボク海峡の水上掃討を実施し、敵海軍部隊を誘き出して撃滅せよ。バリ島に対する後続の海兵隊作戦を可能にするため、敵の沿岸陣地、飛行場防御、および沿岸拠点を制圧せよ。
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) 脅威：直近の衛星通過時に、敵駆逐艦2隻および各種沿岸部隊が確認された。バリ島の飛行場からは、Yak-38垂直離着陸戦闘機を含む限定的な航空資産が運用されている可能性があり、空港周辺では沿岸砲および対空火器（AAA）が目撃されている。当海域においてソ連の潜水艦は探知されていない。
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) 同盟軍：第2空母航空団（CVW-2）所属のE-2Cが上空に展開してレーダー模様を提供し、オーストラリア王立空軍（RAAF）のF-111C飛行隊が対水上作戦空中哨戒（SUCAP）のため作戦に参加する。注記：多数の民間船舶・航空機の往来が予想される。民間人の犠牲を回避せよ。
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) 備考：現在の攻勢スケジュールの下では、本戦闘直後の即時再補給は保証されない。さらに北方での後続作戦が急遽必要となる可能性があるため、兵装の消費は慎重に行え。諸君の幸運と健闘を祈る。第77任務部隊指揮官より。
+        <LineBreak/>
+        <LineBreak/>
+        機密（SECRET）
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

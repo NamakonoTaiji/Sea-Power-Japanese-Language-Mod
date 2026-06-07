@@ -1,0 +1,62 @@
+﻿<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		СРОЧНОЕ СООБЩЕНИЕ
+		<LineBreak/>
+		00:00GMT 11 АВГ 85
+		</TextBlock>
+		<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком КГ 77"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком ОГ 77.3 USS Скотт DDG-995 Дарвин, Австралия"/>
+		<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Копия:"/>
+		<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		Ком. Тихоокеанским флотом США, Пёрл-Харбор<LineBreak/>
+		Главком КВВСА Гленбрук, Австралия
+		</TextBlock>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Операция «Эйбл Лайтнинг»"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		СЕКРЕТНО
+		<LineBreak/>
+		<LineBreak/>
+		1. СИТУАЦИЯ: Союзные войска перегруппировались в Дарвине. Индонезийские силы понесли значительные потери в результате действий противника, а экспедиционные силы СССР захватили аэродром на Бали. Вчера австралийские наблюдатели сообщили, что надводная группа «Киров» прошла Ломбокский пролив в южном направлении, а последующие снимки показали, что «Киров» движется на восток, в сторону Австралии.
+		<LineBreak/>
+		<LineBreak/>
+		2. ЭАДАЧА: Ком ОГ 77.3 примет командование над всеми доступными подразделениями союзников в Дарвине с целью обнаружить и уничтожить группу «Киров».
+		<LineBreak/>
+		<LineBreak/>
+		3. ИСПОЛНЕНИЕ: Двигайтесь на запад от Дарвина, рассредоточив надводные силы и находясь в режиме радиомолчания, чтобы предотвратить их обнаружение. Обнаружте «Киров», затем нанесите скоординированный удар с помощью кораблей и авиационных подразделений, находящихся под вашим контролем. Используйте патрульные самолёты, чтобы предотвратить обнаружение ваших сил вражескими подразделениями воздушной разведки.
+		<LineBreak/>
+		<LineBreak/>
+		4. Боевой порядок противника: группа «Киров» включает 2 СКР класса «Буревестник» или «Буревестник-М», 1 крейсер типа «Грозный» и 1 БПК класса «Фрегат». Примечание:«Фрегат» оснащен ЗРК «Кинжал», который весьма эффективен против ПКР «Гарпуна». Следует ожидать патрульных и разведывательных вылетов противника с аэродрома на Бали. Австралийцы сообщают об использовании советскими войсками бомбардировщиков Ту-16 для дальней разведки на малых высотах.
+		<LineBreak/>
+		<LineBreak/>
+		5. СОЮЗНЫЕ СИЛЫ: Ограниченное количество самолетов союзников будет базироваться на аэродроме Брум-Филд в Западной Австралии. Примечание: запасы ракет «Гарпун» и «Феникс» значительно истощены, а наш последний E-2C пропал над Яванским морем 8 августа. В настоящее время не может быть обеспечено освещение событий с использованием самолетов AWACS. Наши истребители ОБЯЗАТЕЛЬНО должны активно участвовать в поиске и идентификации вражеской воздушной разведки.
+		<LineBreak/>
+		<LineBreak/>
+		6. ПРИМЕЧАНИЕ: Командующий Тихоокеанским флотом понимает, что это сложная задача, сопряженная с высоким риском. Однако, в случае успеха эта операция выведет из строя один из главных надводных боевых кораблей Тихоокеанского флота СССР и защитит наши позиции в Дарвине. Мы верим что вы справитесь. Удачи в бою!
+		<LineBreak/>
+		<LineBreak/>
+	</TextBlock>
+</Grid>

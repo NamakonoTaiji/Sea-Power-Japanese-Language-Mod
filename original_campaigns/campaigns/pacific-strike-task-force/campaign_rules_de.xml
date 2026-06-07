@@ -1,0 +1,331 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=600}">
+  <Grid Margin="14">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="12"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <TabControl Grid.Row="0">
+      <TabItem Header="Übersicht">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Pacific Strike '85 - Task-Force-Modus" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Willkommen, Kommandant!" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="In Europa und im Pazifik ist Krieg ausgebrochen. Sie sind die erste Verteidigungslinie der Alliierten und bei Ausbruch der Kampfhandlungen in Japan stationiert." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Ihr Ziel" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Stellen Sie mit Kampagnenpunkten eine Task Force zusammen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="{Binding StartingPointsRuleText}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Führen Sie diese Kräfte durch zusammenhängende Operationen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Wiederbewaffnung: vor bestimmten Missionen kostenlos verfügbar." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Reparatur: vor bestimmten Missionen verfügbar, erfordert jedoch Punkte zur Instandsetzung von Schäden." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Schäden, Verluste, Reparaturen, Luftfahrzeuge und verbesserte Ausrüstung können den weiteren Verlauf der Kampagne prägen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Nutzen Sie die anderen Reiter, wenn Sie vor dem Start weitere Details einsehen möchten." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Kommandant">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Regeln für Kommandanten" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Koalitionskommando" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Bei Ausbruch der Kampfhandlungen bereiteten sich amerikanische, japanische und australische Seestreitkräfte auf eine groß angelegte Übung im Pazifik vor. Als aus der Krise plötzlich ein Krieg wurde, wurden diese Kräfte in ein gemeinsames Kommando eingegliedert." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <TextBlock Text="Sie können die Kampagne als Kommandant aus den USA, Japan oder Australien führen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <TextBlock Text="Die Nationalität des Kommandanten ändert weder Missionsregeln noch Schiffsleistung, Luftfahrzeugleistung oder Kampffähigkeit." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Nationaler Kaufrabatt" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Kommandanten erhalten einen "/><Run Text="{Binding SameNationDiscountPercentText}"/><Run Text="%igen Punkterabatt beim Kauf von Einheiten ihrer eigenen Nation."/>
+            </TextBlock>
+            <TextBlock Text="- Die meisten verfügbaren Einheiten stammen aus den USA, daher bietet ein US-Kommandant die größte Flexibilität." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Japanische oder australische Kommandanten erhöhen daher den Schwierigkeitsgrad, ohne die Missionen selbst zu verändern." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Auszeichnungen und Beförderungen" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Der Kampagnenfortschritt Ihres Kommandanten wird in der Dienstakte erfasst." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Die Dienstakte enthält Beförderungen, Medaillen, Gesamtabschüsse, Verluste, gerettete Überlebende und Punktzahl." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Wählen Sie eine Auszeichnung oder ein Ordensband aus, um die vollständige Begründung für die Verleihung zu lesen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Einheitenkatalog">
+        <Grid Margin="16,14,16,18">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="12"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <TextBlock Text="Einheitenpreise" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap"/>
+          <TextBlock Grid.Row="2" Text="Prüfen Sie verfügbare Einheitenklassen und Punktekosten. Wählen Sie einen Klassennamen aus, um die Einheitenreferenz zu öffnen. Verwenden Sie den Task-Force-Builder, um Ihrer Task Force Einheiten hinzuzufügen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+
+          <Grid Grid.Row="4" Margin="0,0,16,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="210"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="150"/>
+              <ColumnDefinition Width="220"/>
+              <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Nation" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Nation" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="1" Content="Klassenname" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="ClassName" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="2" Content="Kategorie" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Category" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="3" Content="Typ" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Type" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="4" Content="Preis" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Price" Height="28" Padding="8,0" HorizontalContentAlignment="Right"/>
+          </Grid>
+
+          <Border Grid.Row="5" Height="1" Background="#59606B" Margin="0,0,16,0"/>
+
+          <ScrollViewer Grid.Row="6" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl ItemsSource="{Binding RosterPriceRows}">
+              <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                  <Border BorderBrush="#253140" BorderThickness="0,0,0,1" Margin="0,0,16,0">
+                  <Grid MinHeight="34" Margin="0,2,0,2">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="210"/>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="150"/>
+                      <ColumnDefinition Width="220"/>
+                      <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="8,0">
+                      <Image Source="{Binding NationFlag}" Width="30" Height="20" Stretch="Uniform" Margin="0,0,8,0"/>
+                      <TextBlock Text="{Binding NationName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Grid.Column="1"
+                            Command="{Binding OpenReferenceCommand}"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,0"
+                            HorizontalContentAlignment="Left">
+                      <TextBlock Text="{Binding ClassName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+                    </Button>
+                    <TextBlock Grid.Column="2" Text="{Binding CategoryName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                    <TextBlock Grid.Column="3" Text="{Binding TypeName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                    <TextBlock Grid.Column="4" Text="{Binding PriceText}" FontSize="15" Foreground="#D8DDE8" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                  </Grid>
+                  </Border>
+                </DataTemplate>
+              </ItemsControl.ItemTemplate>
+            </ItemsControl>
+          </ScrollViewer>
+        </Grid>
+      </TabItem>
+
+      <TabItem Header="Kampagnenregeln">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Kampagnenregeln" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Persistenz" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Schäden, Munitionsverbrauch und Verluste werden zwischen Missionen übernommen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Schiffe können Schäden zwischen Missionen in geringem Umfang selbst beheben, vollständige Reparaturen kosten jedoch weiterhin Kampagnenpunkte." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Beschädigte Schiffe können repariert werden, wenn Reparaturen verfügbar sind. Reparaturen kosten jedoch Kampagnenpunkte." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Schwer beschädigte Schiffe können nicht repariert und nur außer Dienst gestellt werden. Leicht oder mittelschwer beschädigte Schiffe können für Punkte repariert werden." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Eine Wiederaufrüsten ist nur zwischen bestimmten Missionen verfügbar. Der Task-Force-Manager zeigt ein grünes Symbol „Aufgerüstet“, wenn Ihre Schiffe vor der Mission aufgerüstet wurden." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+            <TextBlock Text="Aufbau und Verwaltung der Task Force" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Verwalten Sie Ihre Einheiten über die Task-Force-Leiste am oberen Rand der Kampagnenkarte. Sie zeigt aktuelle Punkte, den Status Ihrer Kräfte und verfügbare Task-Force-Aktionen zwischen Missionen an." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Öffnen Sie den "/><Hyperlink Command="{Binding OpenTaskForceBuilderCommand}">Task-Force-Builder</Hyperlink><Run Text=" über die Task-Force-Leiste, um Ihrer Task Force Schiffe, U-Boote, Hubschrauber und Flugzeuge hinzuzufügen."/>
+            </TextBlock>
+            <TextBlock Text="- Ausgewählte Einheiten werden erst gekauft, wenn die Task Force bestätigt wurde." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Die Verfügbarkeit von Einheiten kann sich zwischen Missionen ändern. Japanische Einheiten sind beispielsweise nach dem Verlassen japanischer Gewässer möglicherweise nicht mehr verfügbar." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Nutzen Sie die Task-Force-Leiste, um Schäden zu reparieren, Waffen zu prüfen, die Ausrüstung zu ändern, Erfahrungsstufen einzusehen und Luftfahrzeugzuweisungen zu verwalten."/>
+            </TextBlock>
+            <TextBlock Text="- Der Reiter Einheitenkatalog listet verfügbare Einheitenklassen und Punktekosten auf." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Verfügbarkeit des Task-Force-Builders" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Einige Missionen führen Ihre Task Force weit von alliierten Stützpunkten weg. Bei Operationen auf See können Sie zwischen Missionen möglicherweise keine neuen Einheiten hinzufügen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Neue Einheiten können nur hinzugefügt werden, wenn der Task-Force-Builder verfügbar ist. Setzen Sie die Kampagne fort, bis Ihre Kräfte einen alliierten Stützpunkt erreichen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Einschränkungen bei Versorgung oder Verstärkung werden vor dem Einsatz in der Missionsbeschreibung angegeben." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Kampagnenpunkte" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Ausgegebene Punkte sind endgültig und können nicht erstattet werden." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="{Binding PurchaseLoadoutsRuleText}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Das Entlassen einer Einheit aus dem Task-Force-Manager erstattet "/><Run Text="{Binding DismissRefundPercentText}"/><Run Text="% ihres Punktewerts."/>
+            </TextBlock>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Das Außerdienststellen einer schwer beschädigten Einheit, die nicht repariert werden kann, erstattet "/><Run Text="{Binding DecommissionRefundPercentText}"/><Run Text="% ihres Punktewerts."/>
+            </TextBlock>
+            <TextBlock Text="- Der Verlust eines Schiffs im Gefecht erstattet keinen Teil seines Punktewerts." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Zusätzliche Punkte werden vergeben, wenn die Kampagne voranschreitet und Missionen abgeschlossen werden." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Besatzungserfahrung" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Einheiten erhöhen ihre Erfahrungsstufe, indem sie Missionen absolvieren." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Höhere Erfahrungsstufen verbessern die Effizienz im Kampf, die Geschwindigkeit der Sensorverarbeitung und Schadensabwehr und verringert die Wahrscheinlichkeit, dass Treffer tödlich sind." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <Border Width="1120" HorizontalAlignment="Center" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="1" Background="{StaticResource Brush.Window.Background}" Margin="0,0,0,14">
+              <Grid>
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="126"/>
+                  <ColumnDefinition Width="112"/>
+                  <ColumnDefinition Width="150"/>
+                  <ColumnDefinition Width="150"/>
+                  <ColumnDefinition Width="132"/>
+                  <ColumnDefinition Width="174"/>
+                  <ColumnDefinition Width="144"/>
+                  <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Erfahrung" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="1" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Überstandene Missionen" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Anzahl der Missionen, die die Einheit überstehen muss, um diese Erfahrungsstufe zu erreichen."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="2" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Kontaktverarbeitung" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplikator für Zielerfassung, sonarbasierte Zielbewegungsanalyse, ESM-Identifizierung und Zunahme akustischer Zuverlässigkeit."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="3" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Rumpf-/Leck-/Brandbekämpfung" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplikator für die Reparatur von Flutungsrate, Flutungen, Struktur und Brandstärke."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="4" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Systemreparatur" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplikator für die Reparatur beschädigter Schiffssysteme."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="5" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Flugabwehrbonus" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Bonus für den Abfang von Luftfahrzeugen und Flugkörpern durch Bordkanonen von Flugzeugen."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="6" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Kritischer-Treffer-Bonus" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Zusätzliche Chance, dass ein erfolgreicher Angriff schwere Schäden oder eine sofort tödliche Wirkung verursacht."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="7" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1">
+                  <TextBlock Text="Risiko eines tödlichen Treffers" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Wahrscheinlichkeit, dass die Einheit bei einem Treffer sofort tödliche Schäden erleidet."/>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Green}" HorizontalAlignment="Center">
+                    <TextBlock Text="Unerfahren" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="0" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0 / +0" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="10%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="2" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Trained}" HorizontalAlignment="Center">
+                    <TextBlock Text="Eingespielt" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="2" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.25x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+5 / +2" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="10%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="3" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Seasoned}" HorizontalAlignment="Center">
+                    <TextBlock Text="Erfahren" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+10 / +3" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+2%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="8%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="4" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Veterans}" HorizontalAlignment="Center">
+                    <TextBlock Text="Veteran" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="4" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.75x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+15 / +4" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+4%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="6%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="5" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Ultra}" HorizontalAlignment="Center">
+                    <TextBlock Text="Elite" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="7" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="3x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="3x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="+20 / +5" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="+6%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,0"><TextBlock Text="5%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+              </Grid>
+            </Border>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Luftfahrzeuge und U-Boote" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Im Task-Force-Builder gekaufte Schiffe enthalten ihre Bordluftgruppe kostenlos und diese Luftfahrzeuge werden dem Schiff automatisch zugewiesen. Ersatzluftfahrzeuge müssen separat gekauft werden, wenn Luftfahrzeuge verloren gehen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Hubschrauber sind direkt zu Kampagnenbeginn verfügbar. Jedes Schiff zeigt im Task-Force-Builder seine unterstützten Luftfahrzeuge an." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Starrflügler sind zu Beginn der Kampagne nicht kaufbar, werden später jedoch verfügbar." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Gekaufte Starrflügler operieren in Missionen, die dies unterstützen, von Flugplätzen aus. Ist kein Flugplatz verfügbar, werden Starrflügler nicht eingesetzt und bleiben in Reserve." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- U-Boote operieren unabhängig von Ihrer Task Force. Sie erscheinen in separaten, aber verbundenen optionalen Nebenmissionen, deren Abschluss Vorteile bietet, die Hauptkampagne jedoch nicht voranschreiten lässt." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Flaggschiffe" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Bevor die Task Force eingesetzt werden kann, ist ein Schiff erforderlich." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Das erste Schiff Ihrer Task Force ist standardmäßig das Flaggschiff. Sie können im Task-Force-Manager jedes Schiff zum Flaggschiff erklären." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Das Flaggschiff muss jede Mission überleben. Andere Einheiten der Task Force können ohne direkte Auswirkung auf die Mission zerstört werden, doch wenn das Flaggschiff zerstört wird, schlägt die Mission fehl." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Suche und Rettung" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Rettungsinseln können erscheinen, wenn Schiffe versenkt oder Luftfahrzeuge abgeschossen werden. Bewegen Sie einen Hubschrauber oder ein Schiff in die Nähe der Rettungsinseln, um Überlebende zu bergen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14">
+              <Run Text="- Je "/><Run Text="{Binding CSARPointModifierText}"/><Run Text=" in einer Mission gerettete Überlebende wird am Missionsende 1 Kampagnenpunkt vergeben. Unvollständige Gruppen bringen keine zusätzlichen Punkte."/>
+            </TextBlock>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Missionsergebnisse" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Das Scheitern einer Mission beschädigt Ihre Task Force nicht und führt zu keinen zusätzlichen Strafen." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Eine fehlgeschlagene Mission muss wiederholt und erfolgreich abgeschlossen werden, um fortzufahren." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Abgeschlossene Missionen können mit der ursprünglichen, für diese Mission zusammengestellten Task Force erneut gespielt werden." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Nach Abschluss der Kampagne werden alle Missionen für jede von Ihnen konfigurierte Task Force freigeschaltet." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+    </TabControl>
+
+    <Button Grid.Row="2"
+            HorizontalAlignment="Right"
+            Width="110"
+            Height="32"
+            Content="{Binding Path=LanguageDictionary[genericskip], Source={StaticResource LanguageResourceInterface}, FallbackValue='Überspringen'}"
+            Command="{Binding CloseWindowCommand}"/>
+  </Grid>
+</Page>

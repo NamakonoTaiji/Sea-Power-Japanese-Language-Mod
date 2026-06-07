@@ -1,0 +1,159 @@
+<!-- Campaign event template for standard USN-style "daily intentions message" (DIM) - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+        </Border.Background>
+        
+        <StackPanel Orientation="Vertical">
+
+        <Grid
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="海軍電信" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="*******機 密*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="海軍省" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+            
+        </Grid>
+        
+        <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+        <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+            <Grid
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+                    即時（IMMEDIATE）<LineBreak/>
+                    O 082100Z AUG 85
+                </TextBlock>
+
+                <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+                <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（CTF 77）"/>
+                <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+                <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊（TF 77）、第9空母航空団（CVW-9）、ダーウィン海軍施設（NAVFAC DARWIN）、オーストラリア王立空軍第10飛行隊（10 SQN RAAF）"/>
+                <TextBlock Grid.Row="11" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+                <TextBlock Grid.Row="11" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋艦隊司令長官（CINCPACFLT）"/>
+                <TextBlock Grid.Row="13" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名:"/>
+                <TextBlock Grid.Row="13" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="状況報告（SITREP）09/1200Z - 10/1200Z - 電文番号 047/85"/>
+
+                <TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+                    <LineBreak/>
+                    機密（SECRET）
+                    <LineBreak/>
+                    <LineBreak/>
+                    1. (S) 戦略状況：シンガポールおよびマレーシアの陥落後、米軍と同盟軍はダーウィンに集結し戦力を再編した。敵軍は依然として南東への進撃を続けており、情報部によれば、その狙いはルソン島で交戦中の同盟軍を完全に孤立させ、講和を強いることにある。スマトラおよびジャワが敵の手に落ちたことで、敵はインド洋への全面的なアクセスを獲得した。これによりソ連（USSR）軍は、ペルシャ湾、オーストラリア西部、および南アフリカを脅かすことが可能となっている。ソ連海軍航空部隊はウラジオストクから南はカムラン湾にいたるまで自由な作戦行動を行っており、その潜水艦がティモール海に進入したとの報告もある。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+                    2. (S) 任務：第77任務部隊（TF 77）はダーウィンの同盟軍と共同してオーストラリア防衛任務を遂行せよ。全体の指揮は第77任務部隊指揮官（CTF 77）が執るものとする。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    3. (S) TF 77の現状：
+                </TextBlock>    
+                <TextBlock Grid.Row="18" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0"> 
+                    - キティホーク（KITTY HAWK）は横須賀での触雷による損傷のため、プージェット・サウンドにて引き続き修理中。
+                    <LineBreak/>
+                    - 第9空母航空団（CVW-9）の一部要素はダーウィンを基地として地上より運用中。
+                    <LineBreak/>
+                    - ムースブラッガー（MOOSBRUGGER）はオーストラリア政府の要請により、クックタウンでの緊急任務のため急派。
+                    <LineBreak/>
+                    - VAW-114 ホークアイ（Hawkeye）は8月7日に東ティモール上空で損失。第14空母航空団（CVW-14）からの補充機が移動中、到着予定は8月14日。
+                    <LineBreak/>
+                </TextBlock>                
+                <TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    4. (S) 同盟軍の状況：
+                </TextBlock>
+                <TextBlock Grid.Row="20" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+                    - オーストラリア：オーストラリア王立空軍（RAAF）のF-111部隊は、インドネシアに集結する敵軍への阻止攻撃により大きな損害を被った。RAAFのJORN OTH捜索レーダーは8月3日、敵工作員の工作活動により機能停止。
+                    <LineBreak/>
+                    - マレーシア/インドネシア：友軍部隊は敗散または降伏。これらの部隊による組織的な抵抗は期待できない。
+                    <LineBreak/>
+                    - シンガポール：完全な敗走によりイギリス海軍の任務部隊「フォースF（Force F）」は全滅。その他のイギリス軍戦力は大西洋および地中海での任務に忙殺されている。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="21" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    5. (S) 情報 / 脅威：
+                </TextBlock>
+                <TextBlock Grid.Row="22" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+                    - オーストラリアの沿岸監視員（コーストウォッチャー）が、重要なチョークポイント（スンダ、ロンボク、オンバイ/ウェタル）における動向を監視するため、インドネシア国内に極秘裏に潜入した。
+                    <LineBreak/>
+                    - ティモール海およびアラフラ海の上空でBear-Dの活動が活発化しており、今後48から72時間以内に我が方へ向けた敵の出撃が予想される。第111戦闘飛行隊（VF-111）は8月8日、1機を撃墜、1機のBear-Dを取り逃がしたと報告。
+                    <LineBreak/>
+                    - 信号情報（SIGINT）によると、敵潜水艦が南下を開始した模様。
+                    <LineBreak/>
+                </TextBlock>    
+                <TextBlock Grid.Row="23" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    6. (S) 備考：本キャンペーンにおける対敵防衛戦は、重大な岐路を迎えている。我々は開戦前の予測を遥かに超えて後退を余儀なくされたが、適切な連携を行えば、ここで敵の進撃を完全に阻止できる。諸君の幸運と健闘を祈る。第77任務部隊指揮官より。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="24" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    署名：海軍大佐 C・F・ロビンソン
+                    <LineBreak/>
+                    第77任務部隊指揮官（CTF 77）
+                    <LineBreak/>
+                    <LineBreak/>
+                    機密（SECRET）
+                    <LineBreak/>
+                    名宛人の承認なき限り機密解除を禁ず
+                </TextBlock>
+            </Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

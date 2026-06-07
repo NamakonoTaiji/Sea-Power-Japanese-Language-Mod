@@ -1,0 +1,53 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border Background="#2b2d31" HorizontalAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="900" TextElement.Foreground="#949aa1" TextElement.FontWeight="Bold" TextElement.FontSize="16" Padding="20">
+        <StackPanel Orientation="Vertical">
+
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="100"/>
+					<ColumnDefinition Width="3*"/>
+					<ColumnDefinition Width="100"/>
+				</Grid.ColumnDefinitions>
+				
+				<Button Grid.Row="0" Grid.Column="0" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&lt;&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_1.xml"/>
+							
+				<TextBlock HorizontalAlignment="Center" FontSize="36" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+					ВСТУПЛЕНИЕ
+				</TextBlock>
+				
+				<Button Grid.Row="0" Grid.Column="2" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&gt;&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_3.xml"/>
+			
+			</Grid>
+
+			<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="#949aa1" Margin="0,0,0,10"/>
+			
+			<Image Source="{Binding Assets[s01_gorbachev_deng]}" Margin="0,0,0,0" Height="500"/>
+			
+			<TextBlock Text="Советские и Китайские лидеры на переговорах в Пекине." FontStyle="Italic" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="12"/>
+
+			<TextBlock> <LineBreak/> </TextBlock>
+			<TextBlock Text="Баланс сил меняется" HorizontalAlignment="Center"  FontSize="24"/>
+			
+			<TextBlock TextWrapping="Wrap" Height="200">
+				<LineBreak/>
+				В Пекине сторонники сближения с Советским Союзом смогли разрешить разногласия между странами. В свою очередь, Москва выступила посредником между Китаем и Вьетнамом, положив конец многолетнему конфликту и добившись заключения хрупкого союза.
+				<LineBreak/>
+				<LineBreak/>
+				По мере сближения Пекина и Москвы, формально нейтральная Индия увидела в этом союзе стратегические возможности для себя, и начала неофициально предоставлять поддержку для расширения влияния Советского Союза в Индийском океане.
+			</TextBlock>
+
+			<StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Назад" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_1.xml"/>
+				<TextBlock VerticalAlignment="Center" FontSize="36" Text="                              "/>
+				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Дальше" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_3.xml"/>
+			</StackPanel>
+			
+        </StackPanel>
+    </Border>
+</ScrollViewer>

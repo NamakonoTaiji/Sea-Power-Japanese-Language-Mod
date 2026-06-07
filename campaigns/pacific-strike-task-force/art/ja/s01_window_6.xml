@@ -1,0 +1,72 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Stretch="Uniform"
+  StretchDirection="Both">
+  <Grid Width="1560" Height="920" TextElement.Foreground="#D8DCE0" TextElement.FontFamily="Roboto">
+    <Grid.Resources>
+      <Style x:Key="SlideArrowButton" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="#8E969E"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="FontSize" Value="58"/>
+        <Setter Property="FontWeight" Value="Light"/>
+        <Setter Property="Opacity" Value="0.58"/>
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type Button}">
+              <Border Background="{TemplateBinding Background}">
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              </Border>
+              <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                  <Setter Property="Background" Value="#28383B3F"/>
+                  <Setter Property="Opacity" Value="0.82"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                  <Setter Property="Background" Value="#40383B3F"/>
+                  <Setter Property="Opacity" Value="0.9"/>
+                </Trigger>
+              </ControlTemplate.Triggers>
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+    </Grid.Resources>
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="76"/>
+      <RowDefinition Height="1"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="64"/>
+    </Grid.RowDefinitions>
+
+    <TextBlock Grid.Row="0" Text="導入" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Border Grid.Row="0" Width="76" Height="38" BorderBrush="#3E454B" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,24,0">
+      <TextBlock Text="5 / 7" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Border>
+    <Rectangle Grid.Row="1" Fill="#3E454B" Margin="22,0"/>
+
+    <Grid Grid.Row="2" Margin="0,10,0,0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="122"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="122"/>
+      </Grid.ColumnDefinitions>
+
+      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_4_ja.xml"/>
+      <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_6_ja.xml"/>
+
+      <StackPanel Grid.Column="1" Orientation="Vertical">
+        <Image Source="{Binding Assets[s01_map_pacific_offensive]}" Height="510" Stretch="Uniform" HorizontalAlignment="Center"/>
+        <TextBlock Text="1985年6月25日の敵対行為開始時における、ソ連および中国海軍部隊の主要な展開行動。" FontStyle="Italic" FontSize="11" Foreground="#99A1A8" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+        <TextBlock Text="太平洋攻勢の始まり" FontSize="24" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,22,0,14"/>
+        <TextBlock TextWrapping="Wrap" FontSize="16" LineHeight="25" Foreground="#D0D4D8">
+          欧州で戦闘が始まる数週間前、太平洋のソ連海軍部隊は日本海での大規模な演習に向けて出撃し、同時に中国軍も南シナ海および東シナ海で並行して演習を実施していた。
+          <LineBreak/><LineBreak/>
+          6月下旬にワルシャワ条約機構軍がフルダ・ギャップへ侵攻すると、両海軍は平時演習の口実を捨て去って攻撃へと転じ、西太平洋全域の同盟軍観測部隊を排除しつつ、防衛の脆弱な基地や船舶、前哨基地を急襲した。
+        </TextBlock>
+      </StackPanel>
+    </Grid>
+
+  </Grid>
+</Viewbox>

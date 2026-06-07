@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		BLITZ
+		<LineBreak/>
+		Z 080115Z JUL 85
+		</TextBlock>
+		<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSUBPAC"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CO USS HOUSTON SSN-713"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NEUER AUFTRAG - KONTAKTBERICHT"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) Die technische Aufklärung hat in den Spratly-Inseln am Jackson Atoll ein U-Boot-Versorgungsschiff der sowjetischen DON-Klasse lokalisiert. Dieses Schiff versorgt im Einsatzraum eine Gruppe von Diesel-U-Booten der Klassen KILO, ROMEO und TANGO, welche die Invasion Palawans unterstützen.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) Brechen Sie die küstennahe Aufklärung bei Cam Ranh ab und verlegen Sie mit höchstmöglicher Geschwindigkeit zum Jackson Atoll.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) Das Versorgungsschiff wird durch eine kleine Sicherungsgruppe einschließlich chinesischer U-Jäger geschützt. 1 x FFG der UDALOY-Klasse wurde beim letzten Satellitenüberflug gesichtet, könnte den Einsatzraum jedoch inzwischen verlassen haben. Hinweis: Die flache Hydrographie in diesem Gebiet ist gefährlich und die Philippine Navy warnt, dass Minen gelegt werden. Minenfeldpositionen werden Ihnen schnellstmöglich übermittelt.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) Bekämpfen Sie das U-Boot-Versorgungsschiff und alle angetroffenen feindlichen Diesel-U-Boote mit Torpedos oder Flugkörpern. Falls eine FFG der UDALOY-Klasse angetroffen wird, ist die Zerstörung dieser Einheit zusätzlich zum Versorgungsschiff der DON-Klasse zu priorisieren.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) Melden Sie die Position der Versenkung, sofern die Lage dies zulässt und setzen Sie sich anschließend über die Palawan-Passage nach Darwin, Australien, ab. Viel Glück und gute Jagd. COMSUBPAC Ende.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+		<LineBreak/>
+		DECL OADR BT
+	</TextBlock>
+</Grid>
+
+

@@ -1,0 +1,50 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border Background="#2b2d31" HorizontalAlignment="Center" VerticalAlignment="Center" Height="Auto" Width="900" TextElement.Foreground="#949aa1" TextElement.FontWeight="Bold" TextElement.FontSize="16" Padding="20">
+
+        <StackPanel Orientation="Vertical">
+
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="100"/>
+					<ColumnDefinition Width="3*"/>
+					<ColumnDefinition Width="100"/>
+				</Grid.ColumnDefinitions>
+							
+				<TextBlock HorizontalAlignment="Center" FontSize="36" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+					ВСТУПЛЕНИЕ
+				</TextBlock>
+				
+				<Button Grid.Row="0" Grid.Column="2" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&gt;&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_2.xml"/>
+			
+			</Grid>
+
+			<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="#949aa1" Margin="0,10,0,10"/>
+			
+			<Image Source="{Binding Assets[s01_map_political_ru]}" Margin="0,0,0,0" Height="500"/>
+			
+			<TextBlock Text="Политическая ситуация в 1985 году. НАТО и союзники обозначены синим, СССР и страны ОВД - красным, нейтральные страны - жёлтым." FontStyle="Italic" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="12"/>
+
+			<TextBlock> <LineBreak/> </TextBlock>
+			
+			<TextBlock Text="Мир разделён" HorizontalAlignment="Center"  FontSize="24"/>
+			
+			<TextBlock TextWrapping="Wrap" Height="200">
+				<LineBreak/>
+				1985 – Холодная война находится на пике. По всей Европе войска НАТО и стран Варшавского договора готовы вступить в бой, в то время как США и СССР продолжают свое соперничество в планетарном масштабе.
+				<LineBreak/>
+				<LineBreak/>
+				В Европе и Тихоокеанском регионе союзники Америки остаются верны своим обязательствам, но их безопасность все больше зависит от военных сил Соединенных Штатов и их присутствия в регионе.
+			</TextBlock>	
+			
+			<StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Дальше" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_2.xml"/>
+			</StackPanel>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

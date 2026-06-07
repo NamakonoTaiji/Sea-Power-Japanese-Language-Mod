@@ -1,0 +1,58 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		FLASH
+		<LineBreak/>
+		Z 080115Z JUL 85
+		</TextBlock>
+		<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMSUBPAC"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CO USS HOUSTON SSN-713"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="RETASKING - CONTACT REPORT"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		SECRET
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) National technical means have located a USSR DON class sub tender in the Spratly Islands at Jackson Atoll. This tender is resupplying a force of KILO, ROMEO, and TANGO class SSKs in the area operating in support of enemy invasion of Palawan Island.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) Break off from inshore reconnaissance at Cam Ranh and proceed at best speed to Jackson Atoll.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) Tender is protected by a small escort force including Chinese subchasers. 1 x UDALOY class FFG was spotted on last satellite pass, but may have moved out of the area. Note: shallow hydrography in this area is hazardous, and Philippine Navy passes warning that minelaying operations are in progress. Minefield locations will be passed to you ASAP.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) Take sub tender and all enemy SSKs encountered with torpedo or missile. If UDALOY class FFG is encountered, prioritize destruction of this unit in addition to DON class tender.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) Report location of sinking if tactical situation permits, then disengage via Palawan Passage to Darwin, Australia. Good luck and good hunting. COMSUBPAC sends.
+		<LineBreak/>
+		<LineBreak/>
+		SECRET
+		<LineBreak/>
+		DECL OADR BT
+	</TextBlock>
+</Grid>
+
+

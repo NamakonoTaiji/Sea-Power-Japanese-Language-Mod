@@ -1,0 +1,66 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        最優先（FLASH）
+        <LineBreak/>
+        Z 260715Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（CTF 77）"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName}指揮官"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
+        太平洋空軍司令官（ヒッカム空軍基地、ハワイ州）<LineBreak/>
+        オーストラリア王立空軍航空軍司令部（グレンブルック、ニューサウスウェールズ州、豪州）
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任務変更――ジャワ海の脅威"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        機密（SECRET）
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) 状況：バリ島は奪還され、インドネシアの施政下へと戻された。しかしながら、ソ連海軍の有力な水上部隊がジャワ海で依然として位置不明のままであり、モスクワはインドネシアが降伏か中立化を選択しなければ、ジャカルタに対して無差別爆撃を行うと脅迫している。大統領は当海域の米軍に対し、直ちに介入せよとの命令を下した。
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) 任務：当海域の同盟軍部隊はジャワ海に進入し、ソ連海軍水上任務部隊の位置を特定してこれを撃滅せよ。
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) 実施：{TaskForceName}はバリ島から北西に進出し、スラバヤにて燃料を補給した後、ジャワ海へと進入せよ。同盟軍の航空アセットと連携し、ソ連の水上部隊を捜索・撃滅せよ。ソ連潜水艦に遭遇した場合は、それらも同様に撃破しなければならない。
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) 脅威：ソ連巡洋艦群は、巡洋艦「アドミラル・セニャーヴィン」（スヴェルドロフ級）、「アドミラル・オクチャブリスキー」（クレスタII級）、および旅大（LUDA）級、カシン（KASHIN）級駆逐艦で構成されている。情報部では、この部隊がジャワ海で活動するフォックストロット（FOXTROT）型通常型潜水艦1隻の支援を受けている可能性が極めて高いとみている。カムラン湾から出撃するソ連爆撃機が、この部隊を掩護するために作戦行動を行う可能性が高い。
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) 同盟軍：インドネシア政府は本計画のため、同盟軍航空部隊によるスラバヤからの出撃を認めている。以前ブルームに展開していた航空アセットは北方へと移動しており、実戦投入が可能である。米潜水艦がジャワ海で活動中であるが、貴官の戦術指揮下にはない。
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) 備考：本計画は、インドネシアへの圧力を緩和し、我が方の陣営として再び参戦させるため、大統領自身により命令されたものである。成功は至上命令である。太平洋艦隊司令長官（CINCPAC）は、{TaskForceName}の士官、乗組員、そしてパイロットたちが任務を完全に遂行できると確信している。諸君の幸運と健闘を祈る。第77任務部隊指揮官より。
+        <LineBreak/>
+        <LineBreak/>
+        機密（SECRET）
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>
