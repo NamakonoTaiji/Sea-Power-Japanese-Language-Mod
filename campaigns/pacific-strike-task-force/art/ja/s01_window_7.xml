@@ -53,7 +53,7 @@
         <ColumnDefinition Width="122"/>
       </Grid.ColumnDefinitions>
 
-      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_6_ja.xml"/>
+      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_6.xml"/>
       <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding NextCommand}"/>
 
       <StackPanel Grid.Column="1" Orientation="Vertical">

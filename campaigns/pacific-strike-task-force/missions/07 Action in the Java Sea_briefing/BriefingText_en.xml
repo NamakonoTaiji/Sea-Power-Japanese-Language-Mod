@@ -1,0 +1,66 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 260715Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName}"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        COMPACAF HICKAM AFB HI<LineBreak/>
+        HQ AIR COMMAND RAAF GLENBROOK NSW AU
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="RETASKING - JAVA SEA THREAT"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        SECRET
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) SITUATION: Bali has been retaken and restored to Indonesian control. However, a heavy Soviet surface force remains unlocated in the Java Sea, and Moscow has threatened Jakarta with indiscriminate bombardment if Indonesia does not surrender or neutralize. The President has ordered U.S. forces in the area to intervene immediately.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) MISSION: Allied forces in the area will move into the Java Sea to locate and destroy the Soviet surface task force.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) EXECUTION: {TaskForceName} will proceed northwest from Bali, refuel at Surabaya, and then enter the Java Sea. Working in concert with Allied air assets, {TaskForceName} will locate and destroy the Soviet surface force. If Soviet submarines are encountered they must be destroyed as well.
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) THREAT: Soviet cruiser group consists of cruisers ADMIRAL SENYAVIN (SVERDLOV), ADMIRAL OKTYABRSKY (KRESTA II), and LUDA and KASHIN class DDs. Intelligence assesses with high confidence this group is supported by 1 x FOXTROT class SSK operating in Java Sea. USSR bombers out of Cam Ranh will likely operate in support of this force.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ALLIED FORCES: Indonesia is allowing Allied air to stage out of Surabaya for this operation. Air assets previously at Broome have relocated north and will be available for tasking. U.S. submarines are active in the Java Sea, but are not under your tactical command.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) REMARKS: This operation has been ordered by the President himself to relieve pressure on Indonesia and bring them back into the war on our side. Success is paramount. CINCPAC has full confidence that the officers, crews, and pilots of {TaskForceName} can get the job done. Good luck and good hunting. CTF 77 sends.
+        <LineBreak/>
+        <LineBreak/>
+        SECRET
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

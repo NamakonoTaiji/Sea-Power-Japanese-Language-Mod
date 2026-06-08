@@ -40,7 +40,7 @@
       <RowDefinition Height="64"/>
     </Grid.RowDefinitions>
 
-    <TextBlock Grid.Row="0" Text="INTRODUCTION" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <TextBlock Grid.Row="0" Text="導入" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     <Border Grid.Row="0" Width="76" Height="38" BorderBrush="#3E454B" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,24,0">
       <TextBlock Text="5 / 7" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Border>
@@ -53,17 +53,17 @@
         <ColumnDefinition Width="122"/>
       </Grid.ColumnDefinitions>
 
-      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_4.xml"/>
-      <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_6.xml"/>
+      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_4.xml"/>
+      <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_6.xml"/>
 
       <StackPanel Grid.Column="1" Orientation="Vertical">
         <Image Source="{Binding Assets[s01_map_pacific_offensive]}" Height="510" Stretch="Uniform" HorizontalAlignment="Center"/>
-        <TextBlock Text="Major movements by Soviet and Chinese naval forces at the opening of hostilities, 25 June 1985." FontStyle="Italic" FontSize="11" Foreground="#99A1A8" HorizontalAlignment="Center" Margin="0,8,0,0"/>
-        <TextBlock Text="The Pacific Offensive Begins" FontSize="24" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,22,0,14"/>
+        <TextBlock Text="1985年6月25日の敵対行為開始時における、ソ連および中国海軍部隊の主要な展開行動。" FontStyle="Italic" FontSize="11" Foreground="#99A1A8" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+        <TextBlock Text="太平洋攻勢の始まり" FontSize="24" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,22,0,14"/>
         <TextBlock TextWrapping="Wrap" FontSize="16" LineHeight="25" Foreground="#D0D4D8">
-          Weeks before fighting began in Europe, Soviet naval forces in the Pacific put to sea for major war games in the Sea of Japan, while Chinese forces carried out parallel maneuvers in the South China Sea and East China Sea.
+          欧州で戦闘が始まる数週間前、太平洋のソ連海軍部隊は日本海での大規模な演習に向けて出撃し、同時に中国軍も南シナ海および東シナ海で並行して演習を実施していた。
           <LineBreak/><LineBreak/>
-          Once Warsaw Pact forces entered the Fulda Gap in late June, both navies abandoned the pretense of peacetime maneuvers and attacked, eliminating Allied observation units and striking vulnerable bases, shipping, and outposts across the Western Pacific.
+          6月下旬にワルシャワ条約機構軍がフルダ・ギャップへ侵攻すると、両海軍は平時演習の口実を捨て去って攻撃へと転じ、西太平洋全域の同盟軍観測部隊を排除しつつ、防衛の脆弱な基地や船舶、前哨基地を急襲した。
         </TextBlock>
       </StackPanel>
     </Grid>

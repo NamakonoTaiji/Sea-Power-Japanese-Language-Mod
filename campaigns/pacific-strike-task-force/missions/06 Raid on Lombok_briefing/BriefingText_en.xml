@@ -1,0 +1,65 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        IMMEDIATE
+        <LineBreak/>
+        O 200300Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} DARWIN NT AU"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        HQ AIR COMMAND RAAF GLENBROOK NSW AU
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPERATION PLAN - DRAGON SPEAR"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        SECRET
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) SITUATION: Destruction of KIROV surface group 11AUG has eased pressure on Allied operations and opened the way for counteroffensive. Enemy forces still hold the airfield at Bali captured 20JUL, and their coastal forces are active in Lombok Strait. The government of Indonesia has requested our assistance in clearing these forces.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) MISSION: TF 77 will force Lombok Strait, destroy enemy forces opposing passage, and isolate Bali for follow-on amphibious operations. Upon completion, Marines from 17 MAU will retake the airfield and restore Bali to Indonesian control.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) EXECUTION: {TaskForceName} will conduct a surface sweep through Lombok Strait to draw out and destroy hostile naval units. Enemy shore sites, airfield defenses, and coastal positions are to be reduced to permit follow-on Marine operations against Bali.
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) THREAT: Two enemy destroyers and assorted coastal forces were identified on the last satellite pass. Limited air assets may be operating from Bali airfield, including Yak-38 jump jets, and shore guns and AAA have been sighted in the vicinity of the airport. No USSR submarines have been detected in the area.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ALLIED FORCES: E-2C from CVW-2 will be overhead for radar picture, and RAAF F-111C flight will report in for SuCAP. NOTE: heavy civilian traffic is expected. Avoid civilian casualties.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) REMARKS: Immediate resupply after this action is not guaranteed under the present offensive timetable. Exercise prudent ordnance expenditure, as follow-on operations farther north may be required on short notice. Good luck and good hunting. CTF 77 sends.
+        <LineBreak/>
+        <LineBreak/>
+        SECRET
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

@@ -1,0 +1,159 @@
+<!-- Campaign event template for standard USN-style "daily intentions message" (DIM) - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="MARINEFUNKMELDUNG" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="*******G E H E I M*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="NAVY DEPARTMENT" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+			
+		</Grid>
+		
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+					SOFORT<LineBreak/>
+					O 082100Z AUG 85
+				</TextBlock>
+
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="TF 77, CVW-9, NAVFAC DARWIN, 10 SQN RAAF"/>
+				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+				<TextBlock Grid.Row="13" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR:"/>
+				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="LAGEBERICHT 09/1200Z - 10/1200Z - MSG NO 047/85"/>
+
+				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+					<LineBreak/>
+					GEHEIM
+					<LineBreak/>
+					<LineBreak/>
+					1. (S) STRATEGISCHE LAGE: US-amerikanische und alliierte Kräfte haben sich nach dem Fall Singapurs und Malaysias in Darwin gesammelt. Feindliche Kräfte stoßen weiter nach Südosten vor und der Nachrichtendienst vermutet, dass ihr Ziel darin besteht, die auf Luzon bedrängten alliierten Kräfte vollständig zu isolieren und so eine Verhandlungslösung zu erzwingen. Die Neutralisierung Sumatras und Javas durch den Feind verschafft ihm nun freien Zugang zum Indischen Ozean, von wo aus Kräfte der UdSSR den Persischen Golf, Westaustralien und Südafrika bedrohen können. Sowjetische Marineflieger verfügen von Wladiwostok bis nach Süden zur Cam Ranh Bay über operative Handlungsfreiheit. Zudem wurden ihre U-Boote beim Einlaufen in die Timorsee gemeldet.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+					2. (S) AUFTRAG: TF 77 führt gemeinsam mit alliierten Kräften in Darwin eine Mission zur Verteidigung Australiens durch. Die Gesamtführung liegt bei CTF 77.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					3. (S) STATUS TF 77:
+				</TextBlock>	
+				<TextBlock Grid.Row="18" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">	
+					- KITTY HAWK verbleibt nach Minentreffer bei Yokosuka zur Reparatur in Puget Sound.
+					<LineBreak/>
+					- Teile von CVW-9 operieren landgestützt von Darwin aus.
+					<LineBreak/>
+					- MOOSBRUGGER wurde auf Ersuchen der australischen Regierung für dringende Aufgaben nach Cooktown abkommandiert.
+					<LineBreak/>
+					- VAW-114 Hawkeye ging am 07AUG über Osttimor verloren. Ersatz von CVW-14 ist unterwegs, ETA 14AUG.
+					<LineBreak/>
+				</TextBlock>				
+				<TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					4. (S) ALLIIERTE KRÄFTE:
+				</TextBlock>
+				<TextBlock Grid.Row="20" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+					- Australien: Die F-111-Staffel der RAAF wurde bei Abriegelungsangriffen gegen feindliche Kräfte in Indonesien schwer dezimiert. Das JORN-OTH-Radar der RAAF wurde am 03AUG durch feindliche Agenten zerstört.
+					<LineBreak/>
+					- Malaysia/Indonesien: Alliierte Kräfte sind versprengt oder haben kapituliert. Von diesen Kräften ist kein organisierter Widerstand zu erwarten.
+					<LineBreak/>
+					- Singapur: Die vollständige Niederlage führte zum Totalverlust der RN Force F. Andere britische Kräfte sind im Atlantik und im Mittelmeer vollständig gebunden.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="21" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					5. (S) AUFKLÄRUNG / BEDROHUNG:
+				</TextBlock>
+				<TextBlock Grid.Row="22" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+					- Australische Spähtrupps wurden verdeckt nach Indonesien eingeschleust, um Bewegungen durch kritische Engstellen zu überwachen (Sunda, Lombok, Ombai/Wetar).
+					<LineBreak/>
+					- Verstärkte Bear-D-Aktivität über der Timor- und Arafurasee deutet auf einen möglichen feindlichen Vorstoß in unsere Richtung innerhalb der nächsten 48 bis 72 Stunden hin. VF-111 meldet am 08AUG einen Abschuss, eine Bear-D entkam.
+					<LineBreak/>
+					- SIGINT weist darauf hin, dass feindliche U-Boote mit dem Transit nach Süden beginnen.
+					<LineBreak/>
+				</TextBlock>	
+				<TextBlock Grid.Row="23" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					6. (S) ANMERKUNGEN: Dies ist ein kritischer Wendepunkt in der Kampagne gegen den Feind. Wir wurden weiter zurückgedrängt, als jede Vorkriegseinschätzung erwartet hätte, doch mit richtiger Koordination können wir die Bewegungen des Feindes hier vollständig zum Erliegen bringen. Viel Glück und gute Jagd. CTF 77 Ende.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="24" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					GEZEICHNET: CAPT C. F. ROBINSON
+					<LineBreak/>
+					CTF 77
+					<LineBreak/>
+					<LineBreak/>
+					GEHEIM
+					<LineBreak/>
+					NICHT OHNE ZUSTIMMUNG DES EMPFÄNGERS FREIGEBEN
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

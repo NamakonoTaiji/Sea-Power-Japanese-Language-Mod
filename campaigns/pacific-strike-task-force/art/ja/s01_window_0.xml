@@ -24,7 +24,7 @@
             </TextBlock>    
             
             <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
-                <Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_1_ja.xml"/>
+                <Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_1.xml"/>
             </StackPanel>
         </StackPanel>
     </Border>

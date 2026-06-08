@@ -53,8 +53,8 @@
         <ColumnDefinition Width="122"/>
       </Grid.ColumnDefinitions>
 
-      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_3_ja.xml"/>
-      <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/s01_window_5_ja.xml"/>
+      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_3.xml"/>
+      <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_5.xml"/>
 
       <StackPanel Grid.Column="1" Orientation="Vertical">
         <Image Source="{Binding Assets[s01_soviet_tanks]}" Height="510" Stretch="Uniform" HorizontalAlignment="Center"/>

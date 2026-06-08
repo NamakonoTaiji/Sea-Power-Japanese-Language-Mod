@@ -1,0 +1,63 @@
+﻿<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		СРОЧНОЕ СООБЩЕНИЕ
+		<LineBreak/>
+		01:15GMT 08 ИЮЛ 85
+		</TextBlock>
+		<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком. подв. силами США на Тихом Океане"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Ком. USS Хьюстон SSN-713"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Новый приказ: Перехват"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		СЕКРЕТНО
+		<LineBreak/>
+		<LineBreak/>
+		1. Разведка обнаружила советскую плавбазу подводных лодок типа «Дон» на островах Спратли у атолла Джексон. Этот корабль обеспечивает снабжение группы подводных лодок, действующих в этом районе для поддержки вторжения на остров Палаван. Мы полагаем что в состав группы входят лодки проектов 633, 641Б «Сом» и 877 «Палтус».
+		<LineBreak/>
+		<LineBreak/>
+		2. Прекратите наблюдение за Камранью и двигайтесь на максимальной скорости к атоллу Джексон. 
+		<LineBreak/>
+		<LineBreak/>
+		3. Плавбаза находится под защитой небольшого отряда китайских противолодочных кораблей. На последнем пролете спутника был замечен один БПК пр 1155 «Фрегат», но, возможно, он уже покинул этот район.
+		<LineBreak/>
+		<LineBreak/>
+		Примечание: ВМС Филиппин предупреждают о проведении операций по минированию в данном районе. Информация о местоположении минных полей будет передана вам при первой возможности. 
+		<LineBreak/>
+		ВАЖНО: Избегайте указанных зон минных полей. Заход в такую зону приведёт к немедленному уничтожению вашей лодки.
+		<LineBreak/>
+		<LineBreak/>
+		4. Потопите плавбазу и любые обнаруженные ДЭПЛ противника. Если «Фрегат» всё ещё находится в районе, постарайтесь уничтожить и его - это поможет нам в дальнейшем.
+		<LineBreak/>
+		<LineBreak/>
+		5. Если тактическая ситуация позволит, сообщите место потопления кораблей противника, а затем отступите через Палаванский пролив в Дарвин в Австралию.
+		<LineBreak/>
+		<LineBreak/>
+		Удачи в бою.
+		<LineBreak/>
+		<LineBreak/>
+	</TextBlock>
+</Grid>
+
+
