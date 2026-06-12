@@ -22,7 +22,7 @@
 		<!-- USS Pegasus PHM-1 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="500" Canvas.Top="150">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="飞马座"/>
+                <Run Text="飞马座（PHM-1）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>

@@ -1,0 +1,50 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    TextElement.FontFamily="Roboto">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="40" />
+        <RowDefinition Height="60" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="24">
+        導入シナリオシリーズ
+    </TextBlock>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="36"
+        FontWeight="Bold">
+        ナルヴィク反撃作戦
+    </TextBlock>
+    <TextBlock Grid.Row="2" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> Sea Powerへようこそ、指揮官！ <LineBreak />
+        <LineBreak />
+        本任務において、貴官はナルヴィク上陸地点の防衛を担うソヴレメンヌイ打撃群を指揮する。NATO海軍部隊は、我が方の橋頭堡を排除すべく反撃を試みている。 <LineBreak />
+        <LineBreak />
+        貴官が指揮するのは、ソビエト北方艦隊でも最新鋭の護衛艦であるソヴレメンヌイ（EM-680）およびヴィツェ・アドミラル・クラコフ（BPK-401）の2隻だ。ソヴレメンヌイの対艦ミサイルで接近するNATO軍を撃破し、クラコフのSA-N-9地対空ミサイル（SAM）システムで打撃群の防空を担え。なお、クラコフは対艦攻撃が可能なSS-N-14Bミサイルも積載している。上空のTu-95RT偵察機がレーダー哨戒にあたる。
+        <LineBreak />
+        <LineBreak />
+        敵軍勢力： <LineBreak />
+        <LineBreak /> 南方より接近中のノルウェー軍部隊： <LineBreak /> • オスロ級フリゲート <LineBreak /> •
+        スレイプニル級コルベット <LineBreak /> • F-5A攻撃機×2 <LineBreak />
+        <LineBreak /> 西方より接近中のアメリカ任務群： <LineBreak />
+        • ペリー級フリゲート <LineBreak /> • ノックス級フリゲート <LineBreak /> • ニューポート級揚陸艦 <LineBreak />
+        <LineBreak />
+        交戦規定（ROE）： <LineBreak /> • 全ての敵対的（レッド）勢力の撃滅を許可する。 <LineBreak />
+        <LineBreak /> 電波封止（EMCON）： <LineBreak />
+        • 制限なし。全ての敵接点を確実に探知するため、全レーダーをアクティブに保て。 <LineBreak />
+        <LineBreak /> 作戦目標： <LineBreak /> •
+        少なくとも1隻の自艦の生存。 <LineBreak /> • 遭遇した全ての敵艦艇の撃破。 <LineBreak />
+        <LineBreak /> 健闘を祈る、指揮官！ </TextBlock>
+</Grid>

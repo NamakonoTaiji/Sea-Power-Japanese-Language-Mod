@@ -44,7 +44,7 @@
 		<!-- JDS Mochishio SS-574 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="350">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="望潮"/>
+                <Run Text="望潮（SS-574）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>

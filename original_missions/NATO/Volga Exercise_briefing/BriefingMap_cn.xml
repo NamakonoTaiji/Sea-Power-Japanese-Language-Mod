@@ -16,8 +16,8 @@
 		<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="新泽西号水面行动群" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="新泽西BB-62"/><LineBreak/>
-                <Run Text="约克城CG-48"/>
+                <Run Text="新泽西（BB-62）"/><LineBreak/>
+                <Run Text="约克城（CG-48）"/>
            </TextBlock>
 		</Border>   
 

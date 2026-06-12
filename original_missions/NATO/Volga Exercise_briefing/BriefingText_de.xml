@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+		IMMEDIATE
+		<LineBreak/>
+		O 240019Z MAI 85
+	</TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT NEW JERSEY SAG"/>
+	<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		JCS WASHINGTON DC //CJCS//<LineBreak/>
+		USCINCEUR VAIHINGEN GE<LineBreak/>
+		USCINCLANT NORFOLK VA<LineBreak/>
+		DIA WASHINGTON DC
+	</TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="DRINGENDER AUFTRAG GIUK-LÜCKE"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		GEHEIM
+		<LineBreak/>
+		<LineBreak/>
+		1. (S) LAGE: In Westdeutschland dauern die Gefechte zwischen NATO- und Warschauer-Pakt weiter an. NATO-REFORGER-Konvois verlegen planmäßig von der US-Ostküste nach Antwerpen und Brest. Sowjetische U-Boote und Bomber versuchen, diese Konvois zu stören, hatten bislang jedoch nur begrenzten Erfolg. Am 19.MAI meldete die Aufklärung starke Wärmeemissionen von den Maschinen der KIROV (CGN) sowie eines Zerstörers der SOVREMENNY-Klasse in Murmansk. Diese Einheiten waren beim nächsten Satellitenüberflug am 22.MAI nicht mehr sichtbar und bewegen sich vermutlich in den Atlantik.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) AUFTRAG: NATO-See- und Luftstreitkräfte führen Sperroperationen in der GIUK-Lücke durch, um die KIROV-SAG aufzuklären und zu bekämpfen.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) DURCHFÜHRUNG: Die verfügbaren NATO-Kräfte im Einsatzraum sind begrenzt. Die NEW JERSEY SAG übernimmt die Sicherung des westlichen Bereichs der GIUK-Lücke, während Einheiten der Deutschen Marine die östliche Sperre bei den Hebriden stellen. P-3 aus Keflavik unterstützen die Suche. Nach Lokalisierung der KIROV-SAG sind alle verfügbaren Mittel einzusetzen, um sie zu versenken.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) FEINDLAGE: 1 x KIROV-Klasse (CGN) und 1 x Zerstörer der SOVREMENNY-Klasse (DDG). Tu-95RT-Flugzeuge sowie AGI-Aufklärungstrawler könnten Ziel- und Positionsdaten Ihrer Kräfte weitergeben. Die KIROV führt 20 x SS-N-19 „Shipwreck“-Flugkörper mit einer Reichweite von 280 sm mit.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) ANMERKUNGEN: Aufgrund der ungleichen Kräfteverhältnisse wird EMCON empfohlen. Diese Einheiten müssen abgefangen werden, bevor sie in den Atlantik gelangen und unsere Konvois bedrohen. CINCLANT ist sich der Schwierigkeit dieses Auftrags bewusst, ist jedoch überzeugt, dass die NEW JERSEY erfolgreich sein wird. Viel Glück und gute Jagd.
+		<LineBreak/>
+		<LineBreak/>
+		GEHEIM
+		<LineBreak/>
+		DECL OADR BT
+	  </TextBlock>
+</Grid>

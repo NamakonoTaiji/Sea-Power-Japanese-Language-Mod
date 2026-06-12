@@ -1,0 +1,43 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="磁気異常探知機（MAD）" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto" FontSize="12">
+                    <TextBlock.Inlines>
+                        <Run Text="航空機が利用できる最後の探知メカニズムは、磁気探知機（MAD）である。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="MADはヘリコプターの後方から曳航される「MADバード」から展開される。MADは、潜水艦の鋼鉄製の船体のような大きな鉄塊によって引き起こされる地球の磁場の変化を探知することで機能する。注意：ソ連のアルファ級のようなチタン製船体を持つ潜水艦は、MAD装置での探知が非常に困難である！" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="MAD装置を使用するには、ヘリコプターが低高度で非常に狭い範囲を飛行する必要がある。ヘリコプターに最低高度を指示することでMAD捜索を実施でき、その後MADバードがヘリコプターの後方に曳航される。MADコンタクトは戦術ディスプレイ上に「磁気異常」コンタクトとして表示される。" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_21_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_3_briefing/t03_window_23_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

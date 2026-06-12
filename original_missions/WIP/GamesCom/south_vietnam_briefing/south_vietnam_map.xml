@@ -1,0 +1,1 @@
+<Image Margin="33" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[stark_realities]}"/>

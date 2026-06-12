@@ -1,0 +1,50 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ RED BANNER NORTHERN FLEET"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR, K-316"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Subj:"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Transit Operations"/>
+		<TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="24 JUNE 1985"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		1. NATO forces have begun offensive operations against our Comrades in Germany. We are now operating on a war footing. It is the responsibility of the Navy to prevent the coming reinforcement of Europe by NATO forces from America. Therefore, all Northern Fleet submarines are ordered to proceed into the Atlantic.
+		<LineBreak/>
+		<LineBreak/>
+		2. K-316 is ordered to proceed from patrol station off Jan Mayen Land through the Denmark Strait and into the Atlantic.
+		<LineBreak/>
+		<LineBreak/>
+		3. WARNING: Our intelligence sources indicate a U.S. Los Angeles class attack submarine is patrolling in the Denmark Strait.
+		<LineBreak/>
+		<LineBreak/>
+		4. With our missile submarines following behind you, sinking this American is the highest priority. Locate and destroy him, then report in if tactical situation permits. Good luck, Comrade.
+		<LineBreak/>
+		<LineBreak/>
+		/s/ Adm. I. M. Kapitanets
+		<LineBreak/>
+		<LineBreak/>
+		Cовершенно cекретно
+		<LineBreak/>
+		При чтении — уничтожить
+		<LineBreak/>
+    </TextBlock>
+</Grid>

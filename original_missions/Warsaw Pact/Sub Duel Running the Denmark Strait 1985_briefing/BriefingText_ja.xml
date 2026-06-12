@@ -1,50 +1,47 @@
 <Grid
-  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-<Grid.RowDefinitions>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="10"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="10"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="10"/>
-        <RowDefinition Height="Auto"/>
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="Auto"/>
-        <ColumnDefinition Width="10"/>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
-	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
-		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ ROTBANNER NORDFLOTTE"/>
-		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
-		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, K-316"/>
-		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
-		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Transitoperationen"/>
-		<TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="24 JUNI 1985"/>
-		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		1. NATO-Streitkräfte haben Operationen gegen unsere Genossen in Deutschland durchgeführt. Wir operieren nun im Kriegszustand. Es ist die Aufgabe der Marine, die bevorstehende Verstärkung Europas durch NATO-Kräfte aus Amerika zu verhindern. Daher wird allen U-Booten der Nordflotte befohlen, in den Atlantik einzulaufen.
-		<LineBreak/>
-		<LineBreak/>
-		2. K-316 wird angewiesen, von der Patrouillen vor Jan Mayen durch die Dänemarkstraße in den Atlantik zu verlegen.
-		<LineBreak/>
-		<LineBreak/>
-		3. WARNUNG: Unsere Aufklärung weist darauf hin, dass ein amerikanisches Jagd-U-Boot der LOS-ANGELES-Klasse in der Dänemarkstraße patrouilliert.
-		<LineBreak/>
-		<LineBreak/>
-		4. Da unsere Raketen-U-Boote Ihnen folgen, hat die Versenkung der Amerikaner höchste Priorität. Suchen und vernichten Sie sie, erstatten Sie anschließend Meldung, sofern die taktische Lage dies zulässt. Viel Glück, Genosse.
-		<LineBreak/>
-		<LineBreak/>
-		/s/ Adm. I. M. Kapitanets
-		<LineBreak/>
-		<LineBreak/>
-		Cовершенно cекретно
-		<LineBreak/>
-		При чтении — уничтожить
-		<LineBreak/>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発：" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="赤旗勲章受章北方艦隊司令部" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛：" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="K-316 艦長" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名：" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="通過作戦" />
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}"
+        Text="1985年6月24日" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 1.
+        NATO軍がドイツの我が同志たちに対して作戦行動を開始した。我々は現在、戦時体制下にある。海軍の任務は、アメリカからのNATO軍による欧州への増援を阻止することである。これを受け、北方艦隊の全潜水艦に対し、アトランティック（大西洋）への進出を命ずる。
+        <LineBreak />
+        <LineBreak />
+        2. K-316は、ヤンマイエン島沖の哨戒区よりデンマーク海峡を通過し、大西洋へと移動せよ。 <LineBreak />
+        <LineBreak /> 3.
+        警告：我が方の情報によれば、アメリカのロサンゼルス級攻撃型原子力潜水艦がデンマーク海峡を哨戒中である。 <LineBreak />
+        <LineBreak /> 4.
+        我が方のミサイル潜水艦が諸君の後続として控えているため、アメリカ潜水艦の撃滅を最優先事項とする。敵を捜索し、これを排除せよ。その後、戦術状況が許す限りにおいて速やかに報告せよ。同志の健闘を祈る。
+        <LineBreak />
+        <LineBreak />
+        /s/ I. M. カピタネッツ海軍大将 <LineBreak />
+        <LineBreak /> 最高機密（TOP SECRET） <LineBreak /> 読了後、直ちに破棄せよ。 <LineBreak />
     </TextBlock>
 </Grid>

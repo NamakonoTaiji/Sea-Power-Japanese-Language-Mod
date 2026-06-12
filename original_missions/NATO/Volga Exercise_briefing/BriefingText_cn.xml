@@ -21,21 +21,30 @@
     </Grid.ColumnDefinitions>
 	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
 	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
-		1985年5月24日
+		立即
+		<LineBreak/>
+		1985年5月24日0019Z时
 	</TextBlock>
     <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
 
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="大西洋舰队总司令"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="新泽西号水面行动群司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="新泽西号水面行动群指挥官"/>
+	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="抄送："/>
+	<TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		华盛顿特区参谋长联席会议//参谋长联席会议主席//<LineBreak/>
+		德国法伊英根美国欧洲司令部总司令<LineBreak/>
+		弗吉尼亚州诺福克美国大西洋司令部总司令<LineBreak/>
+		华盛顿特区国防情报局
+	</TextBlock>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
-    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="片段命令01——紧急重新分配"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="紧急重新分配——GIUK缺口行动"/>
 	    <!--
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		立即——机密
+		机密
 		<LineBreak/>
 		<LineBreak/>		1.（机密）态势：北约和华约的部队仍在西德交战。北约的重返德国护航队正按计划从美国东海岸定期前往安特卫普和布雷斯特。苏联潜艇和轰炸机部队正试图拦截护航队，但目前为止战果极少。5月19日，国家技术情报来源在位于摩尔曼斯克的基洛夫号核动力巡洋舰和一艘956型驱逐舰的动力装置上检测到热散发。它们已从5月22日的卫星飞越图像上消失，我们怀疑它们正在进入大西洋。
 		<LineBreak/>
@@ -43,13 +52,13 @@
 		<LineBreak/>
 		<LineBreak/>		3.（机密）执行：附近的北约部队数量有限。新泽西号水面行动群将被分配至西部的GIUK缺口进行防御，德国海军部队将负责赫布里底群岛的东部封锁。凯夫拉维克的P-3将协助搜索。一旦找到基洛夫号水面行动群，使用一切可用手段将其击沉。
 		<LineBreak/>
-		<LineBreak/>		4.（机密）敌方作战序列：1艘1144型核动力巡洋舰和1艘956型驱逐舰。图-95和伪装成拖网渔船的辅助通用情报船可能会向敌军传递有关你部队的瞄准数据。1144型核动力巡洋舰携带了20枚P-700花岗岩导弹，射程可达350海里。
+		<LineBreak/>		4.（机密）敌方作战序列：1艘1144型核动力巡洋舰和1艘956型驱逐舰。图-95RT和伪装成拖网渔船的辅助通用情报船可能会向敌军传递有关你部队的瞄准数据。1144型核动力巡洋舰携带了20枚P-700花岗岩导弹，射程可达280海里。
 		<LineBreak/>
 		<LineBreak/>		5.（机密）备注：由于交战部队战斗力不平衡，建议进行电磁辐射控制。我们必须在敌军进入大西洋并威胁我们的护航队之前进行拦截。大西洋舰队总司令明白这是一项艰巨的任务，但也知道新泽西号能克服困难。祝你好运，狩猎愉快。
 		<LineBreak/>
 		<LineBreak/>
 		机密
 		<LineBreak/>
-		未经收件人许可不得解密
+		解密：由原始发布机构决定
 	  </TextBlock>
 </Grid>

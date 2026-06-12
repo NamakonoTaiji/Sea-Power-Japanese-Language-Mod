@@ -1,0 +1,79 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  TextElement.FontFamily="Roboto">
+<Grid.RowDefinitions>
+        <RowDefinition Height="40"/>
+		<RowDefinition Height="60"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="24">
+		引导任务系列
+	</TextBlock>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold">
+		纳尔维克反击
+	</TextBlock>
+    <TextBlock Grid.Row="2" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		欢迎来到《海权》，指挥官！
+		<LineBreak/>
+		<LineBreak/>
+		在此任务中，你将指挥负责掩护纳尔维克登陆行动的现代号打击群。北约海军单位正在尝试反击，将我方部队驱离滩头阵地。
+		<LineBreak/>
+		<LineBreak/>
+		你将指挥现代号（EM-680）和库拉科夫海军中将号（BPK-401），它们是苏联北方舰队最先进的护航舰艇。使用现代号的反舰导弹摧毁接近的北约军队，库拉科夫海军中将号的3K95面对空导弹系统将负责防空。注意：库拉科夫海军中将号还携带了喇叭口导弹，可用于攻击船只。一架图-95RT侦察机将在空中进行雷达覆盖。
+		<LineBreak/>
+		<LineBreak/>
+		敌军：
+		<LineBreak/>
+		<LineBreak/>
+		从南方接近的挪威军队：
+		<LineBreak/>
+		• 奥斯陆级护卫舰
+		<LineBreak/>
+		• 斯雷普尼尔级轻护卫舰
+		<LineBreak/>
+		• 2架F-5A战斗机
+		<LineBreak/>
+		<LineBreak/>
+		从西方接近的美国特遣大队：
+		<LineBreak/>
+		• 佩里级护卫舰
+		<LineBreak/>
+		• 诺克斯级护卫舰
+		<LineBreak/>
+		• 纽波特级登陆舰
+		<LineBreak/>
+		<LineBreak/>
+		交战规则：
+		<LineBreak/>
+		• 允许摧毁所有敌方（红色）单位。
+		<LineBreak/>
+		<LineBreak/>
+		辐射控制：
+		<LineBreak/>
+		• 无限制。所有雷达保持开机，确保发现所有敌方接触。
+		<LineBreak/>
+		<LineBreak/>
+		目标：
+		<LineBreak/>
+		• 你至少有一艘船只不被击沉。
+		<LineBreak/>
+		• 摧毁遭遇的所有敌方船只。
+		<LineBreak/>
+		<LineBreak/>
+		祝你好运，指挥官！
+		</TextBlock>
+</Grid>

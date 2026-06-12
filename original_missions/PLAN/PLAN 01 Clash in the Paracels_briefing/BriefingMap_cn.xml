@@ -42,7 +42,7 @@
 		<!-- 1st Surface Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="850" Canvas.Top="350">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="第1水面攻击支队"/>
+                <Run Text="第1水面攻击分队"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
@@ -53,7 +53,7 @@
 		<!-- 2nd Surface Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="950" Canvas.Top="375">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="第2水面攻击支队"/>
+                <Run Text="第2水面攻击分队"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

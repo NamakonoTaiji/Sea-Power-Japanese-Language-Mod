@@ -28,10 +28,10 @@
 		<!-- Player unit summary -->
 		<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="苏禄海侦察支队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                <Run Text="黄石"/><LineBreak/>
-                <Run Text="鹰潭"/><LineBreak/>
-                <Run Text="湘潭"/>
+                <Run Text="苏禄海侦察分队：" TextDecorations="Underline"/><LineBreak/><LineBreak/>
+                <Run Text="黄石（535）"/><LineBreak/>
+                <Run Text="鹰潭（531）"/><LineBreak/>
+                <Run Text="湘潭（556）"/>
            </TextBlock>
 		</Border>
 
@@ -42,7 +42,7 @@
 		<!-- Sulu Sea Scouting Force -->
 		<StackPanel Orientation="Vertical" Canvas.Left="675" Canvas.Top="275">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="苏禄海侦察支队"/>
+                <Run Text="苏禄海侦察分队"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>

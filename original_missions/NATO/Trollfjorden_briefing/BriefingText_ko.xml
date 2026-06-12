@@ -40,7 +40,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.  (기밀)    전술적 상황:
+      1.  (II비)    전술적 상황:
       <LineBreak/>
       <LineBreak/>우리는 이제 트롤피요르덴 작전을 개시할 준비가 되었음. 사령관의 기동부대는 트롬소를 향해 진격하는 소련 상륙군을 공격하기에 최적의 위치에 있음.
       <LineBreak/>
@@ -52,7 +52,7 @@
       <LineBreak/>
 	  <LineBreak/>
       <LineBreak/>
-      2.  (기밀) 중요 목표:
+      2. (II비) 중요 목표:
       <LineBreak/>
       <LineBreak/>기습 지점을 지나가는 소련군 상륙군을 기습하여 침몰시킬것. 제한된 레이더 사용과 지형을 사용하여 위치 노출을 최소화 하고 은밀하게 배치된 코벤급들을 유용하게 사용할것!
       <LineBreak/>
@@ -72,6 +72,6 @@
       <LineBreak/>
       <LineBreak/>
       <LineBreak/>
-	  4.  (기밀) 전파통제 - 사령관의 재량에 따름, 상황에 따라서 통제할것.
+	  4. (II비) 전파통제 - 사령관의 재량에 따름, 상황에 따라서 통제할것.
     </TextBlock>
 </Grid>

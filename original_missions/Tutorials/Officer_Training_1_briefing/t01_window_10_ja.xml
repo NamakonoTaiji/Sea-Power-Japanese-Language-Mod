@@ -1,0 +1,46 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SeapowerUI"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+    Padding="5,5,5,5">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBlock
+                TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+                <TextBlock.Inlines>
+                    <Run FontWeight="Bold" Text="艦船の操作 - ウェイポイント" FontSize="16" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="戦術ディスプレイ（ミニマップ）を使ってウェイポイントを設定し、部下の士官に操艦を任せることも可能だ。ユニットを選択した状態で、マップ上の任意の場所を右クリックするとウェイポイントが設定される。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="これにより、艦の士官たちが舵を操作し、設定された速度で指定のウェイポイントへ移動する。必要に応じて速度は自由に変更可能だ。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="Shiftキーを押しながらウェイポイントを設定すると、複数のウェイポイントを連続して設定できる。" FontSize="12" />
+                </TextBlock.Inlines>
+            </TextBlock>
+            <StackPanel Orientation="Horizontal"
+                Margin="0" HorizontalAlignment="Center">
+                <Button Width="100" Height="50"
+                    Margin="0,0,15,0" FontSize="16" VerticalAlignment="Bottom" Content="戻る"
+                    Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_9_ja.xml" />
+                <Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom"
+                    Content="次へ" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_11_ja.xml" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

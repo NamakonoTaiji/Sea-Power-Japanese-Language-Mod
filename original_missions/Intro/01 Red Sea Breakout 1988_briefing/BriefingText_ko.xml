@@ -1,0 +1,73 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  TextElement.FontFamily="Roboto">
+<Grid.RowDefinitions>
+        <RowDefinition Height="40"/>
+		<RowDefinition Height="60"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+		<RowDefinition Height="10"/>
+		<RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	<TextBlock Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="24">
+		입문용 시나리오 시리즈
+	</TextBlock>
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold">
+		홍해 돌파 (1988)
+	</TextBlock>
+    <TextBlock Grid.Row="2" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		사령관님, Sea Power에 오신 것을 환영합니다!
+		<LineBreak/>
+		<LineBreak/>
+		이번 임무에서 당신은 CG-48 USS 요크타운을 지휘하여 홍해와 아덴만, 인도양을 잇는 바브 알 만답 해협을 통과해야 합니다. 예멘군은 우리의 통행을 차단하려 하고 있습니다.
+		<LineBreak/>
+		<LineBreak/>
+		USS 요크타운은 최첨단 SPY-1A 레이더와 최신 무장을 장착한 이지스 순양함입니다. USS 엔터프라이즈 소속의 E-2C 호크아이가 추가적인 공중 및 해상 초계 임무를 수행하고 있습니다.
+		<LineBreak/>
+		<LineBreak/>
+		적 세력:
+		<LineBreak/>
+		• 오사급 미사일 고속정
+		<LineBreak/>
+		• P6급 어뢰정
+		<LineBreak/>
+		• 페탸급 연안 호위함
+		<LineBreak/>
+		• 북동쪽에서 접근하는 폭탄을 장착한 MiG-21 전투기
+		<LineBreak/>
+		• 북쪽 해안의 육상 P-15 미사일 및 해안 포대
+		<LineBreak/>
+		• 크리박급 호위함 한척
+		<LineBreak/>
+		<LineBreak/>
+		교전 규칙 (ROE):
+		<LineBreak/>
+		• 당신은 모든 적대적인 (WP) 세력을 격파해야함.
+		<LineBreak/>
+		<LineBreak/>
+		전파방사통제 (EMCON):
+		<LineBreak/>
+		• 제한 없음. 이동 중에도 모든 레이더를 활성화할 것.
+		<LineBreak/>
+		<LineBreak/>
+		목표:
+		<LineBreak/>
+		• USS 요크타운은 반드시 생존시킬것
+		<LineBreak/>
+		• 지도에 표시된 원에 도달하거나, 해협의 모든 적군을 파괴
+		<LineBreak/>
+		<LineBreak/>
+		행운을 빕니다 사령관님!
+		</TextBlock>
+</Grid>

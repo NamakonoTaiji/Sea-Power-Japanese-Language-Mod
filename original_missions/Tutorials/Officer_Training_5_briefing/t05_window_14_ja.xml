@@ -1,0 +1,44 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=700}"
+    Padding="5,5,5,5">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" Margin="15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontFamily="Roboto" FontSize="16"
+                    FontWeight="Bold" Text="接触の尋問" />
+                <TextBlock TextWrapping="Wrap" Margin="0" FontFamily="Roboto">
+                    <TextBlock.Inlines>
+                        <Run
+                            Text="「要求:身元を明らかにせよ」は、発信元のユニットから接触者に対し、直ちに身元を明らかにするよう要求するメッセージを送信する。すべてのユニットが身元を明らかにするわけではない！接触者が尋問に応じるかどうかはランダムであり、彼らがどのように応答するかを知らせるメッセージが表示される。 " />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="「応じることに同意する」接触者は、戦術ディスプレイ上で直ちに識別され、シナリオの残り時間中、識別されたままである。応答できない、または応答を拒否する接触者は、戦術ディスプレイ上で未識別のままである。目視IDなど、他の方法を使用してそれらを識別する必要がある。" />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run
+                            Text="注：「要求:身元を明らかにせよ」メッセージを送信するユニットは、敵軍を含むマップ上のすべてのユニットに自動的に自らを暴露する！このため、常に偵察ヘリコプターをこの目的に使用し、隠密行動を試みている艦船や他のユニットは決して使用しないこと。" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <LineBreak />
+                <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_13_ja.xml" />
+                    <Button Width="100" Height="50" Margin="15" FontSize="16"
+                        VerticalAlignment="Bottom" Content="次へ" Command="{Binding OpenFileCommand}"
+                        CommandParameter="missions/Tutorials/Officer_Training_5_briefing/t05_window_15_ja.xml" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

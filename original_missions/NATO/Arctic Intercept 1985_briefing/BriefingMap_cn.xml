@@ -19,7 +19,7 @@
 		<!-- USS Pargo SSN-650 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="500">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="根室氏管鼻鲷"/>
+                <Run Text="根室氏管鼻鲷（SSN-650）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>

@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        1985年8月18日
+    </TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋舰队总司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="贝里琉号两栖戒备群/第78特遣舰队指挥官"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="行动计划——南方盾牌"/>
+        <!--
+    <Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+    -->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        紧急——机密
+        <LineBreak/>
+        <LineBreak/>
+        1.（机密）态势：华约军队正在尝试推翻马达加斯加政府并占领此岛屿以支援其在莫桑比克和印度洋的行动。古巴特种部队的突袭已将马达加斯加政府斩首，使其军队陷入混乱。北约及盟友的兵力捉襟见肘，但马达加斯加是战略要地，绝不能落入共产主义阵营之手。冲突爆发后，对南非的制裁和禁运已被解除，其久经沙场的部队如今已成为我们在此区域内的重要盟友，可供我们调遣。
+        <LineBreak/>
+        <LineBreak/>
+        2.（机密）任务：贝里琉号两栖戒备群将部署海军陆战队第17远征队以增援塔那那利佛的抵抗力量。第78特遣舰队摧毁遭遇的任何敌方海空部队。
+        <LineBreak/>
+        <LineBreak/>
+        3.（机密）执行：贝里琉号的空中单位将对塔那那利佛的美军和抵抗力量进行空中补给并消灭遭遇的敌军。通往塔那那利佛的空中走廊遍布防空火力，需要贝里琉号出动攻击机进行压制。南非空军的幻影F1战斗机将提供战斗空中巡逻。
+        <LineBreak/>
+        <LineBreak/>
+        4.（机密）友军：南非国防军单位将向第78特遣舰队提供支援，第3中队的幻影F1可进行战斗空中巡逻，南非海军潜艇约翰娜·范德梅维号将掩护贝里琉号两栖戒备群向北航行。梅里尔号将加入你的部队，这艘驱逐舰搭载了新型的战斧对地攻击导弹，并且包含所有已知敌方阵地瞄准数据的磁带也已被空运至舰上。
+        <LineBreak/>
+        <LineBreak/>
+        5.（机密）敌方部署：古巴空军单位在附近海域活动，可能尝试攻击贝里琉号两栖戒备群及友军。我们已发现东德侦察船在马达加斯加东北海域活动，应尽可能将其摧毁。
+        <LineBreak/>
+        <LineBreak/>
+		6.（机密）备注：此次行动是防止关键战略盟友被华约控制的第一步。祝你好运，猎杀愉快。
+        <LineBreak/>
+        <LineBreak/>
+        机密
+        <LineBreak/>
+        未经收件人许可不得解密
+      </TextBlock>
+</Grid>

@@ -1,0 +1,47 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="10" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left"
+        FontSize="{StaticResource Font.Size.Header}">
+        <Run Text="1974年8月4日" />
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発" />
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="北海艦隊司令官" />
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛" />
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="潜水艦404号指揮官" />
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名" />
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}"
+        Text="作戦計画――サイレント・スピア" />
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}"
+        TextWrapping="Wrap"> 秘密（SECRET） <LineBreak />
+        <LineBreak /> 1.
+        司令部は、091型原子力潜水艦を用いた隠密情報収集能力の試験を企図している。 <LineBreak />
+        <LineBreak /> 2.
+        潜水艦404号は、北緯26.57度、東経126.84度の地点へ最適速力で進出せよ。隠密性を維持し、被探知を避けよ。 <LineBreak />
+        <LineBreak /> 3.
+        到着後は当該海域に留まり（ロイター）、次命を待て。 <LineBreak />
+        <LineBreak /> 4.
+        日本側に探知された場合は直ちに当該地点を放棄し、東方の領海方面へ退避せよ。武器の使用は自衛の場合のみ許可する。敵の撃破よりも、離脱を最優先すること。諸君の武運を祈る。 <LineBreak />
+        <LineBreak />
+        秘密（SECRET） </TextBlock>
+</Grid>

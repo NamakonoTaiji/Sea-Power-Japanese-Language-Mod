@@ -35,7 +35,7 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-		최신 - 최고 기밀
+		위급 - I급 비밀
 		<LineBreak/>
 		<LineBreak/>
 		1. (최고기밀) 국가 기술 정보 출처에 따르면 소련 항공모함 그룹은 덴마크 해협을 향해 남서쪽으로 이동하는 키예프를 중심으로 하고 있습니다.
@@ -44,7 +44,7 @@
 		2. (최고기밀) 마지막 위성 통과 28년 1월 28일, 얀마옌 북쪽 약 150nm 지점에서 230코스 속도 20에 그룹이 표시됩니다.
 		<LineBreak/>
 		<LineBreak/>
-		3. (기밀) 할당된 초계구역에서 최고 속력으로 북쪽으로 이동, 이후 키예프 전투단을 요격 및 파괴할 것.
+		3. (II비) 할당된 초계구역에서 최고 속력으로 북쪽으로 이동, 이후 키예프 전투단을 요격 및 파괴할 것.
 		<LineBreak/>
 		<LineBreak/>
 		4. (기밀) 적군은 키예프, 크레스타 CG 1대, 크리박 FFG 2대, 우달로이 DDG 1대로 구성되어 있습니다.

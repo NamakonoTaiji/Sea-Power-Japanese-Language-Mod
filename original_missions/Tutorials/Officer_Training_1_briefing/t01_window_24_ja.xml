@@ -1,0 +1,47 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SeapowerUI"
+    mc:Ignorable="d"
+    d:DesignWidth="1920"
+    d:DesignHeight="1080"
+    Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+    Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=400}"
+    Padding="5,5,5,5">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBlock
+                TextWrapping="Wrap" Margin="15" FontFamily="Roboto">
+                <TextBlock.Inlines>
+                    <Run FontWeight="Bold" Text="ヘリコプター - 基地への帰投" FontSize="16" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="全ての航空機は燃料がなくなると、「ビンゴ」燃料状態を報告し、自動的に基地へ帰投（RTB）する。また、主兵装の弾薬が尽きた場合もRTBする。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run
+                        Text="基地へ帰投中の航空機は、着陸・再武装・再給油が完了するまでプレイヤーは操作できない。航空機が着陸した後、フライトデッキ > 飛行甲板ウィンドウ切り替え を開くと、再武装・再給油の残り時間を確認できる。"
+                        FontSize="12" />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="注：Tキーを押すか、右クリックメニューのオプションを使用することで、いつでも任意の航空機を強制的にRTBさせることが可能だ。"
+                        FontSize="12" />
+                </TextBlock.Inlines>
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
+                <Button
+                    Width="100" Height="50" Margin="0,0,15,0" FontSize="16"
+                    VerticalAlignment="Bottom" Content="戻る" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_23_ja.xml" />
+                <Button Width="100" Height="50" Margin="0" FontSize="16" VerticalAlignment="Bottom"
+                    Content="次へ" Command="{Binding OpenFileCommand}"
+                    CommandParameter="missions/Tutorials/Officer_Training_1_briefing/t01_window_25_ja.xml" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

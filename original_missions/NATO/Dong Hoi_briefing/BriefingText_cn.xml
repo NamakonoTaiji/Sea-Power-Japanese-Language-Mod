@@ -21,16 +21,14 @@
     </Grid.ColumnDefinitions>
 	<!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
 	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
-		<Run Text="{Binding MissionStartTime.Year}"/>-<Run Text="{Binding MissionStartTime.Month, StringFormat={}{0:00}}"/>-<Run Text="{Binding MissionStartTime.Day, StringFormat={}{0:00}}"/>
+		<Run Text="1972年4月19日"/>
 	</TextBlock>
     <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
-    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="{StaticResource Font.Size.Header}">
-		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
-	</TextBlock>
+
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第七舰队司令"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="俄克拉荷马市号水面行动群司令"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77.1.1特遣分队指挥官"/>
     <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="抄送："/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="太平洋舰队总司令"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
@@ -40,30 +38,24 @@
 	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
 	-->
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.（机密）战术态势：
-      <LineBreak/>
-      <LineBreak/>
-	  情报显示北越正通过沿海公路向广治省的前线运送大量部队和补给。
-      <LineBreak/>
-      <LineBreak/>
+      立即——机密
 	  <LineBreak/>
-      2.（机密）主要目标：
-      <LineBreak/>
-      <LineBreak/>沿海岸航行，摧毁遇到的任何大型设施，如码头和燃料库。导弹巡洋舰斯特雷特号正在东北方提供防空掩护。
-      <LineBreak/>
-      <LineBreak/>
 	  <LineBreak/>
-      3.（机密）威胁报告：
+	  1.（机密）态势：情报显示北越正通过沿海公路向广治省的前线运送大量部队和补给。
       <LineBreak/>
       <LineBreak/>
-      根据情报，我们怀疑有多个海岸炮阵地在保护目标。
+      2.（机密）任务：第77特遣舰队执行海岸炮击，摧毁洞海附近的地面设施。 
       <LineBreak/>
       <LineBreak/>
+      3.（机密）执行：第77.1.1特遣分队（包含俄克拉荷马市号）攻击北越海岸炮台和设施并压制遭遇的所有目标。斯特雷特号部署在第77.1.1特遣分队的东北方并协同防空。无辐射控制限制。此区域内的所有目标均被视为敌对，授权第77.1.1特遣分队不受限制地对所有构成直接威胁的目标开火。
+      <LineBreak/>
+      <LineBreak/>
+      4.（机密）敌方作战序列：洞海地区受到敌方面对空导弹阵地和海岸炮台保护。北越海军的岸防舰艇可能会出动攻击我军，但要注意：此区域是重要的渔场，必须避免平民伤亡。
+      <LineBreak/>
+      <LineBreak/>
+      5.（机密）备注：迅速进入，在敌军向南补给前将其消灭。祝你好运，猎杀愉快。 
 	  <LineBreak/>
-      4.（机密）黄色警告——仅在受到攻击时开火。
-      <LineBreak/>
-      <LineBreak/>
 	  <LineBreak/>
-      5.（机密）电磁辐射控制——保持无线电静默，除非另有指示。
+	  机密
     </TextBlock>
 </Grid>

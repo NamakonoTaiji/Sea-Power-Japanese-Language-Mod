@@ -35,7 +35,7 @@
 		<!-- PNS Hangor S131 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="450">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="鲨鱼S131"/>
+                <Run Text="鲨鱼（S131）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>

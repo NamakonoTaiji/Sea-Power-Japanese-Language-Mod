@@ -25,9 +25,9 @@
 	</TextBlock>
     <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="잠수함대 사령관"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="잠수함대 사령부"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="JS 모치시오 SS-574 함장"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="JDS 모치시오 SS-574 함장"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="접촉 보고"/>
 	    <!--
@@ -37,16 +37,16 @@
 		기밀
 		<LineBreak/>
 		<LineBreak/>
-		1. (기밀) 0831Z, 홋카이도 서쪽 영해에서 소나가 미확인 음향 신호 2개를 탐지함.
+		1. (II비) 0831Z, 홋카이도 서쪽 영해에서 소나가 미확인 음향 신호 2개를 탐지함.
 		<LineBreak/>
 		<LineBreak/>
-		2. (기밀) 정보에 따르면 하나의 미상 접촉원은 빅터III급 잠수함으로 평가됨. 다른 하나는 확실하게 식별되지는 않으나 킬로급 혹은 로미오급 잠수함으로 추정됨. 두 개의 미상 접촉원 모두 라페루즈 해협을 향해 동쪽으로 이동 중임.
+		2. (II비) 정보에 따르면 하나의 미상 접촉원은 빅터III급 잠수함으로 평가됨. 다른 하나는 확실하게 식별되지는 않으나 킬로급 혹은 로미오급 잠수함으로 추정됨. 두 개의 미상 접촉원 모두 라페루즈 해협을 향해 동쪽으로 이동 중임.
 		<LineBreak/>
 		<LineBreak/>
-		3. (기밀) 라페루즈 해협 서쪽에 위치 후 두 잠수함을 탐지 및 격침할 것.
+		3. (II비) 라페루즈 해협 서쪽에 자리잡은 후에 두 잠수함을 탐지 및 격침할 것.
 		<LineBreak/>
 		<LineBreak/>
-		4. (기밀) 연합군의 해당 지역에서 활동에 매우 중요한 작전임. 조국을 위해 최선을 다할 것.
+		4. (II비) 연합군의 해당 지역에서 활동에 매우 중요한 작전임. 조국을 위해 최선을 다할 것.
 		<LineBreak/>
 		<LineBreak/>
 		기밀

@@ -43,7 +43,7 @@
 		<!-- USS Omaha SSN-692 -->
 		<StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="350">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="奥马哈SSN-692"/>
+                <Run Text="奥马哈（SSN-692）"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Submarine}"/>

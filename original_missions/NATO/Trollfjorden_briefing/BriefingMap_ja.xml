@@ -1,0 +1,5 @@
+<Viewbox Margin="33" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Canvas Width="1202" Height="814">
+        <Image Source="{Binding Assets[Trollfjorden_map]}"/>
+	</Canvas>
+</Viewbox>

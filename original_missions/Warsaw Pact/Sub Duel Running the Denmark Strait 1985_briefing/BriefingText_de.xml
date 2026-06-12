@@ -1,0 +1,50 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Von:"/>
+		<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="GHQ ROTBANNER NORDFLOTTE"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="An:"/>
+		<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KDT, K-316"/>
+		<TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Betr:"/>
+		<TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Transitoperationen"/>
+		<TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="24 JUNI 1985"/>
+		<TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+		1. NATO-Streitkräfte haben Operationen gegen unsere Genossen in Deutschland durchgeführt. Wir operieren nun im Kriegszustand. Es ist die Aufgabe der Marine, die bevorstehende Verstärkung Europas durch NATO-Kräfte aus Amerika zu verhindern. Daher wird allen U-Booten der Nordflotte befohlen, in den Atlantik einzulaufen.
+		<LineBreak/>
+		<LineBreak/>
+		2. K-316 wird angewiesen, von der Patrouillen vor Jan Mayen durch die Dänemarkstraße in den Atlantik zu verlegen.
+		<LineBreak/>
+		<LineBreak/>
+		3. WARNUNG: Unsere Aufklärung weist darauf hin, dass ein amerikanisches Jagd-U-Boot der LOS-ANGELES-Klasse in der Dänemarkstraße patrouilliert.
+		<LineBreak/>
+		<LineBreak/>
+		4. Da unsere Raketen-U-Boote Ihnen folgen, hat die Versenkung der Amerikaner höchste Priorität. Suchen und vernichten Sie sie, erstatten Sie anschließend Meldung, sofern die taktische Lage dies zulässt. Viel Glück, Genosse.
+		<LineBreak/>
+		<LineBreak/>
+		/s/ Adm. I. M. Kapitanets
+		<LineBreak/>
+		<LineBreak/>
+		Cовершенно cекретно
+		<LineBreak/>
+		При чтении — уничтожить
+		<LineBreak/>
+    </TextBlock>
+</Grid>

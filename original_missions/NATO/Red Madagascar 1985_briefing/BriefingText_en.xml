@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        18AUG1985
+    </TextBlock>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Right" Text="05:00Z (06:00L)" FontSize="{StaticResource Font.Size.Header}"/-->
+
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CMDR PELELIU AMPHIBIOUS READY GROUP / TASK FORCE 78"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPLAN - SOUTHERN SHIELD"/>
+        <!--
+    <Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+    -->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        FLASH - TOP SECRET
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) SITUATION: Warsaw Pact forces are attempting to overthrow the government of Madagascar and seize the island to support their operations in Mozambique and the Indian Ocean. A surprise attack by Cuban special forces has decapitated the Magadascar government, and its forces are in disarray. NATO and Allied forces are stretched very thin given combat operations in Europe and the Pacific, but Madagascar is key strategic point and must not be allowed to fall to Communist forces. The opening of conflict has seen sanctions and embargoes on South Africa lifted, and their highly experienced and combat-proven forces are now at our disposal as a critical ally in the region.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) MISSION: PELELIU ARG will deploy 17 MEU to reinforce resistance forces at Antananarivo. If CTF 78 encounters any enemy air/naval forces, they will be destroyed as well.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) EXECUTION: PELELIU air units will conduct aerial resupply of U.S. and resistance forces at Antananarivo and destroy any enemy forces encountered. Air corridor to Antananarivo has significant AAA and will need to be suppressed by PELELIU attack flights. SAAF Mirage F1 force will provide CAP. USS MERRILL is attached to your force - she is outfitted with new 'TOMAHAWK' land attack missile and has just had tapes flown aboard with targeting data for all known enemy emplacements.
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) ALLIED FORCES: SADF units will be made available to CTF 78 including 3 Squadron Mirage F1s for CAP, and SAN submarine JOHANNA VAN DER MERWE will screen PELELIU ARG to the north. 
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ENEMY DISPOSITION: Cuban Air Force units are operating nearby and may attempt to attack PELELIU ARG and Allied forces. East German reconnaissance ships have been detected operating northeast of Madagascar and should be destroyed if possible.
+        <LineBreak/>
+        <LineBreak/>
+		6. (S) REMARKS: This operation is the first step in preventing a critical strategic ally from falling to Pact forces. Good luck and good hunting.
+        <LineBreak/>
+        <LineBreak/>
+        SECRET
+        <LineBreak/>
+        DO NOT DECLASSIFY WITHOUT APPROVAL OF ADDRESSEE
+      </TextBlock>
+</Grid>

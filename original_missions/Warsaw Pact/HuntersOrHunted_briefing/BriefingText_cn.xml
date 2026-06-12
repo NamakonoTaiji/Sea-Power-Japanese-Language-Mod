@@ -28,31 +28,31 @@
 		<Run Text="{Binding MissionStartTime.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTime.Minute, StringFormat={}{0:00}}"/>Z (<Run Text="{Binding MissionStartTimeLocal.Hour, StringFormat={}{0:00}}"/>:<Run Text="{Binding MissionStartTimeLocal.Minute, StringFormat={}{0:00}}"/>L)
 	</TextBlock>
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
-    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第7作战支队指挥官"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第7作战分舰队司令"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第2海岸防御大队指挥官"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第2海岸防御大队大队长"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接触报告——任务命令"/>
     <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="#0-144.142.143"/>
     <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-      1.（机密）战术态势：美国潜艇继续试图渗透我们在巴伦支海的堡垒。第2海岸防御大队负责在我们的领海内对美国人采取反潜行动。今天上午，我们的一艘攻击型潜艇报告称美国潜艇的声学特征出现在奥斯特罗夫诺伊以北约150海里处。
+      1.战术态势：美国潜艇继续试图渗透我们在巴伦支海的堡垒。第2海岸防御大队负责在我们的领海内对美国人采取反潜行动。今天上午，我们的一艘攻击型潜艇报告称美国潜艇的声学特征出现在奥斯特罗夫诺伊以北约150海里处。
       <LineBreak/>
       <LineBreak/>
-      2.（机密）主要目标：第2海岸防御大队的安东分队将前往最后报告的接触位置并消灭美国人。
+      2.主要目标：第2海岸防御大队的安东分队将前往最后报告的接触位置并消灭美国人。
       <LineBreak/>
       <LineBreak/>
-	  3.（机密）友军协助：第145独立反潜航空团的伊尔-38可提供空中支援。
+	  3.友军协助：卡-25可提供空中支援，但由于距离遥远，此直升机仅携带声呐浮标。
 	  <LineBreak/>
       <LineBreak/>
-	  4.（机密）敌方作战序列：K-481号潜艇报告敌方声学特征符合美国的鲟鱼级攻击型核潜艇。
+	  4.敌方作战序列：K-481号潜艇报告敌方声学特征符合美国的鲟鱼级攻击型核潜艇。
       <LineBreak/>
       <LineBreak/>
-      5.（机密）武器发射：允许对所有水下接触开火。
+      5.武器发射：允许对所有水下接触开火。
       <LineBreak/>
       <LineBreak/>
-      6.（机密）电磁辐射控制——无限制。
+      6.电磁辐射控制——无限制。
 	  <LineBreak/>
       <LineBreak/>
-      7.（机密）备注：美国攻击型潜艇是危险的敌人，不要低估敌军。祝你们好运，同志们。
+      7.备注：美国攻击型潜艇是危险的敌人，不要低估敌军。祝你们好运，同志们。
     </TextBlock>
 </Grid>

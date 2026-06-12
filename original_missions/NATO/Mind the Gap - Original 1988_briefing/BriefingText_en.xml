@@ -1,0 +1,64 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="From:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="COMLANTFLT"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="To:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="TG Greyhound"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Screening Operations"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="12MAY1988"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. (S) SITUATION:
+      <LineBreak/>After the events of 09-10MAY, both NATO and the Warsaw Pact are rapidly mobilizing their forces into a wartime posture. The USSR is deploying its submarine fleet and is attempting to break out its ballistic missile subs into the North Atlantic. Task Group Greyhound, from U.S. 2nd Fleet, has been directed to cover the Eastern approaches of the GIUK Gap and to stop all USSR submarines from entering the Atlantic. Search and Attack Unit Alpha has been detached from TGG and is covering approaches between the Faroe Islands and Scotland, but is under TGG control. Guidance direct from CJCS has updated ROE, you are cleared to engage all unknown submarine contacts.
+      <LineBreak/><LineBreak/>
+      2. (S) MISSION:
+<LineBreak/>2.1 Conduct ASW Barrier search in vicinity of the GIUK Gap.
+<LineBreak/>2.2 Locate and target any unknown submarine contacts.
+<LineBreak/><LineBreak/>
+      3. (S) EXECUTION:
+<LineBreak/>3.1 EMCON policy at your discretion.  
+<LineBreak/>3.2 TG Greyhound will patrol between Iceland and the Faroe Islands.
+<LineBreak/>3.3 SAU Alpha will patrol between the Faroe Islands and Scotland.
+      <LineBreak/><LineBreak/>
+      4. (S) ENEMY OOB:
+<LineBreak/>4.1 1x Tango SSK Missing From Imagery
+<LineBreak/>4.2 2x Victor III SSN MFI
+<LineBreak/>4.3 1x Delta III SSBN MFI
+      <LineBreak/><LineBreak/>
+      5. (S) FRIENDLY OOB:
+<LineBreak/>5.1 TG Greyhound
+<LineBreak/>5.1.1 USS Valley Forge CG-50
+<LineBreak/>5.1.2 USS Thomas C. Hart FF-1092
+<LineBreak/>5.1.3 USS Jack Williams FFG-24
+<LineBreak/>5.2 SAU Alpha
+<LineBreak/>5.2.1 USS John Rogers DD-983
+<LineBreak/>5.2.2 USS Underwood FFG-36
+<LineBreak/>5.3 1x P-3 en route from Thule AFB
+<LineBreak/><LineBreak/>
+      6. (S) INTEL ASSESSMENT:
+<LineBreak/>6.1 Assess with high confidence that USSR attack submarines will attempt to engage NATO forces.
+<LineBreak/>6.2 Assess with medium confidence that USSR bomber forces will be scrambled to support Submarine operations.
+    </TextBlock>
+</Grid>

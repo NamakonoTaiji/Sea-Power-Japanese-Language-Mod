@@ -1,0 +1,150 @@
+<Viewbox Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+	<Canvas Width="1095" Height="662">
+        <Image Source="{Binding Assets[Bab_al_Mandab_Close]}"/>
+		<!-- Small Map -->
+        <Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="5" BorderBrush="White">
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[IndianOceanFar]}" Width="250"/>
+                <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="50,0,0,155" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
+            </Grid>
+        </Border>
+		<!-- Photo inset -->
+        <Border Canvas.Left="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
+			<Border.Effect>
+				<DropShadowEffect Opacity="0.25"/>
+			</Border.Effect>
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="12" CenterY="200"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+            <Grid>
+                <Image Stretch="Uniform" Source="{Binding Assets[photo_yorktown]}" Width="250"/>
+            </Grid>
+        </Border>
+
+		<!-- Map Labels -->
+		<TextBlock Foreground="SteelBlue" Text="Red Sea" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="325" Canvas.Top="125"/>
+		<TextBlock Foreground="SteelBlue" Text="Gulf of Aden" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="800" Canvas.Top="550"/>
+		<TextBlock Foreground="Black" Text="Yemen" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Canvas.Left="700" Canvas.Top="225"/>
+		
+		<!-- Mission Area Ellipse -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="600" Canvas.Top="450" >
+			<Ellipse Width="100" Height="100" Opacity="0.25" Fill="{StaticResource NTDS.FriendColour}"/>
+			<!-- Mission Area Text -->
+			<TextBlock Foreground="{StaticResource NTDS.FriendColour}" Text="Reach this area" HorizontalAlignment="Center"/>
+		</StackPanel>
+		
+		<!-- USS Yorktown CG-48 -->
+		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="200">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="USS Yorktown CG-48"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- E-2C Hawkeye AWACS -->
+		<StackPanel Orientation="Vertical" Canvas.Left="150" Canvas.Top="350">
+			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="E-2C Hawkeye AWACS"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- Osa -->
+		<StackPanel Orientation="Vertical" Canvas.Left="350" Canvas.Top="325">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="2 x Osa FAC"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- Krivak -->
+		<StackPanel Orientation="Vertical" Canvas.Left="575" Canvas.Top="390">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="Krivak FFG"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- 2 x P-6 PT -->
+		<StackPanel Orientation="Vertical" Canvas.Left="475" Canvas.Top="275">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="2 x P-6 PT"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Surface}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- SS-N-2 Battery -->
+		<StackPanel Orientation="Vertical" Canvas.Left="575" Canvas.Top="175">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="SS-N-2 Battery"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Installation}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- SS-N-2 Battery -->
+		<StackPanel Orientation="Vertical" Canvas.Left="575" Canvas.Top="275">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="SS-N-2 Battery"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Installation}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+		
+		<!-- 2 x MiG-21 Fishbed -->
+		<StackPanel Orientation="Vertical" Canvas.Left="900" Canvas.Top="100">
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="2 x MiG-21 Fishbed"/>
+            </TextBlock>
+			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
+                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Air}"/>
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.HostileColour}"/>
+            </Canvas>
+        </StackPanel>
+
+		<!-- Arrows -->
+		<!-- Tool for making paths: https://yqnn.github.io/svg-path-editor/ -->
+        <Path Canvas.Left="395" Canvas.Top="300" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="150"/>
+            </Path.RenderTransform>
+        </Path>
+		
+		<Path Canvas.Left="525" Canvas.Top="450" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.FriendColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="130"/>
+            </Path.RenderTransform>
+        </Path>
+		
+		<Path Canvas.Left="825" Canvas.Top="150" Data="M 0 -7 L 10 10 L 4 10 L 4 60 L -4 60 L -4 10 L -10 10 Z" Fill="{StaticResource NTDS.HostileColour}">
+            <Path.RenderTransform>
+                <RotateTransform Angle="250"/>
+            </Path.RenderTransform>
+        </Path>
+
+	</Canvas>
+</Viewbox>

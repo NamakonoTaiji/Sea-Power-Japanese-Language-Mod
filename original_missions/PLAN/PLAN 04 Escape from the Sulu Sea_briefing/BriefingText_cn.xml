@@ -27,7 +27,7 @@
     <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="发件："/>
     <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="南海舰队司令"/>
     <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="收件："/>
-    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="苏禄海侦察支队支队长"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="苏禄海侦察分队指挥官"/>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="主题："/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="修改苏禄海行动计划"/>
 	    <!--
@@ -43,7 +43,7 @@
 		2.以最快速度通过巴拉巴克海峡，返回我方领海。
 		<LineBreak/>
 		<LineBreak/>
-		3.注意：我们实际上已与菲律宾军队交战，最后一次侦察显示菲律宾水面舰队正尝试封锁海峡。
+		3.注意：我们实际上已与菲律宾军队交战，最后一次侦察显示菲律宾水面部队正尝试封锁海峡。
 		<LineBreak/>
 		<LineBreak/>
 		4.情报显示菲律宾军队可能在你抵达海峡时发动空袭。
