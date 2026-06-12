@@ -161,6 +161,7 @@
 
             <TextBlock Text="キャンペーンポイント" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
             <TextBlock Text="・消費したポイントは確定となり、払い戻すことはできない。" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- 新たなユニットはタスクフォースビルダーが利用可能な時のみ追加できる。部隊が友軍基地に到達するまでキャンペーンを続行せよ。" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
             <TextBlock Text="{Binding PurchaseLoadoutsRuleText}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
             <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
               <Run Text="・タスクフォースマネージャーからユニットを解隊すると、そのポイント価値の "/><Run Text="{Binding DismissRefundPercentText}"/><Run Text="％が返還される。"/>

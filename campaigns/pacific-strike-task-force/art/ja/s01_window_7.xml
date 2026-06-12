@@ -40,7 +40,7 @@
       <RowDefinition Height="64"/>
     </Grid.RowDefinitions>
 
-    <TextBlock Grid.Row="0" Text="導入" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <TextBlock Grid.Row="0" Text="INTRODUCTION" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     <Border Grid.Row="0" Width="76" Height="38" BorderBrush="#3E454B" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,24,0">
       <TextBlock Text="7 / 7" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Border>
@@ -65,7 +65,6 @@
           <LineBreak/><LineBreak/>
           貴官はその指揮官の一人である。任務部隊（タスクフォース）を集結させ、太平洋における大戦の初撃を生き残るべく、迫り来る戦いに備えよ。
       <LineBreak/><LineBreak/>
-          これが……
         </TextBlock>
         <Image Source="{Binding Assets[s01_pacific_strike_title]}" Height="60" Stretch="Uniform" HorizontalAlignment="Center" Margin="0,18,0,0"/>
       </StackPanel>

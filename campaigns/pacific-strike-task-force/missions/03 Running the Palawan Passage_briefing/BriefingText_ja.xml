@@ -32,7 +32,7 @@
     <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
         太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
-        In日米軍司令官（横田基地）
+        日米軍司令官（横田基地）
     </TextBlock>
     <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
     <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="新任務――シンガポールの防衛"/>
@@ -52,7 +52,7 @@
         4. (S) パラワン海峡およびボルネオ北西海域にて敵潜水艦の存在が疑われる。情報部によれば、中国潜水艦がバラバク海峡北部に機雷を敷設した可能性がある。
         <LineBreak/>
         <LineBreak/>
-        5. (S) 注記：すべての同盟軍潜水艦は台湾および沖縄の戦面に完全投入されている。パラワン海域は水中接触目標に対する自由攻撃区域（フリーファイアゾーン）とする。
+        5. (S) 注記：すべての同盟軍潜水艦は台湾および沖縄の戦面に完全投入されている。パラワン海域は水中接触目標に対する自由交戦区域（フリーファイアゾーン）とする。
         <LineBreak/>
         <LineBreak/>
         6. (S) サンダカンに到着後、次命を待て。注記：補給状況が逼迫しているため、サンダカンでの兵装の再補給は行えない。諸君の健闘を祈る。

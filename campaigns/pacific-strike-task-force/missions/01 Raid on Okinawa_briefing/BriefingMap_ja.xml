@@ -112,7 +112,7 @@
         <!-- 不明部隊 グループアイコンおよびテキスト -->
         <StackPanel Orientation="Vertical" Canvas.Left="50" Canvas.Top="425">
             <TextBlock Foreground="{StaticResource NTDS.UnknownColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="ソ連軍工作部隊（？）"/>
+                <Run Text="ソ連軍工作部隊（?）"/>
             </TextBlock>
             <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.UnknownColour}" Data="{StaticResource NTDS.Unknown.Surface}"/>
