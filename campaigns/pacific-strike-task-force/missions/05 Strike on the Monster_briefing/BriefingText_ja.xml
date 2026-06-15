@@ -1,0 +1,66 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        即時（IMMEDIATE）
+        <LineBreak/>
+        O 110000Z AUG 85
+        </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（CTF 77）"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceName}指揮官（ダーウィン、ノーザンテリトリー、豪州）"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+        <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
+        オーストラリア王立空軍航空軍司令部（グレンブルック、ニューサウスウェールズ州、豪州）
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦計画――エイブルライトニング"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        機密（SECRET）
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) 状況：同盟軍はダーウィンにて部隊の再編・集結を完了した。インドネシア軍は敵の攻撃により著しく衰退し、ソ連の遠征部隊はバリ島の飛行場を占領した。昨日、オーストラリアの沿岸監視員（コーストウォッチャー）は、キーロフ（KIROV）水上戦闘群がロンボク海峡を南下通過したと報告。その後の偵察写真により、同戦闘群がオーストラリアへ向けて東進中であることが判明した。
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) 任務：{TaskForceName}指揮官は、ダーウィンに展開するすべての利用可能な同盟軍部隊を指揮下に置き、キーロフ（KIROV）水上戦闘群の位置を特定し、これを撃滅せよ。
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) 実施：敵による識別を防ぐため、水上部隊を分散させ、電波管制（EMCON）を敷いた状態でダーウィンから西進せよ。キーロフ（KIROV）を捕捉後、指揮下の艦艇および航空部隊による協同打撃を実施せよ。戦闘空中哨戒（CAP）を運用し、敵の航空偵察部隊に我が方の位置を特定されるのを阻止せよ。
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) 敵の序列：キーロフ（KIROV）戦闘群は、クリヴァク（KRIVAK）型またはクリヴァクII（KRIVAK-II）型フリゲート2隻、キンダ（KYNDA）型巡洋艦1隻、およびウダロイ（UDALOY）型駆逐艦1隻で構成されている。注記：ウダロイ型はハープーンに対して非常に有効な高性能艦対空ミサイルSA-N-9を搭載している。バリ島の戦闘機用滑走路から出撃する敵のCAPおよび偵察機の飛来を警戒せよ。オーストラリア側の報告によると、ソ連軍は長距離低空偵察のためにBadger爆撃機を運用している模様。
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) 同盟軍：西オーストラリアのブルーム飛行場から限定的な同盟軍の航空作戦が展開される。注記：ハープーンおよびフェニックスの備蓄は著しく減少しており、我が方最後のE-2Cが8月8日にジャワ上空で行方不明となった。現時点で早期警戒管制機（AWACS）による掩護は提供できない。我が方の戦闘機は敵の航空偵察の捜索および識別を徹底（MUST）しなければならない。
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) 備考：太平洋艦隊司令長官（CINCPAC）は、本任務が水上部隊にとってリスクの極めて高い困難なものであると認識している。成功すれば、本全作戦はソ連太平洋艦隊の主要な水上戦闘艦の1隻を排除し、ダーウィンの我が拠点をミサイル攻撃から保護することに繋がる。諸君の幸運と健闘を祈る。第77任務部隊指揮官より。
+        <LineBreak/>
+        <LineBreak/>
+        機密（SECRET）
+        <LineBreak/>
+        DECL OADR BT
+        </TextBlock>
+
+</Grid>

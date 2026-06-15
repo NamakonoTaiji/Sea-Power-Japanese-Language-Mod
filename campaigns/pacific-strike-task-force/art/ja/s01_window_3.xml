@@ -1,0 +1,72 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Stretch="Uniform"
+  StretchDirection="Both">
+  <Grid Width="1560" Height="920" TextElement.Foreground="#D8DCE0" TextElement.FontFamily="Roboto">
+    <Grid.Resources>
+      <Style x:Key="SlideArrowButton" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="#8E969E"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="FontSize" Value="58"/>
+        <Setter Property="FontWeight" Value="Light"/>
+        <Setter Property="Opacity" Value="0.58"/>
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type Button}">
+              <Border Background="{TemplateBinding Background}">
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              </Border>
+              <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                  <Setter Property="Background" Value="#28383B3F"/>
+                  <Setter Property="Opacity" Value="0.82"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                  <Setter Property="Background" Value="#40383B3F"/>
+                  <Setter Property="Opacity" Value="0.9"/>
+                </Trigger>
+              </ControlTemplate.Triggers>
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+    </Grid.Resources>
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="76"/>
+      <RowDefinition Height="1"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="64"/>
+    </Grid.RowDefinitions>
+
+    <TextBlock Grid.Row="0" Text="INTRODUCTION" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Border Grid.Row="0" Width="76" Height="38" BorderBrush="#3E454B" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,24,0">
+      <TextBlock Text="3 / 7" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Border>
+    <Rectangle Grid.Row="1" Fill="#3E454B" Margin="22,0"/>
+
+    <Grid Grid.Row="2" Margin="0,10,0,0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="122"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="122"/>
+      </Grid.ColumnDefinitions>
+
+      <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_2.xml"/>
+      <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ja/s01_window_4.xml"/>
+
+      <StackPanel Grid.Column="1" Orientation="Vertical">
+        <Image Source="{Binding Assets[s01_ussr_pacific_fleet]}" Height="510" Stretch="Uniform" HorizontalAlignment="Center"/>
+        <TextBlock Text="ウラジオストクに集結したソ連海軍の大型水上艦艇。" FontStyle="Italic" FontSize="11" Foreground="#99A1A8" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+        <TextBlock Text="太平洋における戦力増強" FontSize="24" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,22,0,14"/>
+        <TextBlock TextWrapping="Wrap" FontSize="16" LineHeight="25" Foreground="#D0D4D8">
+          過去数年間にわたり、ソ連は海軍および航空資産を太平洋艦隊へと密かに移動させていた。これらの戦力は現在、北方のウラジオストクとペトロパブロフスク、そして南方のベトナム・カムラン湾に集結している。
+          <LineBreak/><LineBreak/>
+          中国では、中国人民解放軍（PLA）の戦略立案者らが台湾島に狙いを定めていた。1985年の夏までに、ソ連と中国はインド太平洋全域における同盟軍の支配権に挑む準備を整えていた。
+        </TextBlock>
+      </StackPanel>
+    </Grid>
+
+  </Grid>
+</Viewbox>

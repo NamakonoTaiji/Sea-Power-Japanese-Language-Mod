@@ -1,0 +1,64 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        最優先（FLASH）
+        <LineBreak/>
+        Z 300200Z JUN 85
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（在横須賀、日本）"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceName}指揮官（那覇、沖縄、日本）"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
+        在日米軍司令官（横田基地）
+    </TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="作戦計画――マジックサンダー"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        機密（SECRET）
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) 状況：米軍および同盟軍は西太平洋全域で激しい戦闘を展開中である。中国軍はこの機に乗じて台湾に対する攻勢作戦を開始しており、まずは台湾海峡の国民党管理下の島々への攻撃に着手した。連絡部隊の報告によると、北部の東引島および南部の金門島に対する水陸両用作戦が間近に迫っている。
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) 任務：{TaskForceName}は出撃し、東引島へ向かう中国人民解放軍（PLA）侵攻部隊に対して対水上打撃を実施、これを撃滅せよ。
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) 実施：宮古島から最高速で西進せよ。戦域内の同盟軍アセットと連携し、東引島へ向かう敵揚陸部隊をその護衛水上艦艇とともに撃滅せよ。突撃部隊を輸送中の中国海軍（PLAN）ユカン（YUKAN）級LSTの撃破を最優先とし、次いで護衛の駆逐艦を排除せよ。
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) 脅威：敵揚陸部隊は、中国海軍（PLAN）駆逐艦および沿岸舟艇からなる2個水上打撃部隊による支援を受けている。中国空軍（PLAAF）の爆撃機および戦闘機による襲撃が予想されるほか、東引島周辺では中国海軍（PLAN）ディーゼル潜水艦が活動している可能性が高い。
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) 同盟軍：米空軍のE-3A「ダークスター」が台北上空の定位置に展開し、空域および水上模様を提供する。嘉手納基地から出撃する米空軍のF-15Cが戦闘空中哨戒（CAP）のため作戦に参加する。
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) 備考：すべての敵揚陸部隊を撃沈せよ。兵装を消費した後は台北北方へ退避せよ。その後の作戦に備え、完全な再補給を行うため最高速で沖縄へ帰投せよ。諸君の幸運と健闘を祈る。
+        <LineBreak/>
+        <LineBreak/>
+        機密（SECRET）
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>
