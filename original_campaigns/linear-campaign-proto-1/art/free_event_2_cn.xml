@@ -1,0 +1,76 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="1988年5月1日|第105卷第42号|52美分" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Image Source="{Binding Assets[world_news_logo]}" Stretch="UniformToFill" Margin="0,15,0,15"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="苏联军舰在黑海冲撞美国军舰；美方自称无害通过" FontWeight="Bold" FontSize="32" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+                    
+                    <TextBlock Text="五角大楼称苏方行为“故意且危险” " FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						弗吉尼亚，诺福克——昨日，由于两艘苏联军舰故意撞击在黑海航行的美国海军船只，紧张局势进一步加剧。此事件发生在克里米亚半岛附近，遭到撞击的船只为约克城号巡洋舰（CG-48）和卡隆号驱逐舰（DD-970），海军称它们当时正在国际水域进行“无害通过”。
+						<LineBreak/>
+						据美国官员称，苏联的1135型护卫舰无私号和一艘35型护卫舰在两艘美国军舰的船首激进机动并低速接触。目前没有人员受伤的报告，但卡隆号左舷受到了表面损伤。
+						<LineBreak/>
+						国防部长弗兰克·卡卢奇谴责苏联的行为，称其“鲁莽且升级局势”。克里姆林宫为撞击行为辩护，称其为一种防御措施并指责美国在苏联的敏感设施附近进行“挑衅式监视”。（碰撞情况见第2页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[02_yorktown_collision]}" Stretch="Uniform"/>
+                    <TextBlock Text="苏联护卫舰无私号冲撞美国巡洋舰约克城号。卡隆号也遭到主张保护领海的苏联军舰故意冲撞。此次撞击事故的背景是进行航行自由演习的美国海军遭遇了扩大领海主张的苏联海军。" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="美国军舰改变航线" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						西班牙，罗塔——由于苏联海军增加了在北大西洋和巴伦支海的活动，美国海军已将一个水面行动群从地中海转移至北海，这是一次果断的武力展示。此特遣舰队于周六凌晨离开了位于罗塔的海军基地，预计将在本周内加强北约北部的海上防御。
+						<LineBreak/>
+						此次转移正值苏联在巴伦支海进行导弹试验并频繁派潜艇闯入北大西洋之际，北约部队已进入高度戒备状态。情报显示多艘苏联巡洋舰和驱逐舰已部署在GIUK缺口以北，此缺口是控制大西洋和北极海域之间航道的咽喉要地。（海军见第4页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <TextBlock Text="苏联进行核导弹试验" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+						莫斯科——苏联宣布计划在巴伦支海进行一系列导弹试验，此举加剧了北约内部对莫斯科军事意图的担忧，进一步恶化了紧张的东西方关系。计划在未来两周内进行的测试将涉及潜射和陆基弹道导弹。
+						<LineBreak/>
+						克里姆林宫称导弹发射为“例行战备演习”的一部分，旨在验证苏联的防御能力。但西方分析师担忧数次测试的时机（在海上对抗中）都象征着武力的展示，而非标准的演习。（导弹见第7页）
+					</TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

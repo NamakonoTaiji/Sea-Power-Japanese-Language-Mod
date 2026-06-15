@@ -1,0 +1,139 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Grid>
+      <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+        <Border.RenderTransform>
+          <TransformGroup>
+            <RotateTransform Angle="12" CenterX="432" CenterY="560"/>
+            <TranslateTransform X="375"/>
+          </TransformGroup>
+        </Border.RenderTransform>
+        <Border.Effect>
+          <DropShadowEffect />
+        </Border.Effect>
+        <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="*"/>
+		  </Grid.RowDefinitions>
+          <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,40,40,0"/>
+            <!--<Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="0,0,0,20" HorizontalAlignment="Left" Width="670"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,0,20"/>-->
+          </Grid>
+          <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+			1988年<Run FontSize="20" Text="•"/>5月<Run FontSize="20" Text="•"/>第35号
+		  </TextBlock>
+          <Image Grid.Row="2" Source="{Binding Assets[07_delta_3_surface_launch_2]}"/>
+          <Grid Grid.Row="3" Margin="0,10,0,20">
+            <TextBlock Text="强力武器成功试射" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+			<TextBlock Text="图：V·德米特柳克；" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+          </Grid>
+          <Grid Grid.Row="4" Background="#FFFAEBD7">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+			<Grid>
+			  <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+			  </Grid.RowDefinitions>
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="强大的苏联工程技术" Margin="0,0,0,45" />
+			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">				苏联成功研制并部署了一款新型洲际弹道导弹，进一步巩固了自身作为科技先锋的地位。
+			  </TextBlock>
+			</Grid>
+            <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,30,10,30">			社会主义工程技术的此项最新成果证明了苏联科学家和工人在保卫祖国方面坚定不移的奉献精神。
+			<LineBreak/>
+			<LineBreak/>
+			此武器由苏联军工复合体中最优秀的人才设计，象征着导弹技术的重大进步。
+			</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,30,20,30">			它的射程、精度和运载力都更优秀，还可投送多枚独立瞄准的弹头，确保了威慑帝国主义挑衅所需的战略平衡。
+			<LineBreak/>
+			<LineBreak/>
+			 国防部长赞扬了这一成就，并表示：“它是无与伦比的创造性壮举。”
+			</TextBlock>
+          </Grid>
+        </Grid>
+      </Border>
+      <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+        <Border.RenderTransform>
+          <TransformGroup>
+            <RotateTransform Angle="-6" CenterX="432" CenterY="560"/>
+            <TranslateTransform X="-313"/>
+          </TransformGroup>
+        </Border.RenderTransform>
+        <Border.Effect>
+          <DropShadowEffect />
+        </Border.Effect>
+        <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="*"/>
+		  </Grid.RowDefinitions>
+          <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,35,40,0"/>
+            <!--<TextBlock Text="真理使者报" Grid.Column="1" FontSize="135" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+            <Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="40,0,0,20" HorizontalAlignment="Left" Width="300"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,40,20"/>-->
+          </Grid>
+          <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+1988年<Run FontSize="20" Text="•"/>5月<Run FontSize="20" Text="•"/>第34号
+		  </TextBlock>
+          <Image Grid.Row="2" Source="{Binding Assets[07_ticonderoga]}"/>
+          <Grid Grid.Row="3" Margin="0,10,0,20">
+            <TextBlock Text="激进的帝国主义船只威胁我方船只，时常抵近检查" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+			<TextBlock Text="图：V·德米特柳克；" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+          </Grid>
+          <Grid Grid.Row="4" Background="#FFFAEBD7">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+			<Grid>
+			  <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+			  </Grid.RowDefinitions>
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="帝国主义的挑衅" Margin="0,0,0,45" />
+			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">			今天，世界目睹了背信弃义的西方帝国主义列强无端攻击热爱和平的苏联及社会主义盟友。凌晨时分，北约军队对华约海军发动了一系列袭击，违反了国际法，暴露了他们真正的好战本性。
+			<LineBreak/>			苏联数十年来一直在努力维护和平与稳定，但帝国主义集团在对社会主义进步的贪婪与恐惧的驱使下，
+			  </TextBlock>
+			</Grid>
+            <TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,36,10,30">			仍然选择了战争的道路。北约军队打着所谓“科学数据收集”的幌子在北方海岸公然挑衅。悬挂英美侵略者旗帜的军舰入侵了社会主义的海域，袭击了我们强大的火箭部队。
+			<LineBreak/>			总书记在政治局紧急会议上谴责了帝国主义的行动并宣布苏联人民将毫不动摇地保家卫国。“敌人已经图穷匕见，但他们很快就会知道，苏联和社会主义国家的联盟牢不可破。军人同志们必将确保我们的胜利。”
+			</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,36,20,30">			前线发来的报告表明我们勇敢的部队已经与侵略者交战，重创了他们的海军。在空中，英勇的苏联飞行员展示了社会主义海军航空兵的优越性，在海上，我们无敌的潜艇部队很快也会证明自己的价值。
+			<LineBreak/>			在考验面前，苏联人民团结一心。在每家工厂，工人们都加倍努力，为我们英勇的卫士们提供必要的取胜工具。在每座城市和村庄，公民们都在列宁的旗帜下集会，准备为保卫社会主义而牺牲一切。
+			</TextBlock>
+          </Grid>
+        </Grid>
+		</Border>
+    </Grid>
+  </Viewbox>
+</Page>

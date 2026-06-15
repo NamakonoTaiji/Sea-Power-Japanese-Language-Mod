@@ -1,0 +1,67 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="КОМ ТФ"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="КУГ ВОСТОК"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Предмет:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="Операция «Месть»"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="10МАЙ1988"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. (S) СИТУАЦИЯ:
+      <LineBreak/>Вчера не в меру агрессивный командующий советской КУГ атаковал и захватил USNS Килауэа в Северном море, убив при этом членов экипажа. США немедленно отреагировали и КУГ была потоплена подводной лодкой, действовавшей в этом районе. Несмотря на растущее беспокойство по поводу усиления враждебности и угрозы ядерной войны, Советский союз должен продемонстрировать силу. Советские моряки и корабли лежат на дне океана, и их гибель не может остаться без ответа. Кремль приказал вам обнаружить американскую оперативную группу на пути с острова Атту в Японию и потопить ее.
+      <LineBreak/><LineBreak/>
+      2. (S) ЗАДАЧА:
+<LineBreak/>2.1 Обнаружьте корабельную группу США на пути с Атту в Японию.
+<LineBreak/>2.2 Нейтрализуйте все корабли данной группы.
+<LineBreak/><LineBreak/>
+      3. (S) ИСПОЛНЕНИЕ:
+<LineBreak/>3.1 Радиомолчание на ваше усмотрение.
+<LineBreak/>3.2 Самолёты поддержки движутся в ваш район.
+<LineBreak/>3.3 Старайтесь сохранить вверенные вам боевые единицы.
+      <LineBreak/><LineBreak/>
+      4. (S) СИЛЫ ПРОТИВНИКА:
+<LineBreak/>4.1 КУГ ВМС США
+<LineBreak/>4.1.1 1x Крейсер типа Тикондерога
+<LineBreak/>4.1.2 1x Эсминец типа Спрюэнс
+<LineBreak/>4.1.3 1x Крейсер типа Белнап
+<LineBreak/>4.1.4 1x Крейсер типа Леги
+<LineBreak/>4.1.5 1x Фрегат типа Перри
+      <LineBreak/><LineBreak/>
+      5. (S) СОЮЗНЫЕ СИЛЫ:
+<LineBreak/>5.1 КУГ Восток
+<LineBreak/>5.1.1 ЭМ «Современный»
+<LineBreak/>5.1.2 РКР «Слава»
+<LineBreak/>5.1.3 БПК «Адмирал Исаченков»
+<LineBreak/>5.2 Самолёты поддержки
+<LineBreak/>5.2.1 Разведывательный самолёт Ту-95РЦ
+<LineBreak/>5.2.2 2 х Ракетоносец Ту-22М3
+<LineBreak/><LineBreak/>
+      6. (S) РАЗВЕДДАННЫЕ:
+<LineBreak/>6.1 Считается что КУГ США движется курсом юго-восток по направлению к Японии.  
+<LineBreak/>6.2 Считается что КУГ США не подозревает о вашем присутствии.
+<LineBreak/>6.3 Присутствие вражеской авиации не ожидается.
+    </TextBlock>
+</Grid>

@@ -1,0 +1,119 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+	  <Border.Effect>
+	    <DropShadowEffect />
+	  </Border.Effect>
+			
+	  <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+	    <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="45"/>
+		    <RowDefinition Height="*"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		  </Grid.RowDefinitions>
+	      <TextBlock Text="C05071157" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+		  <Grid Grid.Row="0">
+		    <Grid.RowDefinitions>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="90"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="Auto"/>
+		      <RowDefinition Height="15"/>
+		      <RowDefinition Height="Auto"/>
+		    </Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="*"/>
+		      <ColumnDefinition Width="Auto"/>
+		      <ColumnDefinition Width="Auto"/>
+		    </Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="机密" TextAlignment="Center"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+中央情报局局长
+<LineBreak/>
+<LineBreak/>
+<Run FontSize="12">华盛顿特区20505</Run>
+			</TextBlock>
+			<TextBlock Grid.Row="2" Grid.Column="3" TextWrapping="Wrap">
+执行登记号84-2648
+<LineBreak/>
+<LineBreak/>
+国家情报委员会中心登记号03508-84
+			</TextBlock>
+			<TextBlock Grid.Row="4" Grid.Column="2" Text="1988年5月15日"/>
+			<TextBlock Grid.Row="6" Grid.Column="3" Text="25X1"/>
+			<TextBlock Grid.Row="7" Grid.Column="0" Text="作为备忘录发送至："/>
+			<TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+总统
+<LineBreak/>
+副总统
+<LineBreak/>
+国务卿
+<LineBreak/>
+国防部长
+<LineBreak/>
+总统国家安全事务助理
+<LineBreak/>
+参谋长联席会议主席
+			</TextBlock>
+			<TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+行政命令13526 3.3（b）（1）>25年
+<LineBreak/>
+行政命令13526 3.5（c）
+			</TextBlock>
+			<TextBlock Grid.Row="9" Grid.Column="0" Text="主题："/>
+			<TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="美苏海上冲突"/>
+		  </Grid>
+		  <TextBlock Grid.Row="2" TextWrapping="Wrap">
+1.我在此附上一系列令人震惊的迹象，这些迹象与苏联近期在挪威海和白令海峡的激进活动有关。虽然最初的冲突似乎是由苏联的一位水面行动群指挥官引发的，但其高层顺水推舟地利用了此次机会，让我们措手不及。
+<LineBreak/>
+<LineBreak/>
+2.白令海峡的交战初步助长了苏联迅速夺取我方关键领土并削弱我方预警能力的野心。我们应当密切关注偏远的雷达站，特别是在北太平洋地区。
+<LineBreak/>
+<LineBreak/>
+3.苏联的一艘弹道导弹潜艇在靠近声波监听系统时沉没，此事在苏联战略火箭军和海军司令部内部引发了严重的相互指责。重大损失的冲击使苏联不愿将此次冲突扩大化，并且可能促使他们进行更现实的谈判。
+<LineBreak/>
+<LineBreak/>
+		  </TextBlock>
+		  <TextBlock TextAlignment="Right" Text="威廉·J·凯西" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,338,0,0" Grid.Row="2"/>
+		  <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+<Run TextDecorations="Underline">通过执行登记处传递/1988年5月19日/带有附件</Run>
+<LineBreak/>
+<LineBreak/>
+原件——每位收件人
+<LineBreak/>
+   1——中央情报局局长
+<LineBreak/>
+   1——中央情报局副局长
+<LineBreak/>
+   1——执行主任
+<LineBreak/>
+   1——国家情报委员会主席
+<LineBreak/>
+   1——国家情报委员会副主席
+<LineBreak/>
+   1——国家预警情报官
+<LineBreak/>
+   1——执行登记处文件
+		  </TextBlock>
+		  <TextBlock Grid.Row="4" Text="机密" TextAlignment="Center"/>
+	    </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

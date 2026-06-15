@@ -1,0 +1,63 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NATO 해상사령부본부"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="왕립 노르웨이 해군 사령관"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="정보:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="미국 대서양함대"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="작계 - 그림자 작전"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988.05.09"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. (기밀) 전술적 상황:
+      <LineBreak/>
+	  NATO와 바르샤바 조약기구 간의 긴장이 고조되는 가운데, 바렌츠 해에서의 소련 해군 활동이 지난 몇 주간 현저히 증가함. 해당 활동을 감시 및 정보 수집을 위해 NATO 전력이 배정됨. USNS 케이프 지라도(개조된 수송함)는 최첨단 SIGINT 장비 및 감청 장비를 싣고 시르케네스를 기점으로 삼아 소련 통신을 감청 중임. 노르웨이 해군 잠수함 두 척도 해당 해역 감시를 위해 초계 임무를 하달 받음. 우리는 소련 수상함대가 작전을 저지하기 위해 이 지역에 있을 것이라고 판단 중임.
+      <LineBreak/><LineBreak/>
+      2. (기밀) 목표:
+	<LineBreak/>2.1 왕립 노르웨이 해군 잠수함들은 초계 구역에서 활동할 것이며 소련 해군 활동을 감시할 것임.
+	<LineBreak/>2.2 기도비닉을 유지할 것.
+	<LineBreak/><LineBreak/>
+      3. (기밀) 실행:
+	<LineBreak/>3.1 USNS 케이프 지라도는 단독 활동 중임.
+	<LineBreak/>3.2 왕립 노르웨이 해군은 사령관 재량에 따라 임무를 수행하도록 명령받음.
+	<LineBreak/>.3 해당 지역에서 불시에 철수할 수 있음을 명시할 것.
+      <LineBreak/><LineBreak/>
+      4. (기밀) 적 전투서열:
+	<LineBreak/>4.1 소련 수상전단
+	<LineBreak/>4.1.1 우달로이급 구축함
+	<LineBreak/>4.1.2 소브레멘니급 구축함
+	<LineBreak/>4.1.3 크레스타 II급 순양함
+      <LineBreak/><LineBreak/>
+      5. (기밀) 아군 전투서열:
+	<LineBreak/>5.1 KNM S304 우다우그
+	<LineBreak/>5.2 KNM S301 우치라
+	<LineBreak/>5.3 USNS 케이프 지라도 T-AK-2039
+	<LineBreak/><LineBreak/>
+      6. (기밀) 정보 종합:
+	<LineBreak/>6.1 소련 수상전단이 해당 작전지역에서 활동 중이며 T-AK-2039를 추적하고 있을 가능성이 있음.
+	<LineBreak/>6.2 정보에 따르면 소련은 해당 작전지역 내 왕립 노르웨이 해군 잠수함의 활동을 인지하지 못한 상태로 판단됨.
+    </TextBlock>
+</Grid>

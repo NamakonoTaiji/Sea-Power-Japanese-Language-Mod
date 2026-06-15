@@ -1,0 +1,70 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="발신:"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NATO 본부"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="수신:"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="NATO 제1상설해군그룹 사령부"/>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="내용:"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="작계 - 블록버스터 작전"/>
+    <TextBlock Grid.Row="7" Grid.Column="4" FontSize="{StaticResource Font.Size.Header}" Text="1988.07.04"/>
+	    <!--
+	<Image Grid.Row="1" Width="250" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding Assets[ts_banner]}"/>
+	-->
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      1. (기밀) 상황:
+      <LineBreak/>6월달의 격렬한 전투 이후 NATO와 바르샤바 조약군과의 종전협정이 이루어지고 있지만 최근 강력한 소련 해군 수상전단이 GUIK 갭을 향해 항해하고 있는것이 발견됬으며 NATO 제1해상전투단의 지원을 받은 USS 아이젠하워 항모전단이 소련 해군 함대를 파괴하고 바르샤바 조약군이 협상장으로 돌아가도록 노력하고 있습니다.
+      <LineBreak/><LineBreak/>
+      2. (기밀) 목표:
+		<LineBreak/>2.1 소련 수상전단을 찾아서 파괴할것.
+		<LineBreak/><LineBreak/>
+      3. (기밀) 실행:
+		<LineBreak/>3.1 전파방사통제는 지휘관의 재량에 따를 것.
+		<LineBreak/>3.2 적 수상전단이 발견되면 모든 수단을 동원해 파괴할것.
+      <LineBreak/><LineBreak/>
+      4. (기밀) 적 전투서열:
+		<LineBreak/>4.1 키로프 수상전단
+		<LineBreak/>4.1.1 1x 키로프
+		<LineBreak/>4.1.2 1x 슬라바
+		<LineBreak/>4.1.3 1x 소브레멘니
+		<LineBreak/>4.1.4 1x 크레스타
+		<LineBreak/>4.1.5 1x 우달로이
+		<LineBreak/>4.2 해당 지역에서 의심되는 AGI 트롤어선
+		<LineBreak/>4.3 소련 해군항공대(지원을 위해 출격할 가능성 있음)
+		<LineBreak/>4.4 코스모스 1932 정찰위성이 0028 줄루시에 지나갈 예정, 미 공군이 요격을 시도할것임
+      <LineBreak/><LineBreak/>
+      5. (기밀) 아군 전투서열:
+		<LineBreak/>5.1 TF 65.7 (아이젠하워 전투단)
+		<LineBreak/>5.1.1 USS 드와이트 D. 아이젠하워 CVN-69
+		<LineBreak/>5.1.2 USS 뉴 저지 BB-62
+		<LineBreak/>5.1.3 USS 밸리 포지 CG-50
+		<LineBreak/>5.1.4 USS 데일 CG-19
+		<LineBreak/>5.1.5 FGS 몰더스 D-186
+		<LineBreak/>5.1.6 USS 렌츠 FFG-46
+		<LineBreak/>5.1.7 USS 토마스 C. 하트 FF-1092
+		<LineBreak/>5.1.8 HNoMS 스타방에르 F303
+		<LineBreak/><LineBreak/>
+      6. (기밀) 정보 종합:
+		<LineBreak/>6.1 소련 공격잠수함들이 키로프 수상전단을 엄호할 것으로 보이며 이는 중간 정도의 신뢰도를 가진 것으로 평가됨.
+		<LineBreak/>6.2 소련 항공기들이 키로프 수상전단을 지원할 것으로 보이며 이는 높은 신뢰도를 가진 것으로 평가됨.
+		<LineBreak/>6.3 기상은 2시간 이내에 갤 것으로 보이며 이는 높은 신뢰도를 가진 것으로 평가됨.
+    </TextBlock>
+</Grid>

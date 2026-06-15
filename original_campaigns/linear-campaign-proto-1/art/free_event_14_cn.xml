@@ -1,0 +1,78 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <TextBlock Text="1988年7月7日|第105卷第188号|52美分" Margin="0,15,0,15" FontSize="24"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Image Source="{Binding Assets[washington_times_herald_logo]}" Stretch="UniformToFill" Margin="0"/>
+			<!-- Masthead of the Washington Times-Herald created by https://commons.wikimedia.org/w/index.php?title=User:Msinwnc&action=edit&redlink=1 under https://creativecommons.org/licenses/by-sa/4.0/deed.en. This image is included unedited directly from its host https://commons.wikimedia.org/wiki/File:Washington_Times-Herald_Logo.png -->
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Orientation="Vertical">
+					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="和平！" FontWeight="Bold" FontSize="200" LineHeight="0"  LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap" TextAlignment="Center" Margin="-35"/>
+					<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="北约和苏联同意停火" FontWeight="Bold" FontSize="36" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,0"/>
+				</StackPanel>	
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[15_reagan_gorbachev]}" Stretch="Uniform" Margin="0,15,0,15"/>
+                    <TextBlock Text="里根和戈尔巴乔夫昨天在海牙签署停火协议后握手，双方都对持久的和平表示乐观。这场短暂但血腥的冲突曾有可能演变成一场更大的战争，两位领导人都强调了东西方继续对话并重建信任的重要性。正式和平谈判计划于下个月在日内瓦举行，准备工作已在进行中。——美联社图片" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,0,15"/>
+                </StackPanel>
+				<StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical"> 
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify" Margin="0,15,0,15">
+					纽约——在数月的海上对抗后，罗纳德·里根总统和米哈伊尔·戈尔巴乔夫总书记联合宣布北约和苏联军队立即停火，这是一个重大转折。据报道，双方经过数日的秘密谈判，最终于昨天深夜达成协议。从世界标准时间今日上午6时起，所有空中和海上行动都将停止，命令将发送至从北大西洋到太平洋上争议区域的所有部队。
+					<LineBreak/>
+					华盛顿和莫斯科的领导人都意识到了风险并强调了悬崖勒马的迫切性。联合国赞扬了两国政府的克制，欧洲和北美各地的市民们涌向城市中心，自发集会庆祝这一消息。
+					<LineBreak/>
+					停火消息传出后，全球市场爆发，油价趋于稳定，主要股指创下历史新高。分析人士表示两国迅速转向对话可能会开启一个新的合作时代，至少冷战中最危险的危机迎来了长久的停顿。（接第2页）
+					</TextBlock>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="5" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="美军驻守阿图岛" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+阿拉斯加，安克雷奇——美国军队在阿留申群岛的阿图岛建立了永久驻军，在停火后强化了主权。据报道，美国的某特遣舰队与苏联的登陆部队曾于上个月在当地交战，这也是驻军得到加强的背景。
+<LineBreak/>
+据报道，此前哨基地驻有海军、空军和海岸警卫队，可确保对北太平洋重要航道的控制。（接第3页）
+					</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <TextBlock Text="军队仍保持警惕，各国对和平持乐观态度" FontSize="24" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+华盛顿特区——虽然炮火已经停息，但关键战区的北约和苏联军事单位仍处于高度戒备状态。官员们警告称在正式协议签署之前，紧张局势可能会加剧，但双方外交官都对持久和平表示乐观。同盟国领导人呼吁在讨论新的安全局势时保持警惕和耐心。
+<LineBreak/>
+外交官在日内瓦举行第一轮会谈的同时，部队轮换和空中巡逻仍在继续。
+					</TextBlock>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Viewbox>
+</Page>

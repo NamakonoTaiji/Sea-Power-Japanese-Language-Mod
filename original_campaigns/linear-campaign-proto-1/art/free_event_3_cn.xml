@@ -1,0 +1,213 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+	<Grid>
+		<Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="5" CenterX="432" CenterY="560"/>
+					<TranslateTransform X="250"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+			<Border.Effect>
+				<DropShadowEffect />
+			</Border.Effect>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Row="0" Orientation="Vertical">
+					<TextBlock Text="——机密——" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="25X1" Foreground="Black" TextAlignment="Right" FontSize="24"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1">
+					<TextBlock TextWrapping="Wrap">
+					<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						III.局势升级的可能性
+						</Run>
+						<LineBreak/>
+						鉴于当前的局势发展，敌对行为可能会升级为更直接的海上对抗。
+						<LineBreak/>
+						<LineBreak/>
+						苏联可能尝试进行有控制的激进行为以展示其决心——行为可能包括骚扰美国航母战斗群或激进的空中拦截。
+						<LineBreak/>
+						<LineBreak/>
+						任何导致人员死亡的直接对抗，特别是对主力舰的攻击，都可能引发更广泛的地区冲突。
+						<LineBreak/>
+						<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						IV.建议
+						</Run>
+						<LineBreak/>
+						1.立即将美国第二舰队从地中海转移至北大西洋（进行中）。
+						<LineBreak/>
+						2.部署更多的美国攻击型潜艇，在苏联弹道导弹核潜艇进入受保护的堡垒前进行跟踪和拦截。
+						<LineBreak/>
+						3.与北约盟国协调，强化海上巡逻并建立明确的交战规则，防止事故导致的局势升级。
+						<LineBreak/>
+						4.强化与莫斯科沟通的秘密外交渠道，降低误判风险，同时保持可靠的威慑态势。
+						<LineBreak/>
+						<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						总结
+						</Run>
+						<LineBreak/>
+						鉴于海上紧张局势加剧和莫斯科退出《中程导弹条约》，敌对行为极有可能在未来30-60天内升级。美国和北约必须为苏联海军的挑衅行为做好准备，同时保持外交努力，防止全面对抗。
+					</TextBlock>
+					<TextBlock Text="" Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					
+				</StackPanel>
+				<StackPanel Grid.Row="2" Orientation="Vertical">
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<TextBlock Text="-1-" Foreground="Black" TextAlignment="Center" FontSize="12"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<TextBlock Text="——机密——" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+				</StackPanel>
+			</Grid>
+		</Border>
+		<Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="-5" CenterX="432" CenterY="560"/>
+					<TranslateTransform X="-250"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+			<Border.Effect>
+				<DropShadowEffect />
+			</Border.Effect>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Row="0" Orientation="Vertical">
+					<Border Background="Black" Margin="-45,0">
+						<TextBlock Text="——信息报告——信息报告——" Foreground="White" TextAlignment="Center" FontSize="36"/>
+					</Border>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="中央情报局" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="此材料包含《间谍法》意义上影响美国国防的信息，根据《美国法典》第18编第793条和第794条，禁止以任何方式将此类信息传输或泄露给未经授权的人员。" Foreground="Black" TextAlignment="Justify" FontSize="12" TextWrapping="Wrap"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
+					<TextBlock Text="——机密——" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="25X1" Foreground="Black" TextAlignment="Right" FontSize="24"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1" Orientation="Vertical">
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="5"/>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="15"/>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="5"/>
+							<ColumnDefinition Width="*"/>
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						<TextBlock Grid.Row="0" Grid.Column="0" Text="国家" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="0" Grid.Column="2" Text="苏联" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="0" Grid.Column="4" Text="报告授权" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="0" Grid.Column="6" Background="Black"/>
+						
+						<TextBlock Grid.Row="2" Grid.Column="0" Text="主题" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="2" Grid.Column="2" Grid.RowSpan="6" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap">
+							1.关于苏联军队可能采取敌对行为的提醒。
+							<LineBreak/>
+							2.苏联尖端667BDRM型弹道导弹核潜艇的照片。
+							<LineBreak/>
+							3.关于苏联军舰在黑海撞击约克城号和卡隆号的报告。
+						</TextBlock>
+						
+						<TextBlock Grid.Row="4" Grid.Column="4" Text="页数" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="4" Grid.Column="6" Text="2" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="6" Grid.Column="4" Text="参考" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="6" Grid.Column="6" Text="限制性数据" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="8" Grid.Column="0" Text="信息日期" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="8" Grid.Column="2" Background="Black"/>
+						
+						<TextBlock Grid.Row="10" Grid.Column="0" Text="获取地点和日期" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="10" Grid.Column="2" Background="Black"/>
+						
+						<TextBlock Grid.Row="10" Grid.Column="4" Text="现场报告编号" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="10" Grid.Column="6" Text="25X1" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+					</Grid>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text="评估信息来源已确定，内容鉴定处于初步状态。" Foreground="Black" TextAlignment="Center" FontSize="16" TextWrapping="Wrap"/>
+					<Rectangle Height="4" Fill="Black"/>
+				</StackPanel>
+				<TextBlock Grid.Row="2" TextWrapping="Wrap">
+<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					概要
+					</Run>
+					<LineBreak/>
+					根据近期的情报评估，未来几周内北约和苏联军队之间的敌对行为很可能会增加。一系列信号共同指向了这一结论，包括苏联海军在北极的高度戒备、苏联战机对北约领空的挑衅巡逻和克里姆林宫突然退出《中程导弹条约》。随着政治对话的恶化和军事对抗的加剧，误判或意外交战的可能性正在迅速上升。
+					<LineBreak/>
+					<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					I.战略概览
+					</Run>
+					<LineBreak/>
+					苏联军队近期在北大西洋、黑海和北极地区采取了挑衅姿态，包括强化潜艇巡逻、导弹试验和在海上与北约部队对峙。
+					<LineBreak/>
+					<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					II.近期的敌对行为
+					</Run>
+					<LineBreak/>
+					北方舰队活动激增：国家技术情报来源显示摩尔曼斯克附近的北方舰队基地活动明显增加。根据卫星图像显示的尾流和热信号判断，更多单位已在浓密的云层下离开。
+					<LineBreak/>
+					<LineBreak/>
+					故意撞击美国军舰：卡隆号驱逐舰和约克城号巡洋舰在黑海的航行自由演习中均遭到故意撞击。苏联海军指挥官可能收到命令，在遭遇北约军舰时采取更激进的行为。
+					<LineBreak/>
+					<LineBreak/>
+					导弹试验：苏联海军正准备在巴伦支海进行一次大型弹道导弹试验，陆基发射井也会协同发射更多导弹。
+				</TextBlock>
+				<StackPanel Grid.Row="3" Orientation="Vertical">
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+						<TextBlock Text="-1-" Foreground="Black" TextAlignment="Center" FontSize="12"/>
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+						<TextBlock Text="——机密——" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
+						<Border Background="Black" Margin="-45,0">
+							<TextBlock Text="——信息报告——信息报告——" Foreground="White" TextAlignment="Center" FontSize="36"/>
+						</Border>
+					</StackPanel>
+			</Grid>
+		</Border>
+	</Grid>
+</Viewbox>
+</Page>

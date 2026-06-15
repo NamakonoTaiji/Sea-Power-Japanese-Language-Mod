@@ -1,0 +1,151 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Grid>
+      <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+        <Border.RenderTransform>
+          <TransformGroup>
+            <RotateTransform Angle="12" CenterX="432" CenterY="560"/>
+            <TranslateTransform X="375"/>
+          </TransformGroup>
+        </Border.RenderTransform>
+        <Border.Effect>
+          <DropShadowEffect />
+        </Border.Effect>
+        <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="*"/>
+		  </Grid.RowDefinitions>
+          <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,40,40,0"/>
+            <!--<Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="0,0,0,20" HorizontalAlignment="Left" Width="670"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,0,20"/>-->
+          </Grid>
+          <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+			№ 36 <Run FontSize="20" Text="•"/> 7월 <Run FontSize="20" Text="•"/> 1988년
+		  </TextBlock>
+          <Image Grid.Row="2" Source="{Binding Assets[17_tu-22m]}"/>
+          <Grid Grid.Row="3" Margin="0,10,0,20">
+            <TextBlock Text="공중의 사회주의적 힘: 투폴레프 폭격기가 대서양에 평화를 가져왔다" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+			<TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+          </Grid>
+          <Grid Grid.Row="4" Background="#FFFAEBD7">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+			<Grid>
+			  <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+			  </Grid.RowDefinitions>
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="강력한 소련 공학" Margin="0,0,0,45" />
+			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="20,0,10,30">
+				소련의 강력함과 혁명적 용기를 과시하며, 장거리비행 항공기의 용감한 비행사들은 북대서양에서 미국 제국주의 세력에 치명적인 타격을 가했습니다. 최고 사령부의 직접 명령에 따라, Tu-22M 폭격기 연대는 콜라 반도의 공군 기지에서 출격하여 아이슬란드 동쪽의 적 진지를 향해 정밀하고 목적 있게 비행했습니다.
+			  </TextBlock>
+			</Grid>
+				<TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="10,30,10,30">
+				임무 목표는 명확했습니다: 북부 붉은기 함대의 합법적인 대서양 이동을 방해하려는 미국 항공모함 전단을 제거하는 것이었습니다. 규율과 침착한 결의로 우리 공군은 나토 방공망을 뚫고 압도적인 병력으로 공격했습니다. 미국 함대의 중심부인 소위 "슈퍼캐리어"는 화염에 휩싸여 파도 아래로 가라앉아 적의 아군이 완전히 보이는 곳에서 적을 겸손하게 만들었습니다.
+				<LineBreak/>
+				<LineBreak/>
+				이 정의로운 공격을 지원한 항공기는 Tu-16K 항공기로, 승무원들은 중요한 정찰 및 전자전 임무를 수행하며 적의 레이더를 차단하고 미약한 저항 시도를 방해했습니다.
+				</TextBlock>
+				<TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="10,30,20,30">
+				이 승리는 우연이 아니라 끊임없는 훈련, 과학적 성취, 평화의 대의에 대한 충성심의 산물이었습니다. 노동자와 농민의 아들인 우리의 비행사들은 영광을 위해가 아니라 의무를 위해 비행했습니다. 이는 자본주의의 침략으로부터 조국을 지키고 소련 국민들의 어렵게 얻은 안보를 지키기 위한 것이었습니다.
+				<LineBreak/>
+				<LineBreak/>
+				미하일 고르바초프 서기장이 확인했듯이 소련은 평화를 원하지만, 우리의 존엄성이나 안보를 희생해서는 안 됩니다. 이 승리가 세계에 대한 메시지로 받아들여지도록 하세요: 소련 국민들은 단결하고 경계하며 제국주의적 위협에 결코 굴복하지 않을 것입니다. 우리의 하늘은 보호받고, 우리의 힘은 입증되었으며, 미래는 안전합니다.
+				</TextBlock>
+          </Grid>
+        </Grid>
+      </Border>
+      <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+        TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16" Background="#FFFAEBD7">
+        <Border.RenderTransform>
+          <TransformGroup>
+            <RotateTransform Angle="-6" CenterX="432" CenterY="560"/>
+            <TranslateTransform X="-313"/>
+          </TransformGroup>
+        </Border.RenderTransform>
+        <Border.Effect>
+          <DropShadowEffect />
+        </Border.Effect>
+        <Grid>
+		  <Grid.RowDefinitions>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="Auto"/>
+		    <RowDefinition Height="*"/>
+		  </Grid.RowDefinitions>
+          <Grid Grid.Row="0" Margin="-40,-45,-40,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding Assets[07_ru_newspaper_header]}" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="40,35,40,0"/>
+            <!--<TextBlock Text="Правдоруб" Grid.Column="1" FontSize="135" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+            <Rectangle Grid.ColumnSpan="2" Fill="#FF0000DD" Height="10" VerticalAlignment="Bottom" Margin="40,0,0,20" HorizontalAlignment="Left" Width="300"/>
+            <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Fill="#FF0000FF" Height="10" Width="100" Margin="0,0,40,20"/>-->
+          </Grid>
+          <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,15">
+№ 36 <Run FontSize="20" Text="•"/> 7월 <Run FontSize="20" Text="•"/> 1988년
+		  </TextBlock>
+          <Image Grid.Row="2" Source="{Binding Assets[17_reagan_gorbachev]}"/>
+          <Grid Grid.Row="3" Margin="0,10,0,20">
+            <TextBlock Text="미국 대통령 레이건, 고르바초프 서기장과 휴전 서명" TextWrapping="Wrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+			<TextBlock Text="&#x420;&#x438;&#x441;&#x443;&#x43D;&#x43E;&#x43A; &#x412;. &#x414;&#x41C;&#x418;&#x422;&#x420;&#x42E;&#x41A;" TextWrapping="Wrap" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Light"/>
+          </Grid>
+          <Grid Grid.Row="4" Background="#FFFAEBD7">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+			<Grid>
+			  <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+			  </Grid.RowDefinitions>
+			  <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Text="휴전협정 서명" Margin="0,0,20,10" />
+			  <TextBlock Grid.Row="1" TextWrapping="Wrap" TextAlignment="Justify" Margin="0,0,20,0">
+				평화와 사회주의적 결의를 위한 큰 승리를 거둔 미하일 고르바초프 사무총장과 로널드 레이건 미국 대통령은 어제 휴전 협정에 서명하여 소련과 나토의 공격적인 군사 블록 간의 무력 적대 행위가 종식되었음을 알렸습니다.
+				<LineBreak/>
+				<LineBreak/>
+				소련군의 몇 주간의 결정적인 군사적 승리 끝에 체결된 이 협정은 소련에 매우 유리한 조건을 확보하고 장기적인 안정성을 보장합니다.
+			  </TextBlock>
+			</Grid>
+				<TextBlock TextWrapping="Wrap" Grid.Column="1" TextAlignment="Justify" Margin="0,-4,20,0">
+				휴전은 나토의 지배 시도에 치명타를 가한 소련 군대의 영웅적인 행동 이후에 이루어졌습니다. 가장 주목할 만한 것은 현재 평화의 전략적 요새로 확보된 북태평양의 애투 섬을 해방하고 점령한 것입니다.
+				<LineBreak/>
+				<LineBreak/>
+				노르웨이해에서 제국주의 미국인들은 핵 추진 항공모함 중 하나가 장거리 항공의 두려움 없는 비행사들의 도움을 받아 적기북부 함대의 정밀하고 절제된 공격으로 해저로 보내지면서 굴욕적인 패배를 겪었습니다.
+			</TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Column="2" TextAlignment="Justify" Margin="0,-4,0,0">
+				워싱턴은 분쟁을 연장하려고 했지만, 소련의 명백한 군사적 및 도덕적 우위로 인해 더 이상의 저항을 유지할 수 없게 되었습니다. 국내 불안과 분열된 동맹에 직면한 레이건 대통령은 결국 전장의 현실에 따라 휴전을 받아들일 수밖에 없었습니다.
+				<LineBreak/>
+				<LineBreak/>
+				고르바초프 서기장은 헤이그에서 서명한 후 성명을 통해 평화에 대한 소련의 약속을 재확인하며 다음과 같이 말했습니다: "우리의 행동은 정복을 목표로 한 것이 아니라 사회주의 조국의 균형을 회복하고 주권을 수호하기 위한 것이었습니다."
+			</TextBlock>
+          </Grid>
+        </Grid>
+		</Border>
+    </Grid>
+  </Viewbox>
+</Page>

@@ -1,0 +1,213 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+	<Grid>
+		<Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="5" CenterX="432" CenterY="560"/>
+					<TranslateTransform X="250"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+			<Border.Effect>
+				<DropShadowEffect />
+			</Border.Effect>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Row="0" Orientation="Vertical">
+					<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="25X1" Foreground="Black" TextAlignment="Right" FontSize="24"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1">
+					<TextBlock TextWrapping="Wrap">
+					<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						III. 에스컬레이션 확률
+						</Run>
+						<LineBreak/>
+						현재 진행 양상 상, 적대적인 행위는 해상에서의 더욱 직접적인 대립으로 확대될 가능성이 높습니다.
+						<LineBreak/>
+						<LineBreak/>
+						소련은 통제적이지만 공격적인 해상 교전을 통해 자신들의 결의를 과시하려고 할 수 있으며, 이는 아마도 미국 항공모함 그룹에 대한 괴롭힘이나 공격적인 공중 요격과 관련이 있을 수 있습니다.
+						<LineBreak/>
+						<LineBreak/>
+						인명 손실, 특히 수도선 공격과 관련된 모든 직접적인 충돌은 더 광범위한 지역 분쟁을 촉발할 수 있습니다.
+						<LineBreak/>
+						<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						IV. 추천 사항
+						</Run>
+						<LineBreak/>
+						1. 지중해에 있는 미 제2함대 병력을 북대서양으로 즉시 이동시키는 작업이 진행 중입니다.
+						<LineBreak/>
+						2. 소련 SSBN이 보호 요새에 도달하기 전에 추가로 미국의 공격 잠수함을 배치하여 요격하고 그림자를 드리우세요.
+						<LineBreak/>
+						3. 나토 동맹국들과 협력하여 해군 순찰을 강화하고 우발적인 확대를 방지하기 위한 명확한 교전 규칙을 수립하시오.
+						<LineBreak/>
+						4. 신뢰할 수 있는 억지 태세를 유지하면서 잘못된 계산의 위험을 완화하기 위해 모스크바와의 외교적 백채널 강화
+						<LineBreak/>
+						<LineBreak/>
+						<Run FontWeight="Bold" FontSize="24">
+						결론
+						</Run>
+						<LineBreak/>
+						해상에서의 긴장 고조와 러시아의 INF 조약 탈퇴를 고려할 때, 향후 30-60일 내에 적대 행위가 확대될 가능성이 높습니다. 미국과 NATO는 전면적인 대치를 막기 위한 외교적 노력을 유지하면서 소련의 해군 공격 증가에 대비해야 합니다.
+					</TextBlock>
+					<TextBlock Text="" Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					
+				</StackPanel>
+				<StackPanel Grid.Row="2" Orientation="Vertical">
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<TextBlock Text="-1-" Foreground="Black" TextAlignment="Center" FontSize="12"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+				</StackPanel>
+			</Grid>
+		</Border>
+		<Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+			<Border.RenderTransform>
+				<TransformGroup>
+					<RotateTransform Angle="-5" CenterX="432" CenterY="560"/>
+					<TranslateTransform X="-250"/>
+				</TransformGroup>
+			</Border.RenderTransform>
+			<Border.Effect>
+				<DropShadowEffect />
+			</Border.Effect>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<StackPanel Grid.Row="0" Orientation="Vertical">
+					<Border Background="Black" Margin="-45,0">
+						<TextBlock Text="정보 보고    정보 보고" Foreground="White" TextAlignment="Center" FontSize="36"/>
+					</Border>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="중앙정보국" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="이 자료에는 스파이법의 의미 내에서 미국 국방에 영향을 미치는 정보가 포함되어 있습니다. 제목 18, U.S.C. 제793조 및 제794조는 어떤 방식으로든 권한이 없는 사람에게 전송하거나 공개하는 것이 법에 의해 금지되어 있습니다." Foreground="Black" TextAlignment="Justify" FontSize="12" TextWrapping="Wrap"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
+					<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+					<TextBlock Text="25X1" Foreground="Black" TextAlignment="Right" FontSize="24"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+				</StackPanel>
+				<StackPanel Grid.Row="1" Orientation="Vertical">
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="5"/>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="15"/>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="5"/>
+							<ColumnDefinition Width="*"/>
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="5"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						<TextBlock Grid.Row="0" Grid.Column="0" Text="국가" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="0" Grid.Column="2" Text="USSR" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="0" Grid.Column="4" Text="보고서 작성." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="0" Grid.Column="6" Background="Black"/>
+						
+						<TextBlock Grid.Row="2" Grid.Column="0" Text="내용" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="2" Grid.Column="2" Grid.RowSpan="6" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap">
+							1. 소련군의 잠재적인 적대 행위 경고.
+							<LineBreak/>
+							2. 델타 IV급 SSBN 초도함의 사진.
+							<LineBreak/>
+							3. 소련 군함이 흑해에서 USS 요크타운과 USS 카론을 격침했다는 정보.
+						</TextBlock>
+						
+						<TextBlock Grid.Row="4" Grid.Column="4" Text="페이지. 없음" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="4" Grid.Column="6" Text="2" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="6" Grid.Column="4" Text="참고문헌" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="6" Grid.Column="6" Text="RD" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+						
+						<TextBlock Grid.Row="8" Grid.Column="0" Text="정보 날짜." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="8" Grid.Column="2" Background="Black"/>
+						
+						<TextBlock Grid.Row="10" Grid.Column="0" Text="장소 &amp; 날짜 ACQ." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<Border Grid.Row="10" Grid.Column="2" Background="Black"/>
+						
+						<TextBlock Grid.Row="10" Grid.Column="4" Text="현장 보고서 번호." Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap" FontWeight="Bold"/>
+						<TextBlock Grid.Row="10" Grid.Column="6" Text="25X1" Foreground="Black" TextAlignment="Left" FontSize="16" TextWrapping="Wrap"/>
+					</Grid>
+					<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+					<Rectangle Height="4" Fill="Black"/>
+					<TextBlock Text="출처 평가는 확정적입니다. 콘텐츠 평가는 잠정적입니다." Foreground="Black" TextAlignment="Center" FontSize="16" TextWrapping="Wrap"/>
+					<Rectangle Height="4" Fill="Black"/>
+				</StackPanel>
+				<TextBlock Grid.Row="2" TextWrapping="Wrap">
+<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					요약
+					</Run>
+					<LineBreak/>
+					최근 정보 평가에 따르면 앞으로 몇 주 안에 나토와 소련군 간 적대감이 증가할 가능성이 높습니다. 이 결론은 북극에서의 소련 해군 준비태세 강화, 나토 영공을 탐사하는 공격적인 공중 순찰, 크렘린궁의 갑작스러운 INF 조약 탈퇴 등 다양한 신호의 수렴에 기초하고 있습니다. 정치적 대화가 악화되고 군사적 자세가 강화됨에 따라 계산 착오나 의도치 않은 개입의 위험이 급격히 증가하고 있습니다.
+					<LineBreak/>
+					<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					I. 전략 개요
+					</Run>
+					<LineBreak/>
+					소련군은 최근 북대서양, 흑해, 북극 지역에서 잠수함 순찰 강화, 미사일 시험, 나토군과의 해상 대치 등 공격적인 태세를 취하고 있습니다.
+					<LineBreak/>
+					<LineBreak/>
+					<Run FontWeight="Bold" FontSize="24">
+					II. 최근 적대적 행동
+					</Run>
+					<LineBreak/>
+					북부 함대 활동 급증: 국가 기술 정보원에 따르면 무르만스크 인근 북부 함대 기지에서 활동이 강화된 것으로 나타났습니다. 위성 이미지에는 선박의 기상 및 열 신호가 표시되어 있어 더 많은 항공기가 짙은 구름 덮개 아래에서 출발했음을 시사합니다.
+					<LineBreak/>
+					<LineBreak/>
+					미국 군함의 고의적인 충돌: USS 카론과 USS 요크타운은 이틀 전 자유 항해 훈련 중에 의도적으로 흑해에 충돌했습니다. 소련 해군 지휘관들은 나토 군함을 접할 때 더 적극적으로 행동하라는 명령을 받았을 수도 있습니다.
+					<LineBreak/>
+					<LineBreak/>
+					미사일 시험: 소련 해군은 지상 사일로에서 추가 미사일 발사와 함께 바렌츠해에서 대규모 탄도 미사일 시험을 준비하고 있습니다.
+				</TextBlock>
+				<StackPanel Grid.Row="3" Orientation="Vertical">
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+						<TextBlock Text="-1-" Foreground="Black" TextAlignment="Center" FontSize="12"/>
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="3"/>
+						<TextBlock Text="ㄱ-ㅣ-ㅁ-ㅣ-ㄹ" Foreground="Black" TextAlignment="Center" FontSize="24"/>
+						<TextBlock Text=" " Foreground="Black" TextAlignment="Center" FontSize="12"/>
+						<Border Background="Black" Margin="-45,0">
+							<TextBlock Text="정보 보고    정보 보고" Foreground="White" TextAlignment="Center" FontSize="36"/>
+						</Border>
+					</StackPanel>
+			</Grid>
+		</Border>
+	</Grid>
+</Viewbox>
+</Page>
