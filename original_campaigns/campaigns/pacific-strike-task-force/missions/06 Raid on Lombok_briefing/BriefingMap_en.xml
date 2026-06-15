@@ -54,28 +54,6 @@
                 <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
             </Canvas>
         </StackPanel>
-
-		<!-- 2 x F-111C 6 Sqdn RAAF -->
-		<StackPanel Orientation="Vertical" Canvas.Left="700" Canvas.Top="600">
-			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="2 x F-111C 6 Sqdn RAAF"/>
-            </TextBlock>
-			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
-                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
-            </Canvas>
-        </StackPanel>
-		
-		<!-- E-2C VAW-114 'Hormel Hawgs' -->
-		<StackPanel Orientation="Vertical" Canvas.Left="400" Canvas.Top="600">
-			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="E-2C VAW-114 'Hormel Hawgs'"/>
-            </TextBlock>
-			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
-                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
-            </Canvas>
-        </StackPanel>
 		
 		<!-- USSR Coastal Forces -->
 		<StackPanel Orientation="Vertical" Canvas.Left="525" Canvas.Top="325">

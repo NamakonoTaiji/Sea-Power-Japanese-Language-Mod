@@ -40,7 +40,7 @@
 		</Border>
 
 		<!-- Map Labels -->
-		<TextBlock Foreground="SteelBlue" Text="Sulusee" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="800" Canvas.Top="75"/>
+		<TextBlock Foreground="SteelBlue" Text="Sulusee" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="700" Canvas.Top="75"/>
 		<TextBlock Foreground="Black" Text="Sandakan" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="325" Canvas.Top="490"/>
 		<TextBlock Foreground="Black" Text="MALAYSIA" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="550" Canvas.Top="575"/>
 		

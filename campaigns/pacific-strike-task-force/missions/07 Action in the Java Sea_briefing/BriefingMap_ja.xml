@@ -50,16 +50,7 @@
                 <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
             </Canvas>
         </StackPanel>
-        
-        <StackPanel Orientation="Vertical" Canvas.Left="650" Canvas.Top="375">
-            <TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="E-2C第114早期警戒飛行隊「ホーメルホッグズ」"/>
-            </TextBlock>
-            <Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
-                <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>
-                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="3" Height="3" StrokeThickness="1.325" Stroke="{StaticResource NTDS.FriendColour}"/>
-            </Canvas>
-        </StackPanel>
+    
         
         <StackPanel Orientation="Vertical" Canvas.Left="200" Canvas.Top="200">
             <TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">

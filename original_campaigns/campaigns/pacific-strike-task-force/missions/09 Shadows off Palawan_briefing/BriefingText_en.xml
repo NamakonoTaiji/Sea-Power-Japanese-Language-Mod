@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 100300Z OCT 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} SANDAKAN MALAYSIA"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        81 WING (PROVISIONAL) RAAF SANDAKAN MALAYSIA
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPLAN-OPERATION CHALLENGER"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        TOP SECRET
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) This is an EXECUTE ORDER by authority of the Secretary of Defense.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) SITUATION: Enemy forces hold Palawan, with strongholds at Puerto Princesa and Quezon. Allied forces are overextended by combat in Korea, Japan, and the Taiwan Strait, while Southeast Asian allies can provide limited ground forces but little remaining air or naval support. Pact offensives in Europe and the Pacific exceeded pre-war estimates, and the Chinese seizure of Palawan with Soviet support has severely reduced Allied operational flexibility. Recapturing Palawan is a top priority.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) MISSION: Allied forces will execute Operation CHALLENGER, landing a joint U.S.-Filipino force on Palawan to recapture the island.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) EXECUTION: TF 77 will clear the approaches south of Puerto Princesa through anti-surface and anti-submarine sweeps. TF 77 and supporting air units will locate and destroy enemy coastal anti-ship missile batteries and SAM sites, then escort 17 MAU to the landing beaches.
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) THREAT: Chinese forces have reinforced Palawan with shore-based anti-ship missiles, coastal batteries, and heavy coastal units likely to conceal themselves among fishing traffic and inlets. A Soviet S-300 battery north of the airport, with a 50 nm effective range, is the highest-priority threat and must be destroyed.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ALLIED FORCES: Airwing assets will stage out of Sandakan. Allied transports are formed up under TG 77.6, their survival is paramount.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) REMARKS: Follow-on operations are expected with no opportunity to rearm. Conserve ordnance. Good luck and good hunting. CTF 77 sends.
+        <LineBreak/>
+        <LineBreak/>
+        SECRET
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

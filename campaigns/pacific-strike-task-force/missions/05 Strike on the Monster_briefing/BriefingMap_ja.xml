@@ -30,7 +30,7 @@
            </TextBlock>
         </Border>
 
-        <TextBlock Foreground="SteelBlue" Text="インド洋" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="150" Canvas.Top="575"/>
+        <TextBlock Foreground="SteelBlue" Text="インド洋" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="150" Canvas.Top="450"/>
         <TextBlock Foreground="Black" Text="オーストラリア" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Canvas.Left="950" Canvas.Top="610"/>
         <TextBlock Foreground="Black" Text="インドネシア" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Canvas.Left="350" Canvas.Top="100"/>
         
