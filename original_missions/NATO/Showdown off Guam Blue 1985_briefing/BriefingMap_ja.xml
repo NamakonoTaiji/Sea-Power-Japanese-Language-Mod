@@ -23,11 +23,15 @@
                 <LineBreak />
                 <Run Text="USSサウスカロライナ CGN-37" />
                 <LineBreak />
-                <Run Text="USSフォックス CG-33" />
+                <Run Text="USSテキサス CGN-39" />
                 <LineBreak />
-                <Run Text="USSキッド DDG-993" />
+                <Run Text="USSハルゼー CG-23" />
                 <LineBreak />
-                <Run Text="USSクラーク FFG-11" />
+                <Run Text="USSレフトウィッチ DD-984" />
+                <LineBreak />
+                <Run Text="USSハロルド・E・ホルト FF-1074" />
+                <LineBreak />
+                <Run Text="USSロックウッド FF-1064" />
             </TextBlock>
         </Border>
 

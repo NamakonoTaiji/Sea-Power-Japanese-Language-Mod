@@ -1,0 +1,2988 @@
+{
+  "AmmunitionNames": {
+    "_test_asm": {
+      "Name": "Test Missile",
+      "Nickname": "",
+      "Type": "",
+      "Description": "Test missile. For game development.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "_test_shell": {
+      "Name": "Test Shell",
+      "Nickname": "",
+      "Type": "",
+      "Description": "Test снаряд. For game development.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "it_aspide_1a": {
+      "Name": "Aspide Mk.1A",
+      "Nickname": "",
+      "Type": "AAM",
+      "Description": "The Aspide missile is an Italian medium range air-to-air missile, derived from the American Sparrow missile. Derived from the AIM-7E, this missile features an improved motor, which increases range and speed, and also features a vastly improved monopulse seeker head, which allows for low-altitude firing and advances in ECCM performance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_r530em": {
+      "Name": "R530FE (SARH)",
+      "Nickname": "",
+      "Type": "SARH AAM",
+      "Description": "The R530FE is a French semi-active short range air-to-air missile. Being one of the earliest homing air-to-air missiles of French origin, the R530 is not a particularly reliable or potent weapon, but it has a relatively long-burning motor and decent range to its contemporaries of the era.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_super-530f": {
+      "Name": "Super-530F",
+      "Nickname": "",
+      "Type": "SARH AAM",
+      "Description": "The Super-530F is a French semi-active short to medium range air-to-air missile. Roughly analogous to the AIM-7, it is an upgrade over the preceding R530 missile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_r550": {
+      "Name": "R550",
+      "Nickname": "Magic 1",
+      "Type": "AAM",
+      "Description": "The R550 Magic 1 is a French infrared homing short range air-to-air missile comparable to the US AIM-9. It is rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_pl-2": {
+      "Name": "PL-2A",
+      "Nickname": "",
+      "Type": "IR AAM",
+      "Description": "The PL-2A (霹雳-2) is a Chinese rear-aspect infrared homing air-to-air missile. It is a copy of the Soviet Vympel K-13, with very similar performance. Rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_pl-2b": {
+      "Name": "PL-2B",
+      "Nickname": "",
+      "Type": "IR AAM",
+      "Description": "The PL-2B (霹雳-2) is a Chinese rear-aspect infrared homing air-to-air missile. PL-2B uses a longer nosecone to house a slightly improved seeker, but is otherwise a minor upgrade in reliability compared to PL-2A.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_pl-5b": {
+      "Name": "PL-5B",
+      "Nickname": "",
+      "Type": "IR AAM",
+      "Description": "The PL-5B (霹雳-5) is a Chinese rear-aspect infrared homing air-to-air missile. Developed alongside PL-2B, PL-5B was born out of the failed radar-homing PL-5A missile. It uses an infrared seeker derived from PL-2B, but with a more capable airframe in terms of range and turn performance. Rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_pl-5c": {
+      "Name": "PL-5C",
+      "Nickname": "",
+      "Type": "IR AAM",
+      "Description": "The PL-5C (霹雳-5) is a Chinese all-aspect infrared homing air-to-air missile. A major improvement on the PL-2 and PL-5B series, PL-5C incorporates a cutting edge crossed-array seeker, which allows for all-aspect firing and a significant degree of countermeasure resistance. Also features a longer burning motor, and improved turn performance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "raf_skyflash_3000": {
+      "Name": "Skyflash",
+      "Nickname": "",
+      "Type": "AAM",
+      "Description": "The Skyflash 3000 (Pre TEMP) is a British medium range air-to-air missile, derived from the American Sparrow missile. Specifically, this is an AIM-7E-2 with an inverse monopulse seeker head, which dramatically improves ECCM and low-altitude performance, all while increasing reliability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "raf_skyflash_6000": {
+      "Name": "Skyflash",
+      "Nickname": "SuperTEMP",
+      "Type": "AAM",
+      "Description": "The Skyflash 6000 (SuperTEMP) is a British medium range air-to-air missile, derived from the American Sparrow missile. Upgraded from the original Skyflash missile, the SuperTEMP (Tornado Embodied Modification Package) has a boost-sustain motor to improve range somewhat, and features further improved ECCM capabilities.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_aim-9e": {
+      "Name": "AIM-9E",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9E Sidewinder is an American infrared homing air-to-air missile. The Echo has significantly improved performance in all areas than earlier versions, with improved acquisition envelope and increased range. Rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_aim-9j": {
+      "Name": "AIM-9J",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9J Sidewinder is an American infrared homing air-to-air missile. The Juliet has significant changes over the Echo particularly to the control systems, with solid-state electronics replacing earlier vaccum-tube electronics. Probability of kill is improved from previous versions, but it is still rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_aim-9p": {
+      "Name": "AIM-9P",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9P Sidewinder is an American infrared homing air-to-air missile. The Papa model is the export version of the Juliet model, and features a new fuze, new motor, improved seeker, and allows for side-aspect shots, alongside greater reliability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-7d": {
+      "Name": "AIM-7D",
+      "Nickname": "Sparrow",
+      "Type": "AAM",
+      "Description": "The AIM-7D Sparrow is an American semi-active radar homing air-to-air missile. The Delta was optimised for increased closing rates compared to the earlier Charlie.\\nNotably deficient against low-flying targets, and has a large minimum range.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-7e": {
+      "Name": "AIM-7E",
+      "Nickname": "Sparrow",
+      "Type": "AAM",
+      "Description": "The AIM-7E Sparrow is an American semi-active radar-homing air-to-air missile. The Echo has increased range and performance compared to previous variants.\\nNotably deficient against low-flying targets, and has a large minimum range.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-7e2": {
+      "Name": "AIM-7E-2",
+      "Nickname": "Sparrow",
+      "Type": "AAM",
+      "Description": "The AIM-7E-2 \"Dogfight\" Sparrow is an American semi-active radar-homing air-to-air missile. The Echo-2 is a subvariant of the original Echo model, after deficiencies were found in its performance against fighters in Vietnam. Features a shorter minimum range, slightly better low-altitude performance, and slightly greater maneuverability in the boost phase of flight.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-7e4": {
+      "Name": "AIM-7E-4",
+      "Nickname": "Sparrow",
+      "Type": "AAM",
+      "Description": "The AIM-7E-4 Sparrow is an American semi-active radar-homing air-to-air missile. The Echo-4 is an upgraded US Navy model, to make use of a significantly more powerful radar over earlier fighters, and has slightly improved seeker characteristics against jamming and countermeasures.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-7f": {
+      "Name": "AIM-7F",
+      "Nickname": "Sparrow",
+      "Type": "AAM",
+      "Description": "The AIM-7F Sparrow is an American semi-active radar-homing air-to-air missile. The Foxtrot is a redesign of the original Sparrow III airframe, and incorporates a modern boost-sustain motor for longer range, alongside improved fuzing and a more capable seeker head, with performance enhancements in all aspects.\\nDespite this, it's low-altitude and ECCM performance is still not exceptional, and its seeker cannot make full use of this missile's long range..",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-7m": {
+      "Name": "AIM-7M",
+      "Nickname": "Sparrow",
+      "Type": "AAM",
+      "Description": "The AIM-7M Sparrow is an American semi-active radar-homing air-to-air missile. The Mike is an upgrade of the Foxtrot model, with a much improved monopulse seeker head, which allows for effective firing against sea-skimming targets, and significantly increases its ECCM capabilities, alongside an increase in effective range due to the new seeker.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9b": {
+      "Name": "AIM-9B",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9B Sidewinder is an American infrared homing air-to-air missile. The Bravo was the first operational variant of the AIM-9 series. Compared to later versions, it has a narrow launch envelope, and a tendency to be easily decoyed by another heat source such as the sun. Needless to say, it is rear-aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9c": {
+      "Name": "AIM-9C",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9C Sidewinder is an American semi-active radar homing air-to-air missile. The Charlie is the only radar-homing Sidewinder model to enter service, and is identical to the Delta model other than the semi-active radar seeker, which allows for all-aspect shots at longer ranges. Being exclusive to the Navy's F-8, and generally disliked by crews, meant that the AIM-9C was retired only a few years after entering service.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9d": {
+      "Name": "AIM-9D",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9D Sidewinder is an American infrared homing air-to-air missile. The Delta is an improved variant versus the Bravo, sporting an improved seeker, improved warhead and increased range. Rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9g": {
+      "Name": "AIM-9G",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9G Sidewinder is an American infrared homing air-to-air missile. The Golf is an improved variant versus the Delta, with a greater firing angle, and was exported to other nations as well. Rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9h": {
+      "Name": "AIM-9H",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9H Sidewinder is an American infrared homing air-to-air missile. The Hotel is a solid-state version of the Golf model, and features a more sensitive seeker that allows for side-aspect shots as well, alongside improved maneuverability and reliability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9l": {
+      "Name": "AIM-9L",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9L Sidewinder is an American infrared homing air-to-air missile. The Lima variant was the first Sidewinder with the ability to attack from all directions. Compared to all previous versions, the acquisition envelope is vastly improved, with the ability to engage targets head-on in the merge. A rear-aspect shot still allows for a longer acquisition range, however.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-9m": {
+      "Name": "AIM-9M",
+      "Nickname": "Sidewinder",
+      "Type": "AAM",
+      "Description": "The AIM-9M Sidewinder is an American infrared homing air-to-air missile. The Mike variant is the most modern version in service, and is a Lima model with improved flare rejection capabilities, and a longer seeker range.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_aim-54a": {
+      "Name": "AIM-54A",
+      "Nickname": "Phoenix",
+      "Type": "AAM",
+      "Description": "The AIM-54A Phoenix is an American active radar-homing air-to-air missile. This is the longest range air-to-air missile in the US inventory and is unique to the F-14. Integrated with the advanced AWG-9 radar it provides the F-14 with the ability to engage 6 targets with 1 missile each simultaneously. To achieve this, the missiles fly on autopilot while the computers aboard the plane sample the track-while-scan radar data into track files, which are then used to transmit guidance updates to the missiles while in the midcourse phase, guiding them into a 'basket' where the missile's own active radar homing acquires the target for the terminal phase.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-2a": {
+      "Name": "AA-2B",
+      "Nickname": "Atoll B",
+      "Type": "IR AAM",
+      "Description": "The AA-2A Atoll (Vympel R-3S) is a Soviet rear-aspect infrared homing air-to-air missile. It is a reverse-engineered copy of the American AIM-9B, with minor tweaks to construction and performance, and otherwise performs identically. Rear aspect only.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-2c": {
+      "Name": "AA-2C",
+      "Nickname": "Atoll C",
+      "Type": "SARH AAM",
+      "Description": "The AA-2C Atoll (Vympel K-13/R-3R) is a Soviet semi-active radar homing air-to-air missile. It is based on a reverse engineered AIM-9B but has an entirely different seeker, but otherwise shares the same poor acquisition and launch envelopes of the American progenitor.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-2d": {
+      "Name": "AA-2D",
+      "Nickname": "Advanced Atoll D",
+      "Type": "IR AAM",
+      "Description": "The AA-2D Advanced Atoll (Vympel K-13M) is a Soviet infrared homing air-to-air missile. It is derived from the AA-2A Atoll (itself reverse engineered from the AIM-9) but features a new motor and seeker, vastly improving performance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-2-2": {
+      "Name": "AA-2D",
+      "Nickname": "Advanced Atoll 2",
+      "Type": "IR AAM",
+      "Description": "The AA-2-2 Advanced Atoll (Vympel K-13M1) is a Soviet infrared homing air-to-air missile. It is derived from the AA-2A Atoll (itself reverse engineered from the AIM-9) but features a new motor and seeker, vastly improving performance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-3e": {
+      "Name": "AA-3E",
+      "Nickname": "Advanced Anab",
+      "Type": "SARH AAM",
+      "Description": "The AA-3E Advanced Anab E (Kaliningrad R-98MR) is a Soviet semi-active radar homing air-to-air missile. One of a pair of Advanced Anab designs designed for the Su-15 and Yak-28P. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-3f": {
+      "Name": "AA-3F",
+      "Nickname": "Advanced Anab",
+      "Type": "IR AAM",
+      "Description": "The AA-3 Advanced Anab F (Kaliningrad R-98MT) is a Soviet built infrared homing air-to-air missile. One of a pair of Advanced Anab designs designed for the Su-15 and Yak-28P. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-6a": {
+      "Name": "AA-6A",
+      "Nickname": "Acrid",
+      "Type": "AAM",
+      "Description": "The AA-6A Acrid (Vympel R-40R) is a Soviet long-range semi-active radar homing air-to-air missile. It was developed specifically for the MiG-25P interceptor to counter the XB-70 Valkyrie. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-6b": {
+      "Name": "AA-6B",
+      "Nickname": "Acrid",
+      "Type": "IR AAM",
+      "Description": "The AA-6B Acrid (Vympel R-40T) is a Soviet long-range infrared homing air-to-air missile. It was developed specifically for the MiG-25P interceptor to counter the XB-70 Valkyrie. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-6c": {
+      "Name": "AA-6C",
+      "Nickname": "Acrid",
+      "Type": "AAM",
+      "Description": "The Improved AA-6C Acrid (Vympel R-40RD) is a Soviet long-range semi-active radar homing air-to-air missile. It was developed specifically for the new MiG-25PD interceptor. Maximum range of the missile was increased up to 60 km. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-6d": {
+      "Name": "AA-6D",
+      "Nickname": "Acrid",
+      "Type": "AAM",
+      "Description": "The Improved AA-6D Acrid (Vympel R-40TD) is a Soviet long-range infrared homing air-to-air missile. It was developed specifically for the new MiG-25PD interceptor. Maximum range of the missile was increased up to 60 km. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-7c": {
+      "Name": "AA-7C",
+      "Nickname": "Apex",
+      "Type": "SARH AAM",
+      "Description": "The AA-7C Apex (Vympel R-24R) is a Soviet medium-range semi-active radar homing air-to-air missile. The updated Charlie and Delta variants were developed to equip the MiG-23 in the mid-1970s. Roughly analogous to the US AIM-7E, the AA-7C features a monopulse seeker with increased ECM resistance and lock-on-after-launch capability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-7d": {
+      "Name": "AA-7D",
+      "Nickname": "Apex",
+      "Type": "IR AAM",
+      "Description": "The AA-7D Apex (Vympel R-24T) is a Soviet medium-range infrared homing air-to-air missile. The updated Charlie and Delta variants were developed to equip the MiG-23 in the mid-1970s. Like the AIM-4 Falcon used on the US F-102 and F-106 interceptors, the doctrine was to fire one radar-guided and one infrared missile at the target, improving kill probability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-8": {
+      "Name": "AA-8",
+      "Nickname": "Aphid",
+      "Type": "AAM",
+      "Description": "The AA-8 Aphid (Vympel R-60M) is a Soviet short-range infrared homing air-to-air missile. The weapon has been exported extremely widely and is likely to be commonly encountered in Soviet aligned states.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aa-11": {
+      "Name": "AA-11",
+      "Nickname": "Archer",
+      "Type": "AAM",
+      "Description": "The AA-11 Archer (Vympel R-73A) is a Soviet short-range infrared homing air-to-air missile. This is the top performing short-range missile in the Soviet arsenal, and remains extremely competitive compared to overseas competition, and represents an extremely lethal weapon at short range at all aspects.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "it_aspide_1": {
+      "Name": "Aspide Mk.1A",
+      "Nickname": "",
+      "Type": "SAM/ASuW",
+      "Description": "The Aspide missile is an Italian medium range surface-to-air missile, derived from the American Sparrow missile. Derived from the AIM-7E, this missile features an improved motor, which increases range and speed, and also features a vastly improved monopulse seeker head, which allows for low-altitude firing and advances in ECCM performance.\\nThe surface launch model has shorter range and speed over the air-launch model, although it is still much better than RIM-7E.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "jsdf_sam1": {
+      "Name": "Tan-SAM 1",
+      "Nickname": "",
+      "Type": "SAM",
+      "Description": "A japanese all-aspect IR homing short range surface-to-air missile. Part of Type 82 SAM system.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_hq-61": {
+      "Name": "HQ-61",
+      "Nickname": "",
+      "Type": "SAM",
+      "Description": "The HQ-61 is a Chinese surface-to-air missile, and is the very first naval SAM developed for the PLAN. While the missile was accepted into service in the 1980s, it has performance significantly worse than its contemporaries, and is roughly equivalent in performance to the American RIM-7E Sea Sparrow.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "raf_rapier": {
+      "Name": "FSB Rapier",
+      "Nickname": "Rapier",
+      "Type": "SAM",
+      "Description": "A British optically guided short-range, low-altitude point-defence missile system. Utilizing the command-to-line-of-sight (CLOS) guidance system, it has varying effectiveness against fast aircraft and missiles.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_seaslug_mk2": {
+      "Name": "GWS-2",
+      "Nickname": "Sea Slug Mk.2",
+      "Type": "SAM",
+      "Description": "The GWS-2 Sea Slug Mk.2 is an upgraded version of the original Mk.1 missile, and is one of the Royal Navy's earliest surface to air missile systems. While this missile features high speed and a long-burning interceptor, it is neither reliable or accurate, and suffers greatly against low-flying or high-speed targets.\\nNotably, this missile can be used to attack land installations if necessary, although it has poor accuracy when firing at these targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_seacat": {
+      "Name": "GWS-21",
+      "Nickname": "Sea Cat Mk.1",
+      "Type": "SAM",
+      "Description": "The GWS-21 Seacat is the earliest example of a shipboard point-defence missile system. It entered Royal Navy service in 1962 and has also been widely exported as a replacement for the Bofors 40mm. Utilizing the command-to-line-of-sight (CLOS) guidance system, it has questionable effectiveness against fast jets and missiles.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_seacat_mk2": {
+      "Name": "GWS-24",
+      "Nickname": "Sea Cat Mk.2",
+      "Type": "SAM",
+      "Description": "The GWS-24 Seacat is an upgraded model of the Sea Cat Mk.1 (GWS-20) with improved low-altitude performance, greater range, higher reliability, and is combined with a more advanced fire control system. Unfortunately, this is still a very sub-par missile, and is of questionable effectiveness.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_seadart": {
+      "Name": "GWS-30",
+      "Nickname": "Sea Dart",
+      "Type": "SAM",
+      "Description": "The GWS-30 Sea Dart is the standard British medium-range shipboard surface-to-air missile and the successor to the Sea Slug SAM. It features a solid rocket booster and a ramjet sustainer, and is comparable in performance to the US Standard missile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_seawolf": {
+      "Name": "GWS-25",
+      "Nickname": "Sea Wolf",
+      "Type": "SAM",
+      "Description": "The GWS-25 Sea Wolf is the successor to the Sea Cat, and features vastly improved performance against air targets and sea-skimming missiles. Despite its high accuracy, Sea Wolf is still a very short ranged point-defense SAM, and can only reliably protect the launching ship, and not nearby allied units.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usa_mim-14": {
+      "Name": "MIM-14",
+      "Nickname": "Nike Hercules",
+      "Type": "SAM",
+      "Description": "MIM-14 Nike Hercules is a surface-to-air missile system used by the United States and NATO forces for medium and high-altitude air defense.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usa_mim-23": {
+      "Name": "MIM-23",
+      "Nickname": "Hawk",
+      "Type": "SAM",
+      "Description": "Developed in the US in the 1960s the HAWK is a relatively mobile medium-range Surface to Air Missile System. The missile itself utilises semi-active homing from the HPIR (High Power Illuminator Radar) which is a part of the wider HAWK battery, with targets detected by PAR (Pulse Acquisition Radar) for high altitude targets and CWAR (Continuous Wave Acquisition Radar) for low altitude targets in ground clutter.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-8": {
+      "Name": "RIM-8J",
+      "Nickname": "Talos",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-8J Talos is a massive long-range surface-to-air missile system used primarily by USN cruisers. It flies a beam-riding midcourse phase with a semi-active radar homing terminal phase. The missile requires some assembly prior to launch so rate of fire is lower than more modern systems, as indicated by the very large physical size of the magazine used by the system.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-7": {
+      "Name": "RIM-7E",
+      "Nickname": "Sea Sparrow",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-7E Sea Sparrow is a short-range surface-to-air missile, and is the primary NATO shipboard point-defense missile.\\nThis is the earliest Sea Sparrow model, and is identical in performance to the air-launched AIM-7E, except that its range and speed are greatly diminished, which limits effective firing distances to short range.\\nInherits AIM-7E's deficiencies in seeker performance and low-altitude firing capabilities, which are notably poor.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-7h": {
+      "Name": "RIM-7H",
+      "Nickname": "Sea Sparrow",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-7H Sea Sparrow is a short-range surface-to-air missile, and is the primary NATO shipboard point-defense missile.\\nThe 'Hotel' model of Sea Sparrow is overall extremely similar to the 'Echo' model, except that RIM-7H has folding fins to fit in newer launchers, and slightly improved reliability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-7m": {
+      "Name": "RIM-7M",
+      "Nickname": "Sea Sparrow",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-7M Sea Sparrow is a short-range surface-to-air missile, and is the primary NATO shipboard point-defense missile.\\nThe 'Mike' model is identical to the air-launched AIM-7M, except that its range and speed are significantly lower.\\nCompared to earlier models, the 'Mike' is the first of the series to have the ability to engage sea-skimming missiles and aircraft, and is a reliable point-defense missile in spite of its short range and speed.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-2f": {
+      "Name": "RIM-2F",
+      "Nickname": "Terrier",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-2F Terrier is one of the earliest surface-to-air missile systems introduced by the USN. It was conceived to provide a mid-range defensive layer to carrier strike groups that sat between fighters and guns. The original Terrier was a beam-riding weapon. The RIM-2F is an improved semi-active radar homing weapon with increased maneuverability and kill probability. Like other surface-to-air missiles, it can be used in a secondary anti-surface role. Salvo interval is adversely affected by the need to manually assemble booster fins, with one launcher able to fire 2 missiles every 30 seconds.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-24b": {
+      "Name": "RIM-24B",
+      "Nickname": "Tartar",
+      "Type": "SAM/ASuW",
+      "Description": "needs description",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-66a": {
+      "Name": "RIM-66A",
+      "Nickname": "SM-1MR",
+      "Type": "SAM/ASuW",
+      "Description": "The Standard Missile 1 is a family of radar-homing area-defense surface to air missiles (with a secondary short-range anti-ship capability) characterized by their long-burning sustainers and well-rounded performance against most threats. Standard Missile 1 was designed as a more reliable upgrade to the earlier RIM-2 Terrier and RIM-24 Tartar missiles, but still shares their limitations in fire control capacity and ability against low-flying targets.\\nSM-1MR Block IV (RIM-66A-4) is the Medium Range version of the SM-1 series, which replaced the analog components of Tartar with solid state electronics, greatly improving reliability, and improving ECCM capabilities.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-66b": {
+      "Name": "RIM-66B",
+      "Nickname": "SM-1MR",
+      "Type": "SAM/ASuW",
+      "Description": "The Standard Missile 1 is a family of radar-homing area-defense surface to air missiles (with a secondary short-range anti-ship capability) characterized by their long-burning sustainers and well-rounded performance against most threats. Standard Missile 1 was designed as a more reliable upgrade to the earlier RIM-2 Terrier and RIM-24 Tartar missiles, but still shares their limitations in fire control capacity and ability against low-flying targets.\\nSM-1MR Block V (RIM-66B-2) is the improved Medium Range version of the SM-1 series, which upgraded on the earlier RIM-66A with a more powerful rocket motor for greater range, and a new fuze and seeker assembly to improve its ECCM performance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-66e": {
+      "Name": "RIM-66E",
+      "Nickname": "SM-1MR",
+      "Type": "SAM/ASuW",
+      "Description": "The Standard Missile 1 is a family of radar-homing area-defense surface to air missiles (with a secondary short-range anti-ship capability) characterized by their long-burning sustainers and well-rounded performance against most threats. Standard Missile 1 was designed as a more reliable upgrade to the earlier RIM-2 Terrier and RIM-24 Tartar missiles, but still shares their limitations in fire control capacity.\\nSM-1MR Block VI (RIM-66E) is the Medium Range version of the SM-1 series, the Block VI upgrade includes electronics from Block I SM-2MR (RIM-66C/D) such as an improved monopulse seeker and new warhead, and also includes an improved fuze to better track sea-skimming targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-66c": {
+      "Name": "RIM-66C",
+      "Nickname": "SM-2MR",
+      "Type": "SAM/ASuW",
+      "Description": "The Standard Missile 2 is a family of radar-guided area-defense surface to air missiles (with a secondary short-range anti-ship capability) characterized by their long-burning sustainers and well-rounded performance against most threats. Standard Missile 2 replaces the semiactive radar-homing SM-1 seeker with an advanced datalink midcourse guidance, with terminal radar homing at the last few seconds of flight. SM-2 allows for many more missiles to be kept in the air at once than there are illuminators, providing a massive advantage over SM-1 armed ships.\\nSM-2MR Block I (RIM-66C) is the AEGIS version of the SM-2MR series, and is generally identical to RIM-66B except with the inclusion of a datalink, improved monopulse seeker, and an improved warhead.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-66d": {
+      "Name": "RIM-66D",
+      "Nickname": "SM-2MR",
+      "Type": "SAM/ASuW",
+      "Description": "The Standard Missile 2 is a family of radar-guided area-defense surface to air missiles (with a secondary short-range anti-ship capability) characterized by their long-burning sustainers and well-rounded performance against most threats. Standard Missile 2 replaces the semiactive radar-homing SM-1 seeker with an advanced datalink midcourse guidance, with terminal radar homing at the last few seconds of flight. SM-2 allows for many more missiles to be kept in the air at once than there are illuminators, providing a massive advantage over SM-1 armed ships.\\nSM-2MR Block I (RIM-66D) is the CG(N)/SM-2(MR) version of the SM-2MR series used exclusively on refitted Virginia class cruisers, and is identical to RIM-66C (AEGIS) in all aspects other than being less capable in terms of fire control channels, and requiring a longer terminal illumination period.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-66g": {
+      "Name": "RIM-66G",
+      "Nickname": "SM-2MR",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-66G Standard Missile 2 MR Block II is a key part of the new AEGIS Combat Management System fitted to the USN's newest surface combatants and the New Threat Upgrade fitted to older platforms. It provides a more capable weapon than the older Standard Missile 1 with reduced illuminator use allowing for more concurrent missiles in flight.\\nThe Block II SM-2MR more than doubles the range of the previous Block I missiles, improves capability against faster targets, and has a lower minimum altitude compared to earlier Standard Missiles, although not perfect against sea-skimmers yet.\\n\\nThe RIM-66G is the SM-2MR Block II variant used by Mark 26 AEGIS warships, like the arm-launcher Ticonderoga class CGs.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-67a": {
+      "Name": "RIM-67A",
+      "Nickname": "SM-1ER",
+      "Type": "SAM/ASuW",
+      "Description": "The Standard Missile 1 is a family of radar-homing area-defense surface to air missiles (with a secondary short-range anti-ship capability) characterized by their long-burning sustainers and well-rounded performance against most threats. Standard Missile 1 was designed as a more reliable upgrade to the earlier RIM-2 Terrier and RIM-24 Tartar missiles, but still shares their limitations in fire control capacity and ability against low-flying targets.\\nSM-1ER (RIM-67A-2) is the Extended Range version of the SM-1 series, which replaced the analog components of Terrier with solid state electronics, greatly improving reliability, alongside a new fuze and seeker assembly to improve its ECCM performance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-67b": {
+      "Name": "RIM-67B",
+      "Nickname": "SM-2ER",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-67B Standard Missile 2 ER is a key part of the New Threat Upgrade fitted to platforms that previously carried the RIM-2 Terrier. The missile is practically identical to the RIM-66C but fitted with an additional booster to increase its range.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rim-67c": {
+      "Name": "RIM-67C",
+      "Nickname": "SM-2ER",
+      "Type": "SAM/ASuW",
+      "Description": "The RIM-67C Standard Missile 2 ER is a key part of the New Threat Upgrade fitted to platforms that previously carried the RIM-2 Terrier. The missile is practically identical to the RIM-66C but fitted with an additional booster to increase its range.\\nThe Block II SM-2ER improves the speed and range of the previous Block I missiles, improves capability against faster targets, and has a lower minimum altitude compared to earlier Standard Missiles, although not perfect against sea-skimmers yet.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-1": {
+      "Name": "SA-N-1",
+      "Nickname": "Goa",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-1 Goa (M-1 Volna) is the earliest Soviet naval surface-to-air missile system. It is intended to provide area air defence and a degree of protection from inbound anti-ship missiles. Originally only effective against high-flying air targets, later variants introduced an anti-surface capability and better capability to engage low-flying targets, as well as increased range.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-1c": {
+      "Name": "SA-N-1C",
+      "Nickname": "Goa",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-1C Goa (M-1 Volna-P) is modification of the earliest Soviet naval surface-to-air missile system. It has better resistance to jamming and chaff and capable of engaging low-flying targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-3": {
+      "Name": "SA-N-3",
+      "Nickname": "Goblet",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-3 Goblet (M-11 Shtorm) is a Soviet naval surface-to-air missile system. The system was installed on a number of missile cruiser classes and the Soviet Union's helicopter and STOVL carriers. It has a secondary anti-surface capability, and later versions improved performance against low-flying targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-4": {
+      "Name": "SA-N-4",
+      "Nickname": "Gecko",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-4 Gekko (9K33M Osa) is the naval version of the SA-8 Gecko (note the different spelling) with two missiles on a retractable rotating launcher. It has been installed on a significant number of Soviet platforms to fulfil the short-range air defence role.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-5": {
+      "Name": "SA-N-5",
+      "Nickname": "Grail",
+      "Type": "SAM",
+      "Description": "The SA-N-5 Grail (9K32 Strela-2) is a man-portable surface-to-air missile also known as the SA-7 when used from land based launchers. On ships it is used as a point-defence system.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-6": {
+      "Name": "SA-N-6",
+      "Nickname": "Grumble",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-6 Grumble (S-300F) is the naval version of the SA-10 (S-300P) land-based surface-to-air missile system. This powerful long-range system is fitted in Soviet missile-cruiser classes, and offers performance comparable to that of the SM-2.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-7": {
+      "Name": "SA-N-7",
+      "Nickname": "Gadfly",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-7 Gadfly (3S90 Uragan) is the naval version of the SA-11 Gadfly (9K37 Buk) land-based surface-to-air missile system. The SA-N-7 system is a sophisticated and capable weapon system and made its entry to service on the Sovremenny-class destroyers.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-n-9": {
+      "Name": "SA-N-9",
+      "Nickname": "Gauntlet",
+      "Type": "SAM/ASuW",
+      "Description": "The SA-N-9 Gauntlet (3K95 Kinzhal) is the naval version of the SA-15 Gauntlet (9K330 Tor) missile system. It utilises the same missile as the SA-15 and is fitted on a significant number of Soviet major surface combatants.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-2": {
+      "Name": "SA-2",
+      "Nickname": "Guideline",
+      "Type": "SAM",
+      "Description": "The SA-2 Guideline (S-75 Dvina) is a Soviet long-range surface-to-air missile system. The system is intended to counter bombers over large areas and has been widely exported, having been used in many conflicts but most famously during the Vietnam war.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-3": {
+      "Name": "SA-3",
+      "Nickname": "Goa",
+      "Type": "SAM",
+      "Description": "The SA-3 Goa (S-125 Neva/Pechora) is a Soviet medium-range surface-to-air missile system. The system is intended to counter more manoeuvrable and lower altitude targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-4": {
+      "Name": "SA-4",
+      "Nickname": "Ganef",
+      "Type": "SAM",
+      "Description": "The SA-4 Ganef (2K11 Krug) is a Soviet mobile medium-range surface-to-air missile system. The system is intended to counter bombers over large areas.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-5": {
+      "Name": "SA-5",
+      "Nickname": "Gammon",
+      "Type": "SAM",
+      "Description": "The SA-5 Gammon (S-200) is a Soviet long-range surface-to-air missile system. The system is intended to counter high-altitude bombers over large areas. The missiles incorporate a home-on-jam capability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-6": {
+      "Name": "SA-6",
+      "Nickname": "Gainful",
+      "Type": "SAM",
+      "Description": "The SA-6 Gainful (2K12 Kub) is a Soviet mobile surface-to-air missile system. The system is intended to counter short-range threats out to approximately 15 miles.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-8": {
+      "Name": "SA-8",
+      "Nickname": "Gecko",
+      "Type": "SAM",
+      "Description": "The SA-8 Gecko (9K33M3 Osa) is a Soviet mobile surface-to-air missile system. The system is intended to provide short-range air defense for tank and motorized divisions.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-11": {
+      "Name": "SA-11",
+      "Nickname": "Gadfly",
+      "Type": "SAM",
+      "Description": "The SA-11 Gadfly (9K37 Buk) is a Soviet mobile surface-to-air missile system. The system is intended to counter short-range threats out to approximately 18 miles.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_sa-13": {
+      "Name": "SA-13",
+      "Nickname": "Gopher",
+      "Type": "SAM",
+      "Description": "The SA-13 Gopher (9K35 Strela-10) is a Soviet highly mobile short-range surface-to-air missile system. The system is intended to counter low-altitude pop-up threats such as helicopters.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-45": {
+      "Name": "AGM-45B",
+      "Nickname": "Shrike",
+      "Type": "ARM",
+      "Description": "The AGM-45 Shrike is an American anti-radiation missile developed from the fuselage of the AIM-7 Sparrow and a new seeker. It has short range, unimpressive speed, a small warhead, and can only guide on a limited number of radar bands (S, C, X bands), but low cost and light weight means ubiquitous use.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-78": {
+      "Name": "AGM-78D",
+      "Nickname": "Standard ARM",
+      "Type": "ARM",
+      "Description": "The AGM-78 Standard ARM (STARM) is an American long-range ARM meant to engage top-tier SAM sites from standoff distances. STARM is derived from the SM-1MR SAM, and has a long-burning sustainer and lofting profile to achieve long range, and has a potent warhead to guarantee destruction of whatever radar system it hits. Unfortunately, this is an expensive and rare weapon, so few if any can be used at any given time.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-88a": {
+      "Name": "AGM-88A",
+      "Nickname": "HARM",
+      "Type": "ARM",
+      "Description": "The AGM-88A HARM (High-speed Anti-Radiation Missile) is an American long-range ARM, with exceptional performance in all categories. HARM is the most modern anti-radiation missile in the NATO arsenal by 1985, and outperforms its predecessors in nearly every category, especially reliability and maximum speed. Due to this missile being very new in service, only a limited number (or none at all) can be used at any given time.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-122a": {
+      "Name": "AGM-122A",
+      "Nickname": "Sidearm",
+      "Type": "ARM",
+      "Description": "The AGM-122A is a short-range tactical anti-radiation missile primary designed to be used from helicopters and fixed wing aircraft. Modified from the short-lived AIM-9C, Sidearm is an effective short range ARM to deal with pop-up SHORAD threats, but is poorly suited to face significant air defenses.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rgm-8h": {
+      "Name": "RGM-8H",
+      "Nickname": "Talos ARM",
+      "Type": "ARM",
+      "Description": "The RGM-8H Talos is the anti-radar version of the RIM-8 Talos SAM, and utilizes its large airframe to achieve very long range and high speed for a ship-launch ARM. While RGM-8H is based off a SAM, this missile has no anti-aircraft capability, and is only able to engage surface targets actively emitting with radar.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-11": {
+      "Name": "AS-11",
+      "Nickname": "Kilter",
+      "Type": "ARM",
+      "Description": "The AS-11 Kilter (Kh-58) is a Soviet anti-radiation missile developed to equip the Su-24M attack aircraft. This is one of the most advanced ARMs for the Soviet air forces, and has a very long range when fired at supersonic speeds.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-12": {
+      "Name": "AS-12",
+      "Nickname": "Kegler",
+      "Type": "ARM",
+      "Description": "The AS-12 Kegler (Kh-25MP) is a Soviet air launched supersonic medium-range anti-radar missile. This is the most common ARM in Soviet service, and is roughly analogous to the American AGM-45 Shrike.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-2b": {
+      "Name": "AS-2B",
+      "Nickname": "Kipper",
+      "Type": "ASM",
+      "Description": "K-10SP is a variant of K-10S missile which exchanges warhead fo Azaliya jammer system",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "is_gabriel_2": {
+      "Name": "Gabriel 2",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "Gabriel is an Israeli anti-ship missile with semi-active radar homing (SARH) and relatively short range, and flies low to avoid enemy fire. This is an upgraded model of the original Gabriel 1, and is meant to improve ECCM capabilities alongside overall reliability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "is_gabriel_3": {
+      "Name": "Gabriel 3",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "The Gabriel 3 is an Israeli short-range anti-ship missile with sea skimming capabilities and an active radar seeker. This is an upgraded Gabriel 2 missile, with a redesigned nose to accomodate an advanced active radar seeker, and allows for \"fire and forget\" operation.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "is_gabriel_3as": {
+      "Name": "Gabriel 3AS",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "The Gabriel 3AS is an Israeli short-range anti-ship missile with sea skimming capabilities and an active radar seeker. This is the air-launch version of the Gabriel 3, and has improved range and a redesigned fuselage.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "it_seakiller_2": {
+      "Name": "Sea Killer 2",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "Sea Killer 2 is a short range anti-ship missile developed in Italy. Sea Killer Mark 2 was purchased by Iran to arm its Alvand-class frigates each of which was fitted with a single five-round launcher.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "it_otomat_mk1": {
+      "Name": "Otomat MK1",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "OtomatMK1 is a medium range anti-ship missile developed in cooperation between Italy and France.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "jasdf_asm-1": {
+      "Name": "ASM-1",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "The ASM-1 is a Japanese standoff anti-ship missile. The ASM-1 is the air-launched variant.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_as12": {
+      "Name": "AS.12",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "The AS.12 is a command-guided, short-range helicopter-launch ASM of French origin. This is an upgraded SS.11 ATGM, with a longer motor and significantly larger warhead, and can pose a serious threat to boats as well as small ships.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_am-39": {
+      "Name": "AM39",
+      "Nickname": "Exocet",
+      "Type": "ASM",
+      "Description": "The AM39 Exocet is a French standoff anti-ship missile. It is a popular alternative to the Harpoon throughout NATO and in a number of other nations. The AM39 is the air-launched variant.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_mm-38": {
+      "Name": "MM38",
+      "Nickname": "Exocet",
+      "Type": "ASM",
+      "Description": "The MM38 Exocet is a French standoff anti-ship missile. It is a popular alternative to the Harpoon throughout NATO and in a number of other nations. The MM38 is the surface-launched variant.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_sm-39": {
+      "Name": "SM39",
+      "Nickname": "Exocet",
+      "Type": "ASM",
+      "Description": "The SM39 Exocet is a French standoff anti-ship missile. It is a popular alternative to the Harpoon throughout NATO and in a number of other nations. The MM38 is the submarine-launched variant, and features better ECCM and a longer range than the original ship-launch Exocet, due to it being based off an upgraded AM-39 Mod 2 version.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "knm_penguin_mk2": {
+      "Name": "AGM-119",
+      "Nickname": "Penguin Mk2",
+      "Type": "ASM",
+      "Description": "The AGM-119 Penguin is a small air-launched and surface-launched anti-ship missile developed in collaboration between the US and Norway.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_sy-1": {
+      "Name": "SY-1",
+      "Nickname": "Scrubbrush",
+      "Type": "ASM",
+      "Description": "The SY-1 is a Chinese license-built version of the Soviet Styx missile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_sy-1a": {
+      "Name": "SY-1A",
+      "Nickname": "Scrubbrush",
+      "Type": "ASM",
+      "Description": "The SY-1A is a Chinese development of the Soviet Styx missile, with an improved seeker and a sea-skimming terminal flight phase, and is also able to be used on ships as well as land-based launchers.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_hy-1": {
+      "Name": "HY-1",
+      "Nickname": "Silkworm",
+      "Type": "ASM",
+      "Description": "The HY-1 is a Chinese development of the Soviet Styx missile, with extended range due to a lengthened fuel tank.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_hy-1j": {
+      "Name": "HY-1J",
+      "Nickname": "Safflower",
+      "Type": "ASM",
+      "Description": "The HY-1J is the ship-based version of the Chinese HY-1 missile, with identical performance in all other characteristics.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_hy-1a": {
+      "Name": "HY-1A",
+      "Nickname": "Safflower",
+      "Type": "ASM",
+      "Description": "The HY-1A is a Chinese upgrade of the HY-1J missile featuring an improved seeker and radar altimeter, which allows for a sea-skimming terminal flight phase.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_hy-2": {
+      "Name": "HY-2",
+      "Nickname": "Seersucker",
+      "Type": "ASM",
+      "Description": "The HY-2 is a Chinese derivative of the HY-1 missile, and includes a further enlarged fuel tank to increase range. This makes HY-2 exclusively a land-based missile system, as no shipborne launcher is long enough to accomodate it.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_hy-3": {
+      "Name": "HY-3",
+      "Nickname": "Sawhorse",
+      "Type": "ASM",
+      "Description": "The HY-3 is a ramjets-powered shore-based supersonic anti-ship missile travelling up to Mach 2.5 and ranges up to 130-180 kilometers. Its development was completed in the early 1990s but the missile did not enter service.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_hy-4": {
+      "Name": "HY-4",
+      "Nickname": "Sadsack",
+      "Type": "ASM",
+      "Description": "The HY-4 is a Chinese derivative of the HY-2 missile, with a turbojet engine replacing the original liquid-fuel rocket propulsion. This allows for a significant improvement in range, although the ungainly airframe of the HY-4 means it flies at a relatively high altitude and slow speed for much of its flight.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_yj-1": {
+      "Name": "YJ-1",
+      "Nickname": "Saples",
+      "Type": "ASM",
+      "Description": "The YJ-1 is an air launched short-range supersonic anti ship missile, with a speed exceeding Mach 2, and a sea-skimming terminal phase. While this missile was not accepted into service, a limited number of preproduction missiles were available in the late 1980s, and it was intended to be used primarily on the SH-5 flying boat.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_yj-6": {
+      "Name": "YJ-6",
+      "Nickname": "Kraken",
+      "Type": "ASM",
+      "Description": "The YJ-6 is a Chinese air-launched anti-ship missile developed from the land/ship-based SY-1/HY-1, and features a longer firing range due to its air launch profile, although it uses an early seeker, and is susceptible to countermeasures like other early Styx or Silkworm models.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_yj-8": {
+      "Name": "YJ-8",
+      "Nickname": "Sardine",
+      "Type": "ASM",
+      "Description": "The YJ-8 is a Chinese anti-ship missile resembling, and roughly equivalent to, the French Exocet missile. After launch the missile climbs to 20-30 meters and descends to attack at 5-7 meters in a sea-skimming profile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_sea_skua": {
+      "Name": "Sea Skua",
+      "Nickname": "",
+      "Type": "ASM",
+      "Description": "The Sea Skua is a British short-range anti-ship missile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-12b": {
+      "Name": "AGM-12B",
+      "Nickname": "Bullpup",
+      "Type": "ASM",
+      "Description": "The AGM-12 Bullpup is an American air launched supersonic standoff strike weapon. It relies on an operator manually guiding the missile, similar to the Soviet AS-7, and features much of the same drawbacks, chief among which is the need to keep flying the aircraft in a straight path towards the target.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-123": {
+      "Name": "AGM-123",
+      "Nickname": "Skipper",
+      "Type": "ASM",
+      "Description": "The Skipper is an American short-to-medium range anti-ship guided missile, produced by combining a Paveway II laser-guided bomb with a solid rocket booster. This was done to provide aircrews with an alternative to Harpoon, which proved troublesome to use in heavily congested waters such as the Persian Gulf, where the risk of hitting civilians is just too high.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-84a": {
+      "Name": "AGM-84A",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The AGM-84 variant is air launched.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-84c": {
+      "Name": "AGM-84C",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The AGM-84C variant is air launched and does not perform a pop-up terminal maneuver, and instead has a sea-skimming phase to attack ships more effectively.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-84d": {
+      "Name": "AGM-84D",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The AGM-84 variant is air launched. AGM-84D is a newer modification, appeared in 1985. It has improved ECCM capabilities and greater range due to improved fuel.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rgm-84a": {
+      "Name": "RGM-84A",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The RGM-84A variant is surface launched, with a pop-up terminal maneuver to evade close-in weapons systems.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rgm-84c": {
+      "Name": "RGM-84C",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The RGM-84C variant is surface launched and does not perform a pop-up terminal maneuver, and instead has a sea-skimming phase to attack ships more effectively.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rgm-84d": {
+      "Name": "RGM-84D",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The RGM-84D variant is surface launched. AGM-84D is a newer modification, appeared in 1985. It has improved ECCM capabilities and greater range due to improved fuel.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rgm-109b": {
+      "Name": "RGM-109B",
+      "Nickname": "Tomahawk",
+      "Type": "ASM",
+      "Description": "The RGM-109B Tomahawk Anti-Ship Missile (TASM) is an American standoff anti-ship weapon. The weapon has an active radar seeker that is activated after following a pre-programmed route, and is capable of flying a search pattern with deceptive manuevers.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ugm-84a": {
+      "Name": "UGM-84A",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The UGM-84A variant is submarine launched, using a disposable canister, and performs a pop-up terminal maneuver.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ugm-84b": {
+      "Name": "UGM-84B",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The UGM-84B variant is specifically made for the Royal Navy, this being the submarine-launch version. Unlike the earlier UGM-84A, it does not perform a pop-up terminal maneuver, and instead has a sea-skimming phase to attack ships more effectively.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ugm-84c": {
+      "Name": "UGM-84C",
+      "Nickname": "Harpoon",
+      "Type": "ASM",
+      "Description": "The Harpoon is an American standoff anti-ship weapon used widely throughout NATO. The weapon has an active radar seeker that is activated after following a pre-programmed route. The UGM-84B variant is submarine launched, using a disposable canister. Unlike the earlier UGM-84A, it does not perform a pop-up terminal maneuver, and instead has a sea-skimming phase to attack ships more effectively.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ugm-109b": {
+      "Name": "UGM-109B",
+      "Nickname": "Tomahawk",
+      "Type": "ASM",
+      "Description": "The RGM-109B Tomahawk Anti-Ship Missile (TASM) is an American standoff anti-ship weapon. The weapon has an active radar seeker that is activated after following a pre-programmed route, and is capable of flying a search pattern with deceptive manuevers.\\nThis is the submarine launched model deployed exclusively from torpedo tubes.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-2": {
+      "Name": "AS-2",
+      "Nickname": "Kipper",
+      "Type": "ASM",
+      "Description": "The AS-2 Kipper (K-10S) is a Soviet air launched supersonic standoff anti-ship weapon designed to be carried by the Tu-16. Roughly analogous to an air-launched SS-N-3, it suffers much the same drawbacks against even moderately modern air defences.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-4": {
+      "Name": "AS-4",
+      "Nickname": "Kitchen",
+      "Type": "ASM",
+      "Description": "The AS-4 Kitchen (Kh-22) is a Soviet air launched supersonic standoff anti-ship weapon carried by the Tu-22M or Tu-95. It flies a high-altitude, high-speed profile with a supersonic terminal dive, making it very hard to counter.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-6": {
+      "Name": "AS-6",
+      "Nickname": "Kingfish",
+      "Type": "ASM",
+      "Description": "The AS-6 Kingfish (Kh-26) is a Soviet air launched supersonic standoff strike and anti-ship weapon designed to be carried by the Tu-16. A smaller cousin of the AS-4, it flies a high-altitude, high-speed profile with a supersonic terminal dive, making it very hard to counter.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-7": {
+      "Name": "AS-7",
+      "Nickname": "Kerry",
+      "Type": "ASM",
+      "Description": "The AS-7 Kerry (Kh-23 Grom) is a Soviet air launched supersonic standoff strike weapon. It relies on an operator manually guiding the missile, similar to the US AGM-12 Bullpup, and features much of the same drawbacks.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-10": {
+      "Name": "AS-10",
+      "Nickname": "Karen",
+      "Type": "ASM",
+      "Description": "The AS-10 Karen (Kh-25/Kh-25M) is a Soviet air launched supersonic standoff strike weapon. It uses a laser seeker for fire-and-forget capability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-13": {
+      "Name": "AS-13",
+      "Nickname": "Kingbolt",
+      "Type": "ASM",
+      "Description": "The AS-13 Kingbolt (Kh-59 Ovod) is a Soviet air launched subsonic standoff strike weapon. It flies the midcourse under inertial guidance, using pre-programmed target coordinates, with a terminal TV homing phase.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-14a": {
+      "Name": "AS-14A",
+      "Nickname": "Kedge",
+      "Type": "ASM",
+      "Description": "The AS-14A Kedge (Kh-29L) is a Soviet air launched supersonic air to surface missile, with a heavy warhead and laser guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_as-14b": {
+      "Name": "AS-14B",
+      "Nickname": "Kedge",
+      "Type": "ASM",
+      "Description": "The AS-14B Kedge (Kh-29T) is a Soviet air launched supersonic air to surface missile, with a heavy warhead and TV guidance for longer range, but has degraded performance at night.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-2": {
+      "Name": "SS-N-2",
+      "Nickname": "Styx",
+      "Type": "ASM",
+      "Description": "The SS-N-2 Styx (P-15 Termit) is a Soviet surface launched subsonic standoff anti-ship weapon. The weapon was licence produced by China as the well known CSS-C-2 Silkworm. It also can be used to attack land installation on the shore.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-2c": {
+      "Name": "SS-N-2C",
+      "Nickname": "Styx",
+      "Type": "ASM",
+      "Description": "The SS-N-2C Styx (P-15 Termit-M) is a Soviet surface launched subsonic standoff anti-ship weapon. It is an improved version of original P-15 with extended range and better ECCM. It also can be used to attack land installation on the shore.",
+      "NativeName": "P-15",
+      "NativeNickname": "Termit-M"
+    },
+    "wp_ss-n-3": {
+      "Name": "SS-N-3",
+      "Nickname": "Shaddock",
+      "Type": "ASM",
+      "Description": "The SS-N-3 Shaddock (P-35) is a Soviet surface launched subsonic standoff anti-ship weapon. While it was fearsome at the time of introduction, the subsonic, high-altitude flight profile makes it very vulnerable to surface-to-air missiles. Another drawback is the need for the launch platform to stay in contact with the missile during the entire flight, which means submerged platforms have to stay exposed on the surface during a strike, leaving them vulnerable to counterattacks.",
+      "NativeName": "P-35",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-3b": {
+      "Name": "SS-N-3B",
+      "Nickname": "Sepal",
+      "Type": "ASM",
+      "Description": "The SS-N-3B Sepal (Progress) is a Soviet surface launched subsonic standoff anti-ship weapon. It is an improved version of original P-35 missile with lower flight altitude and better resistance to jamming and chaff.",
+      "NativeName": "Progress",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-7": {
+      "Name": "SS-N-7",
+      "Nickname": "Starbright",
+      "Type": "ASM",
+      "Description": "The SS-N-7 Starbright (P-70 Ametist) is a Soviet submarine launched transonic standoff anti-ship weapon. It was the first missile system in the world to be launched from a submerged submarine. It is a relatively short-ranged weapon, and was replaced by the SS-N-9 Siren.",
+      "NativeName": "P-70",
+      "NativeNickname": "Ametist"
+    },
+    "wp_ss-n-9": {
+      "Name": "SS-N-9",
+      "Nickname": "Siren",
+      "Type": "ASM",
+      "Description": "The SS-N-9 Siren (P-120 Malakhit) is a Soviet surface launched subsonic standoff anti-ship weapon. It is faster and longer-ranged than the Styx, and can perform evasive manuevers in the terminal phase.",
+      "NativeName": "P-120",
+      "NativeNickname": "Malakhit"
+    },
+    "wp_ss-n-12": {
+      "Name": "SS-N-12",
+      "Nickname": "Sandbox",
+      "Type": "ASM",
+      "Description": "The SS-N-12 Sandbox (P-500 Bazalt) is a Soviet surface launched supersonic standoff anti-ship weapon designed to replace the SS-N-3 Shaddock. Compared to the Shaddock, it is much faster, and incorporates an inter-missile data-link that allows the majority of the salvo to stay at a low altitude while a single missile flies high acting as a target spotter. It also carries defensive ECM to increase survivability against anti-air defences.",
+      "NativeName": "P-500",
+      "NativeNickname": "Bazalt"
+    },
+    "wp_ss-n-19": {
+      "Name": "SS-N-19",
+      "Nickname": "Shipwreck",
+      "Type": "ASM",
+      "Description": "The SS-N-19 Shipwreck (P-700 Granit) is a Soviet surface launched supersonic standoff anti-ship weapon. It flies a HI-LO profile and includes an advanced inter-missile datalink that allows several missiles in a salvo to distribute targets between them using a single missile as a high-flying spotter. It is capable of evasive manuevers in the terminal phase, carries an onboard ECM jammer and decoys, and is armored against CIWS fire and missile fragments. This is a fearsome weapon by any metric.",
+      "NativeName": "P-700",
+      "NativeNickname": "Granit"
+    },
+    "wp_ss-n-22": {
+      "Name": "SS-N-22",
+      "Nickname": "Sunburn",
+      "Type": "ASM",
+      "Description": "The SS-N-22 Sunburn (P-270 Moskit) is a Soviet surface launched supersonic standoff anti-ship weapon. It flies a LO-LO profile with a supersonic sea-skimming terminal phase, during which the missile performs evasive snaking manuevers to increase survivability against air defences.",
+      "NativeName": "P-270",
+      "NativeNickname": "Moskit"
+    },
+    "wp_as-4b": {
+      "Name": "AS-4B",
+      "Nickname": "Kitchen-B",
+      "Type": "Land Attack",
+      "Description": "The AS-4B Kitchen (Kh-22MP Storm) is a Soviet made supersonic standoff land attack missile.",
+      "NativeName": "KH-22MP",
+      "NativeNickname": "Storm"
+    },
+    "fr_as11": {
+      "Name": "AS.11",
+      "Nickname": "",
+      "Type": "Land Attack",
+      "Description": "The SS.11/AS.11 is a command-guided, short-range anti-tank missile of French origin. This model possesses a semi-armor-piercing warhead to attack small boats, rather than a shaped charge to attack tanks.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_agm-65b": {
+      "Name": "AGM-65B",
+      "Nickname": "Maverick",
+      "Type": "Land Attack",
+      "Description": "The AGM-65B is an American TV-guided air-to-ground standoff weapon. An operator in the launch aircraft keeps crosshairs on the desired target, the weapon locks onto the target and then autonomously guides towards it after launch, similar to the AGM-62 Walleye.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_agm-86c": {
+      "Name": "AGM-86C",
+      "Nickname": "CALCM",
+      "Type": "Land Attack",
+      "Description": "The Conventional Air Launched Cruise Missile (CALCM) is an American air-launched standoff land attack missile and the primary standoff weapon of the B-52. These weapons fly a pre-programmed route to a target with no input from the launch platform after launch, using terrain contour matching using a terrain mapping radar and onboard digital maps.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rgm-109c": {
+      "Name": "RGM-109C",
+      "Nickname": "Tomahawk",
+      "Type": "Land Attack",
+      "Description": "The Tomahawk Land Attack Missile (TLAM) is an American standoff land attack missile. These weapons fly a pre-programmed route to a target with no input from the launch platform after launch, using terrain contour matching using a terrain mapping radar and onboard digital maps.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ugm-109c": {
+      "Name": "UGM-109C",
+      "Nickname": "Tomahawk",
+      "Type": "Land Attack",
+      "Description": "The Tomahawk Land Attack Missile (TLAM) is an American standoff land attack missile. These weapons fly a pre-programmed route to a target with no input from the launch platform after launch, using terrain contour matching using a terrain mapping radar and onboard digital maps.\\nThis is the submarine launched model deployed exclusively from torpedo tubes. The UGM-109C cannot be fully fueled for submarine launch, therefore it has somewhat reduced range over the ship launch model.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usa_bgm-71a": {
+      "Name": "BGM-71A",
+      "Nickname": "TOW",
+      "Type": "Land Attack",
+      "Description": "The BGM-71 TOW is an American wire-guided anti-tank missile. The weapon is used both from helicopters and from armoured vehicles. It has a relatively short range and a small warhead, which limits its ability against modern armor as it may require multiple shots to kill a single tank.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usa_bgm-71c": {
+      "Name": "BGM-71C",
+      "Nickname": "I-TOW",
+      "Type": "Land Attack",
+      "Description": "The BGM-71 I-TOW is an American wire-guided anti-tank missile. The weapon is used both from helicopters and from armoured vehicles. This is the upgraded I-TOW model, with improved range (as in BGM-71B) and a stand-off probe to defeat modern tank armor, although it may still struggle against the latest Soviet battle tanks.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usa_bgm-71d": {
+      "Name": "BGM-71D",
+      "Nickname": "TOW 2",
+      "Type": "Land Attack",
+      "Description": "The BGM-71D TOW 2 is an American wire-guided anti-tank missile. The weapon is used both from helicopters and from armoured vehicles. This is a redesign of the original BGM-71 TOW with a much larger warhead and improved motor, which allows it to easily defeat the latest armored threats.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_at-6": {
+      "Name": "AT-6",
+      "Nickname": "Spiral",
+      "Type": "Land Attack",
+      "Description": "The AT-6 Spiral (9M114 Kokon) is a Soviet supersonic anti tank guided missile used by some attack helicopters, particularly the Ka-29 and Mi-24. Notably features long range, high speed, and a powerful warhead.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_at-10": {
+      "Name": "AT-10",
+      "Nickname": "Sabber",
+      "Type": "Land Attack",
+      "Description": "The AT-10 Sabber is a Soviet anti tank guided missile used by T-55M tank.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "ran_ikara": {
+      "Name": "GWS-40",
+      "Nickname": "Ikara",
+      "Type": "ASW",
+      "Description": "The GWS-40 Ikara is an Australian anti-submarine cruise missile, powered by a rocket motor, that deploys a Mk-46 or Mk-44 torpedo to defeat sub-surface threats. While it has twice the range of the American ASROC, Ikara is somewhat slower, and multiple missiles cannot be quickly fired due to the launch configuration.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rur-5": {
+      "Name": "RUR-5",
+      "Nickname": "ASROC",
+      "Type": "ASW",
+      "Description": "The RUR-5 ASROC (for Anti-Submarine Rocket) is a standoff anti-submarine weapon. The ASROC missile is launched from the shooting platform and deploys a Mk 46 ASW torpedo after flying a ballistic trajectory.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_apr-2": {
+      "Name": "APR-2",
+      "Nickname": "",
+      "Type": "ASW",
+      "Description": "The APR-2 is a Soviet air-dropped anti-submarine torpedo, with a seeker range of 0.75 nautical miles and can be used to a depth of 600m.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-14a": {
+      "Name": "SS-N-14A",
+      "Nickname": "Silex",
+      "Type": "ASW",
+      "Description": "The SS-N-14 Silex (Metel) is a Soviet anti-submarine standoff weapon. Similar to the Australian Ikara these weapons carry an torpedo below a small cruise-missile airframe.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-14b": {
+      "Name": "SS-N-14B",
+      "Nickname": "Silex-B",
+      "Type": "ASW/ASuW",
+      "Description": "The SS-N-14 Silex-B (Rastrub) is a Soviet dual-purpose anti-submarine and anti-surface standoff weapon. Similar to the Australian Ikara these weapons carry an torpedo below a small cruise-missile airframe.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_ss-n-16": {
+      "Name": "SS-N-16",
+      "Nickname": "Stallion",
+      "Type": "ASW",
+      "Description": "The SS-N-16 Stallion (Vodopad) is a Soviet submarines anti-submarine standoff weapon. It flies a ballistic trajectory to drop a torpedo in the vicinity of the target.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "knm_terne_shell": {
+      "Name": "Terne III Mortar",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "Terne is a Norwegian rocket propelled anti-submarine weapon system developed in the 1960s.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_type62dc": {
+      "Name": "FQF-1200",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "The FQF-1200 is Chinese 5-barrel anti-submarine rocket launcher.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_type75dc": {
+      "Name": "FQF-2500",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "The FQF-2500 is Chinese 12-barrel anti-submarine rocket launcher.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_limbo_shell": {
+      "Name": "LIMBO Mortar",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "Limbo (or Anti Submarine Mortar Mark 10) is a British built 1950s anti-submarine mortar. Aimed using the shipboard sonar it aims to drop three depth bombs in a triangle around the target.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_squid_shell": {
+      "Name": "SQUID Mortar",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "Squid is a British built WWII vintage anti-submarine mortar. Aimed using the shipboard sonar it aims to drop three depth bombs in a triangle around the target.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "swe_375mm_rocket": {
+      "Name": "Bofors M/50",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "Bofors M/50 is a 375 mm Sweden anti-submarine rocket launcher.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-10": {
+      "Name": "RBU-1000",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "The RBU-1000 (or Smerch-3) is a 300 mm Soviet anti-submarine rocket launcher. The RBU-1000 has a range of approximately 1000 yards.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-12": {
+      "Name": "RBU-1200",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "The RBU-1200 (or Smerch-3) is a 251 mm Soviet anti-submarine rocket launcher. The RBU-1200 has a range of approximately 1200 yards.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-25": {
+      "Name": "RBU-2500",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "The RBU-2500 (or Smerch-1) is a 213 mm Soviet anti-submarine rocket launcher. The RBU-2500 has a range of approximately 2500 yards.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-60": {
+      "Name": "RBU-6000",
+      "Nickname": "",
+      "Type": "ASW Mortar",
+      "Description": "The RBU-6000 (or Smerch-2) is a 213 mm Soviet anti-submarine rocket launcher. The RBU-6000 has a range of approximately 6000 yards.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_e15": {
+      "Name": "E15",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The French E15 Torpedo is an unusual 55cm heavyweight anti-surface torpedo with passive sonar guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_l3": {
+      "Name": "L3",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The French L3 Torpedo is an unusual 55cm mediumweight anti-submarine torpedo. Upgraded",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_l5_mod3": {
+      "Name": "L5",
+      "Nickname": "Mod 3",
+      "Type": "ASW Torpedo",
+      "Description": "The French L5 Torpedo is a 55cm mediumweight anti-submarine torpedo. This is a faster, longer range version of the L3 anti-submarine torpedo, meant to keep up with longer sonar detection ranges and faster submarine speeds.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_f17_mod1": {
+      "Name": "F17",
+      "Nickname": "Mod 1",
+      "Type": "ASuW Torpedo",
+      "Description": "The French F17 Torpedo is a 55cm heavyweight wire-guided anti-ship torpedo. This is a faster, longer range version of the E15 anti-ship torpedo, with wire guidance for maneuvering or running underneath the layer, and two speed modes.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_f17_mod2": {
+      "Name": "F17",
+      "Nickname": "Mod 2",
+      "Type": "Torpedo",
+      "Description": "The French F17 Torpedo is a 55cm heavyweight wire-guided dual-purpose torpedo. This is an upgraded version of the original F17 torpedo, with antisubmarine capability via an active-passive seeker, faster speed, greater diving depth, and longer range.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_f17p": {
+      "Name": "F17P",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The French F17P (\"Polyvalent\") Torpedo is a 55cm heavyweight wire-guided dual-purpose torpedo. This is an upgraded version of the original F17 torpedo, meant for export exclusively, with antisubmarine capability via an active-passive seeker, making it a dual-purpose torpedo able to be used from ships and submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "ger_dm1": {
+      "Name": "DM1",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "Germany's first wire-guided torpedo dedicated against submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "ger_dm2": {
+      "Name": "DM2",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "Germany's wire-guided torpedo dedicated against surface targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "ger_sst4": {
+      "Name": "SST4",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "German-made ASuW wire-guided heavyweight torpedo. Produced for export to other navies.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "it_a-244s_air": {
+      "Name": "A-244",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "Italian lightweight air dropped anti-submarine torpedo. Features active and passive sonar guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "jmsdf_type80": {
+      "Name": "Type 80",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "Type 80 torpedo. Fruit of GRX-1 and GRX-2 research programs from 1970s, and influenced by USN's Mark 37 design, this ASW/ASuW wire-guided torpedo boost better characteristics in propulsion, performance and range over that of Mark 37.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "jmsdf_type54": {
+      "Name": "Type 54",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "Type 54 Model 3 Mod 1 torpedo. First Japanese-designed post-World War II torpedo. Initially quite unsuccessful and prone to post-launch failures it went through several redesigns ending up in mass-produced Model 3 Mod 1 variant.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "knm_tp612": {
+      "Name": "TP612",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The Swedish TP612 is a heavyweight wire-guided torpedo with no seeker. The TP612 is a development of the TP611 with reduced noise and swim-out launch capability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "knm_tp613": {
+      "Name": "TP613",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The Swedish TP613 is a heavyweight wire-guided torpedo with a passive sonar seeker. The TP613 is a development of the TP612 with the addition of passive sonar seeker.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_yu-1": {
+      "Name": "Yu-1",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The Yu-1 (Fish Type-1) is the first domestically produced Chinese heavyweight torpedo. These straight running torpedoes are relatively simple and therefore reliable and effective.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_yu-1g": {
+      "Name": "Yu-1G",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The Yu-1G (Fish Type-1A) is the first domestically produced Chinese heavyweight torpedo. This is an upgraded Yu-1 torpedo, with an added passive homing capability to more effectively engage maneuvering ships.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_yu-3": {
+      "Name": "Yu-3",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The Yu-3 (Fish Type-3) is a Chinese passive heavyweight anti-submarine torpedo. A slow torpedo, it is best suited for attacking diesel-eletric submarines, as faster targets may outrun the torpedo. The seeker has a maximum range of about 1600 yards.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_yu-4": {
+      "Name": "Yu-4A",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The Yu-4A (Fish Type-4) is a Chinese passive heavyweight anti-surface torpedo. A slow torpedo, it is probably only effective at very close distances.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_mark9_mod2": {
+      "Name": "Mark IX",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The British Mark IX** torpedo is a straight-running anti-surface torpedo introduced during World War 2. Longer running time and more powerful warhead it is the final upgrade to the original 1930s Mark IX design.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_mark8_mod4": {
+      "Name": "Mark VIII",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The British Mark VIII Mod 4 torpedo is a straight-running anti-surface torpedo introduced during World War 2. This is the final version of the 1920s era submarine-launched Mark 8 series, and is used by the Royal Navy well into 1980s, lacking a sufficient anti-ship replacement until after the Cold War.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_mark20s": {
+      "Name": "Mark 20S",
+      "Nickname": "Bidder",
+      "Type": "ASW Torpedo",
+      "Description": "The Mark 20S \"Bidder\" is a 1950s British mediumweight anti-submarine torpedo, and was considered obsolete before it even entered service. The Mark 20S is the sub-launch version of the torpedo, and while it is the Royal Navy's first homing torpedo of this type, it has extremely poor reliability, short range, slow speed, and poor seeker performance, making it inadequate against modern targets. This weapon was kept in service into the 1970s due to its capability to be fired from the stern \"countermeasure\" torpedo tubes of Oberon and Porpoise class submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_mark23": {
+      "Name": "Mark 23",
+      "Nickname": "Grog",
+      "Type": "Torpedo",
+      "Description": "The Mark 23 \"Grog\" is a 1950s British mediumweight anti-submarine torpedo with a secondary anti-ship capability, and was considered obsolete before it even entered service. The Mark 23 is a major upgrade on the original Mark 20 torpedo, with an extended battery segment and wire guidance capability, although it still inherits the Bidder's extremely poor seeker and slow speed. Due to the poor reliability and performance of this weapon, its capability against modern submarines and surface ships is questionable at best.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_mark24_mod0": {
+      "Name": "Mark 24 Mod 0",
+      "Nickname": "Tigerfish",
+      "Type": "ASW Torpedo",
+      "Description": "The Mark 24 \"Tigerfish\" is a late 1970s British heavyweight anti-submarine torpedo with wire guidance. Derived from the 1960s ONGAR program to replace the Mark 20 and Mark 23 torpedoes, the Tigerfish suffered an extremely lengthy and protracted development fraught with technical issues with the weapon itself. Despite being originally designed as a high-speed dual purpose torpedo, the Mod 0 was relatively slow, had no antiship capability, and was considered extremely unreliable due to battery and warhead failures.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_mark24_mod1": {
+      "Name": "Mark 24 Mod 1",
+      "Nickname": "Tigerfish",
+      "Type": "Torpedo",
+      "Description": "The Mark 24 \"Tigerfish\" is a late 1970s British heavyweight dual-purpose torpedo with wire guidance. Derived from the 1960s ONGAR program to replace the Mark 20 and Mark 23 torpedoes, the Tigerfish suffered an extremely lengthy and protracted development fraught with technical issues with the weapon itself. The Mod 1 Tigerfish torpedo is similar to the Mod 0, except that it has a deeper maximum diving depth and added anti-ship capability, although it still suffers from poor reliability and slow speed, and would not replace straight-running Mark 8 torpedoes of WWII vintage until the late 1980s.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk16": {
+      "Name": "Mk-16",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The Mark 16 torpedo is a WWII vintage straight-running torpedo used through the 1950's and 1960's as a fast, very high power anti-ship torpedo by US attack submarines. Despite the lack of guidance, short range shots that connect will almost certainly sink any target, regardless of size. The Mod 8 variant incorporates the high power warhead of the Mod 0, with the longer range of the Mod 1 torpedo.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk37": {
+      "Name": "Mk-37 Mod 0",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 37 torpedo is the USN standard ASW lightweight torpedo used across multiple nations. Introduced in 1959, it was too slow and under-performing to stand against modern Soviet high-performance submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk37_mod1": {
+      "Name": "Mk-37 Mod 1",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 37 torpedo is the USN standard ASW lightweight torpedo used across multiple nations. Introduced in 1959, it was too slow and under-performing to stand against modern Soviet high-performance submarines. The Mod 1 adds wire guidance at the cost of some speed.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk37_mod3": {
+      "Name": "Mk-37 Mod 3",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 37 torpedo is the USN standard ASW lightweight torpedo used across multiple nations. Introduced in 1959, it was too slow and under-performing to stand against modern Soviet high-performance submarines. The Mk-37 Mod 3 torpedo includes a new seeker to improve reliability and acquisition range, although the rest of the torpedo is unmodified from the original Mod 0.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk37_mod2": {
+      "Name": "Mk-37 Mod 2",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 37 torpedo is the USN standard ASW lightweight torpedo used across multiple nations. Introduced in 1959, it was too slow and under-performing to stand against modern Soviet high-performance submarines. The Mk-37 Mod 2 torpedo includes a new seeker to improve reliability and acquisition range, although the rest of the torpedo is unmodified from the wire-guided Mod 1.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk37c": {
+      "Name": "Mk-37C",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 37C torpedo is an upgraded version of the USN Mk-37 torpedo, with Otto fuel and wire guidance, and is a significant improvement on the original torpedo. Exclusively used by export partners starting in the mid 1970s, the Mk-37C (NT-37C) includes improved propulsion for 150% higher speed, and nearly twice as much range, at the cost of being a slightly noisier torpedo.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk37e": {
+      "Name": "Mk-37E",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 37E torpedo is an upgraded version of the Mk-37C torpedo with wake-homing capability and a redesigned seeker. Exclusively used by export partners, the Mk-37E (NT-37E) has upgraded anti-ship capabilities and minor refinements to propulsion allowing for a very competent anti-submarine and anti-ship torpedo for the mid 1980s.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk44_air": {
+      "Name": "Mk-44",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The Mark 44 torpedo is the legacy NATO anti-submarine torpedo, and is a common weapon throughout the entire Cold War. While it features good reliability, the Mark 44 has a short range and a slow speed, and struggles against fast, deep-diving submarines.\\nThis model is air-launched.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk44_ship": {
+      "Name": "Mk-44",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The Mark 44 torpedo is the legacy NATO anti-submarine torpedo, and is a common weapon throughout the entire Cold War. While it features good reliability, the Mark 44 has a short range and a slow speed, and struggles against fast, deep-diving submarines.\\nThis model is surface launched.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk46_air": {
+      "Name": "Mk-46 Mod 2",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The Mark 46 Mod 2 torpedo is the NATO standard for lightweight torpedoes used across multiple nations. Designed to attack modern Soviet high-performance submarines this variant is air dropped.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk46_ship": {
+      "Name": "Mk-46 Mod 2",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The Mark 46 Mod 2 torpedo is the NATO standard for lightweight torpedoes used across multiple nations. Designed to attack modern Soviet high-performance submarines this variant is ship launched.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk46_mod5_air": {
+      "Name": "Mk-46 Mod 5",
+      "Nickname": "NEARTIP",
+      "Type": "Torpedo",
+      "Description": "The Mark 46 Mod 5 NEARTIP torpedo is the NATO standard for lightweight torpedoes used across multiple nations. Designed to attack modern Soviet high-performance submarines this variant is air dropped.\\n\\nThe Mk-46 Mod 5 NEARTIP (NEAR Term Improvement Program) is a full rebuild of the Mk46 torpedo, allowing for longer range via a slower, quieter transit phase, improved counter-countermeasures, and upgrading the torpedo to be able to track shallow-water and surfaced submarines, albeing with limited effectiveness.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk46_mod5_ship": {
+      "Name": "Mk-46 Mod 5",
+      "Nickname": "NEARTIP",
+      "Type": "Torpedo",
+      "Description": "The Mark 46 Mod 5 NEARTIP torpedo is the NATO standard for lightweight torpedoes used across multiple nations. Designed to attack modern Soviet high-performance submarines this variant is ship launched.\\n\\nThe Mk-46 Mod 5 NEARTIP (NEAR Term Improvement Program) is a full rebuild of the Mk46 torpedo, allowing for longer range via a slower, quieter transit phase, improved counter-countermeasures, and upgrading the torpedo to be able to track shallow-water and surfaced submarines, albeing with limited effectiveness.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk48": {
+      "Name": "Mk-48 Mod 1",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 48 Mod 1 is an American heavyweight dual-purpose torpedo. This is a very fast, long-range torpedo with wire guidance capability and a very sophisticated seeker. The Mod 1 version is the first to enter service in 1972, replacing the older Mk-37 and Mk-14/16 warloads with a single high-performance torpedo, although it has only one-way wire guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk48_mod4": {
+      "Name": "Mk-48 Mod 4",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 48 Mod 4 is an American heavyweight dual-purpose torpedo. This is a very fast, long-range torpedo with wire guidance capability and a very sophisticated seeker. The Mod 4 version is the 1980s upgrade, adding seeker improvements to track the most modern targets, like the Alfa-class SSN, and includes two-way wire guidance that improves countermeasure rejection capability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk48_mod4_adcap": {
+      "Name": "Mk-48 ADCAP",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The Mark 48 Mod 4 (ADCAP) is an American heavyweight dual-purpose torpedo. This is a very fast, long-range torpedo with wire guidance capability and a very sophisticated seeker. The Mod 4 ADCAP version (separate from the Mk-48 Mod 5 ADCAP new-build program) is a 1985 upgrade for existing Mod 4 torpedoes with a new swashplate and fuel pump, pushing the limits of the existing torpedo even further with a faster 65 knot terminal speed, alongside seeker improvements to improve countermeasure rejection capability.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_45-36nu": {
+      "Name": "45-36NU",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The 45-36NU is an obsolete, pre-WWII designed 450mm straight running torpedo heavily influenced by Italian 45-F and 53-F designs from early 1930s. Lightweight and packing smaller punch than 530mm counterparts it's become quite ineffective weapon by 1950s. But sometimes you have to do with what you get.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_53-38": {
+      "Name": "53-38",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The 53-38 is a WWII vintage Soviet heavyweight straight running torpedo. These torpedoes are relatively simple and therefore reliable and effective. The two deadliest sinkings in history (the German transport Wilhelm Gustloff and the troop transport Goya) were performed by two Soviet submarines using 53-38s.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_53-39": {
+      "Name": "53-39",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The 53-39 is a WWII vintage Soviet heavyweight straight running torpedo. These torpedoes are relatively simple and therefore reliable and effective.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_53-56v": {
+      "Name": "53-56",
+      "Nickname": "",
+      "Type": "ASuW Torpedo",
+      "Description": "The 53-56V is a Soviet heavyweight straight running torpedo. These torpedoes are updated variants of the 53-38.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_53-65K": {
+      "Name": "53-65K",
+      "Nickname": "",
+      "Type": "WH Torpedo",
+      "Description": "The 53-65 is a Soviet wake-homing heavyweight torpedo designed to destroy surface ships.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_65-76": {
+      "Name": "65-76",
+      "Nickname": "",
+      "Type": "WH Torpedo",
+      "Description": "The 65-76 is a Soviet 650mm wake-homing torpedo known as a carrier killer. It was developed specifically for use against extremely large targets such as super-carriers. Its larger 650 mm diameter means only some submarines can carry it.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_at-1": {
+      "Name": "AT-1",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The AT-1 is a Soviet electrical air-dropped anti-submarine torpedo with active/passive acoustic guidance carried only by helicopters.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_at-2": {
+      "Name": "AT-2",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The AT-2 is a Soviet electrical heavy-weight anti-submarine air-launched torpedo with active/passive acoustic guidance. The AT-2 is one of the few air-launched heavyweight torpedoes as the majority of the air-launched torpedoes are much smaller and only a quarter of the weight.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_set-40": {
+      "Name": "SET-40",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The SET-40 is a Soviet lightweight electrical anti-submarine torpedo with active/passive sonar guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_set-65": {
+      "Name": "SET-65",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The SET-65 is a Soviet heavyweight electrical anti-submarine torpedo with active sonar guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_test-71": {
+      "Name": "TEST-71",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The TEST-71 is a Soviet heavyweight anti-submarine wire-guided torpedo. It improves on the SET-65 with more advanced active/passive homing capabilities.\\nDue to wire and data limitations, TEST-71 can only be guided by wire horizontally, and cannot change depth after launch.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_test-71m": {
+      "Name": "TEST-71M",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The TEST-71M is a Soviet heavyweight anti-submarine wire-guided torpedo. TEST-71M has an improved digital guidance section, and upgraded wire guidance unit to remove the prior restrictions on wire guidance, allowing for more flexible firing.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_umgt-1": {
+      "Name": "UMGT-1",
+      "Nickname": "",
+      "Type": "ASW Torpedo",
+      "Description": "The UMGT-1 is a Soviet air dropped anti-submarine torpedo which also serves as the payload for the SS-N-14 and SS-N-16 ASW missiles. These lightweight torpedoes pack less of a punch than Soviet heavyweight torpedoes but are still extremely dangerous.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_uset-80": {
+      "Name": "USET-80",
+      "Nickname": "",
+      "Type": "Torpedo",
+      "Description": "The USET-80 is a modern Soviet dual-purpose torpedo. It has an active/passive homing system making this an extremely dangerous weapon to contend with for both submarines and surface ships.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_samp_t25": {
+      "Name": "SAMP-25",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The SAMP Type 25 is a French 230 kg (500 lb) dumb bomb. It is comparable to the US Mk-82.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_samp_t21": {
+      "Name": "SAMP-21",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The SAMP Type 21 is a French 400 kg (880 lb) dumb bomb. It is comparable to the US Mk-83.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_type-2": {
+      "Name": "Type-100-2",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "Type-100-2 is a Chinese 100kg general purpose air-dropped bomb. Comparable to Soviet FAB-100.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_type-3-250": {
+      "Name": "Type-250-3",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "Type-250-3 is a Chinese 250kg general purpose air-dropped bomb. Comparable to Soviet FAB-250.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_type-3-500": {
+      "Name": "Type-500-3",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "Type-500-3 is a Chinese 500kg general purpose air-dropped bomb. Comparable to Soviet FAB-500.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "raf_bl755": {
+      "Name": "BL755",
+      "Nickname": "",
+      "Type": "Cluster Bomb",
+      "Description": "The BL755 contains 147 armour-piercing HEAT bomblets dispersed over a wide area. It was widely used during the Iran-Iraq war by the IRIAF and in the Falklands by the RAF.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_gbu-2": {
+      "Name": "GBU-2",
+      "Nickname": "Paveway I",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-2 Paveway I is an American 2000 lb (907 kg) laser-guided bomb. The weapon is based on the Mk 84 but with the addition of a nose-mounted laser seeker and fins for guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_gbu-15": {
+      "Name": "GBU-15",
+      "Nickname": "",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-15(V)2 is an infrared-guided glide bomb which was used by the USAF on certain supersonic tactical aircraft, such as the F-111 and F-4E, and was exported to multiple nations. This weapon has an imaging infrared (IIR) seeker, which is highly reliable and can be used in all weather conditions, and also features a datalink capability for retargeting and relaying seeker data to the launch platform.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_bolt-117": {
+      "Name": "BOLT-117",
+      "Nickname": "",
+      "Type": "Guided Bomb",
+      "Description": "The BOLT-117 is an American 750 lb (340 kg) laser-guided bomb. The weapon a modified M-117 iron bomb but with the addition of a nose-mounted laser seeker and fins for guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_gbu-11": {
+      "Name": "GBU-11",
+      "Nickname": "Paveway I",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-11 is an American 3000 lb (1400 kg) laser-guided bomb. This is a super-heavy guided bomb meant to be used against hard targets, such as bridges or bunkers, due to its high explosive yield.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_m117": {
+      "Name": "M117",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The M117 is a 750 lb (340 kg) bomb of Korean war vintage used by the USAF extensively during the Vietnam campaign. It was replaced by the various models of the Mk 80 series.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_m118": {
+      "Name": "M118",
+      "Nickname": "",
+      "Type": "Demolition Bomb",
+      "Description": "The M118 is an American 3000 lb (1400 kg) super-heavy demolition bomb intended to be used against hard point targets like bridges, bunkers, fortifications, railways, and other resilient structures.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_cbu-24": {
+      "Name": "CBU-24",
+      "Nickname": "",
+      "Type": "Cluster Bomb",
+      "Description": "The CBU-24 contains 665 fragmentation bomblets dispersed over a wide area. It was widely used as an anti-personnel weapon by Wild Weasel units attacking SAM sites.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_gbu-10": {
+      "Name": "GBU-10",
+      "Nickname": "Paveway II",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-10 Paveway II is an American 2000 lb (907 kg) laser-guided bomb. The weapon is based on the Mk 84 but with the addition of a nose-mounted laser seeker and fins for guidance. The guidance kit on the GBU-10 is an upgrade of the older Paveway I.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_gbu-12": {
+      "Name": "GBU-12",
+      "Nickname": "Paveway II",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-12 Paveway II is an American 500 lb (227 kg) laser-guided bomb. The weapon is based on the Mk 82 but with the addition of a nose-mounted laser seeker and fins for guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_gbu-16": {
+      "Name": "GBU-16",
+      "Nickname": "Paveway II",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-16 Paveway II is an American 1000 lb (460 kg) laser-guided bomb. The weapon is based on the Mk 83 but with the addition of a nose-mounted laser seeker and fins for guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_gbu-24": {
+      "Name": "GBU-24",
+      "Nickname": "Paveway III",
+      "Type": "Guided Bomb",
+      "Description": "The GBU-24 Paveway III is an American 2000 lb (907 kg) extended range laser-guided bomb. This is an upgrade over the Paveway II with improved guidance and longer gliding range, alongside greater reliability and a more efficient low-altitude flight profile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk-82": {
+      "Name": "Mk-82",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The Mark 82 is a 500 lb (227 kg) low-drag general-purpose dumb bomb.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk-82_snakeye": {
+      "Name": "Mk-82 Snakeye",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The Mark 82 \"Snake-eye\" is a 500 lb (227 kg) high-drag general-purpose dumb bomb with deploying fins. Useful for 'laydown' delivery, where the aircraft deploys bombs at high speed and low altitude, with no pop-up and no dive approach, albeit at the cost of increased time of flight.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk-83": {
+      "Name": "Mk-83",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The Mark 83 is a 1000 lb (454 kg) low-drag general-purpose dumb bomb.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk-84": {
+      "Name": "Mk-84",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The Mark 84 is a 2000 lb (900 kg) low-drag general-purpose dumb bomb.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rockeye": {
+      "Name": "CBU-100",
+      "Nickname": "Rockeye",
+      "Type": "Cluster Bomb",
+      "Description": "The CBU-100 Rockeye II is an American 500 lb (227 kg) cluster bomb which dispenses 247 sub-munitions.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_walleye2": {
+      "Name": "AGM-62",
+      "Nickname": "Walleye II",
+      "Type": "Guided Bomb",
+      "Description": "The AGM-62 Walleye is a television-guided glide bomb which was used by the United States Armed Forces from the 1960s-1990s. Most had a 250 lb (113 kg) high-explosive warhead",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_mk54_dc": {
+      "Name": "Mk-54",
+      "Nickname": "",
+      "Type": "Depth Bomb",
+      "Description": "The Mark 54 depth bomb is an American aerial depth bomb designed during World War II which remained in service through the Cold War.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-100": {
+      "Name": "OFAB-100",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The OFAB-100-120 Soviet-designed 100 kg (220 lb) general purpose air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-250": {
+      "Name": "FAB-250",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The FAB-250 is a Soviet-designed 250 kg (550 lb) general purpose air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-500": {
+      "Name": "FAB-500 M-62",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The FAB-500 is a Soviet-designed 500 kg (1100 lb) general purpose air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-500_m54": {
+      "Name": "FAB-500 M-54",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The FAB-500 is a Soviet-designed 500 kg (1100 lb) general purpose air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies. This is a shorter, medium drag bomb meant to be carried in larger quantities, usually internally, but suffers from worse accuracy over the low-drag model.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-1500_m54": {
+      "Name": "FAB-1500 M-54",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The FAB-1500 is a Soviet-designed 1500 kg (3300 lb) general purpose air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies. This is the 1500kg model in a family of large high-explosive bombs, and is primarily to be used against hard targets such as large warships, bunkers, or airbases.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-3000_m54": {
+      "Name": "FAB-3000 M-54",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The FAB-3000 is a Soviet-designed 3000 kg (6600 lb) 'general purpose' air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies. This is the 3000kg model in a family of large high-explosive bombs, and is primarily to be used against hard targets such as large warships, bunkers, or airbases.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fab-9000_m54": {
+      "Name": "FAB-9000 M-54",
+      "Nickname": "",
+      "Type": "Bomb",
+      "Description": "The FAB-1500 is a Soviet-designed 9000 kg (20,000 lb) 'general purpose' air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies. This is the 9000kg model in a family of large high-explosive bombs, and is one of the largest conventional bombs ever used in combat, with a focus on obliterating hardened targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_kab-500l": {
+      "Name": "KAB-500L",
+      "Nickname": "",
+      "Type": "Guided Bomb",
+      "Description": "The KAB-500L is a Soviet-designed 500 kg (1100 lb) laser-homing air-dropped bomb with a high-explosive warhead primarily used by the Soviet Union and its allies. This is based off the FAB-500, but with a laser seeker and fins for guidance.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rbk-250": {
+      "Name": "RBK-250",
+      "Nickname": "",
+      "Type": "Cluster Bomb",
+      "Description": "The RBK-250 is a Soviet 250 kg (550 lb) cluster bomb.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rbk-500": {
+      "Name": "RBK-500",
+      "Nickname": "",
+      "Type": "Cluster Bomb",
+      "Description": "The RBK-500 is a Soviet 500 kg (1100 lb) cluster bomb.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_plab-100": {
+      "Name": "PLAB-100",
+      "Nickname": "",
+      "Type": "Depth Bomb",
+      "Description": "The PLAB-100 is Soviet-designed 100 kg (220 lb) anti submarine air-dropped bomb primarily used by the Soviet Union and its allies.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_skf-1": {
+      "Name": "SKF-1",
+      "Nickname": "",
+      "Type": "Passive Sonobuoy",
+      "Description": "The SKF-1 is a passive-only omnidirectional sonobuoy used by the People's Liberation Army Navy since 1960s.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_skf-2": {
+      "Name": "SKF-2",
+      "Nickname": "",
+      "Type": "Passive Sonobuoy",
+      "Description": "The SKF-2 is a passive, directional sonobuoy used by the People's Liberation Army Navy since mid-1970s.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ssq-41": {
+      "Name": "AN/SSQ-41",
+      "Nickname": "LOFAR",
+      "Type": "Sonobuoy",
+      "Description": "The SSQ-41A \"Jezebel\" is a Low Frequency Analysis and Recording (LOFAR) type sonobouy. This is the most common NATO passive sonobuoy, and has no ability to determine bearing like the later DIFAR sonobuoy, but still has decent sensitivity, and can be found in large numbers in any Western navy's stockpile.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ssq-47": {
+      "Name": "AN/SSQ-47",
+      "Nickname": "Julie",
+      "Type": "Active Sonobuoy",
+      "Description": "The SSQ-47A \"Julie\" is a continuously active range-only type sonobouy. This is the most common NATO active sonobuoy, and has no ability to determine bearing like the later DICASS sonobuoy, but is still useful to 'fix' a previously detected target with multiple buoys. As a result of the continuous active pinging, this sonobuoy has a lifespan of only 30 minutes.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ssq-53": {
+      "Name": "AN/SSQ-53",
+      "Nickname": "DIFAR",
+      "Type": "Passive Sonobuoy",
+      "Description": "The SSQ-53 is a Directional Frequency Analysis and Recording (DIFAR) type sonobouy. This gives the sonobuoy operator magnetic heading information which is a huge improvement over the earlier omnidirectional CRT-1.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ssq-62": {
+      "Name": "AN/SSQ-62",
+      "Nickname": "DICASS",
+      "Type": "Active Sonobuoy",
+      "Description": "The AN/SSQ-62 DICASS is an active sonobouy used for fixing a submerged submarine that has previously been located with the SSQ-53 passive sonobouys.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ssq-77": {
+      "Name": "AN/SSQ-77",
+      "Nickname": "VLAD",
+      "Type": "Sonobuoy",
+      "Description": "The SSQ-77A is a VLAD type (Vertical Line Array DIFAR) passive sonobuoy, designed to be a generational improvement for the original DIFAR type passive sonobuoy. This buoy has a similar architecture to the DIFAR buoy, but incorporates an extremely sensitive sonar array that allows for extremely long passive range for a sonobuoy, high capability against quiet, deep-diving targets and exhibits good performance operating in cluttered, noisy waters.\\n\\nThe consequence of this greater performance is the weight and cost of this buoy, meaning these are less common, and their accuracy at range is poor, so they are mostly useful for localization of submerged targets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_ssq-101": {
+      "Name": "AN/SSQ-101",
+      "Nickname": "",
+      "Type": "Active Sonobuoy",
+      "Description": "The AN/SSQ-101 Air Deployed Active Receiver (ADAR) is a sonobuoy designed as a receiver for shallow-water multi-static systems. When deployed it uses a large array of hydrophones to determine accurate bearings.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-1": {
+      "Name": "RGB-1",
+      "Nickname": "",
+      "Type": "Passive Sonobuoy",
+      "Description": "The RGB-1 is a passive-only omnidirectional sonobuoy used by the Soviet Union.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-nm1": {
+      "Name": "RGB-NM-1",
+      "Nickname": "",
+      "Type": "Passive Sonobuoy",
+      "Description": "The RGB-NM-1 is a passive-only omnidirectional sonobuoy used as part of the Baku suite by the Soviet Union.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_rgb-3": {
+      "Name": "RGB-3",
+      "Nickname": "",
+      "Type": "Active Sonobuoy",
+      "Description": "The RGB-3 is an active-only sonobuoy used by the Soviet Union.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_zuni": {
+      "Name": "Zuni",
+      "Nickname": "",
+      "Type": "FFAR",
+      "Description": "The Zuni is a 5.0 in Folding-Fin Aircraft Rocket (FFAR) primarily carried by ground attack aircraft and attack helicopters. The Zuni can be used to carry various types of warheads similar to other FFAR systems. It is usually fired from the LAU-10 rocket pod holding four rockets.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_hydra": {
+      "Name": "Hydra 70",
+      "Nickname": "",
+      "Type": "FFAR",
+      "Description": "The Hydra 70 is a 2.75-inch Folding-Fin Aircraft Rocket (FFAR) used by both fighters and helicopters. The Hydra is capable of being fitted with a range of warheads and is normally carried in pods of up to 19.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_s-5": {
+      "Name": "S-5",
+      "Nickname": "",
+      "Type": "FFAR",
+      "Description": "The S-5 is a Soviet 55 mm Folding-Fin Aircraft Rocket (FFAR) used by fighter bombers and helicopters. The S-5 can trace its heritage to the German R4M of the late WWII era. Th rocket is normally carried in pods of up to 32.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_s-8": {
+      "Name": "S-8",
+      "Nickname": "",
+      "Type": "FFAR",
+      "Description": "The S-8 is a Soviet 80 mm Folding-Fin Aircraft Rocket (FFAR) used by fighter bombers and helicopters. The S-8 has a number of different variants including specialist runway denial variants. The rocket is normally carried in pods of up to 20.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_s-24": {
+      "Name": "S-24",
+      "Nickname": "",
+      "Type": "FFAR",
+      "Description": "The S-24 is a Soviet 240 mm Folding-Fin Aircraft Rocket (FFAR) used by fighter bombers and helicopters. Unlike most of FFAR it is carried singularly.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_s-25": {
+      "Name": "S-25",
+      "Nickname": "",
+      "Type": "FFAR",
+      "Description": "The S-25 is a Soviet 266 mm Folding-Fin Aircraft Rocket (FFAR) used by fighter bombers and helicopters. The largest of the Soviet Union's unguided rockets the S-25 has a warhead containing nearly 60kg of explosives and is carried singularly.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "ir_107mm_rocket": {
+      "Name": "Haseb-1",
+      "Nickname": "",
+      "Type": "MLRS",
+      "Description": "The Haseb-1 rocket is an Iranian version of the Chinese 107mm rocket fired by the Type 63 Multiple Rocket Launcher. In Iranian service both the launcher and the rocket are called Haseb.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usa_m26": {
+      "Name": "M26",
+      "Nickname": "",
+      "Type": "MLRS",
+      "Description": "The M26 is a 227 mm unguided rocket used by the U.S. Army's M270 Multiple Launch Rocket System (MLRS). The rocket payload consists of up to 800 submunitions able to cover up to 2000 square meters.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_grad": {
+      "Name": "Grad",
+      "Nickname": "",
+      "Type": "MLRS",
+      "Description": "The M-21OF Rocket is a Soviet weapon fired from the BM-21 launch vehicle. The complete system (the M-21) is more commonly known as the \"Grad\" Multiple Launched Rocket System.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "nv_cal_40mm": {
+      "Name": "40mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "nv_cal_57mm": {
+      "Name": "57mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "nv_cal_100mm": {
+      "Name": "100mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_cal_85mm_lt": {
+      "Name": "85mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "plan_cal_130mm": {
+      "Name": "130mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_cal_30mm": {
+      "Name": "30mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_cal_113mm": {
+      "Name": "4.5-inch",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_cal_114mm": {
+      "Name": "4.5-inch",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_25mm_m2": {
+      "Name": "25mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_35mm": {
+      "Name": "35mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_40mm": {
+      "Name": "40mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_75mm": {
+      "Name": "75mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_76mm": {
+      "Name": "76mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_3in50": {
+      "Name": "76mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_105mm": {
+      "Name": "105mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_5in38": {
+      "Name": "127mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_127mm": {
+      "Name": "127mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_155mm": {
+      "Name": "155mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_152mm": {
+      "Name": "152mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_203mm": {
+      "Name": "203mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_203mm_rap": {
+      "Name": "203mm RAP",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_406mm": {
+      "Name": "406mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_57mm_zsu": {
+      "Name": "57mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_57mm": {
+      "Name": "57mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_76mm": {
+      "Name": "76mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_76mm_d56": {
+      "Name": "76mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_100mm": {
+      "Name": "100mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_100mm_cm5": {
+      "Name": "100mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_100mm_d10": {
+      "Name": "100mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_125mm": {
+      "Name": "125mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_130mm": {
+      "Name": "130mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_152mm_2a33": {
+      "Name": "152mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_152mm": {
+      "Name": "152mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_cal_30mm": {
+      "Name": "30mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_20mm": {
+      "Name": "20mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_cal_05in": {
+      "Name": "0.50 inch",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_05in": {
+      "Name": "12.7mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_14mm": {
+      "Name": "14.5mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_23mm": {
+      "Name": "23mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_25mm": {
+      "Name": "25mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_30mm": {
+      "Name": "30mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_cal_37mm": {
+      "Name": "37mm",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_adc_mk1_noisemaker": {
+      "Name": "Noisemaker",
+      "Nickname": "",
+      "Type": "N",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_noisemaker": {
+      "Name": "Noisemaker",
+      "Nickname": "",
+      "Type": "N",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_rr144_chaff": {
+      "Name": "Chaff",
+      "Nickname": "",
+      "Type": "C",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_aircraft_chaff": {
+      "Name": "Chaff",
+      "Nickname": "",
+      "Type": "C",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "rn_type_182_decoy": {
+      "Name": "Type 182",
+      "Nickname": "",
+      "Type": "Decoy",
+      "Description": "The Type 182 towed countermeasure is a British torpedo decoy used by the Royal Navy on surface vessels. This decoy can emit false sonar pulses to jam incoming torpedo seekers, so long as the decoy is between the torpedo and the ship.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_an_slq_25_nixie_decoy": {
+      "Name": "AN/SLQ-25",
+      "Nickname": "Nixie",
+      "Type": "Decoy",
+      "Description": "The Nixie (formally the AN/SLQ-25) is a towed decoy system utilised primarily by the surface ships of the USN. The System generates signals designed to lure approaching torpedoes away from the host platform.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_moss": {
+      "Name": "MOSS",
+      "Nickname": "MK-70",
+      "Type": "Decoy",
+      "Description": "The Mk 70 MOSS (Mobile Submarine Simulator) is a 10 inch diameter decoy used to decoy enemy sonar away from the launching submarine. The MOSS is capable of simulating the self noise of a submarine as well as its active sonar.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_mg-44": {
+      "Name": "MG-44",
+      "Nickname": "Korund",
+      "Type": "Decoy",
+      "Description": "The MG-44 Korund is a second generation self-propelled hydro-acoustic submarine simulator. It is designed to be launched from special 400mm tubes on Soviet submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_mg-74": {
+      "Name": "MG-74",
+      "Nickname": "Korund-2",
+      "Type": "Decoy",
+      "Description": "The MG-74 Korund-2 is a third generation self-propelled hydro-acoustic submarine simulator. Unlike the earlier MG-44, it can be launched from standard 533mm tubes, and includes highly sophisticated noise making, deceptive emitting, or acoustic jamming capabilities, and can also be deployed from aircraft.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "suicide_bomb": {
+      "Name": "Suicide bomb",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "all_pilot": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_president_pod": {
+      "Name": "President of US escape pod",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_pilot_f-15c": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_a-6": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_a-7": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_f-4": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_f-14a": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_ra-5c": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_pilot_s-3a": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_pilot_k1m_a": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_pilot_k1m_d": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_pilot_a": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_pilot_d": {
+      "Name": "Pilot",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_dc_shell": {
+      "Name": "BB-1 depth charge",
+      "Nickname": "BB-1",
+      "Type": "DC",
+      "Description": "BB-1 soviet depth charge for use against enemy submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "pla_depth_charge": {
+      "Name": "Depth Charge",
+      "Nickname": "DC",
+      "Type": "DC",
+      "Description": " Aircraft-dropped depth charge, 150kg mass, for use against enemy submarines.",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fueltank": {
+      "Name": "Fueltank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "fr_tank_1170_f1": {
+      "Name": "1170 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_tank_610_f-15": {
+      "Name": "2309 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_tank_600_f-4e": {
+      "Name": "2270 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "iriaf_tank_600_f-4e": {
+      "Name": "2270 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_tank_370_f-4e": {
+      "Name": "1400 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_tank_370_f-5": {
+      "Name": "1400 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_tank_230_av-8a": {
+      "Name": "871 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usaf_tank_150_f-5": {
+      "Name": "567 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_tank_60gal_sh-2": {
+      "Name": "227 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_tank_600_f-4j": {
+      "Name": "2270 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_tank_300_a-6_c": {
+      "Name": "1135 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_tank_300_a-6": {
+      "Name": "1135 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_tank_267_f-14": {
+      "Name": "1010 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_tank_5280_mig-25": {
+      "Name": "5280 l Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fueltank3000_w": {
+      "Name": "3000 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fueltank800_f": {
+      "Name": "800 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_tank_800_ko-45": {
+      "Name": "800 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fueltank800_w": {
+      "Name": "800 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fueltank600_f": {
+      "Name": "600 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fueltank450_w": {
+      "Name": "450 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "wp_fueltank400_w": {
+      "Name": "400 l. Droptank",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    },
+    "usn_d-704": {
+      "Name": "D-704 Refueling Pod",
+      "Nickname": "",
+      "Type": "",
+      "Description": "",
+      "NativeName": "",
+      "NativeNickname": ""
+    }
+  },
+  "CategoryNames": {
+    "Phoenix": "AIM-54",
+    "Harpoon": "AGM-84",
+    "AdvancedARM": "Advanced ARM",
+    "Ovod": "AS-13",
+    "SovietAdvancedASM": "Soviet Advanced ASM",
+    "AirTorpedo": "Aerial Torpedoes"
+  }
+}

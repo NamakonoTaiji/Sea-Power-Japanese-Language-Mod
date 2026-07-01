@@ -38,7 +38,7 @@
                 <Run Text="TG 그레이하운드:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 <Run Text="USS 밸리 포지 CG-50"/><LineBreak/>
                 <Run Text="USS 토마스 C. 하트 FF-1092"/><LineBreak/>
-                <Run Text="USS 렌츠 FFG-46"/>
+                <Run Text="USS 잭 윌리엄스 FFG-24"/>
            </TextBlock>
 		</Border>
 		
