@@ -1,0 +1,68 @@
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        緊急（FLASH）
+        <LineBreak/>
+        Z 070300Z OCT 85
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName}（フィリピン、ミンドロ島）"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊総司令官（ハワイ州パールハーバー）<LineBreak/>
+        太平洋空軍総司令官（ハワイ州ヒッカム空軍基地）<LineBreak/>
+        クラーク空軍基地（フィリピン）
+    </TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="警告――パラワン島への敵出撃について"/>
+    <StackPanel Grid.Row="9" Grid.ColumnSpan="4">
+        <TextBlock FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+            最高機密（TOP SECRET）
+            <LineBreak/>
+            <LineBreak/>
+            1. (S) 状況：チャレンジャー作戦により、米軍・フィリピン軍部隊がパラワン島に上陸したものの、陸上における敵の抵抗は依然として激しい。国家テクニカル手段（偵察衛星等）の分析によれば、ソ連の空母「キエフ」が護衛艦艇を伴って出撃し、パラワン島へ向かう増援輸送船団の掩護を開始した模様。敵は熱帯低気圧を利用して南シナ海を通過しようとしており、我が方の航空機の大部分が足止めされ、衛星偵察も不可能な隙を突いている。もしこれらの戦力が同島に到達すれば、陸上の戦闘の勝敗を決することになりかねない。
+            <LineBreak/>
+            <LineBreak/>
+            2. (S) 任務：{TaskForceName}はパラワン島から北西に進出し、空母「キエフ」および増援輸送船団を捕捉、これらがパラワン島に到達する前に撃滅せよ。
+            <LineBreak/>
+            <LineBreak/>
+            3. (S) 執行：ルソン島西方海域において対水上掃討作戦を展開せよ。当該海域における激しい熱帯低気圧の活動は、敵の接近を隠蔽するとともに双方の航空機を足止めしているが、艦隊気象予報によれば、この嵐は8日2200Zまでに回復する見込みである。天候が回復し次第、クラーク空軍基地に展開可能な航空戦力を運用して敵海軍部隊を捜索・識別・打撃せよ。最優先目標は空母「キエフ」とし、次いで船団構成船舶および護衛艦艇とする。
+            <LineBreak/>
+            <LineBreak/>
+            4. (TS) 脅威：敵の戦力は、空母「キエフ」およびカーラ級巡洋艦、ウダロイ級駆逐艦を含み、さらに陽動作戦を展開する別個の水上戦闘群が存在する。情報によれば、カムラン湾または海南島から出撃する長距離爆撃機（Tu-16K、H-6D）が、偵察および打撃目的で敵水上部隊の掩護を試みる模様である。
+            <LineBreak/>
+            <LineBreak/>
+            5. (S) 同盟軍：クラーク空軍基地が戦闘空中哨戒（CAP）、打撃任務、および洋上哨戒支援のために利用可能である。
+            <LineBreak/>
+            <LineBreak/>
+            6. (S) 備考：敵の増援部隊を断じてパラワン島に到達させてはならない。本作戦は、これまでに展開してきたすべての作戦の最終的な成否を決するものとなる。諸君の健闘と武運を祈る。第77任務部隊より。
+            <LineBreak/>
+            <LineBreak/>
+            極秘
+            <LineBreak/>
+            DECL OADR BT
+        </TextBlock>
+    </StackPanel>
+</Grid>

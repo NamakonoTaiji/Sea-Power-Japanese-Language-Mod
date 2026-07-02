@@ -1,0 +1,194 @@
+<!-- Pacific Strike 17 MAU targeting intelligence event: naval-message paper format. -->
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+    <Border.Effect>
+      <DropShadowEffect />
+    </Border.Effect>
+    <Border.Background>
+      <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+    </Border.Background>
+
+    <StackPanel Orientation="Vertical">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="3*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0" Text="海軍電信" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+        <TextBlock Grid.Column="1" Text="*******極  秘*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock Grid.Column="2" Text="海軍省" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+      </Grid>
+
+      <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+      <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="10"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" FontSize="16">
+          至急（IMMEDIATE）<LineBreak/>
+          O 212300Z SEP 85
+        </TextBlock>
+
+        <TextBlock Grid.Row="0" Grid.Column="3" FontSize="16" Text="ZYUW RUHQHQA0777 2642300"/>
+      </Grid>
+
+      <Grid Margin="0,18,0,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="10"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" FontSize="16" Text="発"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" FontSize="16" Text="太平洋軍総司令官（ハワイ州ホノルル）"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" FontSize="16" Text="宛"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" FontSize="16" Text="第17海兵両用部隊指揮官（海上展開中）"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16" Text="報"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" FontSize="16">
+          第77任務部隊（マレーシア、サンダカン）<LineBreak/>
+          太平洋艦隊総司令官（ハワイ州パールハーバー）<LineBreak/>
+          太平洋艦隊潜水艦部隊司令官（ハワイ州パールハーバー）<LineBreak/>
+          海上司令部（豪北部準州ダーウィン）
+        </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="件名"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="目標情報――プエルト・プリンセサ諸施設"/>
+      </Grid>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,24,0,0">
+        極秘
+        <LineBreak/>
+        BT
+        <LineBreak/><LineBreak/>
+        参照：
+        <LineBreak/>
+        A. オーストラリア海軍潜水艦ORION情報報告20-85/PP、潜望鏡写真および電波源位置特定。
+        <LineBreak/>
+        B. 太平洋軍統合情報センター（JIC）目標フォルダ PP-CHALLENGER-17。
+        <LineBreak/>
+        C. 第77任務部隊航空／艦砲火力支援通報 85年9月21日/CHALLENGER。
+        <LineBreak/><LineBreak/>
+        1. (S) 要約：オーストラリア海軍潜水艦「ORION」の偵察により、プエルト・プリンセサ強襲エリアにおいて11個の敵施設が特定された。以下のデータは、打撃計画の策定および海岸接近時のリスク軽減のため、第17海兵両用部隊（17 MAU）参謀へと伝達される。
+        <LineBreak/><LineBreak/>
+        2. (S) 目標データ：
+      </TextBlock>
+
+      <Border Padding="8" Margin="0,4,0,12">
+        <Grid TextElement.FontSize="16">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="235"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+
+          <TextBlock Grid.Row="0" Grid.Column="0" Text="地域"/>
+          <TextBlock Grid.Row="0" Grid.Column="1" Text="数量"/>
+          <TextBlock Grid.Row="0" Grid.Column="2" Text="施設"/>
+          <TextBlock Grid.Row="0" Grid.Column="3" Text="座標（緯度/経度）"/>
+
+          <TextBlock Grid.Row="1" Grid.Column="0" Margin="0,6,12,0" Text="飛行場/RPVP"/>
+          <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,6,12,0" Text="4"/>
+          <TextBlock Grid.Row="1" Grid.Column="2" Margin="0,6,12,0" Text="飛行場/滑走路"/>
+          <TextBlock Grid.Row="1" Grid.Column="3" Margin="0,6,0,0" Text="09-44-21.6N / 118-44-57.0E"/>
+
+          <TextBlock Grid.Row="2" Grid.Column="0" Margin="0,4,12,0" Text="飛行場/RPVP"/>
+          <TextBlock Grid.Row="2" Grid.Column="1" Margin="0,4,12,0" Text="4"/>
+          <TextBlock Grid.Row="2" Grid.Column="2" Margin="0,4,12,0" Text="高射砲陣地A"/>
+          <TextBlock Grid.Row="2" Grid.Column="3" Margin="0,4,0,0" Text="09-44-01.8N / 118-45-09.6E"/>
+
+          <TextBlock Grid.Row="3" Grid.Column="0" Margin="0,4,12,0" Text="飛行場/RPVP"/>
+          <TextBlock Grid.Row="3" Grid.Column="1" Margin="0,4,12,0" Text="4"/>
+          <TextBlock Grid.Row="3" Grid.Column="2" Margin="0,4,12,0" Text="高射砲陣地B"/>
+          <TextBlock Grid.Row="3" Grid.Column="3" Margin="0,4,0,0" Text="09-44-03.6N / 118-45-02.4E"/>
+
+          <TextBlock Grid.Row="4" Grid.Column="0" Margin="0,4,12,0" Text="飛行場/RPVP"/>
+          <TextBlock Grid.Row="4" Grid.Column="1" Margin="0,4,12,0" Text="4"/>
+          <TextBlock Grid.Row="4" Grid.Column="2" Margin="0,4,12,0" Text="SA-10/S-300地対空ミサイル陣地"/>
+          <TextBlock Grid.Row="4" Grid.Column="3" Margin="0,4,0,0" Text="09-45-14.4N / 118-45-28.2E"/>
+
+          <TextBlock Grid.Row="5" Grid.Column="0" Margin="0,4,12,0" Text="南方接近経路"/>
+          <TextBlock Grid.Row="5" Grid.Column="1" Margin="0,4,12,0" Text="5"/>
+          <TextBlock Grid.Row="5" Grid.Column="2" Margin="0,4,12,0" Text="シルクワームTEL A"/>
+          <TextBlock Grid.Row="5" Grid.Column="3" Margin="0,4,0,0" Text="09-40-34.8N / 118-44-21.6E"/>
+
+          <TextBlock Grid.Row="6" Grid.Column="0" Margin="0,4,12,0" Text="南方接近経路"/>
+          <TextBlock Grid.Row="6" Grid.Column="1" Margin="0,4,12,0" Text="5"/>
+          <TextBlock Grid.Row="6" Grid.Column="2" Margin="0,4,12,0" Text="シルクワームTEL B"/>
+          <TextBlock Grid.Row="6" Grid.Column="3" Margin="0,4,0,0" Text="09-40-36.0N / 118-44-25.8E"/>
+
+          <TextBlock Grid.Row="7" Grid.Column="0" Margin="0,4,12,0" Text="南方接近経路"/>
+          <TextBlock Grid.Row="7" Grid.Column="1" Margin="0,4,12,0" Text="5"/>
+          <TextBlock Grid.Row="7" Grid.Column="2" Margin="0,4,12,0" Text="SA-8 TEL A"/>
+          <TextBlock Grid.Row="7" Grid.Column="3" Margin="0,4,0,0" Text="09-40-32.4N / 118-44-18.6E"/>
+
+          <TextBlock Grid.Row="8" Grid.Column="0" Margin="0,4,12,0" Text="南方接近経路"/>
+          <TextBlock Grid.Row="8" Grid.Column="1" Margin="0,4,12,0" Text="5"/>
+          <TextBlock Grid.Row="8" Grid.Column="2" Margin="0,4,12,0" Text="SA-8 TEL B"/>
+          <TextBlock Grid.Row="8" Grid.Column="3" Margin="0,4,0,0" Text="09-40-39.6N / 118-44-24.0E"/>
+
+          <TextBlock Grid.Row="9" Grid.Column="0" Margin="0,4,12,0" Text="南方接近経路"/>
+          <TextBlock Grid.Row="9" Grid.Column="1" Margin="0,4,12,0" Text="5"/>
+          <TextBlock Grid.Row="9" Grid.Column="2" Margin="0,4,12,0" Text="SON-9射撃管制レーダー"/>
+          <TextBlock Grid.Row="9" Grid.Column="3" Margin="0,4,0,0" Text="09-40-36.6N / 118-44-22.2E"/>
+
+          <TextBlock Grid.Row="10" Grid.Column="0" Margin="0,4,12,0" Text="北方接近経路"/>
+          <TextBlock Grid.Row="10" Grid.Column="1" Margin="0,4,12,0" Text="2"/>
+          <TextBlock Grid.Row="10" Grid.Column="2" Margin="0,4,12,0" Text="HY-1 TEL A"/>
+          <TextBlock Grid.Row="10" Grid.Column="3" Margin="0,4,0,0" Text="09-45-25.8N / 118-45-51.6E"/>
+
+          <TextBlock Grid.Row="11" Grid.Column="0" Margin="0,4,12,0" Text="北方接近経路"/>
+          <TextBlock Grid.Row="11" Grid.Column="1" Margin="0,4,12,0" Text="2"/>
+          <TextBlock Grid.Row="11" Grid.Column="2" Margin="0,4,12,0" Text="HY-1 TEL B"/>
+          <TextBlock Grid.Row="11" Grid.Column="3" Margin="0,4,0,0" Text="09-45-28.8N / 118-45-58.2E"/>
+        </Grid>
+      </Border>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16">
+        3. (S) 地域概要：アントニオ・バウティスタ飛行場（RPVP）セクターで4個の施設を特定。南方接近経路で5個の施設を特定。北方接近経路で2個の施設を特定。特定された施設は計11個である。
+        <LineBreak/><LineBreak/>
+        4. (S) 作戦計画への影響：SA-10/S-300の射撃管制装置、沿岸ミサイル移動式発射機（TEL）、および関連レーダーは、揚陸艇が港湾接近経路に進入する前に最優先で制圧すべき目標として扱うべきである。高射砲（AAA）および滑走路施設については、上陸エリアを継続して孤立化させるための打撃目標とする。
+        <LineBreak/><LineBreak/>
+        5. (S) 引き継ぎ：参照AおよびBから得られた座標は、参照Cの打撃計画用にフォーマット済みである。大隊揚陸チーム、艦砲射撃連絡官、航空連絡官、および支援航空計画担当者へ伝達せよ。
+        <LineBreak/><LineBreak/>
+        署名：太平洋軍監視センター
+        <LineBreak/><LineBreak/>
+        BT
+        <LineBreak/>
+        極秘 DECL OADR
+      </TextBlock>
+    </StackPanel>
+  </Border>
+</ScrollViewer>
