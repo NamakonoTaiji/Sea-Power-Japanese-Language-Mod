@@ -1,0 +1,78 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="820" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="54">
+    <Border.Effect>
+      <DropShadowEffect />
+    </Border.Effect>
+    <Border.Background>
+      <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+    </Border.Background>
+
+    <StackPanel Orientation="Vertical">
+      <Grid Margin="0,0,0,22">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Text="SECRET" FontWeight="Bold"/>
+        <TextBlock Grid.Column="1" Text="S/S 8528428" FontWeight="Bold"/>
+      </Grid>
+
+      <TextBlock TextAlignment="Center" FontFamily="Times New Roman" FontSize="23" FontWeight="Bold" Text="United States Department of State"/>
+      <TextBlock TextAlignment="Center" FontFamily="Times New Roman" FontSize="18" Text="Washington, D.C. 20520"/>
+      <TextBlock TextAlignment="Right" Margin="0,15,0,0" Text="August 28, 1985"/>
+
+      <Grid Margin="0,15,0,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="200"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="MEMORANDUM FOR:"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="MR. ROBERT C. McFARLANE"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="THE WHITE HOUSE"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="0,18,0,0" Text="FROM:"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="0,18,0,0" Text="George P. Shultz"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="0,18,0,0" Text="SUBJECT:"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="0,18,0,0" Text="Indonesia Reenters the War"/>
+      </Grid>
+      <TextBlock TextWrapping="Wrap" FontSize="16">
+		<LineBreak/>
+		Indonesia has reentered the war as an active Allied partner.  The decision follows the removal of a primary Soviet surface threat operating north of Jakarta during the Java Sea action of 26AUG by an Allied surface task force.  President Suharto has resurfaced in Jakarta and is restoring control of the Indonesian government.
+		<LineBreak/>
+		<LineBreak/>
+		The enemy capture of Palawan was a bold operation carried out while Allied forces were dislocated across the Western Pacific.  PLA forces now hold a forward outpost that threatens traffic through the western Philippines and denies us access to the South China Sea.
+		<LineBreak/>
+		<LineBreak/>
+		The requirement to reconsolidate Southeast Asia has reduced Allied flexibility since early July.  Aggressive Pact action forced us to spend scarce shipping capacity, fuel stocks, and ordnance in a theater not part of any original planning.
+		<LineBreak/>
+		<LineBreak/>
+		With Indonesia back in the war, U.S. forces can begin shifting north.  The next offensive phase will be directed against the Chinese bastion on Palawan Island.  Malaysia has offered Sandakan in North Borneo as one of several Allied staging areas for the Palawan operation.
+		<LineBreak/>
+		<LineBreak/>
+		Allied Supreme Command has directed the Operating forces to recapture Palawan no later than 1 November 1985.  Regarding Indonesia, State recommends that the President welcome Indonesia's decision in private.  Public language should emphasize regional sovereignty and should not imply that Washington directed Jakarta's return to the war.
+		<LineBreak/>
+		<LineBreak/>
+		UN channels are reporting instances of human rights abuse in Indonesia as central authority returns, especially against native Chinese populations.  Given the strategic backdrop, State recommends deferring this issue until the postwar settlement.
+      </TextBlock>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16" LineHeight="26" Margin="0,34,0,0">
+        George P. Shultz
+		<LineBreak/>
+		<LineBreak/>
+		cc: The Vice President; Secretary of Defense; Chairman, JCS
+		<LineBreak/>
+		<LineBreak/>
+		DECL: OADR
+	  </TextBlock>
+      <TextBlock TextAlignment="Center" Margin="0,22,0,0" FontWeight="Bold" Text="SECRET"/>
+    </StackPanel>
+  </Border>
+</ScrollViewer>

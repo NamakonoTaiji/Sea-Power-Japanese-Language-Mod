@@ -1,0 +1,116 @@
+<!-- Pacific Strike CIA memorandum event, adapted from Strike Group Molniya U.S.-voice interstitial format. -->
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45"
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+      <Border.Effect>
+        <DropShadowEffect />
+      </Border.Effect>
+
+      <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+          <TextBlock Text="C05084534" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+          <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="10"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="15"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="15"/>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="СОВЕРШЕННО СЕКРЕТНО" TextAlignment="Center"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+              Директор Центральной разведки
+              <LineBreak/>
+              <LineBreak/>
+              <Run FontSize="12">Вашингтон, 20505</Run>
+            </TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="3" Text="21 сентября 1985"/>
+            <TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="Память для:   "/>
+            <TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+              JCS WASHINGTON DC//J3//
+              <LineBreak/>
+              USCINCPAC HONOLULU HI
+              <LineBreak/>
+              CINCPACFLT PEARL HARBOR HI
+              <LineBreak/>
+              COMUSPHIL MANILA PI
+            </TextBlock>
+            <TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+              EO 13526 3.3(b)(1)>25Yrs
+              <LineBreak/>
+              EO 13526 3.5(c)
+            </TextBlock>
+            <TextBlock Grid.Row="9" Grid.Column="0" Text="Субъект:   "/>
+            <TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="Китайский командный трафик после рейда Сандакан"/>
+          </Grid>
+          <TextBlock Grid.Row="2" TextWrapping="Wrap">
+            1. Сравнительный источник Звездный свет на Пуэрто-Принсеса Город прошел китайское командное движение, признавая неудачу удара Сандакан для уничтожения союзных десантных войск. Движение отражает неотложную обеспокоенность тем, что союзные войска теперь могут двигаться против Палаван.
+            <LineBreak/>
+            <LineBreak/>
+            2. НОАК и ПЛАН направляют командиров Палаван для удержания Пуэрто-Принсеса и Quezon любой ценой. Запросы включают дополнительные береговые ракетные перезарядки, инженеров, боеприпасы, мобильные ЗРК и отряды берегового контроля. Советская поддержка от Камрань запрашивается для воздушного прикрытия и сопровождения конвоя.
+            <LineBreak/>
+            <LineBreak/>
+            3. Ожидайте, что противник компенсирует это усилением Пуэрто-Принсеса, перемещением резервов в сторону Кесона на западном побережье острова и использованием небольших кораблей, прибрежных ракет и подводных лодок для борьбы с любой посадкой.
+            <LineBreak/>
+            <LineBreak/>
+			4.Перехватчики сообщают, что два китайских командира, ответственных за неудавшийся удар по Сандакан, были вызваны на материк, и наш источник считает, что они будут казнены. Мы считаем, что это усилит решимость местных командиров в Палаван в качестве ответа.
+            <LineBreak/>
+            <LineBreak/>
+            5. Китайские и советские командиры, похоже, понимают, что Палаван разоблачается. Учитывая это, мы оцениваем, что быстрый шаг союзников, вероятно, предшествует каналам подкрепления, которые сейчас запрашиваются.
+            <LineBreak/>
+            <LineBreak/>
+          </TextBlock>
+          <TextBlock TextAlignment="Right" Text="Уильям Джей Кейси, режиссер" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0" Grid.Row="2"/>
+          <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+            <Run TextDecorations="Underline">Распространение ER/21 сентября 1985 w/Att</Run>
+            <LineBreak/>
+            <LineBreak/>
+            Ориг - каждый адресат
+            <LineBreak/>
+               1 - DCI
+            <LineBreak/>
+               1 - DDCI
+            <LineBreak/>
+               1 - EXDIR
+            <LineBreak/>
+               1 - C/NIC
+            <LineBreak/>
+               1 - VC/NIC
+            <LineBreak/>
+               1 - NIO/Предупреждение
+            <LineBreak/>
+               1 - ER файл
+          </TextBlock>
+          <TextBlock Grid.Row="4" Text="СОВЕРШЕННО СЕКРЕТНО" TextAlignment="Center"/>
+        </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

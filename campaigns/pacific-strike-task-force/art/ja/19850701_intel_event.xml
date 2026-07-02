@@ -1,0 +1,154 @@
+<!-- Campaign event template for standard USN-style "daily intentions message" (DIM) - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+        </Border.Background>
+        
+        <StackPanel Orientation="Vertical">
+
+        <Grid
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="海軍電信" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="*******極  秘*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="海軍省" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+            
+        </Grid>
+        
+        <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+        <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+            <Grid
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <Definition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="16">
+                    普通<LineBreak/>
+                    R 011200Z JUL 85
+                </TextBlock>
+                
+                <TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUHGOAA0777 1821200"/>
+
+
+                <TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="発"/>
+                <TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="第77任務部隊指揮官（横須賀、日本）"/>
+                <TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="宛"/>
+                <TextBlock Grid.Row="4" Grid.Column="2" FontSize="16">
+                    <Run Text="{Binding DataSource.PersistentData[PlayerTaskForceName], Converter={StaticResource UppercaseConverter}}"/>
+                    <Run Text="指揮官（那覇、沖縄、日本）"/>
+                </TextBlock>
+                <TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="報"/>
+                <TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="太平洋艦隊総司令官（パールハーバー、ハワイ州）"/>
+                <TextBlock Grid.Row="12" Grid.Column="2" FontSize="16" Text="在日米軍司令官（横田基地、日本）"/>
+                <TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="海軍作戦部長（ワシントンDC）"/>
+                <TextBlock Grid.Row="14" Grid.Column="0" FontSize="16" Text="件名"/>
+                <TextBlock Grid.Row="14" Grid.Column="2" FontSize="16" Text="情報要約 01/1200Z - 02/1200Z――西部太平洋"/>
+
+                <TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+                    <LineBreak/>
+                    極秘
+                    <LineBreak/>
+                    BT
+                    <LineBreak/>
+                    <LineBreak/>
+                    1. (S) 要約：西部太平洋（WESTPAC）全域で敵の攻勢作戦が継続中。ソ連軍および中国軍は、日本、韓国、フィリピン、東南アジアにおける同盟軍の初期の混乱に乗じている。現在の敵の動きは南シナ海への南下を志向しており、シンガポールを孤立させ、インド洋への同盟軍海上交通路（SLOC）を遮断する意図があるものとみられる。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+                    2. (S) 敵情：KIEV空母戦闘群は、通航を阻止しようとした韓国海軍水上部隊を撃破後、6月30日に対馬海峡を通過した。KIEVの動静は依然として不明。KIROVおよびSLAVA水上戦闘群の位置も未特定。現在の分析では、広範な敵攻勢を支援するため、いずれか一方または両群が南下中と判断される。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    3. (S) 友軍状況：
+                </TextBlock>    
+                <TextBlock Grid.Row="18" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0"> 
+                    - KITTY HAWKは横須賀沖での触雷により、引き続き作戦行動不可能。第9空母航空団（CVW-9）の航空機は発艦し、再配置を待つため陸上基地へ分散退避した。
+                    <LineBreak/>
+                    - CONSTELLATIONおよび第DELTA任務群（Battle Group DELTA）が日本防衛任務を引き継ぎ中。
+                    <LineBreak/>
+                    - TF 77水上打撃部隊は、台湾海峡での「マジック・サンダー（MAGIC THUNDER）」作戦を終え、沖縄に入港中。
+                    <LineBreak/>
+                </TextBlock>    
+                <TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    4. (S) 同盟国・周辺地域の状況：日本および韓国はソ連軍の大規模な航空・ミサイル・海軍攻撃にさらされており、残存部隊は本土防衛に専念している。マレーシアとシンガポールは、ソ連およびベトナム空軍による攻撃を報告。インドネシア中央政府は機能麻痺に陥っており、スハルト大統領の消息は不明。インドは中立を宣言したものの、現在の情報によればソ連軍が補給のためにインドの港湾や飛行場を利用している模様。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="21" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    5. (S) 評価：敵の意図は、米軍の空母部隊や兵站部隊が対応する前に、戦果を迅速に拡大することにあると判断される。インドネシアの機能麻痺、およびインドのソ連に対する黙認姿勢により、南方戦区における同盟軍の選択肢は著しく狭まっている。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="23" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    6. (S) 指揮官所見：条約機構軍は、戦前のいかなる計画でも想定していなかった驚異的な攻撃性を示している。シンガポールの防衛は、ソ連・ベトナム軍の行動によって南シナ海への接近経路が封鎖される前に、展開可能な海軍戦力をいかに迅速に集中できるかにかかっている。今後の命令は別電にて伝達する。諸君の健闘と武運を祈る。第77任務部隊指揮官より。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="25" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    署名：エドワーズ
+                    <LineBreak/>
+                    第77任務部隊指揮官
+                    <LineBreak/>
+                    <LineBreak/>
+                    BT
+                    <LineBreak/>
+                    極秘 DECL OADR
+                    <LineBreak/>
+                </TextBlock>
+            </Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

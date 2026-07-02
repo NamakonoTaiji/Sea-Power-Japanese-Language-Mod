@@ -1,0 +1,66 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 260715Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName}"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Копия:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        CINCPACAF HICKAM AFB HI<LineBreak/>
+        HQ AIR COMMAND RAAF GLENBROOK NSW AU
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="RETASKING - JAVA SEA THREAT"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        СЕКРЕТНО
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) SITUATION: Бали был возвращен под контроль Индонезии. Однако тяжелые советские надводные силы остаются нерасположенными в Яванское море, и Москва пригрозила Джакарте неизбирательной бомбардировкой, если Индонезия не сдастся или не нейтрализует. Президент приказал американским войскам в этом районе немедленно вмешаться.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) МИССИЯ: Союзные войска в этом районе будут двигаться в Яванское море, чтобы найти и уничтожить советскую поверхность оперативная группа.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) Исключение: {TaskForceName} будет следовать на северо-запад от Бали, заправляться в Сурабая, а затем входить в Яванское море. Работая совместно с авиационными средствами союзников, {TaskForceName} разместит и уничтожит советские надводные силы. Если советские подводные лодки встретятся, они должны быть уничтожены.
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) Угроза: Советская крейсерская группа состоит из крейсеров ADMIRAL SENYAVIN (SVERDLOV), ADMIRAL OKTYABRSKY (KRESTA II) и LUDA и KASHIN класса DD. Интеллект с высокой степенью уверенности оценивает эту группу при поддержке 1 x FOXTROT класса SSK, работающего в Яванское море. Бомбардировщики СССР из Камрань, скорее всего, будут действовать в поддержку этой силы.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) СВЯЗАННЫЕ СИЛЫ: Индонезия позволяет Союзническому воздуху выйти из Сурабая для этой операции. Воздушные средства, ранее находившиеся в Бруме, переместились на север и будут доступны для выполнения задач. Подводные лодки США активны в Яванское море, но не находятся под вашим тактическим командованием.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) REMARKS: Эта операция была заказана самим президентом, чтобы ослабить давление на Индонезия и вернуть их в войну на нашей стороне. Успех имеет первостепенное значение. CINCPAC полностью уверен в том, что офицеры, моряки и пилоты {TaskForceName} смогут выполнить свою работу. Удачи и хорошей охоты. КГ 77 передается.
+        <LineBreak/>
+        <LineBreak/>
+        СЕКРЕТНО
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

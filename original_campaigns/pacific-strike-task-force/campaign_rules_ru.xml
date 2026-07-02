@@ -1,0 +1,334 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualWidth, FallbackValue=700}"
+  Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ContentControl}}, Path=ActualHeight, FallbackValue=600}">
+  <Grid Margin="14">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="12"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <TabControl Grid.Row="0">
+      <TabItem Header="Обзор">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Тихоокеанский Удар 85 - режим оперативной группы" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Добро пожаловать, командир!" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Война разразилась в Европе и на Тихом океане. Будучи дислоцированным в Японии в начале военных действий, вы попадаете в гущу событий." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Ваша цель" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Используя очки кампании, создайте свою оперативную группу" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- При прохождении миссий вы будете получать дополнительные очки и увеличивать их лимит." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Ведите свою группу через связанные между собой миссии." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Перевооружение: доступно перед определенными миссиями, бесплатно." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Ремонт: доступен перед определенными миссиями, требует наличия базы для ремонта повреждений. Ремонт значительных повреждений стоит очков." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Повреждения, потери, ремонт, авиайия и модернизация юнитов будут влиять на ход кампании. Помните: сложность прохождения будет зависеть не только от ваших действий в миссии, но от вашего управления своей оперативной группой." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Командир">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Правила командира" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Коалиционное командование" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="В начале военных действий американские, японские и австралийские военно-морские силы готовились к крупным учениям союзников в Тихом океане. Когда кризис перерос в войну, эти силы были сложены в объединенное командование." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <TextBlock Text="Вы можете возглавить кампанию в качестве командира из США, Япония или Австралия." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <TextBlock Text="Гражданство командира не изменяет правил миссии, характеристик корабля, характеристик самолета или боевых возможностей." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Национальная скидка на покупку" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="Командиры получают скидку "/><Run Text="{Binding SameNationDiscountPercentText}"/><Run Text="% при покупке юнитов своей национальности."/>
+            </TextBlock>
+            <TextBlock Text="Большинство доступных юнитов относится к США, поэтому выбор командира из США обеспечивает максимальную выгоду." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Игра за японского или австралийского командира повышает сложность, не меняя самих миссий." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Награды и звание" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="- Ход кампании вашего командира отслеживается в послужном списке." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Послужной список включает в себя звание, медали, счёт уничтожех юнитов противника, потери, количество спасенных выживших и общий счет." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Кликните на награду или ленту, чтобы прочитать ее полное описание." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Каталог юнитов">
+        <Grid Margin="16,14,16,18">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="12"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <TextBlock Text="Цены юнитов" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap"/>
+          <TextBlock Grid.Row="2" Text="Обзор доступных классов юнитов и цены на них. Кликните на название класса, чтобы открыть энциклопедию. Используйте кнопку 'Планировщик группы' в нижней правой части экрана для добавления юнитов в свою оперативную группу." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+
+          <Grid Grid.Row="4" Margin="0,0,16,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="210"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="150"/>
+              <ColumnDefinition Width="220"/>
+              <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Нация" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Nation" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="1" Content="Название класса" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="ClassName" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="2" Content="Категория" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Category" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="3" Content="Тип" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Type" Height="28" Padding="8,0" HorizontalContentAlignment="Left"/>
+            <Button Grid.Column="4" Content="Цена" Command="{Binding SortRosterPriceRowsCommand}" CommandParameter="Price" Height="28" Padding="8,0" HorizontalContentAlignment="Right"/>
+          </Grid>
+
+          <Border Grid.Row="5" Height="1" Background="#59606B" Margin="0,0,16,0"/>
+
+          <ScrollViewer Grid.Row="6" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl ItemsSource="{Binding RosterPriceRows}">
+              <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                  <Border BorderBrush="#253140" BorderThickness="0,0,0,1" Margin="0,0,16,0">
+                  <Grid MinHeight="34" Margin="0,2,0,2">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="210"/>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="150"/>
+                      <ColumnDefinition Width="220"/>
+                      <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="8,0">
+                      <Image Source="{Binding NationFlag}" Width="30" Height="20" Stretch="Uniform" Margin="0,0,8,0"/>
+                      <TextBlock Text="{Binding NationName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Grid.Column="1"
+                            Command="{Binding OpenReferenceCommand}"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,0"
+                            HorizontalContentAlignment="Left">
+                      <TextBlock Text="{Binding ClassName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+                    </Button>
+                    <TextBlock Grid.Column="2" Text="{Binding CategoryName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                    <TextBlock Grid.Column="3" Text="{Binding TypeName}" FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                    <TextBlock Grid.Column="4" Text="{Binding PriceText}" FontSize="15" Foreground="#D8DDE8" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Center" Margin="8,0"/>
+                  </Grid>
+                  </Border>
+                </DataTemplate>
+              </ItemsControl.ItemTemplate>
+            </ItemsControl>
+          </ScrollViewer>
+        </Grid>
+      </TabItem>
+
+      <TabItem Header="Правила кампании">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="16,14,16,18">
+            <TextBlock Text="Правила кампании" FontSize="24" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Связанность" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Статус повреждений, потраченых боеприпасов и потери сохраняются между миссиями." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Корабли могут немного восстановить свои повреждения между миссиями, но полный ремонт стоит очков кампании." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Ремонт за очки кампании доступен только на определённых базах. Информация о возможности/невозможности полного ремонта доступна перед выбором миссии." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Серьёзно повреждённые корабли, не могут быть отремонтированы и могут быть выведены из эксплуатации. Корабли, которые слегка или умеренно повреждены, могут быть отремонтированы." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Перевооружение доступно только между определенными миссиями. Инфо юнита в менеджере оперативной группы (левый верх экрана) будет содержать зеленую отметку «Перевооружён», когда ваши корабли будут перевооружены перед миссией." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+            <TextBlock Text="Создание и управление оперативная группа" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Управляйте своими силами из менеджера оперативной группы в левой верхней части экрана кампании. Он показывает текущие очки, статус юнитов и доступные для оперативной группы действия между миссиями." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Для добавления юнитов в свою группу откройте "/><Hyperlink Command="{Binding OpenTaskForceBuilderCommand}">Планировщик оперативной группы</Hyperlink><Run Text=" и выберите доступные юниты из соответствующих категорий."/>
+            </TextBlock>
+            <TextBlock Text="Выбранные единицы не приобретаются до подтверждения в окне планировщика." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Доступность юнитов может меняться между миссиями. Например, японские юнитов могут быть недоступны после выхода из японских вод." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="- Используйте менеджер оперативной группы для ремонта повреждений, информации о текущем вооружении, изменения варианта вооружения, информации об уровне подготовке экипажа и управления заданиями самолетов."/>
+            </TextBlock>
+            <TextBlock Text="- Во вкладке 'Каталог юнитов' перечислены доступные классы юниты и цены на них." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Доступность Планировщика группы" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Некоторые миссии уводят вашу группу далеко от дружественных баз. Находясь в море вы не сможете добавлять новые подразделения между миссиями." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Новые юниты могут быть добавлены только при наличии Планировщика группы. Продолжайте кампанию, пока ваша группа не достигнет дружественной базы." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Любые ограничения на пополнение или подкрепление будут указаны в описании миссии перед развертыванием." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Очки кампании" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Потраченные очки не могут быть возвращены." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Покупка юнитов, вариантов загрузки и модернизации, ремонт юнитов - всё это стоит очков кампании." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="Юнит может быть выведен из состава вашей группы. При этом вы получите "/><Run Text="{Binding DismissRefundPercentText}"/><Run Text="% от его стоимости назад."/>
+            </TextBlock>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5">
+              <Run Text="При выводе из эксплуатации сильно поврежденного юнита, который не может быть отремонтирован, вы получите "/><Run Text="{Binding DecommissionRefundPercentText}"/><Run Text="% от его стоимости."/>
+            </TextBlock>
+            <TextBlock Text="Потеряв юнита в бою вы не получите ничего." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Дополнительные очки присуждаются по мере прохождения кампании и выполнения миссий." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Опыт экипажа" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Подразделения повышают свой уровень квалификации при выполнении миссий." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Более высокое мастерство повышает боевую эффективность, скорость обработки показаний систем обнаружения, скорость устранения повреждений и снижает вероятность того, что повреждения будут фатальными." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <Border Width="1120" HorizontalAlignment="Center" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="1" Background="{StaticResource Brush.Window.Background}" Margin="0,0,0,14">
+              <Grid>
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="126"/>
+                  <ColumnDefinition Width="112"/>
+                  <ColumnDefinition Width="150"/>
+                  <ColumnDefinition Width="150"/>
+                  <ColumnDefinition Width="132"/>
+                  <ColumnDefinition Width="174"/>
+                  <ColumnDefinition Width="144"/>
+                  <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Уровень подготовки" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="1" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Выжившие миссии" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Number of missions the unit must survive to reach this proficiency level."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="2" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Скорость обработки контактов" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplier for target acquisition, sonar target-motion analysis, ESM identification, and acoustic confidence growth."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="3" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Борьба за живучесть" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplier for flooding-rate repair, flooding repair, structure repair, and fire-severity repair."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="4" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Ремонт систем" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Multiplier for repairing damaged ship systems."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="5" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Бонус к артиллерии ПВО против авиации" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Aircraft cannon interception bonus against aircraft / missiles."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="6" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <TextBlock Text="Вероятность критического удара" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Additional chance for a successful attack to cause a severe or instantly fatal result."/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="7" Background="{StaticResource Brush.Window.BackgroundDark}" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1">
+                  <TextBlock Text="Риск смертельного удара" FontSize="13" FontWeight="Bold" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center" TextWrapping="Wrap" ToolTip="Chance for the unit to suffer an immediately fatal result when it is hit."/>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Green}" HorizontalAlignment="Center">
+                    <TextBlock Text="Новички" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="0" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0 / +0" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="1" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="10%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="2" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Trained}" HorizontalAlignment="Center">
+                    <TextBlock Text="Специалисты" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="2" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.25x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+5 / +2" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+0%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="2" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="10%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="3" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Seasoned}" HorizontalAlignment="Center">
+                    <TextBlock Text="Опытные" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+10 / +3" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+2%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="3" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="8%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="4" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Veterans}" HorizontalAlignment="Center">
+                    <TextBlock Text="Ветераны" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="4" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="2.5x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="1,75x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+15 / +4" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,1"><TextBlock Text="+4%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="4" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,1"><TextBlock Text="6%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+
+                <Border Grid.Row="5" Grid.Column="0" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0">
+                  <Border Width="84" Padding="4,2" Background="{StaticResource Brush.CrewSkill.Ultra}" HorizontalAlignment="Center">
+                    <TextBlock Text="Элита" FontSize="13" Foreground="#18261B" TextAlignment="Center"/>
+                  </Border>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="7" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="2" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="3x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="3" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="3x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="4" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="2x" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="5" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="+20 / +5" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="6" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,1,0"><TextBlock Text="+6%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+                <Border Grid.Row="5" Grid.Column="7" Padding="8,6" BorderBrush="{StaticResource Brush.Glyph.Normal}" BorderThickness="0,0,0,0"><TextBlock Text="5%" FontSize="14" Foreground="{StaticResource Brush.Foreground.Normal}" TextAlignment="Center"/></Border>
+              </Grid>
+            </Border>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Самолеты и подводные лодки" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Корабли, приобретенные в Планировщике, включают в себя бесплатную авиагруппу (если позволяет выбранный режим сложности), и эти машины назначаются на судно автоматически. Самолеты и вертолёты должны быть приобретены отдельно, если они были потеряны." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Вертолеты доступны сразу после начала кампании. Информация о поддерживаемых типах отображается в карточке корабля в Планировщике группы." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Самолеты не доступны для покупки в начале кампании, но станут доступны позже." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Приобретённые самолеты доступны в миссиях с авиабаз, которые их поддерживают. Если авиабаза отсутствует, самолеты не развертываются и находятся в резерве." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Некоторые миссии включают в себя слоты для самолетов, которые могут начать миссию уже в воздухе. Подготовьте авиабазу к выбранной миссии и используйте вкладку 'Задачи авиагруппы', чтобы назначить подходящие неназначенные самолеты перед запуском." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Каждая строка в 'Задачах авиагруппы' представляет собой одну формацию. Более крупные формации должны использовать тот же тип самолета, но могут быть частично заполнены, если доступно слишком мало самолетов." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Подводные лодки действуют независимо от оперативной группы. Они появляются в отдельных (но связанных) дополнительных побочных миссиях, которые дают различные преимущества при выполнении, но не продвигают основную кампанию." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Флагман" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Для развертывания вашей оперативной группы требуется флагманский корабль." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Первый корабль в вашей оперативной группе является флагманом по умолчанию. Вы можете назначить любой корабль флагманом в менеджере оперативной группы." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Флагман должен выжить в каждой миссии. Другие подразделения в оперативной группе могут быть потеряны, но если флагман будет уничтожен, миссия будет провалена." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Поиск и спасение" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Спасательные плоты могут появиться, когда корабли потоплены или самолеты сбиты. Подведите к плотам вертолет или корабль, чтобы подобрать выживших. Скорость корабля при этом должна быть менее 10 узлов, а высота вертолёта должна быть минимальной." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Вертолёты и корабли оснащены системой поиска которая показывает количество плотов и расстояние до ближайшего. Эта информация отображается в разделе 'Статус' на нижней панели юнита в миссии." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14">
+              <Run Text="- За каждые "/><Run Text="{Binding CSARPointModifierText}"/><Run Text=" выживших, спасенных в ходе миссии, вы получаете 1 очко кампаниии в конце миссии. На данный момент за меньшее число награды нет."/>
+            </TextBlock>
+            <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
+
+            <TextBlock Text="Результаты миссии" FontSize="17" FontWeight="Bold" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,6"/>
+            <TextBlock Text="Провал миссии не повредит вашей группе и не приведет к дополнительным штрафам." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Проваленная миссия должна быть переиграна и успешно завершена для продвижения вперед." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="Завершенные миссии могут быть переиграны с оригинальной группой, сформированной перед этой миссией." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="После завершения кампании все миссии разблокируются для переигрования с любой оперативной группой, который вы создадите." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+          </StackPanel>
+        </ScrollViewer>
+      </TabItem>
+    </TabControl>
+
+    <Button Grid.Row="2"
+            HorizontalAlignment="Right"
+            Width="110"
+            Height="32"
+            Content="{Binding Path=LanguageDictionary[genericskip], Source={StaticResource LanguageResourceInterface}, FallbackValue='Skip'}"
+            Command="{Binding CloseWindowCommand}"/>
+  </Grid>
+</Page>

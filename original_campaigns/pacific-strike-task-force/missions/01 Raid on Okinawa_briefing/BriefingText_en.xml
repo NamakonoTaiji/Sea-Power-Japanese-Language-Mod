@@ -33,6 +33,7 @@
     <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ALLIED UNITS NAHA, OKINAWA, JA"/>
 	<TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+		COMSEVENTHFLT PEARL HARBOR HI<LineBreak/>
 		CINCPACFLT PEARL HARBOR HI<LineBreak/>
 		COMUSJAPAN YOKOTA AB
 	</TextBlock>
@@ -42,7 +43,7 @@
 		SECRET
 		<LineBreak/>
 		<LineBreak/>
-		1. (S) Enemy forces have achieved total surprise despite warnings from Allied intelligence. Soviet, Chinese, and North Korean strikes are underway on Taiwan, the Philippines, Japan, and ROK. 7th Fleet has been ordered by the President to begin striking back immediately.
+		1. (S) U.S. and Allied forces are under attack by Soviet, Chinese, and DPRK forces across WESTPAC. We have been ordered by the President to begin striking back immediately.
 		<LineBreak/>
 		<LineBreak/>
 		2. (S) National technical intelligence sources show multiple hostile surface groups moving towards Okinawa. Intel believes one of these units is USSR commando force with light armor embarked aboard Japanese-flagged car carrier M/V IBISHU MARU NO. 18 (see Ref.A). The other group is PLAN strike force with USSR KANIN class destroyer, apparently for air defense.

@@ -25,15 +25,6 @@
                 <Image Stretch="Uniform" Source="{Binding Assets[10_kiev]}" Width="250"/>
             </Grid>
         </Border>-->
-		<!-- Player unit summary -->
-		<!--<Border Canvas.Left="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
-			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="{TaskForceName}:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                {TaskForceVesselSummaryRuns}
-                <Run Text="USS Moosbrugger DD-980"/><LineBreak/>
-                <Run Text="JS Kikuzuki DD-165"/>
-           </TextBlock>
-		</Border>-->
 
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="Южно-Китайское море" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="300" Canvas.Top="100"/>
@@ -52,7 +43,7 @@
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="Минное поле на рифе Ирокез" HorizontalAlignment="Center"/>
 		</StackPanel>
 		
-		<!-- USS Houston SSN-713 -->
+		<!-- Player Sub -->
 		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="150">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
                 <Run Text="USS Хьюстон SSN-713"/>
@@ -110,7 +101,7 @@
 		<!-- USSR Alfa -->
 		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="175">
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="АПЛ типа «Лира»"/>
+                <Run Text="АПЛ типа «Ёрш»"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Submarine}"/>

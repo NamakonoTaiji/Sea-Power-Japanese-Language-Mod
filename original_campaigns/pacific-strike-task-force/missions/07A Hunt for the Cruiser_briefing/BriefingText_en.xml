@@ -32,13 +32,14 @@
         <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
         HMAS PLATYPUS<LineBreak/>
+        COMAUSFLT<LineBreak/>
         CINCPACFLT<LineBreak/>
         COMSUBPAC
         </TextBlock>
         <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
         <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CONTACT REPORT - SOUTH CHINA SEA"/>
         <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-        SECRET - REL: US
+        SECRET - REL: US, JAPAN
         <LineBreak/>
         <LineBreak/>
         1. (S) SATELLITE RECONNAISSANCE HAS IDENTIFIED ENEMY SURFACE GROUP CENTERED ON SLAVA CLASS CRUISER EXITING CAM RANH BAY PROCEEDING SOUTHEAST ON COURSE 140 SPEED 18.
@@ -56,6 +57,6 @@
 		5. (S) REPORT LOCATION OF SINKING AND AWAIT FURTHER ORDERS.
         <LineBreak/>
         <LineBreak/>
-        SECRET - REL: US
+        SECRET - REL: US, JAPAN
     </TextBlock>
 </Grid>

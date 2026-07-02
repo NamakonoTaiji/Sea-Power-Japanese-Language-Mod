@@ -1,0 +1,115 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45"
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+      <Border.Effect>
+        <DropShadowEffect />
+      </Border.Effect>
+
+      <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+          <TextBlock Text="C05084521" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+          <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="10"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="15"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="15"/>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="СОВЕРШЕННО СЕКРЕТНО" TextAlignment="Center"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+              Директор Центральной разведки
+              <LineBreak/>
+              <LineBreak/>
+              <Run FontSize="12">Вашингтон, 20505</Run>
+            </TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="3" Text="21 августа 1985"/>
+            <TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="Память для:   "/>
+            <TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+              JCS WASHINGTON DC//J3//
+              <LineBreak/>
+              USCINCPAC HONOLULU HI
+              <LineBreak/>
+              CINCPACFLT PEARL HARBOR HI
+              <LineBreak/>
+              COMSUBPAC PEARL HARBOR HI
+            </TextBlock>
+            <TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+              EO 13526 3.3(b)(1)>25Yrs
+              <LineBreak/>
+              EO 13526 3.5(c)
+            </TextBlock>
+            <TextBlock Grid.Row="9" Grid.Column="0" Text="Субъект:   "/>
+            <TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="Советское принуждение Индонезия и ADMIRAL SENYAVIN SAG"/>
+          </Grid>
+          <StackPanel Grid.Row="2">
+            <TextBlock TextWrapping="Wrap">
+            1.Несмотря на успех союзников, притупивших советские атаки в Индийский океан, индонезийское правительство остается в беспорядке. Перехваты показывают, что Москва усиливает давление на индонезийских военных и членов кабинета министров, чтобы они приняли нейтралитет. Советские требования включают отказ в размещении союзников и транзите через контролируемые Индонезией проливы.
+            <LineBreak/>
+            <LineBreak/>
+            2. Извлеченное задание предписывает советскому артиллерийскому крейсеру «АДМИРАЛ СЕНЬЯВИН» оставаться к северу от Джакарты. SAG направлена на демонстрацию охвата морской артиллерией Танджунг-Приока, целей на набережной Джакарты и прибрежной инфраструктуры. Он также направлен на запрет судоходства, оцениваемого для поддержки движения союзников. Командный язык подчеркивает избегание решительного участия до достижения политических целей.
+            <LineBreak/>
+            <LineBreak/>
+            3. Силы SENYAVIN, по оценкам, имеют прикрытие бомбардировщика дальнего действия от Камрань. Советские самолеты могут достичь Яванское море с уменьшенным риском перехвата после эффективного уничтожения Сингапур и малайзийских ВВС. RMAF Butterworth был выведен из строя после повторных ударов по взлетно-посадочным полосам, хранилищам топлива и зонам технического обслуживания.
+            <LineBreak/>
+            <LineBreak/>
+            4.Советские дипломатические и разведывательные каналы предлагают гарантии нейтралитета, одновременно угрожая постоянным военно-морским бомбардировкам, топливной блокаде и поддержке местных фракций, если Джакарта возобновит союзническое сотрудничество. Угроза морских стрельб по портовым и правительственным объектам оценивается как центральная в усилиях по принуждению. Ключевым требованием является отказ от индонезийских аэродромов и проливов союзным войскам.
+            <LineBreak/>
+            <LineBreak/>
+            5. Мы считаем, что силы Сеньявина являются видимой рукой этой кампании по принуждению. Уничтожение или вывод САГ улучшит перспективы возвращения Индонезии на сторону союзников. Этот перехват следует считать действенным.
+            </TextBlock>
+            <TextBlock Text="Уильям Джей Кейси, режиссер" HorizontalAlignment="Right" TextAlignment="Right" Margin="15"/>
+          </StackPanel>
+          <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+            <Run TextDecorations="Underline">Распространение ER/21 августа 1985 w/Att</Run>
+            <LineBreak/>
+            <LineBreak/>
+            Ориг - каждый адресат
+            <LineBreak/>
+               1 - DCI
+            <LineBreak/>
+               1 - DDCI
+            <LineBreak/>
+               1 - EXDIR
+            <LineBreak/>
+               1 - C/NIC
+            <LineBreak/>
+               1 - VC/NIC
+            <LineBreak/>
+               1 - NIO/Предупреждение
+            <LineBreak/>
+               1 - ER файл
+          </TextBlock>
+          <TextBlock Grid.Row="4" Text="СОВЕРШЕННО СЕКРЕТНО" TextAlignment="Center"/>
+        </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

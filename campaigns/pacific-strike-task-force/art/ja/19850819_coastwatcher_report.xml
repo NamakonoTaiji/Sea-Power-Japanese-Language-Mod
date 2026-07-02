@@ -1,0 +1,102 @@
+<!-- Pacific Strike classified coastwatcher event: naval-message paper format. -->
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" MinHeight="1000" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+    <Border.Effect>
+      <DropShadowEffect />
+    </Border.Effect>
+    <Border.Background>
+      <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+    </Border.Background>
+
+    <StackPanel Orientation="Vertical">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="3*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0" Text="海軍電信" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+        <TextBlock Grid.Column="1" Text="*******極  秘*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock Grid.Column="2" Text="海軍省" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+      </Grid>
+
+      <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+      <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="10"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" FontSize="16">
+          優先（PRIORITY）<LineBreak/>
+          O 192000Z AUG 85
+        </TextBlock>
+
+        <TextBlock Grid.Row="0" Grid.Column="3" FontSize="16" Text="ZYUW RAYOC0777 2312000"/>
+      </Grid>
+
+      <Grid Margin="0,18,0,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="10"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" FontSize="16" Text="発"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" FontSize="16" Text="ロンボク沿岸監視員網（豪海軍ダーウィン派遣隊経由）"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" FontSize="16" Text="宛"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" FontSize="16" Text="第77任務部隊（豪北部準州ダーウィン）"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16" Text="報"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" FontSize="16">
+          太平洋艦隊総司令官（ハワイ州パールハーバー）<LineBreak/>
+          オーストラリア王立空軍航空軍司令部（豪ニューサウスウェールズ州グレンブルック）<LineBreak/>
+          インドネシア海軍連絡官（豪北部準州ダーウィン）
+        </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="件名"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="沿岸監視員報告――バリ・ロンボク海域"/>
+      </Grid>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,24,0,0">
+        極秘
+        <LineBreak/>
+        BT
+        <LineBreak/><LineBreak/>
+        1. (S) 要約：同盟軍の沿岸監視員の情報によると、ソ連軍およびその同盟軍はデンパサール飛行場周辺およびロンボク海峡周辺の陣地を強固にしている。敵の活動は、水上部隊の進入に対して海峡を死守する準備を進めていることを示している。
+        <LineBreak/><LineBreak/>
+        2. (S) 視認情報：8月19日の日没直前、ロンボク海峡の北方で駆逐艦規模の戦闘艦2隻が確認された。海峡内では、より小型の高速哨戒艇が2隻一組で行動しているとの報告がある。バリ島近海には、多数の武装補助艦艇や揚陸艇が依然として留まっている。
+        <LineBreak/><LineBreak/>
+        3. (S) 沿岸防御：監視員の報告によると、デンパサール飛行場付近でレーダーの稼働と重砲陣地が確認されている。少なくとも1個の沿岸ミサイル部隊とみられる部隊が、過去48時間に2回陣地を転換した。また、同飛行場付近には高射砲陣地も報告されている。
+        <LineBreak/><LineBreak/>
+        4. (S) 航空活動：バリ島の飛行場から、少数機ながら短距離離着陸ジェット機が運用されているのが確認された。これらの機体は周辺海域にとどまり、視界外の民間船舶や航空機を追跡することはなかった。対戦車兵器や爆弾を装備した二重反転ローター式ヘリコプターによる沿岸哨戒が継続中であり、これは港内で写真撮影されたイワン・ロゴフ級またはロプーチャ級揚陸艦（LST）に搭載されているKa-29型機とみられる。
+        <LineBreak/><LineBreak/>
+        5. (S) 民間船舶の動静：繰り返しの警告にもかかわらず、漁船がロンボク海峡内にとどまっている。一部の船舶は敵の監視下にあるか、協力を強要されている可能性がある。交戦前に確実な識別を要する。
+        <LineBreak/><LineBreak/>
+        6. (S) 評価：敵の意図は、同盟軍の通過を妨害してインドネシア救援を遅らせることにある。情報筋によると、当該海域において潜水艦の活動は確認されていない。
+        <LineBreak/><LineBreak/>
+        署名：M・S・サリヴァン豪海軍大佐
+    <LineBreak/>
+    オーストラリア王立海軍連絡官
+        <LineBreak/><LineBreak/>
+        BT
+        <LineBreak/>
+        極秘 DECL OADR
+      </TextBlock>
+    </StackPanel>
+  </Border>
+</ScrollViewer>

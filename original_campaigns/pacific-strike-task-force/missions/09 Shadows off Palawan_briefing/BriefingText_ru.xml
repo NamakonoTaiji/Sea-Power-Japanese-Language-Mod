@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 100300Z OCT 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} Сандакан Малайзия"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Копия:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        81 WING (PROVISIONAL) RAAF SANDAKAN MALAYSIA
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="ОПЛАН-ОПЕРАЦИЯ ЧАЛЛЕНГЕР"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        СОВЕРШЕННО СЕКРЕТНО
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) Настоящий приказ является окончательным приказом министра обороны.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) Положение: Вражеские силы удерживают Палаван, с опорными пунктами в Пуэрто-Принсеса и Кезон. Силы союзников перенапряжены боевыми действиями в Корее, Япония и Тайваньский пролив, в то время как союзники в Юго-Восточной Азии могут предоставить ограниченные наземные силы, но мало оставшейся воздушной или военно-морской поддержки. Пактное наступление в Европе и Тихом океане превысило довоенные оценки, а захват Китаем Палаван при советской поддержке серьезно снизил оперативную гибкость союзников. Восстановление Палаван является главным приоритетом.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) МИССИЯ: Союзные войска выполнят операцию CHALLENGER, высадив совместные американо-филиппинские силы на Палаван, чтобы отбить остров.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) Исключение: ОГ 77 очистит подходы к югу от Пуэрто-Принсеса с помощью противоповерхностных и противолодочных зачисток. ОГ 77 и вспомогательные воздушные подразделения разместят и уничтожат береговые противокорабельные ракетные батареи противника и объекты ЗРК, а затем сопроводят 17-й экспедиционный отряд морской пехоты к десантным пляжам.
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) Угроза: Китайские войска усилили Палаван противокорабельными ракетами берегового базирования, береговыми батареями и тяжелыми прибрежными подразделениями, которые, вероятно, будут скрываться среди рыболовного движения и входов. Советская батарея С-300 к северу от аэропорта с эффективной дальностью 50 нм является наиболее приоритетной угрозой и должна быть уничтожена.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) Связанные силы: Воздушно-десантные средства будут выходить из Сандакан. Союзные транспорты формируются под TG 77.6, их выживание имеет первостепенное значение.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) РЕМАРКИ: Последующие операции ожидаются без возможности перевооружения. Сохранить боеприпасы. Удачи и хорошей охоты. КГ 77 передает.
+        <LineBreak/>
+        <LineBreak/>
+        СЕКРЕТНО
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

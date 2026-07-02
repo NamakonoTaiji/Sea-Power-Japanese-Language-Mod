@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 070300Z OCT 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} MINDORO PHILIPPINEN"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        CINCPACAF HICKAM AFB HI<LineBreak/>
+        CLARK AB PHILIPPINES
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="WARNUNG – FEINDLICHER VORSTOSS GEGEN PALAWAN"/>
+    <StackPanel Grid.Row="9" Grid.ColumnSpan="4">
+    <TextBlock FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        GEHEIM
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) LAGE: Im Rahmen der Operation CHALLENGER wurden US-amerikanisch-philippinische Kräfte auf Palawan an Land gebracht, doch der feindliche Widerstand auf der Insel dauert an. Die Aufklärungl weist darauf hin, dass der sowjetische Flugzeugträger KIEV mit Geleitschiffen ausgelaufen ist, um einen Verstärkungskonvoi nach Palawan zu decken. Der Feind versucht, einen tropischen Sturm auszunutzen, um das Südchinesische Meer zu durchqueren während der Großteil unserer Luftstreitkräfte am Boden bleiben muss und Satellitenaufklärung unmöglich ist. Erreichen diese Kräfte die Insel, könnten sie die Kämpfe an Land entscheiden.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) AUFTRAG: {TaskForceName} verlegt von Palawan nach Nordwesten, spürt die KIEV und den Verstärkungskonvoi auf und zerstört beide, bevor sie Palawan erreichen können.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) DURCHFÜHRUNG: Führen Sie westlich von Luzon eine Säuberungsoperation gegen feindliche Kräfte durch. Schwere tropische Sturmaktivität im Gebiet hat den feindlichen Anmarsch verschleiert und die Luftfahrzeuge beider Seiten am Boden gehalten. Laut Flottenwettervorhersage wird der Sturm jedoch bis 082200Z nachlassen. Sobald die Bedingungen es zulassen, setzen Sie die verfügbaren Luftstreitkräfte der Clark Air Base ein, um feindliche Seestreitkräfte aufzuklären, zu identifizieren und zu bekämpfen. Ziel höchster Priorität ist die KIEV, gefolgt von den Einheiten des Konvois und dessen Geleitschiffen.
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) BEDROHUNG: Der feindliche Verband umfasst die KIEV sowie Kampfschiffe der KARA- und UDALOY-Klasse. Weitere Verbände operieren als Ablenkung. Nach Erkenntnissen der Aufklärung werden Langstreckenbomber der Typen Tu-16K und H-6D aus Cam Ranh oder von Hainan versuchen, die feindlichen Kräfte durch Aufklärung und Angriffe zu unterstützen.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ALLIIERTE KRÄFTE: Die Clark Air Base steht zur Unterstützung durch CAP-, Angriffs- und Seefernaufklärungseinsätze zur Verfügung.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) ANMERKUNGEN: Die feindliche Verstärkung darf Palawan nicht erreichen. Dieser Einsatz wird über den Ausgang sämtlicher bisheriger Operationen entscheiden. Viel Glück und gute Jagd. CTF 77 Ende.
+        <LineBreak/>
+        <LineBreak/>
+        GEHEIM
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+    </StackPanel>
+</Grid>

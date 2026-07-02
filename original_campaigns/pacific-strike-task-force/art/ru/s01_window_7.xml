@@ -16,7 +16,7 @@
 					<ColumnDefinition Width="100"/>
 				</Grid.ColumnDefinitions>
 				
-				<Button Grid.Row="0" Grid.Column="0" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&lt;&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_6.xml"/>
+				<Button Grid.Row="0" Grid.Column="0" Width="100" Height="50" Margin="0,0,0,0" FontSize="16" VerticalAlignment="Center" Content="&lt;&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ru/s01_window_6.xml"/>
 			
 				<TextBlock HorizontalAlignment="Center" FontSize="36" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
 					ВСТУПЛЕНИЕ
@@ -51,7 +51,7 @@
 			</TextBlock>
 			
 			<StackPanel Orientation="Horizontal" Margin="0" HorizontalAlignment="Center">
-				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Назад" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-campaign/art/ru/s01_window_6.xml"/>
+				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Назад" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/ru/s01_window_6.xml"/>
 				<TextBlock VerticalAlignment="Center" FontSize="36" Text="                              "/>
 				<Button Width="100" Height="50" Margin="15" FontSize="16" VerticalAlignment="Bottom" Content="Дальше" Command="{Binding NextCommand}"/>
 			</StackPanel>

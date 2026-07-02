@@ -1,0 +1,187 @@
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  TextElement.Foreground="#D8DCE0"
+  TextElement.FontFamily="Roboto">
+  <Grid.Resources>
+    <Style x:Key="SlideArrowButton" TargetType="{x:Type Button}">
+      <Setter Property="Background" Value="Transparent"/>
+      <Setter Property="Foreground" Value="#8E969E"/>
+      <Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="FontSize" Value="58"/>
+      <Setter Property="FontWeight" Value="Light"/>
+      <Setter Property="Opacity" Value="0.58"/>
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type Button}">
+            <Border Background="{TemplateBinding Background}">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#28383B3F"/>
+                <Setter Property="Opacity" Value="0.82"/>
+              </Trigger>
+              <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#40383B3F"/>
+                <Setter Property="Opacity" Value="0.9"/>
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <DataTemplate x:Key="TaskForceScoreboardUnitRowTemplate">
+      <Border BorderBrush="#222222" BorderThickness="0,0,0,1" Padding="0,8" TextElement.Foreground="Black">
+        <Grid MinHeight="88">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="176"/>
+          </Grid.ColumnDefinitions>
+
+          <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+              <Image Width="22" Height="14" Stretch="Uniform" Source="{Binding NationFlag}" Margin="0,1,7,0"/>
+              <TextBlock Text="{Binding DisplayNameWithQuantity}" FontWeight="Bold" FontSize="14" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" MaxWidth="220"/>
+            </StackPanel>
+            <TextBlock Text="{Binding TypeLine}" FontSize="11" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" Margin="29,1,0,0"/>
+            <StackPanel Orientation="Horizontal" Margin="29,6,0,0">
+              <Border Background="{Binding CrewSkill, Converter={StaticResource CrewSkillToBrushConverter}}" Padding="7,2" MinWidth="70">
+                <TextBlock Text="{Binding ProficiencyDisplay}" Foreground="#141414" FontSize="10" FontWeight="Bold" TextAlignment="Center" TextWrapping="NoWrap"/>
+              </Border>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="29,5,0,0">
+              <ItemsControl ItemsSource="{Binding BattleStarMarkers}">
+                <ItemsControl.ItemsPanel>
+                  <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                  </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                  <DataTemplate>
+                    <Image Width="17" Height="17" Stretch="Uniform" Source="{Binding Image}" Margin="0,0,1,0"/>
+                  </DataTemplate>
+                </ItemsControl.ItemTemplate>
+              </ItemsControl>
+              <TextBlock Text="{Binding BattleStarText}" FontSize="11" FontWeight="Bold" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" Margin="5,1,0,0"/>
+            </StackPanel>
+          </StackPanel>
+
+          <!-- Keep the profile inside a fixed frame so it scales uniformly without clipping. -->
+          <Border Grid.Column="1" Width="168" Height="82" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="8,0,0,0">
+            <Image Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center">
+              <Image.Source>
+                <MultiBinding Converter="{StaticResource IniToProfileConverter}">
+                  <Binding Path="UnitType"/>
+                  <Binding Path="VariantIndex"/>
+                </MultiBinding>
+              </Image.Source>
+            </Image>
+          </Border>
+        </Grid>
+      </Border>
+    </DataTemplate>
+  </Grid.Resources>
+
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="122"/>
+    <ColumnDefinition Width="*"/>
+    <ColumnDefinition Width="122"/>
+  </Grid.ColumnDefinitions>
+
+  <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/19851012_breakingnews_event.xml" VerticalAlignment="Center"/>
+  <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/event_pacific_strike_outro.xml" VerticalAlignment="Center"/>
+
+  <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" Margin="0,18">
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Top" Width="1050" Padding="45" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+      <Border.Effect>
+        <DropShadowEffect />
+      </Border.Effect>
+
+      <StackPanel Orientation="Vertical">
+        <Image Source="{Binding Assets[tg773_scoreboard_header]}" Stretch="UniformToFill" Margin="0,0,0,0"/>
+        <TextBlock Text="{Binding DataSource.PersistentData[PlayerTaskForceName], Converter={StaticResource UppercaseConverter}}" FontWeight="Bold" FontSize="36" TextWrapping="Wrap" TextAlignment="Center" Margin="15,8,0,0"/>
+        <TextBlock Text="WAR IN THE WESTERN PACIFIC" FontWeight="Bold" FontSize="34" TextWrapping="Wrap" TextAlignment="Center" Margin="15,0,0,0"/>
+        <TextBlock Text="JUNE 1985 - NOVEMBER 1985" FontWeight="Bold" FontSize="24" TextWrapping="Wrap" TextAlignment="Center"/>
+
+        <Rectangle HorizontalAlignment="Stretch" Height="3" Fill="Black" Margin="0,12,0,0"/>
+
+        <Grid Margin="0,15,0,15">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="600"/>
+            <ColumnDefinition Width="180"/>
+          </Grid.ColumnDefinitions>
+
+          <TextBlock Grid.Column="0" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold" LineHeight="23">
+            YOKOSUKA<LineBreak/>
+            OKINAWA<LineBreak/>
+            TAIWAN STRAIT<LineBreak/>
+            PALAWAN<LineBreak/>
+            SUNDA STRAIT<LineBreak/>
+            AUSTRALIA<LineBreak/>
+            INDIAN OCEAN
+          </TextBlock>
+
+          <StackPanel Grid.Column="1" Margin="0">
+            <Image Source="{Binding Assets[tg773_scoreboard_results]}" Stretch="Uniform" Width="600" HorizontalAlignment="Center"/>
+            <!-- Scoreboard art is 600px wide with four 150px stat columns. -->
+            <Grid Width="600" HorizontalAlignment="Center" Margin="0,5,0,0">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+              </Grid.ColumnDefinitions>
+
+              <TextBlock Grid.Column="0" Text="{Binding DataSource.TaskForceScoreboardIslandsCaptured}" FontSize="24" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Stretch"/>
+              <TextBlock Grid.Column="1" Text="{Binding DataSource.TaskForceCommanderShipsSunk}" FontSize="24" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Stretch"/>
+              <TextBlock Grid.Column="2" Text="{Binding DataSource.TaskForceCommanderSubmarinesSunk}" FontSize="24" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Stretch"/>
+              <TextBlock Grid.Column="3" Text="{Binding DataSource.TaskForceCommanderAircraftShotDown}" FontSize="24" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Stretch"/>
+            </Grid>
+          </StackPanel>
+
+          <TextBlock Grid.Column="2" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold" LineHeight="23">
+            LOMBOK STRAIT<LineBreak/>
+            JAVA SEA<LineBreak/>
+            SANDAKAN<LineBreak/>
+            SULU SEA<LineBreak/>
+            PUERTO PRINCESA<LineBreak/>
+            LUZON<LineBreak/>
+            SOUTH CHINA SEA
+          </TextBlock>
+        </Grid>
+
+        <Rectangle HorizontalAlignment="Stretch" Height="3" Fill="Black"/>
+
+        <TextBlock Text="TASK FORCE UNITS" FontSize="24" TextWrapping="Wrap" FontWeight="Bold" TextAlignment="Center" Margin="0,16,0,10"/>
+        <Grid Margin="0,0,0,8">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="18"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <StackPanel Grid.Column="0">
+            <TextBlock FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,4">
+              <Run Text="SURFACE / SUBSURFACE UNITS "/>
+              <Run Text="{Binding DataSource.TaskForceScoreboardSurfaceUnitCount}"/>
+            </TextBlock>
+            <ItemsControl ItemsSource="{Binding DataSource.TaskForceScoreboardSurfaceUnits}" ItemTemplate="{StaticResource TaskForceScoreboardUnitRowTemplate}" Visibility="{Binding DataSource.TaskForceScoreboardHasSurfaceUnits, Converter={StaticResource CollapsedConverter}}"/>
+            <TextBlock Text="NO SURVIVING UNITS RECORDED" FontWeight="Bold" FontSize="12" TextAlignment="Center" Margin="0,20,0,0" Visibility="{Binding DataSource.TaskForceScoreboardHasSurfaceUnits, Converter={StaticResource InverseCollapsedConverter}}"/>
+          </StackPanel>
+
+          <Rectangle Grid.Column="1" Width="1" Fill="Black" HorizontalAlignment="Center"/>
+
+          <StackPanel Grid.Column="2">
+            <TextBlock FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,4">
+              <Run Text="ATTACHED SQUADRONS "/>
+              <Run Text="{Binding DataSource.TaskForceScoreboardSquadronCount}"/>
+            </TextBlock>
+            <ItemsControl ItemsSource="{Binding DataSource.TaskForceScoreboardSquadrons}" ItemTemplate="{StaticResource TaskForceScoreboardUnitRowTemplate}" Visibility="{Binding DataSource.TaskForceScoreboardHasSquadrons, Converter={StaticResource CollapsedConverter}}"/>
+            <TextBlock Text="NO SQUADRONS RECORDED" FontWeight="Bold" FontSize="12" TextAlignment="Center" Margin="0,20,0,0" Visibility="{Binding DataSource.TaskForceScoreboardHasSquadrons, Converter={StaticResource InverseCollapsedConverter}}"/>
+          </StackPanel>
+        </Grid>
+      </StackPanel>
+    </Border>
+  </ScrollViewer>
+</Grid>

@@ -41,14 +41,13 @@
         </Border>
 
 		<!-- Player unit summary -->
-		<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
+		<!--<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="{TaskForceName}:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
                 {TaskForceVesselSummaryRuns}
-                <Run Text="JDS Тачикадзе DDG-168"/><LineBreak/>
-                <Run Text="USS Роберт Э. Пири FF-1073"/>
            </TextBlock>
-		</Border>   
+		</Border>-->
+		
 		<!-- Mission Area Ellipse -->
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="240" Canvas.Top="440" >
 			<Ellipse Width="100" Height="100" Opacity="0.25" Fill="{StaticResource NTDS.HostileColour}"/>
@@ -73,7 +72,7 @@
 		<!-- P-3C group icon and text -->
 		<StackPanel Orientation="Vertical" Canvas.Left="450" Canvas.Top="550">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="JMSDF P-3C 7th FAS 'Омега'"/>
+                <Run Text="JMSDF P-3C 9th FAS 'Систар'"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.FriendColour}" Data="{StaticResource NTDS.Allied.Air}"/>

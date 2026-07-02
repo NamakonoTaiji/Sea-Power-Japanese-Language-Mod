@@ -1,0 +1,146 @@
+<!-- Campaign event template for JCS-style message traffic - header follows RichMissionMessages USAJCS format -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+        </Border.Background>
+        
+        <StackPanel Orientation="Vertical">
+
+        <Grid
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Margin="0" FontFamily="Roboto Mono" FontSize="14" TextAlignment="Center" HorizontalAlignment="Center">
+                国防総省<LineBreak/>
+                統合参謀本部メッセージセンター
+            </TextBlock>
+            
+        </Grid>
+
+            <Grid
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" FontSize="16">
+                    緊急（FLASH）<LineBreak/>
+                    Z 091430Z JUL 85
+                </TextBlock>
+
+                <TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUEKJCS4169 1901430"/>
+                
+                <TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="発"/>
+                <TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="統合参謀本部（ワシントンDC）"/>
+                <TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="宛"/>
+                <TextBlock Grid.Row="4" Grid.Column="2" FontSize="16" Text="ホワイトハウス状況室（ワシントンDC）//状況室//"/>
+                <TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="報"/>
+                <TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="国防長官（ワシントンDC）"/>
+                <TextBlock Grid.Row="12" Grid.Column="2" FontSize="16" Text="国務長官（ワシントンDC）"/>
+                <TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="中央情報長官/CIA（ワシントンDC）"/>
+                <TextBlock Grid.Row="14" Grid.Column="0" FontSize="16" Text="件名"/>
+                <TextBlock Grid.Row="14" Grid.Column="2" FontSize="16" Text="統合参謀本部状況報告001――パラワン島侵攻と戦略的影響"/>
+
+                <TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+                    <LineBreak/>
+                    極秘
+                    <LineBreak/>
+                    BT
+                    <LineBreak/>
+                    <LineBreak/>
+                    1. (S) 要約：初期の情報によれば、ソ連軍の支援のもと中国軍の大規模な突撃部隊がフィリピン西部のパラワン島に上陸した。現地の防衛網は速やかに制圧された。敵地上部隊は現在、パラワン島南部を支配下に置いており、プエルト・プリンセサ近郊の諸施設を確保すべく進撃中である。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+                    2. (S) 敵の行動：カムラン湾からのソ連軍大型揚陸艦および打撃機がこの強襲を支援し、中国軍部隊を大規模に上陸させた。後続の第二波部隊には、恒久的な拠点を強固にするための弾薬、工兵、燃料、および防空装備が含まれている可能性がある。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    3. (S) 海上における脅威：
+                </TextBlock>    
+                <TextBlock Grid.Row="18" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0"> 
+                    - バラバク海峡を通過しようとした米軍およびフィリピン軍部隊に対し、沿岸からの対艦ミサイル攻撃が報告されている。
+                    <LineBreak/>
+                    - 中国およびソ連の潜水艦が、バラバク海峡およびその周辺の接近経路で行動中とみられる。
+                    <LineBreak/>
+                    - バラバク海峡およびパラワン海路に至る要衝の接近経路において、機雷の敷設が行われた模様。
+                    <LineBreak/>
+                </TextBlock>    
+                <TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    4. (S) 友軍および周辺地域の状況：当該海域に展開可能な同盟軍戦力は、パラワン島への上陸を押し戻すには不十分である。マレーシアおよびフィリピンに対する激しい空襲により、地域の打撃能力は制圧されており、侵攻部隊に対抗できる信頼基盤を持った現地航空戦力は残されていない。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="21" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    5. (S) 方針および部隊態勢：南シナ海を経由したシンガポールへの同盟軍海軍部隊の移動は、孤立化の重大なリスクを伴うため、もはや維持不可能と判断される。統合参謀本部は、フィリピンの抵抗勢力への支援を継続しつつ、展開可能な米軍および同盟軍戦力をオーストラリアのダーウィンへ即時再集結させることを勧告する。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="23" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    6. (S) 評価：敵によるパラワン島の制圧は、東南アジアにおける米軍の作戦行動を著しく困難にし、南シナ海に進入する米軍部隊が遮断される危険性を高めている。もしインドネシアが現在の機能麻痺状態からソ連支持へと傾けば、南方の出口は速やかに封鎖され、主要部隊が兵站支援から切り離されたまま、カムラン湾発のソ連軍爆撃機の航続圏内に閉じ込められる恐れがある。以後の状況報告は12時間間隔で行う。
+                    <LineBreak/>
+                </TextBlock>
+                <TextBlock Grid.Row="25" Grid.ColumnSpan="4" TextWrapping="Wrap">
+                    国家軍事指揮センター
+                    <LineBreak/>
+                    <LineBreak/>
+                    BT
+                    <LineBreak/>
+                    極秘 DECL OADR
+                    <LineBreak/>
+                </TextBlock>
+            </Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

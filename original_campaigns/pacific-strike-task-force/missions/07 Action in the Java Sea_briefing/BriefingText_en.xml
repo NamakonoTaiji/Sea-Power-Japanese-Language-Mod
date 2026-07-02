@@ -32,7 +32,7 @@
         <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
         CINCPACFLT PEARL HARBOR HI<LineBreak/>
-        COMPACAF HICKAM AFB HI<LineBreak/>
+        CINCPACAF HICKAM AFB HI<LineBreak/>
         HQ AIR COMMAND RAAF GLENBROOK NSW AU
         </TextBlock>
         <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
@@ -56,7 +56,7 @@
         5. (S) ALLIED FORCES: Indonesia is allowing Allied air to stage out of Surabaya for this operation. Air assets previously at Broome have relocated north and will be available for tasking. U.S. submarines are active in the Java Sea, but are not under your tactical command.
         <LineBreak/>
         <LineBreak/>
-        6. (S) REMARKS: This operation has been ordered by the President himself to relieve pressure on Indonesia and bring them back into the war on our side. Success is paramount. CINCPAC has full confidence that the officers, crews, and pilots of {TaskForceName} can get the job done. Good luck and good hunting. CTF 77 sends.
+        6. (S) REMARKS: This operation has been ordered by the President himself to relieve pressure on Indonesia and bring them back into the war on our side. Success is paramount. CINCPAC has full confidence that the officers, sailors, and pilots of {TaskForceName} can get the job done. Good luck and good hunting. CTF 77 sends.
         <LineBreak/>
         <LineBreak/>
         SECRET

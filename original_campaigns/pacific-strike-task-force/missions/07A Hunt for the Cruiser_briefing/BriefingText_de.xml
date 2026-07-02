@@ -32,13 +32,14 @@
         <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
     <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
         HMAS PLATYPUS<LineBreak/>
+        COMAUSFLT<LineBreak/>
         CINCPACFLT<LineBreak/>
         COMSUBPAC
         </TextBlock>
         <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
         <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="KONTAKTBERICHT - SÜDCHINESISCHES MEER"/>
         <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
-        GEHEIM - REL: US
+        GEHEIM - REL: US, JAPAN
         <LineBreak/>
         <LineBreak/>
         1. (S) DIE SATELLITENAUFKLÄRUNG HAT EINEN FEINDLICHEN KAMPFVERBAND UM EINEN KREUZER DER SLAVA-KLASSE IDENTIFIZIERT, DER CAM RANH BAY VERLÄSST UND MIT KURS 140 BEI 18 KNOTEN NACH SÜDOSTEN LÄUFT.
@@ -56,6 +57,6 @@
 		5. (S) MELDEN SIE DIE POSITION DER VERSENKUNG UND ERWARTEN SIE WEITERE BEFEHLE.
         <LineBreak/>
         <LineBreak/>
-        GEHEIM - REL: US
+        GEHEIM - REL: US, JAPAN
     </TextBlock>
 </Grid>

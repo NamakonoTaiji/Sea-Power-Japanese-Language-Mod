@@ -1,0 +1,78 @@
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="820" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="54">
+    <Border.Effect>
+      <DropShadowEffect />
+    </Border.Effect>
+    <Border.Background>
+      <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+    </Border.Background>
+
+    <StackPanel Orientation="Vertical">
+      <Grid Margin="0,0,0,22">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Text="СЕКРЕТНО" FontWeight="Bold"/>
+        <TextBlock Grid.Column="1" Text="S/S 8528428" FontWeight="Bold"/>
+      </Grid>
+
+      <TextBlock TextAlignment="Center" FontFamily="Times New Roman" FontSize="23" FontWeight="Bold" Text="Государственный департамент США"/>
+      <TextBlock TextAlignment="Center" FontFamily="Times New Roman" FontSize="18" Text="Вашингтон, округ Колумбия 20520"/>
+      <TextBlock TextAlignment="Right" Margin="0,15,0,0" Text="28 августа 1985"/>
+
+      <Grid Margin="0,15,0,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="200"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Память для:"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Мистер Роберт К. Макфарлейн"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="THE WHITE HOUSE"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="0,18,0,0" Text="Из:"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="0,18,0,0" Text="Джордж П. Шульц"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="0,18,0,0" Text="Субъект:"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="0,18,0,0" Text="Индонезия возвращается в войну"/>
+      </Grid>
+      <TextBlock TextWrapping="Wrap" FontSize="16">
+		<LineBreak/>
+		Индонезия вновь вступил в войну в качестве активного союзника. Решение последовало за устранением основной советской поверхностной угрозы, действующей к северу от Джакарты во время действия Яванское море 26AUG союзнической поверхностью оперативная группа. Президент Сухарто вновь появился в Джакарте и восстанавливает контроль над правительством Индонезии.
+		<LineBreak/>
+		<LineBreak/>
+		Захват противником Палаван был смелой операцией, проведенной в то время, когда силы союзников были вытеснены через Западная часть Тихого океана. В настоящее время силы НОАК удерживают передовой форпост, который угрожает трафику через западный Филиппины и лишает нас доступа к Южно-Китайское море.
+		<LineBreak/>
+		<LineBreak/>
+		Требование о консолидации Юго-Восточной Азии снизило гибкость союзников с начала июля. Агрессивные действия Пакта заставили нас тратить ограниченные возможности доставки, запасы топлива и боеприпасов в театре, не являющемся частью какого-либо первоначального планирования.
+		<LineBreak/>
+		<LineBreak/>
+		С возвращением Индонезия в войну американские войска могут начать сдвиг на север. Следующий этап наступления будет направлен против китайского бастиона на острове Палаван. Малайзия предложил Сандакан в Северном Борнео в качестве одного из нескольких союзных районов для операции Палаван.
+		<LineBreak/>
+		<LineBreak/>
+		Союзное верховное командование приказало оперативным силам вернуть Палаван не позднее 1 ноября 1985 года. Что касается Индонезия, государство рекомендует президенту приветствовать решение Индонезия в частном порядке. Публичный язык должен подчеркивать региональный суверенитет и не должен подразумевать, что Вашингтон направил возвращение Джакарты к войне.
+		<LineBreak/>
+		<LineBreak/>
+		Каналы ООН сообщают о случаях нарушения прав человека в Индонезия по мере возвращения центральной власти, особенно против коренного населения Китая. Учитывая стратегический фон, государство рекомендует отложить этот вопрос до послевоенного урегулирования.
+      </TextBlock>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16" LineHeight="26" Margin="0,34,0,0">
+        Джордж П. Шульц
+		<LineBreak/>
+		<LineBreak/>
+		cc: Вице-президент; министр обороны; председатель, JCS
+		<LineBreak/>
+		<LineBreak/>
+		DECL: OADR
+	  </TextBlock>
+      <TextBlock TextAlignment="Center" Margin="0,22,0,0" FontWeight="Bold" Text="СЕКРЕТНО"/>
+    </StackPanel>
+  </Border>
+</ScrollViewer>

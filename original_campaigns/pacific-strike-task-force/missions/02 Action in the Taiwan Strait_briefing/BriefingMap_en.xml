@@ -44,7 +44,6 @@
 		
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="Taiwan Strait" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="800" Canvas.Top="450"/>
-		<TextBlock Foreground="Black" Text="Taipei" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="800" Canvas.Top="575"/>
 		<TextBlock Foreground="Black" Text="Dongyin Island" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="475" Canvas.Top="75"/>
 		
 		<!-- {TaskForceName} group icon and text -->

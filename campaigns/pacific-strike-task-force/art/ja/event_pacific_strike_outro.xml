@@ -1,0 +1,105 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  TextElement.Foreground="#D8DCE0"
+  TextElement.FontFamily="Roboto">
+  <Grid.Resources>
+    <Style x:Key="SlideArrowButton" TargetType="{x:Type Button}">
+      <Setter Property="Background" Value="Transparent"/>
+      <Setter Property="Foreground" Value="#8E969E"/>
+      <Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="FontSize" Value="58"/>
+      <Setter Property="FontWeight" Value="Light"/>
+      <Setter Property="Opacity" Value="0.58"/>
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type Button}">
+            <Border Background="{TemplateBinding Background}">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#28383B3F"/>
+                <Setter Property="Opacity" Value="0.82"/>
+              </Trigger>
+              <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#40383B3F"/>
+                <Setter Property="Opacity" Value="0.9"/>
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+  </Grid.Resources>
+
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="122"/>
+    <ColumnDefinition Width="*"/>
+    <ColumnDefinition Width="122"/>
+  </Grid.ColumnDefinitions>
+
+  <Button Grid.Column="0" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&lt;" Command="{Binding OpenFileCommand}" CommandParameter="campaigns/pacific-strike-task-force/art/event_task_force_77_combat_record_ja.xml" VerticalAlignment="Center"/>
+  <Button Grid.Column="2" Width="96" Height="190" Style="{StaticResource SlideArrowButton}" Content="&gt;" Command="{Binding NextCommand}" VerticalAlignment="Center"/>
+
+  <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" Margin="0,18">
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" MinHeight="1000" Padding="45" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+      <Border.Effect>
+        <DropShadowEffect />
+      </Border.Effect>
+      <Border.Background>
+        <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+      </Border.Background>
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Vertical">
+
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="3*"/>
+              <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="海軍電信" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="*******極  秘*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="海軍省" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+          </Grid>
+
+          <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+          <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+          <TextBlock Text="殊勲である、指揮官！" FontSize="16" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Left" Margin="0,18,35,0"/>
+
+          <TextBlock Text="パシフィック・ストライク・キャンペーンの序章を完了したことを祝する。" FontSize="16" TextWrapping="Wrap" TextAlignment="Left" Margin="0,22,0,0"/>
+
+          <TextBlock Text="太平洋における戦争はまだ終わっていない。東南アジアおよびフィリピン沖における敵軍の進撃は阻止されたものの、日本、韓国、台湾の周辺、および南シナ海では依然として激しい戦闘が継続中である。" FontSize="16" TextWrapping="Wrap" TextAlignment="Left" Margin="0,22,35,0"/>
+      
+      <TextBlock Text="キャンペーンの完了に伴い、現在の任務部隊を使用してパシフィック・ストライクの任意のミッションを再プレイ可能となった。" FontSize="16" TextWrapping="Wrap" TextAlignment="Left" Margin="0,22,35,0"/>
+     
+          <TextBlock Text="更なる作戦は今後のアップデートにて追加予定である。" FontSize="16" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Left" Margin="0,18,35,0"/>
+
+          <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,24,0,0"/>
+
+          <TextBlock Text="SEA POWERクローズドベータチームへの特別謝辞" FontWeight="Bold" FontSize="18" TextWrapping="Wrap" TextAlignment="Center" Margin="15,22,15,0"/>
+          <TextBlock Text="Paolo Capilli, James Parker, alex6511, OneiraNautica, Fake Nate, moloti, Cyclic, Pepe Silvia, Neu, Phil (pogfrog), Angus Henderson, darthmac, Bernardo Scheliga, SqnLdrMartin, valoda, that_person, Cassiopeia Knox, Michael Durao, Felocity787, Argent Usher, Jedigamer723, Rooster, Kraznova, iblank, Minf, Ewok Pilot, Christian Thome, MatiasTorres8492, reis.the.best, Duudze, TunderTunder, L963 - ほか、多大なる貢献をした全てのメンバーに感謝を！" FontSize="13" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Vertical" VerticalAlignment="Bottom" Margin="0,24,0,0">
+          <TextBlock Text="プレイに感謝する" FontWeight="Bold" FontSize="28" TextWrapping="Wrap" TextAlignment="Center" Margin="15,0,15,0"/>
+          <Image Source="{Binding Assets[s01_pacific_strike_title]}" Height="60" Stretch="Uniform" HorizontalAlignment="Center" Margin="0,18,0,0"/>
+          <TextBlock Text="――Triassic Gamesチーム一同" FontWeight="Bold" FontSize="16" TextWrapping="Wrap" TextAlignment="Center" Margin="15,35,15,0"/>
+        </StackPanel>
+      </Grid>
+    </Border>
+  </ScrollViewer>
+</Grid>

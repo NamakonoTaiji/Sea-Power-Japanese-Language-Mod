@@ -1,0 +1,161 @@
+<!-- Campaign event template for standard USN-style "daily intentions message" (DIM) - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="ВОЕННО-МОРСКОЕ СООБЩЕНИЕ" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="******* E C R E T*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="МИНИСТЕРСТВО ВМС" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+			
+		</Grid>
+		
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="16">
+					СРОЧНОЕ СООБЩЕНИЕ<LineBreak/>
+					O 082100Z AUG 85
+				</TextBlock>
+				
+				<TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUHGOAA0777 2202100"/>
+
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="От кого:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="CTF 77"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="Кому:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="16" Text="TF 77, CVW-9, NAVFAC DARWIN, 10 SQN RAAF"/>
+				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="Копия:"/>
+				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="CINCPACFLT"/>
+				<TextBlock Grid.Row="13" Grid.Column="0" FontSize="16" Text="Суби:"/>
+				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="SITREP 09/1200Z - 10/1200Z - MSG NO 047/85"/>
+
+				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					<LineBreak/>
+					СЕКРЕТНО
+					<LineBreak/>
+					<LineBreak/>
+					1. (S) СТРАТЕГИЧЕСКАЯ СИТУАЦИЯ: Силы США и союзников объединились в Дарвин после падения Сингапур и Малайзия. Вражеские силы продолжают двигаться на юго-восток, и разведка подозревает, что их цель - полностью изолировать союзные войска, сражавшиеся на Лусон, вынудив урегулирование. Нейтрализация Суматры и Явы противником теперь позволяет ему полный доступ к Индийский океан, откуда войска СССР могут угрожать Персидскому заливу, западному Австралия и Южной Африке. Советские военно-морские воздушные подразделения пользуются свободой действий от Владивостока на юг до залива Камрань, и их подводные лодки, как сообщается, входят в Тиморское море.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					2. (S) МИССИЯ: ОГ 77 будет вести оборону миссии Австралия совместно с союзными войсками в Дарвин с КГ 77 в общем командовании.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					3. (S) ОГ 77 STATUS:
+				</TextBlock>	
+				<TextBlock Grid.Row="18" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">	
+					KITTY HAWK остается в Puget Sound для ремонта после минного удара по Йокосука.
+					<LineBreak/>
+					Элементы CVW-9, работающие на берегу от Дарвин.
+					<LineBreak/>
+					MOOSBRUGGER отстранился от срочной службы в Куктауне по просьбе австралийского правительства.
+					<LineBreak/>
+					VAW-114 Hawkeye проиграл Восточному Тимору 07AUG. Замена входящего из CVW-14 ETA 14AUG.
+					<LineBreak/>
+				</TextBlock>				
+				<TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					4. (S) Взятые силы:
+				</TextBlock>
+				<TextBlock Grid.Row="20" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+					Австралия: силы RAAF F-111 сильно истощены в запретительных ударах по вражеским силам, расположенным в Индонезия. Поисковый радар RAAF JORN OTH отключил 03AUG вражескими агентами.
+					<LineBreak/>
+					Малайзия/Индонезия: Дружеские силы разбросаны или сдались. Никакого организованного сопротивления от этих сил не ожидалось.
+					<LineBreak/>
+					Сингапур: Полный разгром привел к полной потере RN Force F. Другие британские силы полностью задействованы в Атлантике и Меде.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="21" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					5. (S) Интел/Угроза:
+				</TextBlock>
+				<TextBlock Grid.Row="22" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+					Австралийские береговые наблюдатели были тайно введены в Индонезия для мониторинга движения через критические точки удушья (Sunda, Ломбок, Ombai / Wetar).
+					<LineBreak/>
+					Увеличение активности «Беар-Д» над Тиморским и Арафурским морями указывает на возможный вылет противника в нашем направлении в ближайшие 48-72 часа. VF-111 сообщает об одном сбитом и одном Беар-Д, сбежавшем из 08AUG.
+					<LineBreak/>
+					Сигнит указывает на вражеские подводные лодки, начинающие транзит на юг.
+					<LineBreak/>
+				</TextBlock>	
+				<TextBlock Grid.Row="23" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					6. (S) РЕМАРКИ: Это критический переломный момент в кампании против врага. Мы были отброшены дальше, чем можно было ожидать, но при надлежащей координации мы можем остановить холод врага здесь. Удачи и хорошей охоты. КГ 77 передает.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="24" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					Подпись: К. Ф. Робисон
+					<LineBreak/>
+					CTF 77
+					<LineBreak/>
+					<LineBreak/>
+					СЕКРЕТНО
+					<LineBreak/>
+					DO NOT DECLASSIFY WITHOUT APPROVAL OF ADDRESSEE
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

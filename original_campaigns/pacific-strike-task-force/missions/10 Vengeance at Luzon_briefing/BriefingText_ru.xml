@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 070300Z OCT 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} MINDORO PHILIPPINES"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Копия:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        CINCPACAF HICKAM AFB HI<LineBreak/>
+        CLARK AB PHILIPPINES
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="WARNING-SORTIE AGAINST PALAWAN"/>
+    <StackPanel Grid.Row="9" Grid.ColumnSpan="4">
+    <TextBlock FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        СОВЕРШЕННО СЕКРЕТНО
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) Положение: Операция «Шалленджер» вывела американо-филиппинские силы на берег Палаван, но сопротивление противника на берегу остается тяжелым. Национальные технические средства указывают на то, что советский авианосец KIEV выполнил вылазку с подразделениями сопровождения для прикрытия конвоя подкрепления, направлявшегося на Палаван. Враг пытается использовать тропический шторм для транзита Южно-Китайское море, в то время как большая часть нашего воздуха заземлена, а разведка спутника невозможна. Если эти силы достигнут острова, они могут решить битву на берегу.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) МИССИЯ: {TaskForceName} проследует на северо-запад от Палаван, найдет KIEV и конвой подкрепления и уничтожит их, прежде чем они смогут достичь Палаван.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) Исключение: Провести антиповерхностную зачистку к западу от Лусон. Тяжелая активность тропических штормов в этом районе маскирует приближение противника и приземление самолетов с обеих сторон, но прогноз погоды флота показывает, что шторм поднимается на 082200Z. Как только позволят условия, используйте имеющиеся воздушные средства авиабаза Кларк для поиска, идентификации и нанесения ударов по вражеским военно-морским частям. Приоритетной целью является КИЕВ, за которым следуют конвои и сопровождение.
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) Угроза: Силы противника включают KIEV с комбатантами класса KARA и UDALOY, с дополнительными поверхностными группами, действующими в качестве диверсий. Разведка указывает, что дальние бомбардировщики (Tu-16K, H-6D) из Камрань или Хайнаня попытаются прикрыть надводные силы противника для разведки и удара.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) Связанные силы: авиабаза Кларк доступен для поддержки CAP, забастовки и морского патрулирования.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) Усиление противника не должно достигать Палаван. Это действие определит исход всех наших операций, ведущих к этому моменту. Удачи и хорошей охоты. КГ 77 передается.
+        <LineBreak/>
+        <LineBreak/>
+        СЕКРЕТНО
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+    </StackPanel>
+</Grid>

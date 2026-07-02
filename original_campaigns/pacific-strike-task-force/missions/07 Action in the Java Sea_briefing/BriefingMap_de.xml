@@ -42,7 +42,6 @@
 		<!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" Text="Javasee" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="550" Canvas.Top="150"/>
 		<TextBlock Foreground="Black" Text="Java" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="550" Canvas.Top="450"/>
-		<TextBlock Foreground="Black" Text="Bali" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Canvas.Left="1015" Canvas.Top="625"/>
 		<TextBlock Foreground="Black" Text="INDONESIEN" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Canvas.Left="450" Canvas.Top="500"/>
 		
 		<!-- {TaskForceName} -->

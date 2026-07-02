@@ -50,7 +50,7 @@
         </StackPanel>
 		
 		<!-- Broome Field (YBRM) -->
-		<StackPanel Orientation="Vertical" Canvas.Left="625" Canvas.Top="525">
+		<StackPanel Orientation="Vertical" Canvas.Left="635" Canvas.Top="525">
 			<TextBlock Foreground="Blue" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
                 <Run Text="Broome Field (YBRM)"/>
             </TextBlock>

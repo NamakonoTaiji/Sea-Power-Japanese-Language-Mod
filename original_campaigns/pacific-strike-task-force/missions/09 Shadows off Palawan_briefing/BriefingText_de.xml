@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 100300Z OCT 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="VON"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="AN"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} SANDAKAN MALAYSIA"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        81 WING (PROVISIONAL) RAAF SANDAKAN MALAYSIA
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="BETR"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="OPLAN-OPERATION CHALLENGER"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        STRENG GEHEIM
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) Dies ist ein BEFEHL auf Weisung des Verteidigungsministers.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) LAGE: Feindliche Kräfte halten Palawan mit Stützpunkten bei Puerto Princesa und Quezon. Alliierte Kräfte sind durch die Kämpfe in Korea, Japan und der Taiwanstraße überdehnt, während südostasiatische Verbündete begrenzte Bodentruppen, jedoch kaum verbleibende Luft- oder Seestreitkräfte bereitstellen können. Die Offensiven des Pakts in Europa und im Pazifik haben die Vorkriegsschätzungen übertroffen, die chinesische Einnahme Palawans mit sowjetischer Unterstützung hat die operative Bewegungsfreiheit der Alliierten erheblich eingeschränkt. Die Rückeroberung Palawans hat höchste Priorität.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) AUFTRAG: Alliierte Kräfte führen Operation CHALLENGER aus und landen einen gemeinsamen US-amerikanisch-philippinischen Verband auf Palawan, um die Insel zurückzuerobern.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) DURCHFÜHRUNG: TF 77 wird die Anmarschwege südlich von Puerto Princesa durch See- und U-Jagd-Säuberungen freikämpfen. TF 77 und unterstützende Luftkräfte werden feindliche Küstenflugkörperbatterien und SAM-Stellungen aufklären und zerstören und anschließend die 17th MAU zu den Landungsstränden eskortieren.
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) BEDROHUNG: Chinesische Kräfte haben Palawan mit landgestützten Seezielflugkörpern, Küstenbatterien und schweren Küsteneinheiten verstärkt, die sich vermutlich zwischen Fischereiverkehr und in Buchten verbergen. Eine sowjetische S-300-Batterie nördlich des Flughafens mit einer effektiven Reichweite von 50 sm stellt die Bedrohung höchster Priorität dar und muss zerstört werden.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ALLIIERTE KRÄFTE: Luftkräfte der Bordluftgruppe werden von Sandakan aus eingesetzt. Die alliierten Transportschiffe sind unter TG 77.6 formiert, ihr Überleben ist von höchster Bedeutung.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) ANMERKUNGEN: Folgeoperationen werden erwartet, ohne Möglichkeit zur Wiederbewaffnung. Sparen Sie Munition. Viel Glück und gute Jagd. CTF 77 Ende.
+        <LineBreak/>
+        <LineBreak/>
+        STRENG GEHEIM
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>

@@ -101,7 +101,7 @@
 		<!-- USSR Alfa -->
 		<StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="175">
 			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                <Run Text="Alfa-class SSN"/>
+                <Run Text="Victor-class SSN"/>
             </TextBlock>
 			<Canvas Width="22.5" Height="22.5" HorizontalAlignment="Center">
                 <Path StrokeThickness="{DynamicResource ContactIconThickness}" Stroke="{StaticResource NTDS.HostileColour}" Data="{StaticResource NTDS.Enemy.Submarine}"/>

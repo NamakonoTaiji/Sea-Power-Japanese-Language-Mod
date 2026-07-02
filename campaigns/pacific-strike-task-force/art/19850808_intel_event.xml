@@ -1,0 +1,155 @@
+<!-- Campaign event template for standard USN-style "daily intentions message" (DIM) - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="NAVAL MESSAGE" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="*******S E C R E T*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="NAVY DEPARTMENT" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+			
+		</Grid>
+		
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="16">
+					IMMEDIATE<LineBreak/>
+					O 082100Z AUG 85
+				</TextBlock>
+				
+				<TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUHGOAA0777 2202100"/>
+
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="FM"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="CTF 77 DARWIN NT AU"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="TO"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="16">
+					<Run Text="COMMANDER"/>
+					<Run Text="{Binding DataSource.PersistentData[PlayerTaskForceName], Converter={StaticResource UppercaseConverter}}"/>
+					<Run Text="DARWIN NT AU"/>
+				</TextBlock>
+				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="INFO"/>
+				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="CINCPACFLT PEARL HARBOR HI"/>
+				<TextBlock Grid.Row="12" Grid.Column="2" FontSize="16" Text="COMAUSFLT CANBERRA ACT AU"/>
+				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="HQ AIR COMMAND RAAF GLENBROOK NSW AU"/>
+				<TextBlock Grid.Row="14" Grid.Column="0" FontSize="16" Text="SUBJ"/>
+				<TextBlock Grid.Row="14" Grid.Column="2" FontSize="16" Text="INTSUM 08/1200Z - 09/1200Z"/>
+
+				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					<LineBreak/>
+					SECRET
+					<LineBreak/>
+					BT
+					<LineBreak/>
+					<LineBreak/>
+					1. (S) SUMMARY: Allied forces in Southeast Asia have fallen back to Darwin as the principal Allied concentration base. Enemy forces are attempting to close the straits giving access to the Java Sea, South China Sea, and eastern Indian Ocean in order to isolate Singapore and sever remaining Allied SLOCs.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					2. (S) ENEMY SITUATION:
+				</TextBlock>
+				<TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+					- Soviet commando force exploited Indonesian command disarray and landed at Bali, occupying Denpasar Airfield and adjacent support facilities.
+					<LineBreak/>
+					- Enemy surface, submarine, and air units continue probing Sunda, Lombok, and Ombai/Wetar approaches.
+					<LineBreak/>
+					- KIROV surface group has been detected intermittently operating somewhere in the Indian Ocean after departing Cam Ranh Bay approximately two weeks ago. Current course and intent are unknown.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					3. (S) FRIENDLY STATUS:
+				</TextBlock>	
+				<TextBlock Grid.Row="20" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">	
+					- TF 77 remains combat effective after withdrawal from Singapore approaches and consolidation at Darwin.
+					<LineBreak/>
+					- Elements of CVW-9 are operating shore-based from Darwin under CTF 77 coordination.
+					<LineBreak/>
+					- Singapore and Malaysia have been heavily suppressed with their air/naval forces mostly destroyed.
+					<LineBreak/>
+					- Indonesia remains in turmoil with its president missing. State believes Soviets are attempting to offer them a deal for neutrality.
+					<LineBreak/>
+					- KITTY HAWK remains unavailable after mine damage at Yokosuka, expected return to action no later than 01JAN.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="22" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					4. (S) ASSESSMENT: Enemy control of Palawan, Bali, and the Indonesian straits now gives Pact forces effective control over the principal access points between the South China Sea and the Indian Ocean. With India permitting Soviet basing and support activity, Southeast Asian forces suppressed, and Indonesia politically paralyzed, Soviet units can move between Cam Ranh, Indian Ocean staging areas, and the Australian approaches with limited interference.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="25" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					SIGNED: CTF 77 N2
+					<LineBreak/>
+					<LineBreak/>
+					BT
+					<LineBreak/>
+					SECRET DECL OADR
+					<LineBreak/>
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

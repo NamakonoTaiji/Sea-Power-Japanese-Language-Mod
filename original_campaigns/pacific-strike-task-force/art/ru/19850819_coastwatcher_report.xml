@@ -1,0 +1,102 @@
+<!-- Pacific Strike classified coastwatcher event: naval-message paper format. -->
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" MinHeight="1000" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+    <Border.Effect>
+      <DropShadowEffect />
+    </Border.Effect>
+    <Border.Background>
+      <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+    </Border.Background>
+
+    <StackPanel Orientation="Vertical">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="3*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0" Text="ВОЕННО-МОРСКОЕ СООБЩЕНИЕ" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+        <TextBlock Grid.Column="1" Text="******* E C R E T*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock Grid.Column="2" Text="МИНИСТЕРСТВО ВМС" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+      </Grid>
+
+      <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+      <Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="10"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Left" FontSize="16">
+          PRIORITY<LineBreak/>
+          O 192000Z AUG 85
+        </TextBlock>
+
+        <TextBlock Grid.Row="0" Grid.Column="3" FontSize="16" Text="ZYUW RAYOC0777 2312000"/>
+      </Grid>
+
+      <Grid Margin="0,18,0,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="10"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" FontSize="16" Text="От кого:"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" FontSize="16" Text="COASTWATCHER NET LOMBOK VIA RAN DARWIN NT AU"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" FontSize="16" Text="Кому:"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" FontSize="16" Text="CTF 77 DARWIN NT AU"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16" Text="Копия:"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" FontSize="16">
+          CINCPACFLT PEARL HARBOR HI<LineBreak/>
+          HQ AIR COMMAND RAAF GLENBROOK NSW AU<LineBreak/>
+          INDONESIAN NAVAL LIAISON DARWIN NT AU
+        </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="Тема:"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="КОСТВАТЕР-РЕПОРТ - BALI/LOMBOK AREA"/>
+      </Grid>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16" Margin="0,24,0,0">
+        СЕКРЕТНО
+        <LineBreak/>
+        BT
+        <LineBreak/><LineBreak/>
+        1. (S) РЕЗЮМЕ: Источники береговой охраны союзников сообщают о консолидации советских и союзных войск вокруг аэродрома Денпасар и Ломбокский пролив. Активность противника указывает на подготовку к удержанию пролива против проникновения поверхности.
+        <LineBreak/><LineBreak/>
+        2. (S) ВЗГЛЯДЫ: Два комбатанта размером с эсминец наблюдались к северу от Ломбокский пролив во время последнего светового 19AUG. Меньшие быстроходные патрульные корабли сообщали, что действовали парами внутри пролива. Несколько вооруженных вспомогательных и десантных кораблей остаются вблизи Бали.
+        <LineBreak/><LineBreak/>
+        3. (S) Защита от выстрелов: Наблюдатели сообщают о работе радаров и позициях тяжелых орудий вблизи аэродрома Денпасар. За последние 48 часов по крайней мере одна береговая ракетная батарея дважды перемещалась. Также сообщается о местах размещения ААА вблизи аэродрома.
+        <LineBreak/><LineBreak/>
+        4. (S) ДЕЙСТВИТЕЛЬНОСТЬ В воздухе: реактивные самолеты короткого взлета наблюдались с аэродрома Бали в ограниченном количестве. Самолеты оставались местными и не преследовали гражданское движение за пределами видимости. Патрули ротационных крыльев продолжаются вдоль побережья тандемными вертолетами, оснащенными противотанковым оружием и бомбами, вероятно, типа Ка-29 от IVAN ROGOV или класса ROPUCHA LST, сфотографированными в гавани.
+        <LineBreak/><LineBreak/>
+        5. (S) CIVILIAN TRAFFIC: Рыболовные суда остаются в Ломбокский пролив, несмотря на неоднократные предупреждения. Некоторые суда могут находиться под наблюдением или принуждением противника. Положительная идентификация необходима до начала работы.
+        <LineBreak/><LineBreak/>
+        6. (S) ОБЯЗАТЕЛЬСТВО: Враг намерен оспорить проход союзников, чтобы отложить облегчение Индонезия. Источники сообщают об отсутствии подтвержденной активности подводных лодок в непосредственной близости.
+        <LineBreak/><LineBreak/>
+        КАПТАИН М.С. СУЛЛИВАН, РАН
+		<LineBreak/>
+		ROYAL AUSTRALIAN NAVY LIAISON
+        <LineBreak/><LineBreak/>
+        BT
+        <LineBreak/>
+        SECRET DECL OADR
+      </TextBlock>
+    </StackPanel>
+  </Border>
+</ScrollViewer>

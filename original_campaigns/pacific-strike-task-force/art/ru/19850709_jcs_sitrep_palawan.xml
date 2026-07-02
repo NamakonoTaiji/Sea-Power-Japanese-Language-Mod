@@ -1,0 +1,146 @@
+<!-- Campaign event template for JCS-style message traffic - header follows RichMissionMessages USAJCS format -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.ColumnSpan="3" Margin="0" FontFamily="Roboto Mono" FontSize="14" TextAlignment="Center" HorizontalAlignment="Center">
+				DEPARTMENT OF DEFENSE<LineBreak/>
+				JCS MESSAGE CENTER
+			</TextBlock>
+			
+		</Grid>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" FontSize="16">
+					FLASH<LineBreak/>
+					Z 091430Z JUL 85
+				</TextBlock>
+
+				<TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUEKJCS4169 1901430"/>
+				
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="От кого:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="JCS WASHINGTON DC"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="Кому:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="16" Text="THE WHITE HOUSE WASHINGTON DC//SITROOM//"/>
+				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="Копия:"/>
+				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="SECDEF WASHINGTON DC"/>
+				<TextBlock Grid.Row="12" Grid.Column="2" FontSize="16" Text="SECSTATE WASHINGTON DC"/>
+				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="DCI CIA WASHINGTON DC"/>
+				<TextBlock Grid.Row="14" Grid.Column="0" FontSize="16" Text="Тема:"/>
+				<TextBlock Grid.Row="14" Grid.Column="2" FontSize="16" Text="JCS SITREP 001 - PALAWAN INVASION / STRATEGIC IMPLICATIONS"/>
+
+				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					<LineBreak/>
+					СЕКРЕТНО
+					<LineBreak/>
+					BT
+					<LineBreak/>
+					<LineBreak/>
+					1. (S) РЕЗЮМЕ: Предварительные сообщения указывают на то, что советские войска высадили крупные китайские штурмовые силы на берег острова Палаван, западного Филиппины. Местная оборона была быстро подавлена. Наземные элементы противника теперь контролируют южный конец Палаван и перемещаются в безопасные объекты вблизи Пуэрто-Принсеса.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					2. (S) Враг действия: советские тяжелые десантные подъемно-ударные самолеты от Камрань поддержали штурм и поместили китайские подразделения на берег в силе. Последующие эшелоны могут включать в себя боеприпасы, инженеры, топливо и средства противовоздушной обороны, предназначенные для стабилизации постоянного помещения.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					3. (S) Угроза во времени:
+				</TextBlock>	
+				<TextBlock Grid.Row="18" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">	
+					Сообщается, что береговой противокорабельный ракетный огонь был направлен против американских и филиппинских подразделений, пытающихся пересечь пролив Балабак.
+					<LineBreak/>
+					Китайские и советские подводные лодки оцениваются действующими в проливе Балабак и прилегающих подходах.
+					<LineBreak/>
+					Прокладка мин оценивается по критическим подходам к проливу Балабак и проходу Палаван.
+					<LineBreak/>
+				</TextBlock>	
+				<TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					4. (S) ДРУГИЙ / РЕГИОНАЛЬНЫЙ СТАТУС: Имеющихся сил союзников в непосредственной близости недостаточно, чтобы обратить вспять высадку Палаван. Тяжелые воздушные атаки на Малайзия и Филиппины подавили региональный ударный потенциал и не оставили надежного местного варианта действий против сил вторжения.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="21" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					5. (S) ПОЛИТИКА / ПОСТАВКА СИЛ: Движение военно-морских сил союзников к Сингапур через Южно-Китайское море больше не считается поддерживающим без серьезного риска изоляции. JCS рекомендует немедленно консолидировать имеющиеся силы США и союзников в Дарвин, Австралия, сохраняя при этом поддержку филиппинского сопротивления.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="23" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					6. (S) ОБЯЗАТЕЛЬСТВО: Контроль противника над Палаван значительно усложняет операции США в Юго-Восточной Азии и подвергает американские подразделения, входящие в Южно-Китайское море, риску быть отрезанными. Если Индонезия перейдет от паралича к советской поддержке, южные выходы могут быстро закрыться, отвлекая значительные силы от материально-технической поддержки и в диапазоне советских бомбардировщиков от Камрань. Далее следует ситрепы с 12-часовыми интервалами.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="25" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					NATIONAL MILITARY COMMAND CENTER
+					<LineBreak/>
+					<LineBreak/>
+					BT
+					<LineBreak/>
+					SECRET DECL OADR
+					<LineBreak/>
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

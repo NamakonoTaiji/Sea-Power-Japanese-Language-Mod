@@ -1,0 +1,68 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 070300Z OCT 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} MINDORO PHILIPPINES"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        CINCPACAF HICKAM AFB HI<LineBreak/>
+        CLARK AB PHILIPPINES
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="WARNING-SORTIE AGAINST PALAWAN"/>
+    <StackPanel Grid.Row="9" Grid.ColumnSpan="4">
+    <TextBlock FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        TOP SECRET
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) SITUATION: Operation CHALLENGER has placed U.S.-Filipino forces ashore on Palawan, but enemy resistance ashore remains heavy. National technical means indicate Soviet carrier KIEV has sortied with escorting units to cover a reinforcement convoy bound for Palawan. The enemy is attempting to exploit a tropical storm to transit the South China Sea while most of our air is grounded and satellite recon is impossible. If these forces reach the island, they may decide the battle ashore.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) MISSION: {TaskForceName} will proceed northwest from Palawan, locate KIEV and the reinforcement convoy, and destroy them before they can reach Palawan.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) EXECUTION: Conduct anti-surface sweep west of Luzon. Heavy tropical storm activity in the area has masked enemy approach and grounded aircraft on both sides, but Fleet Weather forecast shows storm lifting by 082200Z. Once conditions allow, use available air assets from Clark Air Base to search, identify, and strike enemy naval units. Priority target is KIEV, followed by convoy units and escorts.
+        <LineBreak/>
+        <LineBreak/>
+        4. (TS) THREAT: Enemy force includes KIEV with KARA and UDALOY class combatants, with additional surface groups operating as diversions. Intelligence indicates long-range bombers (Tu-16K, H-6D) out of Cam Ranh or Hainan will attempt to cover enemy surface forces for reconnaissance and strike.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) ALLIED FORCES: Clark Air Base is available for CAP, strike, and maritime patrol support.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) REMARKS: Enemy reinforcements must not reach Palawan. This action will decide the outcome of all our operations leading up to this point. Good luck and good hunting. CTF 77 sends.
+        <LineBreak/>
+        <LineBreak/>
+        SECRET
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+    </StackPanel>
+</Grid>

@@ -29,7 +29,7 @@
 		<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
 			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
                 <Run Text="{TaskForceName}:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                {TaskForceVesselSummaryRuns}
+                {TaskForceVesselSummaryRuns}<LineBreak/>
                 <Run Text="M/V Sealift Caribbean Sea T-AOT-174"/>
            </TextBlock>
 		</Border>

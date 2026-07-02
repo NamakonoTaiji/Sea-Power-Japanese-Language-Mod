@@ -1,0 +1,61 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        最優先（FLASH）
+        <LineBreak/>
+        Z 260715Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="海上総司令部"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="HMASオリオン（S61）"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        HMASプラティパス<LineBreak/>
+        太平洋艦隊司令長官<LineBreak/>
+        太平洋艦隊潜水艦部隊司令官
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="接敵報告――南シナ海"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        機密――米国開示可（SECRET - REL: US）
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) 衛星偵察により、カムラン湾を出港し、針路140、速力18ノットで南東へ航行中のスラヴァ（SLAVA）級巡洋艦を中心とする敵水上部隊が特定された。
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) 当該部隊は、パラワン島の中国軍拠点へ向かう輸送部隊を護衛している。
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) 最高速で進出し、当該部隊を邀撃せよ。
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) 攻撃優先目標はスラヴァ級巡洋艦、次いで輸送部隊とする。戦術状況が許せば、捕捉したすべての敵戦力を撃沈せよ。
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) 撃沈位置を報告し、次命を待て。
+        <LineBreak/>
+        <LineBreak/>
+        機密――米国開示可（SECRET - REL: US）
+    </TextBlock>
+</Grid>

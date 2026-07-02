@@ -1,0 +1,116 @@
+<!-- Pacific Strike CIA memorandum event, adapted from Strike Group Molniya U.S.-voice interstitial format. -->
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="864" Height="1120" Padding="45"
+            TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16">
+      <Border.Effect>
+        <DropShadowEffect />
+      </Border.Effect>
+
+      <Border BorderThickness="0,10,10,10" BorderBrush="#FF000000">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+          <TextBlock Text="C05084534" Background="#FFFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,-15,0,0" Padding="5,0,5,0" />
+          <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="10"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="15"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="15"/>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="最高機密（TOP SECRET）" TextAlignment="Center"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" TextAlignment="Center" FontFamily="Times New Roman">
+              中央情報長官
+              <LineBreak/>
+              <LineBreak/>
+              <Run FontSize="12">ワシントンDC、20505</Run>
+            </TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="3" Text="1985年9月21日"/>
+            <TextBlock Grid.Row="6" Grid.Column="3" Text="222X1"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="覚書送付先：   "/>
+            <TextBlock Grid.Row="7" Grid.Column="1" TextWrapping="Wrap">
+              統合参謀本部（ワシントンDC）//J3//
+              <LineBreak/>
+              米国太平洋軍総司令官（ハワイ州ホノルル）
+              <LineBreak/>
+              太平洋艦隊総司令官（ハワイ州パールハーバー）
+              <LineBreak/>
+              在フィリピン米軍司令官（マニラ、フィリピン）
+            </TextBlock>
+            <TextBlock Grid.Row="7" Grid.Column="3" TextWrapping="Wrap">
+              EO 13526 3.3(b)(1)&gt;25Yrs
+              <LineBreak/>
+              EO 13526 3.5(c)
+            </TextBlock>
+            <TextBlock Grid.Row="9" Grid.Column="0" Text="件名：   "/>
+            <TextBlock Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Text="サンダカン空襲後の中国軍の指揮通信について"/>
+          </Grid>
+          <TextBlock Grid.Row="2" TextWrapping="Wrap">
+            1. プエルト・プリンセサ市における特別区画情報源「スターライト（STAR LIGHT）」が、同盟軍の揚陸準備部隊の撃滅を狙ったサンダカン空襲が失敗に終わったことを認める中国軍の指揮通信を伝達した。この通信からは、同盟軍がパラワン島への侵攻に向けて布陣していることに対する強い危機感が窺える。
+            <LineBreak/>
+            <LineBreak/>
+            2. 中国人民解放軍（PLA）および海軍（PLAN）のチャンネルは、パラワン島の指揮官らに対し、プエルト・プリンセサおよびケソンを死守するよう指示している。要求項目には、沿岸ミサイルの追加再装填弾、工兵、弾薬、移動式SAMシステム、および沿岸統制派遣隊が含まれる。また、航空掩護および船団護衛のため、カムラン湾からのソ連軍による支援が要請されている。
+            <LineBreak/>
+            <LineBreak/>
+            3. 敵は、プエルト・プリンセサの防御強化、島西岸のケソンへの予備兵力の移動、ならびに小型舟艇、沿岸ミサイル、潜水艦を用いた上陸阻止行動によって、この劣勢を補おうとするものと予想される。
+            <LineBreak/>
+            <LineBreak/>
+            4. 通信傍受によれば、サンダカンへの空襲失敗の責任を問われた2名の中国軍指揮官が本土へ召還され、我が方の情報源は彼らが処刑されるものとみている。この措置への反応として、パラワン島の現地指揮官らの決意はさらに強固なものになると分析される。
+            <LineBreak/>
+            <LineBreak/>
+            5. 中国およびソ連の指揮官らは、パラワン島が脆弱な状態にあることを認識している模様である。これを踏まえると、現在要請されている増援ルートが確立される前に、同盟軍が迅速に一歩を踏み出すことが極めて有効であると判断される。
+            <LineBreak/>
+            <LineBreak/>
+          </TextBlock>
+          <TextBlock TextAlignment="Right" Text="中央情報長官 ウィリアム・J・ケーシー" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="480,500,0,0" Grid.Row="2"/>
+          <TextBlock Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Bottom">
+            <Run TextDecorations="Underline">ERによる配布／1985年9月21日（添付ファイル付き）</Run>
+            <LineBreak/>
+            <LineBreak/>
+            原本 ―― 各受領者
+            <LineBreak/>
+               1 ―― 中央情報長官（DCI）
+            <LineBreak/>
+               1 ―― 中央情報副長官（DDCI）
+            <LineBreak/>
+               1 ―― 執行幹事（EXDIR）
+            <LineBreak/>
+               1 ―― 国家情報会議議長（C/NIC）
+            <LineBreak/>
+               1 ―― 国家情報会議副議長（VC/NIC）
+            <LineBreak/>
+               1 ―― 国家情報官（警告担当）（NIO/Warning）
+            <LineBreak/>
+               1 ―― ER保管
+          </TextBlock>
+          <TextBlock Grid.Row="4" Text="最高機密（TOP SECRET）" TextAlignment="Center"/>
+        </Grid>
+      </Border>
+    </Border>
+  </Viewbox>
+</Page>

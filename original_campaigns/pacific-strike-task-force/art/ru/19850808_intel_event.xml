@@ -1,0 +1,155 @@
+<!-- Campaign event template for standard USN-style "daily intentions message" (DIM) - formatting taken from real world examples -->
+
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:SeapowerUI">
+
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+		<Border.Effect>
+			<DropShadowEffect />
+		</Border.Effect>
+		<Border.Background>
+			<ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+		</Border.Background>
+		
+        <StackPanel Orientation="Vertical">
+
+		<Grid
+		  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="3*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			
+			<TextBlock Grid.Row="0" Grid.Column="0" Text="ВОЕННО-МОРСКОЕ СООБЩЕНИЕ" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Left"/>
+			<TextBlock Grid.Row="0" Grid.Column="1" Text="******* E C R E T*******" Margin="40,0,40,0" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Grid.Row="0" Grid.Column="2" Text="МИНИСТЕРСТВО ВМС" Margin="0" FontFamily="Arial Narrow Bold" FontSize="26" FontWeight="Bold" TextAlignment="Right"/>
+			
+		</Grid>
+		
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,1"/>
+		<Rectangle HorizontalAlignment="Stretch" Height="1" Fill="Black" Margin="0,0,0,10"/>
+
+			<Grid
+			  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="10"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="10"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="16">
+					СРОЧНОЕ СООБЩЕНИЕ<LineBreak/>
+					O 082100Z AUG 85
+				</TextBlock>
+				
+				<TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUHGOAA0777 2202100"/>
+
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="От кого:"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="CTF 77 DARWIN NT AU"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="Кому:"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="16">
+					<Run Text="COMMANDER"/>
+					<Run Text="{Binding DataSource.PersistentData[PlayerTaskForceName], Converter={StaticResource UppercaseConverter}}"/>
+					<Run Text="DARWIN NT AU"/>
+				</TextBlock>
+				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="Копия:"/>
+				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="CINCPACFLT PEARL HARBOR HI"/>
+				<TextBlock Grid.Row="12" Grid.Column="2" FontSize="16" Text="COMAUSFLT CANBERRA ACT AU"/>
+				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="HQ AIR COMMAND RAAF GLENBROOK NSW AU"/>
+				<TextBlock Grid.Row="14" Grid.Column="0" FontSize="16" Text="Тема:"/>
+				<TextBlock Grid.Row="14" Grid.Column="2" FontSize="16" Text="INTSUM 08/1200Z - 09/1200Z"/>
+
+				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					<LineBreak/>
+					СЕКРЕТНО
+					<LineBreak/>
+					BT
+					<LineBreak/>
+					<LineBreak/>
+					1. (S) РЕЗЮМЕ: Союзные войска в Юго-Восточной Азии вернулись к Дарвин в качестве основной базы концентрации союзников. Силы противника пытаются закрыть проливы, предоставляя доступ к Яванское море, Южно-Китайское море и восточной Индийский океан, чтобы изолировать Сингапур и разорвать оставшиеся союзные SLOC.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
+					2. (S) Положение врага:
+				</TextBlock>
+				<TextBlock Grid.Row="17" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">
+					Советские силы коммандос использовали беспорядки индонезийского командования и приземлились на Бали, занимая аэродром Денпасар и прилегающие вспомогательные объекты.
+					<LineBreak/>
+					Вражеские надводные, подводные и воздушные подразделения продолжают зондировать подходы Sunda, Ломбок и Ombai / Wetar.
+					<LineBreak/>
+					Поверхностная группа KIROV была обнаружена периодически работающей где-то в Индийский океан после ухода из залива Камрань примерно две недели назад. Текущий курс и намерения неизвестны.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="19" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					3. (S) Дружественный статус:
+				</TextBlock>	
+				<TextBlock Grid.Row="20" Grid.ColumnSpan="4" TextWrapping="Wrap" Margin="20,0,0,0">	
+					ОГ 77 остается боеспособным после отказа от подходов Сингапур и консолидации на Дарвин.
+					<LineBreak/>
+					Элементы CVW-9 работают на береговой основе от Дарвин под координацией КГ 77.
+					<LineBreak/>
+					Сингапур и Малайзия были сильно подавлены, их военно-воздушные силы были в основном уничтожены.
+					<LineBreak/>
+					Индонезия остается в смятении, его президент пропал без вести. Государство считает, что Советы пытаются предложить им сделку о нейтралитете.
+					<LineBreak/>
+					KITTY HAWK остается недоступным после повреждения шахты на Йокосука, ожидаемое возвращение к действию не позднее 01 января.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="22" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					4. (S) УПРАВЛЕНИЕ: Вражеский контроль Палаван, Бали и индонезийских проливов теперь дает силам Пакта эффективный контроль над основными точками доступа между Южно-Китайское море и Индийский океан. Поскольку Индия разрешила советскую деятельность по базированию и поддержке, силы Юго-Восточной Азии были подавлены, а Индонезия политически парализованы, советские подразделения могут перемещаться между зонами Камрань, Индийский океан и австралийскими подходами с ограниченным вмешательством.
+					<LineBreak/>
+				</TextBlock>
+				<TextBlock Grid.Row="25" Grid.ColumnSpan="4" TextWrapping="Wrap">
+					Изображение: КГ 77 N2
+					<LineBreak/>
+					<LineBreak/>
+					BT
+					<LineBreak/>
+					SECRET DECL OADR
+					<LineBreak/>
+				</TextBlock>
+			</Grid>
+        </StackPanel>
+    </Border>
+</ScrollViewer>

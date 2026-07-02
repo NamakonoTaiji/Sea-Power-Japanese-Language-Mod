@@ -1,0 +1,62 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        FLASH
+        <LineBreak/>
+        Z 260715Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="MARITIME HQ"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="HMAS ORION S61"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Копия:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        HMAS PLATYPUS<LineBreak/>
+        COMAUSFLT<LineBreak/>
+        CINCPACFLT<LineBreak/>
+        COMSUBPAC
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="КОНТАКТ-РЕПОРТ - Южно-Китайское море"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        SECRET - REL: США, Япония
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) SATELLITE RECONNAISSANCE Идентифицировала ГРУППУ ENEMY SURFACE, Централизованную на SLAVA CLASS CRUISER EXITING CAM RANH BAY PROCEEDING SOUTHEAST ON COURSE 140 SPEED 18.
+		<LineBreak/>
+		<LineBreak/>
+		2. (S) THIS GROUP ESCORTING TRANSPORT UNITS TO CHINESE POSITION AT PALAWAN.
+		<LineBreak/>
+		<LineBreak/>
+		3. (S) PROCEED AT BEST SPEED TO INTERCEPT THIS FORCE.
+		<LineBreak/>
+		<LineBreak/>
+		4. (S) ТАРГЕТ ПРИОРИТЕТА - КРУИЗЕР КЛАССА СЛАВЫ, ТОГДА ТРАНСПОРТНЫЕ УНИТЫ. Если ТАКТИЧЕСКАЯ СИТУАЦИЯ ПЕРМИТИВАЕТСЯ, ВСЯ ЭНЕМИЧЕСКАЯ СИЛЬ ПРИЗЫВАЕТСЯ.
+		<LineBreak/>
+		<LineBreak/>
+		5. (S) Сообщение о местоположении рыскания и ожидания дальнейших действий.
+        <LineBreak/>
+        <LineBreak/>
+        SECRET - REL: США, Япония
+    </TextBlock>
+</Grid>

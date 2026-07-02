@@ -4,7 +4,7 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:local="clr-namespace:SeapowerUI">
 
-	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Height="UniformToFill" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
+	<Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="45">
 		<Border.Effect>
 			<DropShadowEffect />
 		</Border.Effect>
@@ -78,21 +78,23 @@
 					<ColumnDefinition Width="*"/>
 					<ColumnDefinition Width="Auto"/>
 				</Grid.ColumnDefinitions>
-				<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+				<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="16">
 					IMMEDIATE<LineBreak/>
 					O 082100Z AUG 85
 				</TextBlock>
+				
+				<TextBlock Grid.Row="1" Grid.Column="3" FontSize="16" Text="ZYUW RUHGOAA0777 2202100"/>
 
-				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="FM"/>
-				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
-				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="TO"/>
-				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="TF 77, CVW-9, NAVFAC DARWIN, 10 SQN RAAF"/>
-				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="INFO"/>
-				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CINCPACFLT"/>
-				<TextBlock Grid.Row="13" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="SUBJ:"/>
-				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="SITREP 09/1200Z - 10/1200Z - MSG NO 047/85"/>
+				<TextBlock Grid.Row="3" Grid.Column="0" FontSize="16" Text="FM"/>
+				<TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" Text="CTF 77"/>
+				<TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" Text="TO"/>
+				<TextBlock Grid.Row="4" Grid.Column="2" FontSize="16" Text="TF 77, CVW-9, NAVFAC DARWIN, 10 SQN RAAF"/>
+				<TextBlock Grid.Row="11" Grid.Column="0" FontSize="16" Text="INFO"/>
+				<TextBlock Grid.Row="11" Grid.Column="2" FontSize="16" Text="CINCPACFLT"/>
+				<TextBlock Grid.Row="13" Grid.Column="0" FontSize="16" Text="SUBJ:"/>
+				<TextBlock Grid.Row="13" Grid.Column="2" FontSize="16" Text="SITREP 09/1200Z - 10/1200Z - MSG NO 047/85"/>
 
-				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+				<TextBlock Grid.Row="15" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
 					<LineBreak/>
 					SECRET
 					<LineBreak/>
@@ -100,7 +102,7 @@
 					1. (S) STRATEGIC SITUATION: U.S. and Allied forces have consolidated at Darwin after the fall of Singapore and Malaysia. Enemy forces continue to drive southeast, and intel suspects their goal is to fully isolate the Allied forces embattled on Luzon, forcing a settlement. The neutralization of Sumatra and Java by the enemy now allows him full access to the Indian Ocean, from where USSR forces can threaten the Persian Gulf, western Australia, and South Africa. Soviet naval air units enjoy freedom of operation from Vladivostok south to Cam Ranh Bay, and their submarines have been reported entering the Timor Sea.
 					<LineBreak/>
 				</TextBlock>
-				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+				<TextBlock Grid.Row="16" Grid.ColumnSpan="4" FontSize="16" TextWrapping="Wrap">
 					2. (S) MISSION: TF 77 will conduct defense of Australia mission in concert with Allied forces at Darwin with CTF 77 in overall command.
 					<LineBreak/>
 				</TextBlock>

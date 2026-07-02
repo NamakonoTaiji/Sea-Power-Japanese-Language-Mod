@@ -11,32 +11,15 @@
                 <Border BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="30" Height="20" Margin="90,0,0,70" BorderBrush="{StaticResource Brush.Border.FocusAccent}"/>
             </Grid>
         </Border>
-		<!-- Photo inset -->
-        <!--<Border Canvas.Left="10" Canvas.Top="10" BorderThickness="5" BorderBrush="White">
-			<Border.Effect>
-				<DropShadowEffect Opacity="0.25"/>
-			</Border.Effect>
-			<Border.RenderTransform>
-				<TransformGroup>
-					<RotateTransform Angle="5" CenterY="200"/>
-				</TransformGroup>
-			</Border.RenderTransform>
-            <Grid>
-                <Image Stretch="Uniform" Source="{Binding Assets[02_invasionfleet]}" Width="250"/>
-            </Grid>
-        </Border>-->
-		<!-- Player unit summary -->
-		<!--<Border Canvas.Right="10" Canvas.Bottom="10" BorderThickness="3" BorderBrush="{StaticResource NTDS.FriendColour}" Background="#90a3b6" Width="250">
-			<TextBlock Foreground="Blue" TextAlignment="Left" VerticalAlignment="Center" Margin="5">
-                <Run Text="{TaskForceName}:" TextDecorations="Underline"/><LineBreak/><LineBreak/>
-                {TaskForceVesselSummaryRuns}
-                <Run Text="{FlagshipName}"/><LineBreak/>
-                <Run Text="USS Moosbrugger DD-980"/><LineBreak/>
-                <Run Text="1 x SH-3H HS-9 'Sea Griffins'"/>
-           </TextBlock>
-		</Border>-->
-
-		<!-- Map Labels -->
+		
+		<!-- Mission Area Ellipse -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="560" Canvas.Top="170" >
+			<Ellipse Width="100" Height="100" Opacity="0.25" Fill="{StaticResource NTDS.HostileColour}"/>
+			<!-- Mission Area Text -->
+			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="Минное поле" HorizontalAlignment="Center"/>
+		</StackPanel>
+		
+	    <!-- Map Labels -->
 		<TextBlock Foreground="SteelBlue" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="70" Canvas.Top="90">
 			<Run Text="   Опасная Зона"/>
 			<LineBreak/>
@@ -44,14 +27,6 @@
 			<LineBreak/>
 			<Run Text="             моря"/>
 		</TextBlock>
-		
-		<!-- Mission Area Ellipse -->
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Canvas.Left="560" Canvas.Top="170" >
-			<Ellipse Width="100" Height="100" Opacity="0.25" Fill="{StaticResource NTDS.HostileColour}"/>
-			<!-- Mission Area Text -->
-			<TextBlock Foreground="{StaticResource NTDS.HostileColour}" Text="Suspected Minefield" HorizontalAlignment="Center"/>
-		</StackPanel>
-		
 		<TextBlock Foreground="SteelBlue" Text="Палаванский пролив" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="330" Canvas.Top="200"/>
 		<TextBlock Foreground="SteelBlue" Text="Море Сулу" HorizontalAlignment="Center" FontStyle="Italic" FontSize="16" FontWeight="Bold" Canvas.Left="850" Canvas.Top="250"/>
 		<TextBlock Foreground="SteelBlue" Text="Пролив Балабак" HorizontalAlignment="Center" FontStyle="Italic" FontSize="14" FontWeight="Bold" Canvas.Left="525" Canvas.Top="375"/>

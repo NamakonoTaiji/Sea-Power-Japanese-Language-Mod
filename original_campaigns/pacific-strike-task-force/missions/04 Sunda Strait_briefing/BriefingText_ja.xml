@@ -1,0 +1,66 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <!--TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Text="1985-8-18" FontSize="{StaticResource Font.Size.Header}"/-->
+    <TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+    最優先（FLASH）
+    <LineBreak/>
+    Z 150130Z JUN 85
+    </TextBlock>
+    <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="発"/>
+    <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="第77任務部隊指揮官（CTF 77）"/>
+    <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="宛"/>
+    <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceName}指揮官"/>
+    <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="報"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        太平洋艦隊司令長官（パールハーバー、ハワイ州）<LineBreak/>
+        オーストラリア王立空軍航空軍司令部（グレンブルック、豪州）
+    </TextBlock>
+    <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="件名"/>
+    <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="任務変更――ダーウィンへの移動命令"/>
+    <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+      機密（SECRET）
+      <LineBreak/>
+      <LineBreak/>
+      1. (S) 6月25日から7月14日にかけての敵の激しい攻撃により、シンガポールおよびインドネシアは事実上制圧され、その状況は不透明である。東南アジアに展開するすべての米軍部隊に対し、オーストラリアのダーウィンを新たな後退配備先とする移動命令が下った。
+      <LineBreak/>
+      <LineBreak/>
+      2. (S) {TaskForceName}の全艦艇は最高速でダーウィンへ進出せよ。ジャワ海からの離脱はスンダ海峡を経由すること。
+      <LineBreak/>
+      <LineBreak/>
+      3. (S) 補給艦「シーリフト・カリビアン・シー（SEALIFT CARIBBEAN SEA）」がジャカルタにて貴部隊と合流する。
+      <LineBreak/>
+      <LineBreak/>
+      4. (S) 敵水上部隊が最大戦速（FLANK SPEED）で南下中との報告あり。同盟軍の通航を阻止すべくスンダ海峡の封鎖を企図している模様。
+      <LineBreak/>
+      <LineBreak/>
+      5. (S) スンダ海峡周辺では、敵の先遣部隊および潜水艦が活動している可能性が高い。
+      <LineBreak/>
+      <LineBreak/>
+      6. (S) 海峡を通過後、オーストラリア王立空軍（RAAF）のF-111飛行隊が対水上作戦空中哨戒（SUCAP）のため作戦に参加し、ダーウィンまで護衛を行う。諸君の健闘を祈る。
+      <LineBreak/>
+      <LineBreak/>
+      機密（SECRET）
+      <LineBreak/>
+      DECL OADR BT
+      </TextBlock>
+
+</Grid>

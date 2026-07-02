@@ -1,0 +1,90 @@
+<!-- Standard Sea Power linear campaign newspaper event setup in XAML - translators should use this file to translate the Pacific Strike newspapers into their language! 
+
+Link these from campaign.ini for each language: 19850626_newspaper_event_de.xml, etc
+
+Images from the flat image file English language newspapers are included as separate image files in the /art directory for each newspaper
+-->
+
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080">
+  <Viewbox>
+    <Border Background="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="1272" Padding="45" 
+            TextElement.FontFamily="Times New Roman" TextElement.Foreground="Black" TextElement.FontSize="16">
+        <Border.Effect>
+            <DropShadowEffect />
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="{Binding Assets[bkg_newsprint]}"/>
+        </Border.Background>
+        <StackPanel Orientation="Vertical">
+            <Rectangle HorizontalAlignment="Stretch" Height="2" Fill="Black"/>
+            <TextBlock FontFamily="Helvetica" Text="1985年6月26日水曜日 | 第84巻第256号 | 25セント" Margin="0,5,0,5" FontSize="16"/>
+            <Rectangle HorizontalAlignment="Stretch" Height="2" Fill="Black"/>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Exposition Times" TextAlignment="Center" FontSize="106" FontWeight="Bold" Margin="0,5,0,5"/>
+                <Rectangle HorizontalAlignment="Stretch" Height="2" Fill="Black"/>
+            </StackPanel>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.ColumnSpan="3" FontFamily="Impact" FontWeight="Bold" FontSize="124" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,0">
+                    ソ連軍、急襲！<LineBreak/>
+                    <Run Text="欧州・太平洋で戦争勃発" FontSize="72"/>
+                </TextBlock>
+                <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+                    <TextBlock Text="ソ連軍の猛攻、NATOの不意を突く" FontSize="24" TextWrapping="Wrap" FontFamily="Helvetica" TextAlignment="Left" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                        【フランクフルト/東京】昨日GMT午前9:00、ソ連およびワルシャワ条約機構軍が世界規模の大攻勢を開始した。同軍は欧州へ向けて西進すると同時に、太平洋の米軍および日本の拠点を襲撃した。
+                        <LineBreak/>
+                        欧州では、ソ連軍装甲師団がフルダ・ギャップを突破して西ドイツへ侵入し、NATOの防衛拠点を脅かしている。NATO軍は増援部隊を動員しつつ、各戦線で激しい戦闘を展開しているが、多大な損害が生じている模様だ。特に米陸軍部隊が戦闘の矛先をまともに受けている。
+                        <LineBreak/>
+                        太平洋では、ソ連海空軍が韓国および沖縄の米軍基地を攻撃した。この攻撃は中国軍および北朝鮮軍と連動して行われた模様。日本国内もソ連軍の通常弾頭弾道ミサイルによる断続的な爆撃に晒されている。
+                        <LineBreak/>
+                        詳細は2面「戦火」へ。
+                    </TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <Image Source="{Binding Assets[19850626_newspaper_event_tanks]}" Stretch="Uniform"/>
+                    <TextBlock Text="水曜朝、前線に向けて東進する米陸軍戦車。東ドイツ国境沿いでは、米・英・仏・西独軍が激しい戦闘を展開している。現時点で双方とも核兵器は使用していないが、NATO指揮官らはその可能性を排除していない。戦闘地域からはドイツ人住民の避難が始まっている。米政府高官は国内の沈静化を呼びかけた。（AP通信）" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle HorizontalAlignment="Stretch" Height="2" Fill="Black"/>
+            <Grid Margin="0,15,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="世界市場、全面閉鎖" FontSize="24" FontFamily="Helvetica" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock TextWrapping="Wrap" TextAlignment="Justify">
+                        【ニューヨーク】欧州および太平洋での戦争勃発によりパニック売りが引き起こされ、金融市場が急落したため、世界各地の株式市場が閉鎖を余儀なくされた。
+                        <LineBreak/>ニューヨーク、ロンドン、東京の主要取引所は、株価指数が歴史的な暴落を記録したため取引を停止。わずか数時間で数兆ドルの市場価値が消失した。前例のない地政学的リスクを前に投資家の信頼は失墜し、紛争の長期化への懸念が売りを加速させている。この突然の取引停止は、ここ数十年で世界金融システムが被った最も深刻な衝撃の一つとなった。
+                        <LineBreak/>
+                        詳細は3面「市場」へ。
+                    </TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <Image Source="{Binding Assets[19850626_newspaper_event_stockmarket]}"/>
+                    <TextBlock Text="昨日EDT午後12:00時点で取引を停止したニューヨーク証券取引所（NYSE）。" TextWrapping="Wrap" TextAlignment="Left" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+            <TextBlock Text="-1-" TextAlignment="Center"/>
+        </StackPanel>
+    </Border>
+  </Viewbox>
+</Page>

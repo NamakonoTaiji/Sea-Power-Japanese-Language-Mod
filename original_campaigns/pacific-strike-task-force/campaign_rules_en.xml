@@ -27,7 +27,7 @@
             <TextBlock Text="- Repair: available before certain missions, requiring points to repair damage." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
             <TextBlock Text="- Damage, losses, repairs, aircraft, and upgraded loadouts can shape the campaign as it develops." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
 
-            <TextBlock Text="Use the other tabs if you want more detail before starting." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
+            <TextBlock Text="Save your game often! Use the other tabs if you want more detail before starting." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap"/>
           </StackPanel>
         </ScrollViewer>
       </TabItem>
@@ -295,6 +295,8 @@
             <TextBlock Text="- Helicopters are available immediately at campaign start. Each ship will show its supported aircraft in Task Force Builder." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
             <TextBlock Text="- Fixed-wing aircraft are not available for purchase at the start of the campaign, but become available later on." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
             <TextBlock Text="- Purchased fixed-wing aircraft operate from airbases in missions that support them. If no airbase is available, fixed-wing aircraft do not deploy and are held in reserve." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Some missions include Air Tasking slots for aircraft that can begin the mission already airborne. Open Prepare Airbase from the selected mission and use the Air Tasking tab to assign eligible unassigned aircraft before launch." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
+            <TextBlock Text="- Each Air Tasking row represents one mission flight. Larger flights must use the same aircraft type, but may launch partially filled if too few aircraft are available." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,5"/>
             <TextBlock Text="- Submarines operate independently of your task force. They appear in separate (but connected) optional side missions, which offer benefits to complete, but do not advance the main campaign." FontSize="15" Foreground="#D8DDE8" TextWrapping="Wrap" Margin="0,0,0,14"/>
             <Border Height="1" Background="{StaticResource Brush.Glyph.Normal}" Opacity="0.45" Margin="0,0,0,14"/>
 

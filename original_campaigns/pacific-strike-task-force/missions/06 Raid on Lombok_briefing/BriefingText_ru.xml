@@ -1,0 +1,65 @@
+<Grid
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="10"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+	
+	<TextBlock Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" FontSize="{StaticResource Font.Size.Header}">
+        СРОЧНОЕ СООБЩЕНИЕ
+        <LineBreak/>
+        O 200300Z AUG 85
+    </TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="От кого:"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="CTF 77"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Кому:"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="{TaskForceFlagshipName} {TaskForceName} DARWIN NT AU"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Копия:"/>
+    <TextBlock Grid.Row="5" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}">
+        CINCPACFLT PEARL HARBOR HI<LineBreak/>
+        HQ AIR COMMAND RAAF GLENBROOK NSW AU
+        </TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0" FontSize="{StaticResource Font.Size.Header}" Text="Тема:"/>
+        <TextBlock Grid.Row="7" Grid.Column="2" FontSize="{StaticResource Font.Size.Header}" Text="План действий - ДРАКОН СПЕР"/>
+        <TextBlock Grid.Row="9" Grid.ColumnSpan="4" FontSize="{StaticResource Font.Size.Header}" TextWrapping="Wrap">
+        СЕКРЕТНО
+        <LineBreak/>
+        <LineBreak/>
+        1. (S) Уничтожение надводной группы 11АУГ КИРОВ ослабило давление на операции союзников и открыло путь для контрнаступления. Вражеские силы по-прежнему удерживают аэродром на Бали захваченным 20JUL, а их береговые силы действуют в Ломбокский пролив. Правительство Индонезия обратилось к нам за помощью в расчистке этих сил.
+        <LineBreak/>
+        <LineBreak/>
+        2. (S) МИССИЯ: ОГ 77 заставит Ломбокский пролив, уничтожит вражеские силы, противостоящие проходу, и изолирует Бали для последующих десантных операций. По завершении, морские пехотинцы из 17-й экспедиционный отряд морской пехоты отвоюют аэродром и восстановят Бали под индонезийским контролем.
+        <LineBreak/>
+        <LineBreak/>
+        3. (S) Исключение: {TaskForceName} проведет надводную зачистку через Ломбокский пролив для вывода и уничтожения враждебных военно-морских подразделений. Вражеские береговые участки, оборона аэродромов и прибрежные позиции должны быть сокращены, чтобы разрешить последующие морские операции против Бали.
+        <LineBreak/>
+        <LineBreak/>
+        4. (S) Угроза: На последнем проходе спутника были идентифицированы два вражеских эсминца и различные береговые силы. Ограниченные воздушные средства противника могут действовать с аэродрома Бали, включая самолеты-прыгуны Як-38, а в окрестностях аэропорта были замечены береговые орудия и ААА. Подводных лодок СССР в этом районе обнаружено не было.
+        <LineBreak/>
+        <LineBreak/>
+        5. (S) СВЯЗАННЫЕ СИЛЫ: Воздушно-десантные средства обеспечат разведку и надводную КАП в поддержку операции. Примечание: ожидается интенсивное гражданское движение. Избегайте жертв среди гражданского населения.
+        <LineBreak/>
+        <LineBreak/>
+        6. (S) РЕМАРКИ: СРОЧНОЕ СООБЩЕНИЕе пополнение запасов после этого действия не гарантируется в соответствии с настоящим графиком наступления. Расходы на разумное использование боеприпасов, поскольку последующие операции на севере могут потребоваться в короткие сроки. Удачи и хорошей охоты. КГ 77 передает.
+        <LineBreak/>
+        <LineBreak/>
+        СЕКРЕТНО
+        <LineBreak/>
+        DECL OADR BT
+    </TextBlock>
+</Grid>
