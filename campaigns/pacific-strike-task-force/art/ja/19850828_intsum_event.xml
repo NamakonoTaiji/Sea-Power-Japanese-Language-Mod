@@ -1,0 +1,79 @@
+<!-- Pacific Strike classified logistics event: naval-message paper format. -->
+<ScrollViewer xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="820" TextElement.FontFamily="Courier New" TextElement.Foreground="Black" TextElement.FontSize="16" Padding="54">
+    <Border.Effect>
+      <DropShadowEffect />
+    </Border.Effect>
+    <Border.Background>
+      <ImageBrush ImageSource="{Binding Assets[bkg_paper]}" Stretch="UniformToFill"/>
+    </Border.Background>
+
+    <StackPanel Orientation="Vertical">
+      <Grid Margin="0,0,0,22">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Text="極秘" FontWeight="Bold"/>
+        <TextBlock Grid.Column="1" Text="S/S 8528428" FontWeight="Bold"/>
+      </Grid>
+
+      <TextBlock TextAlignment="Center" FontFamily="Times New Roman" FontSize="23" FontWeight="Bold" Text="アメリカ合衆国国務省"/>
+      <TextBlock TextAlignment="Center" FontFamily="Times New Roman" FontSize="18" Text="ワシントンD.C. 20520"/>
+      <TextBlock TextAlignment="Right" Margin="0,15,0,0" Text="1985年8月28日"/>
+
+      <Grid Margin="0,15,0,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="200"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="覚書送付先："/>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="ロバート・C・マクファーレン大統領補佐官殿"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="ホワイトハウス"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="0,18,0,0" Text="発信者："/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="0,18,0,0" Text="ジョージ・P・シュルツ"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="0,18,0,0" Text="件名："/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="0,18,0,0" Text="インドネシアの参戦復帰"/>
+      </Grid>
+      <TextBlock TextWrapping="Wrap" FontSize="16">
+    <LineBreak/>
+    インドネシアは同盟側の積極的なパートナーとして戦争に復帰した。この決定は、8月26日のジャワ海における戦闘において、同盟軍の水上任務部隊がジャカルタ北方で行動していたソ連の主要な水上脅威を排除したことに伴うものである。スハルト大統領はジャカルタで再び公の場に姿を現し、インドネシア政府の統治権を回復しつつある。
+    <LineBreak/>
+    <LineBreak/>
+    敵によるパラワン島の占領は、同盟軍が西部太平洋全域で混乱していた隙を突いた大胆な作戦であった。中国人民解放軍（PLA）部隊は現在、フィリピン西部を通過する交通を脅かし、我々の南シナ海への進入を阻む前進拠点を保持している。
+    <LineBreak/>
+    <LineBreak/>
+    東南アジアでの戦力再集結の必要性は、7月上旬以降、同盟軍の柔軟性を低下させてきた。ワルシャワ条約機構軍（Pact）の攻撃的な行動により、我々は当初の計画には全く含まれていなかった戦区において、限られた輸送能力、燃料備蓄、そして弾薬の消費を強いられることとなった。
+    <LineBreak/>
+    <LineBreak/>
+    インドネシアが戦争に復帰したことで、米軍は北への移動を開始できる。次の攻勢局面は、パラワン島にある中国軍の要塞へと向けられる予定だ。マレーシアはパラワン作戦に向けた複数の同盟軍集結地の一つとして、北ボルネオのサンダカンを提供している。
+    <LineBreak/>
+    <LineBreak/>
+    同盟軍最高司令部は、実戦部隊に対し遅くとも1985年11月1日までにパラワン島を奪還するよう指示した。インドネシアに関しては、大統領が非公式にその決定を歓迎することを国務省として勧告する。公式声明においては地域の主権を強調すべきであり、ワシントンがジャカルタの参戦復帰を主導したかのような含みを持たせてはならない。
+    <LineBreak/>
+    <LineBreak/>
+    国連のルートからは、中央政府の権力が回復するにつれて、インドネシア国内、特に現地の中華系住民に対する人権侵害の事例が報告されている。しかし、戦略的な背景を考慮し、国務省はこの問題を戦後処理まで保留することを勧告する。
+      </TextBlock>
+
+      <TextBlock TextWrapping="Wrap" FontSize="16" LineHeight="26" Margin="0,34,0,0">
+        ジョージ・P・シュルツ
+    <LineBreak/>
+    <LineBreak/>
+    配付先：副大統領、国防長官、統合参謀本部議長
+    <LineBreak/>
+    <LineBreak/>
+    機密解除：OADR
+    </TextBlock>
+      <TextBlock TextAlignment="Center" Margin="0,22,0,0" FontWeight="Bold" Text="極秘"/>
+    </StackPanel>
+  </Border>
+</ScrollViewer>
